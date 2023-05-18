@@ -14,6 +14,9 @@ module.exports = {
   purge: false,
   theme: {
     extend: {
+      fontFamily: {
+        'ProductSans': 'Product Sans, Arial, sans-serif'
+      },
       maxWidth: {
         '1/2': '50%',
         '1/2vw': '50vw',

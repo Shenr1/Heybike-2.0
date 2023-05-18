@@ -3,7 +3,14 @@
 @tailwind utilities;
 
 @layer base {
+    :root{
+        --ft1:'Product Sans, Arial, sans-serif';
+        --ft2:'Product Sans, Arial, sans-serif';
+        --ft3:'Product Sans, Arial, sans-serif';
+    }
+
 }
 
 @layer components {
+    #header:not(.stickyHeader){@apply bg-transparent absolute w-full border-none}
 }

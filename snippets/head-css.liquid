@@ -55,15 +55,16 @@
 
 <style type="text/css">
   :root{
-    {% if settings.fonts == '1' %}
-        --ft1:{{settings.body_font.family}},{{settings.body_font.fallback_families}};
-        --ft2:{{settings.header_font.family | default:settings.body_font.family}},{{settings.header_font.fallback_families}};
-        --ft3:{{settings.font3.family | default:settings.body_font.family}},{{settings.font3.fallback_families}};
-    {% else %}
-        --ft1:'{{settings.gfont1 | strip}}';
-        --ft2:'{{settings.gfont2 | strip | default:settings.gfont1 | strip }}';
-        --ft3:'{{settings.gfont3 | strip | default:settings.gfont1 | strip}}';
-    {% endif %}
+
+        {% if settings.fonts == '1' %}
+            --ft1:{{settings.body_font.family}},{{settings.body_font.fallback_families}};
+            --ft2:{{settings.header_font.family | default:settings.body_font.family}},{{settings.header_font.fallback_families}};
+        {% elsif settings.fonts == '2' %}
+            --ft1:'{{settings.gfont1 | strip}}';
+            --ft2:'{{settings.gfont2 | strip | default:settings.gfont1 | strip }}';
+            --ft3:'{{settings.gfont3 | strip | default:settings.gfont1 | strip}}';
+        {% endif %}
+
 
     --site_gutter:15px;
     --grid_gutter:30px;

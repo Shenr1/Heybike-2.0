@@ -38,8 +38,13 @@
   {%- capture mainjs -%}
   	{%- render 'head-css', isRtl:isRtl -%}
   	<link rel="stylesheet" href="{% if isRtl %}{{ 'themeRtl.css' | asset_url }}{% else %}{{ 'theme.css' | asset_url }}{% endif %}" type="text/css" media="all">
+    {%  render 'external-fonts' %}
+    {{ 'custom.css' | asset_url | stylesheet_tag }}
+
     <script src="{{ 'lazysizes.js' | asset_url }}" async></script>
   	<script src="{{ 'jquery.min.js' | asset_url }}"defer="defer"></script>
+
+
 	<script>
 		var theme = {
 			strings:{
