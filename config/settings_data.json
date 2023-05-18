@@ -33,6 +33,7 @@
     "type_header_letter_space": 2,
     "color_text_field": "#fff",
     "field_bd": "#dddddd",
+    "btncase": "none",
     "btn_style": "flat",
     "color_button": "#000",
     "btn1_bd": "rgba(0,0,0,0)",
