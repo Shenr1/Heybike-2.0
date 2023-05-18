@@ -16,6 +16,7 @@
     "free_ship_msg": "Spent $ more for free shipping",
     "got_free_ship": "You have got <b>FREE SHIPPING<\/b>",
     "enable_birthdate": true,
+    "fonts": "2",
     "body_font": "poppins_n4",
     "header_font": "poppins_n4",
     "type_base_size": 13,
@@ -242,17 +243,15 @@
               "title": "Home",
               "url": "#",
               "newtab": false,
-              "mm_linklist": "demos",
+              "mm_linklist": "",
               "mmcolumns": 4,
               "imgcall": "bottom",
               "columnWidth": 50,
               "mmimgcolumns": 2,
               "imageTtl1": "",
               "imageurl": "",
-              "megamenu2_image": "shopify:\/\/shop_images\/1_225471fe-6c08-4029-bfb4-52e675c5eb1f.jpg",
               "imageTtl2": "",
               "Image2url": "https:\/\/avone-demo.myshopify.com\/?_ab=0&_fd=0&_sc=1&preview_theme_id=83490242620",
-              "megamenu3_image": "shopify:\/\/shop_images\/2_b8d4ebf6-934c-4431-abfe-aeb0109b5182.jpg",
               "imageTtl3": "",
               "Image3url": "https:\/\/avon-demo.myshopify.com\/?_ab=0&_fd=0&_sc=1&preview_theme_id=73322332227",
               "imageTtl4": "",
@@ -269,12 +268,11 @@
               "title": "Shop",
               "url": "#",
               "newtab": false,
-              "mm_linklist": "shop-1",
+              "mm_linklist": "",
               "mmcolumns": 4,
               "imgcall": "right",
               "columnWidth": 24,
               "mmimgcolumns": 1,
-              "megamenu1_image": "shopify:\/\/shop_images\/WOMXN.jpg",
               "imageTtl1": "FLAT 50% OFF ON WOMENS",
               "imageurl": "shopify:\/\/collections\/women",
               "imageTtl2": "",
@@ -295,7 +293,7 @@
               "title": "Features [label1]",
               "url": "#",
               "newtab": false,
-              "mm_linklist": "features",
+              "mm_linklist": "",
               "mmcolumns": 5,
               "imgcall": "right",
               "columnWidth": 50,
@@ -320,7 +318,7 @@
               "title": "<span style=\"color:#bf1616;\">NEW IN<\/span>",
               "url": "",
               "newtab": false,
-              "mm_linklist": "advance-menu",
+              "mm_linklist": "",
               "mmcolumns": 2,
               "collection1": "hot-collection",
               "collection2": "men",
@@ -346,7 +344,7 @@
             "settings": {
               "title": "Lookbook",
               "url": "",
-              "mm_linklist": "lookbook"
+              "mm_linklist": ""
             }
           },
           "1553256701490": {
@@ -354,7 +352,7 @@
             "settings": {
               "title": "Pages",
               "url": "",
-              "mm_linklist": "pages"
+              "mm_linklist": ""
             }
           },
           "1559992848977": {
@@ -362,7 +360,7 @@
             "settings": {
               "title": "Blog",
               "url": "#",
-              "mm_linklist": "blog"
+              "mm_linklist": ""
             }
           },
           "ff0e6f22-f740-4d49-9986-8cbc1de21b2e": {
@@ -370,7 +368,7 @@
             "settings": {
               "title": "Buy Now!",
               "url": "https:\/\/1.envato.market\/KdyYx",
-              "mm_linklist": "buy-now"
+              "mm_linklist": ""
             }
           }
         },
@@ -403,7 +401,6 @@
             "type": "custom",
             "settings": {
               "title": "",
-              "logo": "shopify:\/\/shop_images\/footer-logo.png",
               "logo-width": 100,
               "custom-text": "<p>55 Gallaxy Enque,<br>\n2568 steet, 23568 NY<\/p>\n<p><b>Phone:<\/b> (440) 000 000 0000<\/p>\n<p><b>Email:<\/b> <a href=\"mailto:sales@yousite.com\">sales@yousite.com<\/a><\/p><p><\/p>",
               "show_socials": true,
@@ -416,7 +413,7 @@
             "type": "menu",
             "settings": {
               "title": "INFORMATION",
-              "menulinks": "information",
+              "menulinks": "",
               "width": "wd20-md"
             }
           },
@@ -424,7 +421,7 @@
             "type": "menu",
             "settings": {
               "title": "QUICK SHOP",
-              "menulinks": "quick-shop",
+              "menulinks": "",
               "width": "wd20-md"
             }
           },
@@ -432,7 +429,7 @@
             "type": "menu",
             "settings": {
               "title": "CUSTOMER SERVICES",
-              "menulinks": "customer-service",
+              "menulinks": "",
               "width": "wd20-md"
             }
           },
@@ -477,7 +474,6 @@
               "color2": "#00646c",
               "title3": "White\/Black",
               "color3": "",
-              "image3": "shopify:\/\/shop_images\/White-Black_501ba5c3-86d5-4f37-99ea-a6671b3c4ea3.jpg",
               "title4": "Sage",
               "color4": "#8da29a",
               "title5": "Olive Green",
@@ -490,13 +486,10 @@
               "color8": "#df974d",
               "title9": "Black\/Pink",
               "color9": "",
-              "image9": "shopify:\/\/shop_images\/pink-black.jpg",
               "title10": "Black\/Grey",
               "color10": "",
-              "image10": "shopify:\/\/shop_images\/grey-black.jpg",
               "title11": "Blue\/Red",
               "color11": "",
-              "image11": "shopify:\/\/shop_images\/blue-red.jpg",
               "title12": "",
               "color12": "",
               "title13": "",
