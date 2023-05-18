@@ -1,0 +1,263 @@
+{
+  "sections": {
+    "product": {
+      "type": "product-template",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "cl": "#000000",
+            "fs": 22,
+            "fsm": 18,
+            "ff": "ft2",
+            "fw": "600",
+            "transform": "tt-c",
+            "bm": 15
+          }
+        },
+        "3794d304-5ede-42ea-872e-bc1da0adbb2c": {
+          "type": "ras",
+          "settings": {
+            "availability": true,
+            "sku": true,
+            "bm": 20
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "pcl": "#000000",
+            "pcls": "#e95144",
+            "fs": 25,
+            "fsm": 18,
+            "pfw": "600",
+            "saved": true,
+            "taxship": true,
+            "bm": 20
+          }
+        },
+        "a2aade4c-547b-4aba-aacc-5d7c2f763857": {
+          "type": "countdown",
+          "settings": {
+            "lbl": "Hurry up! Sales End In",
+            "lcl": "#000000",
+            "cl": "#060101",
+            "bg": "#f5f5f5",
+            "bd": "#dddddd",
+            "bdr": 33,
+            "bm": 20
+          }
+        },
+        "680b2e1a-82d6-4aad-9a5b-3344aae6a5aa": {
+          "type": "qty",
+          "settings": {
+            "maxqty": 20,
+            "cl": "#ffffff",
+            "bg": "#f67280",
+            "bm": 20
+          }
+        },
+        "43d9e0cf-f5b3-4270-bd73-3845bf580da3": {
+          "type": "more-color",
+          "settings": {
+            "title": "More colors",
+            "cl": "#000000",
+            "fs": 16,
+            "fsm": 16,
+            "fw": "600",
+            "wd": 100,
+            "bd": "#000000",
+            "bm": 15
+          }
+        },
+        "product-form": {
+          "type": "cta",
+          "settings": {
+            "qty_sel": true,
+            "bm": 30
+          }
+        },
+        "d33de9c7-9498-4084-8045-ea7cb7cec34e": {
+          "type": "freeship",
+          "settings": {
+            "bm": 15
+          }
+        },
+        "7da62210-79f5-40cd-88d9-008adfa782ab": {
+          "type": "shiptime",
+          "settings": {
+            "estimate": "4\/10",
+            "msg": "<i class=\"at at-clock-r\"><\/i> Estimated delivery between [startdate] - [enddate].",
+            "bm": 25
+          }
+        },
+        "3e5ff436-8638-45b7-a3ce-b36263b34395": {
+          "type": "img",
+          "settings": {
+            "pimg": "shopify:\/\/shop_images\/checkout.png",
+            "pimg_url": "",
+            "img_align": false,
+            "bm": 20
+          }
+        },
+        "9cbdef45-9088-401c-90c8-c807e38f6cd5": {
+          "type": "complementary",
+          "settings": {
+            "title": "COMPLETE THE LOOK",
+            "cl": "#000000",
+            "fs": 15,
+            "fsm": 14,
+            "fw": "600",
+            "limit": 10,
+            "grid": 4,
+            "gridtb": 3,
+            "gridmb": 2,
+            "bm": 15
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "3794d304-5ede-42ea-872e-bc1da0adbb2c",
+        "price",
+        "a2aade4c-547b-4aba-aacc-5d7c2f763857",
+        "680b2e1a-82d6-4aad-9a5b-3344aae6a5aa",
+        "43d9e0cf-f5b3-4270-bd73-3845bf580da3",
+        "product-form",
+        "d33de9c7-9498-4084-8045-ea7cb7cec34e",
+        "7da62210-79f5-40cd-88d9-008adfa782ab",
+        "3e5ff436-8638-45b7-a3ce-b36263b34395",
+        "9cbdef45-9088-401c-90c8-c807e38f6cd5"
+      ],
+      "settings": {
+        "section_width": false
+      }
+    },
+    "upsell": {
+      "type": "upsell-bundle",
+      "settings": {
+        "title": "Frequently Bought Together",
+        "subtitle": "",
+        "top-offeset": "default",
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "hidem": false
+      }
+    },
+    "tabs": {
+      "type": "product-tabs",
+      "blocks": {
+        "descriptions": {
+          "type": "desc",
+          "settings": {
+            "title": "PRODUCT DETAILS"
+          }
+        },
+        "review": {
+          "type": "review",
+          "settings": {
+            "title": "REVIEWS",
+            "otherapp": ""
+          }
+        },
+        "0ffa6649-39c4-4d0d-a030-0b83e8ea10b2": {
+          "type": "schart",
+          "settings": {
+            "title": "SIZE & FIT"
+          }
+        },
+        "ca4b9cc3-1de5-4957-9152-20d832cd0b41": {
+          "type": "custom",
+          "settings": {
+            "title": "SHIPPING & RETURNS",
+            "content": "<h4>Returns Policy<\/h4>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eros justo, accumsan non dui sit amet. Phasellus semper volutpat mi sed imperdiet. Ut odio lectus, vulputate non ex non, mattis sollicitudin purus. Mauris consequat justo a enim interdum, in consequat dolor accumsan. Nulla iaculis diam purus, ut vehicula leo efficitur at.<\/p>\n<p><br>Interdum et malesuada fames ac ante ipsum primis in faucibus. In blandit nunc enim, sit amet pharetra erat aliquet ac.<\/p>\n\n<h4>Shipping<\/h4>\n<p>Pellentesque ultrices ut sem sit amet lacinia. Sed nisi dui, ultrices ut turpis pulvinar. Sed fringilla ex eget lorem consectetur, consectetur blandit lacus varius. Duis vel scelerisque elit, et vestibulum metus. Integer sit amet tincidunt tortor. Ut lacinia ullamcorper massa, a fermentum arcu vehicula ut. Ut efficitur faucibus dui Nullam tristique dolor eget turpis consequat varius. Quisque a interdum augue. Nam ut nibh mauris.<\/p>"
+          }
+        },
+        "9946dcbc-20e7-49f8-b126-4356456b2dab": {
+          "type": "custom",
+          "settings": {
+            "title": "CUSTOM TAB",
+            "content": "Set different tabs for each products."
+          }
+        }
+      },
+      "block_order": [
+        "descriptions",
+        "review",
+        "0ffa6649-39c4-4d0d-a030-0b83e8ea10b2",
+        "ca4b9cc3-1de5-4957-9152-20d832cd0b41",
+        "9946dcbc-20e7-49f8-b126-4356456b2dab"
+      ],
+      "settings": {
+        "section_width": false,
+        "tab_style": "1",
+        "tab_align": "left",
+        "tfs": 13,
+        "tff": "ft2",
+        "tfw": "500",
+        "cl": "#111111",
+        "tbg": "#f5f5f5",
+        "cla": "#111111",
+        "tbga": "#ffffff",
+        "bdr": "#dddddd",
+        "bdra": "#ffffff",
+        "bbrd": 0,
+        "clm": "#000000",
+        "tbgm": "#eeeeee",
+        "clam": "#eeeeee",
+        "tbgam": "#000000",
+        "bdrm": "#ffffff",
+        "bdram": "#eeeeee"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "title": "Related Products",
+        "subtitle": "",
+        "type": "1",
+        "grid": 4,
+        "tablet-grid": 3,
+        "mobile-grid": 2,
+        "row": "5",
+        "autoplay": true,
+        "speed": 5
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "title": "Recommended Products",
+        "subtitle": "",
+        "grid": 4,
+        "tablet-grid": 3,
+        "mobile-grid": 2,
+        "limit": "5",
+        "autoplay": false,
+        "speed": 5
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "title": "Recently Viewed Products",
+        "subtitle": "",
+        "grid": 4,
+        "tablet-grid": 3,
+        "mobile-grid": 2,
+        "recently_pr_limit": "5",
+        "autoplay": false,
+        "speed": 5
+      }
+    }
+  },
+  "order": [
+    "product",
+    "upsell",
+    "tabs",
+    "related-products",
+    "recommendations",
+    "recently-viewed"
+  ]
+}

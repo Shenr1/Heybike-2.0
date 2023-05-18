@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "brands": {
+      "type": "brand-list",
+      "settings": {
+        "section_width": false,
+        "width": 1200,
+        "hide_ttl": false,
+        "breadcrumb": false,
+        "alphaList": true,
+        "navigation": true
+      }
+    }
+  },
+  "order": [
+    "brands"
+  ]
+}
