@@ -73,6 +73,7 @@
     "subnav_color_shade": "darken",
     "sidebar_title": 15,
     "h_weight": "600",
+    "h_case": "none",
     "sidebar_links_hv": "#f77575",
     "footer_top_bg": "#fafafa",
     "footer_title": "#000",
