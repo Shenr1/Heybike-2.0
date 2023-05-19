@@ -143,6 +143,13 @@
   width:100%;
   border-style:none;
   background-color:transparent;
+  --tw-text-opacity:1;
+  color:rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+#header:not(.stickyHeader) #siteNav>li>a,#header:not(.stickyHeader) .site-header a.hdicon{
+  --tw-text-opacity:1;
+  color:rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .visible{

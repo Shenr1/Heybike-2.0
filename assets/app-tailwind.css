@@ -12,5 +12,6 @@
 }
 
 @layer components {
-    #header:not(.stickyHeader){@apply bg-transparent absolute w-full border-none}
+    #header:not(.stickyHeader){@apply text-white bg-transparent absolute w-full border-none}
+    #header:not(.stickyHeader) #siteNav>li>a,#header:not(.stickyHeader) .site-header a.hdicon{@apply text-white}
 }

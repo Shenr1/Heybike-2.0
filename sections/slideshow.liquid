@@ -57,7 +57,8 @@
                         if blkSt.imagem != blank and blkSt.imagem.presentation.focal_point != blank
                            assign img2Pos = blkSt.imagem.presentation.focal_point
                         endif
-                    %}
+                    %} 
+                    {% comment %} 本地破图处理 {% endcomment %}
                     <div class="sslide of_hidden{% if section.settings.ht == '1' %} im{% else %} ct{% endif %} sl{{ block.id }}" data-type="{{block.type}}" {% if block.type == 'video' %} data-video="{{videotype}}"{% endif %} {{ block.shopify_attributes }}>
                         {% if blkSt.display_btn != true and blkSt.link != blank and block.type != 'video' %}<a href="{{ blkSt.link }}" class="ss_link" {% if blkSt.btn1window %} target="_blank" {% endif %}>{% endif %}
                         {% if block.type == 'image' and blkSt.image != blank %}
