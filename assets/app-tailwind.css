@@ -4,14 +4,14 @@
 
 @layer base {
     :root{
-        --ft1:'Product Sans, Arial, sans-serif';
-        --ft2:'Product Sans, Arial, sans-serif';
-        --ft3:'Product Sans, Arial, sans-serif';
+        --ft1:'Product Sans';
+        --ft2:'Product Sans';
+        --ft3:'Product Sans';
     }
-
 }
 
 @layer components {
-    #header:not(.stickyHeader){@apply text-white bg-transparent absolute w-full border-none}
-    #header:not(.stickyHeader) #siteNav>li>a,#header:not(.stickyHeader) .site-header a.hdicon{@apply text-white}
+    .btn-featured{@apply font-normal rounded-full bg-gradient-to-b from-[#00bef9] to-[#015fea] border-none  hover:text-white hover:-translate-y-1 hover:opacity-90 hover:scale-95}
+    .template-index #header:not(.stickyHeader){@apply text-white bg-transparent absolute w-full border-none}
+    .template-index #header:not(.stickyHeader) #siteNav>li>a,#header:not(.stickyHeader) .site-header a.hdicon{@apply text-white}
 }

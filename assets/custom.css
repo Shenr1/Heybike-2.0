@@ -1,7 +1,7 @@
 :root{
-  --ft1:'Product Sans, Arial, sans-serif';
-  --ft2:'Product Sans, Arial, sans-serif';
-  --ft3:'Product Sans, Arial, sans-serif';
+  --ft1:'Product Sans';
+  --ft2:'Product Sans';
+  --ft3:'Product Sans';
 }
 
 *, ::before, ::after{
@@ -138,7 +138,28 @@
   }
 }
 
-#header:not(.stickyHeader){
+.btn-featured{
+  border-radius:9999px;
+  border-style:none;
+  background-image:linear-gradient(to bottom, var(--tw-gradient-stops));
+  --tw-gradient-from:#00bef9 var(--tw-gradient-from-position);
+  --tw-gradient-to:rgb(0 190 249 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to:#015fea var(--tw-gradient-to-position);
+  font-weight:400;
+}
+
+.btn-featured:hover{
+  --tw-translate-y:-0.25rem;
+  --tw-scale-x:.95;
+  --tw-scale-y:.95;
+  transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-text-opacity:1;
+  color:rgb(255 255 255 / var(--tw-text-opacity));
+  opacity:0.9;
+}
+
+.template-index #header:not(.stickyHeader){
   position:absolute;
   width:100%;
   border-style:none;
@@ -147,7 +168,7 @@
   color:rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-#header:not(.stickyHeader) #siteNav>li>a,#header:not(.stickyHeader) .site-header a.hdicon{
+.template-index #header:not(.stickyHeader) #siteNav>li>a,#header:not(.stickyHeader) .site-header a.hdicon{
   --tw-text-opacity:1;
   color:rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -166,6 +187,14 @@
 
 .relative{
   position:relative;
+}
+
+.mb-7{
+  margin-bottom:1.75rem;
+}
+
+.mt-14{
+  margin-top:3.5rem;
 }
 
 .block{
@@ -214,8 +243,28 @@
   border-radius:0.25rem;
 }
 
+.py-3{
+  padding-top:0.75rem;
+  padding-bottom:0.75rem;
+}
+
+.\!py-3{
+  padding-top:0.75rem !important;
+  padding-bottom:0.75rem !important;
+}
+
+.\!px-7{
+  padding-left:1.75rem !important;
+  padding-right:1.75rem !important;
+}
+
 .text-left{
   text-align:left;
+}
+
+.\!text-lg{
+  font-size:1.125rem !important;
+  line-height:1.75rem !important;
 }
 
 .capitalize{
