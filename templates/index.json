@@ -6,8 +6,7 @@
         "1561726660568-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dome1-bnr1.jpg",
-            "imagem": "shopify:\/\/shop_images\/default-mb-bnr1.jpg",
+            "image": "shopify:\/\/shop_images\/banner-600.webp",
             "ialign": "center_center",
             "hd1": "START A FREE TRIAL AND ENJOY",
             "pcl": "#000000",
@@ -34,8 +33,6 @@
         "1561726660568-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dome1-bnr2.jpg",
-            "imagem": "shopify:\/\/shop_images\/default-mb-bnr2.jpg",
             "ialign": "center_center",
             "hd1": "",
             "pcl": "#000000",
@@ -123,7 +120,6 @@
           "settings": {
             "collection": "women",
             "url": "",
-            "collection_image": "shopify:\/\/shop_images\/womens-top.jpg",
             "collection_name": "WOMEN TOPS",
             "collection_name2": "From world's top designer",
             "talign": "tc",
@@ -137,7 +133,6 @@
           "settings": {
             "collection": "men-shoes",
             "url": "",
-            "collection_image": "shopify:\/\/shop_images\/men-clothing.jpg",
             "collection_name": "MEN SHIRTS",
             "collection_name2": "Up to 70% off on selected item",
             "talign": "tc",
@@ -151,7 +146,6 @@
           "settings": {
             "collection": "hot-collection",
             "url": "",
-            "collection_image": "shopify:\/\/shop_images\/denim_9fbab35d-066b-4f9e-accb-96416f6594fd.jpg",
             "collection_name": "DENIM",
             "collection_name2": "Find your perfect outfit",
             "talign": "tc",
@@ -165,7 +159,6 @@
           "settings": {
             "collection": "accssories",
             "url": "",
-            "collection_image": "shopify:\/\/shop_images\/accesories.jpg",
             "collection_name": "ACCESSORIES",
             "collection_name2": "add finishing touch to your outfit",
             "talign": "tc",
@@ -251,7 +244,6 @@
           "settings": {
             "collection": "women",
             "url": "",
-            "collection_image": "shopify:\/\/shop_images\/best-collections.jpg",
             "collection_name": "FIND THE BEST COLLECTION AROUND THE WORLD",
             "collection_name2": "",
             "talign": "tc",
@@ -265,7 +257,6 @@
           "settings": {
             "collection": "women-fashion",
             "url": "",
-            "collection_image": "shopify:\/\/shop_images\/awesome-tops.jpg",
             "collection_name": "AWESOME T-SHIRTS, CROP TOPS AND MORE...",
             "collection_name2": "",
             "talign": "tc",
@@ -319,7 +310,6 @@
         "1561785365595-0": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_0c0397a5-2ba0-4637-a9f6-86e68b3d6289.png",
             "link": "https:\/\/1.envato.market\/x5PKR",
             "opentab": true
           }
@@ -327,7 +317,6 @@
         "1561785365595-1": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_6bea7f1e-dc0a-446d-9714-c15ac0eaab06.png",
             "link": "https:\/\/1.envato.market\/Der4n",
             "opentab": true
           }
@@ -335,7 +324,6 @@
         "1561785365595-2": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4.png",
             "link": "",
             "opentab": false
           }
@@ -351,7 +339,6 @@
         "1561785365595-3": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2.png",
             "link": "",
             "opentab": false
           }
