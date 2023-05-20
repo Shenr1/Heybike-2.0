@@ -437,8 +437,8 @@
           "1561010652330": {
             "type": "menu",
             "settings": {
-              "title": "CUSTOMER SERVICES",
-              "menulinks": "",
+              "title": "BEFORE YOU BUY",
+              "menulinks": "about-us",
               "width": "wd20-md"
             }
           },
