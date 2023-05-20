@@ -1,0 +1,97 @@
+{%- assign secSt = section.settings -%}
+
+<section section-name="products-slider-full" class="pt-18 relative" style="background-image: linear-gradient({{secSt.bg_color}}, #fff);">
+  <div class="page-width text-center mb-13">
+    <h1 class="text-4_5xl">{{section.settings.title}}</h1> 
+  </div>
+
+  <div class="relative">
+    <div class="absolute opacity-60 top-8 left-1/2 -translate-x-1/2 lg:w-[33vw] lg:h-[33vw] w-1/2 h-1/2 rounded-full shadow-[0px -10px 5px 3px #ededed] bg-gradient-to-b via-white from-white to-transparent"></div>
+    <div class="relative" 
+    data-flickity='{"wrapAround": "true" , "arrowShape":"M 10,50 L 20,50 L 20,0 L 30,0 Z"}'>
+      {% for block in section.blocks %}
+      <div class="page-width mr-4 opacity-30 transition-opacity duration-700 delay-300" >
+        {%- assign product = block.settings.product -%}
+        {% if product.title.size > 0 %}
+        <div tag-name="product-info" class="absolute left-4 top-4 opacity-0 transition-opacity duration-300 delay-700 w-full z-20">
+          <div>
+            <h2 class="text-3_5xl mb-1">{{ product.title }}</h2>
+            <p class="text-1_5xl mb-12 text-black-600">Aviation grade magnesium alloy</p>
+            <div class="flex items-center">
+              <a href="{{ product.url }}" class="btn text-base py-1 px-5"> {{ section.settings.btn_Text }} </a>
+              <p class="text-xl ml-4 font-medium">{{ product.price | money}}</p>
+            </div>
+          </div>
+          
+          <div class="absolute right-4 top-4"> {{ block.settings.tags_image | image_url: width: 90 | image_tag: loading: 'lazy' }} </div>
+
+        </div>
+          {% if block.settings.product_image %}
+          <div class='scale-90 transition-all duration-700 delay-300 z' tag-name="product-img">{{ block.settings.product_image | image_url: width: 1000 | image_tag: width: nil, loading: 'lazy' }}</div>
+          {% else %}
+          <div class='scale-90 transition-all duration-700 delay-300' tag-name="product-img">{{ product.featured_image | image_url: width: 1000 | image_tag: width: nil, loading: 'lazy' }}</div>
+          {% endif %}
+        
+        {% endif %}
+      </div>
+
+      {% endfor %}
+    </div>
+  </div>
+</section>  
+
+
+{% schema %}
+  {
+    "name": "Full screen slider v2",
+    "tag": "section",
+    "settings": [	
+ 		  {
+        "type": "text",
+        "id": "title",
+        "label": "Title"			
+      },
+ 		  {
+        "type": "text",
+        "id": "btn_Text",
+        "label": "Button Text",
+        "default": "Order now"			
+      },
+ 		  {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background color",
+        "default": "#f3f5f9" 
+      }
+    ],
+    "blocks":[
+      {
+        "name": "Slide",
+        "type": "slide",
+        "settings": [
+          {
+            "type": "product",
+            "id": "product",
+            "label": "Select Product"
+          },
+          {
+            "type": "image_picker",
+            "id": "product_image",
+            "label": "Select product image (default use product first image)"
+          },
+          {
+            "type": "image_picker",
+            "id": "tags_image",
+            "label": "Select product tags"
+          }
+        ]
+      }
+    ],
+    "presets": [
+        {
+          "name": "Full screen slider  v2",
+          "category": "Heybike uk v2"
+        }
+      ]
+  }
+{% endschema %} 

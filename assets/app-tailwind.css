@@ -1,3 +1,9 @@
+
+/* 动态生成的类名 */
+[section-name = 'products-slider-full'] .flickity-slider .is-selected{@apply opacity-100}
+[section-name = 'products-slider-full'] .flickity-slider .is-selected [tag-name = 'product-info']{@apply opacity-100}
+[section-name = 'products-slider-full'] .flickity-slider .is-selected [tag-name = 'product-img']{@apply scale-100}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,6 +14,7 @@
         --ft2:'Product Sans';
         --ft3:'Product Sans';
     }
+    
 }
 
 @layer components {

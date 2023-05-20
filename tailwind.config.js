@@ -14,6 +14,19 @@ module.exports = {
   purge: false,
   theme: {
     extend: {
+      fontSize: {
+        '4_5xl': ['2.5rem','3rem'],
+        '3_5xl': ['2rem','2.5rem'],
+        '1_5xl': ['1.375rem','1.875rem']
+      },
+      margin: {
+        '18': '4.5rem',
+        '13': '3.25rem'
+      },
+      padding: {
+        '18': '4.5rem',
+        '13': '3.25rem'
+      },
       fontFamily: {
         'ProductSans': 'Product Sans, Arial, sans-serif'
       },
@@ -32,7 +45,18 @@ module.exports = {
           light: '#dbdbda',
           DEFAULT: '#dbdbda',
           dark: '#dbdbda',
-        }
+        },
+        black: {
+          100: '#ffffff',
+          200: '#eeeeee',
+          300: '#cccccc',
+          400: '#aaaaaa',
+          500: '#888888',
+          600: '#666666',
+          700: '#444444',
+          800: '#222222',
+          900: '#000000',
+        },
       }
     },
   },
