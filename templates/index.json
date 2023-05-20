@@ -414,8 +414,8 @@
           "type": "text_block",
           "settings": {
             "icons": "at-reply-all",
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to display your store information<\/p>",
+            "title": "30-Day Trial",
+            "text": "<p>Buy with Confidence<\/p>",
             "texturl": ""
           }
         },
