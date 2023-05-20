@@ -418,14 +418,6 @@
               "width": "wd20-md"
             }
           },
-          "1558678570770": {
-            "type": "menu",
-            "settings": {
-              "title": "INFORMATION",
-              "menulinks": "",
-              "width": "wd20-md"
-            }
-          },
           "1558678581777": {
             "type": "menu",
             "settings": {
@@ -439,6 +431,14 @@
             "settings": {
               "title": "BEFORE YOU BUY",
               "menulinks": "about-us",
+              "width": "wd20-md"
+            }
+          },
+          "1558678570770": {
+            "type": "menu",
+            "settings": {
+              "title": "GET HELP",
+              "menulinks": "service",
               "width": "wd20-md"
             }
           },
@@ -456,9 +456,9 @@
         },
         "block_order": [
           "1561010286273",
-          "1558678570770",
           "1558678581777",
           "1561010652330",
+          "1558678570770",
           "1561010492149"
         ],
         "settings": {
