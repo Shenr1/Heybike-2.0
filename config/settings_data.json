@@ -277,8 +277,8 @@
           "1560070247268": {
             "type": "megamenu1",
             "settings": {
-              "title": "Shop",
-              "url": "#",
+              "title": "Accessories",
+              "url": "shopify:\/\/collections\/accessories",
               "newtab": false,
               "mm_linklist": "",
               "mmcolumns": 4,
