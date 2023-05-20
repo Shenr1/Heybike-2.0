@@ -429,8 +429,8 @@
           "1558678581777": {
             "type": "menu",
             "settings": {
-              "title": "QUICK SHOP",
-              "menulinks": "",
+              "title": "PROEUCTS",
+              "menulinks": "products",
               "width": "wd20-md"
             }
           },
