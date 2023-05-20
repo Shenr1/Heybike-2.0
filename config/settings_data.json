@@ -252,8 +252,8 @@
           "1545200462991": {
             "type": "megamenu1",
             "settings": {
-              "title": "Home",
-              "url": "#",
+              "title": "E-Bikes",
+              "url": "shopify:\/\/collections\/electric-bike",
               "newtab": false,
               "mm_linklist": "",
               "mmcolumns": 4,
