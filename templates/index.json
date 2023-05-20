@@ -9,12 +9,12 @@
             "image": "shopify:\/\/shop_images\/banner-600.webp",
             "ialign": "center_center",
             "hd1": "START A FREE TRIAL AND ENJOY",
-            "pcl": "#000000",
+            "pcl": "#fff",
             "title": "<b> 3 months of Shopify<br> for $1\/month<\/b>",
-            "tcl": "#000000",
+            "tcl": "#fff",
             "hd3": "Creative, Flexible and High Performance shopify theme!",
             "hideh3": true,
-            "cl": "#000000",
+            "cl": "#fff",
             "btn": "Shop Now",
             "link": "https:\/\/shopify.pxf.io\/qn6kKy",
             "btn1window": true,
@@ -32,6 +32,7 @@
         },
         "1561726660568-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "ialign": "center_center",
             "hd1": "",
