@@ -295,7 +295,7 @@
             "image": "shopify:\/\/shop_images\/2_200x_f66b3247-c485-42f3-b661-f3df86dad90b.png",
             "icons": "at-ship-fast",
             "title": "Fast Shipping",
-            "text": "<p>Free shippinShips to 48 States & Canadag on all US orders<\/p>",
+            "text": "<p>Any cases raised by you are carefully tracked until full resolution and satisfaction.<\/p>",
             "texturl": ""
           }
         },
@@ -305,7 +305,7 @@
             "image": "shopify:\/\/shop_images\/3_200x_27ac67d4-98a6-4165-ae9d-f3c25601b00b.png",
             "icons": "at-phone-24",
             "title": "Fast Support",
-            "text": "<p>Email & Phone Service<\/p>",
+            "text": "<p>Any cases raised by you are carefully tracked until full resolution and satisfaction.<\/p>",
             "texturl": ""
           }
         },
@@ -315,7 +315,7 @@
             "image": "shopify:\/\/shop_images\/1_200x_dc00fca6-aa97-4035-bd8b-4eab3aee6f0d.png",
             "icons": "at-map-marker-al",
             "title": "Find a Dealer",
-            "text": "<p>Book a Free Test Ride<\/p>",
+            "text": "<p>Any cases raised by you are carefully tracked until full resolution and satisfaction.<\/p>",
             "texturl": ""
           }
         }
@@ -330,7 +330,7 @@
       ],
       "settings": {
         "top_padding": "large",
-        "bottom_padding": "large",
+        "bottom_padding": "extraLarge",
         "top-offeset": "none",
         "section_style": "heybike",
         "section_width": false,
