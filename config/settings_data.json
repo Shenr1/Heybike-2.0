@@ -347,6 +347,14 @@
               "url": "https:\/\/1.envato.market\/KdyYx",
               "mm_linklist": ""
             }
+          },
+          "23b6094a-ec02-4808-bac4-8dbb5fed7f32": {
+            "type": "dropdown",
+            "settings": {
+              "title": "Support",
+              "url": "",
+              "mm_linklist": "support"
+            }
           }
         },
         "block_order": [
@@ -355,7 +363,8 @@
           "1560145007901",
           "1559988240897",
           "1559992848977",
-          "ff0e6f22-f740-4d49-9986-8cbc1de21b2e"
+          "ff0e6f22-f740-4d49-9986-8cbc1de21b2e",
+          "23b6094a-ec02-4808-bac4-8dbb5fed7f32"
         ],
         "settings": {
           "menuarrow": false,
