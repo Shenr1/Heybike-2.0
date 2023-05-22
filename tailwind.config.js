@@ -35,6 +35,9 @@ module.exports = {
         '1/2vw': '50vw',
         'page': '1320px'
       },
+      borderRadius: {
+        'section': '3rem'
+      },
       colors: {
         vi: {
           light: '#F6BE00',

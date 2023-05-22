@@ -1,0 +1,153 @@
+{%- assign secSt = section.settings -%}
+
+<section section-name="data-statistics" class="{% render 'section-interva-set' , secSt:secSt %}" >
+
+  <div class="page-width px-4">
+    <div class="rounded-section flex justify-between" style="background-color: {{ secSt.bg_color }};">
+      <div class="pt-12 px-12 w-[62%]">
+        <h1 class="text-[2.625rem] pb-9 border-0 border-b-2 border-solid border-black-300 mb-0 relative
+        after:content-[''] after:h-[2px] after:w-1/4 after:bg-black-900 after:block after:absolute after:-bottom-[2px]">{{ secSt.title }}</h1>
+        <div class="mt-10 flex flex-wrap">
+          {% for block in section.blocks %}
+          <div class="w-1/2 mb-10">
+            <div class="flex items-end font-medium">
+              <p class="text-4xl mb-0">{{block.settings.text_main}}</p>
+              <p class="text-[1.25rem] ml-2">{{block.settings.text_suf}}</p>
+            </div>
+            <p class="text-lg">{{block.settings.text_sub}}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="border-0 border-l-[.5rem] border-solid border-white w-[38%]">
+        <img class="h-full object-cover block" src="{{ secSt.image | image_url: master }}">
+      </div>
+    </div>
+  </div>
+
+</section>  
+
+{% schema %}
+  {
+    "name": "Data statistics v2",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Section interval set"
+      },
+      {
+        "type": "select",
+        "id": "top_padding",
+        "label": "top interval",
+        "default": "none",
+        "options": [
+          {
+            "value": "extraLarge",
+            "label": "Extra Large"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding",
+        "label": "bottom interval",
+        "default": "large",
+        "options": [
+          {
+            "value": "extraLarge",
+            "label": "Extra Large"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Default set"
+      },
+ 		  {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background color"
+      },
+ 		  {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+ 		  {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Right image"
+      }
+    ],
+    "blocks":[
+      {
+        "name": "Slide",
+        "type": "slide",
+        "settings": [
+          {
+            "type": "text",
+            "id": "text_main",
+            "label": "Main content"
+          },
+          {
+            "type": "text",
+            "id": "text_suf",
+            "label": "suffix \ Unit"
+          },
+          {
+            "type": "text",
+            "id": "text_sub",
+            "label":"Secondary content"
+          }
+        ]
+      }
+    ],
+    "presets": [
+        {
+          "name": "Data statistics v2",
+          "category": "Heybike v2"
+        }
+      ]
+  }
+{% endschema %} 

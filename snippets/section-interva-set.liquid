@@ -1,0 +1,2 @@
+{% capture sectionInterval %} {% case secSt.top_padding %} {% when 'extraLarge' %} pt-24 {% when 'large' %} pt-18 {% when 'default' %} pt-9 {% when 'medium' %} pt-6 {% when 'small' %} pt-2 {% when 'none' %} pt-0 {% endcase %} {% case secSt.bottom_padding %} {% when 'extraLarge' %} pb-24{% when 'large' %} pb-18 {% when 'default' %} pb-9 {% when 'medium' %} pb-6 {% when 'small' %} pb-2 {% when 'none' %} pb-0 {% endcase %} {% endcapture %}
+{{ sectionInterval | strip | remove: "  " | remove: "	"}}

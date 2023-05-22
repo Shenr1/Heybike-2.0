@@ -1,0 +1,137 @@
+{%- assign secSt = section.settings -%}
+
+<section section-name="logo-slider" class="{% render 'section-interva-set' , secSt:secSt %}" >
+
+  <div class="page-width px-4">
+    <div class="rounded-section bg-no-repeat py-20" style="background-image: url({{ secSt.bg_img | image_url:master}});">
+      <div class="w-3/5 mx-auto">
+        <div id="carousel-main-{{section.id}}" 
+          data-flickity='{"pageDots": false, "fade": true, "draggable": false,"prevNextButtons": false}'>
+          {% for block in section.blocks %}
+          <div class="mb-20 text-center text-white">
+            <p class="mb-8 text-3xl font-bold">{{block.settings.text_main}}</p>
+            <p class="text-lg">{{block.settings.text_sub}}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div data-flickity='{"draggable": false, "asNavFor": "#carousel-main-{{section.id}}", "contain": true, "pageDots": false, "wrapAround": true,"prevNextButtons": false }'>
+        {% for block in section.blocks %}
+        <div class="w-1/5 cursor-pointer text-center">
+          <img class="grayscale transition-all scale-90" src="{{ block.settings.logo_image | image_url: master }}">
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>  
+
+
+{% schema %}
+  {
+    "name": "Logo slider v2",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Section interval set"
+      },
+      {
+        "type": "select",
+        "id": "top_padding",
+        "label": "top interval",
+        "default": "large",
+        "options": [
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding",
+        "label": "bottom interval",
+        "default": "default",
+        "options": [
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Default set"
+      },
+ 		  {
+        "type": "image_picker",
+        "id": "bg_img",
+        "label": "Background image"
+      }
+    ],
+    "blocks":[
+      {
+        "name": "Slide",
+        "type": "slide",
+        "settings": [
+          {
+            "type": "text",
+            "id": "text_main",
+            "label": "Main content",
+            "default":"Grazie a una batteria facilmente estraibile, pneumatici più larghi e luce anteriore integrata."
+          },
+          {
+            "type": "text",
+            "id": "text_sub",
+            "label":"Secondary content",
+            "default":"- Largest moto-comtmunity in Italy"
+          },
+          {
+            "type": "image_picker",
+            "id": "logo_image",
+            "label": "Logo image"
+          }
+        ]
+      }
+    ],
+    "presets": [
+        {
+          "name": "Logo slider v2",
+          "category": "Heybike v2"
+        }
+      ]
+  }
+{% endschema %} 
