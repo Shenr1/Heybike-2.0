@@ -375,7 +375,7 @@
         {%- assign singlelabel = block.settings.title |  split: '[label' | last  | split: ']' | first | prepend: "nm_label" -%}
         <li class="lvl1">{{linkLevel1 | replace: '<i class="at at-plus-l"></i>',''}}</li>
         {%- endif -%}
-        {%- if block.type == 'megamenu1' or block.type == 'megamenu4' or block.type == 'megamenu5' or block.type == 'megamenu6' or block.type == 'dropdown' -%}
+        {%- if block.type == 'megamenu1' or block.type == 'megamenu4' or block.type == 'megamenu5' or block.type == 'megamenu6' or block.type == 'dropdown' or block.type == 'megamenuHb' -%}
         {%- if block.settings.title != blank -%}<li class="lvl1 parent megamenu">{{linkLevel1}}<ul>{% for link in linklists[block.settings.mm_linklist].links %}{% render 'mm-mobile-links', link:link %}{% endfor %}</ul></li>{%- endif -%}
         {%- endif -%}
         {%- if block.type == 'megamenu2' -%}
