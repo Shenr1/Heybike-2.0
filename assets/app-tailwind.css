@@ -7,9 +7,6 @@
 [section-name = 'logo-slider'] .flickity-slider .is-selected img{@apply grayscale-0 scale-100}
 [section-name = 'logo-slider'] .flickity-enabled.is-fade .flickity-slider>*{@apply duration-150 ease-linear}
 
-[section-name = 'store-features'] [tag-name = 'features-header'] .h3{@apply text-4_5xl mb-7}
-[section-name = 'store-features'] [tag-name = 'features-header'] p{@apply text-xl px-4}
-
 
 @tailwind base;
 @tailwind components;

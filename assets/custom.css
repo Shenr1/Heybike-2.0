@@ -27,19 +27,6 @@
   transition-timing-function:linear;
 }
 
-[section-name = 'store-features'] [tag-name = 'features-header'] .h3{
-  margin-bottom:1.75rem;
-  font-size:2.5rem;
-  line-height:3rem;
-}
-
-[section-name = 'store-features'] [tag-name = 'features-header'] p{
-  padding-left:1rem;
-  padding-right:1rem;
-  font-size:1.25rem;
-  line-height:1.75rem;
-}
-
 :root{
   --ft1:'Product Sans';
   --ft2:'Product Sans';
