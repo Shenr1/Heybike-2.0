@@ -1,6 +1,9 @@
 {%- assign secSt = section.settings -%}
+{% if secSt.section_style == 'heybike' %} {% assign hbStyle = true %} {% else %} {% assign hbStyle = false %} {% endif %}
+
 {%- capture featureRow -%}
-<div class="content-indent {{ secSt.top-offeset}}{% if secSt.section_cov %} section-cover{% endif%}" {% if secSt.section_cov %}style="background-color:{{secSt.sec_bg_clr}};"{% endif%}>
+<div class="content-indent {{ secSt.top-offeset}}{% if secSt.section_cov %} section-cover{% endif%}"
+ {% if secSt.section_cov %}style="background-color:{{secSt.sec_bg_clr}};"{% endif%}>
   <div class="{% unless secSt.section_width %} page-width{% endunless %}">
 
     {% for block in section.blocks limit: section.blocks.size %}
@@ -9,7 +12,7 @@
       {%- assign delay_time = 50 | times : box-delay -%}
 
       {%- capture image_layout -%}
-      <div class="fl1 imgCol wow{% if blkSt.layout == 'right' %} fadeInRight{% else %} fadeInLeft{% endif %}" data-wow-delay="{{delay_time}}ms">
+      <div class="{% unless hbStyle %}fl1{% endunless %}{% if hbStyle %}w-3/5{% endif %} imgCol wow{% if blkSt.layout == 'right' %} fadeInRight{% else %} fadeInLeft{% endif %}" data-wow-delay="{{delay_time}}ms">
         {% if blkSt.image != blank %}
           {%- assign img_url = blkSt.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
           <span class="imgWrapper" style="max-width:{{ blkSt.image.width }}px;">
@@ -22,15 +25,21 @@
       </div>
       {%- endcapture -%}
 
-      <div class="feature-row fl f-aic f-col f-row-md{% if secSt.snow_effect %} falling-snow{% if secSt.snow_style == "style2" %} style2 {% else %} style1{% endif %}{% endif %}" style="background-color:{{blkSt.bg}};">
+      <div class="feature-row {% render 'section-interva-set' , secSt:secSt %} fl f-aic f-col f-row-md{% if secSt.snow_effect %} falling-snow{% if secSt.snow_style == "style2" %} style2 {% else %} style1{% endif %}{% endif %}" style="background-color:{{blkSt.bg}};">
+       
+       
+        {% if hbStyle %}
+        <div class="page-width fl f-aic f-col f-row-md">
+        {% endif %}
+    
         {{ image_layout }}
-        <div class="fl1 feature-row__text {{ blkSt.layout }} wow{% if blkSt.layout == 'right' %} fadeInLeft{% else %} fadeInRight{% endif %}" data-wow-delay="{{delay_time}}ms">
-          <div class="row-text {{blkSt.text_align}}">
+        <div class="{% unless hbStyle %}fl1{% endunless %}{% if hbStyle %}w-2/5 mb-8{% endif %} feature-row__text {{ blkSt.layout }} wow{% if blkSt.layout == 'right' %} fadeInLeft{% else %} fadeInRight{% endif %}" data-wow-delay="{{delay_time}}ms">
+          <div class="row-text {{blkSt.text_align}} {% if hbStyle %}  !m-0 !p-0{% endif %}">
             {% if blkSt.title != blank %}
-              <h3 class="ttlTxt mb{{secSt.tmbm}} mb{{secSt.tmb}}-md" style="--tcl:{{blkSt.tcl}};--tfs:{{secSt.tfs}}px;--tfsm:{{secSt.tfsm}}px;--tff:var(--{{secSt.tff}});--tfw:{{secSt.tfw}};--tlh:{{secSt.tlh}};">{{ blkSt.title }}</h3>
+              <h3 class="{% if hbStyle %}text-4_5xl{% endif %} ttlTxt mb{{secSt.tmbm}} mb{{secSt.tmb}}-md" style="--tcl:{{blkSt.tcl}};--tfs:{{secSt.tfs}}px;--tfsm:{{secSt.tfsm}}px;--tff:var(--{{secSt.tff}});--tfw:{{secSt.tfw}};--tlh:{{secSt.tlh}};">{{ blkSt.title }}</h3>
             {% endif %}
             {% if blkSt.text != blank %}
-              <div class="rgTxt rte featured-row__subtext mb{{secSt.mbm}} mb{{secSt.mb}}-md" style="--cl:{{blkSt.cl}};--fs:{{secSt.fs}}px;--fsm:{{secSt.fsm}}px;--fw:{{secSt.fw}};--lh:{{secSt.lh}};">
+              <div class="{% if hbStyle %}text-xl{% endif %} rgTxt rte featured-row__subtext mb{{secSt.mbm}} mb{{secSt.mb}}-md" style="--cl:{{blkSt.cl}};--fs:{{secSt.fs}}px;--fsm:{{secSt.fsm}}px;--fw:{{secSt.fw}};--lh:{{secSt.lh}};">
                   {{ blkSt.text }}
               </div>
             {% endif %}
@@ -38,7 +47,17 @@
               <a href="{{ blkSt.button_link }}" class="btn {{secSt.btn-size-mob}} {{secSt.btn-size-desk}}" style="--cl:{{blkSt.btncl}};--bg:{{blkSt.btnbg}};--bd:{{blkSt.btnbd}};">{{ blkSt.button_label }}</a>
             {% endif %}
           </div>
+
+          {% if hbStyle %}
+              <div class="mt-20"> {{ blkSt.bottom_logo | image_url: height: 50 | image_tag: Height: 50, loading: 'lazy' }} </div>
+          {% endif %}
+
         </div>
+
+        {% if hbStyle %}
+        </div>
+        {% endif %}
+
       </div>
     {% endfor %}  
   </div>
@@ -49,28 +68,113 @@
   {
     "name": "Banner With Text",
     "class": "index-section image-with-text",
-    "settings": [	  	 
-	  {
-            "type": "select",
-            "id": "top-offeset",
-            "label": "Top OffSet",
-            "default": "default",
-            "options": [
-              {
-                "value": "default",
-                "label": "Default"
-              },
-              {
-                "value": "small",
-                "label": "Small"
-              },
-			  {
-                "value": "none",
-                "label": "None"
-              }
-			]
+    "settings": [
+      {
+        "type": "header",
+        "content": "Section interval set"
+      },
+      {
+        "type": "select",
+        "id": "top_padding",
+        "label": "top interval",
+        "default": "none",
+        "options": [
+          {
+            "value": "extraLarge",
+            "label": "Extra Large"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding",
+        "label": "bottom interval",
+        "default": "large",
+        "options": [
+          {
+            "value": "extraLarge",
+            "label": "Extra Large"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },	  	 
+      {
+        "type": "select",
+        "id": "top-offeset",
+        "label": "Top OffSet",
+        "default": "default",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+        {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+    {
+      "type": "select",
+      "id": "section_style",
+      "label": "Section Style",
+      "default": "default",
+      "options": [
+        {
+          "value": "default",
+          "label": "Default"
         },
-		 {
+        {
+          "value": "heybike",
+          "label": "Heybike"
+        }
+      ]
+    },
+
+    {
 		"type":"checkbox",
 		"id":"section_width",
 		"label":"Fullwidth?",
@@ -356,7 +460,7 @@
 			"label":"Image alignment",
  			"default": "left",
 			"options": [
-        		{ "value": "left","label":"Left"},
+        { "value": "left","label":"Left"},
 				{ "value": "right","label":"Right"}
 			]
       },	  
@@ -372,6 +476,11 @@
         "label": "Text",
         "default": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
 		
+      },
+      {
+        "type": "image_picker",
+        "id": "bottom_logo",
+        "label": "Content buttom logo"
       },
       {
         "type": "text",

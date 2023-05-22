@@ -11,9 +11,9 @@
       {%- assign blkSt = block.settings -%}
 
       {% if blkSt.bg_img != blank %}
-      <div class="{{blkSt.slide_w}} mr-6 last:mr-0 flex flex-col">
+      <div class="{{blkSt.slide_w}} mx-3 last:mr-0 first:ml-0 flex flex-col">  
         <div class="rounded-section overflow-hidden h-full mb-6" style="background-color:{{blkSt.bg_color}};">
-          {{ blkSt.bg_img | image_url: width: 800 | image_tag: width: nil, loading: 'lazy', class: "h-full object-cover" }}
+          {{ blkSt.bg_img | image_url: width: 1200 | image_tag: width: nil, loading: 'lazy', class: "h-full object-cover" }}
         </div>
         <h1 class="text-3xl mb-2">{{ blkSt.text_main  }}</h1>
         <p class="text-lg">{{ blkSt.text_sub  }}</p>
