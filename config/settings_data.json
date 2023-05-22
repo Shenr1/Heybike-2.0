@@ -77,10 +77,12 @@
     "h_weight": "600",
     "h_case": "none",
     "sidebar_links_hv": "#f77575",
-    "footer_top_bg": "#fafafa",
-    "footer_title": "#000",
-    "top_footer_text": "#000",
-    "icon_colors": "#000",
+    "foot_ttl_size": 18,
+    "foo_text_size": 16,
+    "footer_top_bg": "#1d1d1d",
+    "footer_title": "#fff",
+    "top_footer_text": "#fff",
+    "icon_colors": "#fff",
     "footer_bottom_bg": "#fafafa",
     "footer_bottom_text": "#000",
     "footer_border": "#eeeeee",
@@ -392,7 +394,7 @@
             "settings": {
               "title": "COMPANY",
               "menulinks": "more",
-              "width": "wd25-md"
+              "width": "wd20-md"
             }
           },
           "1561010492149": {
