@@ -6,7 +6,7 @@
   	<div class="{% unless secSt.section_width %}page-width{% else %} fullwidth{% endunless %}">
   	<div class="footer-top footer-block">
         {% for block in section.blocks %}          
-            {% assign blkSt = block.settings %}
+          {% assign blkSt = block.settings %}
 
         {% capture blockTtl %}{% if blkSt.title != blank %}<p class="h4 mb15">{{ blkSt.title }}</p>{% endif %}{% endcapture %}
         {%- case block.type -%}
@@ -69,9 +69,7 @@
         <div id="text-{{ block.id }}" class="footer-block__item {{blkSt.width}} newsletter{% if blkSt.newltr_align %} tc{% endif %}">
           <div class="wrap-newsletter">
             {{blockTtl}}
-
-            {% if blkSt.sub_title %}<p>{{ blkSt.sub_title }}</p>{% endif %}
-            {% render 'newsletter-form' , formId: 'footNewslt' %}
+            {% render 'newsletter-form' , formId: 'footNewslt' , content:blkSt.sub_title %}
             {% if blkSt.show_socials %}
             <div class="socials">
               {%- if blkSt.socials_ttl != blank -%}<h3 class="h4">{{ blkSt.socials_ttl }}</h3>{%- endif -%}
@@ -139,7 +137,22 @@
           </div>         
         {%- endcase -%}                
         {% endfor %}
-      </div>        
+      </div>  
+
+      {% for block in section.blocks %}     
+      {% assign blkSt = block.settings %}
+     
+      {% if block.type == 'legal' %}
+        
+      <div class="flex items-center">
+        <div>{{ blkSt.logo_img | image_url: width: 200 | image_tag: width: nil, loading: 'lazy' }} </div>
+        <div class="ml-12"> <a class="text-black-600" href="{{blkSt.text_link1}}"> {{blkSt.text_link1}} </a> </div>
+        <div class="ml-12"> <a class="text-black-600" href="{{blkSt.text_link2}}"> {{blkSt.text_link2}} </a> </div>
+      </div>     
+      {% endif %}
+
+
+      {% endfor %}
   </div>
   {% endif %}
   
@@ -597,18 +610,49 @@
           }
         ]
       },
-	 {
-      	"type": "hrline",
-      	"name": "Horizontal Line",
+    {
+      "type": "hrline",
+      "name": "Horizontal Line",
 		 "settings": [         	  
-		    {
-            "type": "color",
-            "id": "lineclr",
-            "label": "Line Color",
-            "default": "#eee"
-          }
-		]
-      }
+        {
+          "type": "color",
+          "id": "lineclr",
+          "label": "Line Color",
+          "default": "#eee"
+        }
+      ]
+    },
+    {
+      "type": "legal",
+      "name": "Legal links",
+      "settings": [         	  
+        {
+          "type": "image_picker",
+          "id": "logo_img",
+          "label": "Logo image"
+        },
+        {
+          "type": "text",
+          "id": "text_link1",
+          "label": "First link text"
+        },
+        {
+          "type": "url",
+          "id": "link_url1",
+          "label": "First link url"
+        },
+        {
+          "type": "text",
+          "id": "text_link2",
+          "label": "Second link text"
+        },
+        {
+          "type": "url",
+          "id": "link_url2",
+          "label": "Second link url"
+        }
+      ]
+    }
 	]
   }
 {% endschema %}
