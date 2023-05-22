@@ -180,6 +180,10 @@
   }
 }
 
+.template-product .grid{
+  display:flex;
+}
+
 .site-header,#siteNav>li.ctsize, #siteNav>li.dropdown{
   position:static;
 }

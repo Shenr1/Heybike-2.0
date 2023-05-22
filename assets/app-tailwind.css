@@ -25,6 +25,7 @@
 }
 
 @layer components {
+    .template-product .grid{@apply flex}
     .site-header,#siteNav>li.ctsize, #siteNav>li.dropdown{@apply static}
 
     #siteNav ul.dropdown li a:hover{@apply !bg-transparent}
