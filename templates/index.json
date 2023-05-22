@@ -275,6 +275,9 @@
         "3b0e13f5-a095-46d4-afa9-e33dfc671812",
         "752b2092-7e2b-4a37-b195-38804c6a344e"
       ],
+      "custom_css": [
+        ".sec-ttl .h3 {color: #fff;}"
+      ],
       "settings": {
         "top_padding": "none",
         "bottom_padding": "large",
@@ -333,7 +336,7 @@
         "hide_mobile": false,
         "title": "Great Bikes. Even Better Service.",
         "subtitle": "You are at the center of our hearts.",
-        "style": "style2",
+        "style": "style1",
         "icon-type": "image",
         "icons_clr": "#ffffff",
         "isz": 38,
