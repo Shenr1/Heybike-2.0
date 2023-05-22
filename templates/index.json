@@ -292,8 +292,58 @@
       ],
       "settings": {
         "top_padding": "large",
-        "bottom_padding": "default",
+        "bottom_padding": "small",
         "bg_img": "shopify:\/\/shop_images\/image_2.webp"
+      }
+    },
+    "8ac0dd31-ebc0-46e2-867c-a7d6e2e0fd90": {
+      "type": "data-statistics",
+      "blocks": {
+        "55af95fe-1f67-44a9-922b-0a20b4838325": {
+          "type": "slide",
+          "settings": {
+            "text_main": "1,754,852",
+            "text_suf": "mile",
+            "text_sub": "Total Distance Riden"
+          }
+        },
+        "2cec7d8f-443d-475d-82d9-58b68117bc6d": {
+          "type": "slide",
+          "settings": {
+            "text_main": "80000",
+            "text_suf": "+",
+            "text_sub": "Active Riders"
+          }
+        },
+        "3b0e13f5-a095-46d4-afa9-e33dfc671812": {
+          "type": "slide",
+          "settings": {
+            "text_main": "9,989,368",
+            "text_suf": "lb",
+            "text_sub": "Total CO₂ Emissions Saved"
+          }
+        },
+        "752b2092-7e2b-4a37-b195-38804c6a344e": {
+          "type": "slide",
+          "settings": {
+            "text_main": "987,865",
+            "text_suf": "pcs",
+            "text_sub": "Equivalent Trees Planted"
+          }
+        }
+      },
+      "block_order": [
+        "55af95fe-1f67-44a9-922b-0a20b4838325",
+        "2cec7d8f-443d-475d-82d9-58b68117bc6d",
+        "3b0e13f5-a095-46d4-afa9-e33dfc671812",
+        "752b2092-7e2b-4a37-b195-38804c6a344e"
+      ],
+      "settings": {
+        "top_padding": "none",
+        "bottom_padding": "large",
+        "bg_color": "#f3f5f9",
+        "title": "Go Green with Heybike",
+        "image": "shopify:\/\/shop_images\/ebikenews_165x_6cf7a577-5822-4465-a103-659a3564a872.webp"
       }
     }
   },
@@ -302,6 +352,7 @@
     "583b741b-600f-49b4-9c12-175b587241ee",
     "16337817926d98687d",
     "1633781776086e75a0",
-    "6466a547-b260-459b-b173-ee05a2e100ae"
+    "6466a547-b260-459b-b173-ee05a2e100ae",
+    "8ac0dd31-ebc0-46e2-867c-a7d6e2e0fd90"
   ]
 }
