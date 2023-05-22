@@ -344,6 +344,15 @@
     {%- when 'dropdown' -%}
     {%- if block.settings.title != blank -%}<li class="lvl1 parent dropdown" {{ block.shopify_attributes }}>{{linkLevel1}}<ul class="dropdown">{% for link in linklists[block.settings.mm_linklist].links %}{% render 'mm-dropdown', link:link %}{% endfor %}</ul></li>{%- endif -%}
 
+    {%- when 'megamenuHb' -%}
+    {%- if block.settings.title != blank -%}
+    {% assign blkSet = block.settings %}
+      <li class="lvl1 parent dropdown">
+        {{linkLevel1}}
+        {% render 'simple-megamenu' , blkSet: blkSet  %}
+      </li>
+    {%- endif -%}
+
     {%- endcase -%}
     {%- endfor -%}
 </ul>
@@ -1350,69 +1359,69 @@
         "type": "megamenu7",
         "name": "MM Custom HTML",
         "settings": [
-		  {
-            "type": "paragraph",
-            "content": "This link block show in desktop only. It will not come in mobiles."
-          },
-		  {
-            "type": "text",
-            "id": "title",
-            "label": "Link Name"
-          },
-          {
-            "type": "url",
-            "id": "url",
-            "label": "Menu Link"
- 	         },
- 			{
-            "type": "checkbox",
-            "id": "newtab",
-            "label": "Open Link in New Window?"
-          },  
-          {
-            "type": "textarea",
-            "id": "mm_html",
-            "label": "HTMl Code",
-			"info": "Enter your Custom HTML code here."
-          },
-          {
-            "type": "header",
-            "content": "=== Custom Box size ==="
-          },
-          {
-            "type": "checkbox",
-            "id": "custom_size",
-            "label": "Custom Width?",
-            "default": false
-          },
-          {
-            "type": "text",
-            "id": "mm_size",
-            "label": "Box Width",
-            "default": "600"
-          },
-          {
-            "type": "select",
-            "id": "mm_align",
-            "label": "Box Align",
-			"default": "center",
-            "options": [
-              { "value": "left", "label": "Left" },
-              { "value": "center", "label": "Center" },
-              { "value": "right", "label": "Right" }
-            ]
-          },
-		  {
-            "type": "header",
-            "content":"When Navigation is below logo ==="
-          },
- 			{
-            "type": "checkbox",
-            "id": "box_sized",
-            "label": "Enable container width?",
-            "default": false,
-			"info":"Set inner content width max to layout width"
-          }
+        {
+              "type": "paragraph",
+              "content": "This link block show in desktop only. It will not come in mobiles."
+            },
+        {
+              "type": "text",
+              "id": "title",
+              "label": "Link Name"
+            },
+            {
+              "type": "url",
+              "id": "url",
+              "label": "Menu Link"
+            },
+        {
+              "type": "checkbox",
+              "id": "newtab",
+              "label": "Open Link in New Window?"
+            },  
+            {
+              "type": "textarea",
+              "id": "mm_html",
+              "label": "HTMl Code",
+        "info": "Enter your Custom HTML code here."
+            },
+            {
+              "type": "header",
+              "content": "=== Custom Box size ==="
+            },
+            {
+              "type": "checkbox",
+              "id": "custom_size",
+              "label": "Custom Width?",
+              "default": false
+            },
+            {
+              "type": "text",
+              "id": "mm_size",
+              "label": "Box Width",
+              "default": "600"
+            },
+            {
+              "type": "select",
+              "id": "mm_align",
+              "label": "Box Align",
+        "default": "center",
+              "options": [
+                { "value": "left", "label": "Left" },
+                { "value": "center", "label": "Center" },
+                { "value": "right", "label": "Right" }
+              ]
+            },
+        {
+              "type": "header",
+              "content":"When Navigation is below logo ==="
+            },
+        {
+              "type": "checkbox",
+              "id": "box_sized",
+              "label": "Enable container width?",
+              "default": false,
+        "info":"Set inner content width max to layout width"
+            }
         ]
       },
 	  {
@@ -1593,6 +1602,124 @@
             "default": "main-menu"
           }
         ]
+      },
+      {
+          "type": "megamenuHb",
+          "name": "Simple menu v2",
+          "settings": [
+            {
+              "type": "text",
+              "id": "title",
+              "label": "Link Name"
+            },
+            {
+              "type": "url",
+              "id": "url",
+              "label": "Menu Link"
+            },
+            {
+              "type": "link_list",
+              "id": "mm_linklist",
+              "label": "Select Menu",
+              "default": "main-menu"
+            },
+            {
+              "type":"header",
+              "content":"Left Content"
+            },
+            {
+              "type": "image_picker",
+              "id": "img_url1",
+              "label": "Left image"
+            },
+            {
+              "type": "text",
+              "id": "text_main1",
+              "label": "Menu Title",
+              "default": "We've got you and your bike covered"
+            },
+            {
+              "type": "text",
+              "id": "text_sub1",
+              "label": "Menu content",
+              "default": "SERVICES"
+            },
+            {
+              "type": "text",
+              "id": "text_link1",
+              "label": "Link Title",
+              "default": "Explore all products"
+            },
+            {
+              "type": "url",
+              "id": "url_link1",
+              "label": "Link url"
+            },
+            {
+              "type":"header",
+              "content":"Center Content"
+            },
+            {
+              "type": "image_picker",
+              "id": "img_url2",
+              "label": "Center image"
+            },
+            {
+              "type": "text",
+              "id": "text_main2",
+              "label": "Menu Title",
+              "default": "We've got you and your bike covered"
+            },
+            {
+              "type": "text",
+              "id": "text_sub2",
+              "label": "Menu content",
+              "default": "SERVICES"
+            },
+            {
+              "type": "text",
+              "id": "text_link2",
+              "label": "Link Title",
+              "default": "Explore all products"
+            },
+            {
+              "type": "url",
+              "id": "url_link2",
+              "label": "Link url"
+            },
+            {
+              "type":"header",
+              "content":"Right Content"
+            },
+            {
+              "type": "image_picker",
+              "id": "img_url3",
+              "label": "Right image"
+            },
+            {
+              "type": "text",
+              "id": "text_main3",
+              "label": "Menu Title",
+              "default": "We've got you and your bike covered"
+            },
+            {
+              "type": "text",
+              "id": "text_sub3",
+              "label": "Menu content",
+              "default": "SERVICES"
+            },
+            {
+              "type": "text",
+              "id": "text_link3",
+              "label": "Link Title",
+              "default": "Explore all products"
+            },
+            {
+              "type": "url",
+              "id": "url_link3",
+              "label": "Link url"
+            }
+          ]
       }
     ]
   }

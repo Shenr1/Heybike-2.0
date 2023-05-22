@@ -280,7 +280,7 @@
           "1560070247268": {
             "type": "megamenu1",
             "settings": {
-              "title": "Accessories",
+              "title": "Equipment",
               "url": "shopify:\/\/collections\/accessories",
               "newtab": false,
               "mm_linklist": "",
@@ -305,7 +305,7 @@
           "1560145007901": {
             "type": "megamenu1",
             "settings": {
-              "title": "Features [label1]",
+              "title": "Support",
               "url": "#",
               "newtab": false,
               "mm_linklist": "",
@@ -327,45 +327,10 @@
               "box_sized": false
             }
           },
-          "760c08ba-361a-4c41-aced-6319a65c4cb0": {
-            "type": "megamenu6",
-            "settings": {
-              "title": "<span style=\"color:#bf1616;\">NEW IN<\/span>",
-              "url": "",
-              "newtab": false,
-              "mm_linklist": "",
-              "mmcolumns": 2,
-              "collection1": "hot-collection",
-              "collection2": "men",
-              "collection3": "bag",
-              "collection4": "accssories",
-              "collection5": "tops",
-              "collection6": "",
-              "collection7": "",
-              "collection8": "",
-              "collection9": "",
-              "collection10": "",
-              "grid": 2,
-              "prlimit": 6,
-              "columnWidth": 50,
-              "custom_size": false,
-              "mm_size": "600",
-              "mm_align": "center",
-              "box_sized": false
-            }
-          },
           "1559988240897": {
             "type": "dropdown",
             "settings": {
-              "title": "Lookbook",
-              "url": "",
-              "mm_linklist": ""
-            }
-          },
-          "1553256701490": {
-            "type": "dropdown",
-            "settings": {
-              "title": "Pages",
+              "title": "Community",
               "url": "",
               "mm_linklist": ""
             }
@@ -373,7 +338,7 @@
           "1559992848977": {
             "type": "dropdown",
             "settings": {
-              "title": "Blog",
+              "title": "Help Center",
               "url": "#",
               "mm_linklist": ""
             }
@@ -381,7 +346,7 @@
           "ff0e6f22-f740-4d49-9986-8cbc1de21b2e": {
             "type": "dropdown",
             "settings": {
-              "title": "Buy Now!",
+              "title": "Dealer",
               "url": "https:\/\/1.envato.market\/KdyYx",
               "mm_linklist": ""
             }
@@ -391,9 +356,7 @@
           "1545200462991",
           "1560070247268",
           "1560145007901",
-          "760c08ba-361a-4c41-aced-6319a65c4cb0",
           "1559988240897",
-          "1553256701490",
           "1559992848977",
           "ff0e6f22-f740-4d49-9986-8cbc1de21b2e"
         ],

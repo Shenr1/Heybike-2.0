@@ -375,6 +375,95 @@
         "title": "The World of HEYBIKE"
       }
     },
+    "a2d3fa24-4809-40c0-b63d-a720d6b02f2c": {
+      "type": "multiple-image-text",
+      "blocks": {
+        "b52a0377-f53f-4e96-ba48-8b76fcebd2e3": {
+          "type": "slide",
+          "settings": {
+            "slide_w": "w-2\/3",
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/banner-600.webp",
+            "text_main": "Find Dealers Near You",
+            "text_sub": "Test Ride & Buy Directly",
+            "url": ""
+          }
+        },
+        "99a10bb2-7012-49a1-8de3-e226ef86d120": {
+          "type": "slide",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/1_1.png",
+            "text_main": "Find Dealers Near You",
+            "text_sub": "Test Ride & Buy Directly",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "b52a0377-f53f-4e96-ba48-8b76fcebd2e3",
+        "99a10bb2-7012-49a1-8de3-e226ef86d120"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "title": "The World of HEYBIKE"
+      }
+    },
+    "e0be29cc-4f32-4503-8012-abbb3949eb80": {
+      "type": "banner-with-text",
+      "blocks": {
+        "template--19143575470395__e0be29cc-4f32-4503-8012-abbb3949eb80-1684744024f2b6438e-0": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/app.webp",
+            "layout": "right",
+            "title": "Banner With Text",
+            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "bottom_logo": "shopify:\/\/shop_images\/app-store.webp",
+            "button_label": "",
+            "button_link": "\/",
+            "text_align": "text-left",
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "#f3f5f9",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "template--19143575470395__e0be29cc-4f32-4503-8012-abbb3949eb80-1684744024f2b6438e-0"
+      ],
+      "settings": {
+        "top_padding": "default",
+        "bottom_padding": "none",
+        "top-offeset": "default",
+        "section_style": "heybike",
+        "section_width": true,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "snow_effect": false,
+        "snow_style": "style1",
+        "tfs": 30,
+        "tfsm": 22,
+        "tff": "ft1",
+        "tfw": "700",
+        "tlh": 1.2,
+        "tmb": 15,
+        "tmbm": 10,
+        "fs": 14,
+        "fsm": 12,
+        "fw": "400",
+        "lh": 1.6,
+        "mb": 15,
+        "mbm": 10,
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm"
+      }
+    },
     "1633781776086e75a0": {
       "type": "featured-blog",
       "settings": {
@@ -410,6 +499,8 @@
     "16337817926d98687d",
     "9097e021-5397-4a21-8d22-e6f121fbda8f",
     "188dcbbf-c1b9-468d-ac49-fe48de18b8e3",
+    "a2d3fa24-4809-40c0-b63d-a720d6b02f2c",
+    "e0be29cc-4f32-4503-8012-abbb3949eb80",
     "1633781776086e75a0"
   ]
 }
