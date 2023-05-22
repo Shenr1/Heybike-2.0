@@ -23,6 +23,7 @@
     "body_font": "poppins_n4",
     "header_font": "poppins_n4",
     "type_base_size": 13,
+    "color_body_text": "#111111",
     "type_header_base_size_lh": 1.4,
     "type_header_base_size": 30,
     "type_header_base_size_2": 26,
