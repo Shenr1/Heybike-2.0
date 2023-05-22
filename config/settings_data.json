@@ -274,55 +274,24 @@
               "url_link3": "shopify:\/\/collections\/electric-bike"
             }
           },
-          "1560070247268": {
-            "type": "megamenu1",
+          "eaf15dca-1822-4a37-8c94-bd24e939b788": {
+            "type": "megamenuHb",
             "settings": {
               "title": "Equipment",
-              "url": "shopify:\/\/collections\/accessories",
-              "newtab": false,
-              "mm_linklist": "",
-              "mmcolumns": 4,
-              "imgcall": "right",
-              "columnWidth": 24,
-              "mmimgcolumns": 1,
-              "imageTtl1": "FLAT 50% OFF ON WOMENS",
-              "imageurl": "shopify:\/\/collections\/women",
-              "imageTtl2": "",
-              "Image2url": "",
-              "imageTtl3": "",
-              "Image3url": "",
-              "imageTtl4": "",
-              "Image4url": "",
-              "custom_size": false,
-              "mm_size": "800",
-              "mm_align": "left",
-              "box_sized": false
-            }
-          },
-          "1560145007901": {
-            "type": "megamenu1",
-            "disabled": true,
-            "settings": {
-              "title": "Support",
-              "url": "#",
-              "newtab": false,
-              "mm_linklist": "",
-              "mmcolumns": 5,
-              "imgcall": "right",
-              "columnWidth": 50,
-              "mmimgcolumns": 2,
-              "imageTtl1": "",
-              "imageurl": "",
-              "imageTtl2": "",
-              "Image2url": "",
-              "imageTtl3": "",
-              "Image3url": "",
-              "imageTtl4": "",
-              "Image4url": "",
-              "custom_size": false,
-              "mm_size": "600",
-              "mm_align": "left",
-              "box_sized": false
+              "url": "",
+              "mm_linklist": "main-menu",
+              "text_main1": "We've got you and your bike covered",
+              "text_sub1": "SERVICES",
+              "text_link1": "Explore all products",
+              "url_link1": "",
+              "text_main2": "We've got you and your bike covered",
+              "text_sub2": "SERVICES",
+              "text_link2": "Explore all products",
+              "url_link2": "",
+              "text_main3": "We've got you and your bike covered",
+              "text_sub3": "SERVICES",
+              "text_link3": "Explore all products",
+              "url_link3": ""
             }
           },
           "23b6094a-ec02-4808-bac4-8dbb5fed7f32": {
@@ -356,37 +325,15 @@
               "url": "https:\/\/1.envato.market\/KdyYx",
               "mm_linklist": ""
             }
-          },
-          "eaf15dca-1822-4a37-8c94-bd24e939b788": {
-            "type": "megamenuHb",
-            "settings": {
-              "title": "Equipment",
-              "url": "",
-              "mm_linklist": "main-menu",
-              "text_main1": "We've got you and your bike covered",
-              "text_sub1": "SERVICES",
-              "text_link1": "Explore all products",
-              "url_link1": "",
-              "text_main2": "We've got you and your bike covered",
-              "text_sub2": "SERVICES",
-              "text_link2": "Explore all products",
-              "url_link2": "",
-              "text_main3": "We've got you and your bike covered",
-              "text_sub3": "SERVICES",
-              "text_link3": "Explore all products",
-              "url_link3": ""
-            }
           }
         },
         "block_order": [
           "86aca260-e282-40f4-97fb-c8bb57b7ef06",
-          "1560070247268",
-          "1560145007901",
+          "eaf15dca-1822-4a37-8c94-bd24e939b788",
           "23b6094a-ec02-4808-bac4-8dbb5fed7f32",
           "1559988240897",
           "1559992848977",
-          "ff0e6f22-f740-4d49-9986-8cbc1de21b2e",
-          "eaf15dca-1822-4a37-8c94-bd24e939b788"
+          "ff0e6f22-f740-4d49-9986-8cbc1de21b2e"
         ],
         "settings": {
           "menuarrow": false,
