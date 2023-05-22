@@ -26,7 +26,7 @@
                   {% endif %}
                 <div class="text fl1">
                     {% if blkSt.title %}<h5 class="ttlTxt mb-4">{{ blkSt.title }}</h5>{% endif %}
-                    {% if blkSt.text %}<span class="sub-text text-lg">{{ blkSt.text }}</span>{% endif %}
+                    {% if blkSt.text %}<div class="sub-text{% if hbStyle %} text-lg md:px-8 px-2{% endif %}">{{ blkSt.text }}</div>{% endif %}
                 </div>
               </{% if blkSt.texturl != blank %}a{% else %}div{% endif %}>
             </li>
