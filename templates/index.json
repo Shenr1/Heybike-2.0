@@ -276,7 +276,7 @@
         "752b2092-7e2b-4a37-b195-38804c6a344e"
       ],
       "custom_css": [
-        ".sec-ttl .h3 {color: #fff;}"
+
       ],
       "settings": {
         "top_padding": "none",
@@ -324,6 +324,9 @@
         "1561784085337-0",
         "1561784085337-2",
         "1561784085337-1"
+      ],
+      "custom_css": [
+        ".sec-ttl .h3 ,div.sec-ttl p{color: #fff;}"
       ],
       "settings": {
         "top_padding": "none",
