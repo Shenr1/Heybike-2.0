@@ -404,6 +404,7 @@
         "1561784085337-0": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/2_200x_f66b3247-c485-42f3-b661-f3df86dad90b.png",
             "icons": "at-ship-fast",
             "title": "Fast Shipping",
             "text": "<p>Free shippinShips to 48 States & Canadag on all US orders<\/p>",
@@ -413,24 +414,17 @@
         "1561784085337-2": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/3_200x_27ac67d4-98a6-4165-ae9d-f3c25601b00b.png",
             "icons": "at-phone-24",
             "title": "Fast Support",
             "text": "<p>Email & Phone Service<\/p>",
             "texturl": ""
           }
         },
-        "0957534a-705f-459c-aa1f-5dd35845dc17": {
-          "type": "text_block",
-          "settings": {
-            "icons": "at-reply-all",
-            "title": "30-Day Trial",
-            "text": "<p>Buy with Confidence<\/p>",
-            "texturl": ""
-          }
-        },
         "1561784085337-1": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/1_200x_dc00fca6-aa97-4035-bd8b-4eab3aee6f0d.png",
             "icons": "at-map-marker-al",
             "title": "Find a Dealer",
             "text": "<p>Book a Free Test Ride<\/p>",
@@ -441,19 +435,21 @@
       "block_order": [
         "1561784085337-0",
         "1561784085337-2",
-        "0957534a-705f-459c-aa1f-5dd35845dc17",
         "1561784085337-1"
       ],
       "settings": {
+        "top_padding": "none",
+        "bottom_padding": "large",
         "top-offeset": "none",
+        "section_style": "heybike",
         "section_width": false,
         "section_cov": true,
         "sec_bg_clr": "#131313",
         "hide_mobile": false,
-        "title": "",
-        "subtitle": "",
+        "title": "Great Bikes. Even Better Service.",
+        "subtitle": "You are at the center of our hearts.",
         "style": "style2",
-        "icon-type": "icon",
+        "icon-type": "image",
         "icons_clr": "#ffffff",
         "isz": 38,
         "tcl": "#ffffff",
