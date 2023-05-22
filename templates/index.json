@@ -9,12 +9,12 @@
             "image": "shopify:\/\/shop_images\/banner-600.webp",
             "ialign": "center_center",
             "hd1": "START A FREE TRIAL AND ENJOY",
-            "pcl": "#000000",
-            "title": "<b> 3 months of Shopify<br> for $1\/month<\/b>",
-            "tcl": "#000000",
+            "pcl": "#ffffff",
+            "title": "<b> Ultralight bike<br> One hand can be lifted<\/b>",
+            "tcl": "#ffffff",
             "hd3": "Creative, Flexible and High Performance shopify theme!",
             "hideh3": true,
-            "cl": "#000000",
+            "cl": "#ffffff",
             "btn": "Shop Now",
             "link": "https:\/\/shopify.pxf.io\/qn6kKy",
             "btn1window": true,
@@ -32,15 +32,16 @@
         },
         "1561726660568-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "ialign": "center_center",
             "hd1": "",
-            "pcl": "#000000",
+            "pcl": "#111111",
             "title": "<b>Speed up your store<br> to convert more Sales<\/b>",
-            "tcl": "#000000",
+            "tcl": "#111111",
             "hd3": "The Powerful Theme You can Trust",
             "hideh3": true,
-            "cl": "#000000",
+            "cl": "#111111",
             "btn": "Shop now",
             "link": "shopify:\/\/collections\/hot-collection",
             "btn1window": false,
@@ -342,6 +343,13 @@
             "link": "",
             "opentab": false
           }
+        },
+        "4b26f056-96cf-4a45-888c-72275de56221": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "opentab": false
+          }
         }
       },
       "block_order": [
@@ -349,7 +357,8 @@
         "1561785365595-1",
         "1561785365595-2",
         "1561785365595-5",
-        "1561785365595-3"
+        "1561785365595-3",
+        "4b26f056-96cf-4a45-888c-72275de56221"
       ],
       "settings": {
         "title": "",
@@ -366,8 +375,8 @@
     "1633781776086e75a0": {
       "type": "featured-blog",
       "settings": {
-        "title": "<b>FRESH FROM OUR BLOG<\/b>",
-        "subtitle": "You are going to love this amazing shopify theme.",
+        "title": "<b>Heybike Blog<\/b>",
+        "subtitle": "Learn more about E-bike knowledge and information",
         "top-offeset": "default",
         "section_cov": true,
         "sec_bg_clr": "#fafafa",
@@ -395,18 +404,9 @@
         "1561784085337-0": {
           "type": "text_block",
           "settings": {
-            "icons": "at-free-delivery",
-            "title": "FREE SHIPPING & RETURN",
-            "text": "<p>Free shipping on all US orders<\/p>",
-            "texturl": ""
-          }
-        },
-        "1561784085337-1": {
-          "type": "text_block",
-          "settings": {
-            "icons": "at-money",
-            "title": "MONEY GAURNTEE",
-            "text": "<p>30 days money back guarantee<\/p>",
+            "icons": "at-ship-fast",
+            "title": "Fast Shipping",
+            "text": "<p>Free shippinShips to 48 States & Canadag on all US orders<\/p>",
             "texturl": ""
           }
         },
@@ -414,16 +414,35 @@
           "type": "text_block",
           "settings": {
             "icons": "at-phone-24",
-            "title": "ONLINE SUPPORT",
-            "text": "<p>We support online 24\/7 on day<\/p>",
+            "title": "Fast Support",
+            "text": "<p>Email & Phone Service<\/p>",
+            "texturl": ""
+          }
+        },
+        "0957534a-705f-459c-aa1f-5dd35845dc17": {
+          "type": "text_block",
+          "settings": {
+            "icons": "at-reply-all",
+            "title": "30-Day Trial",
+            "text": "<p>Buy with Confidence<\/p>",
+            "texturl": ""
+          }
+        },
+        "1561784085337-1": {
+          "type": "text_block",
+          "settings": {
+            "icons": "at-map-marker-al",
+            "title": "Find a Dealer",
+            "text": "<p>Book a Free Test Ride<\/p>",
             "texturl": ""
           }
         }
       },
       "block_order": [
         "1561784085337-0",
-        "1561784085337-1",
-        "1561784085337-2"
+        "1561784085337-2",
+        "0957534a-705f-459c-aa1f-5dd35845dc17",
+        "1561784085337-1"
       ],
       "settings": {
         "top-offeset": "none",
