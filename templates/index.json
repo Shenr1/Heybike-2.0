@@ -150,32 +150,6 @@
         "bg_color": "#f3f5f9"
       }
     },
-    "1633781776086e75a0": {
-      "type": "featured-blog",
-      "settings": {
-        "title": "<b>Heybike Blog<\/b>",
-        "subtitle": "Learn more about E-bike knowledge and information",
-        "top-offeset": "default",
-        "section_cov": true,
-        "sec_bg_clr": "#fafafa",
-        "blog": "news",
-        "img_ratio": "50",
-        "post_limit": 3,
-        "grid": 3,
-        "tablet-grid": 2,
-        "mobile-grid": 1,
-        "blog_align": "text-center",
-        "blog_show_author": false,
-        "blog_show_date": true,
-        "show_comment": true,
-        "show_mini_des": false,
-        "show_read_more": false,
-        "show_view_all": false,
-        "btn-style": "btn",
-        "btn-size-desk": "btn-sm",
-        "btn-size-mob": "mob-btn-sm"
-      }
-    },
     "6466a547-b260-459b-b173-ee05a2e100ae": {
       "type": "logo-slider",
       "blocks": {
@@ -351,14 +325,54 @@
         "cl": "#eeeeee",
         "border_sep": "rgba(0,0,0,0)"
       }
+    },
+    "1633781776086e75a0": {
+      "type": "featured-blog",
+      "settings": {
+        "title": "<b>Heybike Blog<\/b>",
+        "subtitle": "Learn more about E-bike knowledge and information",
+        "top-offeset": "default",
+        "section_cov": true,
+        "sec_bg_clr": "#fafafa",
+        "blog": "news",
+        "img_ratio": "50",
+        "post_limit": 3,
+        "grid": 3,
+        "tablet-grid": 2,
+        "mobile-grid": 1,
+        "blog_align": "text-center",
+        "blog_show_author": false,
+        "blog_show_date": true,
+        "show_comment": true,
+        "show_mini_des": false,
+        "show_read_more": false,
+        "show_view_all": false,
+        "btn-style": "btn",
+        "btn-size-desk": "btn-sm",
+        "btn-size-mob": "mob-btn-sm"
+      }
+    },
+    "9097e021-5397-4a21-8d22-e6f121fbda8f": {
+      "type": "image-text",
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "bg_color": "#000000",
+        "bg_img": "shopify:\/\/shop_images\/ebikenews_165x_6cf7a577-5822-4465-a103-659a3564a872.webp",
+        "text_main": "Find Dealers Near You",
+        "text_sub": "Test Ride & Buy Directly",
+        "text_btn": "Read More",
+        "url": ""
+      }
     }
   },
   "order": [
     "slideshow",
     "583b741b-600f-49b4-9c12-175b587241ee",
-    "1633781776086e75a0",
     "6466a547-b260-459b-b173-ee05a2e100ae",
     "8ac0dd31-ebc0-46e2-867c-a7d6e2e0fd90",
-    "16337817926d98687d"
+    "16337817926d98687d",
+    "1633781776086e75a0",
+    "9097e021-5397-4a21-8d22-e6f121fbda8f"
   ]
 }
