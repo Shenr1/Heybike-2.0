@@ -8,14 +8,14 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/banner-600.webp",
             "ialign": "center_center",
-            "hd1": "START A FREE TRIAL AND ENJOY",
+            "hd1": "Electric Bike",
             "pcl": "#ffffff",
-            "title": "<b> Ultralight bike<br> One hand can be lifted<\/b>",
+            "title": "Bring an Ideal <br>\nUrban Life",
             "tcl": "#ffffff",
-            "hd3": "Creative, Flexible and High Performance shopify theme!",
+            "hd3": "",
             "hideh3": true,
             "cl": "#ffffff",
-            "btn": "Shop Now",
+            "btn": "Shop Now &nbsp >",
             "link": "https:\/\/shopify.pxf.io\/qn6kKy",
             "btn1window": true,
             "btn-style": "btn",
@@ -26,7 +26,7 @@
             "btn-style1": "btn1",
             "contwd": 1300,
             "text-left": false,
-            "txtpos": "f-aic-md f-jcs-md",
+            "txtpos": "f-jce-md f-aic-md",
             "txtposm": "f-jcc f-aie"
           }
         },
@@ -72,16 +72,16 @@
         "box-width": 1500,
         "isovr": false,
         "obg": "#3d4246",
-        "oopt": 0,
-        "pfs": 16,
-        "pfsm": 13,
+        "oopt": 0.5,
+        "pfs": 30,
+        "pfsm": 22,
         "pff": "ft1",
         "pfw": "400",
         "plh": 1.2,
         "pmb": 0,
         "pmbm": 0,
-        "bfs": 47,
-        "bfsm": 28,
+        "bfs": 72,
+        "bfsm": 48,
         "bff": "ft2",
         "bfw": "700",
         "blh": 1.1,
@@ -113,263 +113,41 @@
         "snow_style": "style1"
       }
     },
-    "1633781722aeb0502c": {
-      "type": "collections-banners",
+    "583b741b-600f-49b4-9c12-175b587241ee": {
+      "type": "products-slider-full",
       "blocks": {
-        "1560507278694-0": {
-          "type": "featured_collection",
+        "aced053b-8c7e-443c-ba77-07bf8bef930e": {
+          "type": "slide",
           "settings": {
-            "collection": "women",
-            "url": "",
-            "collection_name": "WOMEN TOPS",
-            "collection_name2": "From world's top designer",
-            "talign": "tc",
-            "text_pos": "f-jcc f-aie",
-            "collection_btn": "DISCOVER NOW",
-            "width": "50"
+            "product": "ranger",
+            "product_image": "shopify:\/\/shop_images\/11_950x_52f08972-a403-430f-8d50-db3fdbf3c15a.png",
+            "tags_image": "shopify:\/\/shop_images\/rad2.png"
           }
         },
-        "1560507334237": {
-          "type": "featured_collection",
+        "74434e2d-7316-4cea-a46d-2fe1337dab28": {
+          "type": "slide",
           "settings": {
-            "collection": "men-shoes",
-            "url": "",
-            "collection_name": "MEN SHIRTS",
-            "collection_name2": "Up to 70% off on selected item",
-            "talign": "tc",
-            "text_pos": "f-jcc f-aie",
-            "collection_btn": "Shop Now",
-            "width": "50"
+            "product": "ranger"
           }
         },
-        "1560507278694-1": {
-          "type": "featured_collection",
+        "f8ffd36a-8915-47a9-930d-e2ad87fcd760": {
+          "type": "slide",
           "settings": {
-            "collection": "hot-collection",
-            "url": "",
-            "collection_name": "DENIM",
-            "collection_name2": "Find your perfect outfit",
-            "talign": "tc",
-            "text_pos": "f-jcc f-aie",
-            "collection_btn": "Shop Now",
-            "width": "50"
-          }
-        },
-        "1560593691516": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "accssories",
-            "url": "",
-            "collection_name": "ACCESSORIES",
-            "collection_name2": "add finishing touch to your outfit",
-            "talign": "tc",
-            "text_pos": "f-jcc f-aie",
-            "collection_btn": "Shop Now",
-            "width": "50"
+            "product": "ranger"
           }
         }
       },
       "block_order": [
-        "1560507278694-0",
-        "1560507334237",
-        "1560507278694-1",
-        "1560593691516"
+        "aced053b-8c7e-443c-ba77-07bf8bef930e",
+        "74434e2d-7316-4cea-a46d-2fe1337dab28",
+        "f8ffd36a-8915-47a9-930d-e2ad87fcd760"
       ],
       "settings": {
-        "title": "",
-        "subtitle": "",
-        "top-offeset": "small",
-        "section_width": false,
-        "npd": false,
-        "hide_mobile": true,
-        "grid-spacing": 20,
-        "grid-spacing-mbl": 5,
-        "grid-spacing-col": 2,
-        "box-width": 50,
-        "cl": "#000000",
-        "isbox": true,
-        "bg": "#ffffff",
-        "bxopt": 1,
-        "bdr": 0,
-        "tfs": 16,
-        "tfsm": 15,
-        "tff": "ft2",
-        "tfw": "700",
-        "tlh": 1.1,
-        "fs": 13,
-        "fsm": 12,
-        "fw": "400",
-        "lh": 1.2,
-        "disable_zoom": false,
-        "show_buttons": true,
-        "btn-style": "btn",
-        "btn-size-desk": "btn-sm",
-        "btn-size-mob": "mob-btn-sm",
-        "snow_effect": false,
-        "snow_style": "style1"
-      }
-    },
-    "1633781728a88de982": {
-      "type": "product-slider",
-      "settings": {
-        "title": "<b>NEW ARRIVALS<\/b>",
-        "subtitle": "Shop our new arrivals from established brands",
-        "top-offeset": "default",
-        "section_width": false,
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa",
-        "collection": "women",
-        "prbox_style": "style1",
-        "grid": 4,
-        "tablet-grid": 3,
-        "mobile-grid": 2,
-        "rows": 5,
-        "secondary_image": true,
-        "show_vendor": false,
-        "prlist_btn_show": false,
-        "btn_mobiles": true,
-        "show_view_all": "",
-        "show_color_swatch": true,
-        "color_type": "color",
-        "vr_bg_position": "50% 0",
-        "color_size": "small",
-        "autoplay": false,
-        "speed": 5
-      }
-    },
-    "163378174190f4bb4d": {
-      "type": "collections-banners",
-      "blocks": {
-        "1561783119274-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "women",
-            "url": "",
-            "collection_name": "FIND THE BEST COLLECTION AROUND THE WORLD",
-            "collection_name2": "",
-            "talign": "tc",
-            "text_pos": "f-jcc f-aie",
-            "collection_btn": "Shop Now",
-            "width": "50"
-          }
-        },
-        "1561783119274-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "women-fashion",
-            "url": "",
-            "collection_name": "AWESOME T-SHIRTS, CROP TOPS AND MORE...",
-            "collection_name2": "",
-            "talign": "tc",
-            "text_pos": "f-jcc f-aie",
-            "collection_btn": "VIEW COLLECTION",
-            "width": "50"
-          }
-        }
-      },
-      "block_order": [
-        "1561783119274-0",
-        "1561783119274-1"
-      ],
-      "settings": {
-        "title": "",
-        "subtitle": "",
-        "top-offeset": "default",
-        "section_width": false,
-        "npd": false,
-        "hide_mobile": false,
-        "grid-spacing": 20,
-        "grid-spacing-mbl": 5,
-        "grid-spacing-col": 2,
-        "box-width": 60,
-        "cl": "#000000",
-        "isbox": true,
-        "bg": "#ffffff",
-        "bxopt": 1,
-        "bdr": 0,
-        "tfs": 17,
-        "tfsm": 15,
-        "tff": "ft2",
-        "tfw": "700",
-        "tlh": 1.2,
-        "fs": 13,
-        "fsm": 12,
-        "fw": "400",
-        "lh": 1.2,
-        "disable_zoom": false,
-        "show_buttons": true,
-        "btn-style": "btn",
-        "btn-size-desk": "btn-md",
-        "btn-size-mob": "mob-btn-sm",
-        "snow_effect": false,
-        "snow_style": "style1"
-      }
-    },
-    "1633781759ce68e676": {
-      "type": "logo-list",
-      "blocks": {
-        "1561785365595-0": {
-          "type": "logo_image",
-          "settings": {
-            "link": "https:\/\/1.envato.market\/x5PKR",
-            "opentab": true
-          }
-        },
-        "1561785365595-1": {
-          "type": "logo_image",
-          "settings": {
-            "link": "https:\/\/1.envato.market\/Der4n",
-            "opentab": true
-          }
-        },
-        "1561785365595-2": {
-          "type": "logo_image",
-          "settings": {
-            "link": "",
-            "opentab": false
-          }
-        },
-        "1561785365595-5": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3.png",
-            "link": "",
-            "opentab": false
-          }
-        },
-        "1561785365595-3": {
-          "type": "logo_image",
-          "settings": {
-            "link": "",
-            "opentab": false
-          }
-        },
-        "4b26f056-96cf-4a45-888c-72275de56221": {
-          "type": "logo_image",
-          "settings": {
-            "link": "",
-            "opentab": false
-          }
-        }
-      },
-      "block_order": [
-        "1561785365595-0",
-        "1561785365595-1",
-        "1561785365595-2",
-        "1561785365595-5",
-        "1561785365595-3",
-        "4b26f056-96cf-4a45-888c-72275de56221"
-      ],
-      "settings": {
-        "title": "",
-        "subtitle": "",
-        "top-offeset": "default",
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa",
-        "logostyle": "carousel",
-        "grid": 5,
-        "tablet-grid": 5,
-        "mobile-grid": 3
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "title": "All HEYBIKE Models",
+        "btn_Text": "Order now",
+        "bg_color": "#f3f5f9"
       }
     },
     "1633781776086e75a0": {
@@ -398,12 +176,123 @@
         "btn-size-mob": "mob-btn-sm"
       }
     },
+    "6466a547-b260-459b-b173-ee05a2e100ae": {
+      "type": "logo-slider",
+      "blocks": {
+        "6029181d-3f62-44e0-aa3e-438b6cddb31c": {
+          "type": "slide",
+          "settings": {
+            "text_main": "Grazie a una batteria facilmente estraibile, pneumatici più larghi e luce anteriore integrata.",
+            "text_sub": "- Largest moto-comtmunity in Italy",
+            "logo_image": "shopify:\/\/shop_images\/techpulse-logo_1_165x_4e1bcc1a-b0d4-429b-8190-89d7cb8118a6.webp"
+          }
+        },
+        "4154eb24-d1e7-4988-890f-30696b81b6ea": {
+          "type": "slide",
+          "settings": {
+            "text_main": "Grazie a una batteria facilmente estraibile, pneumatici più larghi e luce anteriore integrata.",
+            "text_sub": "- Largest moto-comtmunity in Italy",
+            "logo_image": "shopify:\/\/shop_images\/ebikenews_165x_a873ffa6-8b92-4a63-86bd-c224f534e982.webp"
+          }
+        },
+        "bfd88edc-65df-4713-b474-231d6eb30b82": {
+          "type": "slide",
+          "settings": {
+            "text_main": "Grazie a una batteria facilmente estraibile, pneumatici più larghi e luce anteriore integrata.",
+            "text_sub": "- Largest moto-comtmunity in Italy",
+            "logo_image": "shopify:\/\/shop_images\/4_460x_64ac0520-cb86-4f17-9e63-fe1a915829cf.webp"
+          }
+        },
+        "32c33951-7d78-4c30-9e61-72ec75ab3884": {
+          "type": "slide",
+          "settings": {
+            "text_main": "Grazie a una batteria facilmente estraibile, pneumatici più larghi e luce anteriore integrata.",
+            "text_sub": "- Largest moto-comtmunity in Italy",
+            "logo_image": "shopify:\/\/shop_images\/2E9802AA-AFF0-4B6B-A17B-8F98E2998FCA.png"
+          }
+        },
+        "707889c1-1ed2-47d6-b2ea-e60f9ad69530": {
+          "type": "slide",
+          "settings": {
+            "text_main": "Grazie a una batteria facilmente estraibile, pneumatici più larghi e luce anteriore integrata.",
+            "text_sub": "- Largest moto-comtmunity in Italy",
+            "logo_image": "shopify:\/\/shop_images\/ebikenews_165x_a873ffa6-8b92-4a63-86bd-c224f534e982.webp"
+          }
+        }
+      },
+      "block_order": [
+        "6029181d-3f62-44e0-aa3e-438b6cddb31c",
+        "4154eb24-d1e7-4988-890f-30696b81b6ea",
+        "bfd88edc-65df-4713-b474-231d6eb30b82",
+        "32c33951-7d78-4c30-9e61-72ec75ab3884",
+        "707889c1-1ed2-47d6-b2ea-e60f9ad69530"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "small",
+        "bg_img": "shopify:\/\/shop_images\/image_2.webp"
+      }
+    },
+    "8ac0dd31-ebc0-46e2-867c-a7d6e2e0fd90": {
+      "type": "data-statistics",
+      "blocks": {
+        "55af95fe-1f67-44a9-922b-0a20b4838325": {
+          "type": "slide",
+          "settings": {
+            "text_main": "1,754,852",
+            "text_suf": "mile",
+            "text_sub": "Total Distance Riden"
+          }
+        },
+        "2cec7d8f-443d-475d-82d9-58b68117bc6d": {
+          "type": "slide",
+          "settings": {
+            "text_main": "80000",
+            "text_suf": "+",
+            "text_sub": "Active Riders"
+          }
+        },
+        "3b0e13f5-a095-46d4-afa9-e33dfc671812": {
+          "type": "slide",
+          "settings": {
+            "text_main": "9,989,368",
+            "text_suf": "lb",
+            "text_sub": "Total CO₂ Emissions Saved"
+          }
+        },
+        "752b2092-7e2b-4a37-b195-38804c6a344e": {
+          "type": "slide",
+          "settings": {
+            "text_main": "987,865",
+            "text_suf": "pcs",
+            "text_sub": "Equivalent Trees Planted"
+          }
+        }
+      },
+      "block_order": [
+        "55af95fe-1f67-44a9-922b-0a20b4838325",
+        "2cec7d8f-443d-475d-82d9-58b68117bc6d",
+        "3b0e13f5-a095-46d4-afa9-e33dfc671812",
+        "752b2092-7e2b-4a37-b195-38804c6a344e"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "top_padding": "none",
+        "bottom_padding": "large",
+        "bg_color": "#f3f5f9",
+        "title": "Go Green with Heybike",
+        "image": "shopify:\/\/shop_images\/ebikenews_165x_6cf7a577-5822-4465-a103-659a3564a872.webp"
+      }
+    },
     "16337817926d98687d": {
       "type": "store-features",
       "blocks": {
         "1561784085337-0": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/2_200x_f66b3247-c485-42f3-b661-f3df86dad90b.png",
             "icons": "at-ship-fast",
             "title": "Fast Shipping",
             "text": "<p>Free shippinShips to 48 States & Canadag on all US orders<\/p>",
@@ -413,24 +302,17 @@
         "1561784085337-2": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/3_200x_27ac67d4-98a6-4165-ae9d-f3c25601b00b.png",
             "icons": "at-phone-24",
             "title": "Fast Support",
             "text": "<p>Email & Phone Service<\/p>",
             "texturl": ""
           }
         },
-        "0957534a-705f-459c-aa1f-5dd35845dc17": {
-          "type": "text_block",
-          "settings": {
-            "icons": "at-reply-all",
-            "title": "30-Day Trial",
-            "text": "<p>Buy with Confidence<\/p>",
-            "texturl": ""
-          }
-        },
         "1561784085337-1": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/1_200x_dc00fca6-aa97-4035-bd8b-4eab3aee6f0d.png",
             "icons": "at-map-marker-al",
             "title": "Find a Dealer",
             "text": "<p>Book a Free Test Ride<\/p>",
@@ -441,24 +323,29 @@
       "block_order": [
         "1561784085337-0",
         "1561784085337-2",
-        "0957534a-705f-459c-aa1f-5dd35845dc17",
         "1561784085337-1"
       ],
+      "custom_css": [
+        ".sec-ttl .h3,div.sec-ttl p {color: #fff;}"
+      ],
       "settings": {
+        "top_padding": "large",
+        "bottom_padding": "large",
         "top-offeset": "none",
+        "section_style": "heybike",
         "section_width": false,
         "section_cov": true,
-        "sec_bg_clr": "#131313",
+        "sec_bg_clr": "#232426",
         "hide_mobile": false,
-        "title": "",
-        "subtitle": "",
-        "style": "style2",
-        "icon-type": "icon",
+        "title": "Great Bikes. Even Better Service.",
+        "subtitle": "You are at the center of our hearts.",
+        "style": "style1",
+        "icon-type": "image",
         "icons_clr": "#ffffff",
-        "isz": 38,
+        "isz": 75,
         "tcl": "#ffffff",
-        "tfs": 14,
-        "tfsm": 12,
+        "tfs": 24,
+        "tfsm": 20,
         "tfw": "600",
         "tlh": 1.2,
         "cl": "#eeeeee",
@@ -468,11 +355,10 @@
   },
   "order": [
     "slideshow",
-    "1633781722aeb0502c",
-    "1633781728a88de982",
-    "163378174190f4bb4d",
-    "1633781759ce68e676",
+    "583b741b-600f-49b4-9c12-175b587241ee",
     "1633781776086e75a0",
+    "6466a547-b260-459b-b173-ee05a2e100ae",
+    "8ac0dd31-ebc0-46e2-867c-a7d6e2e0fd90",
     "16337817926d98687d"
   ]
 }

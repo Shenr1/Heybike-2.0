@@ -2,12 +2,12 @@
 {% if secSt.section_style == 'heybike' %} {% assign hbStyle = true %} {% else %} {% assign hbStyle = false %} {% endif %}
 
 {%- capture storeFeatures -%}
-  <div class="content-indent {{ secSt.top-offeset}}{% if secSt.hide_mobile %} hide-sm{% endif %}">  
+  <div section-name="store-features" class="content-indent {{ secSt.top-offeset}}{% if secSt.hide_mobile %} hide-sm{% endif %}">  
     {% if secSt.section_cov %} <div class="section-cover {% render 'section-interva-set' , secSt:secSt %}"
      style="background-color:{{secSt.sec_bg_clr}};"> {% endif%}
       <div class="{% unless section.settings.section_width %}page-width{% else %}fullwidth{% endunless %} wow fadeIn">          
       
-      <section class="{% if hbStyle %} mb-20 {% endif %}">
+      <section {% if hbStyle %}tag-name="features-header"{% endif %} class="{% if hbStyle %} mb-20 {% endif %}">
         {% render 'sec-title' %}
       </section>
 
