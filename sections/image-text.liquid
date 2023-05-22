@@ -1,28 +1,31 @@
 {%- assign secSt = section.settings -%}
 
-<section section-name="image-text" class="{% render 'section-interva-set' , secSt:secSt %}" >
-  <div class="page-width px-4">
+{% if secSt.bg_img != blank %}
+  <section section-name="image-text" class="{% render 'section-interva-set' , secSt:secSt %}" >
+    <div class="page-width px-4">
 
-    <div class="rounded-section flex overflow-hidden" style="background-color:{{secSt.bg_color}};">
-      <div class="w-3/5" >
-        {{ secSt.bg_img | image_url: width: 800 | image_tag: width: nil, loading: 'lazy' }}
-      </div>
-      <div class="w-2/5 flex flex-col justify-center mb-8 text-white md:pl-6">
-        <h1 class="text-4xl">{{ secSt.text_main  }}</h1>
-        <p class="text-xl mb-8">{{ secSt.text_sub  }}</p>
-        <div>
-          <a href="{{ secSt.url }}" class="btn btn-contrast text-base py-1 px-5">{{ secSt.text_btn  }}</a>
+      <div class="rounded-section flex overflow-hidden" style="background-color:{{secSt.bg_color}};">
+        <div class="w-3/5" >
+          {{ secSt.bg_img | image_url: width: 800 | image_tag: width: nil, loading: 'lazy' }}
+        </div>
+        <div class="w-2/5 flex flex-col justify-center mb-8 text-white md:pl-6">
+          <h1 class="text-4xl">{{ secSt.text_main  }}</h1>
+          <p class="text-xl mb-8">{{ secSt.text_sub  }}</p>
+          <div>
+            <a href="{{ secSt.url }}" class="btn btn-contrast text-base py-1 px-5">{{ secSt.text_btn  }}</a>
+          </div>
         </div>
       </div>
-    </div>
 
-  </div>
-</section>  
+    </div>
+  </section>  
+{% endif %}
+
 
 
 {% schema %}
   {
-    "name": "Image text v2",
+    "name": "Single image text v2",
     "tag": "section",
     "settings": [
       {
@@ -125,7 +128,7 @@
     ],
     "presets": [
         {
-          "name": "Image text v2",
+          "name": "Single image text v2",
           "category": "Heybike v2"
         }
       ]

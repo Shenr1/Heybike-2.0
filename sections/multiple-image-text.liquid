@@ -1,0 +1,172 @@
+{%- assign secSt = section.settings -%}
+
+<section section-name="multiple-image-text" class="{% render 'section-interva-set' , secSt:secSt %}" >
+  <div class="page-width px-4">
+
+    <h1 class="text-4_5xl text-center mb-12">{{secSt.title}}</h1>
+
+    <div class="flex" >
+
+      {% for block in section.blocks %}
+      {%- assign blkSt = block.settings -%}
+
+      {% if blkSt.bg_img != blank %}
+      <div class="{{blkSt.slide_w}} mr-6 last:mr-0 flex flex-col">
+        <div class="rounded-section overflow-hidden h-full mb-6" style="background-color:{{blkSt.bg_color}};">
+          {{ blkSt.bg_img | image_url: width: 800 | image_tag: width: nil, loading: 'lazy', class: "h-full object-cover" }}
+        </div>
+        <h1 class="text-3xl mb-2">{{ blkSt.text_main  }}</h1>
+        <p class="text-lg">{{ blkSt.text_sub  }}</p>
+      </div>
+      {% endif %}
+
+      {% endfor %}
+
+
+
+
+    </div>
+
+  </div>
+</section>  
+
+
+
+{% schema %}
+  {
+    "name": "Multiple image text v2",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Section interval set"
+      },
+      {
+        "type": "select",
+        "id": "top_padding",
+        "label": "top interval",
+        "default": "large",
+        "options": [
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding",
+        "label": "bottom interval",
+        "default": "default",
+        "options": [
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Default set"
+      },
+      {
+        "type":"text",
+        "label": "Section title",
+        "id":"title",
+        "default":"The World of HEYBIKE"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Slide",
+        "type": "slide",
+        "settings": [
+          {
+            "type": "select",
+            "id": "slide_w",
+            "label": "Slide width",
+            "options": [
+              {
+                "value": "w-1/3",
+                "label": "1/3"
+              },
+              {
+                "value": "w-2/3",
+                "label": "2/3"
+              },
+              {
+                "value": "w-full",
+                "label": "full"
+              }
+            ]
+          },
+          {
+            "type": "color",
+            "id": "bg_color",
+            "label": "Background color"
+          },
+          {
+            "type": "image_picker",
+            "id": "bg_img",
+            "label": "Slide image"
+          },
+          {
+            "type": "text",
+            "id": "text_main",
+            "label": "Title",
+            "default": "Find Dealers Near You"
+          },
+          {
+            "type": "text",
+            "id": "text_sub",
+            "label": "Sub title",
+            "default": "Test Ride & Buy Directly"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "Button link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Multiple image text v2",
+        "category": "Heybike v2"
+      }
+    ]
+  }
+{% endschema %} 
