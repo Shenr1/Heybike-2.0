@@ -425,12 +425,12 @@
             "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
-            "tcl": "#000",
-            "cl": "#000",
+            "tcl": "#000000",
+            "cl": "#000000",
             "bg": "#f3f5f9",
-            "btncl": "#fff",
-            "btnbg": "#000",
-            "btnbd": "#000"
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
           }
         }
       },
@@ -466,6 +466,7 @@
     },
     "1633781776086e75a0": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "title": "<b>Heybike Blog<\/b>",
         "subtitle": "Learn more about E-bike knowledge and information",
