@@ -8,14 +8,14 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/banner-600.webp",
             "ialign": "center_center",
-            "hd1": "START A FREE TRIAL AND ENJOY",
+            "hd1": "Electric Bike",
             "pcl": "#ffffff",
-            "title": "<b> Ultralight bike<br> One hand can be lifted<\/b>",
+            "title": "Bring an Ideal <br>\nUrban Life",
             "tcl": "#ffffff",
-            "hd3": "Creative, Flexible and High Performance shopify theme!",
+            "hd3": "",
             "hideh3": true,
             "cl": "#ffffff",
-            "btn": "Shop Now",
+            "btn": "Shop Now &nbsp >",
             "link": "https:\/\/shopify.pxf.io\/qn6kKy",
             "btn1window": true,
             "btn-style": "btn",
@@ -26,7 +26,7 @@
             "btn-style1": "btn1",
             "contwd": 1300,
             "text-left": false,
-            "txtpos": "f-aic-md f-jcs-md",
+            "txtpos": "f-jce-md f-aic-md",
             "txtposm": "f-jcc f-aie"
           }
         },
@@ -72,16 +72,16 @@
         "box-width": 1500,
         "isovr": false,
         "obg": "#3d4246",
-        "oopt": 0,
-        "pfs": 16,
-        "pfsm": 13,
+        "oopt": 0.5,
+        "pfs": 30,
+        "pfsm": 22,
         "pff": "ft1",
         "pfw": "400",
         "plh": 1.2,
         "pmb": 0,
         "pmbm": 0,
-        "bfs": 47,
-        "bfsm": 28,
+        "bfs": 72,
+        "bfsm": 48,
         "bff": "ft2",
         "bfw": "700",
         "blh": 1.1,
@@ -372,32 +372,6 @@
         "mobile-grid": 3
       }
     },
-    "1633781776086e75a0": {
-      "type": "featured-blog",
-      "settings": {
-        "title": "<b>Heybike Blog<\/b>",
-        "subtitle": "Learn more about E-bike knowledge and information",
-        "top-offeset": "default",
-        "section_cov": true,
-        "sec_bg_clr": "#fafafa",
-        "blog": "news",
-        "img_ratio": "50",
-        "post_limit": 3,
-        "grid": 3,
-        "tablet-grid": 2,
-        "mobile-grid": 1,
-        "blog_align": "text-center",
-        "blog_show_author": false,
-        "blog_show_date": true,
-        "show_comment": true,
-        "show_mini_des": false,
-        "show_read_more": false,
-        "show_view_all": false,
-        "btn-style": "btn",
-        "btn-size-desk": "btn-sm",
-        "btn-size-mob": "mob-btn-sm"
-      }
-    },
     "16337817926d98687d": {
       "type": "store-features",
       "blocks": {
@@ -460,6 +434,32 @@
         "cl": "#eeeeee",
         "border_sep": "rgba(0,0,0,0)"
       }
+    },
+    "1633781776086e75a0": {
+      "type": "featured-blog",
+      "settings": {
+        "title": "<b>Heybike Blog<\/b>",
+        "subtitle": "Learn more about E-bike knowledge and information",
+        "top-offeset": "default",
+        "section_cov": true,
+        "sec_bg_clr": "#fafafa",
+        "blog": "news",
+        "img_ratio": "50",
+        "post_limit": 3,
+        "grid": 3,
+        "tablet-grid": 2,
+        "mobile-grid": 1,
+        "blog_align": "text-center",
+        "blog_show_author": false,
+        "blog_show_date": true,
+        "show_comment": true,
+        "show_mini_des": false,
+        "show_read_more": false,
+        "show_view_all": false,
+        "btn-style": "btn",
+        "btn-size-desk": "btn-sm",
+        "btn-size-mob": "mob-btn-sm"
+      }
     }
   },
   "order": [
@@ -468,7 +468,7 @@
     "1633781728a88de982",
     "163378174190f4bb4d",
     "1633781759ce68e676",
-    "1633781776086e75a0",
-    "16337817926d98687d"
+    "16337817926d98687d",
+    "1633781776086e75a0"
   ]
 }
