@@ -113,263 +113,41 @@
         "snow_style": "style1"
       }
     },
-    "1633781722aeb0502c": {
-      "type": "collections-banners",
+    "583b741b-600f-49b4-9c12-175b587241ee": {
+      "type": "products-slider-full",
       "blocks": {
-        "1560507278694-0": {
-          "type": "featured_collection",
+        "aced053b-8c7e-443c-ba77-07bf8bef930e": {
+          "type": "slide",
           "settings": {
-            "collection": "women",
-            "url": "",
-            "collection_name": "WOMEN TOPS",
-            "collection_name2": "From world's top designer",
-            "talign": "tc",
-            "text_pos": "f-jcc f-aie",
-            "collection_btn": "DISCOVER NOW",
-            "width": "50"
+            "product": "ranger",
+            "product_image": "shopify:\/\/shop_images\/11_950x_52f08972-a403-430f-8d50-db3fdbf3c15a.png",
+            "tags_image": "shopify:\/\/shop_images\/rad2.png"
           }
         },
-        "1560507334237": {
-          "type": "featured_collection",
+        "74434e2d-7316-4cea-a46d-2fe1337dab28": {
+          "type": "slide",
           "settings": {
-            "collection": "men-shoes",
-            "url": "",
-            "collection_name": "MEN SHIRTS",
-            "collection_name2": "Up to 70% off on selected item",
-            "talign": "tc",
-            "text_pos": "f-jcc f-aie",
-            "collection_btn": "Shop Now",
-            "width": "50"
+            "product": "ranger"
           }
         },
-        "1560507278694-1": {
-          "type": "featured_collection",
+        "f8ffd36a-8915-47a9-930d-e2ad87fcd760": {
+          "type": "slide",
           "settings": {
-            "collection": "hot-collection",
-            "url": "",
-            "collection_name": "DENIM",
-            "collection_name2": "Find your perfect outfit",
-            "talign": "tc",
-            "text_pos": "f-jcc f-aie",
-            "collection_btn": "Shop Now",
-            "width": "50"
-          }
-        },
-        "1560593691516": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "accssories",
-            "url": "",
-            "collection_name": "ACCESSORIES",
-            "collection_name2": "add finishing touch to your outfit",
-            "talign": "tc",
-            "text_pos": "f-jcc f-aie",
-            "collection_btn": "Shop Now",
-            "width": "50"
+            "product": "ranger"
           }
         }
       },
       "block_order": [
-        "1560507278694-0",
-        "1560507334237",
-        "1560507278694-1",
-        "1560593691516"
+        "aced053b-8c7e-443c-ba77-07bf8bef930e",
+        "74434e2d-7316-4cea-a46d-2fe1337dab28",
+        "f8ffd36a-8915-47a9-930d-e2ad87fcd760"
       ],
       "settings": {
-        "title": "",
-        "subtitle": "",
-        "top-offeset": "small",
-        "section_width": false,
-        "npd": false,
-        "hide_mobile": true,
-        "grid-spacing": 20,
-        "grid-spacing-mbl": 5,
-        "grid-spacing-col": 2,
-        "box-width": 50,
-        "cl": "#000000",
-        "isbox": true,
-        "bg": "#ffffff",
-        "bxopt": 1,
-        "bdr": 0,
-        "tfs": 16,
-        "tfsm": 15,
-        "tff": "ft2",
-        "tfw": "700",
-        "tlh": 1.1,
-        "fs": 13,
-        "fsm": 12,
-        "fw": "400",
-        "lh": 1.2,
-        "disable_zoom": false,
-        "show_buttons": true,
-        "btn-style": "btn",
-        "btn-size-desk": "btn-sm",
-        "btn-size-mob": "mob-btn-sm",
-        "snow_effect": false,
-        "snow_style": "style1"
-      }
-    },
-    "1633781728a88de982": {
-      "type": "product-slider",
-      "settings": {
-        "title": "<b>NEW ARRIVALS<\/b>",
-        "subtitle": "Shop our new arrivals from established brands",
-        "top-offeset": "default",
-        "section_width": false,
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa",
-        "collection": "women",
-        "prbox_style": "style1",
-        "grid": 4,
-        "tablet-grid": 3,
-        "mobile-grid": 2,
-        "rows": 5,
-        "secondary_image": true,
-        "show_vendor": false,
-        "prlist_btn_show": false,
-        "btn_mobiles": true,
-        "show_view_all": "",
-        "show_color_swatch": true,
-        "color_type": "color",
-        "vr_bg_position": "50% 0",
-        "color_size": "small",
-        "autoplay": false,
-        "speed": 5
-      }
-    },
-    "163378174190f4bb4d": {
-      "type": "collections-banners",
-      "blocks": {
-        "1561783119274-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "women",
-            "url": "",
-            "collection_name": "FIND THE BEST COLLECTION AROUND THE WORLD",
-            "collection_name2": "",
-            "talign": "tc",
-            "text_pos": "f-jcc f-aie",
-            "collection_btn": "Shop Now",
-            "width": "50"
-          }
-        },
-        "1561783119274-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "women-fashion",
-            "url": "",
-            "collection_name": "AWESOME T-SHIRTS, CROP TOPS AND MORE...",
-            "collection_name2": "",
-            "talign": "tc",
-            "text_pos": "f-jcc f-aie",
-            "collection_btn": "VIEW COLLECTION",
-            "width": "50"
-          }
-        }
-      },
-      "block_order": [
-        "1561783119274-0",
-        "1561783119274-1"
-      ],
-      "settings": {
-        "title": "",
-        "subtitle": "",
-        "top-offeset": "default",
-        "section_width": false,
-        "npd": false,
-        "hide_mobile": false,
-        "grid-spacing": 20,
-        "grid-spacing-mbl": 5,
-        "grid-spacing-col": 2,
-        "box-width": 60,
-        "cl": "#000000",
-        "isbox": true,
-        "bg": "#ffffff",
-        "bxopt": 1,
-        "bdr": 0,
-        "tfs": 17,
-        "tfsm": 15,
-        "tff": "ft2",
-        "tfw": "700",
-        "tlh": 1.2,
-        "fs": 13,
-        "fsm": 12,
-        "fw": "400",
-        "lh": 1.2,
-        "disable_zoom": false,
-        "show_buttons": true,
-        "btn-style": "btn",
-        "btn-size-desk": "btn-md",
-        "btn-size-mob": "mob-btn-sm",
-        "snow_effect": false,
-        "snow_style": "style1"
-      }
-    },
-    "1633781759ce68e676": {
-      "type": "logo-list",
-      "blocks": {
-        "1561785365595-0": {
-          "type": "logo_image",
-          "settings": {
-            "link": "https:\/\/1.envato.market\/x5PKR",
-            "opentab": true
-          }
-        },
-        "1561785365595-1": {
-          "type": "logo_image",
-          "settings": {
-            "link": "https:\/\/1.envato.market\/Der4n",
-            "opentab": true
-          }
-        },
-        "1561785365595-2": {
-          "type": "logo_image",
-          "settings": {
-            "link": "",
-            "opentab": false
-          }
-        },
-        "1561785365595-5": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3.png",
-            "link": "",
-            "opentab": false
-          }
-        },
-        "1561785365595-3": {
-          "type": "logo_image",
-          "settings": {
-            "link": "",
-            "opentab": false
-          }
-        },
-        "4b26f056-96cf-4a45-888c-72275de56221": {
-          "type": "logo_image",
-          "settings": {
-            "link": "",
-            "opentab": false
-          }
-        }
-      },
-      "block_order": [
-        "1561785365595-0",
-        "1561785365595-1",
-        "1561785365595-2",
-        "1561785365595-5",
-        "1561785365595-3",
-        "4b26f056-96cf-4a45-888c-72275de56221"
-      ],
-      "settings": {
-        "title": "",
-        "subtitle": "",
-        "top-offeset": "default",
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa",
-        "logostyle": "carousel",
-        "grid": 5,
-        "tablet-grid": 5,
-        "mobile-grid": 3
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "title": "All HEYBIKE Models",
+        "btn_Text": "Order now",
+        "bg_color": "#f3f5f9"
       }
     },
     "16337817926d98687d": {
@@ -464,10 +242,7 @@
   },
   "order": [
     "slideshow",
-    "1633781722aeb0502c",
-    "1633781728a88de982",
-    "163378174190f4bb4d",
-    "1633781759ce68e676",
+    "583b741b-600f-49b4-9c12-175b587241ee",
     "16337817926d98687d",
     "1633781776086e75a0"
   ]
