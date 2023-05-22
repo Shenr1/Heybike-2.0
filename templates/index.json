@@ -150,69 +150,6 @@
         "bg_color": "#f3f5f9"
       }
     },
-    "16337817926d98687d": {
-      "type": "store-features",
-      "blocks": {
-        "1561784085337-0": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_200x_f66b3247-c485-42f3-b661-f3df86dad90b.png",
-            "icons": "at-ship-fast",
-            "title": "Fast Shipping",
-            "text": "<p>Free shippinShips to 48 States & Canadag on all US orders<\/p>",
-            "texturl": ""
-          }
-        },
-        "1561784085337-2": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3_200x_27ac67d4-98a6-4165-ae9d-f3c25601b00b.png",
-            "icons": "at-phone-24",
-            "title": "Fast Support",
-            "text": "<p>Email & Phone Service<\/p>",
-            "texturl": ""
-          }
-        },
-        "1561784085337-1": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_200x_dc00fca6-aa97-4035-bd8b-4eab3aee6f0d.png",
-            "icons": "at-map-marker-al",
-            "title": "Find a Dealer",
-            "text": "<p>Book a Free Test Ride<\/p>",
-            "texturl": ""
-          }
-        }
-      },
-      "block_order": [
-        "1561784085337-0",
-        "1561784085337-2",
-        "1561784085337-1"
-      ],
-      "settings": {
-        "top_padding": "none",
-        "bottom_padding": "large",
-        "top-offeset": "none",
-        "section_style": "heybike",
-        "section_width": false,
-        "section_cov": true,
-        "sec_bg_clr": "#131313",
-        "hide_mobile": false,
-        "title": "Great Bikes. Even Better Service.",
-        "subtitle": "You are at the center of our hearts.",
-        "style": "style2",
-        "icon-type": "image",
-        "icons_clr": "#ffffff",
-        "isz": 38,
-        "tcl": "#ffffff",
-        "tfs": 14,
-        "tfsm": 12,
-        "tfw": "600",
-        "tlh": 1.2,
-        "cl": "#eeeeee",
-        "border_sep": "rgba(0,0,0,0)"
-      }
-    },
     "1633781776086e75a0": {
       "type": "featured-blog",
       "settings": {
@@ -345,14 +282,77 @@
         "title": "Go Green with Heybike",
         "image": "shopify:\/\/shop_images\/ebikenews_165x_6cf7a577-5822-4465-a103-659a3564a872.webp"
       }
+    },
+    "16337817926d98687d": {
+      "type": "store-features",
+      "blocks": {
+        "1561784085337-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_200x_f66b3247-c485-42f3-b661-f3df86dad90b.png",
+            "icons": "at-ship-fast",
+            "title": "Fast Shipping",
+            "text": "<p>Free shippinShips to 48 States & Canadag on all US orders<\/p>",
+            "texturl": ""
+          }
+        },
+        "1561784085337-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_200x_27ac67d4-98a6-4165-ae9d-f3c25601b00b.png",
+            "icons": "at-phone-24",
+            "title": "Fast Support",
+            "text": "<p>Email & Phone Service<\/p>",
+            "texturl": ""
+          }
+        },
+        "1561784085337-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_200x_dc00fca6-aa97-4035-bd8b-4eab3aee6f0d.png",
+            "icons": "at-map-marker-al",
+            "title": "Find a Dealer",
+            "text": "<p>Book a Free Test Ride<\/p>",
+            "texturl": ""
+          }
+        }
+      },
+      "block_order": [
+        "1561784085337-0",
+        "1561784085337-2",
+        "1561784085337-1"
+      ],
+      "settings": {
+        "top_padding": "none",
+        "bottom_padding": "large",
+        "top-offeset": "none",
+        "section_style": "heybike",
+        "section_width": false,
+        "section_cov": true,
+        "sec_bg_clr": "#131313",
+        "hide_mobile": false,
+        "title": "Great Bikes. Even Better Service.",
+        "subtitle": "You are at the center of our hearts.",
+        "style": "style2",
+        "icon-type": "image",
+        "icons_clr": "#ffffff",
+        "isz": 38,
+        "tcl": "#ffffff",
+        "tfs": 14,
+        "tfsm": 12,
+        "tfw": "600",
+        "tlh": 1.2,
+        "cl": "#eeeeee",
+        "border_sep": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
     "slideshow",
     "583b741b-600f-49b4-9c12-175b587241ee",
-    "16337817926d98687d",
     "1633781776086e75a0",
     "6466a547-b260-459b-b173-ee05a2e100ae",
-    "8ac0dd31-ebc0-46e2-867c-a7d6e2e0fd90"
+    "8ac0dd31-ebc0-46e2-867c-a7d6e2e0fd90",
+    "16337817926d98687d"
   ]
 }
