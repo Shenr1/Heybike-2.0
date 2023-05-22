@@ -326,10 +326,10 @@
         "1561784085337-1"
       ],
       "custom_css": [
-        ".sec-ttl .h3 ,div.sec-ttl p{color: #fff;}"
+        ".sec-ttl .h3,div.sec-ttl p {color: #fff;}"
       ],
       "settings": {
-        "top_padding": "none",
+        "top_padding": "large",
         "bottom_padding": "large",
         "top-offeset": "none",
         "section_style": "heybike",
@@ -344,8 +344,8 @@
         "icons_clr": "#ffffff",
         "isz": 38,
         "tcl": "#ffffff",
-        "tfs": 14,
-        "tfsm": 12,
+        "tfs": 24,
+        "tfsm": 20,
         "tfw": "600",
         "tlh": 1.2,
         "cl": "#eeeeee",
