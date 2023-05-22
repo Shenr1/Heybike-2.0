@@ -252,79 +252,54 @@
       "navigation": {
         "type": "navigation",
         "blocks": {
-          "1545200462991": {
-            "type": "megamenu1",
+          "86aca260-e282-40f4-97fb-c8bb57b7ef06": {
+            "type": "megamenuHb",
             "settings": {
-              "title": "E-Bikes",
+              "title": "E-Bike",
               "url": "shopify:\/\/collections\/electric-bike",
-              "newtab": false,
-              "mm_linklist": "",
-              "mmcolumns": 4,
-              "imgcall": "bottom",
-              "columnWidth": 50,
-              "mmimgcolumns": 2,
-              "imageTtl1": "",
-              "imageurl": "",
-              "imageTtl2": "",
-              "Image2url": "https:\/\/avone-demo.myshopify.com\/?_ab=0&_fd=0&_sc=1&preview_theme_id=83490242620",
-              "imageTtl3": "",
-              "Image3url": "https:\/\/avon-demo.myshopify.com\/?_ab=0&_fd=0&_sc=1&preview_theme_id=73322332227",
-              "imageTtl4": "",
-              "Image4url": "",
-              "custom_size": true,
-              "mm_size": "700",
-              "mm_align": "left",
-              "box_sized": false
+              "mm_linklist": "electric-bike",
+              "text_main1": "We've got you and your bike covered",
+              "text_sub1": "Two models to choose, either one to try",
+              "text_link1": "Explore all products",
+              "url_link1": "shopify:\/\/products\/ranger",
+              "img_url2": "shopify:\/\/shop_images\/02_c6d1e217-2ca7-4f1a-8304-c564ef6a700b.webp",
+              "text_main2": "We've got you and your bike covered",
+              "text_sub2": "Mars",
+              "text_link2": "",
+              "url_link2": "",
+              "img_url3": "shopify:\/\/shop_images\/023.webp",
+              "text_main3": "We've got you and your bike covered",
+              "text_sub3": "SERVICES",
+              "text_link3": "",
+              "url_link3": "shopify:\/\/collections\/electric-bike"
             }
           },
-          "1560070247268": {
-            "type": "megamenu1",
+          "eaf15dca-1822-4a37-8c94-bd24e939b788": {
+            "type": "megamenuHb",
             "settings": {
               "title": "Equipment",
-              "url": "shopify:\/\/collections\/accessories",
-              "newtab": false,
-              "mm_linklist": "",
-              "mmcolumns": 4,
-              "imgcall": "right",
-              "columnWidth": 24,
-              "mmimgcolumns": 1,
-              "imageTtl1": "FLAT 50% OFF ON WOMENS",
-              "imageurl": "shopify:\/\/collections\/women",
-              "imageTtl2": "",
-              "Image2url": "",
-              "imageTtl3": "",
-              "Image3url": "",
-              "imageTtl4": "",
-              "Image4url": "",
-              "custom_size": false,
-              "mm_size": "800",
-              "mm_align": "left",
-              "box_sized": false
+              "url": "",
+              "mm_linklist": "main-menu",
+              "text_main1": "We've got you and your bike covered",
+              "text_sub1": "SERVICES",
+              "text_link1": "Explore all products",
+              "url_link1": "",
+              "text_main2": "We've got you and your bike covered",
+              "text_sub2": "SERVICES",
+              "text_link2": "Explore all products",
+              "url_link2": "",
+              "text_main3": "We've got you and your bike covered",
+              "text_sub3": "SERVICES",
+              "text_link3": "Explore all products",
+              "url_link3": ""
             }
           },
-          "1560145007901": {
-            "type": "megamenu1",
+          "23b6094a-ec02-4808-bac4-8dbb5fed7f32": {
+            "type": "dropdown",
             "settings": {
               "title": "Support",
-              "url": "#",
-              "newtab": false,
-              "mm_linklist": "",
-              "mmcolumns": 5,
-              "imgcall": "right",
-              "columnWidth": 50,
-              "mmimgcolumns": 2,
-              "imageTtl1": "",
-              "imageurl": "",
-              "imageTtl2": "",
-              "Image2url": "",
-              "imageTtl3": "",
-              "Image3url": "",
-              "imageTtl4": "",
-              "Image4url": "",
-              "custom_size": false,
-              "mm_size": "600",
-              "mm_align": "left",
-              "box_sized": false
+              "url": "",
+              "mm_linklist": "support"
             }
           },
           "1559988240897": {
@@ -353,9 +328,9 @@
           }
         },
         "block_order": [
-          "1545200462991",
-          "1560070247268",
-          "1560145007901",
+          "86aca260-e282-40f4-97fb-c8bb57b7ef06",
+          "eaf15dca-1822-4a37-8c94-bd24e939b788",
+          "23b6094a-ec02-4808-bac4-8dbb5fed7f32",
           "1559988240897",
           "1559992848977",
           "ff0e6f22-f740-4d49-9986-8cbc1de21b2e"
