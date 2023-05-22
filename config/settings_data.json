@@ -301,6 +301,7 @@
           },
           "1560145007901": {
             "type": "megamenu1",
+            "disabled": true,
             "settings": {
               "title": "Support",
               "url": "#",
@@ -322,6 +323,14 @@
               "mm_size": "600",
               "mm_align": "left",
               "box_sized": false
+            }
+          },
+          "23b6094a-ec02-4808-bac4-8dbb5fed7f32": {
+            "type": "dropdown",
+            "settings": {
+              "title": "Support",
+              "url": "",
+              "mm_linklist": "support"
             }
           },
           "1559988240897": {
@@ -348,12 +357,24 @@
               "mm_linklist": ""
             }
           },
-          "23b6094a-ec02-4808-bac4-8dbb5fed7f32": {
-            "type": "dropdown",
+          "eaf15dca-1822-4a37-8c94-bd24e939b788": {
+            "type": "megamenuHb",
             "settings": {
-              "title": "Support",
+              "title": "Equipment",
               "url": "",
-              "mm_linklist": "support"
+              "mm_linklist": "main-menu",
+              "text_main1": "We've got you and your bike covered",
+              "text_sub1": "SERVICES",
+              "text_link1": "Explore all products",
+              "url_link1": "",
+              "text_main2": "We've got you and your bike covered",
+              "text_sub2": "SERVICES",
+              "text_link2": "Explore all products",
+              "url_link2": "",
+              "text_main3": "We've got you and your bike covered",
+              "text_sub3": "SERVICES",
+              "text_link3": "Explore all products",
+              "url_link3": ""
             }
           }
         },
@@ -361,10 +382,11 @@
           "86aca260-e282-40f4-97fb-c8bb57b7ef06",
           "1560070247268",
           "1560145007901",
+          "23b6094a-ec02-4808-bac4-8dbb5fed7f32",
           "1559988240897",
           "1559992848977",
           "ff0e6f22-f740-4d49-9986-8cbc1de21b2e",
-          "23b6094a-ec02-4808-bac4-8dbb5fed7f32"
+          "eaf15dca-1822-4a37-8c94-bd24e939b788"
         ],
         "settings": {
           "menuarrow": false,
