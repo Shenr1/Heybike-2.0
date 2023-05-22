@@ -352,6 +352,7 @@
         "blocks": {
           "1561010286273": {
             "type": "custom",
+            "disabled": true,
             "settings": {
               "title": "",
               "logo-width": 100,
