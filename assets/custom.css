@@ -422,6 +422,10 @@ hover{
   margin-top:auto;
 }
 
+.mr-2{
+  margin-right:0.5rem;
+}
+
 .block{
   display:block;
 }
@@ -619,6 +623,10 @@ hover{
 
 .\!bg-transparent{
   background-color:transparent !important;
+}
+
+.bg-transparent{
+  background-color:transparent;
 }
 
 .bg-gradient-to-b{
@@ -863,6 +871,10 @@ hover{
 .text-white{
   --tw-text-opacity:1;
   color:rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.caret-white{
+  caret-color:#fff;
 }
 
 .opacity-0{

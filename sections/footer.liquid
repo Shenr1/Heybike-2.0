@@ -161,9 +161,13 @@
   {% if secSt.copyright_text != blank or secSt.show_payment %}
   <div class="footer-bottom">
 
-    {% render 'localization', secSt:secSt %}
 
     <div class="fl f-aic f-jcsb f-col f-row-md{% unless secSt.section_width %} page-width{% else %} fullwidth{% endunless %}">
+        {% render 'localization', secSt:secSt %}
+        
+        
+        
+        
         {% if secSt.copyright_text != blank %}
         <div class="fl1{% if secSt.show_payment %} tc tl-md{% else %} tc{% endif %} text-black-600">
           {{ secSt.copyright_text }}

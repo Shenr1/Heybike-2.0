@@ -1,12 +1,17 @@
 
-<section>
-  <div class="flex items-center">
-    {{ blkSt.current_flag | image_url: width: 50 | image_tag: width: nil, loading: 'lazy'}}
-    {{ blkSt.current_region }}
+<section class="mr-8 flex">
+
+  <div class="flex items-center mr-2">
+    {{ secSt.current_flag | image_url: width: 18 | image_tag: width: nil, loading: 'lazy'}}
   </div>
-  <ul>
-    {% for link in linklists[blkSt.region_menu].links %}
-    <li><a href="{{ link.url }}">{{ link.title | split: '[' | first }}</a></li>
-    {% endfor %}
-  </ul>
+
+    <select onchange="location.href=this.options[this.selectedIndex].value;"
+    class="m-0 !bg-transparent text-white border-none p-0 text-base">
+      <option value= "/ ">{{ secSt.current_region }}</option>
+      {% for link in linklists[secSt.region_menu].links %}
+      <option value= "{{ link.url }} ">
+      {{ link.title | split: '[' | first }}
+      </option>
+      {% endfor %}
+    </select>
 </section>
