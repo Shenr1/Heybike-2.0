@@ -94,7 +94,7 @@
     "mob_browser": "#000",
     "scroll_icon_colors": "#f77575",
     "text_link": "#444",
-    "text_link_hv": "#f77575",
+    "text_link_hv": "#aaaaaa",
     "color_borders": "#eeeeee",
     "announcement": true,
     "announcement_mb": false,
