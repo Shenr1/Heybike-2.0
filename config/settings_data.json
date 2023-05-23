@@ -443,7 +443,7 @@
           "snow_effect": false,
           "snow_style": "style1",
           "copyright_text": "© 2023 HEYBIKE. All Rights Reserved.",
-          "show_designby": true,
+          "show_designby": false,
           "show_payment": true,
           "payment_img_width": "350"
         }
