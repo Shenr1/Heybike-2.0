@@ -447,7 +447,7 @@
           "payment_img_width": "350",
           "current_flag": "shopify:\/\/shop_images\/c07d2406fd8c110061f629dd3ffe5fdf.png",
           "current_region": "United Kingdom",
-          "region_menu": "main-menu"
+          "region_menu": "localization"
         }
       },
       "custom-colors": {
