@@ -423,8 +423,7 @@
           "0fbd70ba-a5ec-4f78-b500-98fa94c457c2": {
             "type": "socialicons",
             "settings": {
-              "title": "Follow Us",
-              "width": "wd100"
+              "title": "Follow Us"
             }
           }
         },
@@ -445,7 +444,10 @@
           "copyright_text": "© 2023 HEYBIKE. All Rights Reserved.",
           "show_designby": false,
           "show_payment": true,
-          "payment_img_width": "350"
+          "payment_img_width": "350",
+          "current_flag": "shopify:\/\/shop_images\/c07d2406fd8c110061f629dd3ffe5fdf.png",
+          "current_region": "United Kingdom",
+          "region_menu": "main-menu"
         }
       },
       "custom-colors": {
