@@ -60,7 +60,7 @@
     "navbarbdr": "rgba(0,0,0,0)",
     "navbar": "#fff",
     "navbar_link": "#000",
-    "navbar_link_hv": "#f67280",
+    "navbar_link_hv": "#aaaaaa",
     "nav_link_lbl": "#fff",
     "nav_link_lbl1": "#06b608",
     "nav_link_lbl3": "#f48920",
@@ -68,7 +68,7 @@
     "nav_link_lbl5": "#ff0000",
     "nav_shadow": true,
     "nav_mm_title_case": "none",
-    "nav_mm_link_hv": "#f67280",
+    "nav_mm_link_hv": "#aaaaaa",
     "nav_dd_link": "#444",
     "nav_dd_link_bghv": "#fafafa",
     "nav_dd_divider": "#eeeeee",
@@ -76,7 +76,7 @@
     "sidebar_title": 15,
     "h_weight": "600",
     "h_case": "none",
-    "sidebar_links_hv": "#f77575",
+    "sidebar_links_hv": "#aaaaaa",
     "foot_ttl_size": 18,
     "cltfw": "500",
     "foo_text_size": 16,
@@ -94,7 +94,7 @@
     "mob_browser": "#000",
     "scroll_icon_colors": "#f77575",
     "text_link": "#444",
-    "text_link_hv": "#f77575",
+    "text_link_hv": "#aaaaaa",
     "color_borders": "#eeeeee",
     "announcement": true,
     "announcement_mb": false,
@@ -447,7 +447,7 @@
           "payment_img_width": "350",
           "current_flag": "shopify:\/\/shop_images\/c07d2406fd8c110061f629dd3ffe5fdf.png",
           "current_region": "United Kingdom",
-          "region_menu": "main-menu"
+          "region_menu": "localization"
         }
       },
       "custom-colors": {

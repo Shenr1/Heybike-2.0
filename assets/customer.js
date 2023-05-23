@@ -105,5 +105,7 @@ theme.customerTemplates = (function() {
       customerAddressForm();
     }
   };
+
+
 })();
 theme.customerTemplates.init();

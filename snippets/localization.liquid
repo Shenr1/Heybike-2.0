@@ -1,13 +1,12 @@
 
 <section class="mr-8 flex">
 
-  <div class="flex items-center mr-2">
+  <div class="flex items-center">
     {{ secSt.current_flag | image_url: width: 18 | image_tag: width: nil, loading: 'lazy'}}
   </div>
 
     <select onchange="location.href=this.options[this.selectedIndex].value;"
-    class="m-0 !bg-transparent text-white border-none p-0 text-base">
-      <option value= "/ ">{{ secSt.current_region }}</option>
+    class="m-0 !bg-transparent text-white border-none p-0 text-base px-2">
       {% for link in linklists[secSt.region_menu].links %}
       <option value= "{{ link.url }} ">
       {{ link.title | split: '[' | first }}

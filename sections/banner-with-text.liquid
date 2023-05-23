@@ -12,7 +12,7 @@
       {%- assign delay_time = 50 | times : box-delay -%}
 
       {%- capture image_layout -%}
-      <div class="{% unless hbStyle %}fl1{% endunless %}{% if hbStyle %}w-3/5{% endif %} imgCol wow{% if blkSt.layout == 'right' %} fadeInRight{% else %} fadeInLeft{% endif %}" data-wow-delay="{{delay_time}}ms">
+      <div class="{% unless hbStyle %}fl1{% endunless %}{% if hbStyle %}md:w-3/5{% endif %} imgCol wow{% if blkSt.layout == 'right' %} fadeInRight{% else %} fadeInLeft{% endif %}" data-wow-delay="{{delay_time}}ms">
         {% if blkSt.image != blank %}
           {%- assign img_url = blkSt.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
           <span class="imgWrapper" style="max-width:{{ blkSt.image.width }}px;">
@@ -33,10 +33,10 @@
         {% endif %}
     
         {{ image_layout }}
-        <div class="{% unless hbStyle %}fl1{% endunless %}{% if hbStyle %}w-2/5 mb-8{% endif %} feature-row__text {{ blkSt.layout }} wow{% if blkSt.layout == 'right' %} fadeInLeft{% else %} fadeInRight{% endif %}" data-wow-delay="{{delay_time}}ms">
-          <div class="row-text {{blkSt.text_align}} {% if hbStyle %}  !m-0 !p-0{% endif %}">
+        <div class="{% unless hbStyle %}fl1{% endunless %}{% if hbStyle %}md:w-2/5 mb-8 md:mt-0 mt-4{% endif %} feature-row__text {{ blkSt.layout }} wow{% if blkSt.layout == 'right' %} fadeInLeft{% else %} fadeInRight{% endif %}" data-wow-delay="{{delay_time}}ms">
+          <div class="row-text md:{{blkSt.text_align}} {% if hbStyle %}text-center !m-0 !p-0{% endif %}">
             {% if blkSt.title != blank %}
-              <h3 class="{% if hbStyle %}text-4_5xl{% endif %} ttlTxt mb{{secSt.tmbm}} mb{{secSt.tmb}}-md" style="--tcl:{{blkSt.tcl}};--tfs:{{secSt.tfs}}px;--tfsm:{{secSt.tfsm}}px;--tff:var(--{{secSt.tff}});--tfw:{{secSt.tfw}};--tlh:{{secSt.tlh}};">{{ blkSt.title }}</h3>
+              <h3 class="{% if hbStyle %}md:text-4_5xl text-3xl{% endif %} ttlTxt mb{{secSt.tmbm}} mb{{secSt.tmb}}-md" style="--tcl:{{blkSt.tcl}};--tfs:{{secSt.tfs}}px;--tfsm:{{secSt.tfsm}}px;--tff:var(--{{secSt.tff}});--tfw:{{secSt.tfw}};--tlh:{{secSt.tlh}};">{{ blkSt.title }}</h3>
             {% endif %}
             {% if blkSt.text != blank %}
               <div class="{% if hbStyle %}text-xl{% endif %} rgTxt rte featured-row__subtext mb{{secSt.mbm}} mb{{secSt.mb}}-md" style="--cl:{{blkSt.cl}};--fs:{{secSt.fs}}px;--fsm:{{secSt.fsm}}px;--fw:{{secSt.fw}};--lh:{{secSt.lh}};">
@@ -49,7 +49,7 @@
           </div>
 
           {% if hbStyle %}
-              <div class="mt-20"> {{ blkSt.bottom_logo | image_url: height: 50 | image_tag: Height: 50, loading: 'lazy' }} </div>
+              <div class="md:mt-20 mt-10 md:text-left text-center"> {{ blkSt.bottom_logo | image_url: height: 50 | image_tag: Height: 50, loading: 'lazy' }} </div>
           {% endif %}
 
         </div>

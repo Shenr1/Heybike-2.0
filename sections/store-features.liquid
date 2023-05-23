@@ -7,7 +7,7 @@
      style="background-color:{{secSt.sec_bg_clr}};"> {% endif%}
       <div class="{% unless section.settings.section_width %}page-width{% else %}fullwidth{% endunless %} wow fadeIn">          
       
-      <section {% if hbStyle %}tag-name="features-header"{% endif %} class="{% if hbStyle %} mb-20 {% endif %}">
+      <section {% if hbStyle %}tag-name="features-header"{% endif %} class="{% if hbStyle %}md:mb-20 mb-8 {% endif %}">
         {% render 'sec-title' %}
       </section>
 
@@ -20,13 +20,13 @@
             <li class="fl1 item" {{ block.shopify_attributes }}>
                 <{% if blkSt.texturl != blank %}a href="{{blkSt.texturl}}"{% else %}div{% endif %} class="{% if secSt.style == 'style2' %} flex{% if blkSt.text == blank%} f-aic{% endif %}{% else %}tc{% endif %}">
                   {% if secSt.icon-type == 'image' and blkSt.image != blank %}
-                      <img class="at lazyload" data-src="{{blkSt.image | img_url: '200x' }}" width="{{secSt.isz}}px" height="{{secSt.isz}}px" alt="{{blkSt.image.alt | escap }}" />
+                      <img class="at md:mb-5 mb-2 lazyload" data-src="{{blkSt.image | img_url: '200x' }}" width="{{secSt.isz}}px" height="{{secSt.isz}}px" alt="{{blkSt.image.alt | escap }}" />
                   {% elsif blkSt.icons != blank %}
                       <i class="at {{ blkSt.icons}}" aria-hidden="true"></i>
                   {% endif %}
                 <div class="text fl1">
-                    {% if blkSt.title %}<h5 class="ttlTxt mb-4">{{ blkSt.title }}</h5>{% endif %}
-                    {% if blkSt.text %}<div class="sub-text{% if hbStyle %} text-lg md:px-8 px-2{% endif %}">{{ blkSt.text }}</div>{% endif %}
+                    {% if blkSt.title %}<h5 class="ttlTxt md:mb-4 mb-1 md:text-2xl text-xl">{{ blkSt.title }}</h5>{% endif %}
+                    {% if blkSt.text %}<div class="sub-text{% if hbStyle %} md:text-lg text-base md:px-8 px-2{% endif %}">{{ blkSt.text }}</div>{% endif %}
                 </div>
               </{% if blkSt.texturl != blank %}a{% else %}div{% endif %}>
             </li>

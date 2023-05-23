@@ -3,28 +3,28 @@
 <section section-name="logo-slider" class="{% render 'section-interva-set' , secSt:secSt %}" >
 
   <div class="page-width px-4">
-    <div class="rounded-section bg-no-repeat py-20" style="background-image: url({{ secSt.bg_img | image_url:master}});">
-      <div class="w-3/5 mx-auto">
+    <div class="md:rounded-section rounded-3xl bg-no-repeat md:py-20 py-10" style="background-image: url({{ secSt.bg_img | image_url:master}});">
+      <div class="md:w-3/5 md:px-0 px-2 mx-auto">
         <div id="carousel-main-{{section.id}}" 
-          data-flickity='{"pageDots": false, "fade": true, "draggable": false,"prevNextButtons": false}'>
+          data-flickity='{"pageDots": false, "fade": true,"prevNextButtons": false, "wrapAround": true }'>
           {% for block in section.blocks %}
           <div class="mb-20 text-center text-white">
-            <p class="mb-8 text-3xl font-bold">{{block.settings.text_main}}</p>
+            <p class="mb-8 md:text-3xl text-2xl font-bold">{{block.settings.text_main}}</p>
             <p class="text-lg">{{block.settings.text_sub}}</p>
           </div>
           {% endfor %}
         </div>
       </div>
-      <div data-flickity='{"draggable": false, "asNavFor": "#carousel-main-{{section.id}}", "contain": true, "pageDots": false, "wrapAround": true,"prevNextButtons": false }'>
+      <div data-flickity='{"draggable": false, "asNavFor": "#carousel-main-{{section.id}}", "contain": true, "pageDots": false, "wrapAround": true,"prevNextButtons": false,"selectedAttraction": 0.01,"friction": 0.15}'>
         {% for block in section.blocks %}
-        <div class="w-1/5 cursor-pointer text-center">
+        <div class="md:w-1/5 w-full cursor-pointer text-center">
           <img class="grayscale transition-all scale-90 max-h-9" src="{{ block.settings.logo_image | image_url: master }}">
         </div>
         {% endfor %}
       </div>
     </div>
   </div>
-</section>  
+</section> 
 
 
 {% schema %}
