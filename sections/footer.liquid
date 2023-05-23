@@ -124,12 +124,6 @@
           </div>
         </div>
   		{% endif %}
-        
-        {% when 'socialicons' %}
-        <div id="text-{{ block.id }}" class="footer-block__item {{blkSt.width}} socialicons">
-          {{blockTtl}}
-          {% render 'social-media', hideLbl: true %}
-        </div>
       
          {% when 'hrline' %}
           <div id="hrline-{{ block.id }}" class="hrline footer-block__item w_100">
@@ -139,28 +133,39 @@
         {% endfor %}
       </div>  
 
-      {% for block in section.blocks %}     
-      {% assign blkSt = block.settings %}
-     
-      {% if block.type == 'legal' %}
-        
-      <div class="flex items-center">
-        <div>{{ blkSt.logo_img | image_url: width: 200 | image_tag: width: nil, loading: 'lazy' }} </div>
-        <div class="ml-12"> <a class="text-black-600" href="{{blkSt.text_link1}}"> {{blkSt.text_link1}} </a> </div>
-        <div class="ml-12"> <a class="text-black-600" href="{{blkSt.text_link2}}"> {{blkSt.text_link2}} </a> </div>
-      </div>     
-      {% endif %}
 
+      <div class="flex justify-between text-black-400 my-8">
+        {% for block in section.blocks %}     
+        {% assign blkSt = block.settings %}
+      
+        {% case block.type %}
+        {% when 'legal' %}
+        <div class="flex items-center">
+          <div>{{ blkSt.logo_img | image_url: width: 200 | image_tag: width: nil, loading: 'lazy' }} </div>
+          <div class="ml-12"> <a class="text-black-400" href="{{blkSt.text_link1}}"> {{blkSt.text_link1}} </a> </div>
+          <div class="ml-12"> <a class="text-black-400" href="{{blkSt.text_link2}}"> {{blkSt.text_link2}} </a> </div>
+        </div>     
+        {% when'socialicons' %}
+        <div id="text-{{ block.id }}" class="socialicons flex items-center">
+          <p class="m-0 mr-8">{{blkSt.title}}</p>
+          {% render 'social-media', hideLbl: true %}
+        </div>
+        {%- endcase -%}                
 
-      {% endfor %}
+        {% endfor %}
+      </div>
+
   </div>
   {% endif %}
   
   {% if secSt.copyright_text != blank or secSt.show_payment %}
   <div class="footer-bottom">
+
+    {% render 'localization', secSt:secSt %}
+
     <div class="fl f-aic f-jcsb f-col f-row-md{% unless secSt.section_width %} page-width{% else %} fullwidth{% endunless %}">
         {% if secSt.copyright_text != blank %}
-        <div class="fl1{% if secSt.show_payment %} tc tl-md{% else %} tc{% endif %}">
+        <div class="fl1{% if secSt.show_payment %} tc tl-md{% else %} tc{% endif %} text-black-600">
           {{ secSt.copyright_text }}
           {% if secSt.show_designby %}<span class="designBy">{% if secSt.copyright_text != blank %}<br />{% endif %}Designed by <a href="https://www.adornthemes.com" target="_blank">AdornThemes</a></span>{% endif %}
         </div>
@@ -225,28 +230,49 @@
           "label": "Show Designed by",
           "default": true
         },
-		{
-			"type":"header",
-        	"content":"Payment Options"
-		},
+      {
+        "type":"header",
+            "content":"Payment Options"
+      },
       	{
         	"type": "checkbox",
         	"id": "show_payment",
         	"label": "Show Paymnet Icons",
         	"default": true
         },
-		{
+      {
           "type": "image_picker",
           "id": "payment_img",
           "label": "Payment Icon Image",
           "info": "Use image instead of Payment icons"
         },
- 	  	{
+        {
         	"type": "text",
         	"id": "payment_img_width",
         	"label": "Max width",
         	"default": "350"
-      	}
+      	},
+        {
+          "type":"header",
+          "content":"Region selection"
+        },
+        {
+          "type":"image_picker",
+          "id":"current_flag",
+          "label":"Current flag"
+        },
+        {
+          "type":"text",
+          "id":"current_region",
+          "label":"Current region name",
+          "default": "United Kingdom"
+        },
+        {
+          "type": "link_list",
+          "id": "region_menu",
+          "label": "Select Nav about Region",
+          "default": "main-menu"
+        }
     ],
 	"max_blocks": 10,
 	"blocks": [
@@ -589,24 +615,6 @@
             "id": "title",
             "label": "Title",
             "default": "Stay Connected"
-          },		  
-		   {
-            "type": "select",
-            "id": "width",
-            "label": "Container width",
-            "default": "wd25-md",
-			"info":"Total width of all block must not more than 100%",
-            "options": [
-			  { "value": "wd20-md", "label": "20%" },
-              { "value": "wd25-md", "label": "25%" },
-              { "value": "wd33-md", "label": "33%" },
-			  { "value": "wd40-md", "label": "40%" },
-              { "value": "wd50-md", "label": "50%" },
-			  { "value": "wd60-md", "label": "60%" },
-              { "value": "wd66-md", "label": "66%" },
-              { "value": "wd75-md", "label": "75%" },
-              { "value": "wd100", "label": "100%" }
-            ]
           }
         ]
       },

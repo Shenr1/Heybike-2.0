@@ -1,0 +1,12 @@
+
+<section>
+  <div class="flex items-center">
+    {{ blkSt.current_flag | image_url: width: 50 | image_tag: width: nil, loading: 'lazy'}}
+    {{ blkSt.current_region }}
+  </div>
+  <ul>
+    {% for link in linklists[blkSt.region_menu].links %}
+    <li><a href="{{ link.url }}">{{ link.title | split: '[' | first }}</a></li>
+    {% endfor %}
+  </ul>
+</section>

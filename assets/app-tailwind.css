@@ -28,7 +28,13 @@
     .template-product .grid{@apply flex}
     .site-header,#siteNav>li.ctsize, #siteNav>li.dropdown{@apply static}
 
-    #siteNav ul.dropdown li a:hover{@apply !bg-transparent}
+    .social-icons .social-icons__link{@apply text-black-400}
+    .social-icons .social-icons__link span{@apply hidden}
+    .social-icons .social-icons__link i{@apply text-xl}
+
+ns__link i{@apply text-xl}
+
+hover{@apply !bg-transparent}
     .btn-featured{@apply font-normal rounded-full bg-gradient-to-b from-[#00bef9] to-[#015fea] border-none  hover:text-white hover:-translate-y-1 hover:opacity-90 hover:scale-95}
     .btn-contrast{@apply font-normal rounded-full bg-white text-black-900 border-white hover:text-white hover:bg-black-900 hover:border-white }
     .template-index #header:not(.stickyHeader){@apply text-white bg-transparent absolute w-full border-none}
