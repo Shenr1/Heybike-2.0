@@ -17,7 +17,7 @@
       </div>
       <div data-flickity='{"draggable": false, "asNavFor": "#carousel-main-{{section.id}}", "contain": true, "pageDots": false, "wrapAround": true,"prevNextButtons": false,"selectedAttraction": 0.01,"friction": 0.15}'>
         {% for block in section.blocks %}
-        <div class="md:w-1/5 w-full cursor-pointer text-center">
+        <div class="lg:w-1/5 md:w-1/4 w-1/2 cursor-pointer text-center">
           <img class="grayscale transition-all scale-90 max-h-9" src="{{ block.settings.logo_image | image_url: master }}">
         </div>
         {% endfor %}
