@@ -78,9 +78,11 @@
     "h_case": "none",
     "sidebar_links_hv": "#f77575",
     "foot_ttl_size": 18,
+    "cltfw": "500",
     "foo_text_size": 16,
+    "footer_top_bdr": "#eee",
     "footer_top_bg": "#1d1d1d",
-    "footer_title": "#fff",
+    "footer_title": "#999999",
     "top_footer_text": "#fff",
     "icon_colors": "#fff",
     "footer_bottom_bg": "#1d1d1d",
@@ -417,6 +419,13 @@
               "text_link2": "Terms of Service",
               "link_url2": "shopify:\/\/pages\/terms-of-service"
             }
+          },
+          "0fbd70ba-a5ec-4f78-b500-98fa94c457c2": {
+            "type": "socialicons",
+            "settings": {
+              "title": "Follow Us",
+              "width": "wd100"
+            }
           }
         },
         "block_order": [
@@ -426,7 +435,8 @@
           "1558678570770",
           "4e102e40-8900-4358-895e-37dd5ac9809b",
           "1561010492149",
-          "f7510364-7668-446e-8629-906714d86056"
+          "f7510364-7668-446e-8629-906714d86056",
+          "0fbd70ba-a5ec-4f78-b500-98fa94c457c2"
         ],
         "settings": {
           "section_width": false,
