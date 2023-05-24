@@ -82,25 +82,18 @@
         },
         "d33de9c7-9498-4084-8045-ea7cb7cec34e": {
           "type": "freeship",
+          "disabled": true,
           "settings": {
             "bm": 15
           }
         },
         "7da62210-79f5-40cd-88d9-008adfa782ab": {
           "type": "shiptime",
+          "disabled": true,
           "settings": {
             "estimate": "4\/10",
             "msg": "<i class=\"at at-clock-r\"><\/i> Estimated delivery between [startdate] - [enddate].",
             "bm": 25
-          }
-        },
-        "3e5ff436-8638-45b7-a3ce-b36263b34395": {
-          "type": "img",
-          "disabled": true,
-          "settings": {
-            "pimg_url": "",
-            "img_align": false,
-            "bm": 20
           }
         },
         "9cbdef45-9088-401c-90c8-c807e38f6cd5": {
@@ -118,6 +111,15 @@
             "gridmb": 2,
             "bm": 15
           }
+        },
+        "3e5ff436-8638-45b7-a3ce-b36263b34395": {
+          "type": "img",
+          "settings": {
+            "pimg": "shopify:\/\/shop_images\/1684916572608.png",
+            "pimg_url": "",
+            "img_align": false,
+            "bm": 20
+          }
         }
       },
       "block_order": [
@@ -130,8 +132,8 @@
         "product-form",
         "d33de9c7-9498-4084-8045-ea7cb7cec34e",
         "7da62210-79f5-40cd-88d9-008adfa782ab",
-        "3e5ff436-8638-45b7-a3ce-b36263b34395",
-        "9cbdef45-9088-401c-90c8-c807e38f6cd5"
+        "9cbdef45-9088-401c-90c8-c807e38f6cd5",
+        "3e5ff436-8638-45b7-a3ce-b36263b34395"
       ],
       "settings": {
         "section_width": false
