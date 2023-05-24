@@ -42,8 +42,8 @@
 	{% endfor %}
 </div>
 
-{% comment %} todo 配置参数 {% endcomment %}
-{% if optindex == 0 %}
+{% comment %} TEMWAYS的不采用了0524 {% endcomment %}
+{% comment %} {% if optindex == 0 %}
 	<div class="w-full rounded-2xl overflow-hidden shadow mb-12 mt-2">
 		<p class="bg-black-900 m-0 py-2 px-6 text-lg text-white font-semibold">Exclusive Offer</p>
 		<p class="py-3 px-6 m-0 text-base text-black-600">Order now, get FREE Mudguards & Kickstand!</p>
@@ -59,6 +59,6 @@
 			{% endfor %}
 		</div>
 	</div>
-{% endif %}
+{% endif %} {% endcomment %}
 {% endcapture %}
 {{colorSwatches | strip_newlines | remove: "  " | remove: "	" }}
