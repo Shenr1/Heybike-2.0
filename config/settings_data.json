@@ -54,7 +54,7 @@
     "bdr_btn_2_text_hov": "#fff",
     "bdr_btn_2_hov": "#F67280",
     "link_btn_txt": "#f67280",
-    "navigation_font_size": 14,
+    "navigation_font_size": 16,
     "navigation_txt_case": "none",
     "nav_h": 55,
     "navbarbdr": "rgba(0,0,0,0)",
