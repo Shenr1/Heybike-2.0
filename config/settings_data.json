@@ -130,7 +130,7 @@
     "coupon": true,
     "cd_bdr": "#dddddd",
     "grid_space": 20,
-    "primg_ratio": "130",
+    "primg_ratio": "80",
     "primg_size": "cover",
     "color_type": "color",
     "vr_bg_position": "50% 50%",
