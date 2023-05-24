@@ -1,12 +1,26 @@
 {%- assign secSt = section.settings -%}
 
 {% if secSt.img != blank %}
+
+{%- case secSt.img_size -%}
+  {%- when "big" -%}
+  {% assign imgSizeClass = "md:w-full" %}
+  {% assign textMtClass = "md:mt-[28%]" %}
+  {%- when "defualt" -%}
+  {% assign imgSizeClass = "md:w-[85%]" %}
+  {% assign textMtClass = "md:mt-[22%]" %}
+  {%- when "small" -%}
+  {% assign imgSizeClass = "md:w-[70%]" %}
+  {% assign textMtClass = "md:mt-[15%]" %}
+{%- endcase -%}
+
   <section section-name="image-list-text" style="background-color:{{secSt.bg_color}};" class="{% render 'section-interva-set' , secSt:secSt %}" >
-    <div class="page-width px-4 mx-auto flex">
+    <div class="page-width px-4 mx-auto flex {% if secSt.bottom_line %}border-solid border-0 border-b border-black-400 {% endif %}">
 
+    
 
-      <div class='md:w-[59.5%] {% if secSt.layout == "textImage" %}order-3{%else%}order-1{% endif %}' >
-        {{ secSt.img | image_url: width: 1000 | image_tag: width: nil, loading: 'lazy' }}
+      <div class='md:w-[59.5%] flex justify-center items-center {% if secSt.layout == "textImage" %}order-3{%else%}order-1{% endif %}' >
+        {{ secSt.img | image_url: width: 1000 | image_tag: width: nil, loading: 'lazy', class:imgSizeClass }}
       </div>
       <div class="md:w-[40.5%] order-2 flex flex-col">
         <div class="md:mr-2"> 
@@ -14,7 +28,7 @@
           <p class="text-lg md:mb-8 mb-4">{{ secSt.text_sub  }}</p>
           <p class="text-lg text-black-600 md:mb-8 mb-4">{{ secSt.text_dec  }}</p>
         </div>
-        <div class="flex flex-wrap mt-[28%]">
+        <div class="flex flex-wrap {{textMtClass}}">
           {% for block in section.blocks %}
           {%- assign blkSt = block.settings -%}
               <div class="w-1/3 mb-6">
@@ -120,6 +134,26 @@
           }
         ]
       },
+      {
+        "type": "select",
+        "id": "img_size",
+        "label": "Img size",
+        "default": "big",
+        "options": [
+          {
+            "value": "big",
+            "label": "Big"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          }
+        ]
+      },
  		  {
         "type": "image_picker",
         "id": "img",
@@ -142,6 +176,12 @@
         "id": "text_dec",
         "label": "Description text",
         "default":"The low frame design is ideal for women, so they can wear their dresses and go shopping in style."
+      },
+ 		  {
+        "type": "checkbox",
+        "id": "bottom_line",
+        "label": "Enable bottom line",
+        "default": false
       }
     ],
     "blocks": [

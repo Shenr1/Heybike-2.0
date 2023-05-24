@@ -369,6 +369,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{
   top:2rem;
 }
 
+.bottom-0{
+  bottom:0px;
+}
+
 .z-20{
   z-index:20;
 }
@@ -733,6 +737,11 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{
 .border-white{
   --tw-border-opacity:1;
   border-color:rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-black-400{
+  --tw-border-opacity:1;
+  border-color:rgb(170 170 170 / var(--tw-border-opacity));
 }
 
 .\!bg-transparent{
@@ -1266,6 +1275,26 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{
     margin-top:5rem;
   }
 
+  .md\:mt-\[14\%\]{
+    margin-top:14%;
+  }
+
+  .md\:mt-\[20\%\]{
+    margin-top:20%;
+  }
+
+  .md\:mt-\[28\%\]{
+    margin-top:28%;
+  }
+
+  .md\:mt-\[15\%\]{
+    margin-top:15%;
+  }
+
+  .md\:mt-\[22\%\]{
+    margin-top:22%;
+  }
+
   .md\:flex{
     display:flex;
   }
@@ -1300,6 +1329,34 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{
 
   .md\:w-auto{
     width:auto;
+  }
+
+  .md\:w-\[40\%\]{
+    width:40%;
+  }
+
+  .md\:w-\[50\%\]{
+    width:50%;
+  }
+
+  .md\:w-\[60\%\]{
+    width:60%;
+  }
+
+  .md\:w-\[75\%\]{
+    width:75%;
+  }
+
+  .md\:w-full{
+    width:100%;
+  }
+
+  .md\:w-\[70\%\]{
+    width:70%;
+  }
+
+  .md\:w-\[85\%\]{
+    width:85%;
   }
 
   .md\:flex-row{
