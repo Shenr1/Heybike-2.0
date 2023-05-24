@@ -492,13 +492,13 @@
     "name": "Main Navigation",
     "class": "hide-sm hide-md",
     "settings": [
-	{
+    {
 		 "type": "paragraph",
 		 "content":"[chekout all styles and how to set](https://www.adornthemes.com/knowledge-base/how-to-use-megamenu-navigation/)."
       }, 
-	{
-		 "type": "paragraph",
-		 "content":"Change fonts size and colors from Theme Settings --> Fonts, Colors and Styles --> Navigation"
+      {
+      "type": "paragraph",
+      "content":"Change fonts size and colors from Theme Settings --> Fonts, Colors and Styles --> Navigation"
       },
      {
         "type": "checkbox",
@@ -575,7 +575,22 @@
         "id": "nm_label5",
         "label":"Menu Label 5",
         "default": "New"
-      }      
+      },
+        {
+          "type":"header",
+          "content":"Region selection"
+        },
+        {
+          "type":"image_picker",
+          "id":"current_flag",
+          "label":"Current flag"
+        },
+        {
+          "type": "link_list",
+          "id": "region_menu",
+          "label": "Select Nav about Region",
+          "default": "main-menu"
+        }      
 	],
     "blocks": [
 	  {

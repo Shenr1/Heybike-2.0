@@ -2444,6 +2444,11 @@
         "info": "Please remove above Avone SVG logo code if you want to use logo image. Logo image is still required for google schema data even you are using SVG logo.  "
       },
       {
+        "type": "image_picker",
+        "id": "logo_reversal",
+        "label": "Logo reversal image(Black)"
+      },
+      {
         "type": "radio",
         "id": "align_logo",
         "label": "Logo alignment",
@@ -4438,6 +4443,26 @@
         "id": "pnp_boxbg_txt",
         "label": "Text",
         "default": "#000"
+      }
+    ]
+  },
+  {
+    "name": "localization",
+    "settings": [
+      {
+        "type":"header",
+        "content":"Region selection"
+      },
+      {
+        "type":"image_picker",
+        "id":"current_flag",
+        "label":"Current flag"
+      },
+      {
+        "type": "link_list",
+        "id": "region_menu",
+        "label": "Select Nav about Region",
+        "default": "main-menu"
       }
     ]
   },

@@ -128,13 +128,15 @@
         "74434e2d-7316-4cea-a46d-2fe1337dab28": {
           "type": "slide",
           "settings": {
-            "product": "ranger"
+            "product": "ranger",
+            "product_image": "shopify:\/\/shop_images\/10_950x_51979b9f-829c-4828-9efc-b2d87d2b8614.png"
           }
         },
         "f8ffd36a-8915-47a9-930d-e2ad87fcd760": {
           "type": "slide",
           "settings": {
-            "product": "ranger"
+            "product": "ranger",
+            "product_image": "shopify:\/\/shop_images\/05_950x_0c4fbfb6-e564-4d71-b7ec-f893bcc75286.png"
           }
         }
       },

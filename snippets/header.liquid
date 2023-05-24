@@ -67,7 +67,8 @@
 			{%- elsif settings.logosvg != blank -%}
 				{{settings.logosvg }}
           	{%- elsif settings.logo != blank -%}
-				<img src="{{ settings.logo | img_url: logoWidth }}" width="{{settings.logo_width}}" height="{{settings.logo_width | divided_by: settings.logo.aspect_ratio | floor}}" alt="{{ settings.logo.alt | default: shop.name }}" srcset="{{ settings.logo | img_url: logoWidth, scale: 1 }} 1x, {{ settings.logo | img_url: logoWidth, scale: 2 }} 2x">
+				<img tag-name = "reversal-logo" src="{{ settings.logo_reversal | img_url: logoWidth }}" width="{{settings.logo_width}}" height="{{settings.logo_width | divided_by: settings.logo.aspect_ratio | floor}}" alt="{{ settings.logo.alt | default: shop.name }}" srcset="{{ settings.logo_reversal | img_url: logoWidth, scale: 1 }} 1x, {{ settings.logo_reversal | img_url: logoWidth, scale: 2 }} 2x">
+				<img tag-name = "logo" src="{{ settings.logo | img_url: logoWidth }}" width="{{settings.logo_width}}" height="{{settings.logo_width | divided_by: settings.logo.aspect_ratio | floor}}" alt="{{ settings.logo.alt | default: shop.name }}" srcset="{{ settings.logo | img_url: logoWidth, scale: 1 }} 1x, {{ settings.logo | img_url: logoWidth, scale: 2 }} 2x">
 			{%- else -%}
 				{{ shop.name }}
 			{%- endif -%}
@@ -99,6 +100,9 @@
 			{%- endif -%}
 			{% if settings.align_logo == "center" %}{{logo}}{% endif %}
 				<div class="icons-col fl f-jce f-aic">
+
+					{% render 'localization' %}
+
                   	{% if settings.enable_search %}
 						<a href="{{ routes.search_url }}" class="hdicon searchIco hide-sm hide-md" title="{{ 'general.search.tool_tip' | t }}"><i class="at at-search-l"></i></a>
                   	{% endif %}

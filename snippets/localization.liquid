@@ -1,16 +1,15 @@
 
-<section class="mr-8 flex">
-
-  <div class="flex items-center">
-    {{ secSt.current_flag | image_url: width: 18 | image_tag: width: nil, loading: 'lazy'}}
+{% if settings.current_flag != blank and settings.region_menu != blank %}
+<section section-name="localization" class="mr-4 flex ">
+  <div class="">
+    {{ settings.current_flag | image_url: width: 18 | image_tag: loading: 'lazy'}}
   </div>
-
-    <select onchange="location.href=this.options[this.selectedIndex].value;"
-    class="m-0 !bg-transparent text-white border-none p-0 text-base px-2">
-      {% for link in linklists[secSt.region_menu].links %}
-      <option value= "{{ link.url }} ">
-      {{ link.title | split: '[' | first }}
-      </option>
+    <select value=" " onchange="location.href=this.options[this.selectedIndex].value;"
+    class="m-0 !bg-transparent border-none p-0 pl-2 text-base pr-6">
+      {% for link in linklists[settings.region_menu].links %}
+      <option value= "{{ link.url }} "> {{ link.title | split: '[' | first }} </option>
       {% endfor %}
     </select>
 </section>
+
+{% endif %}

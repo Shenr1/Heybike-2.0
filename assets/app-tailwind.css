@@ -10,6 +10,13 @@
 [section-name = 'store-features'] [tag-name = 'features-header'] .h3{@apply md:text-4_5xl text-3xl mb-7}
 [section-name = 'store-features'] [tag-name = 'features-header'] p{@apply text-xl px-4}
 
+.stickyHeader [tag-name = 'reversal-logo']{@apply !block}
+.stickyHeader [tag-name = 'logo']{@apply !hidden}
+[tag-name = 'reversal-logo']{@apply !hidden}
+
+#header.stickyHeader [section-name = 'localization'] select{@apply text-black-900}
+#header [section-name = 'localization'] select{@apply text-white}
+.footer-bottom [section-name = 'localization'] select{@apply text-white}
 
 @tailwind base;
 @tailwind components;
@@ -32,9 +39,7 @@
     .social-icons .social-icons__link span{@apply hidden}
     .social-icons .social-icons__link i{@apply text-xl}
 
-ns__link i{@apply text-xl}
-
-hover{@apply !bg-transparent}
+    #siteNav ul.dropdown li a:hover{@apply !bg-transparent}
     .btn-featured{@apply font-normal rounded-full bg-gradient-to-b from-[#00bef9] to-[#015fea] border-none  hover:text-white hover:-translate-y-1 hover:opacity-90 hover:scale-95}
     .btn-contrast{@apply font-normal rounded-full bg-white text-black-900 border-white hover:text-white hover:bg-black-900 hover:border-white }
     .template-index #header:not(.stickyHeader){@apply text-white bg-transparent absolute w-full border-none}

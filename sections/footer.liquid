@@ -163,10 +163,7 @@
 
 
     <div class="fl f-aic f-jcsb f-col f-row-md{% unless secSt.section_width %} page-width{% else %} fullwidth{% endunless %}">
-        {% render 'localization', secSt:secSt %}
-        
-        
-        
+        {% render 'localization' %}
         
         {% if secSt.copyright_text != blank %}
         <div class="fl1{% if secSt.show_payment %} tc tl-md{% else %} tc{% endif %} text-black-600">
@@ -255,22 +252,7 @@
         	"id": "payment_img_width",
         	"label": "Max width",
         	"default": "350"
-      	},
-        {
-          "type":"header",
-          "content":"Region selection"
-        },
-        {
-          "type":"image_picker",
-          "id":"current_flag",
-          "label":"Current flag"
-        },
-        {
-          "type": "link_list",
-          "id": "region_menu",
-          "label": "Select Nav about Region",
-          "default": "main-menu"
-        }
+      	}
     ],
 	"max_blocks": 10,
 	"blocks": [
