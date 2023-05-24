@@ -22,7 +22,10 @@
     assign product_image_width = 'wd50-md'
     assign product_description_width = 'wd50-md'
 
-    if settings.product_latyout == "style2"
+    if settings.product_latyout == "style1"
+        assign product_image_width = 'wd60-md'
+        assign product_description_width = 'wd40-md'
+    elsif settings.product_latyout == "style2"
         assign product_image_width = 'wd66-md'
         assign product_description_width = 'wd33-md'
     elsif settings.product_latyout == "style3"
@@ -174,7 +177,7 @@
             <hr class="mt0 mb{{blkSt.bm}}" style="border-color: {{blkSt.hrc}}" {{ block.shopify_attributes }} /> 
         {%  when 'title' %}
             <h1 class="product-single__title ttlTxt {{blkSt.transform}} mb{{blkSt.bm}}" style="--tcl:{{blkSt.cl}};--tfs:{{blkSt.fs}}px;--tfsm:{{blkSt.fsm}}px;--tff:var(--{{blkSt.ff}});--tfw:{{blkSt.fw}};--tlh:1.4;" {{ block.shopify_attributes }}>{{ product.title }}</h1>
-	   		<p class="text-lg border-solid border-0 border-b border-black-400 pb-5">Aviation grade magnesium alloy</p>
+	   		<p class="text-lg border-solid border-0 border-b border-black-300 pb-4">Aviation grade magnesium alloy</p>
 	    {%  when 'price' %}
             {%- if product.metafields.custom.product_group != blank -%}<style>.priceSingle{--pcl:{{blkSt.pcl}};--pcls:{{blkSt.pcls}};--fs:{{blkSt.fs}}px; --fsm:{{blkSt.fsm}}px;--pfw:{{ blkSt.pfw}};}</style>{%- endif -%}
             {%- unless settings.hide-price or product.metafields.custom.product_group != blank -%}
@@ -299,7 +302,7 @@
                 {%- assign product_form_id = 'product-form-' | append: section.id -%}
                 <product-form class="db productForm mb{{blkSt.bm}}" {{ block.shopify_attributes }}>
                     {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
-                        <div class="product-form mfp-link fl f-aie f-wrap">
+                        <div class="product-form mfp-link fl f-aie f-wrap mb-7">
                             {% assign isSwatch = false %}
                             {% assign hideSoldout = settings.swsold %}
                             {%- unless product.options.size == 1 and product.variants[0].title == 'Default Title' -%}
@@ -358,7 +361,7 @@
                                         <input type="text" id="quantity" name="quantity" value="1" class="hide pr_input qty" />
                                     {%- endif -%}                                    
                                 </div>
-                                <button type="submit" name="add" id="AddToCart-{{ section.id }}" {% unless current_variant.available %}disabled="disabled"{% endunless %} class="btn {{settings.atc-style}} pr_btn product-form__submit">
+                                <button class="text-lg" type="submit" name="add" id="AddToCart-{{ section.id }}" {% unless current_variant.available %}disabled="disabled"{% endunless %} class="btn {{settings.atc-style}} pr_btn product-form__submit">
                                     <span class="txt">
                                         {% if current_variant.available and current_variant.inventory_quantity < 1 and current_variant.inventory_management == "shopify" %}
                                             {{'products.product.pre_order' | t }}
