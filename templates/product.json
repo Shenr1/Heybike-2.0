@@ -48,6 +48,41 @@
             "bm": 30
           }
         },
+        "900c2863-7a02-4344-845e-386c8248bc4d": {
+          "type": "text",
+          "settings": {
+            "text": "Order now, get FREE Mudguards & Kickstand!",
+            "cl": "#000",
+            "addbg": false,
+            "bg": "#f5f5f5",
+            "fs": 18,
+            "bm": 5
+          }
+        },
+        "dba108ba-fba9-466d-afd3-21f64c8a1db7": {
+          "type": "giveaways",
+          "settings": {
+            "title": "Fender Set",
+            "price": "45",
+            "tag": "FREE"
+          }
+        },
+        "ca52189d-109d-45f5-91c5-d195b2c24af3": {
+          "type": "giveaways",
+          "settings": {
+            "title": "Fender Set",
+            "price": "45",
+            "tag": "FREE"
+          }
+        },
+        "7ff82dc7-abaf-42c2-a8c8-d415a91325d5": {
+          "type": "giveaways",
+          "settings": {
+            "title": "Fender Set",
+            "price": "45",
+            "tag": "FREE"
+          }
+        },
         "3e5ff436-8638-45b7-a3ce-b36263b34395": {
           "type": "img",
           "settings": {
@@ -56,6 +91,17 @@
             "img_align": false,
             "bm": 20
           }
+        },
+        "75a78218-e9d0-4681-b8f1-d4b99318f5b7": {
+          "type": "colimg",
+          "settings": {
+            "text1": "Free shipping",
+            "text2": "VAT included",
+            "text3": "2-year warranty",
+            "icon1": "shopify:\/\/shop_images\/646653b0ac6b117df7f13ce8570d0e38_ab1303c8-a54e-47d4-999d-44eeabc4aa8c.png",
+            "icon2": "shopify:\/\/shop_images\/25a2ae4f3aeacec2f66ab92e67040928_29841172-068c-444e-8995-be304cc5fc24.png",
+            "icon3": "shopify:\/\/shop_images\/a8c3ad982099abeca6bbdb913b166a0e_c4cecf57-e225-4816-b140-46dc840131f7.png"
+          }
         }
       },
       "block_order": [
@@ -63,7 +109,12 @@
         "price",
         "43d9e0cf-f5b3-4270-bd73-3845bf580da3",
         "product-form",
-        "3e5ff436-8638-45b7-a3ce-b36263b34395"
+        "900c2863-7a02-4344-845e-386c8248bc4d",
+        "dba108ba-fba9-466d-afd3-21f64c8a1db7",
+        "ca52189d-109d-45f5-91c5-d195b2c24af3",
+        "7ff82dc7-abaf-42c2-a8c8-d415a91325d5",
+        "3e5ff436-8638-45b7-a3ce-b36263b34395",
+        "75a78218-e9d0-4681-b8f1-d4b99318f5b7"
       ],
       "settings": {
         "section_width": false
