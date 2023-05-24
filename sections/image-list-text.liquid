@@ -17,8 +17,6 @@
   <section section-name="image-list-text" style="background-color:{{secSt.bg_color}};" class="{% render 'section-interva-set' , secSt:secSt %}" >
     <div class="page-width px-4 mx-auto flex {% if secSt.bottom_line %}border-solid border-0 border-b border-black-400 {% endif %}">
 
-    
-
       <div class='md:w-[59.5%] flex justify-center items-center {% if secSt.layout == "textImage" %}order-3{%else%}order-1{% endif %}' >
         {{ secSt.img | image_url: width: 1000 | image_tag: width: nil, loading: 'lazy', class:imgSizeClass }}
       </div>

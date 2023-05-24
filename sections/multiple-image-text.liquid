@@ -14,8 +14,10 @@
         <div class="md:rounded-section rounded-3xl overflow-hidden h-full md:mb-6 mb-2" style="background-color:{{blkSt.bg_color}};">
           {{ blkSt.bg_img | image_url: width: 1200 | image_tag: width: nil, loading: 'lazy', class: "h-full object-cover block" }}
         </div>
-        <h1 class="md:text-3xl text-2xl md:mb-2 mb-0">{{ blkSt.text_main  }}</h1>
-        <p class="text-lg">{{ blkSt.text_sub  }}</p>
+        <section>
+          <h1 class="md:text-3xl text-2xl md:mb-2 mb-0">{{ blkSt.text_main  }}</h1>
+          <p class="text-lg">{{ blkSt.text_sub  }}</p>
+        </section>
       </div>
       {% endif %}
 
@@ -101,6 +103,22 @@
         "label": "Section title",
         "id":"title",
         "default":"The World of HEYBIKE"
+      },
+      {
+        "type": "select",
+        "id": "layout",
+        "label": "Layout style",
+        "default": "textImage",
+        "options": [
+          {
+            "value": "textImage",
+            "label": "Text on the picture"
+          },
+          {
+            "value": "imageText",
+            "label": "Text is below the picture"
+          }
+        ]
       }
     ],
     "blocks": [
