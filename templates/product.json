@@ -52,7 +52,7 @@
           "type": "text",
           "settings": {
             "text": "Order now, get FREE Mudguards & Kickstand!",
-            "cl": "#000",
+            "cl": "#999999",
             "addbg": false,
             "bg": "#f5f5f5",
             "fs": 18,
