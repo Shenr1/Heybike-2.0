@@ -129,7 +129,7 @@
     "gift_product": "gift-wrapping",
     "coupon": true,
     "cd_bdr": "#dddddd",
-    "grid_space": 20,
+    "grid_space": 22,
     "primg_ratio": "80",
     "primg_size": "cover",
     "color_type": "color",
