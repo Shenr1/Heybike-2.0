@@ -23,8 +23,8 @@
     assign product_description_width = 'wd50-md'
 
     if settings.product_latyout == "style1"
-        assign product_image_width = 'wd60-md pr-10'
-        assign product_description_width = 'wd40-md pl-10'
+        assign product_image_width = 'wd60-md pr-10 pl-0'
+        assign product_description_width = 'wd40-md pl-10 pr-0'
     elsif settings.product_latyout == "style2"
         assign product_image_width = 'wd66-md'
         assign product_description_width = 'wd33-md'
@@ -138,7 +138,7 @@
                             {% for media in product.media %}
                                 {%- assign imgNo = forloop.index0 -%}
                                 {% capture thumbImgs %}{{ media | img_url: '100x' }} 100w {{ 100 | divided_by: media.aspect_ratio | round }}h,{{ media | img_url: '200x' }} 200w {{ 200 | divided_by: media.aspect_ratio | round }}h{% endcapture %}
-                                <div class="pr_thumbs_item{% if media.media_type == 'video' or media.media_type == 'external_video' or media.media_type == 'model' %} vd{% endif %}" data-slide="{{imgNo}}">
+                                <div class="pr_thumbs_item px-3 py-1 rounded-sm border-solid border border-black-300{% if media.media_type == 'video' or media.media_type == 'external_video' or media.media_type == 'model' %} vd{% endif %}" data-slide="{{imgNo}}">
                                     <a id="img{{media.id}}" href="{{ media | img_url: '50x' }}" class="gitem-img pr_thumb pr_thumb{{ section.id }} lazyload{% if media.media_type == 'image' %} swipeImg{% endif %}{% if featured_img_src == media %} activeSlide{% endif %}"
                                         data-bgset="{% if media.media_type == 'image' %}{{thumbImgs}}{% else %}{{ media | img_url: '200x' }}{% endif %}" data-sizes="auto" data-parent-fit="contain" title="{{media.alt | default: product.title}}">
                                         {% if media.media_type == 'video' or media.media_type == 'external_video'  %}<svg class="at-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6zM48 453.5v-395c0-4.6 5.1-7.5 9.1-5.2l334.2 197.5c3.9 2.3 3.9 8 0 10.3L57.1 458.7c-4 2.3-9.1-.6-9.1-5.2z"/></svg>{% endif %}
