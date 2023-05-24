@@ -1,0 +1,180 @@
+{%- assign secSt = section.settings -%}
+
+{% if secSt.img != blank %}
+  <section section-name="image-list-text" class="{% render 'section-interva-set' , secSt:secSt %}" >
+
+    <div style="background-color:{{secSt.bg_color}};">
+
+      <div class="page-width px-4 mx-auto flex">
+
+
+        <div class='md:w-[59.5%] {% if secSt.layout == "textImage" %}order-3{%else%}order-1{% endif %}' >
+          {{ secSt.img | image_url: width: 1000 | image_tag: width: nil, loading: 'lazy' }}
+        </div>
+        <div class="md:w-[40.5%] order-2 flex flex-col justify-between">
+          <div>
+            <h1 class="md:text-4_5xl text-2xl">{{ secSt.text_main  }}</h1>
+            <p class="text-lg md:mb-8 mb-4">{{ secSt.text_sub  }}</p>
+            <p class="text-lg text-black-600 md:mb-8 mb-4">{{ secSt.text_dec  }}</p>
+          </div>
+          <div class="flex flex-wrap mt-[28%]">
+            {% for block in section.blocks %}
+            {%- assign blkSt = block.settings -%}
+                <div class="w-1/3 mb-6">
+                  <p class="m-0 text-2xl font-semibold leading-tight">{{blkSt.item_title}}</p>
+                  <p class="m-0 text-base">{{blkSt.item_dec}}</p>
+                </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>  
+{% endif %}
+
+
+
+{% schema %}
+  {
+    "name": "Image list text v2",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Section interval set"
+      },
+      {
+        "type": "select",
+        "id": "top_padding",
+        "label": "top interval",
+        "default": "large",
+        "options": [
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding",
+        "label": "bottom interval",
+        "default": "default",
+        "options": [
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Default set"
+      },
+ 		  {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background color"
+      },
+      {
+        "type": "select",
+        "id": "layout",
+        "label": "Layout style",
+        "default": "textImage",
+        "options": [
+          {
+            "value": "textImage",
+            "label": "Image on the right"
+          },
+          {
+            "value": "imageText",
+            "label": "Image on the Left"
+          }
+        ]
+      },
+ 		  {
+        "type": "image_picker",
+        "id": "img",
+        "label": "main image"
+      },
+ 		  {
+        "type": "text",
+        "id": "text_main",
+        "label": "Title",
+        "default":"Reframing The Future"
+      },
+ 		  {
+        "type": "text",
+        "id": "text_sub",
+        "label": "Sub title",
+        "default":"With its streamlined body, the EC 1-ST moves freely through the crowded city streets like a gazelle, reaching places that are out of the reach of cars. "
+      },
+ 		  {
+        "type": "text",
+        "id": "text_dec",
+        "label": "Description text",
+        "default":"The low frame design is ideal for women, so they can wear their dresses and go shopping in style."
+      }
+    ],
+    "blocks": [
+      {
+        "type": "item",
+        "name": "List item",
+        "settings": [
+          {
+            "type": "text",
+            "id": "item_title",
+            "label": "Item title",
+            "default":"360wh"
+          },
+          {
+            "type": "text",
+            "id": "item_dec",
+            "label": "Item content",
+            "default":"Battery"
+          }
+        ]
+      }
+    ],
+    "presets": [
+        {
+          "name": "Image list text v2",
+          "category": "Heybike v2"
+        }
+      ]
+  }
+{% endschema %} 
