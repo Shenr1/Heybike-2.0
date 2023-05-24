@@ -32,8 +32,8 @@
             "fs": 30,
             "fsm": 20,
             "pfw": "600",
-            "saved": true,
-            "taxship": true,
+            "saved": false,
+            "taxship": false,
             "bm": 20
           }
         },
