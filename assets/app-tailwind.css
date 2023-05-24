@@ -10,13 +10,17 @@
 [section-name = 'store-features'] [tag-name = 'features-header'] .h3{@apply md:text-4_5xl text-3xl mb-7}
 [section-name = 'store-features'] [tag-name = 'features-header'] p{@apply text-xl px-4}
 
-.stickyHeader [tag-name = 'reversal-logo']{@apply !block}
-.stickyHeader [tag-name = 'logo']{@apply !hidden}
-[tag-name = 'reversal-logo']{@apply !hidden}
+body:not(.template-product) .stickyHeader [tag-name = 'reversal-logo']{@apply !block}
+body:not(.template-product) .stickyHeader [tag-name = 'logo']{@apply !hidden}
+body:not(.template-product) #header:not(.stickyHeader) [tag-name = 'logo']{@apply block}
+body:not(.template-product) #header:not(.stickyHeader) [tag-name = 'reversal-logo']{@apply !hidden}
 
-#header.stickyHeader [section-name = 'localization'] select{@apply text-black-900}
-#header [section-name = 'localization'] select{@apply text-white}
-.footer-bottom [section-name = 'localization'] select{@apply text-white}
+body.template-product #header:not(.stickyHeader) [tag-name = 'reversal-logo']{@apply !block}
+body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hidden}
+
+.template-index #header.stickyHeader [section-name = 'localization'] select{@apply text-black-900}
+.template-index #header [section-name = 'localization'] select{@apply text-white}
+.template-index .footer-bottom [section-name = 'localization'] select{@apply text-white}
 
 @tailwind base;
 @tailwind components;
@@ -44,4 +48,7 @@
     .btn-contrast{@apply font-normal rounded-full bg-white text-black-900 border-white hover:text-white hover:bg-black-900 hover:border-white }
     .template-index #header:not(.stickyHeader){@apply text-white bg-transparent absolute w-full border-none}
     .template-index #header:not(.stickyHeader) #siteNav>li>a,#header:not(.stickyHeader) .site-header a.hdicon{@apply text-white}
+
+
+    [tag-name = 'tabs-wrapper'] >p.active{@apply text-white  border-solid border-0 border-b-4 border-white}
 }

@@ -1,0 +1,18 @@
+{% comment %} todo 可配置 {% endcomment %}
+{%- capture productTabs -%}
+  <div section-name="product-tabs" class="bg-black-800">
+      <div class="page-width mx-auto items-center">
+        <div class="flex justify-between text-white">
+          <div class="mb-0 text-lg font-semibold py-3 flex items-center">EC1-ST</div>
+          <div tag-name="tabs-wrapper" class="flex text-base font-semibold items-center">
+          {% assign pClass = 'mb-0 mx-6 py-3 h-full text-black-500 flex items-center' %}
+            <p class="{{pClass}} active">Features</p>
+            <p class="{{pClass}}">Specifications</p>
+            <p class="{{pClass}}">Reviews</p>
+          </div>
+          <div class="text-sm py-3"> <a class="btn-contrast font-semibold py-2 px-6 block"> Buy Now </a> </div>
+        </div>
+      </div>
+  </div>
+{%- endcapture -%}
+{{ productTabs | strip_newlines | remove: "  " | remove: "	" }}

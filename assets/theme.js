@@ -1805,14 +1805,20 @@ $(document).ready(function() {
   window.onscroll = function(){ scrollFunction() };
   function scrollFunction() {
 	if (theme.fixedHeader){
-		if($(window).scrollTop()>145) {     
-            $('#header').addClass("stickyHeader animated fadeInDown");
-          	$('.stickySpace').css("min-height",$('#header').height());
-    	} else {
-            $('#header').removeClass("stickyHeader fadeInDown");
-          	$('.stickySpace').css("min-height",'');
-        }
+
+    if($("body").hasClass("template-product") == false){
+      if($(window).scrollTop()>145) {     
+          $('#header').addClass("stickyHeader animated fadeInDown");
+          $('.stickySpace').css("min-height",$('#header').height());
+      } else {
+          $('#header').removeClass("stickyHeader fadeInDown");
+          $('.stickySpace').css("min-height",'');
+      }
+    }else{
+      $("[tag-name = 'reversal-logo']").addClass("stickyHeader animated fadeInDown");
     }
+  }
+
     
     /// sticky cart
     var stickyCartht = $(".stickyCart").height();

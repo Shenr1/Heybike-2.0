@@ -17,6 +17,7 @@
         },
         "3794d304-5ede-42ea-872e-bc1da0adbb2c": {
           "type": "ras",
+          "disabled": true,
           "settings": {
             "availability": true,
             "sku": true,
@@ -38,6 +39,7 @@
         },
         "a2aade4c-547b-4aba-aacc-5d7c2f763857": {
           "type": "countdown",
+          "disabled": true,
           "settings": {
             "lbl": "Hurry up! Sales End In",
             "lcl": "#000000",
@@ -50,6 +52,7 @@
         },
         "680b2e1a-82d6-4aad-9a5b-3344aae6a5aa": {
           "type": "qty",
+          "disabled": true,
           "settings": {
             "maxqty": 20,
             "cl": "#ffffff",
@@ -73,7 +76,7 @@
         "product-form": {
           "type": "cta",
           "settings": {
-            "qty_sel": true,
+            "qty_sel": false,
             "bm": 30
           }
         },
@@ -93,8 +96,8 @@
         },
         "3e5ff436-8638-45b7-a3ce-b36263b34395": {
           "type": "img",
+          "disabled": true,
           "settings": {
-            "pimg": "shopify:\/\/shop_images\/checkout.png",
             "pimg_url": "",
             "img_align": false,
             "bm": 20
@@ -102,6 +105,7 @@
         },
         "9cbdef45-9088-401c-90c8-c807e38f6cd5": {
           "type": "complementary",
+          "disabled": true,
           "settings": {
             "title": "COMPLETE THE LOOK",
             "cl": "#000000",
@@ -138,6 +142,7 @@
       "settings": {
         "title": "Frequently Bought Together",
         "subtitle": "",
+        "collection": "",
         "top-offeset": "default",
         "section_cov": false,
         "sec_bg_clr": "#fafafa",
@@ -146,6 +151,7 @@
     },
     "tabs": {
       "type": "product-tabs",
+      "disabled": true,
       "blocks": {
         "descriptions": {
           "type": "desc",
@@ -214,6 +220,7 @@
       "type": "related-products",
       "disabled": true,
       "settings": {
+        "section_width": false,
         "title": "Related Products",
         "subtitle": "",
         "type": "1",
@@ -227,7 +234,9 @@
     },
     "recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
+        "section_width": false,
         "title": "Recommended Products",
         "subtitle": "",
         "grid": 4,
@@ -240,7 +249,9 @@
     },
     "recently-viewed": {
       "type": "recently-viewed",
+      "disabled": true,
       "settings": {
+        "section_width": false,
         "title": "Recently Viewed Products",
         "subtitle": "",
         "grid": 4,

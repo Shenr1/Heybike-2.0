@@ -54,7 +54,7 @@
     "bdr_btn_2_text_hov": "#fff",
     "bdr_btn_2_hov": "#F67280",
     "link_btn_txt": "#f67280",
-    "navigation_font_size": 14,
+    "navigation_font_size": 16,
     "navigation_txt_case": "none",
     "nav_h": 55,
     "navbarbdr": "rgba(0,0,0,0)",
@@ -111,6 +111,7 @@
     "main_header_fullwidth": false,
     "logosvg": "",
     "logo": "shopify:\/\/shop_images\/logo_2f39a5a2-1fb1-4269-a0dc-b787c511a865.png",
+    "logo_reversal": "shopify:\/\/shop_images\/2E9802AA-AFF0-4B6B-A17B-8F98E2998FCA.png",
     "logo_width": "90",
     "header_height": "77",
     "mobile_header_height": "50",
@@ -150,10 +151,15 @@
     "btn_mobiles": true,
     "grid_countdown_text": "#000",
     "grid_countdown_border": "#fff",
+    "select_label_style": "rounded",
+    "sale_lbl": false,
     "prbox_bdr": "rgba(0,0,0,0)",
+    "product_latyout": "style1",
+    "thumbnail_pos": "bottom",
     "askaboutproduct": true,
     "shippingpage": "delivary-and-returns",
     "sizechart_page": "size-chart",
+    "show_share_buttons_single": false,
     "sharing_lbl": "Share:",
     "sw_type": "vrimage",
     "sw_size": "medium",
@@ -175,9 +181,12 @@
     "show_language": true,
     "language_title": "LANGUAGE",
     "languages": "language",
+    "show_notification": true,
     "notify_collection": "hot-collection",
     "notify_msg": "Someone liked and Bought",
     "notify_delay": "5000",
+    "current_flag": "shopify:\/\/shop_images\/c07d2406fd8c110061f629dd3ffe5fdf.png",
+    "region_menu": "flag",
     "mailChimp_url": "\/\/adornthemes.us14.list-manage.com\/subscribe\/post?u=7871991105e328584f24626f6&amp;id=ca417a745e",
     "newsltr-style": "style2",
     "newsletter_img": "shopify:\/\/shop_images\/newsletter_540ef5d7-3eab-494d-8605-220423d4a674.jpg",
@@ -348,7 +357,8 @@
           "nm_label2": "Sale",
           "nm_label3": "Hot",
           "nm_label4": "Popular",
-          "nm_label5": "Trending"
+          "nm_label5": "Trending",
+          "region_menu": "main-menu"
         }
       },
       "footer": {
@@ -444,9 +454,7 @@
           "copyright_text": "© 2023 HEYBIKE. All Rights Reserved.",
           "show_designby": false,
           "show_payment": true,
-          "payment_img_width": "350",
-          "current_flag": "shopify:\/\/shop_images\/c07d2406fd8c110061f629dd3ffe5fdf.png",
-          "region_menu": "localization"
+          "payment_img_width": "350"
         }
       },
       "custom-colors": {

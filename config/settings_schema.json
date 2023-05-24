@@ -4450,13 +4450,13 @@
     "name": "localization",
     "settings": [
       {
-        "type":"header",
-        "content":"Region selection"
+        "type": "header",
+        "content": "Region selection"
       },
       {
-        "type":"image_picker",
-        "id":"current_flag",
-        "label":"Current flag"
+        "type": "image_picker",
+        "id": "current_flag",
+        "label": "Current flag"
       },
       {
         "type": "link_list",

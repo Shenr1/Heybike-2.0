@@ -1,4 +1,6 @@
-{%- capture breadcrumbSec -%}
+{% comment %} todo 做可配置项目 {% endcomment %}
+
+{% comment %} {%- capture breadcrumbSec -%}
 {% unless template == 'index' %}
 <div class="bredcrumbWrap">
     <nav class="{% if section.settings.section_width %}fullwidth{% else %}page-width{% endif %} breadcrumbs" role="navigation" aria-label="breadcrumbs">
@@ -175,4 +177,4 @@
 </script>
 {% endunless %}
 {%- endcapture -%}
-{{ breadcrumbSec | strip_newlines | remove: "  " | remove: "	" }}
+{{ breadcrumbSec | strip_newlines | remove: "  " | remove: "	" }} {% endcomment %}

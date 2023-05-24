@@ -60,6 +60,9 @@
 {% else %}
 	{% capture imgSt %}--imgw:100%;{% endcapture %}
 {% endif %}
+
+{% render 'product-tabs' %}
+
 <div class="ptContainer {{settings.product_latyout}} page-width{% if secSt.section_width %} fullwidth{%endif%}" data-style="{{settings.product_latyout}}" data-url="{{ product.url }}" data-section-id="{{ section.id }}" data-section-type="product" data-enable-history-state="true">
 	{%- capture productImages -%}
         <div class="fl f-jcsb f-col{% if settings.thumbnail_pos != "bottom" %} f-row-md{% endif %}">
