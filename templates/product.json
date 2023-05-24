@@ -29,8 +29,8 @@
           "settings": {
             "pcl": "#000000",
             "pcls": "#e95144",
-            "fs": 25,
-            "fsm": 18,
+            "fs": 30,
+            "fsm": 20,
             "pfw": "600",
             "saved": true,
             "taxship": true,
