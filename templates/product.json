@@ -247,6 +247,71 @@
         "autoplay": false,
         "speed": 5
       }
+    },
+    "9359a303-aa3a-4726-b58e-f9e8bc1ffa0c": {
+      "type": "image-list-text",
+      "blocks": {
+        "47ff9f65-a513-4378-86dd-760e66cf239c": {
+          "type": "item",
+          "settings": {
+            "item_title": "360wh",
+            "item_dec": "Battery"
+          }
+        },
+        "a27b30d1-ea2c-42ec-9fce-1899fef048f4": {
+          "type": "item",
+          "settings": {
+            "item_title": "360wh",
+            "item_dec": "Battery"
+          }
+        },
+        "19891b48-30b5-4d5d-9969-7cc834a3cbde": {
+          "type": "item",
+          "settings": {
+            "item_title": "360wh",
+            "item_dec": "Battery"
+          }
+        },
+        "77f5c680-eb06-4cbd-b967-0b45bc01402e": {
+          "type": "item",
+          "settings": {
+            "item_title": "360wh",
+            "item_dec": "Battery"
+          }
+        },
+        "c4bf62db-57aa-4884-a373-6a2c5aeb6ff2": {
+          "type": "item",
+          "settings": {
+            "item_title": "360wh",
+            "item_dec": "Battery"
+          }
+        },
+        "5f9f9e75-45fd-46a0-a3ac-f3d9004997a4": {
+          "type": "item",
+          "settings": {
+            "item_title": "360wh",
+            "item_dec": "Battery"
+          }
+        }
+      },
+      "block_order": [
+        "47ff9f65-a513-4378-86dd-760e66cf239c",
+        "a27b30d1-ea2c-42ec-9fce-1899fef048f4",
+        "19891b48-30b5-4d5d-9969-7cc834a3cbde",
+        "77f5c680-eb06-4cbd-b967-0b45bc01402e",
+        "c4bf62db-57aa-4884-a373-6a2c5aeb6ff2",
+        "5f9f9e75-45fd-46a0-a3ac-f3d9004997a4"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "bg_color": "#f5f5f5",
+        "layout": "textImage",
+        "img": "shopify:\/\/shop_images\/IMG_5594_1_750x_72873c23-83d0-4c77-b3b8-3d81b2ea4dac.webp",
+        "text_main": "Reframing The Future",
+        "text_sub": "With its streamlined body, the EC 1-ST moves freely through the crowded city streets like a gazelle, reaching places that are out of the reach of cars.",
+        "text_dec": "The low frame design is ideal for women, so they can wear their dresses and go shopping in style."
+      }
     }
   },
   "order": [
@@ -255,6 +320,7 @@
     "tabs",
     "related-products",
     "recommendations",
-    "recently-viewed"
+    "recently-viewed",
+    "9359a303-aa3a-4726-b58e-f9e8bc1ffa0c"
   ]
 }
