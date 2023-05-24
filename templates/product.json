@@ -248,6 +248,14 @@
         "speed": 5
       }
     },
+    "a9f9773e-7468-4d64-9888-c3253cb66bee": {
+      "type": "section-space",
+      "settings": {
+        "sdesk": 30,
+        "mdesk": 15,
+        "color_bg": "#fff"
+      }
+    },
     "9359a303-aa3a-4726-b58e-f9e8bc1ffa0c": {
       "type": "image-list-text",
       "blocks": {
@@ -321,6 +329,7 @@
     "related-products",
     "recommendations",
     "recently-viewed",
+    "a9f9773e-7468-4d64-9888-c3253cb66bee",
     "9359a303-aa3a-4726-b58e-f9e8bc1ffa0c"
   ]
 }
