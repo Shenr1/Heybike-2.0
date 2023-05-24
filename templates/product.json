@@ -7,12 +7,12 @@
           "type": "title",
           "settings": {
             "cl": "#000000",
-            "fs": 22,
-            "fsm": 18,
+            "fs": 36,
+            "fsm": 24,
             "ff": "ft2",
             "fw": "600",
             "transform": "tt-c",
-            "bm": 15
+            "bm": 0
           }
         },
         "3794d304-5ede-42ea-872e-bc1da0adbb2c": {
@@ -29,8 +29,8 @@
           "settings": {
             "pcl": "#000000",
             "pcls": "#e95144",
-            "fs": 25,
-            "fsm": 18,
+            "fs": 30,
+            "fsm": 20,
             "pfw": "600",
             "saved": true,
             "taxship": true,

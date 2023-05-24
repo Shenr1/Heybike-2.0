@@ -63,7 +63,7 @@
 
 {% render 'product-tabs' %}
 
-<div class="ptContainer {{settings.product_latyout}} page-width{% if secSt.section_width %} fullwidth{%endif%}" data-style="{{settings.product_latyout}}" data-url="{{ product.url }}" data-section-id="{{ section.id }}" data-section-type="product" data-enable-history-state="true">
+<div class="ptContainer {{settings.product_latyout}} page-width{% if secSt.section_width %} fullwidth{%endif%} mt-24" data-style="{{settings.product_latyout}}" data-url="{{ product.url }}" data-section-id="{{ section.id }}" data-section-type="product" data-enable-history-state="true">
 	{%- capture productImages -%}
         <div class="fl f-jcsb f-col{% if settings.thumbnail_pos != "bottom" %} f-row-md{% endif %}">
             <div class="pr_lg_img" data-product-single-media-group style="{{imgSt}}">
@@ -174,7 +174,8 @@
             <hr class="mt0 mb{{blkSt.bm}}" style="border-color: {{blkSt.hrc}}" {{ block.shopify_attributes }} /> 
         {%  when 'title' %}
             <h1 class="product-single__title ttlTxt {{blkSt.transform}} mb{{blkSt.bm}}" style="--tcl:{{blkSt.cl}};--tfs:{{blkSt.fs}}px;--tfsm:{{blkSt.fsm}}px;--tff:var(--{{blkSt.ff}});--tfw:{{blkSt.fw}};--tlh:1.4;" {{ block.shopify_attributes }}>{{ product.title }}</h1>
-        {%  when 'price' %}
+	   		<p class="text-lg border-solid border-0 border-b border-black-400 pb-5">Aviation grade magnesium alloy</p>
+	    {%  when 'price' %}
             {%- if product.metafields.custom.product_group != blank -%}<style>.priceSingle{--pcl:{{blkSt.pcl}};--pcls:{{blkSt.pcls}};--fs:{{blkSt.fs}}px; --fsm:{{blkSt.fsm}}px;--pfw:{{ blkSt.pfw}};}</style>{%- endif -%}
             {%- unless settings.hide-price or product.metafields.custom.product_group != blank -%}
               <div id="price{{ section.id }}" class="fl f-wrap psinglePriceWr mb{{blkSt.bm}}" style="--pcl:{{blkSt.pcl}};--pcls:{{blkSt.pcls}};--fs:{{blkSt.fs}}px; --fsm:{{blkSt.fsm}}px;--pfw:{{ blkSt.pfw}};" {{ block.shopify_attributes }}>
