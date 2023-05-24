@@ -15,15 +15,6 @@
             "bm": 0
           }
         },
-        "3794d304-5ede-42ea-872e-bc1da0adbb2c": {
-          "type": "ras",
-          "disabled": true,
-          "settings": {
-            "availability": true,
-            "sku": true,
-            "bm": 20
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -34,29 +25,6 @@
             "pfw": "600",
             "saved": false,
             "taxship": false,
-            "bm": 20
-          }
-        },
-        "a2aade4c-547b-4aba-aacc-5d7c2f763857": {
-          "type": "countdown",
-          "disabled": true,
-          "settings": {
-            "lbl": "Hurry up! Sales End In",
-            "lcl": "#000000",
-            "cl": "#060101",
-            "bg": "#f5f5f5",
-            "bd": "#dddddd",
-            "bdr": 33,
-            "bm": 20
-          }
-        },
-        "680b2e1a-82d6-4aad-9a5b-3344aae6a5aa": {
-          "type": "qty",
-          "disabled": true,
-          "settings": {
-            "maxqty": 20,
-            "cl": "#ffffff",
-            "bg": "#f67280",
             "bm": 20
           }
         },
@@ -80,38 +48,6 @@
             "bm": 30
           }
         },
-        "d33de9c7-9498-4084-8045-ea7cb7cec34e": {
-          "type": "freeship",
-          "disabled": true,
-          "settings": {
-            "bm": 15
-          }
-        },
-        "7da62210-79f5-40cd-88d9-008adfa782ab": {
-          "type": "shiptime",
-          "disabled": true,
-          "settings": {
-            "estimate": "4\/10",
-            "msg": "<i class=\"at at-clock-r\"><\/i> Estimated delivery between [startdate] - [enddate].",
-            "bm": 25
-          }
-        },
-        "9cbdef45-9088-401c-90c8-c807e38f6cd5": {
-          "type": "complementary",
-          "disabled": true,
-          "settings": {
-            "title": "COMPLETE THE LOOK",
-            "cl": "#000000",
-            "fs": 15,
-            "fsm": 14,
-            "fw": "600",
-            "limit": 10,
-            "grid": 4,
-            "gridtb": 3,
-            "gridmb": 2,
-            "bm": 15
-          }
-        },
         "3e5ff436-8638-45b7-a3ce-b36263b34395": {
           "type": "img",
           "settings": {
@@ -124,15 +60,9 @@
       },
       "block_order": [
         "title",
-        "3794d304-5ede-42ea-872e-bc1da0adbb2c",
         "price",
-        "a2aade4c-547b-4aba-aacc-5d7c2f763857",
-        "680b2e1a-82d6-4aad-9a5b-3344aae6a5aa",
         "43d9e0cf-f5b3-4270-bd73-3845bf580da3",
         "product-form",
-        "d33de9c7-9498-4084-8045-ea7cb7cec34e",
-        "7da62210-79f5-40cd-88d9-008adfa782ab",
-        "9cbdef45-9088-401c-90c8-c807e38f6cd5",
         "3e5ff436-8638-45b7-a3ce-b36263b34395"
       ],
       "settings": {
