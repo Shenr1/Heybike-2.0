@@ -158,6 +158,7 @@
     "thumbnail_pos": "bottom",
     "askaboutproduct": true,
     "shippingpage": "delivary-and-returns",
+    "sizechart_link": false,
     "sizechart_page": "size-chart",
     "show_share_buttons_single": false,
     "sharing_lbl": "Share:",
