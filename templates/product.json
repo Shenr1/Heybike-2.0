@@ -7,8 +7,8 @@
           "type": "title",
           "settings": {
             "cl": "#000000",
-            "fs": 22,
-            "fsm": 18,
+            "fs": 36,
+            "fsm": 24,
             "ff": "ft2",
             "fw": "600",
             "transform": "tt-c",
