@@ -1815,7 +1815,9 @@ $(document).ready(function() {
           $('.stickySpace').css("min-height",'');
       }
     }else{
-      $("[tag-name = 'reversal-logo']").addClass("stickyHeader animated fadeInDown");
+      $(window).scrollTop()>145?   
+      $("[section-name = 'product-tabs-nav']").slideDown():
+      $("[section-name = 'product-tabs-nav']").slideUp();
     }
   }
 

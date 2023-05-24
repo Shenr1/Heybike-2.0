@@ -23,8 +23,8 @@
     assign product_description_width = 'wd50-md'
 
     if settings.product_latyout == "style1"
-        assign product_image_width = 'wd60-md'
-        assign product_description_width = 'wd40-md'
+        assign product_image_width = 'wd60-md pr-10'
+        assign product_description_width = 'wd40-md pl-10'
     elsif settings.product_latyout == "style2"
         assign product_image_width = 'wd66-md'
         assign product_description_width = 'wd33-md'
@@ -64,7 +64,7 @@
 	{% capture imgSt %}--imgw:100%;{% endcapture %}
 {% endif %}
 
-{% render 'product-tabs' %}
+{% render 'product-tabs-nav' %}
 
 <div class="ptContainer {{settings.product_latyout}} page-width{% if secSt.section_width %} fullwidth{%endif%} mt-24" data-style="{{settings.product_latyout}}" data-url="{{ product.url }}" data-section-id="{{ section.id }}" data-section-type="product" data-enable-history-state="true">
 	{%- capture productImages -%}
@@ -541,6 +541,8 @@
             {% render 'complementary', product: product, sectionId: section.id, block: block.settings, isRtl:isRtl  %}
         {%- when 'more-color' -%}
             {% render 'more-colors', product: product, sectionId: section.id, block: block.settings %}
+        {%- when 'colimg' -%}
+            {% render 'product-column-img', product: product, sectionId: section.id, block: block.settings %}
         {%- when '@app' -%}
             {% render block %}
         {% endcase %}
@@ -1350,6 +1352,46 @@
 					"unit": "px",
 					"default": 20
 				}          
+			]
+		},
+		{
+			"type": "colimg",
+			"name": "Column img",
+            "limit": 1,
+			"settings": [
+				{ 
+					"type":"text",
+					"id":"text1",
+					"label":"First content",
+					"default":"Free shipping"
+				},     
+				{ 
+					"type":"text",
+					"id":"text2",
+					"label":"Second content",
+					"default":"VAT included"
+				},     
+				{ 
+					"type":"text",
+					"id":"text3",
+					"label":"Third content",
+					"default":"2-year warranty"
+				},     
+				{ 
+					"type":"image_picker",
+					"id":"icon1",
+					"label":"First icon"
+				},     
+				{ 
+					"type":"image_picker",
+					"id":"icon2",
+					"label":"Second icon"
+				},     
+				{ 
+					"type":"image_picker",
+					"id":"icon3",
+					"label":"Third icon"
+				}
 			]
 		},
 		{
