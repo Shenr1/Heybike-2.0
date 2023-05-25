@@ -176,6 +176,7 @@
     "ctbg": "#f4f4f4",
     "ctbga": "#000",
     "ctfs": 15,
+    "sticky_cart": false,
     "cart_text": "#f5f5f5",
     "cart_qty_bdr": "#535353",
     "cart_btn": "#e34848",
