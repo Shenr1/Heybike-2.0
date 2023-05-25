@@ -1,29 +1,46 @@
 {%- assign secSt = section.settings -%}
+{% if secSt.style != "default" %} {% assign isStyle = true %} {% else %} {% assign isStyle = false %} {% endif %}
 
-<section section-name="logo-slider" class="{% render 'section-interva-set' , secSt:secSt %}" >
+<section section-name="logo-slider" class="{% render 'section-interva-set' , secSt:secSt %}" 
+style="{% if secSt.bg_color != blank %}background-color: {{ secSt.bg_color}};{% endif %}">
 
   <div class="page-width px-4">
-    <div class="md:rounded-section rounded-3xl bg-no-repeat md:py-20 py-10" style="background-image: url({{ secSt.bg_img | image_url:master}}); background-color:{{blkSt.bg_color}};">
+    <div class="md:rounded-section rounded-3xl bg-no-repeat md:py-20 py-10" style="{% if secSt.bg_img != blank %}background-image: url({{ secSt.bg_img | image_url:master}});{% endif %}">
       <div class="md:w-3/5 md:px-0 px-2 mx-auto">
+
         <div id="carousel-main-{{section.id}}" 
-          data-flickity='{"pageDots": false, "fade": true,"prevNextButtons": false, "wrapAround": true }'>
+          data-flickity='{"pageDots": false, "fade": true,"prevNextButtons": false, "wrapAround": true, {% if isStyle %}"autoPlay": true{% endif %} }'>
           {% for block in section.blocks %}
-          <div class="mb-20 text-center text-white">
+          <div class="mb-20 text-center" style="color:{{blkSt.text_color}};" >
+
+            {% if isStyle %}
+            <div class="flex items-center mb-6 justify-center">
+              {% for i in (1..5) %}
+              <svg t="1685013304429" class="mx-1" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2640" data-spm-anchor-id="a313x.7781069.0.i4" width="30" height="30"><path d="M512 39.384615l169.353846 295.384615 342.646154 63.015385-240.246154 248.123077L827.076923 984.615385l-315.076923-145.723077L196.923077 984.615385l43.323077-334.769231L0 401.723077l342.646154-63.015385L512 39.384615" fill="#F3D958" p-id="2641"></path></svg>
+              {% endfor %}
+            </div>
+            {% endif %}
             <p class="mb-8 md:text-3xl text-2xl font-bold">{{block.settings.text_main}}</p>
             <p class="text-lg">{{block.settings.text_sub}}</p>
           </div>
           {% endfor %}
         </div>
       </div>
-      <div data-flickity='{"draggable": false, "asNavFor": "#carousel-main-{{section.id}}", "contain": true, "pageDots": false, "wrapAround": true,"prevNextButtons": false,"selectedAttraction": 0.01,"friction": 0.15}'>
-        {% for block in section.blocks %}
-        <div class="lg:w-1/5 md:w-1/4 w-1/2 cursor-pointer text-center">
-          <img class="grayscale transition-all scale-90 max-h-9" src="{{ block.settings.logo_image | image_url: master }}">
+
+
+      <section {% if isStyle %}class="w-32 mx-auto"{% endif %} >
+        <div data-flickity='{"draggable": false, "asNavFor": "#carousel-main-{{section.id}}", "contain": true, {% unless isStyle %}"pageDots": false,{% endunless %} "wrapAround": true,"prevNextButtons": false,"selectedAttraction": 0.01,"friction": 0.15}'>
+          {% for block in section.blocks %}
+          <div class="{% if isStyle %}w-full{% else %}lg:w-1/5 md:w-1/4 w-1/2{% endif %} cursor-pointer text-center">
+            <img class="grayscale transition-all scale-90 max-h-9" src="{{ block.settings.logo_image | image_url: master }}">
+          </div>
+          {% endfor %}
         </div>
-        {% endfor %}
-      </div>
+      </section>
+
     </div>
   </div>
+
 </section> 
 
 
@@ -121,6 +138,12 @@
         "type": "color",
         "id": "bg_color",
         "label": "Background color"
+      },
+ 		  {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text color",
+        "default": "#000000"
       }
     ],
     "blocks":[

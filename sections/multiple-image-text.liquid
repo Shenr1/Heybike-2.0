@@ -6,7 +6,7 @@
   <div class="page-width px-4">
     <h1 class="md:text-4_5xl text-3xl text-center md:mb-12 mb-8">{{secSt.title}}</h1>
 
-    <div {% if ebSlider %}data-flickity='{"pageDots": false, "draggable": false, "autoPlay": true,"initialIndex": 2 }' {% else %} class="md:flex"{% endif %} >
+    <div {% if ebSlider %}data-flickity='{"pageDots": false, "draggable": false, "autoPlay": true,"initialIndex": 3 }' {% else %} class="md:flex"{% endif %} >
       {% for block in section.blocks %}
       {%- assign blkSt = block.settings -%}
 
