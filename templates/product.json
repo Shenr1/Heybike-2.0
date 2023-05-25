@@ -354,7 +354,7 @@
         "c40ebf74-fd0a-4136-902b-64c9b076e175"
       ],
       "settings": {
-        "top_padding": "default",
+        "top_padding": "large",
         "bottom_padding": "default",
         "bg_color": "",
         "layout": "imageText",
