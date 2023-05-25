@@ -26,6 +26,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
 
 
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

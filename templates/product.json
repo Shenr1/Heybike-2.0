@@ -417,7 +417,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/023.webp",
+            "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
             "text_main": "Find Dealers Near You",
             "text_sub": "Test Ride & Buy Directly",
             "url": ""
@@ -428,7 +428,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/02_c6d1e217-2ca7-4f1a-8304-c564ef6a700b.webp",
+            "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
             "text_main": "Find Dealers Near You",
             "text_sub": "Test Ride & Buy Directly",
             "url": ""
@@ -439,7 +439,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/ebikenews_165x_6cf7a577-5822-4465-a103-659a3564a872.webp",
+            "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
             "text_main": "Find Dealers Near You",
             "text_sub": "Test Ride & Buy Directly",
             "url": ""
@@ -455,7 +455,131 @@
         "top_padding": "large",
         "bottom_padding": "default",
         "title": "The World of HEYBIKE",
-        "layout": "textImage"
+        "layout": "imgText",
+        "bottom_line": false
+      }
+    },
+    "b5bc4525-2802-4e9d-acbe-44c6ddd2167c": {
+      "type": "color-slider-full",
+      "blocks": {
+        "42b01243-65bf-4d68-93ef-f11af85385a1": {
+          "type": "slide",
+          "settings": {
+            "color": "#000000",
+            "image": "shopify:\/\/shop_images\/cowboy-4-black_1610x_91f71180-59f8-4616-92f5-9e5fb77649f1.webp"
+          }
+        },
+        "3f2b5db7-4454-454d-a182-9e69238708a7": {
+          "type": "slide",
+          "settings": {
+            "color": "#fffbea",
+            "image": "shopify:\/\/shop_images\/cowboy-4-sand_1188x_2x_092e6f63-a922-43d6-80b9-f7bd71813e3e.webp"
+          }
+        }
+      },
+      "block_order": [
+        "42b01243-65bf-4d68-93ef-f11af85385a1",
+        "3f2b5db7-4454-454d-a182-9e69238708a7"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "title": "Bring an Ideal Urban Life",
+        "sub_title": "Made of aluminum alloy",
+        "bg_color": "#f5f5f5"
+      }
+    },
+    "d4b5c56e-c26a-4b14-977c-38e23d8137ca": {
+      "type": "section-space",
+      "settings": {
+        "sdesk": 30,
+        "mdesk": 15,
+        "color_bg": "#fff"
+      }
+    },
+    "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4": {
+      "type": "video",
+      "settings": {
+        "top-offeset": "default",
+        "section_width": false,
+        "hide_mobile": false,
+        "snow_effect": false,
+        "snow_style": "style1",
+        "pad-desk": 55,
+        "pad-ipad": 15,
+        "pad-mbl": 10,
+        "mp4url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/14970270c5514f80a7d7c28535c32bb5.mp4",
+        "title": "Video Text",
+        "color_ttl": "#fff",
+        "tfs": 20,
+        "tfsm": 12,
+        "hide_text": false,
+        "btntxt": "",
+        "btnurl": "",
+        "hide_btn": false,
+        "btn-style": "btn",
+        "text_align": "left"
+      }
+    },
+    "249f5118-94f0-47fc-be93-3e7f16ec14ba": {
+      "type": "section-space",
+      "settings": {
+        "sdesk": 30,
+        "mdesk": 15,
+        "color_bg": "#fff"
+      }
+    },
+    "a8ffb222-813d-463f-9e86-871bceb908a5": {
+      "type": "banner-with-text",
+      "blocks": {
+        "template--19143574815035__a8ffb222-813d-463f-9e86-871bceb908a5-1684996746297eb402-0": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/app.webp",
+            "layout": "right",
+            "title": "Smarttech and APP",
+            "text": "<p>Your amazing rides deserve a journal! Connect your bike to the HEYBIKE App, and build an impressive mileage count!<\/p>",
+            "bottom_logo": "shopify:\/\/shop_images\/app-store.webp",
+            "button_label": "",
+            "button_link": "\/",
+            "text_align": "text-left",
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "#f5f5f5",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "template--19143574815035__a8ffb222-813d-463f-9e86-871bceb908a5-1684996746297eb402-0"
+      ],
+      "settings": {
+        "top_padding": "default",
+        "bottom_padding": "none",
+        "top-offeset": "default",
+        "section_style": "heybike",
+        "section_width": true,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "snow_effect": false,
+        "snow_style": "style1",
+        "tfs": 30,
+        "tfsm": 22,
+        "tff": "ft1",
+        "tfw": "700",
+        "tlh": 1.2,
+        "tmb": 15,
+        "tmbm": 10,
+        "fs": 14,
+        "fsm": 12,
+        "fw": "400",
+        "lh": 1.6,
+        "mb": 15,
+        "mbm": 10,
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm"
       }
     }
   },
@@ -470,6 +594,11 @@
     "9359a303-aa3a-4726-b58e-f9e8bc1ffa0c",
     "c9dbe5e5-19b2-4769-9fd9-a600c03bdb17",
     "57d28d3e-e7d1-4115-8f16-31ef4e965106",
-    "532d629b-5414-439a-9833-fe4f04d408f2"
+    "532d629b-5414-439a-9833-fe4f04d408f2",
+    "b5bc4525-2802-4e9d-acbe-44c6ddd2167c",
+    "d4b5c56e-c26a-4b14-977c-38e23d8137ca",
+    "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4",
+    "249f5118-94f0-47fc-be93-3e7f16ec14ba",
+    "a8ffb222-813d-463f-9e86-871bceb908a5"
   ]
 }

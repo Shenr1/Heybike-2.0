@@ -56,278 +56,278 @@
 {%- endif -%}
 {% schema %}
 {
-    "name": "Product Tabs",
-    "class": "content-indent default",
-    "settings": [       
-	  {
-		"type":"checkbox",
-		"id":"section_width",
-		"label":"Fullwidth?",
-		"default": false
-	   },
-       {
-        "type": "select",
-        "id": "tab_style",
-        "label": "Tab Design",
-		"default": "1",      
-        "options": [
-          {
-            "value": "1",
-            "label": "Style 1 - Tab Horizontal Border"
-          },
-          {
-            "value": "2",
-            "label": "Style 2 - Tab Background and Border"
-          }		 
-        ]
-      },
-      {
-        "type": "select",
-        "id": "tab_align",
-        "label": "Tab Alignment",
-        "options": [
-          {
-            "value": "left",
-            "label": "Left"
-          },
-          {
-            "value": "center",
-            "label": "Center"
-          }
-        ],
-        "default": "left"
-      },
-      {
-        "type": "range",
-        "id": "tfs",
-        "label": "Font Size",
-        "default": 13,
-        "min": 10,
-        "max": 40,
-        "step": 1,
-        "unit": "px"
-      },
-      {
-        "type": "select",
-        "id": "tff",
-        "label": "Font Family",
-        "default": "ft1",
-        "options": [
-          {
-            "value": "ft1",
-            "label": "Font 1"
-          },
-          {
-            "value": "ft2",
-            "label": "Font 2"
-          },
-          {
-            "value": "ft3",
-            "label": "Font 3"
-          }
-        ]
-      },
-      {
-        "type": "select",
-        "id": "tfw",
-        "label": "Font Weight",
-        "default": "600",
-        "options": [
-          {
-            "value": "300",
-            "label": "Light"
-          },
-          {
-            "value": "400",
-            "label": "Regular"
-          },
-          {
-            "value": "500",
-            "label": "Medium"
-          },
-          {
-            "value": "600",
-            "label": "Semi Bold"
-          },
-          {
-            "value": "700",
-            "label": "Bold"
-          }
-        ]
-      },
-      {
-        "type": "color",
-        "id": "cl",
-        "label": "Button Text",
-        "default": "#000"
-      },
-	  {
-        "type": "color",
-        "id": "tbg",
-        "label": "Button Background",
-        "default": "#eee"
-      },
-      {
-        "type": "color",
-        "id": "cla",
-        "label": "Active Button Text",
-        "default": "#eee"
-      },      
-      {
-        "type": "color",
-        "id": "tbga",
-        "label": "Active Button Background",
-        "default": "#000"
-      },      
-      {
-        "type": "color",
-        "id": "bdr",
-        "label": "Button Border",
-        "default": "#fff"
-      },
-      {
-        "type": "color",
-        "id": "bdra",
-        "label": "Active Button Border",
-        "default": "#eee"
-      },
-      {
-        "type": "range",
-        "id": "bbrd",
-        "label": "Tab Border Radius",
-        "default": 0,
-        "min": 0,
-        "max": 25,
-        "step": 1,
-        "unit": "px"
-      },
-      {
-        "type":"header",
-        "content":"Mobile Collapsible Tab"
-      },
-      {
-        "type": "color",
-        "id": "clm",
-        "label": "Button Text",
-        "default": "#000"
-      },
-	  {
-        "type": "color",
-        "id": "tbgm",
-        "label": "Button Background",
-        "default": "#eee"
-      },
-      {
-        "type": "color",
-        "id": "clam",
-        "label": "Active Button Text",
-        "default": "#eee"
-      },      
-      {
-        "type": "color",
-        "id": "tbgam",
-        "label": "Active Button Background",
-        "default": "#000"
-      },      
-      {
-        "type": "color",
-        "id": "bdrm",
-        "label": "Button Border",
-        "default": "#fff"
-      },
-      {
-        "type": "color",
-        "id": "bdram",
-        "label": "Active Button Border",
-        "default": "#eee"
-      } 
-    ],
-    "blocks": [
+  "name": "Product Tabs",
+  "class": "content-indent default",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "section_width",
+      "label": "Fullwidth?",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "tab_style",
+      "label": "Tab Design",
+      "default": "1",
+      "options": [
         {
-            "type": "desc",
-            "name": "Default Descriptions",
-            "limit": 1,
-            "settings": [
-                { 
-                    "type":"text",
-                    "id":"title",
-                    "label":"Title",
-                    "default":"Product Details"
-                }
-            ]
+          "value": "1",
+          "label": "Style 1 - Tab Horizontal Border"
         },
         {
-            "type": "review",
-            "name": "Review",
-            "limit": 1,
-            "settings": [				
-                { 
-                    "type":"text",
-                    "id":"title",
-                    "label":"Title",
-                    "default":"Reviews"
-                },
-				{ 
-				"type":"paragraph",				
-				"content":"Display Reviews from app. Choose app from General Settings -> Products Reviews"
-			    }, 
-				{
-					"type": "liquid",
-                    "id": "otherapp",
-					"label": "Add other app reviews snippet here"
-				}
-            ]
-        },
-        {
-            "type": "schart",
-            "name": "Size Chart",
-            "limit": 1,
-            "settings": [
-                { 
-                    "type":"text",
-                    "id":"title",
-                    "label":"Title",
-                    "default":"Size & Fit",
-                    "info":"Set content for size chart from Theme Settings -> Product Page -> Size Chart Type" 
-                }
-            ]
-        },
-        {
-            "type": "custom",
-            "name": "Global Text",
-            "limit": 3,
-            "settings": [
-                { 
-                    "type":"text",
-                    "id":"title",
-                    "label":"Title",
-                    "default":"Custom Text"
-                },
-                {
-                    "type": "liquid",
-                    "id": "content",
-                    "label": "Content"
-                }
-            ]
-        },
-		{
-            "type": "richtext",
-            "name": "Rich Text",           
-            "settings": [
-                { 
-                    "type":"text",
-                    "id":"title",
-                    "label":"Title",
-                    "default":"Rich Text"
-                },
-                {
-                    "type": "richtext",
-                    "id": "content",
-                    "label": "Content",
-					"info":"[How to set different data for each products?](https://www.adornthemes.com/knowledge-base/vogal-display-different-tab-details-for-each-product/)"
-                }
-            ]
+          "value": "2",
+          "label": "Style 2 - Tab Background and Border"
         }
-    ]
+      ]
+    },
+    {
+      "type": "select",
+      "id": "tab_align",
+      "label": "Tab Alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "range",
+      "id": "tfs",
+      "label": "Font Size",
+      "default": 13,
+      "min": 10,
+      "max": 40,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "select",
+      "id": "tff",
+      "label": "Font Family",
+      "default": "ft1",
+      "options": [
+        {
+          "value": "ft1",
+          "label": "Font 1"
+        },
+        {
+          "value": "ft2",
+          "label": "Font 2"
+        },
+        {
+          "value": "ft3",
+          "label": "Font 3"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "tfw",
+      "label": "Font Weight",
+      "default": "600",
+      "options": [
+        {
+          "value": "300",
+          "label": "Light"
+        },
+        {
+          "value": "400",
+          "label": "Regular"
+        },
+        {
+          "value": "500",
+          "label": "Medium"
+        },
+        {
+          "value": "600",
+          "label": "Semi Bold"
+        },
+        {
+          "value": "700",
+          "label": "Bold"
+        }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "cl",
+      "label": "Button Text",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "tbg",
+      "label": "Button Background",
+      "default": "#eee"
+    },
+    {
+      "type": "color",
+      "id": "cla",
+      "label": "Active Button Text",
+      "default": "#eee"
+    },
+    {
+      "type": "color",
+      "id": "tbga",
+      "label": "Active Button Background",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "bdr",
+      "label": "Button Border",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "bdra",
+      "label": "Active Button Border",
+      "default": "#eee"
+    },
+    {
+      "type": "range",
+      "id": "bbrd",
+      "label": "Tab Border Radius",
+      "default": 0,
+      "min": 0,
+      "max": 25,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "header",
+      "content": "Mobile Collapsible Tab"
+    },
+    {
+      "type": "color",
+      "id": "clm",
+      "label": "Button Text",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "tbgm",
+      "label": "Button Background",
+      "default": "#eee"
+    },
+    {
+      "type": "color",
+      "id": "clam",
+      "label": "Active Button Text",
+      "default": "#eee"
+    },
+    {
+      "type": "color",
+      "id": "tbgam",
+      "label": "Active Button Background",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "bdrm",
+      "label": "Button Border",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "bdram",
+      "label": "Active Button Border",
+      "default": "#eee"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "desc",
+      "name": "Default Descriptions",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Product Details"
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "name": "Review",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Reviews"
+        },
+        {
+          "type": "paragraph",
+          "content": "Display Reviews from app. Choose app from General Settings -> Products Reviews"
+        },
+        {
+          "type": "liquid",
+          "id": "otherapp",
+          "label": "Add other app reviews snippet here"
+        }
+      ]
+    },
+    {
+      "type": "schart",
+      "name": "Size Chart",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Size & Fit",
+          "info": "Set content for size chart from Theme Settings -> Product Page -> Size Chart Type"
+        }
+      ]
+    },
+    {
+      "type": "custom",
+      "name": "Global Text",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Custom Text"
+        },
+        {
+          "type": "liquid",
+          "id": "content",
+          "label": "Content"
+        }
+      ]
+    },
+    {
+      "type": "richtext",
+      "name": "Rich Text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Rich Text"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+          "info": "[How to set different data for each products?](https://www.adornthemes.com/knowledge-base/vogal-display-different-tab-details-for-each-product/)"
+        }
+      ]
+    }
+  ]
 }
 {% endschema %}

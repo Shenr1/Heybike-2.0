@@ -1,5 +1,5 @@
 {%- assign secSt = section.settings -%}
-<section section-name="color-slider-full" class="{% render 'section-interva-set' , secSt:secSt %}" style="background-image: linear-gradient({{secSt.bg_color}}, #fff);">
+<section section-name="color-slider-full" class="{% render 'section-interva-set' , secSt:secSt %}" style="background-color: {{secSt.bg_color}};">
   <div class="page-width text-center ">
     <h1 class="md:text-4_5xl text-3xl mb-2">{{secSt.title}}</h1> 
     <p class="text-lg mb-6">{{secSt.sub_title}}</p>
