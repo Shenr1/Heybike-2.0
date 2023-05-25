@@ -670,6 +670,117 @@
         "enable_slider": false,
         "bottom_line": false
       }
+    },
+    "22f50d3e-5443-46e2-a356-2469bdea240d": {
+      "type": "logo-slider",
+      "blocks": {
+        "1db61a36-a277-4c68-acad-574b812f8fc6": {
+          "type": "slide",
+          "settings": {
+            "text_main": "estribile, pneumatici più larghi e luce anteriore integrata.",
+            "text_sub": "- moto-comtmunity in Italy",
+            "logo_image": "shopify:\/\/shop_images\/logo_2f39a5a2-1fb1-4269-a0dc-b787c511a865.png"
+          }
+        },
+        "6dc0201d-f684-4821-a9d9-70e940aa064b": {
+          "type": "slide",
+          "settings": {
+            "text_main": "una batteria facilmente estraibile, pneumatici più larghi e luce anteriore integrata.",
+            "text_sub": "tmoto-comtmunity in Ital",
+            "logo_image": "shopify:\/\/shop_images\/techpulse-logo_1_165x_4e1bcc1a-b0d4-429b-8190-89d7cb8118a6.webp"
+          }
+        },
+        "ea0d551e-e63a-4f7c-b7aa-0fb32c3680d8": {
+          "type": "slide",
+          "settings": {
+            "text_main": "più larghi e luce anteriore integrata.",
+            "text_sub": "- Largest moto-c",
+            "logo_image": "shopify:\/\/shop_images\/ebikenews_165x_a873ffa6-8b92-4a63-86bd-c224f534e982.webp"
+          }
+        }
+      },
+      "block_order": [
+        "1db61a36-a277-4c68-acad-574b812f8fc6",
+        "6dc0201d-f684-4821-a9d9-70e940aa064b",
+        "ea0d551e-e63a-4f7c-b7aa-0fb32c3680d8"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "style": "default",
+        "bg_color": "",
+        "text_color": "#000000"
+      }
+    },
+    "dd234409-19b7-4258-8b98-44063da04a59": {
+      "type": "store-features",
+      "blocks": {
+        "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-0": {
+          "type": "text_block",
+          "settings": {
+            "icons": "at-truck-l",
+            "title": "FREE SHIPPING",
+            "text": "<p>When you spend $100+<\/p>",
+            "texturl": ""
+          }
+        },
+        "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-1": {
+          "type": "text_block",
+          "settings": {
+            "icons": "at-undo-r",
+            "title": "FREE RETURNS",
+            "text": "<p>30-days free return policy.<\/p>",
+            "texturl": ""
+          }
+        },
+        "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-2": {
+          "type": "text_block",
+          "settings": {
+            "icons": "at-lock-al",
+            "title": "SECURED PAYMENTS",
+            "text": "<p>We accept all major credit cards.<\/p>",
+            "texturl": ""
+          }
+        },
+        "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-3": {
+          "type": "text_block",
+          "settings": {
+            "icons": "at-chat",
+            "title": "24\/7 HELP CENTER",
+            "text": "<p>Dedicated 24\/7 support<\/p>",
+            "texturl": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-0",
+        "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-1",
+        "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-2",
+        "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-3"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "extraLarge",
+        "top-offeset": "none",
+        "section_style": "heybike",
+        "section_width": false,
+        "section_cov": true,
+        "sec_bg_clr": "#232426",
+        "hide_mobile": false,
+        "title": "Great Bikes. Even Better Service.",
+        "subtitle": "You are at the center of our hearts.",
+        "style": "style1",
+        "icon-type": "image",
+        "icons_clr": "#fff",
+        "isz": 75,
+        "tcl": "#ffffff",
+        "tfs": 24,
+        "tfsm": 20,
+        "tfw": "600",
+        "tlh": 1.2,
+        "cl": "#eee",
+        "border_sep": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -690,6 +801,8 @@
     "249f5118-94f0-47fc-be93-3e7f16ec14ba",
     "a8ffb222-813d-463f-9e86-871bceb908a5",
     "b832809d-c477-4c3b-a13f-acb6501dceec",
-    "a96d37af-dc7b-43f1-8f0b-23018e00eaf4"
+    "a96d37af-dc7b-43f1-8f0b-23018e00eaf4",
+    "22f50d3e-5443-46e2-a356-2469bdea240d",
+    "dd234409-19b7-4258-8b98-44063da04a59"
   ]
 }
