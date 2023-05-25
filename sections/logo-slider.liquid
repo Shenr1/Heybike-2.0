@@ -3,7 +3,7 @@
 <section section-name="logo-slider" class="{% render 'section-interva-set' , secSt:secSt %}" >
 
   <div class="page-width px-4">
-    <div class="md:rounded-section rounded-3xl bg-no-repeat md:py-20 py-10" style="background-image: url({{ secSt.bg_img | image_url:master}});">
+    <div class="md:rounded-section rounded-3xl bg-no-repeat md:py-20 py-10" style="background-image: url({{ secSt.bg_img | image_url:master}}); background-color:{{blkSt.bg_color}};">
       <div class="md:w-3/5 md:px-0 px-2 mx-auto">
         <div id="carousel-main-{{section.id}}" 
           data-flickity='{"pageDots": false, "fade": true,"prevNextButtons": false, "wrapAround": true }'>
@@ -96,10 +96,31 @@
         "type": "header",
         "content": "Default set"
       },
+      {
+        "type": "select",
+        "id": "style",
+        "label": "Section style",
+        "default": "default",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "style1",
+            "label": "style1(has star)"
+          }
+        ]
+      },
  		  {
         "type": "image_picker",
         "id": "bg_img",
         "label": "Background image"
+      },
+ 		  {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background color"
       }
     ],
     "blocks":[
