@@ -25,7 +25,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
 
 .template-index #header.stickyHeader [section-name = 'localization'] select{@apply text-black-900}
 .template-index #header [section-name = 'localization'] select{@apply text-white}
-.template-index .footer-bottom [section-name = 'localization'] select{@apply text-white}
+.footer-bottom [section-name = 'localization'] select{@apply text-white}
 
 [section-name = 'color-slider-full'] [tag-name = 'color-carousel'] div.is-selected svg{@apply !block}
 
