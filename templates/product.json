@@ -521,6 +521,14 @@
         "text_align": "left"
       }
     },
+    "249f5118-94f0-47fc-be93-3e7f16ec14ba": {
+      "type": "section-space",
+      "settings": {
+        "sdesk": 30,
+        "mdesk": 15,
+        "color_bg": "#fff"
+      }
+    },
     "a8ffb222-813d-463f-9e86-871bceb908a5": {
       "type": "banner-with-text",
       "blocks": {
@@ -590,6 +598,7 @@
     "b5bc4525-2802-4e9d-acbe-44c6ddd2167c",
     "d4b5c56e-c26a-4b14-977c-38e23d8137ca",
     "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4",
+    "249f5118-94f0-47fc-be93-3e7f16ec14ba",
     "a8ffb222-813d-463f-9e86-871bceb908a5"
   ]
 }
