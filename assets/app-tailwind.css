@@ -1,5 +1,7 @@
 
 /* 动态生成的类名 */
+.flickity-button{@apply opacity-100}
+
 [section-name = 'products-slider-full'] .flickity-slider .is-selected{@apply opacity-100}
 [section-name = 'products-slider-full'] .flickity-slider .is-selected [tag-name = 'product-info']{@apply opacity-100}
 [section-name = 'products-slider-full'] .flickity-slider .is-selected [tag-name = 'product-img']{@apply scale-100}
@@ -24,7 +26,15 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
 
 [section-name = 'color-slider-full'] [tag-name = 'color-carousel'] div.is-selected svg{@apply !block}
 
+[section-name = 'multiple-image-text'] .flickity-button{@apply bg-black-700 hover:bg-black-900}
+[section-name = 'multiple-image-text'] .flickity-button-icon{@apply fill-white}
+[section-name = 'multiple-image-text'] .flickity-prev-next-button.previous{@apply md:-left-14}
+[section-name = 'multiple-image-text'] .flickity-prev-next-button.next{@apply md:-right-14}
 
+[section-name = 'products-slider-full'] .flickity-button{@apply bg-black-700 hover:bg-black-900}
+[section-name = 'products-slider-full'] .flickity-button-icon{@apply fill-white}
+[section-name = 'products-slider-full'] .flickity-prev-next-button.previous{@apply md:left-12}
+[section-name = 'products-slider-full'] .flickity-prev-next-button.next{@apply md:right-12}
 
 
 @tailwind base;
