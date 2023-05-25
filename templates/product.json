@@ -457,7 +457,7 @@
         "title": "The World of HEYBIKE",
         "layout": "textImg",
         "enable_slider": false,
-        "bottom_line": false
+        "bottom_line": true
       }
     },
     "b5bc4525-2802-4e9d-acbe-44c6ddd2167c": {
