@@ -748,6 +748,9 @@
         "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-1",
         "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-2"
       ],
+      "custom_css": [
+        ".sec-ttl .h3,div.sec-ttl p {color: #fff;}"
+      ],
       "settings": {
         "top_padding": "large",
         "bottom_padding": "extraLarge",
