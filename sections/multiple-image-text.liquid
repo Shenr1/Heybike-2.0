@@ -2,7 +2,6 @@
 
 <section section-name="multiple-image-text" class="{% render 'section-interva-set' , secSt:secSt %}" >
   <div class="page-width px-4">
-
     <h1 class="md:text-4_5xl text-3xl text-center md:mb-12 mb-8">{{secSt.title}}</h1>
 
     <div class="md:flex" >
@@ -10,13 +9,25 @@
       {%- assign blkSt = block.settings -%}
 
       {% if blkSt.bg_img != blank %}
-      <div class="md:{{blkSt.slide_w}} md:mx-3 last:mr-0 first:ml-0 flex flex-col md:m-0 mb-8">  
-        <div class="md:rounded-section rounded-3xl overflow-hidden h-full md:mb-6 mb-2" style="background-color:{{blkSt.bg_color}};">
+      {% if secSt.layout == 'textImg' %}
+        {% assign textImg = true %}
+      {% else %}
+        {% assign textImg = false %}
+      {% endif %}
+
+      {% if forloop.length < 3 %}
+      {% assign rounded = 'md:rounded-section' %}
+      {% else %}
+      {% assign rounded = '' %}
+      {% endif %}
+
+      <div class="md:{{blkSt.slide_w}} md:mx-3 last:mr-0 first:ml-0 flex flex-col md:m-0 mb-8 relative">  
+        <div class="{{rounded}} rounded-3xl overflow-hidden h-full {% unless textImg %}md:mb-6 mb-2{% endunless %}" style="background-color:{{blkSt.bg_color}};">
           {{ blkSt.bg_img | image_url: width: 1200 | image_tag: width: nil, loading: 'lazy', class: "h-full object-cover block" }}
         </div>
-        <section>
-          <h1 class="md:text-3xl text-2xl md:mb-2 mb-0">{{ blkSt.text_main  }}</h1>
-          <p class="text-lg">{{ blkSt.text_sub  }}</p>
+        <section class="{% if textImg %}absolute bottom-6 left-6 text-white{% endif %}">
+          <h1 class="{% if textImg %}md:text-xl text-lg mb-1 {% else %} md:text-3xl text-2xl md:mb-2 mb-0{% endif %}">{{ blkSt.text_main  }}</h1>
+          <p class="{% if textImg %}text-base{% else %}text-lg{% endif %}">{{ blkSt.text_sub  }}</p>
         </section>
       </div>
       {% endif %}
@@ -24,7 +35,12 @@
       {% endfor %}
     </div>
 
+    {% if secSt.bottom_line %}
+      <hr class="h-px my-8 bg-gray-200 border-0">
+    {% endif %}
   </div>
+
+
 </section>  
 
 
@@ -108,17 +124,23 @@
         "type": "select",
         "id": "layout",
         "label": "Layout style",
-        "default": "textImage",
+        "default": "textImg",
         "options": [
           {
-            "value": "textImage",
+            "value": "textImg",
             "label": "Text on the picture"
           },
           {
-            "value": "imageText",
+            "value": "imgText",
             "label": "Text is below the picture"
           }
         ]
+      },
+ 		  {
+        "type": "checkbox",
+        "id": "bottom_line",
+        "label": "Enable bottom line",
+        "default": false
       }
     ],
     "blocks": [

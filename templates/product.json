@@ -253,7 +253,7 @@
       "settings": {
         "sdesk": 30,
         "mdesk": 15,
-        "color_bg": "#fff"
+        "color_bg": "#ffffff"
       }
     },
     "9359a303-aa3a-4726-b58e-f9e8bc1ffa0c": {
@@ -315,10 +315,147 @@
         "bottom_padding": "default",
         "bg_color": "#f5f5f5",
         "layout": "textImage",
+        "img_size": "big",
         "img": "shopify:\/\/shop_images\/IMG_5594_1_750x_72873c23-83d0-4c77-b3b8-3d81b2ea4dac.webp",
         "text_main": "Reframing The Future",
         "text_sub": "With its streamlined body, the EC 1-ST moves freely through the crowded city streets like a gazelle, reaching places that are out of the reach of cars.",
-        "text_dec": "The low frame design is ideal for women, so they can wear their dresses and go shopping in style."
+        "text_dec": "The low frame design is ideal for women, so they can wear their dresses and go shopping in style.",
+        "bottom_line": false
+      }
+    },
+    "c9dbe5e5-19b2-4769-9fd9-a600c03bdb17": {
+      "type": "image-list-text",
+      "blocks": {
+        "de3cbb43-265d-4140-8bf7-0d8250145964": {
+          "type": "item",
+          "settings": {
+            "item_title": "360wh",
+            "item_dec": "Battery"
+          }
+        },
+        "c2cd3913-f9ab-4d1a-90a3-425a71e726c2": {
+          "type": "item",
+          "settings": {
+            "item_title": "360wh",
+            "item_dec": "Battery"
+          }
+        },
+        "c40ebf74-fd0a-4136-902b-64c9b076e175": {
+          "type": "item",
+          "settings": {
+            "item_title": "360wh",
+            "item_dec": "Battery"
+          }
+        }
+      },
+      "block_order": [
+        "de3cbb43-265d-4140-8bf7-0d8250145964",
+        "c2cd3913-f9ab-4d1a-90a3-425a71e726c2",
+        "c40ebf74-fd0a-4136-902b-64c9b076e175"
+      ],
+      "settings": {
+        "top_padding": "default",
+        "bottom_padding": "default",
+        "bg_color": "",
+        "layout": "imageText",
+        "img_size": "small",
+        "img": "shopify:\/\/shop_images\/1.png",
+        "text_main": "Reframing The Future",
+        "text_sub": "With its streamlined body, the EC 1-ST moves freely through the crowded city streets like a gazelle, reaching places that are out of the reach of cars.",
+        "text_dec": "The low frame design is ideal for women, so they can wear their dresses and go shopping in style.",
+        "bottom_line": true
+      }
+    },
+    "57d28d3e-e7d1-4115-8f16-31ef4e965106": {
+      "type": "image-list-text",
+      "blocks": {
+        "9fd2177b-abb0-41fe-919b-05236366cb6f": {
+          "type": "item",
+          "settings": {
+            "item_title": "360wh",
+            "item_dec": "Battery"
+          }
+        },
+        "bd530c13-0782-4c23-a156-1e0a11200db7": {
+          "type": "item",
+          "settings": {
+            "item_title": "360wh",
+            "item_dec": "Battery"
+          }
+        },
+        "f4b077ec-d5f4-464e-a93c-199cc05db80b": {
+          "type": "item",
+          "settings": {
+            "item_title": "360wh",
+            "item_dec": "Battery"
+          }
+        }
+      },
+      "block_order": [
+        "9fd2177b-abb0-41fe-919b-05236366cb6f",
+        "bd530c13-0782-4c23-a156-1e0a11200db7",
+        "f4b077ec-d5f4-464e-a93c-199cc05db80b"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "bg_color": "",
+        "layout": "textImage",
+        "img_size": "small",
+        "img": "shopify:\/\/shop_images\/1.png",
+        "text_main": "Reframing The Future",
+        "text_sub": "With its streamlined body, the EC 1-ST moves freely through the crowded city streets like a gazelle, reaching places that are out of the reach of cars.",
+        "text_dec": "The low frame design is ideal for women, so they can wear their dresses and go shopping in style.",
+        "bottom_line": false
+      }
+    },
+    "532d629b-5414-439a-9833-fe4f04d408f2": {
+      "type": "multiple-image-text",
+      "blocks": {
+        "7f3ea6c7-f504-43d5-b639-f841a07f67b7": {
+          "type": "slide",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/023.webp",
+            "text_main": "Find Dealers Near You",
+            "text_sub": "Test Ride & Buy Directly",
+            "url": ""
+          }
+        },
+        "2fa527a1-ab6b-47b8-a092-a24154bb84a5": {
+          "type": "slide",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/02_c6d1e217-2ca7-4f1a-8304-c564ef6a700b.webp",
+            "text_main": "Find Dealers Near You",
+            "text_sub": "Test Ride & Buy Directly",
+            "url": ""
+          }
+        },
+        "ad977b32-4b85-494f-a1d9-35ef03b48d1b": {
+          "type": "slide",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/ebikenews_165x_6cf7a577-5822-4465-a103-659a3564a872.webp",
+            "text_main": "Find Dealers Near You",
+            "text_sub": "Test Ride & Buy Directly",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "7f3ea6c7-f504-43d5-b639-f841a07f67b7",
+        "2fa527a1-ab6b-47b8-a092-a24154bb84a5",
+        "ad977b32-4b85-494f-a1d9-35ef03b48d1b"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "title": "The World of HEYBIKE",
+        "layout": "textImage"
       }
     }
   },
@@ -330,6 +467,9 @@
     "recommendations",
     "recently-viewed",
     "a9f9773e-7468-4d64-9888-c3253cb66bee",
-    "9359a303-aa3a-4726-b58e-f9e8bc1ffa0c"
+    "9359a303-aa3a-4726-b58e-f9e8bc1ffa0c",
+    "c9dbe5e5-19b2-4769-9fd9-a600c03bdb17",
+    "57d28d3e-e7d1-4115-8f16-31ef4e965106",
+    "532d629b-5414-439a-9833-fe4f04d408f2"
   ]
 }

@@ -10,7 +10,7 @@
     <div class="relative" 
     data-flickity='{"wrapAround": "true","draggable": true,"selectedAttraction": 0.01,"friction": 0.15 }'>
       {% for block in section.blocks %}
-      <div class="page-width mr-4 opacity-30 transition-opacity duration-700 delay-300" >
+      <div class="page-width opacity-30 transition-opacity duration-700 delay-300" >
         {%- assign product = block.settings.product -%}
         {% if product.title.size > 0 %}
         <div tag-name="product-info" class="md:absolute relative md:mb-0 mb-8 left-4 top-4 opacity-0 transition-opacity duration-300 delay-700 w-full z-20">
