@@ -26,7 +26,7 @@
             "btn2window": false,
             "btn-style1": "btn1",
             "contwd": 1300,
-            "text-left": false,
+            "text-left": true,
             "txtpos": "f-jce-md f-aic-md",
             "txtposm": "f-jcc f-aie"
           }
@@ -207,7 +207,10 @@
       "settings": {
         "top_padding": "large",
         "bottom_padding": "small",
-        "bg_img": "shopify:\/\/shop_images\/image_2.webp"
+        "style": "default",
+        "bg_img": "shopify:\/\/shop_images\/image_2.webp",
+        "bg_color": "",
+        "text_color": "#fff"
       }
     },
     "8ac0dd31-ebc0-46e2-867c-a7d6e2e0fd90": {
@@ -344,38 +347,13 @@
     },
     "a2d3fa24-4809-40c0-b63d-a720d6b02f2c": {
       "type": "multiple-image-text",
-      "blocks": {
-        "b52a0377-f53f-4e96-ba48-8b76fcebd2e3": {
-          "type": "slide",
-          "settings": {
-            "slide_w": "w-2\/3",
-            "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/banner-600.webp",
-            "text_main": "Find Dealers Near You",
-            "text_sub": "Test Ride & Buy Directly",
-            "url": ""
-          }
-        },
-        "99a10bb2-7012-49a1-8de3-e226ef86d120": {
-          "type": "slide",
-          "settings": {
-            "slide_w": "w-1\/3",
-            "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/1_1.png",
-            "text_main": "Find Dealers Near You",
-            "text_sub": "Test Ride & Buy Directly",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "b52a0377-f53f-4e96-ba48-8b76fcebd2e3",
-        "99a10bb2-7012-49a1-8de3-e226ef86d120"
-      ],
       "settings": {
         "top_padding": "large",
         "bottom_padding": "default",
-        "title": "The World of HEYBIKE"
+        "title": "The World of HEYBIKE",
+        "layout": "textImg",
+        "enable_slider": false,
+        "bottom_line": false
       }
     },
     "e0be29cc-4f32-4503-8012-abbb3949eb80": {
