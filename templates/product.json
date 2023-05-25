@@ -455,7 +455,7 @@
         "top_padding": "large",
         "bottom_padding": "default",
         "title": "The World of HEYBIKE",
-        "layout": "imgText",
+        "layout": "textImg",
         "bottom_line": false
       }
     },
