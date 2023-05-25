@@ -719,8 +719,8 @@
           "type": "text_block",
           "settings": {
             "icons": "at-truck-l",
-            "title": "FREE SHIPPING",
-            "text": "<p>When you spend $100+<\/p>",
+            "title": "Fast Shipping",
+            "text": "<p>Any cases raised by you are carefully tracked until full resolution and satisfaction.<\/p>",
             "texturl": ""
           }
         },
@@ -728,8 +728,8 @@
           "type": "text_block",
           "settings": {
             "icons": "at-undo-r",
-            "title": "FREE RETURNS",
-            "text": "<p>30-days free return policy.<\/p>",
+            "title": "Fast Support",
+            "text": "<p>Any cases raised by you are carefully tracked until full resolution and satisfaction.<\/p>",
             "texturl": ""
           }
         },
@@ -737,8 +737,8 @@
           "type": "text_block",
           "settings": {
             "icons": "at-lock-al",
-            "title": "SECURED PAYMENTS",
-            "text": "<p>We accept all major credit cards.<\/p>",
+            "title": "Find a Dealer",
+            "text": "<p>Any cases raised by you are carefully tracked until full resolution and satisfaction.<\/p>",
             "texturl": ""
           }
         }
