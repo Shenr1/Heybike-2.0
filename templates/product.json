@@ -619,6 +619,57 @@
         "top_padding": "default",
         "bottom_padding": "default"
       }
+    },
+    "a96d37af-dc7b-43f1-8f0b-23018e00eaf4": {
+      "type": "multiple-image-text",
+      "blocks": {
+        "033d0f0f-4ee3-4457-87a7-add32b86ed90": {
+          "type": "video",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=y2sdW0J7diE",
+            "text_main": "",
+            "text_sub": "Test Ride & Buy Directly",
+            "url": ""
+          }
+        },
+        "061ccc1b-95bb-4147-bfcd-d264635cfafb": {
+          "type": "video",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=y2sdW0J7diE",
+            "text_main": "",
+            "text_sub": "",
+            "url": ""
+          }
+        },
+        "bfd3caac-3459-4b88-a706-8828f77c6c8a": {
+          "type": "video",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=y2sdW0J7diE",
+            "text_main": "Find Dealers Near You",
+            "text_sub": "Test Ride & Buy Directly",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "033d0f0f-4ee3-4457-87a7-add32b86ed90",
+        "061ccc1b-95bb-4147-bfcd-d264635cfafb",
+        "bfd3caac-3459-4b88-a706-8828f77c6c8a"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "title": "Redskins Video",
+        "layout": "textImg",
+        "enable_slider": false,
+        "bottom_line": false
+      }
     }
   },
   "order": [
@@ -638,6 +689,7 @@
     "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4",
     "249f5118-94f0-47fc-be93-3e7f16ec14ba",
     "a8ffb222-813d-463f-9e86-871bceb908a5",
-    "b832809d-c477-4c3b-a13f-acb6501dceec"
+    "b832809d-c477-4c3b-a13f-acb6501dceec",
+    "a96d37af-dc7b-43f1-8f0b-23018e00eaf4"
   ]
 }
