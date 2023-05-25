@@ -520,6 +520,59 @@
         "btn-style": "btn",
         "text_align": "left"
       }
+    },
+    "a8ffb222-813d-463f-9e86-871bceb908a5": {
+      "type": "banner-with-text",
+      "blocks": {
+        "template--19143574815035__a8ffb222-813d-463f-9e86-871bceb908a5-1684996746297eb402-0": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/app.webp",
+            "layout": "right",
+            "title": "Smarttech and APP",
+            "text": "<p>Your amazing rides deserve a journal! Connect your bike to the HEYBIKE App, and build an impressive mileage count!<\/p>",
+            "bottom_logo": "shopify:\/\/shop_images\/app-store.webp",
+            "button_label": "",
+            "button_link": "\/",
+            "text_align": "text-left",
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "#f5f5f5",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "template--19143574815035__a8ffb222-813d-463f-9e86-871bceb908a5-1684996746297eb402-0"
+      ],
+      "settings": {
+        "top_padding": "default",
+        "bottom_padding": "none",
+        "top-offeset": "default",
+        "section_style": "heybike",
+        "section_width": true,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "snow_effect": false,
+        "snow_style": "style1",
+        "tfs": 30,
+        "tfsm": 22,
+        "tff": "ft1",
+        "tfw": "700",
+        "tlh": 1.2,
+        "tmb": 15,
+        "tmbm": 10,
+        "fs": 14,
+        "fsm": 12,
+        "fw": "400",
+        "lh": 1.6,
+        "mb": 15,
+        "mbm": 10,
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm"
+      }
     }
   },
   "order": [
@@ -536,6 +589,7 @@
     "532d629b-5414-439a-9833-fe4f04d408f2",
     "b5bc4525-2802-4e9d-acbe-44c6ddd2167c",
     "d4b5c56e-c26a-4b14-977c-38e23d8137ca",
-    "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4"
+    "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4",
+    "a8ffb222-813d-463f-9e86-871bceb908a5"
   ]
 }
