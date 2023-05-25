@@ -741,22 +741,12 @@
             "text": "<p>We accept all major credit cards.<\/p>",
             "texturl": ""
           }
-        },
-        "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-3": {
-          "type": "text_block",
-          "settings": {
-            "icons": "at-chat",
-            "title": "24\/7 HELP CENTER",
-            "text": "<p>Dedicated 24\/7 support<\/p>",
-            "texturl": ""
-          }
         }
       },
       "block_order": [
         "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-0",
         "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-1",
-        "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-2",
-        "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-3"
+        "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-2"
       ],
       "settings": {
         "top_padding": "large",
