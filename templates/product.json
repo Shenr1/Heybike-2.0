@@ -581,6 +581,41 @@
         "btn-size-desk": "btn-md",
         "btn-size-mob": "mob-btn-sm"
       }
+    },
+    "b832809d-c477-4c3b-a13f-acb6501dceec": {
+      "type": "accordion",
+      "blocks": {
+        "4b9baf99-1d5e-4b05-94c6-37d9a3d707a8": {
+          "type": "objList",
+          "settings": {
+            "title": "Electronics",
+            "content": "Motor:250W Rear Hub Motor"
+          }
+        },
+        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac": {
+          "type": "objList",
+          "settings": {
+            "title": "Electronics",
+            "content": "Motor:250W Rear Hub Motor"
+          }
+        },
+        "38fa4e91-1cca-43ea-afa6-766586c7fcf7": {
+          "type": "objList",
+          "settings": {
+            "title": "Electronics",
+            "content": "Motor:250W Rear Hub Motor"
+          }
+        }
+      },
+      "block_order": [
+        "4b9baf99-1d5e-4b05-94c6-37d9a3d707a8",
+        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac",
+        "38fa4e91-1cca-43ea-afa6-766586c7fcf7"
+      ],
+      "settings": {
+        "top_padding": "default",
+        "bottom_padding": "default"
+      }
     }
   },
   "order": [
@@ -599,6 +634,7 @@
     "d4b5c56e-c26a-4b14-977c-38e23d8137ca",
     "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4",
     "249f5118-94f0-47fc-be93-3e7f16ec14ba",
-    "a8ffb222-813d-463f-9e86-871bceb908a5"
+    "a8ffb222-813d-463f-9e86-871bceb908a5",
+    "b832809d-c477-4c3b-a13f-acb6501dceec"
   ]
 }
