@@ -361,7 +361,7 @@
                                         <input type="text" id="quantity" name="quantity" value="1" class="hide pr_input qty" />
                                     {%- endif -%}                                    
                                 </div>
-                                <button class="text-lg" type="submit" name="add" id="AddToCart-{{ section.id }}" {% unless current_variant.available %}disabled="disabled"{% endunless %} class="btn {{settings.atc-style}} pr_btn product-form__submit">
+                                <button class="text-lg btn-vi !h-11 transition-colors font-semibold" type="submit" name="add" id="AddToCart-{{ section.id }}" {% unless current_variant.available %}disabled="disabled"{% endunless %} class="btn {{settings.atc-style}} pr_btn product-form__submit">
                                     <span class="txt">
                                         {% if current_variant.available and current_variant.inventory_quantity < 1 and current_variant.inventory_management == "shopify" %}
                                             {{'products.product.pre_order' | t }}

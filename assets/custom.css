@@ -364,6 +364,24 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{
   color:rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.btn-vi{
+  border-radius:9999px;
+  --tw-border-opacity:1 !important;
+  border-color:rgb(246 190 0 / var(--tw-border-opacity)) !important;
+  --tw-bg-opacity:1 !important;
+  background-color:rgb(246 190 0 / var(--tw-bg-opacity)) !important;
+  font-weight:400;
+}
+
+.btn-vi:hover{
+  --tw-border-opacity:1 !important;
+  border-color:rgb(246 190 0 / var(--tw-border-opacity)) !important;
+  --tw-bg-opacity:1 !important;
+  background-color:rgb(255 255 255 / var(--tw-bg-opacity)) !important;
+  --tw-text-opacity:1 !important;
+  color:rgb(246 190 0 / var(--tw-text-opacity)) !important;
+}
+
 .template-index #header:not(.stickyHeader){
   position:absolute;
   width:100%;
@@ -641,6 +659,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{
 
 .hidden{
   display:none;
+}
+
+.\!h-11{
+  height:2.75rem !important;
 }
 
 .h-1\/2{
@@ -1291,6 +1313,12 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{
   transition-duration:150ms;
 }
 
+.transition-colors{
+  transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration:150ms;
+}
+
 .transition-opacity{
   transition-property:opacity;
   transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
@@ -1556,6 +1584,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{
   .md\:py-20{
     padding-top:5rem;
     padding-bottom:5rem;
+  }
+
+  .md\:pb-0{
+    padding-bottom:0px;
   }
 
   .md\:pb-9{

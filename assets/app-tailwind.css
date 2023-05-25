@@ -64,6 +64,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
     #siteNav ul.dropdown li a:hover{@apply !bg-transparent}
     .btn-featured{@apply font-normal rounded-full bg-gradient-to-b from-[#00bef9] to-[#015fea] border-none  hover:text-white hover:-translate-y-1 hover:opacity-90 hover:scale-95}
     .btn-contrast{@apply font-normal rounded-full bg-white text-black-900 border-white hover:text-white hover:bg-black-900 hover:border-white }
+    .btn-vi{@apply font-normal rounded-full !bg-vi !border-vi hover:!text-vi hover:!bg-white hover:!border-vi }
     .template-index #header:not(.stickyHeader){@apply text-white bg-transparent absolute w-full border-none}
     .template-index #header:not(.stickyHeader) #siteNav>li>a,#header:not(.stickyHeader) .site-header a.hdicon{@apply text-white}
 
