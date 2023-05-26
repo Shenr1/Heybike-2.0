@@ -47,7 +47,7 @@
                   {%- if product.metafields.custom[blkSt.metafield1] != blank -%}
                   <div class="{{ divClass1 }}">
                     <div class="{{ divClass2 }} text-lg">{{blkSt.text1}}</div>
-                    {% for image in product.metafields.custom.test.value %}
+                    {% for image in product.metafields.custom[blkSt.metafield1].value %}
                       <div class="{{ divClass2 }}">
                         <div class="{{ divClass3 }}">
                           <p class="{{ pClass }}"> {{image.alt}}</p>
@@ -60,7 +60,7 @@
                   {%- if product.metafields.custom[blkSt.metafield2] != blank -%}
                   <div class="{{ divClass1 }}">
                     <div class="{{ divClass2 }} text-lg">{{blkSt.text2}}</div>
-                    {% for image in product.metafields.custom.test.value %}
+                    {% for image in product.metafields.custom[blkSt.metafield1].value %}
                       <div class="{{ divClass2 }}">
                         <div class="{{ divClass3 }}">
                           <p class="{{ pClass }}"> {{image.alt}}</p>
@@ -73,7 +73,7 @@
                   {%- if product.metafields.custom[blkSt.metafield3] != blank -%}
                   <div class="{{ divClass1 }}">
                     <div class="{{ divClass2 }} text-lg">{{blkSt.text4}}</div>
-                    {% for image in product.metafields.custom.test.value %}
+                    {% for image in product.metafields.custom[blkSt.metafield1].value %}
                       <div class="{{ divClass2 }}">
                         <div class="{{ divClass3 }}">
                           <p class="{{ pClass }}"> {{image.alt}}</p>
