@@ -15,6 +15,7 @@
     "favicon_retina": "shopify:\/\/shop_images\/favicon-152.png",
     "hm_keywords": "Best Shopify Theme, Fashion theme, Electronics",
     "hm_author": "Sanjay Khunt",
+    "dynamicTtl": false,
     "free_ship": "free-shipping",
     "free_ship_msg": "Spent $ more for free shipping",
     "got_free_ship": "You have got <b>FREE SHIPPING<\/b>",
