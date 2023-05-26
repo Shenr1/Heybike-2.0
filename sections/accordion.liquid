@@ -33,9 +33,11 @@
               </div>
 
               {%- when "image" -%}
-                <div>
-                  {{ blkSt.url_pc | image_url: width:1300 | image_tag: width:nil, class:"w-full md:block hidden", loading: 'lazy'}}
-                  {{ blkSt.url_mb | image_url: width:765 | image_tag: width:nil, class:"w-full md:hidden block", loading: 'lazy'}}
+                <div tag-name='accordion-content' class="{%- unless forFirsrt -%}hidden{% endunless %} md:text-lg text-base md:mt-8 mt-6">
+                  <div>
+                    {{ blkSt.url_pc | image_url: width:1300 | image_tag: width:nil, class:"w-full md:block hidden", loading: 'lazy'}}
+                    {{ blkSt.url_mb | image_url: width:765 | image_tag: width:nil, class:"w-full md:hidden block", loading: 'lazy'}}
+                  </div>
                 </div>
             {%- endcase -%}
 
@@ -134,10 +136,10 @@
             "type": "select",
             "id": "slide_w",
             "label": "Slide width",
-            "default": "1/4",
+            "default": "25%",
             "options": [
               {
-                "value": "1/4",
+                "value": "25%",
                 "label": "25%"
               },
               {
