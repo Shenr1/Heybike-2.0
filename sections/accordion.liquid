@@ -33,6 +33,7 @@
                     {% endfor %}
                   </div>
 
+
               {%- when "image" -%}
                   <div>
                     {{ blkSt.url_pc | image_url: width:1300 | image_tag: width:nil, class:"w-full md:block hidden", loading: 'lazy'}}
