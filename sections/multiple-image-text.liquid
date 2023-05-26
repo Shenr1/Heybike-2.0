@@ -21,7 +21,7 @@
 
         {% case block.type %}
           {% when "image" %}
-            {{ blkSt.bg_img | image_url: width: 1200 | image_tag: width: nil, loading: 'lazy', class: "h-full object-cover block" }}
+            {{ blkSt.bg_img | image_url: width: 1200 | image_tag: width: nil, loading: 'lazy', class: "h-full object-cover block w-full" }}
           {% else %}
             <div class="video-wrapper"><iframe src="//www.youtube.com/embed/{{ blkSt.video_url.id }}?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe></div>
         {% endcase %}

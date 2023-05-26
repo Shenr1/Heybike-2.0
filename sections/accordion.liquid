@@ -2,41 +2,48 @@
 
 <section section-name="accordion" class="{% render 'section-interva-set' , secSt:secSt %}" >
     <div class="page-width px-4 mx-auto">
-      <ul class="accordion w-full p-2">
+      <ul class="accordion w-full">
 
       {%- for block in section.blocks -%}
       {% assign blkSt = block.settings %}
       {% assign forFirsrt = forloop.first %}
-
           <li>
             <div tag-name='accordion-header' class="flex flex-row border-solid border-0 border-b border-black-700 cursor-pointer justify-between items-center">
-                <p class="text-2xl font-semibold md:my-6 my-3">Heading 1</p>
-                <div tag-name='accordion-arrow' class="w-8 h-8 overflow-hidden">
-                  <svg t="1685002036388" class="block" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1832" width="32" height="32"><path d="M512 34.133333C247.808 34.133333 34.133333 247.808 34.133333 512s213.674667 477.866667 477.866667 477.866667 477.866667-213.674667 477.866667-477.866667S776.192 34.133333 512 34.133333z m220.501333 500.394667h-197.973333V778.24c-25.258667 0-45.738667-20.48-45.738667-45.738667v-197.973333H245.76c0-25.258667 20.48-45.738667 45.738667-45.738667h197.973333V245.76c25.258667 0 45.738667 20.48 45.738667 45.738667v197.973333H778.24c0 24.576-20.48 45.056-45.738667 45.056z" fill="#dbdbdb" p-id="1833" data-spm-anchor-id="a313x.7781069.0.i10" class="selected"></path></svg>
-                  <svg t="1685002046935" class="{%- unless forFirsrt -%}hidden{% endunless %} block -translate-y-8 transition-all" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2096" width="32" height="32"><path d="M512 34.133333C247.808 34.133333 34.133333 247.808 34.133333 512s213.674667 477.866667 477.866667 477.866667 477.866667-213.674667 477.866667-477.866667S776.192 34.133333 512 34.133333z m266.24 456.021334c0 24.576-19.797333 44.373333-44.373333 44.373333H245.76v-1.365333c0-24.576 19.797333-44.373333 44.373333-44.373334H778.24v1.365334z" fill="#2c2c2c" p-id="2097"></path></svg>
+                <p class="md:text-2xl text-xl font-semibold md:my-6 my-2">{{blkSt.title}}</p>
+                <div tag-name='accordion-arrow' class="overflow-hidden md:w-8 md:h-8 h-6 w-6">
+                  <svg t="1685002036388" class="block md:w-8 md:h-8 h-6 w-6" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1832" width="32" height="32"><path d="M512 34.133333C247.808 34.133333 34.133333 247.808 34.133333 512s213.674667 477.866667 477.866667 477.866667 477.866667-213.674667 477.866667-477.866667S776.192 34.133333 512 34.133333z m220.501333 500.394667h-197.973333V778.24c-25.258667 0-45.738667-20.48-45.738667-45.738667v-197.973333H245.76c0-25.258667 20.48-45.738667 45.738667-45.738667h197.973333V245.76c25.258667 0 45.738667 20.48 45.738667 45.738667v197.973333H778.24c0 24.576-20.48 45.056-45.738667 45.056z" fill="#dbdbdb" p-id="1833" data-spm-anchor-id="a313x.7781069.0.i10" class="selected"></path></svg>
+                  <svg t="1685002046935" class="{%- unless forFirsrt -%}hidden{% endunless %} block md:w-8 md:h-8 h-6 w-6 md:-translate-y-8 -translate-y-6 transition-all" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2096" width="32" height="32"><path d="M512 34.133333C247.808 34.133333 34.133333 247.808 34.133333 512s213.674667 477.866667 477.866667 477.866667 477.866667-213.674667 477.866667-477.866667S776.192 34.133333 512 34.133333z m266.24 456.021334c0 24.576-19.797333 44.373333-44.373333 44.373333H245.76v-1.365333c0-24.576 19.797333-44.373333 44.373333-44.373334H778.24v1.365334z" fill="#2c2c2c" p-id="2097"></path></svg>
                 </div>
             </div>
-
             {%- case block.type -%}
               {%- when "objList" -%}
-              <div tag-name='accordion-content' class="{%- unless forFirsrt -%}hidden{% endunless %} text-lg mt-8">
+              <div tag-name='accordion-content' class="{%- unless forFirsrt -%}hidden{% endunless %} md:text-lg text-base md:mt-8 mt-6">
                   <div class="flex flex-wrap">
-                  {% assign objArr = blkSt.content | split: ','  %}
+                  {% assign objArr = blkSt.content | split: '<br>'  %}
                     {% for obj in objArr %}
                       {% assign title = obj | split: ':' | first  %}
                       {% assign content = obj | split: ':' | last  %}
-                      <div class="w-1/4 mb-8">
+                      {% if blkSt.slide_w == "25%" %} {% assign wClass = "md:w-1/4 w-1/2" %} {% else %} {% assign wClass = "w-full" %} {% endif %}
+                      <div class="{{ wClass }} md:mb-8 mb-6 ">
                         <p class="m-0 font-semibold">{{title}}</p>
                         <p class="m-0">{{content}}</p>
                       </div>
                     {% endfor %}
                   </div>
               </div>
+
+              {%- when "image" -%}
+                <div>
+                  {{ blkSt.url_pc | image_url: width:1300 | image_tag: width:nil, class:"w-full md:block hidden", loading: 'lazy'}}
+                  {{ blkSt.url_mb | image_url: width:765 | image_tag: width:nil, class:"w-full md:hidden block", loading: 'lazy'}}
+                </div>
             {%- endcase -%}
+
+
 
           </li>
 
-      {%- endfor -%}
+      {%- endfor -%} 
 
 
 
@@ -124,11 +131,49 @@
             "default":"Electronics"
           },
           {
+            "type": "select",
+            "id": "slide_w",
+            "label": "Slide width",
+            "default": "1/4",
+            "options": [
+              {
+                "value": "1/4",
+                "label": "25%"
+              },
+              {
+                "value": "full",
+                "label": "100%"
+              }
+            ]
+          },
+          {
             "type": "textarea",
             "id": "content",
             "label":"Content",
-            "info":"格式是固定的:[标题:内容,标题2:内容2,标题3:内容3]",
-            "default":"Motor:250W Rear Hub Motor"
+            "info":"格式是固定的:[标题:内容<br>标题2:内容2<br>标题3:内容3]",
+            "default":"Title:content<br>Title2:content2<br>Title3:content3"
+          }
+        ]
+      },
+      {
+        "name": "Pure image",
+        "type": "image",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Drop down header",
+            "default":"Electronics"
+          },
+          {
+            "type": "image_picker",
+            "id": "url_pc",
+            "label":"Image on pc"
+          },
+          {
+            "type": "image_picker",
+            "id": "url_mb",
+            "label":"Image on mobile"
           }
         ]
       }

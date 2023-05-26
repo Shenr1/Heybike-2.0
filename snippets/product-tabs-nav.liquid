@@ -3,16 +3,22 @@
   <div section-name="product-tabs-nav" class="bg-black-800 z-50 fixed w-full top-0 hidden">
       <div class="page-width mx-auto items-center">
         <div class="flex justify-between text-white">
-          <div class="mb-0 text-lg font-semibold py-3 flex items-center">EC1-ST</div>
+          <div class="mb-0 text-lg font-semibold py-3 items-center md:block hidden">EC1-ST</div>
           <div tag-name="tabs-wrapper" class="flex text-base font-semibold items-center">
-          {% assign pClass = 'mb-0 mx-6 py-3 h-full text-black-500 flex items-center' %}
-            <p class="{{pClass}} active">Features</p>
-            <p class="{{pClass}}">Specifications</p>
-            <p class="{{pClass}}">Reviews</p>
+          {% assign pClass = 'mb-0 md:mx-6 mx-4 md:py-3 h-full text-black-500 flex items-center' %}
+            <a href="#nav-features" class="{{pClass}} active md:flex hidden">Features</a>
+            <a href="#nav-specifications" class="{{pClass}}">Specifications</a>
+            <a href="#nav-reviews" class="{{pClass}}">Reviews</a>
           </div>
-          <div class="text-sm py-3"> <a class="btn-contrast font-semibold py-2 px-6 block"> Buy Now </a> </div>
+          <div class="text-sm py-3"> <a class="btn-contrast font-semibold md:py-2 py-1 px-6 block cursor-pointer" tag-name="atc-btn"> Buy Now </a> </div>
         </div>
       </div>
   </div>
 {%- endcapture -%}
+
+
+
+
+
+
 {{ productTabs | strip_newlines | remove: "  " | remove: "	" }}

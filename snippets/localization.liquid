@@ -1,6 +1,6 @@
 
 {% if settings.current_flag != blank and settings.region_menu != blank %}
-<section section-name="localization" class="mr-4 flex ">
+<section section-name="localization" class="mr-4 lg:flex hidden ">
   <div class="flex items-center">
     {{ settings.current_flag | image_url: width: 18 | image_tag: loading: 'lazy'}}
   </div>

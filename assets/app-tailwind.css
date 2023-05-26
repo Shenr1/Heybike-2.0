@@ -1,4 +1,3 @@
-
 /* 动态生成的类名 */
 .flickity-button{@apply opacity-100}
 .shopify-section .grid{@apply flex}
@@ -39,6 +38,12 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
 [section-name = 'products-slider-full'] .flickity-prev-next-button.previous{@apply md:left-12}
 [section-name = 'products-slider-full'] .flickity-prev-next-button.next{@apply md:right-12}
 
+@media only screen and (max-width:765px) {
+    .pr_thumbs_item {@apply w-[18.5%] mx-[0.3%] }
+    .product-single .flickity-button{@apply hidden }
+}
+
+
 
 @tailwind base;
 @tailwind components;
@@ -66,8 +71,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
     .btn-contrast{@apply font-normal rounded-full bg-white text-black-900 border-white hover:text-white hover:bg-black-900 hover:border-white }
     .btn-vi{@apply font-normal rounded-full !bg-vi !border-vi hover:!text-vi hover:!bg-white hover:!border-vi }
     .template-index #header:not(.stickyHeader){@apply text-white bg-transparent absolute w-full border-none}
-    .template-index #header:not(.stickyHeader) #siteNav>li>a,#header:not(.stickyHeader) .site-header a.hdicon{@apply text-white}
+    .template-index #header:not(.stickyHeader) #siteNav>li>a,.template-index #header:not(.stickyHeader) .site-header a.hdicon{@apply text-white}
 
-
-    [section-name = 'product-tabs-nav'] [tag-name = 'tabs-wrapper'] >p.active{@apply text-white border-solid border-0 border-b-4 border-white}
+    [section-name = 'product-tabs-nav'] [tag-name = 'tabs-wrapper'] >a.active{@apply text-white border-solid border-0 border-b-4 border-white}
 }

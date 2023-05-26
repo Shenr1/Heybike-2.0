@@ -23,8 +23,8 @@
     assign product_description_width = 'wd50-md'
 
     if settings.product_latyout == "style1"
-        assign product_image_width = 'wd60-md pr-10 pl-0'
-        assign product_description_width = 'wd40-md pl-10 pr-0'
+        assign product_image_width = 'wd60-md xl:pr-10 lg:pr-6 md:pr-4 pr-0 pl-0'
+        assign product_description_width = 'wd40-md xl:pl-10 lg:pl-6 md:pl-4 md:pr-0 px-4'
     elsif settings.product_latyout == "style2"
         assign product_image_width = 'wd66-md'
         assign product_description_width = 'wd33-md'
@@ -64,9 +64,9 @@
 	{% capture imgSt %}--imgw:100%;{% endcapture %}
 {% endif %}
 
-{% render 'product-tabs-nav' %}
+{% include 'product-tabs-nav' %}
 
-<div class="ptContainer {{settings.product_latyout}} page-width{% if secSt.section_width %} fullwidth{%endif%} mt-24" data-style="{{settings.product_latyout}}" data-url="{{ product.url }}" data-section-id="{{ section.id }}" data-section-type="product" data-enable-history-state="true">
+<div class="ptContainer {{settings.product_latyout}} page-width{% if secSt.section_width %} fullwidth{%endif%} lg:mt-24 md:mt-18 mt-12" data-style="{{settings.product_latyout}}" data-url="{{ product.url }}" data-section-id="{{ section.id }}" data-section-type="product" data-enable-history-state="true">
 	{%- capture productImages -%}
         <div class="fl f-jcsb f-col{% if settings.thumbnail_pos != "bottom" %} f-row-md{% endif %}">
             <div class="pr_lg_img" data-product-single-media-group style="{{imgSt}}">

@@ -5,17 +5,17 @@
 {%- case secSt.img_size -%}
   {%- when "big" -%}
   {% assign imgSizeClass = "md:w-full" %}
-  {% assign textMtClass = "md:mt-[28%]" %}
+  {% assign textMtClass = "md:mt-[28%] mt-8" %}
   {%- when "defualt" -%}
   {% assign imgSizeClass = "md:w-[85%]" %}
-  {% assign textMtClass = "md:mt-[22%]" %}
+  {% assign textMtClass = "md:mt-[22%] mt-8" %}
   {%- when "small" -%}
   {% assign imgSizeClass = "md:w-[70%]" %}
-  {% assign textMtClass = "md:mt-[15%]" %}
+  {% assign textMtClass = "md:mt-[15%] mt-8" %}
 {%- endcase -%}
 
   <section section-name="image-list-text" style="background-color:{{secSt.bg_color}};" class="{% render 'section-interva-set' , secSt:secSt %}" >
-    <div class="page-width px-4 mx-auto flex {% if secSt.bottom_line %}border-solid border-0 border-b border-black-300 pb-8 {% endif %}">
+    <div class="page-width px-4 mx-auto md:flex {% if secSt.bottom_line %}border-solid border-0 border-b border-black-300 pb-8 {% endif %}">
 
       <div class='md:w-[59.5%] flex justify-center items-center {% if secSt.layout == "textImage" %}order-3{%else%}order-1{% endif %}' >
         {{ secSt.img | image_url: width: 1000 | image_tag: width: nil, loading: 'lazy', class:imgSizeClass }}
