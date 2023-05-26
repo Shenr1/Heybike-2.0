@@ -633,12 +633,25 @@
             "url_pc": "shopify:\/\/shop_images\/banner-600.webp",
             "url_mb": "shopify:\/\/shop_images\/3_e9ed99a9-28ce-4c95-9ae8-0fa55a098d88.webp"
           }
+        },
+        "e7514e3b-0b1e-49db-a19a-d7074c9543c2": {
+          "type": "imageGrid",
+          "settings": {
+            "title": "Electronics",
+            "text1": "Tools",
+            "metafield1": "tools",
+            "text2": "",
+            "metafield2": "",
+            "text3": "",
+            "metafield3": ""
+          }
         }
       },
       "block_order": [
         "4b9baf99-1d5e-4b05-94c6-37d9a3d707a8",
         "2bdea729-fb07-4fc5-87c8-a226a6cbbeac",
-        "8c62a64d-13dd-4e76-830e-bf631cb4d864"
+        "8c62a64d-13dd-4e76-830e-bf631cb4d864",
+        "e7514e3b-0b1e-49db-a19a-d7074c9543c2"
       ],
       "settings": {
         "top_padding": "default",
