@@ -1,5 +1,16 @@
 {
   "sections": {
+    "29369a63-663e-49a0-9bd8-58148a9ee550": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "custom_liquid": "<article id=\"nav-features\"><\/article>",
+        "top-offeset": "none",
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa"
+      }
+    },
     "product": {
       "type": "product-template",
       "blocks": {
@@ -585,6 +596,17 @@
         "btn-size-mob": "mob-btn-sm"
       }
     },
+    "286ef3df-4b4b-4252-9fb2-4c7f64f4dda4": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "custom_liquid": "<article id=\"nav-specifications\"><\/article>",
+        "top-offeset": "none",
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa"
+      }
+    },
     "b832809d-c477-4c3b-a13f-acb6501dceec": {
       "type": "accordion",
       "blocks": {
@@ -764,19 +786,31 @@
         "subtitle": "You are at the center of our hearts.",
         "style": "style1",
         "icon-type": "image",
-        "icons_clr": "#fff",
+        "icons_clr": "#ffffff",
         "isz": 75,
         "tcl": "#ffffff",
         "tfs": 24,
         "tfsm": 20,
         "tfw": "600",
         "tlh": 1.2,
-        "cl": "#eee",
+        "cl": "#eeeeee",
         "border_sep": "rgba(0,0,0,0)"
+      }
+    },
+    "e3a92eba-3e67-4b48-9a4d-6d63ed097c70": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "custom_liquid": "<article id=\"nav-reviews\"><\/article>",
+        "top-offeset": "none",
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa"
       }
     }
   },
   "order": [
+    "29369a63-663e-49a0-9bd8-58148a9ee550",
     "product",
     "upsell",
     "tabs",
@@ -793,9 +827,11 @@
     "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4",
     "249f5118-94f0-47fc-be93-3e7f16ec14ba",
     "a8ffb222-813d-463f-9e86-871bceb908a5",
+    "286ef3df-4b4b-4252-9fb2-4c7f64f4dda4",
     "b832809d-c477-4c3b-a13f-acb6501dceec",
     "a96d37af-dc7b-43f1-8f0b-23018e00eaf4",
     "22f50d3e-5443-46e2-a356-2469bdea240d",
-    "dd234409-19b7-4258-8b98-44063da04a59"
+    "dd234409-19b7-4258-8b98-44063da04a59",
+    "e3a92eba-3e67-4b48-9a4d-6d63ed097c70"
   ]
 }
