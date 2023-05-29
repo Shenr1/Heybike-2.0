@@ -280,19 +280,20 @@
         "a27b30d1-ea2c-42ec-9fce-1899fef048f4": {
           "type": "item",
           "settings": {
-            "item_title": "360wh",
-            "item_dec": "Battery"
+            "item_title": "80km+",
+            "item_dec": "Range"
           }
         },
         "19891b48-30b5-4d5d-9969-7cc834a3cbde": {
           "type": "item",
           "settings": {
-            "item_title": "360wh",
-            "item_dec": "Battery"
+            "item_title": "19.2 kg",
+            "item_dec": "Weight"
           }
         },
         "77f5c680-eb06-4cbd-b967-0b45bc01402e": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "item_title": "360wh",
             "item_dec": "Battery"
@@ -300,6 +301,7 @@
         },
         "c4bf62db-57aa-4884-a373-6a2c5aeb6ff2": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "item_title": "360wh",
             "item_dec": "Battery"
@@ -307,6 +309,7 @@
         },
         "5f9f9e75-45fd-46a0-a3ac-f3d9004997a4": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "item_title": "360wh",
             "item_dec": "Battery"
@@ -329,8 +332,8 @@
         "img_size": "big",
         "img": "shopify:\/\/shop_images\/IMG_5594_1_750x_72873c23-83d0-4c77-b3b8-3d81b2ea4dac.webp",
         "text_main": "Reframing The Future",
-        "text_sub": "With its streamlined body, the EC 1-ST moves freely through the crowded city streets like a gazelle, reaching places that are out of the reach of cars.",
-        "text_dec": "The low frame design is ideal for women, so they can wear their dresses and go shopping in style.",
+        "text_sub": "EC 1-ST's streamlined form allows it to move like a gazelle through the congested city streets, getting to locations that are inaccessible to cars.",
+        "text_dec": "Women may comfortably wear their dresses and shop in style thanks to the low frame design.",
         "bottom_line": false
       }
     },
