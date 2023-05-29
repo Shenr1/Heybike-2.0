@@ -290,7 +290,7 @@
             "bg_img": "shopify:\/\/shop_images\/banner-600.webp",
             "text_main": "Find Dealers Near You",
             "text_sub": "Test Ride & Buy Directly",
-            "url": ""
+            "url": "shopify:\/\/products\/heybike-ec-1"
           }
         },
         "61279fbb-db0a-4969-b5f8-ca73202edf62": {
@@ -301,7 +301,7 @@
             "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
             "text_main": "Find Dealers Near You",
             "text_sub": "Test Ride & Buy Directly",
-            "url": ""
+            "url": "shopify:\/\/products\/ec-1-st"
           }
         }
       },
