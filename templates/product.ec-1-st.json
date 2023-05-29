@@ -337,6 +337,70 @@
         "bottom_line": false
       }
     },
+    "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4": {
+      "type": "video",
+      "settings": {
+        "top-offeset": "default",
+        "section_width": false,
+        "rounded": true,
+        "hide_mobile": false,
+        "snow_effect": false,
+        "snow_style": "style1",
+        "pad-desk": 55,
+        "pad-ipad": 15,
+        "pad-mbl": 10,
+        "video_url": "",
+        "mp4url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/14970270c5514f80a7d7c28535c32bb5.mp4",
+        "title": "",
+        "color_ttl": "#ffffff",
+        "tfs": 20,
+        "tfsm": 12,
+        "hide_text": false,
+        "btntxt": "",
+        "btnurl": "",
+        "hide_btn": false,
+        "btn-style": "btn",
+        "text_align": "left"
+      }
+    },
+    "b5bc4525-2802-4e9d-acbe-44c6ddd2167c": {
+      "type": "color-slider-full",
+      "blocks": {
+        "42b01243-65bf-4d68-93ef-f11af85385a1": {
+          "type": "slide",
+          "settings": {
+            "color": "#fffbea",
+            "image": "shopify:\/\/shop_images\/46b2a74aeb513a93d28c84bb6b472853.png"
+          }
+        },
+        "3f2b5db7-4454-454d-a182-9e69238708a7": {
+          "type": "slide",
+          "settings": {
+            "color": "#000000",
+            "image": "shopify:\/\/shop_images\/e3b2aca719d85100108a864fbb473d4c.png"
+          }
+        },
+        "3491c024-f7d7-4349-9f63-aa201626f2bf": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "42b01243-65bf-4d68-93ef-f11af85385a1",
+        "3f2b5db7-4454-454d-a182-9e69238708a7",
+        "3491c024-f7d7-4349-9f63-aa201626f2bf"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "title": "Bring an Ideal Urban Life",
+        "sub_title": "Made of aluminum alloy",
+        "bg_color": "#f5f5f5"
+      }
+    },
     "c9dbe5e5-19b2-4769-9fd9-a600c03bdb17": {
       "type": "image-list-text",
       "blocks": {
@@ -375,7 +439,7 @@
         "img_size": "small",
         "img": "shopify:\/\/shop_images\/1.png",
         "text_main": "Portable Battery",
-        "text_sub": "By using  high capacity Samsung batteries.You may easily ride for more than 80 kilometers on a single charge.By using  high capacity Samsung batteries.You may easily ride for more than 80 kilometers on a single charge.",
+        "text_sub": "By using  high capacity Samsung batteries.You may easily ride for more than 80 kilometers on a single charge.By using  high capacity.",
         "text_dec": "Seamless integration & Robust power output",
         "bottom_line": true
       }
@@ -474,76 +538,12 @@
         "bottom_line": true
       }
     },
-    "b5bc4525-2802-4e9d-acbe-44c6ddd2167c": {
-      "type": "color-slider-full",
-      "blocks": {
-        "42b01243-65bf-4d68-93ef-f11af85385a1": {
-          "type": "slide",
-          "settings": {
-            "color": "#000000",
-            "image": "shopify:\/\/shop_images\/46b2a74aeb513a93d28c84bb6b472853.png"
-          }
-        },
-        "3f2b5db7-4454-454d-a182-9e69238708a7": {
-          "type": "slide",
-          "settings": {
-            "color": "#fffbea",
-            "image": "shopify:\/\/shop_images\/e3b2aca719d85100108a864fbb473d4c.png"
-          }
-        },
-        "3491c024-f7d7-4349-9f63-aa201626f2bf": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "42b01243-65bf-4d68-93ef-f11af85385a1",
-        "3f2b5db7-4454-454d-a182-9e69238708a7",
-        "3491c024-f7d7-4349-9f63-aa201626f2bf"
-      ],
-      "settings": {
-        "top_padding": "large",
-        "bottom_padding": "default",
-        "title": "Bring an Ideal Urban Life",
-        "sub_title": "Made of aluminum alloy",
-        "bg_color": "#f5f5f5"
-      }
-    },
     "d4b5c56e-c26a-4b14-977c-38e23d8137ca": {
       "type": "section-space",
       "settings": {
         "sdesk": 30,
         "mdesk": 15,
         "color_bg": "#ffffff"
-      }
-    },
-    "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4": {
-      "type": "video",
-      "settings": {
-        "top-offeset": "default",
-        "section_width": false,
-        "rounded": true,
-        "hide_mobile": false,
-        "snow_effect": false,
-        "snow_style": "style1",
-        "pad-desk": 55,
-        "pad-ipad": 15,
-        "pad-mbl": 10,
-        "video_url": "",
-        "mp4url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/14970270c5514f80a7d7c28535c32bb5.mp4",
-        "title": "",
-        "color_ttl": "#ffffff",
-        "tfs": 20,
-        "tfsm": 12,
-        "hide_text": false,
-        "btntxt": "",
-        "btnurl": "",
-        "hide_btn": false,
-        "btn-style": "btn",
-        "text_align": "left"
       }
     },
     "249f5118-94f0-47fc-be93-3e7f16ec14ba": {
@@ -846,12 +846,12 @@
     "recently-viewed",
     "a9f9773e-7468-4d64-9888-c3253cb66bee",
     "9359a303-aa3a-4726-b58e-f9e8bc1ffa0c",
+    "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4",
+    "b5bc4525-2802-4e9d-acbe-44c6ddd2167c",
     "c9dbe5e5-19b2-4769-9fd9-a600c03bdb17",
     "57d28d3e-e7d1-4115-8f16-31ef4e965106",
     "532d629b-5414-439a-9833-fe4f04d408f2",
-    "b5bc4525-2802-4e9d-acbe-44c6ddd2167c",
     "d4b5c56e-c26a-4b14-977c-38e23d8137ca",
-    "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4",
     "249f5118-94f0-47fc-be93-3e7f16ec14ba",
     "a8ffb222-813d-463f-9e86-871bceb908a5",
     "286ef3df-4b4b-4252-9fb2-4c7f64f4dda4",
