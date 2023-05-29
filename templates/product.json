@@ -383,22 +383,22 @@
         "9fd2177b-abb0-41fe-919b-05236366cb6f": {
           "type": "item",
           "settings": {
-            "item_title": "360wh",
-            "item_dec": "Battery"
+            "item_title": "250 W",
+            "item_dec": "Power"
           }
         },
         "bd530c13-0782-4c23-a156-1e0a11200db7": {
           "type": "item",
           "settings": {
-            "item_title": "360wh",
-            "item_dec": "Battery"
+            "item_title": "37 Nm",
+            "item_dec": "Torque"
           }
         },
         "f4b077ec-d5f4-464e-a93c-199cc05db80b": {
           "type": "item",
           "settings": {
-            "item_title": "360wh",
-            "item_dec": "Battery"
+            "item_title": "260 R",
+            "item_dec": "RPM"
           }
         }
       },
@@ -413,8 +413,8 @@
         "bg_color": "",
         "layout": "imageText",
         "img_size": "small",
-        "img": "shopify:\/\/shop_images\/1.png",
-        "text_main": "Reframing The Future",
+        "img": "shopify:\/\/shop_images\/1_71d8bd74-ff24-4cd5-bc58-31265113647d.png",
+        "text_main": "Ultra Lightweight Motor",
         "text_sub": "With its streamlined body, the EC 1-ST moves freely through the crowded city streets like a gazelle, reaching places that are out of the reach of cars.",
         "text_dec": "The low frame design is ideal for women, so they can wear their dresses and go shopping in style.",
         "bottom_line": false
@@ -455,12 +455,23 @@
             "text_sub": "Test Ride & Buy Directly",
             "url": ""
           }
+        },
+        "702416de-a070-49e7-9250-ee830976d2cf": {
+          "type": "image",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "text_main": "Find Dealers Near You",
+            "text_sub": "Test Ride & Buy Directly",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "01473a8c-f8f3-4061-8171-24367981f33e",
         "0114d1a4-5f44-43a5-bf46-6af6a08e5df5",
-        "fe7a03d3-b3df-4677-9e12-793a76f51f95"
+        "fe7a03d3-b3df-4677-9e12-793a76f51f95",
+        "702416de-a070-49e7-9250-ee830976d2cf"
       ],
       "settings": {
         "top_padding": "large",
