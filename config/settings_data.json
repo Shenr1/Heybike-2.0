@@ -513,7 +513,7 @@
       "exit-product-popup": {
         "type": "exit-product-popup",
         "settings": {
-          "popup": true,
+          "popup": false,
           "title": "<b class=\"fw-600 mb10\">Wait ! Before you go... This might interest you. <\/b>",
           "subtitle": "We have some handpicked items for you",
           "collection": "hot-collection",
