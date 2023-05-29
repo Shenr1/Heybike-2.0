@@ -481,20 +481,28 @@
           "type": "slide",
           "settings": {
             "color": "#000000",
-            "image": "shopify:\/\/shop_images\/cowboy-4-black_1610x_91f71180-59f8-4616-92f5-9e5fb77649f1.webp"
+            "image": "shopify:\/\/shop_images\/46b2a74aeb513a93d28c84bb6b472853.png"
           }
         },
         "3f2b5db7-4454-454d-a182-9e69238708a7": {
           "type": "slide",
           "settings": {
             "color": "#fffbea",
-            "image": "shopify:\/\/shop_images\/cowboy-4-sand_1188x_2x_092e6f63-a922-43d6-80b9-f7bd71813e3e.webp"
+            "image": "shopify:\/\/shop_images\/e3b2aca719d85100108a864fbb473d4c.png"
+          }
+        },
+        "3491c024-f7d7-4349-9f63-aa201626f2bf": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "color": "#000000"
           }
         }
       },
       "block_order": [
         "42b01243-65bf-4d68-93ef-f11af85385a1",
-        "3f2b5db7-4454-454d-a182-9e69238708a7"
+        "3f2b5db7-4454-454d-a182-9e69238708a7",
+        "3491c024-f7d7-4349-9f63-aa201626f2bf"
       ],
       "settings": {
         "top_padding": "large",
