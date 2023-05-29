@@ -439,7 +439,7 @@
         "img_size": "small",
         "img": "shopify:\/\/shop_images\/1.png",
         "text_main": "Portable Battery",
-        "text_sub": "By using  high capacity Samsung batteries.You may easily ride for more than 80 kilometers on a single charge.By using  high capacity.",
+        "text_sub": "With Samsung batteries with high capacity, you can easily ride more than 80 kilometres on a single charge.",
         "text_dec": "Seamless integration & Robust power output",
         "bottom_line": true
       }
@@ -496,8 +496,8 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
-            "text_main": "",
-            "text_sub": "Test Ride & Buy DirectlyTest Ride & Buy DirectlyTest Ride & Buy Directly",
+            "text_main": "Shimano 7-speed Drivetrain",
+            "text_sub": "The Shimano® 7-speed chain drive ispowerful, smooth, and built to perform high on all roads.",
             "img_link": ""
           }
         },
@@ -507,8 +507,8 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
-            "text_main": "Find Dealers Near You",
-            "text_sub": "Test Ride & Buy Directly",
+            "text_main": "Puncture-resistant Tires",
+            "text_sub": "A training race tire developed for quick rolling,constant, and stable friction and grip on constrained trails, rough terrain,and gravel roads that are puncture-resistant and have steady traction isdesigned for effortless pedaling.",
             "img_link": ""
           }
         },
@@ -518,8 +518,8 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
-            "text_main": "Find Dealers Near You",
-            "text_sub": "Test Ride & Buy Directly",
+            "text_main": "Headlights",
+            "text_sub": "Flexible multi-angle adjustment, ideal for lighting during commutes. Ensure that you are well-lit without blinding other drivers.",
             "img_link": ""
           }
         },
@@ -529,8 +529,8 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
-            "text_main": "Find Dealers Near You",
-            "text_sub": "Test Ride & Buy Directly",
+            "text_main": "Hydraulic disc brakes",
+            "text_sub": "Upgradeyour braking experience with our Hydraulic disc brakes. Enjoy accurate andforceful brakes for safer, more consistent travel.",
             "img_link": ""
           }
         },
@@ -541,7 +541,18 @@
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
             "text_main": "LCD Display",
-            "text_sub": "Compatible with the HEYBIKE App to help you navigate the journey ahead.",
+            "text_sub": "Compatible with the HEYBIKE App to help you navigate the journey ahead.",
+            "img_link": ""
+          }
+        },
+        "23013716-ea85-4509-a43b-7967d284b85a": {
+          "type": "image",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
+            "text_main": "Hidden inner wiring design",
+            "text_sub": "The internal wiring design makes the  appearance more beautiful and tidier and can effectively reduce wind  resistance and the collision between cables and the vehicle body on rough  roads.",
             "img_link": ""
           }
         }
@@ -551,7 +562,8 @@
         "0114d1a4-5f44-43a5-bf46-6af6a08e5df5",
         "fe7a03d3-b3df-4677-9e12-793a76f51f95",
         "a290cf41-aeb1-4cf0-8844-01c278986b75",
-        "99fa6312-d3d6-4e55-9944-519e0909fb8f"
+        "99fa6312-d3d6-4e55-9944-519e0909fb8f",
+        "23013716-ea85-4509-a43b-7967d284b85a"
       ],
       "settings": {
         "top_padding": "large",
