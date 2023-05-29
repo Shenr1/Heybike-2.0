@@ -800,7 +800,7 @@
         "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-0": {
           "type": "text_block",
           "settings": {
-            "icons": "at-truck-l",
+            "icons": "at-ship-fast",
             "title": "Fast Shipping",
             "text": "<p>Any cases raised by you are carefully tracked until full resolution and satisfaction.<\/p>",
             "texturl": ""
@@ -809,9 +809,9 @@
         "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-1": {
           "type": "text_block",
           "settings": {
-            "icons": "at-undo-r",
+            "icons": "at-users-l",
             "title": "Fast Support",
-            "text": "<p>Any cases raised by you are carefully tracked until full resolution and satisfaction.<\/p>",
+            "text": "<p>Email & Phone Service<\/p>",
             "texturl": ""
           }
         },
@@ -819,8 +819,8 @@
           "type": "text_block",
           "settings": {
             "icons": "at-lock-al",
-            "title": "Find a Dealer",
-            "text": "<p>Any cases raised by you are carefully tracked until full resolution and satisfaction.<\/p>",
+            "title": "30-Day Trial",
+            "text": "<p>Buy with Confidence<\/p>",
             "texturl": ""
           }
         }
