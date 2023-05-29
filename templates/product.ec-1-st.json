@@ -802,7 +802,7 @@
           "settings": {
             "icons": "at-ship-fast",
             "title": "Fast Shipping",
-            "text": "<p>Any cases raised by you are carefully tracked until full resolution and satisfaction.<\/p>",
+            "text": "<p>Ships to UK<\/p>",
             "texturl": ""
           }
         },
@@ -834,7 +834,7 @@
         ".sec-ttl .h3,div.sec-ttl p {color: #fff;}"
       ],
       "settings": {
-        "top_padding": "large",
+        "top_padding": "medium",
         "bottom_padding": "extraLarge",
         "top-offeset": "none",
         "section_style": "heybike",
@@ -842,8 +842,8 @@
         "section_cov": true,
         "sec_bg_clr": "#232426",
         "hide_mobile": false,
-        "title": "Great Bikes. Even Better Service.",
-        "subtitle": "You are at the center of our hearts.",
+        "title": "Superb bikes. Superior Service even.",
+        "subtitle": "",
         "style": "style1",
         "icon-type": "image",
         "icons_clr": "#ffffff",

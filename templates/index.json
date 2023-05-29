@@ -121,21 +121,24 @@
           "type": "slide",
           "settings": {
             "product": "heybike-ec-1",
-            "product_image": "shopify:\/\/shop_images\/1_5cd22678-e140-46e2-b82c-0c196b61d87b.png"
+            "product_image": "shopify:\/\/shop_images\/1_5cd22678-e140-46e2-b82c-0c196b61d87b.png",
+            "info": "Aviation grade magnesium alloy"
           }
         },
         "aced053b-8c7e-443c-ba77-07bf8bef930e": {
           "type": "slide",
           "settings": {
             "product": "ranger",
-            "product_image": "shopify:\/\/shop_images\/f70b443728d1b1fbb1038703c49eaeb4.png"
+            "product_image": "shopify:\/\/shop_images\/f70b443728d1b1fbb1038703c49eaeb4.png",
+            "info": "Aviation grade magnesium alloy"
           }
         },
         "f8ffd36a-8915-47a9-930d-e2ad87fcd760": {
           "type": "slide",
           "disabled": true,
           "settings": {
-            "product": "ranger"
+            "product": "ranger",
+            "info": "Aviation grade magnesium alloy"
           }
         }
       },
@@ -289,7 +292,7 @@
             "bg_img": "shopify:\/\/shop_images\/eurobike23_banner_1200x628px_en.jpg__1079x720_q85_subsampling-2.jpg",
             "text_main": "EUROBIKE 2023",
             "text_sub": "Looking forward to your arrival！",
-            "url": "shopify:\/\/products\/heybike-ec-1"
+            "img_link": ""
           }
         },
         "61279fbb-db0a-4969-b5f8-ca73202edf62": {
@@ -300,7 +303,7 @@
             "bg_img": "shopify:\/\/shop_images\/lQDPJyFWi8lReALNAZrNAZWwtR7lJhj7e7gEaz5jiAAMAA_405_410.jpg",
             "text_main": "Find Dealers Near You",
             "text_sub": "Test Ride & Buy Directly",
-            "url": "shopify:\/\/products\/ec-1-st"
+            "img_link": ""
           }
         }
       },
@@ -414,9 +417,9 @@
           "type": "text_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/3_200x_27ac67d4-98a6-4165-ae9d-f3c25601b00b.png",
-            "icons": "at-phone-24",
+            "icons": "at-ship-fast",
             "title": "Fast Support",
-            "text": "<p>Any cases raised by you are carefully tracked until full resolution and satisfaction.<\/p>",
+            "text": "<p>Email & Phone Service<\/p>",
             "texturl": ""
           }
         },
@@ -424,9 +427,9 @@
           "type": "text_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/1_200x_dc00fca6-aa97-4035-bd8b-4eab3aee6f0d.png",
-            "icons": "at-map-marker-al",
-            "title": "Find a Dealer",
-            "text": "<p>Any cases raised by you are carefully tracked until full resolution and satisfaction.<\/p>",
+            "icons": "at-shield-check",
+            "title": "30-Day Trial",
+            "text": "<p>Buy with Confidence<\/p>",
             "texturl": ""
           }
         }
@@ -448,8 +451,8 @@
         "section_cov": true,
         "sec_bg_clr": "#232426",
         "hide_mobile": false,
-        "title": "Great Bikes. Even Better Service.",
-        "subtitle": "You are at the center of our hearts.",
+        "title": "Superb bickes. Superior Service even.",
+        "subtitle": "",
         "style": "style1",
         "icon-type": "image",
         "icons_clr": "#ffffff",
