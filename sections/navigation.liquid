@@ -347,7 +347,7 @@
     {%- when 'megamenuHb' -%}
     {%- if block.settings.title != blank -%}
     {% assign blkSet = block.settings %}
-      <li class="lvl1 parent dropdown">
+      <li tag-name="simple-menu-item" class="lvl1 parent dropdown">
         {{linkLevel1}}
         {% render 'simple-megamenu' , blkSet: blkSet  %}
       </li>

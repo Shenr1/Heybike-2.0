@@ -40,9 +40,9 @@ module.exports = {
       },
       colors: {
         vi: {
-          light: '#F6BE00',
+          light: '#ffcf2c',
           DEFAULT: '#F6BE00',
-          dark: '#F6BE00',
+          dark: '#e4b000',
         },
         viGray: {
           light: '#dbdbda',

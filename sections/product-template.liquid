@@ -177,7 +177,7 @@
             <hr class="mt0 mb{{blkSt.bm}}" style="border-color: {{blkSt.hrc}}" {{ block.shopify_attributes }} /> 
         {%  when 'title' %}
             <h1 class="product-single__title ttlTxt {{blkSt.transform}} mb{{blkSt.bm}}" style="--tcl:{{blkSt.cl}};--tfs:{{blkSt.fs}}px;--tfsm:{{blkSt.fsm}}px;--tff:var(--{{blkSt.ff}});--tfw:{{blkSt.fw}};--tlh:1.4;" {{ block.shopify_attributes }}>{{ product.title }}</h1>
-	   		<p class="text-lg border-solid border-0 border-b border-black-300 pb-4">Aviation grade magnesium alloy</p>
+	   		<p class="text-lg border-solid border-0 border-b border-black-300 pb-4">{{product.metafields.custom.info.value}}</p>
 	    {%  when 'price' %}
             {%- if product.metafields.custom.product_group != blank -%}<style>.priceSingle{--pcl:{{blkSt.pcl}};--pcls:{{blkSt.pcls}};--fs:{{blkSt.fs}}px; --fsm:{{blkSt.fsm}}px;--pfw:{{ blkSt.pfw}};}</style>{%- endif -%}
             {%- unless settings.hide-price or product.metafields.custom.product_group != blank -%}

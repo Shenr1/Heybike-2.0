@@ -111,7 +111,7 @@
     "tphfont": 12,
     "main_header_fullwidth": false,
     "logosvg": "",
-    "logo": "shopify:\/\/shop_images\/logo_2f39a5a2-1fb1-4269-a0dc-b787c511a865.png",
+    "logo": "shopify:\/\/shop_images\/LOGO-02.png",
     "logo_reversal": "shopify:\/\/shop_images\/logo_624c236d-be86-4c8f-b763-206f22dceab3.png",
     "logo_width": "130",
     "header_height": "77",
@@ -299,7 +299,7 @@
             "settings": {
               "title": "Equipment",
               "url": "",
-              "mm_linklist": "main-menu",
+              "mm_linklist": "accessories",
               "text_main1": "We've got you and your bike covered",
               "text_sub1": "SERVICES",
               "text_link1": "Explore all products",
@@ -327,7 +327,7 @@
             "settings": {
               "title": "Community",
               "url": "",
-              "mm_linklist": ""
+              "mm_linklist": "community"
             }
           },
           "1559992848977": {
@@ -335,11 +335,12 @@
             "settings": {
               "title": "Help Center",
               "url": "#",
-              "mm_linklist": ""
+              "mm_linklist": "help-center"
             }
           },
           "ff0e6f22-f740-4d49-9986-8cbc1de21b2e": {
             "type": "dropdown",
+            "disabled": true,
             "settings": {
               "title": "Dealer",
               "url": "https:\/\/1.envato.market\/KdyYx",

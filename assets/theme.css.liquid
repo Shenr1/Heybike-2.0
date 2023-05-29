@@ -675,7 +675,7 @@ a.gimg-link { display:block; border-radius:{{settings.primg_rad}}px; overflow: h
 {% endif %}
 
 .ctdrawer { position:fixed; top:0; right:0; z-index:1099; visibility: hidden; width:100%; height:100%; }
-#header { position:relative; z-index:15; background-color	:{{settings.main_header_bg}}; border-bottom:1px solid {{settings.header_bd}};
+#header { position:relative; z-index:15; background-color	:{{settings.main_header_bg}}; 
   {% if settings.mainhead_img %}   
     background-image:url({{ settings.mainhead_img | img_url: 'master' }});
     background-repeat:{{settings.main_header_repeat}};

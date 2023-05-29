@@ -19,18 +19,26 @@
         <div class="{{rounded}} rounded-3xl overflow-hidden h-full {% if ebSlider %}mx-2{% endif %} {% unless textImg %}md:mb-6 mb-2{% endunless %}"
           style="background-color:{{blkSt.bg_color}};">
 
-        {% case block.type %}
+        {% case block.type %} 
           {% when "image" %}
-            {{ blkSt.bg_img | image_url: width: 1200 | image_tag: width: nil, loading: 'lazy', class: "h-full object-cover block w-full" }}
+            {% assign imgClass = 'h-full object-cover block w-full' %}
+            {% if blkSt.img_link != blank %} 
+            {% assign imgClass = 'h-full object-cover block w-full enlarge' %}
+            <a href="{{ blkSt.img_link }}" > 
+            {% endif %}
+              {{ blkSt.bg_img | image_url: width: 1200 | image_tag: width: nil, loading: 'lazy', class: imgClass  }}
+            {% if blkSt.img_link != blank %} </a> {% endif %}
           {% else %}
             <div class="video-wrapper"><iframe src="//www.youtube.com/embed/{{ blkSt.video_url.id }}?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe></div>
         {% endcase %}
 
         </div>
         {% if blkSt.text_main != blank %}
-          <section class="{% if textImg %}absolute bottom-6 left-6 text-white{% endif %}">
-            <h1 class="{% if textImg %}md:text-xl text-lg mb-1 {% else %} md:text-3xl text-2xl md:mb-2 mb-0{% endif %}">{{ blkSt.text_main  }}</h1>
-            <p class="{% if textImg %}text-base{% else %}text-lg{% endif %}">{{ blkSt.text_sub  }}</p>
+          <section class="{% if textImg %}absolute bottom-6 left-6 text-white w-4/5{% endif %}">
+            {% if blkSt.img_link != blank %} <a href="{{ blkSt.img_link }}" > {% endif %}
+              <h1 class="{% if textImg %}md:text-xl text-lg mb-1 {% else %} md:text-3xl text-2xl md:mb-2 mb-0{% endif %}">{{ blkSt.text_main  }}</h1>
+              <p class="{% if textImg %}text-base{% else %}text-lg{% endif %}">{{ blkSt.text_sub  }}</p>
+            {% if blkSt.img_link != blank %} </a> {% endif %}
           </section>
         {% endif %}
 
@@ -202,11 +210,12 @@
           },
           {
             "type": "url",
-            "id": "url",
-            "label": "Button link"
+            "id": "img_link",
+            "label": "Link"
           }
         ]
-      },      {
+      },
+      {
         "name": "Video slide",
         "type": "video",
         "settings": [
@@ -251,11 +260,6 @@
             "id": "text_sub",
             "label": "Sub title",
             "default": "Test Ride & Buy Directly"
-          },
-          {
-            "type": "url",
-            "id": "url",
-            "label": "Button link"
           }
         ]
       }

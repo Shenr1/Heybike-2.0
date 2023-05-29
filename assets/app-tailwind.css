@@ -14,6 +14,8 @@
 [section-name = 'store-features'] [tag-name = 'features-header'] .h3{@apply md:text-4_5xl text-3xl mb-7}
 [section-name = 'store-features'] [tag-name = 'features-header'] p{@apply text-xl px-4}
 
+#header{@apply transition-colors duration-300}
+
 body:not(.template-product) .stickyHeader [tag-name = 'reversal-logo']{@apply !block}
 body:not(.template-product) .stickyHeader [tag-name = 'logo']{@apply !hidden}
 body:not(.template-product) #header:not(.stickyHeader) [tag-name = 'logo']{@apply block}
@@ -37,6 +39,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
 [section-name = 'products-slider-full'] .flickity-button-icon{@apply fill-white}
 [section-name = 'products-slider-full'] .flickity-prev-next-button.previous{@apply md:left-12}
 [section-name = 'products-slider-full'] .flickity-prev-next-button.next{@apply md:right-12}
+
+[section-name = 'product-tabs-nav'] [tag-name = 'tabs-wrapper'] >a.active{@apply text-white border-solid border-0 border-b-4 border-white}
+
+[tag-name = 'simple-menu-item'] ul.dropdown li{@apply !border-t-0}
 
 @media only screen and (max-width:765px) {
     .pr_thumbs_item {@apply w-[18.5%] mx-[0.3%] }
@@ -67,11 +73,12 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
     .social-icons .social-icons__link i{@apply text-xl}
 
     #siteNav ul.dropdown li a:hover{@apply !bg-transparent}
-    .btn-featured{@apply font-normal rounded-full bg-gradient-to-b from-[#00bef9] to-[#015fea] border-none  hover:text-white hover:-translate-y-1 hover:opacity-90 hover:scale-95}
+    .btn-featured{@apply font-normal rounded-full bg-gradient-to-b from-vi-light to-vi-dark border-none  hover:text-white hover:-translate-y-1 hover:scale-95}
     .btn-contrast{@apply font-normal rounded-full bg-white text-black-900 border-white hover:text-white hover:bg-black-900 hover:border-white }
     .btn-vi{@apply font-normal rounded-full !bg-vi !border-vi hover:!text-vi hover:!bg-white hover:!border-vi }
     .template-index #header:not(.stickyHeader){@apply text-white bg-transparent absolute w-full border-none}
     .template-index #header:not(.stickyHeader) #siteNav>li>a,.template-index #header:not(.stickyHeader) .site-header a.hdicon{@apply text-white}
 
-    [section-name = 'product-tabs-nav'] [tag-name = 'tabs-wrapper'] >a.active{@apply text-white border-solid border-0 border-b-4 border-white}
+    .enlarge {@apply hover:scale-105 transition-transform duration-500}
+
 }

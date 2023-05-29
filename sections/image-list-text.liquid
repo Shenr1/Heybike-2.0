@@ -23,8 +23,8 @@
       <div class="md:w-[40.5%] order-2 flex flex-col">
         <div class="md:mr-2"> 
           <h1 class="md:text-4_5xl text-2xl">{{ secSt.text_main  }}</h1>
-          <p class="text-lg md:mb-6 mb-4">{{ secSt.text_sub  }}</p>
-          <p class="text-lg text-black-600 md:mb-8 mb-4">{{ secSt.text_dec  }}</p>
+          <p class="text-lg md:mb-6 mb-4 break-words">{{ secSt.text_sub | newline_to_br }}</p>
+          <p class="text-lg text-black-600 md:mb-8 mb-4">{{ secSt.text_dec | newline_to_br }}</p>
         </div>
         <div class="flex flex-wrap {{textMtClass}}">
           {% for block in section.blocks %}
@@ -39,7 +39,6 @@
     </div>
   </section>  
 {% endif %}
-
 
 
 {% schema %}
@@ -164,13 +163,13 @@
         "default":"Reframing The Future"
       },
  		  {
-        "type": "text",
+        "type": "textarea",
         "id": "text_sub",
         "label": "Sub title",
         "default":"With its streamlined body, the EC 1-ST moves freely through the crowded city streets like a gazelle, reaching places that are out of the reach of cars. "
       },
  		  {
-        "type": "text",
+        "type": "textarea",
         "id": "text_dec",
         "label": "Description text",
         "default":"The low frame design is ideal for women, so they can wear their dresses and go shopping in style."

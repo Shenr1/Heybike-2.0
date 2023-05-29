@@ -10,6 +10,24 @@ $(function(){
     $('[section-name = "store-features"] .store-info').flickity( { prevNextButtons: true, pageDots: false } );
   }
 
+  if($(".template-index").length){
+
+    $("#header").mouseenter(function(){
+      if(!$(this).hasClass("fadeInDown")){
+        $(this).addClass("stickyHeader !absolute !top-auto")
+      }
+    });
+
+    $("#header").mouseleave(function(){
+      if(!$(this).hasClass("fadeInDown")){
+        $(this).removeClass("stickyHeader !absolute !top-auto")
+      }
+    });
+
+
+
+  
+  }
 
 
   // 产品页获取所有锚点链接

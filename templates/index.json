@@ -6,12 +6,12 @@
         "1561726660568-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-600.webp",
+            "image": "shopify:\/\/shop_images\/banner-3.png",
             "imagem": "shopify:\/\/shop_images\/3_e9ed99a9-28ce-4c95-9ae8-0fa55a098d88.webp",
             "ialign": "center_center",
-            "hd1": "Heybike EC 1",
+            "hd1": "Your Life <br> Heybike!",
             "pcl": "#ffffff",
-            "title": "Your Life <br>\nHeybike!",
+            "title": "EC 1 -ST",
             "tcl": "#ffffff",
             "hd3": "",
             "hideh3": true,
@@ -27,7 +27,7 @@
             "btn-style1": "btn1",
             "contwd": 1300,
             "text-left": true,
-            "txtpos": "f-jce-md f-aic-md",
+            "txtpos": "f-aic-md f-jcs-md",
             "txtposm": "f-ais f-jcs"
           }
         },
@@ -117,32 +117,31 @@
     "583b741b-600f-49b4-9c12-175b587241ee": {
       "type": "products-slider-full",
       "blocks": {
+        "74434e2d-7316-4cea-a46d-2fe1337dab28": {
+          "type": "slide",
+          "settings": {
+            "product": "heybike-ec-1",
+            "product_image": "shopify:\/\/shop_images\/1_5cd22678-e140-46e2-b82c-0c196b61d87b.png"
+          }
+        },
         "aced053b-8c7e-443c-ba77-07bf8bef930e": {
           "type": "slide",
           "settings": {
             "product": "ranger",
-            "product_image": "shopify:\/\/shop_images\/11_950x_52f08972-a403-430f-8d50-db3fdbf3c15a.png",
-            "tags_image": "shopify:\/\/shop_images\/rad2.png"
-          }
-        },
-        "74434e2d-7316-4cea-a46d-2fe1337dab28": {
-          "type": "slide",
-          "settings": {
-            "product": "ranger",
-            "product_image": "shopify:\/\/shop_images\/10_950x_51979b9f-829c-4828-9efc-b2d87d2b8614.png"
+            "product_image": "shopify:\/\/shop_images\/f70b443728d1b1fbb1038703c49eaeb4.png"
           }
         },
         "f8ffd36a-8915-47a9-930d-e2ad87fcd760": {
           "type": "slide",
+          "disabled": true,
           "settings": {
-            "product": "ranger",
-            "product_image": "shopify:\/\/shop_images\/05_950x_0c4fbfb6-e564-4d71-b7ec-f893bcc75286.png"
+            "product": "ranger"
           }
         }
       },
       "block_order": [
-        "aced053b-8c7e-443c-ba77-07bf8bef930e",
         "74434e2d-7316-4cea-a46d-2fe1337dab28",
+        "aced053b-8c7e-443c-ba77-07bf8bef930e",
         "f8ffd36a-8915-47a9-930d-e2ad87fcd760"
       ],
       "settings": {
@@ -208,7 +207,7 @@
         "top_padding": "large",
         "bottom_padding": "small",
         "style": "default",
-        "bg_img": "shopify:\/\/shop_images\/image_2.webp",
+        "bg_img": "shopify:\/\/shop_images\/lQLPJxSnpo-ElsLNAabNBQCwZK2K3S6ThzoEaz3PIoALAA_1280_422.png",
         "bg_color": "",
         "text_color": "#ffffff"
       }
@@ -263,7 +262,7 @@
         "bottom_padding": "large",
         "bg_color": "#f3f5f9",
         "title": "Go Green with Heybike",
-        "image": "shopify:\/\/shop_images\/ebikenews_165x_6cf7a577-5822-4465-a103-659a3564a872.webp"
+        "image": "shopify:\/\/shop_images\/lQLPJx-0LdzE9sLNAZDNBQCwN3lCSGMfQS0Eaz3PIoALAQ_1280_400.png"
       }
     },
     "9097e021-5397-4a21-8d22-e6f121fbda8f": {
@@ -272,7 +271,7 @@
         "top_padding": "large",
         "bottom_padding": "default",
         "bg_color": "#000000",
-        "bg_img": "shopify:\/\/shop_images\/ebikenews_165x_6cf7a577-5822-4465-a103-659a3564a872.webp",
+        "bg_img": "shopify:\/\/shop_images\/lQLPJv-xocNX1sLNAWjNBQCwzPnnui_SUJIEaz3PJEAOAA_1280_360.png",
         "text_main": "Find Dealers Near You",
         "text_sub": "Test Ride & Buy Directly",
         "text_btn": "Read More",
@@ -287,9 +286,9 @@
           "settings": {
             "slide_w": "w-2\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/banner-600.webp",
-            "text_main": "Find Dealers Near You",
-            "text_sub": "Test Ride & Buy Directly",
+            "bg_img": "shopify:\/\/shop_images\/eurobike23_banner_1200x628px_en.jpg__1079x720_q85_subsampling-2.jpg",
+            "text_main": "EUROBIKE 2023",
+            "text_sub": "Looking forward to your arrival！",
             "url": "shopify:\/\/products\/heybike-ec-1"
           }
         },
@@ -298,7 +297,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
+            "bg_img": "shopify:\/\/shop_images\/lQDPJyFWi8lReALNAZrNAZWwtR7lJhj7e7gEaz5jiAAMAA_405_410.jpg",
             "text_main": "Find Dealers Near You",
             "text_sub": "Test Ride & Buy Directly",
             "url": "shopify:\/\/products\/ec-1-st"
@@ -324,7 +323,7 @@
         "template--19143575470395__e0be29cc-4f32-4503-8012-abbb3949eb80-1684744024f2b6438e-0": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/app.webp",
+            "image": "shopify:\/\/shop_images\/lQLPJyJ5lcOxtsLNArzNB4Cw8eUNnyncDXQEaz3PIIAMAA_1920_700.png",
             "layout": "right",
             "title": "Banner With Text",
             "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",

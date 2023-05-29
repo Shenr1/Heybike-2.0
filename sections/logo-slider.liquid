@@ -9,7 +9,7 @@ style="{% if secSt.bg_color != blank %}background-color: {{ secSt.bg_color}};{% 
       <div class="md:w-3/5 md:px-0 px-2 mx-auto">
 
         <div id="carousel-main-{{section.id}}" 
-          data-flickity='{"pageDots": false, "fade": true,"prevNextButtons": false, "wrapAround": true{% if isStyle %}, "autoPlay": true{% endif %} }'>
+          data-flickity='{"pageDots": false, "fade": true,"prevNextButtons": false, "wrapAround": true, "lazyLoad": true{% if isStyle %}, "autoPlay": true{% endif %} }'>
           {% for block in section.blocks %}
           <div class="mb-20 text-center" style="color:{{secSt.text_color}};" >
 
