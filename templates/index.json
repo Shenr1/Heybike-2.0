@@ -6,7 +6,7 @@
         "1561726660568-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-600.webp",
+            "image": "shopify:\/\/shop_images\/banner-3.png",
             "imagem": "shopify:\/\/shop_images\/3_e9ed99a9-28ce-4c95-9ae8-0fa55a098d88.webp",
             "ialign": "center_center",
             "hd1": "Heybike EC 1",
@@ -27,7 +27,7 @@
             "btn-style1": "btn1",
             "contwd": 1300,
             "text-left": true,
-            "txtpos": "f-jce-md f-aic-md",
+            "txtpos": "f-aic-md f-jcs-md",
             "txtposm": "f-ais f-jcs"
           }
         },
