@@ -497,8 +497,7 @@
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
             "text_main": "Find Dealers Near You",
-            "text_sub": "Test Ride & Buy Directly",
-            "url": ""
+            "text_sub": "Test Ride & Buy DirectlyTest Ride & Buy DirectlyTest Ride & Buy Directly"
           }
         },
         "0114d1a4-5f44-43a5-bf46-6af6a08e5df5": {
@@ -508,8 +507,7 @@
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
             "text_main": "Find Dealers Near You",
-            "text_sub": "Test Ride & Buy Directly",
-            "url": ""
+            "text_sub": "Test Ride & Buy Directly"
           }
         },
         "fe7a03d3-b3df-4677-9e12-793a76f51f95": {
@@ -519,22 +517,32 @@
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
             "text_main": "Find Dealers Near You",
-            "text_sub": "Test Ride & Buy Directly",
-            "url": ""
+            "text_sub": "Test Ride & Buy Directly"
+          }
+        },
+        "a290cf41-aeb1-4cf0-8844-01c278986b75": {
+          "type": "image",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
+            "text_main": "Find Dealers Near You",
+            "text_sub": "Test Ride & Buy Directly"
           }
         }
       },
       "block_order": [
         "01473a8c-f8f3-4061-8171-24367981f33e",
         "0114d1a4-5f44-43a5-bf46-6af6a08e5df5",
-        "fe7a03d3-b3df-4677-9e12-793a76f51f95"
+        "fe7a03d3-b3df-4677-9e12-793a76f51f95",
+        "a290cf41-aeb1-4cf0-8844-01c278986b75"
       ],
       "settings": {
         "top_padding": "large",
         "bottom_padding": "large",
         "title": "The World of HEYBIKE",
         "layout": "textImg",
-        "enable_slider": false,
+        "enable_slider": true,
         "bottom_line": true
       }
     },
@@ -679,8 +687,7 @@
             "bg_color": "",
             "video_url": "https:\/\/www.youtube.com\/watch?v=y2sdW0J7diE",
             "text_main": "",
-            "text_sub": "Test Ride & Buy Directly",
-            "url": ""
+            "text_sub": "Test Ride & Buy Directly"
           }
         },
         "061ccc1b-95bb-4147-bfcd-d264635cfafb": {
@@ -690,8 +697,7 @@
             "bg_color": "",
             "video_url": "https:\/\/www.youtube.com\/watch?v=y2sdW0J7diE",
             "text_main": "",
-            "text_sub": "",
-            "url": ""
+            "text_sub": ""
           }
         },
         "bfd3caac-3459-4b88-a706-8828f77c6c8a": {
@@ -701,8 +707,7 @@
             "bg_color": "",
             "video_url": "https:\/\/www.youtube.com\/watch?v=y2sdW0J7diE",
             "text_main": "Find Dealers Near You",
-            "text_sub": "Test Ride & Buy Directly",
-            "url": ""
+            "text_sub": "Test Ride & Buy Directly"
           }
         }
       },
