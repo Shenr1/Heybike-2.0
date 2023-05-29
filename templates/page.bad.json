@@ -4,14 +4,15 @@
       "type": "hero",
       "settings": {
         "top-offeset": "default",
-        "section_width": true,
-        "ds_height": 600,
+        "section_width": false,
+        "ds_height": 280,
         "tb_height": 350,
         "mb_height": 250,
         "parallax_scroll": true,
+        "image": "shopify:\/\/shop_images\/02_31a53d77-ed0d-45f8-b6cd-7215cb8658a9.webp",
         "alignment": "center",
-        "pretext": "I AM AVONE",
-        "pcl": "#333333",
+        "pretext": "",
+        "pcl": "#fff",
         "pfs": 15,
         "pfsm": 13,
         "pff": "ft1",
@@ -19,24 +20,24 @@
         "plh": 1.3,
         "pmb": 10,
         "pmbm": 5,
-        "title": "BEST SELLING SHOPIFY <br> THEME IN THE MARKET",
-        "tcl": "#000000",
-        "tfs": 30,
+        "title": "Become A Dealer",
+        "tcl": "#fff",
+        "tfs": 33,
         "tfsm": 20,
         "tff": "ft2",
         "tfw": "700",
         "tlh": 1.3,
         "tmb": 10,
         "tmbm": 5,
-        "text": "<p>The design of your site plays a crucial role. It can make or break your website leading to sales either falling flat or converting profitably.<\/p>",
-        "cl": "#000000",
+        "text": "<p>We appreciate your interest in Heybike, where we always work to better the riding experience by understanding it, living it, and improving it.<\/p>",
+        "cl": "#fff",
         "fs": 16,
         "fsm": 14,
         "fw": "400",
         "lh": 1.6,
         "mb": 30,
         "mbm": 20,
-        "button_label": "SHOP COLLECTION",
+        "button_label": "",
         "button_link": "\/",
         "link_image": false,
         "btn-style": "btn",
@@ -44,7 +45,7 @@
         "btn-size-mob": "mob-btn-sm",
         "isbox": true,
         "bg": "#ffffff",
-        "opt": 0.9,
+        "opt": 0,
         "bdr": 0,
         "textalign": "tc",
         "bxalign": "f-jcc f-aic",
@@ -53,7 +54,7 @@
         "snow_style": "style1",
         "hero_dealtimer": false,
         "cnt_date": "12\/20\/2023",
-        "cntbg": "#000000",
+        "cntbg": "#fff",
         "cntcl": "#eeeeee",
         "cntbd": "#000000"
       }
@@ -63,62 +64,85 @@
       "blocks": {
         "template--19289277169979__fe6340dd-ea38-4ce9-9f9e-0abb15908260-16853339263b39c458-0": {
           "type": "row",
+          "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/Explore_with_Heybike_Mars.jpg",
             "layout": "left",
-            "title": "Banner With Text",
-            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Shop Now",
+            "title": "About Heybike",
+            "text": "<p>Heybike, America's premier e-bike brand since 2021, offers versatile e-bikes that fulfill diverse customer needs, from off-road exploration to daily commuting, embodying the e-bike revolution's true<br\/>potential.<\/p>",
+            "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
-            "tcl": "#000",
-            "cl": "#000",
+            "tcl": "#000000",
+            "cl": "#000000",
             "bg": "#f5f5f5",
-            "btncl": "#fff",
-            "btnbg": "#000",
-            "btnbd": "#000"
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
           }
         },
         "e7e856a6-1018-4e98-b839-7c350042e23a": {
           "type": "row",
           "settings": {
-            "layout": "left",
-            "title": "Banner With Text",
-            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Shop Now",
+            "image": "shopify:\/\/shop_images\/our_story.jpg",
+            "layout": "right",
+            "title": "Strong Supply Chain",
+            "text": "<p>Join Heybike for unrivaled access to an empowering supply chain. Our self-built factories, strategic warehouses, and logistics partnerships pave the way for your success. Unleash boundless opportunities in the e-bike market and reshape mobility's future.<\/p>",
+            "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
-            "tcl": "#000",
-            "cl": "#000",
+            "tcl": "#000000",
+            "cl": "#000000",
             "bg": "#f5f5f5",
-            "btncl": "#fff",
-            "btnbg": "#000",
-            "btnbd": "#000"
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
           }
         },
         "67f390d6-a648-4fc8-83ed-132007d2ba6e": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/21_3baf312a-11dd-4af1-978b-863d77815329.webp",
             "layout": "left",
-            "title": "Banner With Text",
-            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Shop Now",
+            "title": "Customer Success",
+            "text": "<p>Heybike empowers wholesalers for success, evident in our 2022 achievements: 60,000 e-bikes sold, $30M+ turnover. Let's continue our collaborative journey, revolutionizing the electric bicycle market and finding new growth opportunities.<\/p>",
+            "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
-            "tcl": "#000",
-            "cl": "#000",
+            "tcl": "#000000",
+            "cl": "#000000",
             "bg": "#f5f5f5",
-            "btncl": "#fff",
-            "btnbg": "#000",
-            "btnbd": "#000"
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
           }
         },
         "fa575a46-0f1f-4d5e-a3aa-1dd1baceee33": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/heybike_Cityscape_review8_cf82010e-4107-4520-8ad7-873ac8970bde.webp",
+            "layout": "right",
+            "title": "Professional Team",
+            "text": "<p>Partner with Heybike for dedicated support from our expert team. Experience unparalleled service, marketing expertise, and after-sales care. Contact us now to begin our successful journey together.<\/p>",
+            "button_label": "",
+            "button_link": "\/",
+            "text_align": "text-left",
+            "tcl": "#000000",
+            "cl": "#000000",
+            "bg": "#f5f5f5",
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
+          }
+        },
+        "8f722eb6-0b95-4376-ba50-14187f5060a3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02_5d4178c9-4a9a-4ff3-a2a9-e98eff36001d.webp",
             "layout": "left",
-            "title": "Banner With Text",
-            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Shop Now",
+            "title": "Marketing Solutions",
+            "text": "<p>Partner with Heybike for global brand amplification. Our influential network and tailored marketing solutions ensure targeted reach and exceptional performance.<\/p>",
+            "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
             "tcl": "#000",
@@ -134,7 +158,8 @@
         "template--19289277169979__fe6340dd-ea38-4ce9-9f9e-0abb15908260-16853339263b39c458-0",
         "e7e856a6-1018-4e98-b839-7c350042e23a",
         "67f390d6-a648-4fc8-83ed-132007d2ba6e",
-        "fa575a46-0f1f-4d5e-a3aa-1dd1baceee33"
+        "fa575a46-0f1f-4d5e-a3aa-1dd1baceee33",
+        "8f722eb6-0b95-4376-ba50-14187f5060a3"
       ],
       "settings": {
         "top_padding": "none",
@@ -165,6 +190,7 @@
     },
     "contact": {
       "type": "contact-template",
+      "disabled": true,
       "settings": {
         "width": 1200,
         "hide_ttl": true,
@@ -188,17 +214,67 @@
     },
     "eded3e05-a976-441e-9060-85cc81f16735": {
       "type": "contact-form",
-      "disabled": true,
       "settings": {
         "layout": "2",
         "page_Width": 700,
-        "title": "Drop Us A Line",
-        "subtitle": "Get in touch and let us know how we can help. Have a question but aren’t sure who to contact? Get in touch and a member of our team will reach out to you.",
+        "title": "BECOME A DEALER",
+        "subtitle": "Partnership with Heybike: unleash the power of electric bikes in your region.",
         "show_phone": false,
         "show_subject": false,
         "top-offeset": "default",
         "section_cov": true,
         "sec_bg_clr": "#fafafa"
+      }
+    },
+    "bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a": {
+      "type": "faq",
+      "disabled": true,
+      "blocks": {
+        "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-0": {
+          "type": "faqs",
+          "settings": {
+            "question": "How can I get assistance if I need it?",
+            "answer": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+          }
+        },
+        "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-1": {
+          "type": "faqs",
+          "settings": {
+            "question": "How can I get assistance if I need it?",
+            "answer": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+          }
+        },
+        "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-2": {
+          "type": "faqs",
+          "settings": {
+            "question": "How can I get assistance if I need it?",
+            "answer": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+          }
+        }
+      },
+      "block_order": [
+        "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-0",
+        "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-1",
+        "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-2"
+      ],
+      "settings": {
+        "title": "FAQs",
+        "subtitle": "",
+        "top-offeset": "default",
+        "section_cov": true,
+        "sec_bg_clr": "#fafafa",
+        "pagestyle": "style1",
+        "max-width": 800,
+        "tcl": "#eee",
+        "tbg": "#333",
+        "tfs": 24,
+        "tfsm": 18,
+        "tff": "ft2",
+        "tfw": "600",
+        "qcl": "#333",
+        "qfs": 16,
+        "qfsm": 14,
+        "qfw": "400"
       }
     }
   },
@@ -206,6 +282,7 @@
     "dccaed39-11bd-44d7-a2b9-54c61814e6c3",
     "fe6340dd-ea38-4ce9-9f9e-0abb15908260",
     "contact",
-    "eded3e05-a976-441e-9060-85cc81f16735"
+    "eded3e05-a976-441e-9060-85cc81f16735",
+    "bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a"
   ]
 }
