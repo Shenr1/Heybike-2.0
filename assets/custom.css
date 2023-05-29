@@ -766,6 +766,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   width:8rem;
 }
 
+.w-4\/5 {
+  width:80%;
+}
+
 .w-40 {
   width:10rem;
 }
@@ -796,10 +800,6 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 
 .w-full {
   width:100%;
-}
-
-.w-4\/5 {
-  width:80%;
 }
 
 .-translate-x-1\/2 {

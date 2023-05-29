@@ -6,7 +6,7 @@
   <div class="page-width px-4">
     <h1 class="md:text-4_5xl text-3xl text-center md:mb-12 mb-8">{{secSt.title}}</h1>
 
-    <div {% if ebSlider %}data-flickity='{"pageDots": false, "draggable": false, "autoPlay": true,"initialIndex": 3 }' {% else %} class="md:flex"{% endif %} >
+    <div {% if ebSlider %}hb-flickity='{"pageDots": false, "draggable": false, "imagesLoaded": true,"wrapAround":true }' {% else %} class="md:flex"{% endif %} >
       {% for block in section.blocks %}
       {%- assign blkSt = block.settings -%}
 
@@ -26,7 +26,7 @@
             {% assign imgClass = 'h-full object-cover block w-full enlarge' %}
             <a href="{{ blkSt.img_link }}" > 
             {% endif %}
-              {{ blkSt.bg_img | image_url: width: 1200 | image_tag: width: nil, loading: 'lazy', class: imgClass  }}
+              {{ blkSt.bg_img | image_url: width: 1000 | image_tag: width: 1000,  class: imgClass  }}
             {% if blkSt.img_link != blank %} </a> {% endif %}
           {% else %}
             <div class="video-wrapper"><iframe src="//www.youtube.com/embed/{{ blkSt.video_url.id }}?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe></div>
@@ -37,7 +37,7 @@
           <section class="{% if textImg %}absolute bottom-6 left-6 text-white w-4/5{% endif %}">
             {% if blkSt.img_link != blank %} <a href="{{ blkSt.img_link }}" > {% endif %}
               <h1 class="{% if textImg %}md:text-xl text-lg mb-1 {% else %} md:text-3xl text-2xl md:mb-2 mb-0{% endif %}">{{ blkSt.text_main  }}</h1>
-              <p class="{% if textImg %}text-base{% else %}text-lg{% endif %}">{{ blkSt.text_sub  }}</p>
+              <p class="{% if textImg %}text-base{% else %}text-lg{% endif %} break-words">{{ blkSt.text_sub  }}</p>
             {% if blkSt.img_link != blank %} </a> {% endif %}
           </section>
         {% endif %}
@@ -55,7 +55,6 @@
 
 
 </section>  
-
 
 
 {% schema %}

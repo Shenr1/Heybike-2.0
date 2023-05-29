@@ -5,6 +5,15 @@ $(function(){
     $(this).find('[tag-name="accordion-arrow"] svg:last-child').fadeToggle(500,"linear");
   });
 
+  // 轮播内嵌模式改写 todo 封装
+  const iniFlickity = () => {
+    $("[hb-flickity]").each(function() {
+      const optionObj = $.parseJSON($(this).attr('hb-flickity'));
+      $(this).flickity(optionObj);
+    });
+  }
+  setTimeout(function(){ iniFlickity() },150)
+
   // 移动端轮播处理
   if ( matchMedia('screen and (max-width: 768px)').matches ) {
     $('[section-name = "store-features"] .store-info').flickity( { prevNextButtons: true, pageDots: false } );
