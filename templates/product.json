@@ -341,21 +341,21 @@
           "type": "item",
           "settings": {
             "item_title": "360wh",
-            "item_dec": "Battery"
+            "item_dec": "Power"
           }
         },
         "c2cd3913-f9ab-4d1a-90a3-425a71e726c2": {
           "type": "item",
           "settings": {
-            "item_title": "360wh",
-            "item_dec": "Battery"
+            "item_title": "12Ah",
+            "item_dec": "Capacity"
           }
         },
         "c40ebf74-fd0a-4136-902b-64c9b076e175": {
           "type": "item",
           "settings": {
-            "item_title": "360wh",
-            "item_dec": "Battery"
+            "item_title": "36V",
+            "item_dec": "Voltage"
           }
         }
       },
@@ -371,9 +371,9 @@
         "layout": "textImage",
         "img_size": "small",
         "img": "shopify:\/\/shop_images\/1.png",
-        "text_main": "Reframing The Future",
-        "text_sub": "With its streamlined body, the EC 1-ST moves freely through the crowded city streets like a gazelle, reaching places that are out of the reach of cars.",
-        "text_dec": "The low frame design is ideal for women, so they can wear their dresses and go shopping in style.",
+        "text_main": "Portable Battery",
+        "text_sub": "By using  high capacitySamsung batteries.You may easily ride for more than 80 kilometers on a single charge.",
+        "text_dec": "Seamless integration & Robust power output",
         "bottom_line": true
       }
     },
