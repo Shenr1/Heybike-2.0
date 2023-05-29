@@ -117,32 +117,31 @@
     "583b741b-600f-49b4-9c12-175b587241ee": {
       "type": "products-slider-full",
       "blocks": {
+        "74434e2d-7316-4cea-a46d-2fe1337dab28": {
+          "type": "slide",
+          "settings": {
+            "product": "heybike-ec-1",
+            "product_image": "shopify:\/\/shop_images\/1_5cd22678-e140-46e2-b82c-0c196b61d87b.png"
+          }
+        },
         "aced053b-8c7e-443c-ba77-07bf8bef930e": {
           "type": "slide",
           "settings": {
             "product": "ranger",
-            "product_image": "shopify:\/\/shop_images\/11_950x_52f08972-a403-430f-8d50-db3fdbf3c15a.png",
-            "tags_image": "shopify:\/\/shop_images\/rad2.png"
-          }
-        },
-        "74434e2d-7316-4cea-a46d-2fe1337dab28": {
-          "type": "slide",
-          "settings": {
-            "product": "ranger",
-            "product_image": "shopify:\/\/shop_images\/10_950x_51979b9f-829c-4828-9efc-b2d87d2b8614.png"
+            "tags_image": "shopify:\/\/shop_images\/f70b443728d1b1fbb1038703c49eaeb4.png"
           }
         },
         "f8ffd36a-8915-47a9-930d-e2ad87fcd760": {
           "type": "slide",
+          "disabled": true,
           "settings": {
-            "product": "ranger",
-            "product_image": "shopify:\/\/shop_images\/05_950x_0c4fbfb6-e564-4d71-b7ec-f893bcc75286.png"
+            "product": "ranger"
           }
         }
       },
       "block_order": [
-        "aced053b-8c7e-443c-ba77-07bf8bef930e",
         "74434e2d-7316-4cea-a46d-2fe1337dab28",
+        "aced053b-8c7e-443c-ba77-07bf8bef930e",
         "f8ffd36a-8915-47a9-930d-e2ad87fcd760"
       ],
       "settings": {
