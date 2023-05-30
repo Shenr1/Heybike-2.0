@@ -68,16 +68,16 @@
             "image": "shopify:\/\/shop_images\/eurobike23_banner_1200x628px_en.jpg__1079x720_q85_subsampling-2.jpg",
             "layout": "left",
             "title": "Contact us right now!",
-            "text": "<p>Apply as a distributor now to get a ticket to ERUOBIKE 2023 at a special price! Limited amounts are offered on a first-come, first-served basis!<\/p>",
+            "text": "<p>Apply as a distributor now to win a free ticket to ERUOBIKE 2023! Limited amounts are offered on a first-come, first-served basis!<\/p>",
             "button_label": "Email us",
             "button_link": "mailto:\/sales.uk@heybike.com",
             "text_align": "text-left",
-            "tcl": "#000",
-            "cl": "#000",
+            "tcl": "#000000",
+            "cl": "#000000",
             "bg": "#f5f5f5",
-            "btncl": "#fff",
-            "btnbg": "#000",
-            "btnbd": "#000"
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
           }
         },
         "template--19289277169979__fe6340dd-ea38-4ce9-9f9e-0abb15908260-16853339263b39c458-0": {
@@ -295,7 +295,7 @@
         "layout": "2",
         "page_Width": 700,
         "title": "BECOME A DEALER",
-        "subtitle": "Partnership with Heybike-UK: unleash the power of electric bikes in your region.<br>\nApply as a distributor now to get a ticket to ERUOBIKE 2023 at a special price! Limited amounts are offered on a first-come, first-served basis!",
+        "subtitle": "Partnership with Heybike-UK: unleash the power of electric bikes in your region.<br>\nApply as a distributor now to win a free ticket to ERUOBIKE 2023! Limited amounts are offered on a first-come, first-served basis!",
         "show_phone": false,
         "show_subject": false,
         "top-offeset": "default",
