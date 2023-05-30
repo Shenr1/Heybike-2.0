@@ -86,6 +86,7 @@
     },
     "804c09db-97c8-4860-90b5-540cdd10257c": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "top-offeset": "default",
         "section_width": false,
@@ -183,7 +184,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/our_story.jpg",
             "layout": "right",
-            "title": "Our Story",
+            "title": "About Us",
             "text": "<p>Our founder, Jason, had a life-changing epiphany while working in a high-rise office building a few years ago: he couldn't handle commuting anymore. He was constantly late to work because of traffic jams and public transit delays, and he knew there had to be a better way to get around. So, Jason set out to change commuting for himself and everyone who was always tired of being stuck in traffic.<\/p><p>When William and Jason met, William had been in the outdoor cycling tools industry for a decade. He was another cycling enthusiast sharing the same vision for making commuting more convenient. That's when they founded Heybike and set out to create their first bike: Cityscape Electric Cruiser Bike. This bike helped people commute more conveniently, but it didn't stop there: Cityscape became about seamlessly integrating cycling into everyone's lives; from a small garage to an international store, we continue to innovate and grow our product line to bring you the best riding experience. Now we have over 40 models of e-bikes, including mountain electric bikes, folding electric bikes, city electric bikes, cruiser e-bikes, fat tire e-bikes, and many more for you to choose from.<\/p>",
             "button_label": "",
             "button_link": "",
