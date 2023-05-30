@@ -6,7 +6,7 @@
 
       <div class="md:rounded-section rounded-3xl md:flex overflow-hidden" style="background-color:{{secSt.bg_color}};">
         <div class="md:w-3/5" >
-          {{ secSt.bg_img | image_url: width: 1920 | image_tag: width: nil, loading: 'lazy' }}
+          {{ secSt.bg_img | image_url: width: 1920 | image_tag: width: nil, loading: 'lazy',class:'block' }}
         </div>
         <div class="md:w-2/5 flex flex-col justify-center md:mb-8 my-4 text-white md:pl-6 px-4">
           <h1 class="md:text-4xl text-2xl">{{ secSt.text_main  }}</h1>
