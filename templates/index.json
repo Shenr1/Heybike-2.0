@@ -121,7 +121,7 @@
           "type": "slide",
           "settings": {
             "product": "heybike-ec-1",
-            "product_image": "shopify:\/\/shop_images\/1_5cd22678-e140-46e2-b82c-0c196b61d87b.png",
+            "product_image": "shopify:\/\/shop_images\/EC_1-ST.png",
             "info": "Aviation grade magnesium alloy"
           }
         },
@@ -129,15 +129,23 @@
           "type": "slide",
           "settings": {
             "product": "ranger",
-            "product_image": "shopify:\/\/shop_images\/f70b443728d1b1fbb1038703c49eaeb4.png",
+            "product_image": "shopify:\/\/shop_images\/EC_1-ST_08bfca73-8ced-4472-a1f4-73d581f91a03.png",
             "info": "Aviation grade magnesium alloy"
           }
         },
         "f8ffd36a-8915-47a9-930d-e2ad87fcd760": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "product": "ranger",
+            "product_image": "shopify:\/\/shop_images\/EC_1-ST_88281652-acfe-47cd-aa4b-05c5f10ec652.png",
+            "info": "Aviation grade magnesium alloy"
+          }
+        },
+        "f480f755-ce5b-49ba-93bd-4d6b4ea96954": {
+          "type": "slide",
+          "settings": {
+            "product": "",
+            "product_image": "shopify:\/\/shop_images\/EC_1-ST_-1.png",
             "info": "Aviation grade magnesium alloy"
           }
         }
@@ -145,7 +153,8 @@
       "block_order": [
         "74434e2d-7316-4cea-a46d-2fe1337dab28",
         "aced053b-8c7e-443c-ba77-07bf8bef930e",
-        "f8ffd36a-8915-47a9-930d-e2ad87fcd760"
+        "f8ffd36a-8915-47a9-930d-e2ad87fcd760",
+        "f480f755-ce5b-49ba-93bd-4d6b4ea96954"
       ],
       "settings": {
         "top_padding": "large",
