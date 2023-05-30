@@ -1846,6 +1846,18 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
     margin-top:6rem;
   }
 
+  .lg\:mb-8 {
+    margin-bottom:2rem;
+  }
+
+  .lg\:mb-12 {
+    margin-bottom:3rem;
+  }
+
+  .lg\:mb-16 {
+    margin-bottom:4rem;
+  }
+
   .lg\:flex {
     display:flex;
   }
@@ -1914,6 +1926,18 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 }
 
 @media (min-width: 1280px) {
+  .xl\:mb-12 {
+    margin-bottom:3rem;
+  }
+
+  .xl\:mb-16 {
+    margin-bottom:4rem;
+  }
+
+  .xl\:mb-20 {
+    margin-bottom:5rem;
+  }
+
   .xl\:w-1\/6 {
     width:16.666667%;
   }

@@ -596,7 +596,7 @@
         "template--19143574815035__a8ffb222-813d-463f-9e86-871bceb908a5-1684996746297eb402-0": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/app.webp",
+            "image": "shopify:\/\/shop_images\/APP.png",
             "layout": "right",
             "title": "Smarttech and APP",
             "text": "<p>Your amazing rides deserve a journal! Connect your bike to the HEYBIKE App, and build an impressive mileage count!<\/p>",
@@ -843,7 +843,7 @@
         "sec_bg_clr": "#232426",
         "hide_mobile": false,
         "title": "Superb bikes. Superior Service.",
-        "subtitle": "",
+        "subtitle": "Exceeding Expectations with Unparalleled Customer Care",
         "style": "style1",
         "icon-type": "image",
         "icons_clr": "#ffffff",

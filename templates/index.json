@@ -6,12 +6,12 @@
         "1561726660568-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-3.png",
+            "image": "shopify:\/\/shop_images\/1a.png",
             "imagem": "shopify:\/\/shop_images\/3_e9ed99a9-28ce-4c95-9ae8-0fa55a098d88.webp",
             "ialign": "center_center",
-            "hd1": "Your Life <br> Heybike!",
+            "hd1": "EC 1-ST",
             "pcl": "#ffffff",
-            "title": "EC 1 -ST",
+            "title": "Bring an Ideal<br>Uran Life",
             "tcl": "#ffffff",
             "hd3": "",
             "hideh3": true,
@@ -121,7 +121,7 @@
           "type": "slide",
           "settings": {
             "product": "heybike-ec-1",
-            "product_image": "shopify:\/\/shop_images\/1_5cd22678-e140-46e2-b82c-0c196b61d87b.png",
+            "product_image": "shopify:\/\/shop_images\/EC-1-ST_07512530-a553-4c03-aab6-b603643b1daa.png",
             "info": "Aviation grade magnesium alloy"
           }
         },
@@ -129,15 +129,23 @@
           "type": "slide",
           "settings": {
             "product": "ranger",
-            "product_image": "shopify:\/\/shop_images\/f70b443728d1b1fbb1038703c49eaeb4.png",
+            "product_image": "shopify:\/\/shop_images\/EC-1-ST.png",
             "info": "Aviation grade magnesium alloy"
           }
         },
         "f8ffd36a-8915-47a9-930d-e2ad87fcd760": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "product": "ranger",
+            "product_image": "shopify:\/\/shop_images\/EC-1-ST_2d4ea888-5991-4847-a0e8-4779e3de7866.png",
+            "info": "Aviation grade magnesium alloy"
+          }
+        },
+        "f480f755-ce5b-49ba-93bd-4d6b4ea96954": {
+          "type": "slide",
+          "settings": {
+            "product": "ranger",
+            "product_image": "shopify:\/\/shop_images\/EC-1-_-1.png",
             "info": "Aviation grade magnesium alloy"
           }
         }
@@ -145,7 +153,8 @@
       "block_order": [
         "74434e2d-7316-4cea-a46d-2fe1337dab28",
         "aced053b-8c7e-443c-ba77-07bf8bef930e",
-        "f8ffd36a-8915-47a9-930d-e2ad87fcd760"
+        "f8ffd36a-8915-47a9-930d-e2ad87fcd760",
+        "f480f755-ce5b-49ba-93bd-4d6b4ea96954"
       ],
       "settings": {
         "top_padding": "large",
@@ -449,7 +458,7 @@
         "sec_bg_clr": "#232426",
         "hide_mobile": false,
         "title": "Superb bikes. Superior Service.",
-        "subtitle": "",
+        "subtitle": "Exceeding Expectations with Unparalleled Customer Care",
         "style": "style1",
         "icon-type": "image",
         "icons_clr": "#ffffff",
