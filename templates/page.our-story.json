@@ -143,11 +143,37 @@
         "btn-size-desk": "btn-md",
         "btn-size-mob": "mob-btn-sm"
       }
+    },
+    "804c09db-97c8-4860-90b5-540cdd10257c": {
+      "type": "video",
+      "settings": {
+        "top-offeset": "default",
+        "section_width": false,
+        "rounded": true,
+        "hide_mobile": false,
+        "snow_effect": false,
+        "snow_style": "style1",
+        "pad-desk": 55,
+        "pad-ipad": 15,
+        "pad-mbl": 10,
+        "mp4url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f64438b90ec74547997617af850c9857.mp4",
+        "title": "Video Text",
+        "color_ttl": "#fff",
+        "tfs": 20,
+        "tfsm": 12,
+        "hide_text": false,
+        "btntxt": "",
+        "btnurl": "",
+        "hide_btn": false,
+        "btn-style": "btn",
+        "text_align": "left"
+      }
     }
   },
   "order": [
     "page",
     "16337695579db422ae",
-    "1633769564023b4dfb"
+    "1633769564023b4dfb",
+    "804c09db-97c8-4860-90b5-540cdd10257c"
   ]
 }
