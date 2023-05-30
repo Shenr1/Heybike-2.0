@@ -2,6 +2,7 @@
   "sections": {
     "page": {
       "type": "page-template",
+      "disabled": true,
       "settings": {
         "section_width": false,
         "hide_hdft": false,
@@ -13,6 +14,7 @@
         "bnr-wd": 600,
         "show_collection_name": true,
         "ftTtl": 42,
+        "ftTtlm": 20,
         "ttlft": "font2",
         "ttlwt": "fw-700",
         "ttlcase": "tt-u",
@@ -32,7 +34,17 @@
         "sec_bg_clr": "#fafafa",
         "max-width": 650,
         "title": "<b>ABOUT US<\/b>",
+        "tcl": "#000",
+        "tfs": 26,
+        "tfsm": 20,
+        "tff": "ft1",
+        "tfw": "700",
+        "tlh": 1.2,
         "richtxt": "<p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+        "cl": "#000",
+        "fs": 14,
+        "fsm": 13,
+        "lh": 1.6,
         "btntxt": "",
         "btnurl": "",
         "btn-style": "btn",
@@ -51,37 +63,52 @@
         "1633769564023b4dfb-0": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/our-mission.jpg",
             "layout": "left",
             "title": "Our Mission",
             "text": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
             "button_label": "",
             "button_link": "",
-            "text_align": "text-left"
+            "text_align": "text-left",
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "#f5f5f5",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
           }
         },
         "3a7419a4-8a61-43ec-b2d7-43113cc5cbdc": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/our-vision.jpg",
             "layout": "right",
             "title": "Our Vision",
             "text": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
             "button_label": "",
             "button_link": "",
-            "text_align": "text-left"
+            "text_align": "text-left",
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "#f5f5f5",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
           }
         },
         "679037ac-fdf7-4af6-9a62-df6890f32c60": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/the-founder.jpg",
             "layout": "left",
             "title": "The Founder",
             "text": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
             "button_label": "Read More",
             "button_link": "\/",
-            "text_align": "text-left"
+            "text_align": "text-left",
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "#f5f5f5",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
           }
         }
       },
@@ -91,12 +118,30 @@
         "679037ac-fdf7-4af6-9a62-df6890f32c60"
       ],
       "settings": {
+        "top_padding": "none",
+        "bottom_padding": "large",
         "top-offeset": "default",
+        "section_style": "default",
         "section_width": false,
         "section_cov": false,
         "sec_bg_clr": "#fafafa",
         "snow_effect": false,
-        "snow_style": "style1"
+        "snow_style": "style1",
+        "tfs": 30,
+        "tfsm": 22,
+        "tff": "ft1",
+        "tfw": "700",
+        "tlh": 1.2,
+        "tmb": 15,
+        "tmbm": 10,
+        "fs": 14,
+        "fsm": 12,
+        "fw": "400",
+        "lh": 1.6,
+        "mb": 15,
+        "mbm": 10,
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm"
       }
     }
   },
