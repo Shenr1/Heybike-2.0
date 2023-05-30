@@ -44,6 +44,9 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
 
 [tag-name = 'simple-menu-item'] ul.dropdown li{@apply !border-t-0}
 
+
+.zoomImg{@apply !bg-white}
+
 @media only screen and (max-width:765px) {
     .pr_thumbs_item {@apply w-[18.5%] mx-[0.3%] }
     .product-single .flickity-button{@apply hidden }

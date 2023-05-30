@@ -12,8 +12,10 @@ const iniFlickity = () => {
     const optionObj = $.parseJSON($(this).attr('hb-flickity'));
     if ($(this).flickity) {
       $(this).on( 'ready.flickity', () => { 
+        console.log("ready");
+        console.log($(this).height());
         if($(this).height() < 50){ 
-          console.log("re");
+          console.log("re"); 
           iniFlickity() }
       });
       $(this).flickity(optionObj);

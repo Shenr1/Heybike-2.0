@@ -207,44 +207,6 @@
         "btn-size-mob": "mob-btn-sm"
       }
     },
-    "contact": {
-      "type": "contact-template",
-      "disabled": true,
-      "settings": {
-        "width": 1200,
-        "hide_ttl": true,
-        "breadcrumb": false,
-        "layout": "style1",
-        "map_address": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d14682.293794517416!2d72.5094806!3d23.0760947!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x99faa8682ccdff33!2sThe%20Capital!5e0!3m2!1sen!2sin!4v1658220562796!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
-        "contact_title": "Contact Us",
-        "contact_text_desc": "Get in touch and let us know how we can help. Have a question but aren’t sure who to contact? Get in touch and a member of our team will reach out to you.",
-        "show_phone": false,
-        "show_subject": false,
-        "store_opening_time": "<p><b>OPENING HOURS<\/b><\/p>\nMon - Sat : 9am - 11pm<br>\nSunday: 11am - 5pm",
-        "cnt_title": "",
-        "store_address": "<b>ADDRESS:<\/b><br>55 Gallaxy Enque, 2568 steet, 23568 NY",
-        "store_phone": "PHONE: +1 (440) 568 4568",
-        "store_email": "EMAIL: sales@yousite.com",
-        "show_socials": true,
-        "socials_ttl": "<b>STAY CONNECTED<\/b>",
-        "form_bg": "#f8f8f8",
-        "form_text": "#111111"
-      }
-    },
-    "eded3e05-a976-441e-9060-85cc81f16735": {
-      "type": "contact-form",
-      "settings": {
-        "layout": "2",
-        "page_Width": 700,
-        "title": "BECOME A DEALER",
-        "subtitle": "Partnership with Heybike-UK: Unleash the power of electric bikes in your region.<br>\nApply as a distributor now to win a free ticket to ERUOBIKE 2023! <br>Limited amounts are offered on a first-come, first-served basis!",
-        "show_phone": false,
-        "show_subject": false,
-        "top-offeset": "default",
-        "section_cov": true,
-        "sec_bg_clr": "#fafafa"
-      }
-    },
     "bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a": {
       "type": "faq",
       "blocks": {
@@ -252,7 +214,7 @@
           "type": "faqs",
           "settings": {
             "question": "Exist any specifications for the actual shop operation's address if I wish to become a distributor?",
-            "answer": "To apply to be a Heybike-UK dealer, we would like your brick-and-mortar store is in range of the United Kingdom. You could offer a test ride service to customers and directly sell the items if they are satisfied. Of course, a repair service is also desirable."
+            "answer": "To apply to be a Heybike-UK dealer, we would like your brick-and-mortar store in the United Kingdom range. You could offer a test ride service to customers and directly sell the items if they are satisfied. Of course, a repair service is also desirable."
           }
         },
         "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-2": {
@@ -302,13 +264,51 @@
         "qfsm": 14,
         "qfw": "400"
       }
+    },
+    "eded3e05-a976-441e-9060-85cc81f16735": {
+      "type": "contact-form",
+      "settings": {
+        "layout": "2",
+        "page_Width": 700,
+        "title": "BECOME A DEALER",
+        "subtitle": "Partnership with Heybike-UK: Unleash the power of electric bikes in your region.<br>\nApply as a distributor now to win a free ticket to ERUOBIKE 2023! <br>Limited amounts are offered on a first-come, first-served basis!",
+        "show_phone": false,
+        "show_subject": false,
+        "top-offeset": "default",
+        "section_cov": true,
+        "sec_bg_clr": "#fafafa"
+      }
+    },
+    "contact": {
+      "type": "contact-template",
+      "disabled": true,
+      "settings": {
+        "width": 1200,
+        "hide_ttl": true,
+        "breadcrumb": false,
+        "layout": "style1",
+        "map_address": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d14682.293794517416!2d72.5094806!3d23.0760947!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x99faa8682ccdff33!2sThe%20Capital!5e0!3m2!1sen!2sin!4v1658220562796!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+        "contact_title": "Contact Us",
+        "contact_text_desc": "Get in touch and let us know how we can help. Have a question but aren’t sure who to contact? Get in touch and a member of our team will reach out to you.",
+        "show_phone": false,
+        "show_subject": false,
+        "store_opening_time": "<p><b>OPENING HOURS<\/b><\/p>\nMon - Sat : 9am - 11pm<br>\nSunday: 11am - 5pm",
+        "cnt_title": "",
+        "store_address": "<b>ADDRESS:<\/b><br>55 Gallaxy Enque, 2568 steet, 23568 NY",
+        "store_phone": "PHONE: +1 (440) 568 4568",
+        "store_email": "EMAIL: sales@yousite.com",
+        "show_socials": true,
+        "socials_ttl": "STAY CONNECTED",
+        "form_bg": "#f8f8f8",
+        "form_text": "#111111"
+      }
     }
   },
   "order": [
     "dccaed39-11bd-44d7-a2b9-54c61814e6c3",
     "fe6340dd-ea38-4ce9-9f9e-0abb15908260",
-    "contact",
+    "bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a",
     "eded3e05-a976-441e-9060-85cc81f16735",
-    "bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a"
+    "contact"
   ]
 }

@@ -1815,9 +1815,13 @@ $(document).ready(function() {
           $('.stickySpace').css("min-height",'');
       }
     }else{
-      $(window).scrollTop()>145?   
-      $("[section-name = 'product-tabs-nav']").slideDown():
-      $("[section-name = 'product-tabs-nav']").slideUp();
+      // $(window).scrollTop()>145?   
+      // $("[section-name = 'product-tabs-nav']").slideDown():
+      // $("[section-name = 'product-tabs-nav']").slideUp();
+
+      $(window).scrollTop()>150?   
+      $("[section-name = 'product-tabs-nav']").addClass("fixed"):
+      $("[section-name = 'product-tabs-nav']").removeClass("fixed");
     }
   }
 

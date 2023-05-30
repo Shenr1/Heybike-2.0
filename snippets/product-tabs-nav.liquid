@@ -1,9 +1,9 @@
 {% comment %} todo 可配置 {% endcomment %}
 {%- capture productTabs -%}
-  <div section-name="product-tabs-nav" class="bg-black-800 z-50 fixed w-full top-0 hidden">
+  <div section-name="product-tabs-nav" class="bg-black-800 z-50 w-full top-0">
       <div class="page-width mx-auto items-center">
         <div class="flex justify-between text-white">
-          <div class="mb-0 text-lg font-semibold py-3 items-center md:block hidden">EC1-ST</div>
+          <div class="mb-0 text-lg font-semibold py-3 items-center md:flex hidden">EC1-ST</div>
           <div tag-name="tabs-wrapper" class="flex text-base font-semibold items-center">
           {% assign pClass = 'mb-0 md:mx-6 mx-4 md:py-3 h-full text-black-500 flex items-center' %}
             <a href="#nav-features" class="{{pClass}} active md:flex hidden">Features</a>
