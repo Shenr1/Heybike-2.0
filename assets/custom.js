@@ -6,13 +6,25 @@ $(function(){
   });
 
   // 轮播内嵌模式改写 todo 封装
-  const iniFlickity = () => {
-    $("[hb-flickity]").each(function() {
-      const optionObj = $.parseJSON($(this).attr('hb-flickity'));
+const iniFlickity = () => {
+  const flickityEles = $("[hb-flickity]");
+  flickityEles.each(function() {
+    const optionObj = $.parseJSON($(this).attr('hb-flickity'));
+    if ($(this).flickity) {
+      $(this).on( 'ready.flickity', () => { 
+        if($(this).height() < 50){ 
+          console.log("re");
+          iniFlickity() }
+      });
       $(this).flickity(optionObj);
-    });
-  }
-  setTimeout(function(){ iniFlickity() },150)
+    } else {
+      setTimeout(iniFlickity, 300);
+    }
+  });
+}
+iniFlickity()
+
+
 
   // 移动端轮播处理
   if ( matchMedia('screen and (max-width: 768px)').matches ) {

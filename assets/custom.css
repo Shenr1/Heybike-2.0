@@ -682,6 +682,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   display:flex;
 }
 
+.\!flex {
+  display:flex !important;
+}
+
 .table {
   display:table;
 }
@@ -977,6 +981,11 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   background-color:rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-black-700 {
+  --tw-bg-opacity:1;
+  background-color:rgb(68 68 68 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-b {
   background-image:linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -1033,6 +1042,14 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   padding:2rem;
 }
 
+.p-6 {
+  padding:1.5rem;
+}
+
+.p-3 {
+  padding:0.75rem;
+}
+
 .\!py-2 {
   padding-top:0.5rem !important;
   padding-bottom:0.5rem !important;
@@ -1086,6 +1103,16 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 .py-4 {
   padding-top:1rem;
   padding-bottom:1rem;
+}
+
+.py-6 {
+  padding-top:1.5rem;
+  padding-bottom:1.5rem;
+}
+
+.py-5 {
+  padding-top:1.25rem;
+  padding-bottom:1.25rem;
 }
 
 .pb-0 {
@@ -1693,6 +1720,16 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   .md\:py-6 {
     padding-top:1.5rem;
     padding-bottom:1.5rem;
+  }
+
+  .md\:px-4 {
+    padding-left:1rem;
+    padding-right:1rem;
+  }
+
+  .md\:py-5 {
+    padding-top:1.25rem;
+    padding-bottom:1.25rem;
   }
 
   .md\:pb-0 {

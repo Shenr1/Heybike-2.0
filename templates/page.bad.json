@@ -12,7 +12,7 @@
         "image": "shopify:\/\/shop_images\/02_31a53d77-ed0d-45f8-b6cd-7215cb8658a9.webp",
         "alignment": "center",
         "pretext": "",
-        "pcl": "#fff",
+        "pcl": "#ffffff",
         "pfs": 15,
         "pfsm": 13,
         "pff": "ft1",
@@ -21,7 +21,7 @@
         "pmb": 10,
         "pmbm": 5,
         "title": "Become A Dealer",
-        "tcl": "#fff",
+        "tcl": "#ffffff",
         "tfs": 33,
         "tfsm": 20,
         "tff": "ft2",
@@ -29,8 +29,8 @@
         "tlh": 1.3,
         "tmb": 10,
         "tmbm": 5,
-        "text": "<p>We appreciate your interest in Heybike, where we always work to better the riding experience by understanding it, living it, and improving it.<\/p>",
-        "cl": "#fff",
+        "text": "<p>We appreciate your interest in Heybike-UK, where we always work to better the riding experience by understanding it, living it, and improving it.<\/p>",
+        "cl": "#ffffff",
         "fs": 16,
         "fsm": 14,
         "fw": "400",
@@ -54,7 +54,7 @@
         "snow_style": "style1",
         "hero_dealtimer": false,
         "cnt_date": "12\/20\/2023",
-        "cntbg": "#fff",
+        "cntbg": "#ffffff",
         "cntcl": "#eeeeee",
         "cntbd": "#000000"
       }
@@ -62,6 +62,24 @@
     "fe6340dd-ea38-4ce9-9f9e-0abb15908260": {
       "type": "banner-with-text",
       "blocks": {
+        "1d1c291c-29e1-4645-911c-1cb922034f67": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eurobike23_banner_1200x628px_en.jpg__1079x720_q85_subsampling-2.jpg",
+            "layout": "left",
+            "title": "Contact us right now!",
+            "text": "<p>The EUROBIKE 2023 exhibition is just around the corner! Apply as a distributor now to win a free ticket to ERUOBIKE 2023! Limited amounts are offered on a first-come, first-served basis!<\/p>",
+            "button_label": "Email us",
+            "button_link": "mailto:\/sales.uk@heybike.com",
+            "text_align": "text-left",
+            "tcl": "#000000",
+            "cl": "#000000",
+            "bg": "#f5f5f5",
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
+          }
+        },
         "template--19289277169979__fe6340dd-ea38-4ce9-9f9e-0abb15908260-16853339263b39c458-0": {
           "type": "row",
           "disabled": true,
@@ -69,7 +87,7 @@
             "image": "shopify:\/\/shop_images\/Explore_with_Heybike_Mars.jpg",
             "layout": "left",
             "title": "About Heybike",
-            "text": "<p>Heybike, America's premier e-bike brand since 2021, offers versatile e-bikes that fulfill diverse customer needs, from off-road exploration to daily commuting, embodying the e-bike revolution's true<br\/>potential.<\/p>",
+            "text": "<p>The Heybike-UK is committed to the research and development of product functions, and provides users with the ultimate product and riding experience by improving product performance.<\/p>",
             "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
@@ -87,7 +105,7 @@
             "image": "shopify:\/\/shop_images\/our_story.jpg",
             "layout": "right",
             "title": "Strong Supply Chain",
-            "text": "<p>Join Heybike for unrivaled access to an empowering supply chain. Our self-built factories, strategic warehouses, and logistics partnerships pave the way for your success. Unleash boundless opportunities in the e-bike market and reshape mobility's future.<\/p>",
+            "text": "<p>Join Heybike-UK for unrivaled access to an empowering supply chain. Our self-built factories, strategic warehouses, and logistics partnerships pave the way for your success. Unleash boundless opportunities in the e-bike market and reshape mobility's future.<\/p>",
             "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
@@ -123,7 +141,7 @@
             "image": "shopify:\/\/shop_images\/heybike_Cityscape_review8_cf82010e-4107-4520-8ad7-873ac8970bde.webp",
             "layout": "right",
             "title": "Professional Team",
-            "text": "<p>Partner with Heybike for dedicated support from our expert team. Experience unparalleled service, marketing expertise, and after-sales care. Contact us now to begin our successful journey together.<\/p>",
+            "text": "<p>Partner with Heybike-UK for dedicated support from our expert team. Experience unparalleled service, marketing expertise, and after-sales care. Contact us now to begin our successful journey together.<\/p>",
             "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
@@ -141,20 +159,21 @@
             "image": "shopify:\/\/shop_images\/02_5d4178c9-4a9a-4ff3-a2a9-e98eff36001d.webp",
             "layout": "left",
             "title": "Marketing Solutions",
-            "text": "<p>Partner with Heybike for global brand amplification. Our influential network and tailored marketing solutions ensure targeted reach and exceptional performance.<\/p>",
+            "text": "<p>Partner with Heybike-UK for global brand amplification. Our influential network and tailored marketing solutions ensure targeted reach and exceptional performance.<\/p>",
             "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
-            "tcl": "#000",
-            "cl": "#000",
+            "tcl": "#000000",
+            "cl": "#000000",
             "bg": "#f5f5f5",
-            "btncl": "#fff",
-            "btnbg": "#000",
-            "btnbd": "#000"
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
           }
         }
       },
       "block_order": [
+        "1d1c291c-29e1-4645-911c-1cb922034f67",
         "template--19289277169979__fe6340dd-ea38-4ce9-9f9e-0abb15908260-16853339263b39c458-0",
         "e7e856a6-1018-4e98-b839-7c350042e23a",
         "67f390d6-a648-4fc8-83ed-132007d2ba6e",
@@ -218,7 +237,7 @@
         "layout": "2",
         "page_Width": 700,
         "title": "BECOME A DEALER",
-        "subtitle": "Partnership with Heybike: unleash the power of electric bikes in your region.",
+        "subtitle": "Partnership with Heybike-UK: Unleash the power of electric bikes in your region.<br>\nApply as a distributor now to win a free ticket to ERUOBIKE 2023! <br>Limited amounts are offered on a first-come, first-served basis!",
         "show_phone": false,
         "show_subject": false,
         "top-offeset": "default",
@@ -232,45 +251,53 @@
         "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-0": {
           "type": "faqs",
           "settings": {
-            "question": "How can I get assistance if I need it?",
-            "answer": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
-          }
-        },
-        "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-1": {
-          "type": "faqs",
-          "settings": {
-            "question": "How can I get assistance if I need it?",
-            "answer": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+            "question": "Exist any specifications for the actual shop operation's address if I wish to become a distributor?",
+            "answer": "To apply to be a Heybike-UK dealer, we would like your brick-and-mortar store is in range of the United Kingdom. You could offer a test ride service to customers and directly sell the items if they are satisfied. Of course, a repair service is also desirable."
           }
         },
         "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-2": {
           "type": "faqs",
           "settings": {
-            "question": "How can I get assistance if I need it?",
-            "answer": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+            "question": "Is drop-shipping available?",
+            "answer": "Sorry, we do not accept drop-shipping now."
+          }
+        },
+        "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-1": {
+          "type": "faqs",
+          "settings": {
+            "question": "What information must I submit to apply to be a dealer?",
+            "answer": "Phone Number<br>\nCompany\/Shop Name<br>\nAddress<br>\nCity<br>\nState \/ Province<br>\nPostcode \/ ZIP<br>\nCountry<br>\nPhotos of your Dealership, inside and outside, including display\/service area.<br>\nWe will contact you within 3-5 business days via e-mail for more details."
+          }
+        },
+        "c36fb116-72ea-4606-a257-1c080e1578f9": {
+          "type": "faqs",
+          "settings": {
+            "question": "Disclaimer",
+            "answer": "By sending us your contact information, you acknowledge and agree that Heybike-UK may use the information you share to communicate with you through e-mails, text messages, and calls to provide our product or service-related information and for promotional and marketing purposes. All information provided will be secured and processed according to our privacy policy."
           }
         }
       },
       "block_order": [
         "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-0",
+        "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-2",
         "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-1",
-        "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-2"
+        "c36fb116-72ea-4606-a257-1c080e1578f9"
       ],
       "settings": {
-        "title": "FAQs",
+        "title": "Frequently Asked Questions",
         "subtitle": "",
         "top-offeset": "default",
         "section_cov": true,
         "sec_bg_clr": "#fafafa",
         "pagestyle": "style1",
         "max-width": 800,
-        "tcl": "#eee",
-        "tbg": "#333",
+        "tcl": "#eeeeee",
+        "tbg": "#333333",
         "tfs": 24,
         "tfsm": 18,
         "tff": "ft2",
         "tfw": "600",
-        "qcl": "#333",
+        "qcl": "#333333",
         "qfs": 16,
         "qfsm": 14,
         "qfw": "400"

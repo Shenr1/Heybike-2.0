@@ -22,7 +22,9 @@
                   {% if secSt.icon-type == 'image' and blkSt.image != blank %}
                       <img class="at md:mb-5 mb-2 lazyload" data-src="{{blkSt.image | img_url: '200x' }}" width="{{secSt.isz}}px" height="{{secSt.isz}}px" alt="{{blkSt.image.alt | escap }}" />
                   {% elsif blkSt.icons != blank %}
-                      <i class="at {{ blkSt.icons}}" aria-hidden="true"></i>
+                      <span class="bg-black-700 md:py-5 md:px-4 p-3 mb-4 rounded-full inline-block">
+                        <i class="at {{ blkSt.icons}} !mb-0 !flex justify-center" aria-hidden="true"></i>
+                      </span>
                   {% endif %}
                 <div class="text fl1">
                     {% if blkSt.title %}<h5 class="ttlTxt md:mb-4 mb-1 md:text-2xl text-xl">{{ blkSt.title }}</h5>{% endif %}
