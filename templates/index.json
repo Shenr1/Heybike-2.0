@@ -201,11 +201,10 @@
         },
         "707889c1-1ed2-47d6-b2ea-e60f9ad69530": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "text_main": "Grazie a una batteria facilmente estraibile, pneumatici più larghi e luce anteriore integrata.",
-            "text_sub": "- Largest moto-comtmunity in Italy",
-            "logo_image": "shopify:\/\/shop_images\/ebikenews_165x_a873ffa6-8b92-4a63-86bd-c224f534e982.webp"
+            "text_main": "\"The Brawn from Heybike is a motorcycle inspired off-road beast.\"",
+            "text_sub": "- electrifiedreviews",
+            "logo_image": "shopify:\/\/shop_images\/electrifiedreviews.png"
           }
         }
       },
