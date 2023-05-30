@@ -735,6 +735,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   height:1px;
 }
 
+.h-1\/2 {
+  height:50%;
+}
+
 .max-h-36 {
   max-height:9rem;
 }
