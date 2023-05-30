@@ -222,18 +222,18 @@
             "answer": "To apply to be a Heybike dealer, we would like your brick-and-mortar store is in range of the United Kingdom. You could offer a test ride service to customers and directly sell the items if they are satisfied. Of course, a repair service is also desirable."
           }
         },
-        "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-1": {
-          "type": "faqs",
-          "settings": {
-            "question": "If your shop matches these criteria, please contact us and provide us the information shown below.",
-            "answer": "Phone Number<br>\nCompany\/Shop Name<br>\nAddress<br>\nCity<br>\nState \/ Province<br>\nPostcode \/ ZIP<br>\nCountry<br>\nPhotos of your Dealership, inside and outside, including display\/service area.<br>\nWe will contact you within 3-5 business days via e-mail for more details."
-          }
-        },
         "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-2": {
           "type": "faqs",
           "settings": {
             "question": "Is DROP-SHIPPING available?",
             "answer": "Sorry, we do not accept drop-shipping now."
+          }
+        },
+        "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-1": {
+          "type": "faqs",
+          "settings": {
+            "question": "If your shop matches these criteria, please contact us and provide us the information shown below.",
+            "answer": "Phone Number<br>\nCompany\/Shop Name<br>\nAddress<br>\nCity<br>\nState \/ Province<br>\nPostcode \/ ZIP<br>\nCountry<br>\nPhotos of your Dealership, inside and outside, including display\/service area.<br>\nWe will contact you within 3-5 business days via e-mail for more details."
           }
         },
         "c36fb116-72ea-4606-a257-1c080e1578f9": {
@@ -246,8 +246,8 @@
       },
       "block_order": [
         "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-0",
-        "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-1",
         "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-2",
+        "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-1",
         "c36fb116-72ea-4606-a257-1c080e1578f9"
       ],
       "settings": {
