@@ -194,13 +194,14 @@
         "32c33951-7d78-4c30-9e61-72ec75ab3884": {
           "type": "slide",
           "settings": {
-            "text_main": "Grazie a una batteria facilmente estraibile, pneumatici più larghi e luce anteriore integrata.",
-            "text_sub": "- Largest moto-comtmunity in Italy",
-            "logo_image": "shopify:\/\/shop_images\/2E9802AA-AFF0-4B6B-A17B-8F98E2998FCA.png"
+            "text_main": "\"The Heybike Cityrun stands out for safety and security features, and even has a place to put your water bottle. It's the perfect e-bike for commuting.\"",
+            "text_sub": "- ZDNET",
+            "logo_image": "shopify:\/\/shop_images\/zdnet_0007b688-3598-42f8-a3a5-9aa4cea63c55.png"
           }
         },
         "707889c1-1ed2-47d6-b2ea-e60f9ad69530": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "text_main": "Grazie a una batteria facilmente estraibile, pneumatici più larghi e luce anteriore integrata.",
             "text_sub": "- Largest moto-comtmunity in Italy",
