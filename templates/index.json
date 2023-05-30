@@ -170,48 +170,59 @@
         "6029181d-3f62-44e0-aa3e-438b6cddb31c": {
           "type": "slide",
           "settings": {
-            "text_main": "Grazie a una batteria facilmente estraibile, pneumatici più larghi e luce anteriore integrata.",
-            "text_sub": "- Largest moto-comtmunity in Italy",
-            "logo_image": "shopify:\/\/shop_images\/techpulse-logo_1_165x_4e1bcc1a-b0d4-429b-8190-89d7cb8118a6.webp"
-          }
-        },
-        "4154eb24-d1e7-4988-890f-30696b81b6ea": {
-          "type": "slide",
-          "settings": {
-            "text_main": "Grazie a una batteria facilmente estraibile, pneumatici più larghi e luce anteriore integrata.",
-            "text_sub": "- Largest moto-comtmunity in Italy",
-            "logo_image": "shopify:\/\/shop_images\/ebikenews_165x_a873ffa6-8b92-4a63-86bd-c224f534e982.webp"
+            "text_main": "\"The HeyBike Mars is a special type of fat tire e-bike that folds down for easier transportation, meaning you can take that ride-everywhere fun on the go with you.\"",
+            "text_sub": "- ELECTREK",
+            "logo_image": "shopify:\/\/shop_images\/electrek.png"
           }
         },
         "bfd88edc-65df-4713-b474-231d6eb30b82": {
           "type": "slide",
           "settings": {
             "text_main": "\"The Heybike Mars hits a good price point and is a lot of fun to ride.\"",
+            "text_sub": "- MSN",
+            "logo_image": "shopify:\/\/shop_images\/MSN_1b24447f-9170-4e3a-96a3-a7fa001633c9.png"
+          }
+        },
+        "bfd88edc-65df-4713-b474-231d6eb30b82": {
+          "type": "slide",
+          "settings": {
+            "text_main": "\"The Heybike Mars hits a good price point and is a lot of fun to ride.\"",
+            "text_sub": "- MSN",
+            "logo_image": "shopify:\/\/shop_images\/MSN_1b24447f-9170-4e3a-96a3-a7fa001633c9.png"
+          }
+        },
+        "4154eb24-d1e7-4988-890f-30696b81b6ea": {
+          "type": "slide",
+          "settings": {
+            "text_main": "\"The Heybike Mars hits a good price point and is a lot of fun to ride.\"",
             "text_sub": "-MSN",
             "logo_image": "shopify:\/\/shop_images\/4_460x_64ac0520-cb86-4f17-9e63-fe1a915829cf.webp"
+            "text_main": "\"When it comes to solid, folding e-bikes, HeyBike has got game, with the manufacturer presenting us with a wide range of fat-tire wheelers.\"",
+            "text_sub": "- AUTOEVOLUTION",
+            "logo_image": "shopify:\/\/shop_images\/AUTOEVOLUTION.png"
           }
         },
         "32c33951-7d78-4c30-9e61-72ec75ab3884": {
           "type": "slide",
           "settings": {
-            "text_main": "Grazie a una batteria facilmente estraibile, pneumatici più larghi e luce anteriore integrata.",
-            "text_sub": "- Largest moto-comtmunity in Italy",
-            "logo_image": "shopify:\/\/shop_images\/2E9802AA-AFF0-4B6B-A17B-8F98E2998FCA.png"
+            "text_main": "\"The Heybike Cityrun stands out for safety and security features, and even has a place to put your water bottle. It's the perfect e-bike for commuting.\"",
+            "text_sub": "- ZDNET",
+            "logo_image": "shopify:\/\/shop_images\/zdnet_0007b688-3598-42f8-a3a5-9aa4cea63c55.png"
           }
         },
         "707889c1-1ed2-47d6-b2ea-e60f9ad69530": {
           "type": "slide",
           "settings": {
-            "text_main": "Grazie a una batteria facilmente estraibile, pneumatici più larghi e luce anteriore integrata.",
-            "text_sub": "- Largest moto-comtmunity in Italy",
-            "logo_image": "shopify:\/\/shop_images\/ebikenews_165x_a873ffa6-8b92-4a63-86bd-c224f534e982.webp"
+            "text_main": "\"The Brawn from Heybike is a motorcycle inspired off-road beast.\"",
+            "text_sub": "- electrifiedreviews",
+            "logo_image": "shopify:\/\/shop_images\/electrifiedreviews.png"
           }
         }
       },
       "block_order": [
         "6029181d-3f62-44e0-aa3e-438b6cddb31c",
-        "4154eb24-d1e7-4988-890f-30696b81b6ea",
         "bfd88edc-65df-4713-b474-231d6eb30b82",
+        "4154eb24-d1e7-4988-890f-30696b81b6ea",
         "32c33951-7d78-4c30-9e61-72ec75ab3884",
         "707889c1-1ed2-47d6-b2ea-e60f9ad69530"
       ],
