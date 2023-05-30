@@ -660,9 +660,9 @@
         "4b9baf99-1d5e-4b05-94c6-37d9a3d707a8": {
           "type": "objList",
           "settings": {
-            "title": "Electronics",
+            "title": "Parameter",
             "slide_w": "25%",
-            "content": "Motor:250W Rear Hub Motor<br>\nSensor:250W Rear Hub Motor<br>\nBattery:12Ah 36V Samsung Battery<br>\nDisplay:250W Rear Hub Motor<br>Display:250W Rear Hub Motor<br>"
+            "content": "Motor:250W Rear Hub Motor<br>\nSensor:250W Rear Hub Motor<br>\nBattery:12Ah 36V Samsung Battery<br>\nDisplay:LCD<br>\nWeight:40lbs<br>\nDrivetrain:Shimano 7-speed Drivetrain<br>\nBrake:Hydraulic Disc Brakes<br>\nFrame:Aviation grade magnesium alloy<br>"
           }
         },
         "2bdea729-fb07-4fc5-87c8-a226a6cbbeac": {
