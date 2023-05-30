@@ -280,14 +280,14 @@
         "a27b30d1-ea2c-42ec-9fce-1899fef048f4": {
           "type": "item",
           "settings": {
-            "item_title": "80km+",
+            "item_title": "50miles+",
             "item_dec": "Range"
           }
         },
         "19891b48-30b5-4d5d-9969-7cc834a3cbde": {
           "type": "item",
           "settings": {
-            "item_title": "19.2 kg",
+            "item_title": "40lbs",
             "item_dec": "Weight"
           }
         },
@@ -481,9 +481,9 @@
         "layout": "imageText",
         "img_size": "small",
         "img": "shopify:\/\/shop_images\/1_71d8bd74-ff24-4cd5-bc58-31265113647d.png",
-        "text_main": "Ultra Lightweight Motor",
-        "text_sub": "With its streamlined body, the EC 1-ST moves freely through the crowded city streets like a gazelle, reaching places that are out of the reach of cars.",
-        "text_dec": "The low frame design is ideal for women, so they can wear their dresses and go shopping in style.",
+        "text_main": "Lightweight Motor",
+        "text_sub": "Experience the ultimate ride with our 250W lightweight motor, which offers outstanding stability, resistance to bumps and shocks, minimal noise and vibration, smooth operation, and an impressive lifespan.",
+        "text_dec": "",
         "bottom_line": false
       }
     },
@@ -508,7 +508,7 @@
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
             "text_main": "Puncture-resistant Tires",
-            "text_sub": "700C*40C tires with enhanced anti-puncture technology and excellent puncture resistance can be used simultaneously forcity, gravel road, and long-distance riding tires.",
+            "text_sub": "700C*40C tires with enhanced anti-puncture technology for versatile city, gravel, and long-distance riding.",
             "img_link": ""
           }
         },
