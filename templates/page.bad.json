@@ -62,6 +62,24 @@
     "fe6340dd-ea38-4ce9-9f9e-0abb15908260": {
       "type": "banner-with-text",
       "blocks": {
+        "1d1c291c-29e1-4645-911c-1cb922034f67": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eurobike23_banner_1200x628px_en.jpg__1079x720_q85_subsampling-2.jpg",
+            "layout": "left",
+            "title": "Contact us right now!",
+            "text": "<p>Apply as a distributor now to win a free ticket to ERUOBIKE 2023!    Limited amounts are offered on a first-come, first-served basis! <\/p>",
+            "button_label": "",
+            "button_link": "\/",
+            "text_align": "text-left",
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "#f5f5f5",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
+        },
         "template--19289277169979__fe6340dd-ea38-4ce9-9f9e-0abb15908260-16853339263b39c458-0": {
           "type": "row",
           "disabled": true,
@@ -155,6 +173,7 @@
         }
       },
       "block_order": [
+        "1d1c291c-29e1-4645-911c-1cb922034f67",
         "template--19289277169979__fe6340dd-ea38-4ce9-9f9e-0abb15908260-16853339263b39c458-0",
         "e7e856a6-1018-4e98-b839-7c350042e23a",
         "67f390d6-a648-4fc8-83ed-132007d2ba6e",
