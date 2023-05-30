@@ -225,14 +225,14 @@
         "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-2": {
           "type": "faqs",
           "settings": {
-            "question": "Is DROP-SHIPPING available?",
+            "question": "Is drop-shipping available?",
             "answer": "Sorry, we do not accept drop-shipping now."
           }
         },
         "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-1": {
           "type": "faqs",
           "settings": {
-            "question": "If your shop matches these criteria, please contact us and provide us the information shown below.",
+            "question": "What information must I submit to apply to be a dealer?",
             "answer": "Phone Number<br>\nCompany\/Shop Name<br>\nAddress<br>\nCity<br>\nState \/ Province<br>\nPostcode \/ ZIP<br>\nCountry<br>\nPhotos of your Dealership, inside and outside, including display\/service area.<br>\nWe will contact you within 3-5 business days via e-mail for more details."
           }
         },
