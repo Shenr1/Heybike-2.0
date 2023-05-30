@@ -235,12 +235,20 @@
             "question": "Is DROP-SHIPPING available?",
             "answer": "Sorry, we do not accept drop-shipping now."
           }
+        },
+        "c36fb116-72ea-4606-a257-1c080e1578f9": {
+          "type": "faqs",
+          "settings": {
+            "question": "Disclaimer",
+            "answer": "By sending us your contact information, you acknowledge and agree that Heybike may use the information you share to communicate with you through e-mails, text messages, and calls to provide our product or service-related information and for promotional and marketing purposes. All information provided will be secured and processed according to our privacy policy."
+          }
         }
       },
       "block_order": [
         "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-0",
         "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-1",
-        "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-2"
+        "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-2",
+        "c36fb116-72ea-4606-a257-1c080e1578f9"
       ],
       "settings": {
         "title": "FAQs",
