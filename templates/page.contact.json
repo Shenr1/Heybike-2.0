@@ -12,13 +12,13 @@
         "contact_text_desc": "Get in touch and let us know how we can help. Have a question but aren’t sure who to contact? Get in touch and a member of our team will reach out to you.",
         "show_phone": false,
         "show_subject": false,
-        "store_opening_time": "<p><b>OPENING HOURS<\/b><\/p>\nMon - Sat : 9am - 11pm<br>\nSunday: 11am - 5pm",
+        "store_opening_time": "<p><b>OPENING HOURS<\/b><\/p>\nMon - Fri : 9am - 11 pm <br>",
         "cnt_title": "",
         "store_address": "<b>ADDRESS:<\/b><br>55 Gallaxy Enque, 2568 steet, 23568 NY",
-        "store_phone": "PHONE: +1 (440) 568 4568",
-        "store_email": "EMAIL: sales@yousite.com",
+        "store_phone": "",
+        "store_email": "EMAIL: sales.de@heybike.com",
         "show_socials": true,
-        "socials_ttl": "<b>STAY CONNECTED<\/b>",
+        "socials_ttl": "STAY CONNECTED",
         "form_bg": "#f8f8f8",
         "form_text": "#111111"
       }
