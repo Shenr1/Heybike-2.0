@@ -72,23 +72,31 @@
   transition-duration:300ms;
 }
 
-body:not(.template-product) .stickyHeader [tag-name = 'reversal-logo'] {
+body.template-index .stickyHeader [tag-name = 'reversal-logo'] {
   display:block !important;
 }
 
-body:not(.template-product) .stickyHeader [tag-name = 'logo'] {
+body.template-index .stickyHeader [tag-name = 'logo'] {
   display:none !important;
 }
 
-body:not(.template-product) #header:not(.stickyHeader) [tag-name = 'logo'] {
+body.template-index #header:not(.stickyHeader) [tag-name = 'logo'] {
   display:block;
 }
 
-body:not(.template-product) #header:not(.stickyHeader) [tag-name = 'reversal-logo'] {
+body.template-index #header:not(.stickyHeader) [tag-name = 'reversal-logo'] {
   display:none !important;
 }
 
-body.template-product #header:not(.stickyHeader) [tag-name = 'reversal-logo'] {
+body:not(.template-index) [tag-name = 'logo'] {
+  display:none !important;
+}
+
+ {
+  display:none !important;
+}
+
+r:not(.stickyHeader) [tag-name = 'reversal-logo'] {
   display:block !important;
 }
 
