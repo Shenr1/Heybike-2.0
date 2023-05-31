@@ -748,7 +748,8 @@
           "type": "slide",
           "settings": {
             "text_main": "\"The Heybike Cityrun stands out for safety and security features, and even has a place to put your water bottle. It's the perfect e-bike for commuting.\"",
-            "text_sub": "- ZDNET"
+            "text_sub": "- ZDNET",
+            "logo_image": "shopify:\/\/shop_images\/zdnet_0007b688-3598-42f8-a3a5-9aa4cea63c55.png"
           }
         }
       },
@@ -772,27 +773,27 @@
         "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-0": {
           "type": "text_block",
           "settings": {
-            "icons": "at-truck-l",
+            "icons": "at-ship-fast",
             "title": "Fast Shipping",
-            "text": "<p>Any cases raised by you are carefully tracked until full resolution and satisfaction.<\/p>",
+            "text": "<p>Ships to UK<\/p>",
             "texturl": ""
           }
         },
         "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-1": {
           "type": "text_block",
           "settings": {
-            "icons": "at-undo-r",
+            "icons": "at-users-l",
             "title": "Fast Support",
-            "text": "<p>Any cases raised by you are carefully tracked until full resolution and satisfaction.<\/p>",
+            "text": "<p>Email & Phone Service<\/p>",
             "texturl": ""
           }
         },
         "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-2": {
           "type": "text_block",
           "settings": {
-            "icons": "at-lock-al",
-            "title": "Find a Dealer",
-            "text": "<p>Any cases raised by you are carefully tracked until full resolution and satisfaction.<\/p>",
+            "icons": "at-shield-check-r",
+            "title": "30-Day Trial",
+            "text": "<p>Buy with Confidence<\/p>",
             "texturl": ""
           }
         }
@@ -814,8 +815,8 @@
         "section_cov": true,
         "sec_bg_clr": "#232426",
         "hide_mobile": false,
-        "title": "Great Bikes. Even Better Service.",
-        "subtitle": "You are at the center of our hearts.",
+        "title": "Superb bikes. Superior Service.",
+        "subtitle": "Exceeding Expectations with Unparalleled Customer Care",
         "style": "style1",
         "icon-type": "image",
         "icons_clr": "#ffffff",
