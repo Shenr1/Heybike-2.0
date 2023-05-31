@@ -12,7 +12,7 @@
       {%- assign delay_time = 50 | times : box-delay -%}
 
       {%- capture image_layout -%}
-      <div class="{% unless hbStyle %}fl1{% endunless %}{% if hbStyle %}md:w-3/5{% endif %} imgCol wow{% if blkSt.layout == 'right' %} fadeInRight{% else %} fadeInLeft{% endif %}" data-wow-delay="{{delay_time}}ms">
+      <div class="{% unless hbStyle %}fl1{% endunless %}{% if hbStyle %}md:w-3/5 w-full{% endif %} imgCol wow{% if blkSt.layout == 'right' %} fadeInRight{% else %} fadeInLeft{% endif %}" data-wow-delay="{{delay_time}}ms">
         {% if blkSt.image != blank %}
           {%- assign img_url = blkSt.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
           <span class="imgWrapper" style="max-width:{{ blkSt.image.width }}px;">

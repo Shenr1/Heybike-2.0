@@ -273,21 +273,21 @@
         "47ff9f65-a513-4378-86dd-760e66cf239c": {
           "type": "item",
           "settings": {
-            "item_title": "360wh",
+            "item_title": "360Wh",
             "item_dec": "Battery"
           }
         },
         "a27b30d1-ea2c-42ec-9fce-1899fef048f4": {
           "type": "item",
           "settings": {
-            "item_title": "80km+",
+            "item_title": "50Mile+",
             "item_dec": "Range"
           }
         },
         "19891b48-30b5-4d5d-9969-7cc834a3cbde": {
           "type": "item",
           "settings": {
-            "item_title": "19.2 kg",
+            "item_title": "42Lbs",
             "item_dec": "Weight"
           }
         },
@@ -332,8 +332,8 @@
         "img_size": "big",
         "img": "shopify:\/\/shop_images\/dadf88a3f619898d09aec8a7ffd3123a.png",
         "text_main": "Reframing The Future",
-        "text_sub": "EC 1-ST's streamlined form allows it to move like a gazelle through the congested city streets, getting to locations that are inaccessible to cars.",
-        "text_dec": "Women may comfortably wear their dresses and shop in style thanks to the low frame design.",
+        "text_sub": "EC 1-ST's streamlined form allows it to move like a gazelle through the congested city streets, getting to locations inaccessible to cars.",
+        "text_dec": "The low frame design allows ladies to wear dresses and shop in style comfortably.",
         "bottom_line": false
       }
     },
@@ -343,7 +343,7 @@
         "de3cbb43-265d-4140-8bf7-0d8250145964": {
           "type": "item",
           "settings": {
-            "item_title": "360wh",
+            "item_title": "360Wh",
             "item_dec": "Power"
           }
         },
@@ -375,8 +375,8 @@
         "img_size": "small",
         "img": "shopify:\/\/shop_images\/1.png",
         "text_main": "Portable Battery",
-        "text_sub": "By using  high capacity Samsung batteries.<br>You may easily ride for more than 80 kilometers on a single charge.",
-        "text_dec": "Seamless integration & Robust power output",
+        "text_sub": "Designed to fuel your adventures, this battery from Samsung offers exceptional performance and efficiency.",
+        "text_dec": "Unleash your freedom with an impressive range of 50 miles on a single charge, allowing you to explore without limits.",
         "bottom_line": true
       }
     },
@@ -417,9 +417,9 @@
         "layout": "imageText",
         "img_size": "small",
         "img": "shopify:\/\/shop_images\/1_71d8bd74-ff24-4cd5-bc58-31265113647d.png",
-        "text_main": "Ultra Lightweight Motor",
-        "text_sub": "With its streamlined body, the EC 1-ST moves freely through the crowded city streets like a gazelle, reaching places that are out of the reach of cars.",
-        "text_dec": "The low frame design is ideal for women, so they can wear their dresses and go shopping in style.",
+        "text_main": "Lightweight Motor",
+        "text_sub": "Experience the ultimate ride with our 250W lightweight motor, which offers outstanding stability, resistance to bumps and shocks, minimal noise and vibration, smooth operation, and an impressive lifespan.",
+        "text_dec": "",
         "bottom_line": false
       }
     },
@@ -432,9 +432,9 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
-            "text_main": "Find Dealers Near You",
-            "text_sub": "Test Ride & Buy Directly",
-            "url": ""
+            "text_main": "Shimano 7-speed Drivetrain",
+            "text_sub": "The Shimano® 7-speed chain drive is powerful, smooth, and built to perform high on all roads.",
+            "img_link": ""
           }
         },
         "0114d1a4-5f44-43a5-bf46-6af6a08e5df5": {
@@ -443,9 +443,9 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
-            "text_main": "Find Dealers Near You",
-            "text_sub": "Test Ride & Buy Directly",
-            "url": ""
+            "text_main": "Puncture-resistant Tires",
+            "text_sub": "700C*40C tires with enhanced anti-puncture technology for versatile city, gravel, and long-distance riding.",
+            "img_link": ""
           }
         },
         "fe7a03d3-b3df-4677-9e12-793a76f51f95": {
@@ -454,16 +454,51 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
-            "text_main": "Find Dealers Near You",
-            "text_sub": "Test Ride & Buy Directly",
-            "url": ""
+            "text_main": "Headlights",
+            "text_sub": "Flexible multi-angle adjustment, ideal for lighting during commutes. Ensure that you are well-lit without blinding other drivers.",
+            "img_link": ""
+          }
+        },
+        "c9df6b6c-9075-458e-a57e-2545b123d371": {
+          "type": "image",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/1_71d8bd74-ff24-4cd5-bc58-31265113647d.png",
+            "text_main": "LCD Display",
+            "text_sub": "Compatible with the HEYBIKE App to help you navigate the journey ahead.",
+            "img_link": ""
+          }
+        },
+        "caa3fc66-d164-41ff-b246-a4aac14c9593": {
+          "type": "image",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "text_main": "Hidden inner wiring design",
+            "text_sub": "The internal wiring design enhances aesthetics, reduces wind resistance, and minimizes cable-vehicle body collisions on rough roads.",
+            "img_link": ""
+          }
+        },
+        "04b2b249-0c89-4131-8699-c023d80235a9": {
+          "type": "image",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
+            "text_main": "Hydraulic disc brakes",
+            "text_sub": "Upgrade your braking experience with our Hydraulic disc brakes. Enjoy accurate and forceful brakes for safer, more consistent travel.",
+            "img_link": ""
           }
         }
       },
       "block_order": [
         "01473a8c-f8f3-4061-8171-24367981f33e",
         "0114d1a4-5f44-43a5-bf46-6af6a08e5df5",
-        "fe7a03d3-b3df-4677-9e12-793a76f51f95"
+        "fe7a03d3-b3df-4677-9e12-793a76f51f95",
+        "c9df6b6c-9075-458e-a57e-2545b123d371",
+        "caa3fc66-d164-41ff-b246-a4aac14c9593",
+        "04b2b249-0c89-4131-8699-c023d80235a9"
       ],
       "settings": {
         "top_padding": "large",
@@ -629,6 +664,30 @@
             "content": "Motor:250W Rear Hub Motor<br>\nMotor:250W Rear Hub Motor<br>\nMotor:250W Rear Hub Motor<br>\nMotor:250W Rear Hub Motor<br>"
           }
         },
+        "5077f913-2293-419e-bffd-2366b26667e6": {
+          "type": "objList",
+          "settings": {
+            "title": "Component",
+            "slide_w": "25%",
+            "content": "Display:LCD Display<br>\nBrake:Hydraulic Disc Brakes<br>\nFrame:Aviation Grade Magnesium Alloy<br>\nTires: 700C*40C Puncture-resistant Tires<br>\nFront Fork: Aluminium Alloy Fork\nHeadlight:"
+          }
+        },
+        "93a85b26-dcb5-4841-93b3-eb4ebebe4e88": {
+          "type": "objList",
+          "settings": {
+            "title": "Electronics",
+            "slide_w": "25%",
+            "content": "Title:content<br>Title2:content2<br>Title3:content3"
+          }
+        },
+        "79f6deea-8f1c-478d-9b34-f7e1e19b578a": {
+          "type": "objList",
+          "settings": {
+            "title": "Accessories",
+            "slide_w": "25%",
+            "content": "Mudguards:Included<br>\nKickstand:Included<br>\nReflector:Included<br>\nRear rack\t: Optional<br>\nKettle holder:Optional<br>"
+          }
+        },
         "2bdea729-fb07-4fc5-87c8-a226a6cbbeac": {
           "type": "objList",
           "settings": {
@@ -660,6 +719,9 @@
       },
       "block_order": [
         "4b9baf99-1d5e-4b05-94c6-37d9a3d707a8",
+        "5077f913-2293-419e-bffd-2366b26667e6",
+        "93a85b26-dcb5-4841-93b3-eb4ebebe4e88",
+        "79f6deea-8f1c-478d-9b34-f7e1e19b578a",
         "2bdea729-fb07-4fc5-87c8-a226a6cbbeac",
         "8c62a64d-13dd-4e76-830e-bf631cb4d864",
         "e7514e3b-0b1e-49db-a19a-d7074c9543c2"
@@ -679,8 +741,7 @@
             "bg_color": "",
             "video_url": "https:\/\/www.youtube.com\/watch?v=y2sdW0J7diE",
             "text_main": "",
-            "text_sub": "Test Ride & Buy Directly",
-            "url": ""
+            "text_sub": "Test Ride & Buy Directly"
           }
         },
         "061ccc1b-95bb-4147-bfcd-d264635cfafb": {
@@ -690,8 +751,7 @@
             "bg_color": "",
             "video_url": "https:\/\/www.youtube.com\/watch?v=y2sdW0J7diE",
             "text_main": "",
-            "text_sub": "",
-            "url": ""
+            "text_sub": ""
           }
         },
         "bfd3caac-3459-4b88-a706-8828f77c6c8a": {
@@ -701,8 +761,7 @@
             "bg_color": "",
             "video_url": "https:\/\/www.youtube.com\/watch?v=y2sdW0J7diE",
             "text_main": "Find Dealers Near You",
-            "text_sub": "Test Ride & Buy Directly",
-            "url": ""
+            "text_sub": "Test Ride & Buy Directly"
           }
         }
       },
@@ -726,32 +785,41 @@
         "1db61a36-a277-4c68-acad-574b812f8fc6": {
           "type": "slide",
           "settings": {
-            "text_main": "estribile, pneumatici più larghi e luce anteriore integrata.",
-            "text_sub": "- moto-comtmunity in Italy",
-            "logo_image": "shopify:\/\/shop_images\/logo_2f39a5a2-1fb1-4269-a0dc-b787c511a865.png"
+            "text_main": "\"The HeyBike Mars is a special type of fat tire e-bike that folds down for easier transportation, meaning you can take that ride-everywhere fun on the go with you.\"",
+            "text_sub": "- ELECTREK",
+            "logo_image": "shopify:\/\/shop_images\/electrek.png"
           }
         },
         "6dc0201d-f684-4821-a9d9-70e940aa064b": {
           "type": "slide",
           "settings": {
-            "text_main": "una batteria facilmente estraibile, pneumatici più larghi e luce anteriore integrata.",
-            "text_sub": "tmoto-comtmunity in Ital",
-            "logo_image": "shopify:\/\/shop_images\/techpulse-logo_1_165x_4e1bcc1a-b0d4-429b-8190-89d7cb8118a6.webp"
+            "text_main": "\"The Heybike Mars hits a good price point and is a lot of fun to ride.\"",
+            "text_sub": "- MSN",
+            "logo_image": "shopify:\/\/shop_images\/MSN_1b24447f-9170-4e3a-96a3-a7fa001633c9.png"
           }
         },
         "ea0d551e-e63a-4f7c-b7aa-0fb32c3680d8": {
           "type": "slide",
           "settings": {
-            "text_main": "più larghi e luce anteriore integrata.",
-            "text_sub": "- Largest moto-c",
-            "logo_image": "shopify:\/\/shop_images\/ebikenews_165x_a873ffa6-8b92-4a63-86bd-c224f534e982.webp"
+            "text_main": "\"When it comes to solid, folding e-bikes, HeyBike has got game, with the manufacturer presenting us with a wide range of fat-tire wheelers.\"",
+            "text_sub": "- AUTOEVOLUTION",
+            "logo_image": "shopify:\/\/shop_images\/AUTOEVOLUTION.png"
+          }
+        },
+        "55119407-dcaa-4908-a061-61c15c6dbd9d": {
+          "type": "slide",
+          "settings": {
+            "text_main": "\"The Heybike Cityrun stands out for safety and security features, and even has a place to put your water bottle. It's the perfect e-bike for commuting.\"",
+            "text_sub": "- ZDNET",
+            "logo_image": "shopify:\/\/shop_images\/zdnet_0007b688-3598-42f8-a3a5-9aa4cea63c55.png"
           }
         }
       },
       "block_order": [
         "1db61a36-a277-4c68-acad-574b812f8fc6",
         "6dc0201d-f684-4821-a9d9-70e940aa064b",
-        "ea0d551e-e63a-4f7c-b7aa-0fb32c3680d8"
+        "ea0d551e-e63a-4f7c-b7aa-0fb32c3680d8",
+        "55119407-dcaa-4908-a061-61c15c6dbd9d"
       ],
       "settings": {
         "top_padding": "large",
@@ -767,27 +835,27 @@
         "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-0": {
           "type": "text_block",
           "settings": {
-            "icons": "at-truck-l",
+            "icons": "at-ship-fast",
             "title": "Fast Shipping",
-            "text": "<p>Any cases raised by you are carefully tracked until full resolution and satisfaction.<\/p>",
+            "text": "<p>Ships to UK<\/p>",
             "texturl": ""
           }
         },
         "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-1": {
           "type": "text_block",
           "settings": {
-            "icons": "at-undo-r",
+            "icons": "at-users-l",
             "title": "Fast Support",
-            "text": "<p>Any cases raised by you are carefully tracked until full resolution and satisfaction.<\/p>",
+            "text": "<p>Email & Phone Service<\/p>",
             "texturl": ""
           }
         },
         "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-2": {
           "type": "text_block",
           "settings": {
-            "icons": "at-lock-al",
-            "title": "Find a Dealer",
-            "text": "<p>Any cases raised by you are carefully tracked until full resolution and satisfaction.<\/p>",
+            "icons": "at-shield-check-r",
+            "title": "30-Day Trial",
+            "text": "<p>Buy with Confidence<\/p>",
             "texturl": ""
           }
         }
@@ -809,8 +877,8 @@
         "section_cov": true,
         "sec_bg_clr": "#232426",
         "hide_mobile": false,
-        "title": "Great Bikes. Even Better Service.",
-        "subtitle": "You are at the center of our hearts.",
+        "title": "Superb bikes. Superior Service.",
+        "subtitle": "Exceeding Expectations with Unparalleled Customer Care",
         "style": "style1",
         "icon-type": "image",
         "icons_clr": "#ffffff",

@@ -28,11 +28,12 @@ style="{% if secSt.bg_color != blank %}background-color: {{ secSt.bg_color}};{% 
       </div>
 
 
-      <section {% if isStyle %}class="w-32 mx-auto"{% endif %} >
+      <section {% if isStyle %}class=" mx-auto"{% endif %} >
         <div data-flickity='{"draggable": false, "asNavFor": "#carousel-main-{{section.id}}", "contain": true, {% unless isStyle %}"pageDots": false,{% endunless %} "wrapAround": true,"prevNextButtons": false,"selectedAttraction": 0.01,"friction": 0.15}'>
           {% for block in section.blocks %}
           <div class="{% if isStyle %}w-full{% else %}lg:w-1/5 md:w-1/4 w-1/2{% endif %} cursor-pointer text-center">
-            <img class="grayscale transition-all scale-90 max-h-9" src="{{ block.settings.logo_image | image_url: master }}">
+            {% assign media = block.settings.logo_image %}
+            {{ media | image_url: width: 200 | image_tag:  height: media.height, lazyload: true, class: 'grayscale transition-all scale-90 max-h-9' }}
           </div>
           {% endfor %}
         </div>
