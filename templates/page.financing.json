@@ -183,7 +183,7 @@
         "btn-style2": "btn",
         "btn-size-desk": "btn-md",
         "btn-size-mob": "mob-btn-sm",
-        "txt_align": "tl",
+        "txt_align": "tc",
         "text_clr": "#111111"
       }
     },
