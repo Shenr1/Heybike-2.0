@@ -370,6 +370,20 @@
         "txt_align": "tl",
         "text_clr": "#111"
       }
+    },
+    "f32e1ea0-9e3c-43f2-a240-5657801beedb": {
+      "type": "contact-form",
+      "settings": {
+        "layout": "2",
+        "page_Width": 700,
+        "title": "Contact us",
+        "subtitle": "Please feel free to contact us if you have any questions",
+        "show_phone": false,
+        "show_subject": false,
+        "top-offeset": "default",
+        "section_cov": true,
+        "sec_bg_clr": "#fafafa"
+      }
     }
   },
   "order": [
@@ -383,6 +397,7 @@
     "3157b7fa-5e6c-4b02-b884-f9b5678eec53",
     "82ec3ced-a204-43ac-98b2-de5688dde1dc",
     "9d746751-8cb1-4e82-8400-c43cea8e5564",
-    "d2ca7d1a-6f94-41b0-9f27-0977b8337fc8"
+    "d2ca7d1a-6f94-41b0-9f27-0977b8337fc8",
+    "f32e1ea0-9e3c-43f2-a240-5657801beedb"
   ]
 }
