@@ -216,7 +216,7 @@
       "settings": {
         "top_padding": "small",
         "bottom_padding": "small",
-        "style": "default",
+        "style": "style1",
         "bg_color": "",
         "text_color": "#000000"
       }
@@ -224,7 +224,7 @@
     "d84ec3b7-47d3-45f8-a150-478d33a6d76e": {
       "type": "featured-blog",
       "settings": {
-        "title": "Blog posts",
+        "title": "Customer stories",
         "subtitle": "Describe your products, collection, content etc...",
         "top-offeset": "default",
         "section_cov": true,
