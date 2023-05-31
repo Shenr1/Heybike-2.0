@@ -173,7 +173,7 @@
         "grid": 2,
         "tablet-grid": 2,
         "mobile-grid": 1,
-        "number_of_post_to_show": "3",
+        "number_of_post_to_show": "4",
         "blog_show_author": true,
         "blog_show_date": true,
         "show_comment": true,
