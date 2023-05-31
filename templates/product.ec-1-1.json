@@ -629,6 +629,30 @@
             "content": "Motor:250W Rear Hub Motor<br>\nMotor:250W Rear Hub Motor<br>\nMotor:250W Rear Hub Motor<br>\nMotor:250W Rear Hub Motor<br>"
           }
         },
+        "5077f913-2293-419e-bffd-2366b26667e6": {
+          "type": "objList",
+          "settings": {
+            "title": "Component",
+            "slide_w": "25%",
+            "content": "Display:LCD Display<br>\nBrake:Hydraulic Disc Brakes<br>\nFrame:Aviation Grade Magnesium Alloy<br>\nTires: 700C*40C Puncture-resistant Tires<br>\nFront Fork: Aluminium Alloy Fork\nHeadlight:"
+          }
+        },
+        "93a85b26-dcb5-4841-93b3-eb4ebebe4e88": {
+          "type": "objList",
+          "settings": {
+            "title": "Electronics",
+            "slide_w": "25%",
+            "content": "Title:content<br>Title2:content2<br>Title3:content3"
+          }
+        },
+        "79f6deea-8f1c-478d-9b34-f7e1e19b578a": {
+          "type": "objList",
+          "settings": {
+            "title": "Accessories",
+            "slide_w": "25%",
+            "content": "Mudguards:Included<br>\nKickstand:Included<br>\nReflector:Included<br>\nRear rack\t: Optional<br>\nKettle holder:Optional<br>"
+          }
+        },
         "2bdea729-fb07-4fc5-87c8-a226a6cbbeac": {
           "type": "objList",
           "settings": {
@@ -660,6 +684,9 @@
       },
       "block_order": [
         "4b9baf99-1d5e-4b05-94c6-37d9a3d707a8",
+        "5077f913-2293-419e-bffd-2366b26667e6",
+        "93a85b26-dcb5-4841-93b3-eb4ebebe4e88",
+        "79f6deea-8f1c-478d-9b34-f7e1e19b578a",
         "2bdea729-fb07-4fc5-87c8-a226a6cbbeac",
         "8c62a64d-13dd-4e76-830e-bf631cb4d864",
         "e7514e3b-0b1e-49db-a19a-d7074c9543c2"
