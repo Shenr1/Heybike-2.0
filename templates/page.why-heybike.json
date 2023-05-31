@@ -144,15 +144,17 @@
         "8eefd08f-d454-46d4-b30c-fd984b8f78bc": {
           "type": "slide",
           "settings": {
-            "text_main": "Grazie a una batteria facilmente estraibile, pneumatici più larghi e luce anteriore integrata.",
-            "text_sub": "- Largest moto-comtmunity in Italy"
+            "text_main": "\"The Heybike Mars hits a good price point and is a lot of fun to ride.\"",
+            "text_sub": "- MSN",
+            "logo_image": "shopify:\/\/shop_images\/MSN_1b24447f-9170-4e3a-96a3-a7fa001633c9.png"
           }
         },
         "b8d1ea7c-4393-4005-9ae8-96cd23567cbc": {
           "type": "slide",
           "settings": {
-            "text_main": "Grazie a una batteria facilmente estraibile, pneumatici più larghi e luce anteriore integrata.",
-            "text_sub": "- Largest moto-comtmunity in Italy"
+            "text_main": "\"When it comes to solid, folding e-bikes, HeyBike has got game, with the manufacturer presenting us with a wide range of fat-tire wheelers.\"",
+            "text_sub": "- AUTOEVOLUTION",
+            "logo_image": "shopify:\/\/shop_images\/AUTOEVOLUTION.png"
           }
         }
       },
