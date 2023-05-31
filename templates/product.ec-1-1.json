@@ -273,21 +273,21 @@
         "47ff9f65-a513-4378-86dd-760e66cf239c": {
           "type": "item",
           "settings": {
-            "item_title": "360wh",
+            "item_title": "360Wh",
             "item_dec": "Battery"
           }
         },
         "a27b30d1-ea2c-42ec-9fce-1899fef048f4": {
           "type": "item",
           "settings": {
-            "item_title": "80km+",
+            "item_title": "50Mile+",
             "item_dec": "Range"
           }
         },
         "19891b48-30b5-4d5d-9969-7cc834a3cbde": {
           "type": "item",
           "settings": {
-            "item_title": "19.2 kg",
+            "item_title": "42Lbs",
             "item_dec": "Weight"
           }
         },
@@ -332,8 +332,8 @@
         "img_size": "big",
         "img": "shopify:\/\/shop_images\/dadf88a3f619898d09aec8a7ffd3123a.png",
         "text_main": "Reframing The Future",
-        "text_sub": "EC 1-ST's streamlined form allows it to move like a gazelle through the congested city streets, getting to locations that are inaccessible to cars.",
-        "text_dec": "Women may comfortably wear their dresses and shop in style thanks to the low frame design.",
+        "text_sub": "EC 1-ST's streamlined form allows it to move like a gazelle through the congested city streets, getting to locations inaccessible to cars.",
+        "text_dec": "The low frame design allows ladies to wear dresses and shop in style comfortably.",
         "bottom_line": false
       }
     },
@@ -343,7 +343,7 @@
         "de3cbb43-265d-4140-8bf7-0d8250145964": {
           "type": "item",
           "settings": {
-            "item_title": "360wh",
+            "item_title": "360Wh",
             "item_dec": "Power"
           }
         },
@@ -375,8 +375,8 @@
         "img_size": "small",
         "img": "shopify:\/\/shop_images\/1.png",
         "text_main": "Portable Battery",
-        "text_sub": "By using  high capacity Samsung batteries.<br>You may easily ride for more than 80 kilometers on a single charge.",
-        "text_dec": "Seamless integration & Robust power output",
+        "text_sub": "Designed to fuel your adventures, this battery from Samsung offers exceptional performance and efficiency.",
+        "text_dec": "Unleash your freedom with an impressive range of 50 miles on a single charge, allowing you to explore without limits.",
         "bottom_line": true
       }
     },
@@ -417,9 +417,9 @@
         "layout": "imageText",
         "img_size": "small",
         "img": "shopify:\/\/shop_images\/1_71d8bd74-ff24-4cd5-bc58-31265113647d.png",
-        "text_main": "Ultra Lightweight Motor",
-        "text_sub": "With its streamlined body, the EC 1-ST moves freely through the crowded city streets like a gazelle, reaching places that are out of the reach of cars.",
-        "text_dec": "The low frame design is ideal for women, so they can wear their dresses and go shopping in style.",
+        "text_main": "Lightweight Motor",
+        "text_sub": "Experience the ultimate ride with our 250W lightweight motor, which offers outstanding stability, resistance to bumps and shocks, minimal noise and vibration, smooth operation, and an impressive lifespan.",
+        "text_dec": "",
         "bottom_line": false
       }
     },
@@ -432,8 +432,8 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
-            "text_main": "Find Dealers Near You",
-            "text_sub": "Test Ride & Buy Directly",
+            "text_main": "Shimano 7-speed Drivetrain",
+            "text_sub": "The Shimano® 7-speed chain drive ispowerful, smooth, and built to perform high on all roads.",
             "img_link": ""
           }
         },
