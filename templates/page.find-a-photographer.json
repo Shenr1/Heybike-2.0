@@ -5,11 +5,11 @@
       "settings": {
         "top-offeset": "default",
         "section_width": false,
-        "ds_height": 280,
+        "ds_height": 250,
         "tb_height": 350,
         "mb_height": 250,
-        "parallax_scroll": true,
-        "image": "shopify:\/\/shop_images\/02_31a53d77-ed0d-45f8-b6cd-7215cb8658a9.webp",
+        "parallax_scroll": false,
+        "image": "shopify:\/\/shop_images\/banner_1512x_2a90b71f-714a-4b6a-9acd-25311a25c61a.webp",
         "alignment": "center",
         "pretext": "",
         "pcl": "#ffffff",
@@ -20,7 +20,7 @@
         "plh": 1.3,
         "pmb": 10,
         "pmbm": 5,
-        "title": "Be a Representative",
+        "title": "Contract Photographer",
         "tcl": "#ffffff",
         "tfs": 33,
         "tfsm": 20,
@@ -29,7 +29,7 @@
         "tlh": 1.3,
         "tmb": 10,
         "tmbm": 5,
-        "text": "<p>Come and Be a Heybike-UK Representative!<br\/><\/p>",
+        "text": "<p>We're thrilled that you're interested in the photographer position with Heybike-UK!<\/p>",
         "cl": "#ffffff",
         "fs": 16,
         "fsm": 14,
@@ -65,28 +65,10 @@
         "e7e856a6-1018-4e98-b839-7c350042e23a": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/our_story.jpg",
+            "image": "shopify:\/\/shop_images\/1_7d2d2aae-2891-438d-b368-7e08d3712a0f.jpg",
             "layout": "right",
             "title": "",
-            "text": "<p>If you own a Heybike e-bike, join us and become a Heybike product representative! You just need to provide your address and phone number and allow heybike potential riders to test your bike!<br\/><br\/>Allowing new customers to contact and test your model, as a reward, Heybike representatives will get rewards once a customer buys an e-bike with their coupon codes or referral links. Also, you will have a chance to experience our new model!<\/p><p>We will list your info on your website to allow our potential riders to contact you.<br\/> <\/p>",
-            "button_label": "",
-            "button_link": "\/",
-            "text_align": "text-left",
-            "tcl": "#000000",
-            "cl": "#000000",
-            "bg": "#f5f5f5",
-            "btncl": "#ffffff",
-            "btnbg": "#000000",
-            "btnbd": "#000000"
-          }
-        },
-        "67f390d6-a648-4fc8-83ed-132007d2ba6e": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/21_3baf312a-11dd-4af1-978b-863d77815329.webp",
-            "layout": "left",
-            "title": "What you get?",
-            "text": "<p>1. You will receive Heybike merch.<br\/>2. You will receive a reward of the same value as the coupon if a test rider uses your recommended coupon to purchase a product.<br\/>3. You are likely to receive our new model as deep cooperation.<\/p>",
+            "text": "<p>HeyBike-UK was driven to provide widely accessible and affordable electric transportation to people across the globe. And we realize this mission also needs brilliant photographers to join us and help present the most attractive products to our customers.<br\/>It is essential to understand one thing – the shooting of the Heybike electric bikes is equally fascinating as of glorious views; they just solve different aesthetic tasks.<br\/>For details, please Email our colleague, introduce yourself, and attach works\/links to your social media. We will make further talk with you!<br\/><\/p>",
             "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
@@ -100,8 +82,7 @@
         }
       },
       "block_order": [
-        "e7e856a6-1018-4e98-b839-7c350042e23a",
-        "67f390d6-a648-4fc8-83ed-132007d2ba6e"
+        "e7e856a6-1018-4e98-b839-7c350042e23a"
       ],
       "settings": {
         "top_padding": "none",
@@ -132,6 +113,7 @@
     },
     "bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a": {
       "type": "faq",
+      "disabled": true,
       "blocks": {
         "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-1": {
           "type": "faqs",
@@ -169,7 +151,7 @@
       "settings": {
         "layout": "2",
         "page_Width": 700,
-        "title": "Be a Representative",
+        "title": "Signed up as a Heybike-UK photographer",
         "subtitle": "",
         "show_phone": false,
         "show_subject": false,
