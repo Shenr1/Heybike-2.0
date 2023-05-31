@@ -130,6 +130,38 @@
         "btn-size-mob": "mob-btn-sm"
       }
     },
+    "460fe747-d1cc-4930-8de3-908ccde8e9dd": {
+      "type": "richtext",
+      "settings": {
+        "top-offeset": "default",
+        "fullwidth": true,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "max-width": 820,
+        "title": "Testimonials",
+        "tcl": "#000",
+        "tfs": 38,
+        "tfsm": 17,
+        "tff": "ft1",
+        "tfw": "700",
+        "tlh": 1.3,
+        "richtxt": "",
+        "cl": "#000",
+        "fs": 14,
+        "fsm": 13,
+        "lh": 1.6,
+        "btntxt": "",
+        "btnurl": "",
+        "btn-style": "btn",
+        "btntxt1": "",
+        "btnurl1": "",
+        "btn-style2": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "txt_align": "tc",
+        "text_clr": "#111"
+      }
+    },
     "b31369b1-87cb-4a8d-84cf-80627f1d5bc1": {
       "type": "logo-slider",
       "blocks": {
@@ -182,8 +214,8 @@
         "3699aca2-c188-4a68-a2f5-9e0835180a39"
       ],
       "settings": {
-        "top_padding": "large",
-        "bottom_padding": "default",
+        "top_padding": "small",
+        "bottom_padding": "small",
         "style": "default",
         "bg_color": "",
         "text_color": "#000000"
@@ -328,6 +360,7 @@
   "order": [
     "dccaed39-11bd-44d7-a2b9-54c61814e6c3",
     "fe6340dd-ea38-4ce9-9f9e-0abb15908260",
+    "460fe747-d1cc-4930-8de3-908ccde8e9dd",
     "b31369b1-87cb-4a8d-84cf-80627f1d5bc1",
     "d84ec3b7-47d3-45f8-a150-478d33a6d76e",
     "ac592caa-d3ee-4db0-9040-5260670faf11",
