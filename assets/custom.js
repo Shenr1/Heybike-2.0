@@ -14,7 +14,7 @@ const iniFlickity = () => {
       $(this).on( 'ready.flickity', () => { 
         console.log("ready");
         console.log($(this).height());
-        if($(this).height() < 50){ 
+        if($(this).height() < 100){ 
           console.log("re"); 
           iniFlickity() }
       });

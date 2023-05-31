@@ -735,10 +735,6 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   height:1px;
 }
 
-.h-1\/2 {
-  height:50%;
-}
-
 .max-h-36 {
   max-height:9rem;
 }
@@ -1012,6 +1008,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 
 .to-transparent {
   --tw-gradient-to:transparent var(--tw-gradient-to-position);
+}
+
+.bg-cover {
+  background-size:cover;
 }
 
 .bg-no-repeat {

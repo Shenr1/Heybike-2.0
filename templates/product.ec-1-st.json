@@ -439,8 +439,8 @@
         "img_size": "small",
         "img": "shopify:\/\/shop_images\/1.png",
         "text_main": "Portable Battery",
-        "text_sub": "With high-capacity Samsung batteries, you can easily ride more than 50 miles on a single charge.",
-        "text_dec": "Seamless integration & Robust power output.",
+        "text_sub": "Designed to fuel your adventures, this battery from Samsung offers exceptional performance and efficiency.",
+        "text_dec": "Unleash your freedom with an impressive range of 50 miles on a single charge, allowing you to explore without limits.",
         "bottom_line": true
       }
     },
@@ -660,9 +660,9 @@
         "4b9baf99-1d5e-4b05-94c6-37d9a3d707a8": {
           "type": "objList",
           "settings": {
-            "title": "Electronics",
+            "title": "Parameter",
             "slide_w": "25%",
-            "content": "Motor:250W Rear Hub Motor<br>\nSensor:250W Rear Hub Motor<br>\nBattery:12Ah 36V Samsung Battery<br>\nDisplay:250W Rear Hub Motor<br>Display:250W Rear Hub Motor<br>"
+            "content": "Motor:250W Rear Hub Motor<br>\nSensor:250W Rear Hub Motor<br>\nBattery:12Ah 36V Samsung Battery<br>\nDisplay:LCD<br>\nWeight:40lbs<br>\nDrivetrain:Shimano 7-speed Drivetrain<br>\nBrake:Hydraulic Disc Brakes<br>\nFrame:Aviation grade magnesium alloy<br>"
           }
         },
         "2bdea729-fb07-4fc5-87c8-a226a6cbbeac": {
