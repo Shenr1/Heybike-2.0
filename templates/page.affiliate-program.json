@@ -2,6 +2,7 @@
   "sections": {
     "page": {
       "type": "page-template",
+      "disabled": true,
       "settings": {
         "section_width": false,
         "hide_hdft": false,
@@ -24,36 +25,63 @@
         "hide_ttl": true
       }
     },
-    "16337695579db422ae": {
-      "type": "richtext",
+    "6c0763b2-0d0a-49b0-b91d-9518164b13eb": {
+      "type": "hero",
       "settings": {
         "top-offeset": "default",
-        "fullwidth": false,
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa",
-        "max-width": 650,
-        "title": "<b>ABOUT US<\/b>",
-        "tcl": "#000000",
-        "tfs": 26,
+        "section_width": false,
+        "ds_height": 190,
+        "tb_height": 350,
+        "mb_height": 250,
+        "parallax_scroll": false,
+        "image": "shopify:\/\/shop_images\/lQLPJx-0LdzE9sLNAZDNBQCwN3lCSGMfQS0Eaz3PIoALAQ_1280_400.png",
+        "alignment": "center",
+        "pretext": "",
+        "pcl": "#333",
+        "pfs": 15,
+        "pfsm": 13,
+        "pff": "ft1",
+        "pfw": "400",
+        "plh": 1.1,
+        "pmb": 10,
+        "pmbm": 5,
+        "title": "Affiliate Program",
+        "tcl": "#fff",
+        "tfs": 30,
         "tfsm": 20,
-        "tff": "ft1",
+        "tff": "ft2",
         "tfw": "700",
-        "tlh": 1.2,
-        "richtxt": "<p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
-        "cl": "#000000",
-        "fs": 14,
-        "fsm": 13,
+        "tlh": 1.1,
+        "tmb": 10,
+        "tmbm": 5,
+        "text": "<p>We’re always excited to collaborate with new influential affiliates.<\/p>",
+        "cl": "#fff",
+        "fs": 16,
+        "fsm": 14,
+        "fw": "400",
         "lh": 1.6,
-        "btntxt": "",
-        "btnurl": "",
+        "mb": 30,
+        "mbm": 20,
+        "button_label": "",
+        "button_link": "\/",
+        "link_image": false,
         "btn-style": "btn",
-        "btntxt1": "",
-        "btnurl1": "",
-        "btn-style2": "btn",
-        "btn-size-desk": "btn-sm",
+        "btn-size-desk": "btn-md",
         "btn-size-mob": "mob-btn-sm",
-        "txt_align": "tc",
-        "text_clr": "#111111"
+        "isbox": true,
+        "bg": "#fff",
+        "opt": 0.2,
+        "bdr": 0,
+        "textalign": "tc",
+        "bxalign": "f-jcc f-aic",
+        "wd": 1200,
+        "snow_effect": false,
+        "snow_style": "style1",
+        "hero_dealtimer": false,
+        "cnt_date": "12\/20\/2023",
+        "cntbg": "#000",
+        "cntcl": "#eee",
+        "cntbd": "#000"
       }
     },
     "1633769564023b4dfb": {
@@ -62,9 +90,9 @@
         "1633769564023b4dfb-0": {
           "type": "row",
           "settings": {
-            "layout": "left",
-            "title": "Our Mission",
-            "text": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+            "layout": "right",
+            "title": "Why partner with Heybike-UK?",
+            "text": "<p>HeyBike was driven to make “every e-bike for everyone” possible. And we need creative and enterprising partners to help us spread and realize more to the world.     Considering how quickly our bikes catch on via word-of-mouth, making a suitable convert is easy. Free cost and high commissions, why not apply?<\/p>",
             "button_label": "",
             "button_link": "",
             "text_align": "text-left",
@@ -79,9 +107,9 @@
         "3a7419a4-8a61-43ec-b2d7-43113cc5cbdc": {
           "type": "row",
           "settings": {
-            "layout": "right",
-            "title": "Our Vision",
-            "text": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+            "layout": "left",
+            "title": "Industry-leading commissions",
+            "text": "<p>With each successful order, you can get up to 3% commission on the transaction value. Take the EC 1, for example; you can get about $XX in commission when a referral buys the EC 1 through your link!<\/p>",
             "button_label": "",
             "button_link": "",
             "text_align": "text-left",
@@ -96,9 +124,9 @@
         "679037ac-fdf7-4af6-9a62-df6890f32c60": {
           "type": "row",
           "settings": {
-            "layout": "left",
-            "title": "The Founder",
-            "text": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+            "layout": "right",
+            "title": "Promotion made easy",
+            "text": "<p>Promote Heybike-UK using your referral link or our pre-made banners, emails, and other materials. Use the resources we've prepared for you to save time and money on content production.<\/p>",
             "button_label": "Read More",
             "button_link": "\/",
             "text_align": "text-left",
@@ -151,9 +179,9 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/EC-1-ST_07512530-a553-4c03-aab6-b603643b1daa.png",
-            "text_main": "Find Dealers Near You",
-            "text_sub": "Test Ride & Buy Directly",
+            "bg_img": "shopify:\/\/shop_images\/hands-typing-on-laptop.jpg",
+            "text_main": "01: Apply online",
+            "text_sub": "Fill out our affiliate application — it's free and only takes two minutes.",
             "img_link": ""
           }
         },
@@ -162,9 +190,9 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/EC-1-ST.png",
-            "text_main": "Find Dealers Near You",
-            "text_sub": "Test Ride & Buy Directly",
+            "bg_img": "shopify:\/\/shop_images\/iphone-detects-qr-code.jpg",
+            "text_main": "02: Refer",
+            "text_sub": "We can provide you with beautifully designed marketing materials.",
             "img_link": ""
           }
         },
@@ -173,9 +201,9 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/EC-1-ST_2d4ea888-5991-4847-a0e8-4779e3de7866.png",
-            "text_main": "Find Dealers Near You",
-            "text_sub": "Test Ride & Buy Directly",
+            "bg_img": "shopify:\/\/shop_images\/handful-of-cash.jpg",
+            "text_main": "03: Get paid",
+            "text_sub": "Earn up to 3% commission on each order. ",
             "img_link": ""
           }
         }
@@ -188,7 +216,7 @@
       "settings": {
         "top_padding": "medium",
         "bottom_padding": "medium",
-        "title": "The World of HEYBIKE",
+        "title": "Get started today",
         "layout": "imgText",
         "enable_slider": false,
         "bottom_line": false
@@ -197,7 +225,7 @@
   },
   "order": [
     "page",
-    "16337695579db422ae",
+    "6c0763b2-0d0a-49b0-b91d-9518164b13eb",
     "1633769564023b4dfb",
     "0789fc22-7b10-42e2-9072-3883c464eec2"
   ]
