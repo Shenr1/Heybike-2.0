@@ -274,6 +274,70 @@
         "txt_align": "tl",
         "text_clr": "#111"
       }
+    },
+    "82ec3ced-a204-43ac-98b2-de5688dde1dc": {
+      "type": "richtext",
+      "settings": {
+        "top-offeset": "default",
+        "fullwidth": true,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "max-width": 1140,
+        "title": "Frame",
+        "tcl": "#000",
+        "tfs": 26,
+        "tfsm": 20,
+        "tff": "ft1",
+        "tfw": "500",
+        "tlh": 1.1,
+        "richtxt": "<p>A replacement warranty covers Heybike-UK E-bike frames for one year.<br\/><br\/>The warranty includes a replacement frame only. Labor charges to change over parts to replacement frames are not included. An authorized Heybike-UK employee. Must perform changeover labor<br\/><br\/>Heybike-UK reserves the right to use scratch and dent stock when replacing a frame under this warranty. Frame styles and colors not in supply may be returned in a compatible manner and painted at the discretion of Heybike-UK.<br\/><br\/><strong>Frame issues that are excluded from this warranty include but are not limited to:<\/strong><br\/>-Corrosion<br\/>-Paint fade, scratches, impact marks<br\/>-Impact damage<br\/>-Nonreversible modification (drilling\/welding)<br\/>-Chain guard mount to the frame if applicable<br\/><\/p>",
+        "cl": "#000",
+        "fs": 14,
+        "fsm": 13,
+        "lh": 1.6,
+        "btntxt": "",
+        "btnurl": "",
+        "btn-style": "btn",
+        "btntxt1": "",
+        "btnurl1": "",
+        "btn-style2": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "txt_align": "tl",
+        "text_clr": "#111"
+      }
+    },
+    "9d746751-8cb1-4e82-8400-c43cea8e5564": {
+      "type": "richtext",
+      "settings": {
+        "top-offeset": "default",
+        "fullwidth": true,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "max-width": 1140,
+        "title": "Batteries",
+        "tcl": "#000",
+        "tfs": 26,
+        "tfsm": 20,
+        "tff": "ft1",
+        "tfw": "500",
+        "tlh": 1.1,
+        "richtxt": "<p>A 1-year prorated warranty covers Heybike-UK batteries.<br\/><br\/>A defective battery will be repaired or replaced for one year of service at no cost to the customer. The warranty period for a fixed or replaced battery remains unchanged based on the original purchase date.<br\/>After the first year of service – A prorated credit, based on months of service, will be applied toward purchasing a new battery. Batteries purchased at a pro-rated cost will have a new one-year warranty based on the pro-rated purchase date.<br\/><br\/>No cash reimbursement will be made.<br\/><br\/>Batteries can be assessed and found defective only directly by Heybike-UK.<br\/><br\/><strong>This Limited Warranty does not cover the following:<\/strong><\/p><p>1. Defects or damage resulting from accident, abuse, misuse, abnormal use (including but not limited to stunt riding, racing, or other similar activities not consistent with the intended use of the Products), improper storage, abnormal exposure to liquid, chemicals, moisture, abrasives, sand or dirt, neglect, or abnormal physical, electrical or electromechanical stress;<br\/>2. Scratches, dents, and cosmetic damage, unless caused by Heybike-UK;<br\/>3. Product that has the serial number or the bar code removed, defaced, damaged, altered, or made illegible;<br\/>4. Ordinary wear and tear;<br\/>5. Defects or damage to the products caused by the use of accessories, products, or ancillary\/peripheral equipment not furnished or approved by Heybike-UK with the Products;<br\/>6. Defects or damage caused by assembly, testing, operation, maintenance, installation, service, repair, or adjustment in a manner that varies from Assembly Instructions & Owners Manual;<br\/>7. Defects or damage resulting from external causes such as collision, fire, flooding, windstorm, lightning, earthquake, exposure to weather conditions, theft, blown a fuse, or improper use of any electrical source;<br\/>8. Products used or purchased outside the United States.<br\/>9.1 In addition, concerning the battery, this Limited Warranty does not cover defects or damage;<br\/>9.2 Caused by charging by a battery charger not intended or appropriate for use with the Battery or the improper use of a battery charger;<br\/>9.3 Where any of the seals on the battery are broken or show evidence of tampering;<br\/>9.4 Where the battery has been used in equipment other than the bike for which it is specified;<br\/>9.5 The warranty will not cover the related issues on the battery and e-bike after using a battery that is not specific to your e-bike model. We recommend using something other than a flurry of other brands on Heybike-UK e-bikes. Although the output voltage of the other's battery may also be 48V, the battery protection system may be different, and incompatibilities may lead to damage to our motors and displays.<br\/><br\/><\/p>",
+        "cl": "#000",
+        "fs": 14,
+        "fsm": 13,
+        "lh": 1.6,
+        "btntxt": "",
+        "btnurl": "",
+        "btn-style": "btn",
+        "btntxt1": "",
+        "btnurl1": "",
+        "btn-style2": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "txt_align": "tl",
+        "text_clr": "#111"
+      }
     }
   },
   "order": [
@@ -284,6 +348,8 @@
     "db779a81-b230-4e0c-8a28-505fc60e4b0b",
     "a7748c32-464a-428e-89bc-11d19184c103",
     "c03bb73b-0dc8-4e65-ba9c-cbd0ae816a7a",
-    "3157b7fa-5e6c-4b02-b884-f9b5678eec53"
+    "3157b7fa-5e6c-4b02-b884-f9b5678eec53",
+    "82ec3ced-a204-43ac-98b2-de5688dde1dc",
+    "9d746751-8cb1-4e82-8400-c43cea8e5564"
   ]
 }
