@@ -87,7 +87,7 @@
         "btn-style2": "btn",
         "btn-size-desk": "btn-md",
         "btn-size-mob": "mob-btn-sm",
-        "txt_align": "tc",
+        "txt_align": "tl",
         "text_clr": "#111"
       }
     },
