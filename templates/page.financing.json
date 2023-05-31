@@ -247,10 +247,9 @@
         "5c2ab1bb-c33a-4d52-b649-7b7d6e479aae": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Landing-page-body-card2-snippet-Pi4-EN.jpg",
             "layout": "left",
             "title": "Step 4:",
-            "text": "<p>*Promotional purchase rate ranges from 0%-19.99% APR. Non-promotional balances have an APR of 19.99%. Subject to a $2 monthly minimum interest charge and credit approval. <\/p><p>APR is based on creditworthiness and subject to credit approval, resulting in, for example, [X] [(number of monthly payments)] equal monthly payments of $ [X] [(amount at 0% APR)] to $ [X] [(amount at 19.99% APR)] per $ [X] [(the amount borrowed that the calculation is based on)] borrowed—minimum purchase of $ [X] [(min purchase amount)]<br\/>required. <\/p><p>0% APR Financing is only available to<br\/>qualified customers with excellent credit history—monthly financing through<br\/>Klarna issued by WebBank, member FDIC.<\/p><p> <\/p><p>*A $1000 purchase might cost $172.79 per<br\/>month over six months at 12.49% APR.*<\/p>",
+            "text": "<p>You can choose the payment plan you would like and check out. And now, your financing begins.<\/p>",
             "button_label": "Shop Now",
             "button_link": "\/",
             "text_align": "text-left",
@@ -274,7 +273,7 @@
         "bottom_padding": "large",
         "top-offeset": "default",
         "section_style": "default",
-        "section_width": true,
+        "section_width": false,
         "section_cov": false,
         "sec_bg_clr": "#fafafa",
         "snow_effect": false,
@@ -301,8 +300,8 @@
       "settings": {
         "layout": "2",
         "page_Width": 700,
-        "title": "Drop Us A Line",
-        "subtitle": "Get in touch and let us know how we can help. Have a question but aren’t sure who to contact? Get in touch and a member of our team will reach out to you.",
+        "title": "Contact Us",
+        "subtitle": "If you have any other questions, please feel free to contact us",
         "show_phone": false,
         "show_subject": false,
         "top-offeset": "default",
