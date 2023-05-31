@@ -109,10 +109,10 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/our_story.jpg",
-            "layout": "right",
-            "title": "Promotion made easy",
-            "text": "<p>Promote Heybike-UK using your referral link or our pre-made banners, emails, and other materials. Use the resources we've prepared for you to save time and money on content production.<\/p>",
-            "button_label": "Apply Now",
+            "layout": "left",
+            "title": "YouTube & TikTok",
+            "text": "<p><strong>Video ViewsReward<\/strong>5K-10K1 coupon of<strong>$100 OFF<\/strong>for the heybike.com website&gt;10K-50K1 coupon of<strong>$200 OFF<\/strong>for the heybike.com website&gt;50K-100K<strong>1 FREE e-bike<\/strong>&gt;100K<strong>1 FREE e-bike of Heybike next new model<\/strong><\/p>",
+            "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
             "tcl": "#000000",
@@ -168,12 +168,45 @@
         "section_cov": true,
         "sec_bg_clr": "#fafafa"
       }
+    },
+    "9c75a357-b16f-4024-9988-086ad1a493b5": {
+      "type": "richtext",
+      "settings": {
+        "top-offeset": "default",
+        "fullwidth": false,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "max-width": 700,
+        "title": "Note",
+        "tcl": "#000",
+        "tfs": 26,
+        "tfsm": 20,
+        "tff": "ft1",
+        "tfw": "700",
+        "tlh": 1.2,
+        "richtxt": "<p>1. Please keep your views of the video real.<\/p><p>2. This program is only available for fans owning at least 1 Heybike product.<\/p><p>Please feel free to contact us if you have any questions<\/p>",
+        "cl": "#000",
+        "fs": 14,
+        "fsm": 13,
+        "lh": 1.6,
+        "btntxt": "",
+        "btnurl": "",
+        "btn-style": "btn",
+        "btntxt1": "",
+        "btnurl1": "",
+        "btn-style2": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "txt_align": "tl",
+        "text_clr": "#111"
+      }
     }
   },
   "order": [
     "page",
     "6c0763b2-0d0a-49b0-b91d-9518164b13eb",
     "1633769564023b4dfb",
-    "593ad453-c94a-45cb-a6f8-5ec7bca4c33d"
+    "593ad453-c94a-45cb-a6f8-5ec7bca4c33d",
+    "9c75a357-b16f-4024-9988-086ad1a493b5"
   ]
 }
