@@ -178,7 +178,7 @@
       "type": "contact-form",
       "settings": {
         "layout": "2",
-        "page_Width": 700,
+        "page_Width": 900,
         "title": "Share your Heybike memoirs with us!",
         "subtitle": "",
         "show_phone": false,
