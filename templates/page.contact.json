@@ -29,6 +29,7 @@
       "blocks": {
         "template--19143575175483__746e6059-ac66-40dc-865b-17bd58ed7b6c-168552199358466c63-0": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "layout": "right",
             "title": "Banner With Text",
