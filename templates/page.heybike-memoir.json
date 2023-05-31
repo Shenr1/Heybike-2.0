@@ -112,8 +112,61 @@
         "btn-style2": "btn",
         "btn-size-desk": "btn-sm",
         "btn-size-mob": "mob-btn-sm",
-        "txt_align": "tc",
+        "txt_align": "tl",
         "text_clr": "#111111"
+      }
+    },
+    "0707007d-ac2f-4ba3-a31b-b0209a7fb23e": {
+      "type": "banner-with-text",
+      "disabled": true,
+      "blocks": {
+        "template--19318727115067__0707007d-ac2f-4ba3-a31b-b0209a7fb23e-168550564820d99adc-0": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/960x930_f57aa9db-ad48-4289-97f2-dcdf3143ec5f.jpg",
+            "layout": "right",
+            "title": "Write Your Part in Heybike Memoir!",
+            "text": "<p>Thank you for choosing Heybike! We hope Heybike will be part of your life and hope it is meaningful to every Heybike rider as all of them Heybike riders have been part of Heybike!<br\/><br\/>In this case, we started the Heybike Memoir program for collecting videos made by you. You can post your video on social media, email us the URL link, or send us your file. You may receive a basket\/saddlebag or Heybike gift card as a reward! (The prize is to be dependent on the quality of the videos)<br\/><br\/>Heybike Memoir is to be combined by all Heybike riders! We would like you to share your Heybike ride experience and feelings about riding the Heybike e-bike, how it transformed you, how it gets through the adventure with you, and how it enriches your life.<br\/><br\/>In this way, we can change people's conception and the mode of transportation and lead a more enjoyable, environmentally-protect, and healthy life.<br\/><\/p><p><strong>If you have no idea about how to make such a video, you can try to start from a script like this:<\/strong><br\/>1. why did you choose heybike,<br\/>2. have you upgraded your bike,<br\/>3. What changes have you made to your life since owning a heybike?<br\/><br\/><strong>Below is an example made by Modern Canine:<\/strong><\/p>",
+            "button_label": "",
+            "button_link": "\/",
+            "text_align": "text-left",
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "#f5f5f5",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "template--19318727115067__0707007d-ac2f-4ba3-a31b-b0209a7fb23e-168550564820d99adc-0"
+      ],
+      "settings": {
+        "top_padding": "none",
+        "bottom_padding": "large",
+        "top-offeset": "default",
+        "section_style": "default",
+        "section_width": true,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "snow_effect": false,
+        "snow_style": "style1",
+        "tfs": 30,
+        "tfsm": 22,
+        "tff": "ft1",
+        "tfw": "700",
+        "tlh": 1.2,
+        "tmb": 15,
+        "tmbm": 10,
+        "fs": 14,
+        "fsm": 12,
+        "fw": "400",
+        "lh": 1.6,
+        "mb": 15,
+        "mbm": 10,
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm"
       }
     },
     "d5f9b85b-4528-443a-a4e0-d59191733b41": {
@@ -139,7 +192,7 @@
         "btnurl": "",
         "hide_btn": false,
         "btn-style": "btn",
-        "text_align": "left"
+        "text_align": "center"
       }
     },
     "e341fea9-c058-465f-bc39-1e9fda953c4f": {
@@ -161,6 +214,7 @@
     "page",
     "2f028a23-6478-4871-80e6-6e2850fe17ed",
     "1633702112e4ae85a2",
+    "0707007d-ac2f-4ba3-a31b-b0209a7fb23e",
     "d5f9b85b-4528-443a-a4e0-d59191733b41",
     "e341fea9-c058-465f-bc39-1e9fda953c4f"
   ]
