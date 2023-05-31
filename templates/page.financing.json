@@ -164,14 +164,14 @@
         "sec_bg_clr": "#fafafa",
         "max-width": 700,
         "title": "Financing Procedures:",
-        "tcl": "#000",
+        "tcl": "#000000",
         "tfs": 26,
         "tfsm": 20,
         "tff": "ft1",
         "tfw": "700",
         "tlh": 1.2,
         "richtxt": "",
-        "cl": "#000",
+        "cl": "#000000",
         "fs": 14,
         "fsm": 13,
         "lh": 1.6,
@@ -184,7 +184,7 @@
         "btn-size-desk": "btn-md",
         "btn-size-mob": "mob-btn-sm",
         "txt_align": "tl",
-        "text_clr": "#111"
+        "text_clr": "#111111"
       }
     },
     "333b48a4-47f8-4c4b-bbae-234edc6f66e8": {
@@ -200,12 +200,12 @@
             "button_label": "Shop Now",
             "button_link": "\/",
             "text_align": "text-left",
-            "tcl": "#000",
-            "cl": "#000",
+            "tcl": "#000000",
+            "cl": "#000000",
             "bg": "#f5f5f5",
-            "btncl": "#fff",
-            "btnbg": "#000",
-            "btnbd": "#000"
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
           }
         },
         "c71f45a1-6643-4087-a182-795ae539412d": {
@@ -218,12 +218,12 @@
             "button_label": "Shop Now",
             "button_link": "\/",
             "text_align": "text-left",
-            "tcl": "#000",
-            "cl": "#000",
+            "tcl": "#000000",
+            "cl": "#000000",
             "bg": "#f5f5f5",
-            "btncl": "#fff",
-            "btnbg": "#000",
-            "btnbd": "#000"
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
           }
         },
         "c795faea-83fe-42c0-a816-179a3a21520b": {
@@ -236,29 +236,30 @@
             "button_label": "Shop Now",
             "button_link": "\/",
             "text_align": "text-left",
-            "tcl": "#000",
-            "cl": "#000",
+            "tcl": "#000000",
+            "cl": "#000000",
             "bg": "#f5f5f5",
-            "btncl": "#fff",
-            "btnbg": "#000",
-            "btnbd": "#000"
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
           }
         },
         "5c2ab1bb-c33a-4d52-b649-7b7d6e479aae": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Landing-page-body-card2-snippet-Pi4-EN.jpg",
             "layout": "left",
             "title": "Step 4:",
-            "text": "<p>Choose the payment plan you would like and check out. And now, your financing begins.*Promotional purchase rate ranges from 0%-19.99% APR. Non-promotional balances have an APR of 19.99%. Subject to a $2 monthly minimum interest charge and credit approval. APR based on creditworthiness and subject to credit approval, resulting in, for example, [X] [(number of monthly payments)] equal monthly payments of $ [X] [(amount at 0% APR)] to $ [X] [(amount at 19.99% APR)] per $ [X] [(amount borrowed that the calculation is based on)] borrowed. Minimum purchase of $ [X] [(min purchase amount)] required. 0% APR financing only available to qualified customers with excellent credit history. Monthly financing through Klarna issued by WebBank, member FDIC.<\/p>",
+            "text": "<p>*Promotional purchase rate ranges from 0%-19.99% APR. Non-promotional balances have an APR of 19.99%. Subject to a $2 monthly minimum interest charge and credit approval. <\/p><p>APR is based on creditworthiness and subject to credit approval, resulting in, for example, [X] [(number of monthly payments)] equal monthly payments of $ [X] [(amount at 0% APR)] to $ [X] [(amount at 19.99% APR)] per $ [X] [(the amount borrowed that the calculation is based on)] borrowed—minimum purchase of $ [X] [(min purchase amount)]<br\/>required. <\/p><p>0% APR Financing is only available to<br\/>qualified customers with excellent credit history—monthly financing through<br\/>Klarna issued by WebBank, member FDIC.<\/p><p> <\/p><p>*A $1000 purchase might cost $172.79 per<br\/>month over six months at 12.49% APR.*<\/p>",
             "button_label": "Shop Now",
             "button_link": "\/",
             "text_align": "text-left",
-            "tcl": "#000",
-            "cl": "#000",
+            "tcl": "#000000",
+            "cl": "#000000",
             "bg": "#f5f5f5",
-            "btncl": "#fff",
-            "btnbg": "#000",
-            "btnbd": "#000"
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
           }
         }
       },
