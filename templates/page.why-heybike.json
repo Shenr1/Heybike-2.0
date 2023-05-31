@@ -156,12 +156,30 @@
             "text_sub": "- AUTOEVOLUTION",
             "logo_image": "shopify:\/\/shop_images\/AUTOEVOLUTION.png"
           }
+        },
+        "d296e9a1-883f-46b9-9e75-1f5fdcdc5464": {
+          "type": "slide",
+          "settings": {
+            "text_main": "\"The Heybike Cityrun stands out for safety and security features, and even has a place to put your water bottle. It's the perfect e-bike for commuting.\"",
+            "text_sub": "- ZDNET",
+            "logo_image": "shopify:\/\/shop_images\/zdnet_0007b688-3598-42f8-a3a5-9aa4cea63c55.png"
+          }
+        },
+        "3699aca2-c188-4a68-a2f5-9e0835180a39": {
+          "type": "slide",
+          "settings": {
+            "text_main": "\"The Brawn from Heybike is a motorcycle inspired off-road beast.\"",
+            "text_sub": "- electrifiedreviews",
+            "logo_image": "shopify:\/\/shop_images\/electrifiedreviews.png"
+          }
         }
       },
       "block_order": [
         "f125e9ec-4d04-4b7d-8d1d-3cbdc9e531ea",
         "8eefd08f-d454-46d4-b30c-fd984b8f78bc",
-        "b8d1ea7c-4393-4005-9ae8-96cd23567cbc"
+        "b8d1ea7c-4393-4005-9ae8-96cd23567cbc",
+        "d296e9a1-883f-46b9-9e75-1f5fdcdc5464",
+        "3699aca2-c188-4a68-a2f5-9e0835180a39"
       ],
       "settings": {
         "top_padding": "large",
