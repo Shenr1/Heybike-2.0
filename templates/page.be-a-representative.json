@@ -108,7 +108,7 @@
         "bottom_padding": "large",
         "top-offeset": "default",
         "section_style": "default",
-        "section_width": true,
+        "section_width": false,
         "section_cov": false,
         "sec_bg_clr": "#fafafa",
         "snow_effect": false,
