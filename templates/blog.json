@@ -25,15 +25,17 @@
         },
         "88f2d901-3656-4ffb-8c5f-a9b52b7e9e75": {
           "type": "tags",
+          "disabled": true,
           "settings": {
             "title": "Tags"
           }
         },
         "b441111e-5c1a-43af-b346-08ab99f9dc35": {
           "type": "products",
+          "disabled": true,
           "settings": {
             "title": "Popular Products",
-            "sidebar_products": "dresses",
+            "sidebar_products": "",
             "num_of_products": "3",
             "side_all_products": false,
             "btn_txt": "View All",
@@ -42,8 +44,8 @@
         },
         "45aedb7e-5eec-49fb-aab8-1e90bcc8c3d8": {
           "type": "image_bnr",
+          "disabled": true,
           "settings": {
-            "side_bnr_img": "shopify:\/\/shop_images\/LONG-BAN.jpg",
             "side_bnr_link": ""
           }
         }
