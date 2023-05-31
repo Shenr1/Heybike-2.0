@@ -743,12 +743,20 @@
             "text_sub": "- AUTOEVOLUTION",
             "logo_image": "shopify:\/\/shop_images\/AUTOEVOLUTION.png"
           }
+        },
+        "55119407-dcaa-4908-a061-61c15c6dbd9d": {
+          "type": "slide",
+          "settings": {
+            "text_main": "\"The Heybike Cityrun stands out for safety and security features, and even has a place to put your water bottle. It's the perfect e-bike for commuting.\"",
+            "text_sub": "- ZDNET"
+          }
         }
       },
       "block_order": [
         "1db61a36-a277-4c68-acad-574b812f8fc6",
         "6dc0201d-f684-4821-a9d9-70e940aa064b",
-        "ea0d551e-e63a-4f7c-b7aa-0fb32c3680d8"
+        "ea0d551e-e63a-4f7c-b7aa-0fb32c3680d8",
+        "55119407-dcaa-4908-a061-61c15c6dbd9d"
       ],
       "settings": {
         "top_padding": "large",
