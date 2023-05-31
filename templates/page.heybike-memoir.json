@@ -141,12 +141,27 @@
         "btn-style": "btn",
         "text_align": "left"
       }
+    },
+    "e341fea9-c058-465f-bc39-1e9fda953c4f": {
+      "type": "contact-form",
+      "settings": {
+        "layout": "2",
+        "page_Width": 700,
+        "title": "Drop Us A Line",
+        "subtitle": "Get in touch and let us know how we can help. Have a question but aren’t sure who to contact? Get in touch and a member of our team will reach out to you.",
+        "show_phone": false,
+        "show_subject": false,
+        "top-offeset": "default",
+        "section_cov": true,
+        "sec_bg_clr": "#fafafa"
+      }
     }
   },
   "order": [
     "page",
     "2f028a23-6478-4871-80e6-6e2850fe17ed",
     "1633702112e4ae85a2",
-    "d5f9b85b-4528-443a-a4e0-d59191733b41"
+    "d5f9b85b-4528-443a-a4e0-d59191733b41",
+    "e341fea9-c058-465f-bc39-1e9fda953c4f"
   ]
 }
