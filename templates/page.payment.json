@@ -45,7 +45,7 @@
         "plh": 1.1,
         "pmb": 10,
         "pmbm": 5,
-        "title": "Financing",
+        "title": "Payment",
         "tcl": "#ffffff",
         "tfs": 30,
         "tfsm": 20,
@@ -54,7 +54,7 @@
         "tlh": 1.1,
         "tmb": 10,
         "tmbm": 5,
-        "text": "<p>Choose your payment plan, and no more hesitate for your new riding life!<\/p>",
+        "text": "",
         "cl": "#ffffff",
         "fs": 16,
         "fsm": 14,
@@ -92,26 +92,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/lQDPJyFWi8lReALNAZrNAZWwtR7lJhj7e7gEaz5jiAAMAA_405_410.jpg",
             "layout": "right",
-            "title": "RIDE NOW, PAY LATER",
-            "text": "<p>Are you preparing for your future e-bike trip? No more delay for your trip, and enjoy the Heybike e-bike immediately! Now, three payment plans are available for choosing, Pay in 4, Pay in 30 days, and Monthly financing (up to 24 months). <\/p><p><em><strong>*CA resident loans made or arranged under a California Financing Law license. <\/strong><\/em><\/p>",
-            "button_label": "",
-            "button_link": "",
-            "text_align": "text-left",
-            "tcl": "#000000",
-            "cl": "#000000",
-            "bg": "#f5f5f5",
-            "btncl": "#ffffff",
-            "btnbg": "#000000",
-            "btnbd": "#000000"
-          }
-        },
-        "3a7419a4-8a61-43ec-b2d7-43113cc5cbdc": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Landin4.jpg",
-            "layout": "left",
-            "title": "Pay in 4 Benefits:",
-            "text": "<p>1. Spread out your shopping and budget your spending, making it a flexible and easy shopping manner.<\/p><p>2. If you choose a Pay in 4 plan, it will not affect your credit score. <\/p><p>3. No interest and no fees when you pay on time.<\/p><p><strong>(<\/strong><em><strong>*CA resident loans made or arranged pursuant to a California Financing Law license<\/strong><\/em><strong>.)<\/strong><\/p>",
+            "title": "",
+            "text": "<p>If you pay by credit card, your payment could be somehow denied at the checkout by our system in defense against possible credit card fraud. It's a good idea to call your credit card company or bank ahead of time to inform them about the purchase so that it doesn't get declined.<\/p><p><strong>Under such circumstances, here are three solutions for you:<\/strong><\/p><p>1. If you have a PayPal account, please try to pay by PayPal.<\/p><p>2. Please switch to your other credit\/debit cards.<\/p><p>3. If you do not have a PayPal account, please select PayPal still at the checkout page & click the complete order button. Then you'll be directed to a page with access to both PayPal and Debit\/Credit card payment (for the latter option, you don't have to register for PayPal).<\/p><p> <\/p>",
             "button_label": "",
             "button_link": "",
             "text_align": "text-left",
@@ -125,8 +107,7 @@
         }
       },
       "block_order": [
-        "1633769564023b4dfb-0",
-        "3a7419a4-8a61-43ec-b2d7-43113cc5cbdc"
+        "1633769564023b4dfb-0"
       ],
       "settings": {
         "top_padding": "none",
@@ -163,7 +144,7 @@
         "section_cov": false,
         "sec_bg_clr": "#fafafa",
         "max-width": 700,
-        "title": "Financing Procedures:",
+        "title": "As following steps:",
         "tcl": "#000000",
         "tfs": 26,
         "tfsm": 20,
@@ -193,12 +174,12 @@
         "template--19320943345979__333b48a4-47f8-4c4b-bbae-234edc6f66e8-1685517169e04f9469-0": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1120x1200-klarna_payment_app_480x480_e4a91082-fc3a-4893-8237-c717d44589de.webp",
-            "layout": "left",
+            "image": "shopify:\/\/shop_images\/payment_screenshot_1.png",
+            "layout": "right",
             "title": "Step 1:",
-            "text": "<p>Get a Klarna app on your phone and sign in. Please notice that Pay in 4 payments first starts with the Klarna app.<\/p>",
-            "button_label": "Shop Now",
-            "button_link": "\/",
+            "text": "<p>Select PayPal (even if you don't have a PayPal account)<\/p>",
+            "button_label": "",
+            "button_link": "",
             "text_align": "text-left",
             "tcl": "#000000",
             "cl": "#000000",
@@ -211,12 +192,12 @@
         "c71f45a1-6643-4087-a182-795ae539412d": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1120x1200-klarna_budget_480x480_3e52c85e-e7e7-49d8-96b5-617217ea4d1a.webp",
-            "layout": "left",
+            "image": "shopify:\/\/shop_images\/screenshot_paypal_login2_c1379c4e-6090-4d1f-bae9-ff5797f2b451.webp",
+            "layout": "right",
             "title": "Step 2:",
-            "text": "<p>Set your budget. Create a one-time card with the amount you want to spend. Your personal details and wallet will be protected, always.<\/p>",
-            "button_label": "Shop Now",
-            "button_link": "\/",
+            "text": "<p>Click on \"Pay with Debit or Credit Card\".<\/p>",
+            "button_label": "",
+            "button_link": "",
             "text_align": "text-left",
             "tcl": "#000000",
             "cl": "#000000",
@@ -229,28 +210,10 @@
         "c795faea-83fe-42c0-a816-179a3a21520b": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/klarna_payment_480x480_19b34cfa-0bce-4f49-ba4c-d3dbd772135c.webp",
-            "layout": "left",
+            "image": "shopify:\/\/shop_images\/payment_sreenshot_3.webp",
+            "layout": "right",
             "title": "Step 3:",
-            "text": "<p>Select the items you need in your cart and fill in your shipping information. Then, choose the Klarna payments on the payment page.<\/p>",
-            "button_label": "Shop Now",
-            "button_link": "\/",
-            "text_align": "text-left",
-            "tcl": "#000000",
-            "cl": "#000000",
-            "bg": "#f5f5f5",
-            "btncl": "#ffffff",
-            "btnbg": "#000000",
-            "btnbd": "#000000"
-          }
-        },
-        "5c2ab1bb-c33a-4d52-b649-7b7d6e479aae": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CA22BAC9-AF20-40f8-ADC0-1CCAA573BDE9.png",
-            "layout": "left",
-            "title": "Step 4:",
-            "text": "<p>You can choose the payment plan you would like and check out. And now, your financing begins.<\/p>",
+            "text": "<p>Fill in your credit card info and complete your order.<\/p>",
             "button_label": "Shop Now",
             "button_link": "\/",
             "text_align": "text-left",
@@ -266,8 +229,7 @@
       "block_order": [
         "template--19320943345979__333b48a4-47f8-4c4b-bbae-234edc6f66e8-1685517169e04f9469-0",
         "c71f45a1-6643-4087-a182-795ae539412d",
-        "c795faea-83fe-42c0-a816-179a3a21520b",
-        "5c2ab1bb-c33a-4d52-b649-7b7d6e479aae"
+        "c795faea-83fe-42c0-a816-179a3a21520b"
       ],
       "settings": {
         "top_padding": "none",
