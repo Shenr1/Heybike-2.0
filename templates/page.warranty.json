@@ -338,6 +338,38 @@
         "txt_align": "tl",
         "text_clr": "#111"
       }
+    },
+    "d2ca7d1a-6f94-41b0-9f27-0977b8337fc8": {
+      "type": "richtext",
+      "settings": {
+        "top-offeset": "default",
+        "fullwidth": true,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "max-width": 1140,
+        "title": "Parts & Components",
+        "tcl": "#000",
+        "tfs": 26,
+        "tfsm": 20,
+        "tff": "ft1",
+        "tfw": "500",
+        "tlh": 1.1,
+        "richtxt": "<p>A 1-year limited warranty covers original Heybike parts & components. When all the spare parts for assurance are sent to the customer, the customer will be responsible for the shipping cost.<br\/><strong>This Limited Warranty does not cover the following:<\/strong><br\/>1.Ordinary wear and tear is not the result of defects in artistry or materials. Wear and tear can be assessed by Heybike. Parts not typically covered include but are not limited to:<br\/>1.1 Brake Pads<br\/>1.2 Rotors<br\/>1.3 Spokes<br\/>1.4 Tires\/Tubes<br\/>1.5 Chains<br\/>1.6 Chain Rings<br\/>1.7 Cassettes<br\/>1.8 Crankset<br\/>1.9 Parts compromised due to corrosion due to the elements (moisture, heat, etc.).<br\/>1.10 Damage or deterioration of the product's surface finish, appearance, or aesthetics.<br\/>1.11 Frame, forks, handlebar, seat post, saddle, brakes, lights, crankset, pedals, rims, wheel hub, freewheel, cassette, derailleur, shifter, motor, throttle, controller, wiring harness, LCD, kickstand, reflectors, hardware. Warranty within one week after receiving the goods. Parts damaged during use after seven days need to be charged.<br\/>2. Labor charges for part replacement or changeover.<br\/>3. Defects or damage resulting from accident, abuse, misuse, abnormal use (including but not limited to stunt riding, racing, or other similar activities not consistent with the intended use of the products), improper storage, abnormal exposure to liquid, chemicals, moisture, abrasives, sand or dirt, neglect, or abnormal physical, electrical or electromechanical stress.<br\/>4. Scratches, dents, and cosmetic damage not caused by Heybike.<br\/>5. Product with the serial number or the bar code removed, defaced, damaged, altered, or made illegible.<br\/>6. Defects or damage to the Products caused by using accessories, products, or ancillary\/peripheral equipment not furnished or approved by Heybike.<br\/>7. Defects or damage caused by improper assembly, testing, operation, maintenance, installation, service, repair, or adjustment in a manner that varies from Assembly Instructions & Owners Manual.<br\/>8. Defects or damage resulting from external causes, such as collision, fire, flooding, windstorm, lightning, earthquake, exposure to weather conditions, theft, blown a fuse, or improper use of any electrical source.<br\/>9. Products used or purchased outside the United Kingdom.<br\/><\/p>",
+        "cl": "#000",
+        "fs": 14,
+        "fsm": 13,
+        "lh": 1.6,
+        "btntxt": "",
+        "btnurl": "",
+        "btn-style": "btn",
+        "btntxt1": "",
+        "btnurl1": "",
+        "btn-style2": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "txt_align": "tl",
+        "text_clr": "#111"
+      }
     }
   },
   "order": [
@@ -350,6 +382,7 @@
     "c03bb73b-0dc8-4e65-ba9c-cbd0ae816a7a",
     "3157b7fa-5e6c-4b02-b884-f9b5678eec53",
     "82ec3ced-a204-43ac-98b2-de5688dde1dc",
-    "9d746751-8cb1-4e82-8400-c43cea8e5564"
+    "9d746751-8cb1-4e82-8400-c43cea8e5564",
+    "d2ca7d1a-6f94-41b0-9f27-0977b8337fc8"
   ]
 }
