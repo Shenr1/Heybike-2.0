@@ -1,7 +1,66 @@
 {
   "sections": {
+    "d9bc8488-c5c3-41d0-ab38-90977014f5be": {
+      "type": "hero",
+      "settings": {
+        "top-offeset": "default",
+        "section_width": false,
+        "ds_height": 200,
+        "tb_height": 350,
+        "mb_height": 250,
+        "parallax_scroll": false,
+        "alignment": "center",
+        "pretext": "I AM AVONE",
+        "pcl": "#333",
+        "pfs": 15,
+        "pfsm": 13,
+        "pff": "ft1",
+        "pfw": "400",
+        "plh": 1.3,
+        "pmb": 10,
+        "pmbm": 5,
+        "title": "Warranty",
+        "tcl": "#000",
+        "tfs": 30,
+        "tfsm": 20,
+        "tff": "ft2",
+        "tfw": "700",
+        "tlh": 1.3,
+        "tmb": 10,
+        "tmbm": 5,
+        "text": "",
+        "cl": "#000",
+        "fs": 16,
+        "fsm": 14,
+        "fw": "400",
+        "lh": 1.6,
+        "mb": 30,
+        "mbm": 20,
+        "button_label": "",
+        "button_link": "",
+        "link_image": false,
+        "btn-style": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "isbox": true,
+        "bg": "#fff",
+        "opt": 0.9,
+        "bdr": 0,
+        "textalign": "tc",
+        "bxalign": "f-jcc f-aic",
+        "wd": 1200,
+        "snow_effect": false,
+        "snow_style": "style1",
+        "hero_dealtimer": false,
+        "cnt_date": "12\/20\/2023",
+        "cntbg": "#000",
+        "cntcl": "#eee",
+        "cntbd": "#000"
+      }
+    },
     "page": {
       "type": "page-template",
+      "disabled": true,
       "settings": {
         "section_width": false,
         "hide_hdft": false,
@@ -24,135 +83,207 @@
         "hide_ttl": true
       }
     },
-    "faq": {
-      "type": "faq",
-      "blocks": {
-        "176cef6d-944d-49ed-9976-dfea5a742dce": {
-          "type": "faqsection",
-          "settings": {
-            "sectiontitle": "Shopping"
-          }
-        },
-        "117f2eee-92ed-4918-95d8-4777e9b12d2f": {
-          "type": "faqs",
-          "settings": {
-            "question": "What Shipping Methods Are Available?",
-            "answer": "Nullam sed neque luctus, maximus diam sed, facilisis orci. Nunc ultricies neque a aliquam sollicitudin. Vivamus sit amet finibus sapien. Duis est dui, sodales nec pretium a, interdum in lacus. Sed et est vel velit vestibulum tincidunt non a felis. Phasellus convallis, diam eu facilisis tincidunt, ex nibh vulputate dolor, eu maximus massa libero vel eros."
-          }
-        },
-        "d27d402e-9145-4f5e-bc65-86d45d5623f5": {
-          "type": "faqs",
-          "settings": {
-            "question": "How do I place an Order?",
-            "answer": "Duis nec nisi id ligula dapibus maximus nec eu dui. Proin ornare, ipsum vitae tincidunt rutrum, diam neque accumsan turpis, a dignissim nisi libero non lacus. Nulla quis massa nulla. Morbi metus lacus, sagittis sed est vel, aliquet ultrices nibh. Morbi auctor ex eget egestas auctor. Duis nec nisi id ligula dapibus maximus nec eu dui. Proin ornare, ipsum vitae tincidunt rutrum, diam neque accumsan turpis, a dignissim nisi libero non lacus. Nulla quis massa nulla. Morbi metus lacus, sagittis sed est vel, aliquet ultrices nibh. Morbi auctor ex eget egestas auctor."
-          }
-        },
-        "e5d784f6-e1ed-4e4c-93c2-11db4d73a2b1": {
-          "type": "faqsection",
-          "settings": {
-            "sectiontitle": "Payment"
-          }
-        },
-        "a2786c0f-b40f-49ae-aaa7-0e99e549ab0f": {
-          "type": "faqs",
-          "settings": {
-            "question": "What Payment Methods Are Accepted?",
-            "answer": "Nullam sed neque luctus, maximus diam sed, facilisis orci. Nunc ultricies neque a aliquam sollicitudin. Vivamus sit amet finibus sapien. Duis est dui, sodales nec pretium a, interdum in lacus. Sed et est vel velit vestibulum tincidunt non a felis. Phasellus convallis, diam eu facilisis tincidunt"
-          }
-        },
-        "de13a007-c879-47a9-bc4a-571fc9354b31": {
-          "type": "faqs",
-          "settings": {
-            "question": "Do You Ship Internationally?",
-            "answer": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
-          }
-        },
-        "cd8128ae-28fd-48db-95e9-8265759d181a": {
-          "type": "faqs",
-          "settings": {
-            "question": "What Payment Methods Are Accepted?",
-            "answer": "Nullam sed neque luctus, maximus diam sed, facilisis orci. Nunc ultricies neque a aliquam sollicitudin. Vivamus sit amet finibus sapien. Duis est dui, sodales nec pretium a, interdum in lacus. Sed et est vel velit vestibulum tincidunt non a felis. Phasellus convallis, diam eu facilisis tincidunt, ex nibh vulputate dolor, eu maximus massa libero vel eros. In vulputate metus lacus, eu vehicula dolor feugiat id. Nulla vitae nisl in ex consequat porttitor vel a lectus. Vestibulum viverra in velit ac consequat. Nullam porta nulla eu dignissim cursus."
-          }
-        },
-        "eff9098d-93a7-403d-ad8c-b30d40c1ef0d": {
-          "type": "faqsection",
-          "settings": {
-            "sectiontitle": "Returns"
-          }
-        },
-        "0b283b97-7726-4c4a-a581-2221983d3bb6": {
-          "type": "faqs",
-          "settings": {
-            "question": "Is Buying On-Line Safe?",
-            "answer": "Nullam sed neque luctus, maximus diam sed, facilisis orci. Nunc ultricies neque a aliquam sollicitudin. Vivamus sit amet finibus sapien. Duis est dui, sodales nec pretium a, interdum in lacus. Sed et est vel velit vestibulum tincidunt non a felis. Phasellus convallis, diam eu facilisis tincidunt, ex nibh vulputate dolor, eu maximus massa libero vel eros. In vulputate metus lacus, eu vehicula dolor feugiat id. Nulla vitae nisl in ex consequat porttitor vel a lectus."
-          }
-        },
-        "654077c6-99a9-4f06-bd69-4b238829a3d8": {
-          "type": "faqs",
-          "settings": {
-            "question": "Do I have to pay anything to return my items?",
-            "answer": "Nullam sed neque luctus, maximus diam sed, facilisis orci. Nunc ultricies neque a aliquam sollicitudin. Vivamus sit amet finibus sapien. Duis est dui, sodales nec pretium a, interdum in lacus."
-          }
-        },
-        "e3a276f6-e230-401b-a299-9f3ea00c3c0a": {
-          "type": "faqs",
-          "settings": {
-            "question": "How do I return an item?",
-            "answer": "In vulputate metus lacus, eu vehicula dolor feugiat id. Nulla vitae nisl in ex consequat porttitor vel a lectus. Vestibulum viverra in velit ac consequat. Nullam porta nulla eu dignissim cursus."
-          }
-        },
-        "82a5e086-33fb-4fc4-b564-a2d49b080b48": {
-          "type": "faqsection",
-          "settings": {
-            "sectiontitle": "Shipping"
-          }
-        },
-        "87f47f42-51aa-4b2e-9b3a-b8a18004ac59": {
-          "type": "faqs",
-          "settings": {
-            "question": "How many day take for shipping?",
-            "answer": "Nullam sed neque luctus, maximus diam sed, facilisis orci. Nunc ultricies neque a aliquam sollicitudin. Vivamus sit amet finibus sapien. Duis est dui, sodales nec pretium a, interdum in lacus. Sed et est vel velit vestibulum tincidunt non a felis. Phasellus convallis, diam eu facilisis tincidunt, ex nibh vulputate dolor, eu maximus massa libero vel eros. In vulputate metus lacus, eu vehicula dolor feugiat id. Nulla vitae nisl in ex consequat porttitor vel a lectus."
-          }
-        }
-      },
-      "block_order": [
-        "176cef6d-944d-49ed-9976-dfea5a742dce",
-        "117f2eee-92ed-4918-95d8-4777e9b12d2f",
-        "d27d402e-9145-4f5e-bc65-86d45d5623f5",
-        "e5d784f6-e1ed-4e4c-93c2-11db4d73a2b1",
-        "a2786c0f-b40f-49ae-aaa7-0e99e549ab0f",
-        "de13a007-c879-47a9-bc4a-571fc9354b31",
-        "cd8128ae-28fd-48db-95e9-8265759d181a",
-        "eff9098d-93a7-403d-ad8c-b30d40c1ef0d",
-        "0b283b97-7726-4c4a-a581-2221983d3bb6",
-        "654077c6-99a9-4f06-bd69-4b238829a3d8",
-        "e3a276f6-e230-401b-a299-9f3ea00c3c0a",
-        "82a5e086-33fb-4fc4-b564-a2d49b080b48",
-        "87f47f42-51aa-4b2e-9b3a-b8a18004ac59"
-      ],
+    "5252dbb9-0c23-471b-be96-da824c633c92": {
+      "type": "richtext",
       "settings": {
-        "title": "FAQs",
-        "subtitle": "",
         "top-offeset": "default",
+        "fullwidth": true,
         "section_cov": false,
         "sec_bg_clr": "#fafafa",
-        "pagestyle": "style1",
-        "max-width": 800,
-        "tcl": "#eeeeee",
-        "tbg": "#333333",
-        "tfs": 17,
-        "tfsm": 16,
-        "tff": "ft2",
-        "tfw": "600",
-        "qcl": "#333333",
-        "qfs": 15,
-        "qfsm": 14,
-        "qfw": "600"
+        "max-width": 1140,
+        "title": "Heybike Limited Warranty and Policy on REPLACEMENT PROCEDURES & RESPONSIBILITIES",
+        "tcl": "#000",
+        "tfs": 26,
+        "tfsm": 20,
+        "tff": "ft1",
+        "tfw": "500",
+        "tlh": 1.1,
+        "richtxt": "<p>1. 30-Day Money Back: Within 30 days of purchase, return your undamaged\/unused HeyBike-UK product to receive a refund.<\/p><p>2. 1-year Warranty: We offer a 1-year warranty for the bike and battery. <\/p><p><em><strong>Notice: E-Bikes Are Not for Sale to Persons Under 18. Underage riders MUST be accompanied by parents or adults when riding.<\/strong><\/em><\/p>",
+        "cl": "#000",
+        "fs": 14,
+        "fsm": 13,
+        "lh": 1.6,
+        "btntxt": "",
+        "btnurl": "",
+        "btn-style": "btn",
+        "btntxt1": "",
+        "btnurl1": "",
+        "btn-style2": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "txt_align": "tl",
+        "text_clr": "#111"
+      }
+    },
+    "d16316f2-c921-4ba8-bd6b-9358a384aa48": {
+      "type": "richtext",
+      "settings": {
+        "top-offeset": "default",
+        "fullwidth": true,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "max-width": 1140,
+        "title": "Target Audience of the Extended Warranty",
+        "tcl": "#000",
+        "tfs": 26,
+        "tfsm": 20,
+        "tff": "ft1",
+        "tfw": "500",
+        "tlh": 1.1,
+        "richtxt": "<p>The warranty is registered automatically when the initial purchaser orders in the online shop. Therefore, the contract is ONLY under the INITIAL PURCHASER, and the 1-year warranty begins when the initial owner has received the product.<\/p>",
+        "cl": "#000",
+        "fs": 14,
+        "fsm": 13,
+        "lh": 1.6,
+        "btntxt": "",
+        "btnurl": "",
+        "btn-style": "btn",
+        "btntxt1": "",
+        "btnurl1": "",
+        "btn-style2": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "txt_align": "tl",
+        "text_clr": "#111"
+      }
+    },
+    "db779a81-b230-4e0c-8a28-505fc60e4b0b": {
+      "type": "richtext",
+      "settings": {
+        "top-offeset": "default",
+        "fullwidth": true,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "max-width": 1140,
+        "title": "What if I bought a second-hand Heybike?",
+        "tcl": "#000",
+        "tfs": 26,
+        "tfsm": 20,
+        "tff": "ft1",
+        "tfw": "500",
+        "tlh": 1.1,
+        "richtxt": "<p>You can enjoy the warranty only if (not optional):<\/p><p>1. The 1-year package hasn't expired since the initial owner received it<br\/><br\/>2. You have the initial owner's name & the initial order number.<br\/><\/p>",
+        "cl": "#000",
+        "fs": 14,
+        "fsm": 13,
+        "lh": 1.6,
+        "btntxt": "",
+        "btnurl": "",
+        "btn-style": "btn",
+        "btntxt1": "",
+        "btnurl1": "",
+        "btn-style2": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "txt_align": "tl",
+        "text_clr": "#111"
+      }
+    },
+    "a7748c32-464a-428e-89bc-11d19184c103": {
+      "type": "richtext",
+      "settings": {
+        "top-offeset": "default",
+        "fullwidth": true,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "max-width": 1140,
+        "title": "What if my bike was stolen?",
+        "tcl": "#000",
+        "tfs": 26,
+        "tfsm": 20,
+        "tff": "ft1",
+        "tfw": "500",
+        "tlh": 1.1,
+        "richtxt": "<p>Unfortunately, we are sorry that the warranty does not cover the stolen bike. We recommend investing in a quality lock to protect your bike when you're not riding.<\/p>",
+        "cl": "#000",
+        "fs": 14,
+        "fsm": 13,
+        "lh": 1.6,
+        "btntxt": "",
+        "btnurl": "",
+        "btn-style": "btn",
+        "btntxt1": "",
+        "btnurl1": "",
+        "btn-style2": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "txt_align": "tl",
+        "text_clr": "#111"
+      }
+    },
+    "c03bb73b-0dc8-4e65-ba9c-cbd0ae816a7a": {
+      "type": "richtext",
+      "settings": {
+        "top-offeset": "default",
+        "fullwidth": true,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "max-width": 1140,
+        "title": "Heybike Bike 1-Year Warranty",
+        "tcl": "#000",
+        "tfs": 26,
+        "tfsm": 20,
+        "tff": "ft1",
+        "tfw": "500",
+        "tlh": 1.1,
+        "richtxt": "<p>All Heybike bikes are covered under our manufacturer's 1-year all-inclusive warranty for the original owner against all manufacturing defects. (The warranty service covers no free accessories).<\/p><p>The 1-year warranty is started once the initial owner has received the product.<\/p>",
+        "cl": "#000",
+        "fs": 14,
+        "fsm": 13,
+        "lh": 1.6,
+        "btntxt": "",
+        "btnurl": "",
+        "btn-style": "btn",
+        "btntxt1": "",
+        "btnurl1": "",
+        "btn-style2": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "txt_align": "tl",
+        "text_clr": "#111"
+      }
+    },
+    "3157b7fa-5e6c-4b02-b884-f9b5678eec53": {
+      "type": "richtext",
+      "settings": {
+        "top-offeset": "default",
+        "fullwidth": true,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "max-width": 1140,
+        "title": "Replacement Procedure",
+        "tcl": "#000",
+        "tfs": 26,
+        "tfsm": 20,
+        "tff": "ft1",
+        "tfw": "500",
+        "tlh": 1.1,
+        "richtxt": "<p>Heybike will replace all components deemed defective or damaged (including damage incurred during shipment) without user error.<br\/><br\/>1: Claims<br\/>All claims to this warranty must be made through Heybike and submitted to support.uk@heybike.com. We ask that proof of purchase and photos or videos of the damaged product be sent with any warranty request. Before making a warranty claim, contact us at support.uk@heybike.com, as we can help fix your problem. Valid warranty claims will be processed through Heybike within one year of the initial purchase. Heybike can only replace any part after seeing a photo or video of the damaged product. The customer needs to provide us with evidence by email.<br\/><br\/>2: Shipping Damage Claims<br\/>In rare instances, the item received may be damaged during transportation. If shipping damage occurs, please get in touch with support.uk@heybike.com and provide us with a photo or video of the injury.<br\/><br\/>Free accessories are not included in the replacement or compensation if they cause scratches during transportation.<br\/><br\/><em><strong>NOTICE: We will not accept Shipping Damage Claims later than seven days from receipt of products.<\/strong><\/em><\/p>",
+        "cl": "#000",
+        "fs": 14,
+        "fsm": 13,
+        "lh": 1.6,
+        "btntxt": "",
+        "btnurl": "",
+        "btn-style": "btn",
+        "btntxt1": "",
+        "btnurl1": "",
+        "btn-style2": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "txt_align": "tl",
+        "text_clr": "#111"
       }
     }
   },
   "order": [
+    "d9bc8488-c5c3-41d0-ab38-90977014f5be",
     "page",
-    "faq"
+    "5252dbb9-0c23-471b-be96-da824c633c92",
+    "d16316f2-c921-4ba8-bd6b-9358a384aa48",
+    "db779a81-b230-4e0c-8a28-505fc60e4b0b",
+    "a7748c32-464a-428e-89bc-11d19184c103",
+    "c03bb73b-0dc8-4e65-ba9c-cbd0ae816a7a",
+    "3157b7fa-5e6c-4b02-b884-f9b5678eec53"
   ]
 }
