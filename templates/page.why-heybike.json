@@ -253,7 +253,7 @@
         "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-0": {
           "type": "text_block",
           "settings": {
-            "icons": "at-truck-l",
+            "icons": "at-ship-fast",
             "title": "FREE SHIPPING",
             "text": "<p>When you spend $100+<\/p>",
             "texturl": ""
@@ -295,7 +295,7 @@
       ],
       "settings": {
         "top_padding": "none",
-        "bottom_padding": "large",
+        "bottom_padding": "small",
         "top-offeset": "default",
         "section_style": "default",
         "section_width": false,
@@ -304,14 +304,14 @@
         "hide_mobile": false,
         "title": "",
         "subtitle": "",
-        "style": "style2",
+        "style": "style1",
         "icon-type": "icon",
-        "icons_clr": "#333",
-        "isz": 30,
-        "tcl": "#111",
-        "tfs": 14,
+        "icons_clr": "#fff",
+        "isz": 48,
+        "tcl": "#111111",
+        "tfs": 12,
         "tfsm": 12,
-        "tfw": "600",
+        "tfw": "500",
         "tlh": 1.2,
         "cl": "#333",
         "border_sep": "#eee"
