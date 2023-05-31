@@ -45,7 +45,7 @@
         "plh": 1.1,
         "pmb": 10,
         "pmbm": 5,
-        "title": "Affiliate Program",
+        "title": "Financing",
         "tcl": "#ffffff",
         "tfs": 30,
         "tfsm": 20,
@@ -54,7 +54,7 @@
         "tlh": 1.1,
         "tmb": 10,
         "tmbm": 5,
-        "text": "<p>We’re always excited to collaborate with new influential affiliates.<\/p>",
+        "text": "<p>Choose your payment plan, and no more hesitate for your new riding life!<\/p>",
         "cl": "#ffffff",
         "fs": 16,
         "fsm": 14,
@@ -92,8 +92,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/lQDPJyFWi8lReALNAZrNAZWwtR7lJhj7e7gEaz5jiAAMAA_405_410.jpg",
             "layout": "right",
-            "title": "Why partner with Heybike-UK?",
-            "text": "<p>HeyBike was driven to make “every e-bike for everyone” possible. And we need creative and enterprising partners to help us spread and realize more to the world.     Considering how quickly our bikes catch on via word-of-mouth, making a suitable convert is easy. Free cost and high commissions, why not apply?<\/p>",
+            "title": "RIDE NOW, PAY LATER",
+            "text": "<p>Are you preparing for your future e-bike trip? No more delay for your trip, and enjoy the Heybike e-bike immediately! Now, three payment plans are available for choosing, Pay in 4, Pay in 30 days, and Monthly financing (up to 24 months). <\/p><p><em><strong>*CA resident loans made or arranged under a California Financing Law license. <\/strong><\/em><\/p>",
             "button_label": "",
             "button_link": "",
             "text_align": "text-left",
@@ -110,28 +110,10 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/heybike_Cityscape_review8_cf82010e-4107-4520-8ad7-873ac8970bde.webp",
             "layout": "left",
-            "title": "Industry-leading commissions",
-            "text": "<p>With each successful order, you can get up to 3% commission on the transaction value. Take the EC 1, for example; you can get about $XX in commission when a referral buys the EC 1 through your link!<\/p>",
+            "title": "Pay in 4 Benefits:",
+            "text": "<p>1. Spread out your shopping and budget your spending, making it a flexible and easy shopping manner.<\/p><p>2. If you choose a Pay in 4 plan, it will not affect your credit score. <\/p><p>3. No interest and no fees when you pay on time.<\/p><p><strong>(<\/strong><em><strong>*CA resident loans made or arranged pursuant to a California Financing Law license<\/strong><\/em><strong>.)<\/strong><\/p>",
             "button_label": "",
             "button_link": "",
-            "text_align": "text-left",
-            "tcl": "#000000",
-            "cl": "#000000",
-            "bg": "#f5f5f5",
-            "btncl": "#ffffff",
-            "btnbg": "#000000",
-            "btnbd": "#000000"
-          }
-        },
-        "679037ac-fdf7-4af6-9a62-df6890f32c60": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/our_story.jpg",
-            "layout": "right",
-            "title": "Promotion made easy",
-            "text": "<p>Promote Heybike-UK using your referral link or our pre-made banners, emails, and other materials. Use the resources we've prepared for you to save time and money on content production.<\/p>",
-            "button_label": "Apply Now",
-            "button_link": "\/",
             "text_align": "text-left",
             "tcl": "#000000",
             "cl": "#000000",
@@ -144,8 +126,7 @@
       },
       "block_order": [
         "1633769564023b4dfb-0",
-        "3a7419a4-8a61-43ec-b2d7-43113cc5cbdc",
-        "679037ac-fdf7-4af6-9a62-df6890f32c60"
+        "3a7419a4-8a61-43ec-b2d7-43113cc5cbdc"
       ],
       "settings": {
         "top_padding": "none",
@@ -174,60 +155,148 @@
         "btn-size-mob": "mob-btn-sm"
       }
     },
-    "0789fc22-7b10-42e2-9072-3883c464eec2": {
-      "type": "multiple-image-text",
+    "36fb4958-5fd2-4d93-b4e5-9ecc8bd66777": {
+      "type": "richtext",
+      "settings": {
+        "top-offeset": "default",
+        "fullwidth": false,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "max-width": 700,
+        "title": "Financing Procedures:",
+        "tcl": "#000",
+        "tfs": 26,
+        "tfsm": 20,
+        "tff": "ft1",
+        "tfw": "700",
+        "tlh": 1.2,
+        "richtxt": "",
+        "cl": "#000",
+        "fs": 14,
+        "fsm": 13,
+        "lh": 1.6,
+        "btntxt": "",
+        "btnurl": "",
+        "btn-style": "btn",
+        "btntxt1": "",
+        "btnurl1": "",
+        "btn-style2": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "txt_align": "tl",
+        "text_clr": "#111"
+      }
+    },
+    "333b48a4-47f8-4c4b-bbae-234edc6f66e8": {
+      "type": "banner-with-text",
       "blocks": {
-        "b803f4d9-3051-4dd6-9d8f-ea70fc8abdfb": {
-          "type": "image",
+        "template--19320943345979__333b48a4-47f8-4c4b-bbae-234edc6f66e8-1685517169e04f9469-0": {
+          "type": "row",
           "settings": {
-            "slide_w": "w-1\/3",
-            "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/hands-typing-on-laptop.jpg",
-            "text_main": "01: Apply online",
-            "text_sub": "Fill out our affiliate application — it's free and only takes two minutes.",
-            "img_link": ""
+            "image": "shopify:\/\/shop_images\/1120x1200-klarna_payment_app_480x480_e4a91082-fc3a-4893-8237-c717d44589de.webp",
+            "layout": "left",
+            "title": "Step 1:",
+            "text": "<p>Get a Klarna app on your phone and sign in. Please notice that Pay in 4 payments first starts with the Klarna app.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "\/",
+            "text_align": "text-left",
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "#f5f5f5",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
           }
         },
-        "14f6e684-8f9b-48a4-af91-244f0639c2f4": {
-          "type": "image",
+        "c71f45a1-6643-4087-a182-795ae539412d": {
+          "type": "row",
           "settings": {
-            "slide_w": "w-1\/3",
-            "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/iphone-detects-qr-code.jpg",
-            "text_main": "02: Refer",
-            "text_sub": "We can provide you with beautifully designed marketing materials.",
-            "img_link": ""
+            "image": "shopify:\/\/shop_images\/1120x1200-klarna_budget_480x480_3e52c85e-e7e7-49d8-96b5-617217ea4d1a.webp",
+            "layout": "left",
+            "title": "Step 2:",
+            "text": "<p>Set your budget. Create a one-time card with the amount you want to spend. Your personal details and wallet will be protected, always.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "\/",
+            "text_align": "text-left",
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "#f5f5f5",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
           }
         },
-        "42187277-4855-4097-bffe-d5f52264f1fa": {
-          "type": "image",
+        "c795faea-83fe-42c0-a816-179a3a21520b": {
+          "type": "row",
           "settings": {
-            "slide_w": "w-1\/3",
-            "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/hands-typing-on-laptop.jpg",
-            "text_main": "03: Get paid",
-            "text_sub": "Earn up to 3% commission on each order. ",
-            "img_link": ""
+            "image": "shopify:\/\/shop_images\/klarna_payment_480x480_19b34cfa-0bce-4f49-ba4c-d3dbd772135c.webp",
+            "layout": "left",
+            "title": "Step 3:",
+            "text": "<p>Select the items you need in your cart and fill in your shipping information. Then, choose the Klarna payments on the payment page.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "\/",
+            "text_align": "text-left",
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "#f5f5f5",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
+        },
+        "5c2ab1bb-c33a-4d52-b649-7b7d6e479aae": {
+          "type": "row",
+          "settings": {
+            "layout": "left",
+            "title": "Step 4:",
+            "text": "<p>Choose the payment plan you would like and check out. And now, your financing begins.*Promotional purchase rate ranges from 0%-19.99% APR. Non-promotional balances have an APR of 19.99%. Subject to a $2 monthly minimum interest charge and credit approval. APR based on creditworthiness and subject to credit approval, resulting in, for example, [X] [(number of monthly payments)] equal monthly payments of $ [X] [(amount at 0% APR)] to $ [X] [(amount at 19.99% APR)] per $ [X] [(amount borrowed that the calculation is based on)] borrowed. Minimum purchase of $ [X] [(min purchase amount)] required. 0% APR financing only available to qualified customers with excellent credit history. Monthly financing through Klarna issued by WebBank, member FDIC.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "\/",
+            "text_align": "text-left",
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "#f5f5f5",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
           }
         }
       },
       "block_order": [
-        "b803f4d9-3051-4dd6-9d8f-ea70fc8abdfb",
-        "14f6e684-8f9b-48a4-af91-244f0639c2f4",
-        "42187277-4855-4097-bffe-d5f52264f1fa"
+        "template--19320943345979__333b48a4-47f8-4c4b-bbae-234edc6f66e8-1685517169e04f9469-0",
+        "c71f45a1-6643-4087-a182-795ae539412d",
+        "c795faea-83fe-42c0-a816-179a3a21520b",
+        "5c2ab1bb-c33a-4d52-b649-7b7d6e479aae"
       ],
       "settings": {
-        "top_padding": "medium",
-        "bottom_padding": "medium",
-        "title": "Get started today",
-        "layout": "imgText",
-        "enable_slider": false,
-        "bottom_line": false
+        "top_padding": "none",
+        "bottom_padding": "large",
+        "top-offeset": "default",
+        "section_style": "default",
+        "section_width": true,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "snow_effect": false,
+        "snow_style": "style1",
+        "tfs": 30,
+        "tfsm": 22,
+        "tff": "ft1",
+        "tfw": "700",
+        "tlh": 1.2,
+        "tmb": 15,
+        "tmbm": 10,
+        "fs": 14,
+        "fsm": 12,
+        "fw": "400",
+        "lh": 1.6,
+        "mb": 15,
+        "mbm": 10,
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm"
       }
     },
     "593ad453-c94a-45cb-a6f8-5ec7bca4c33d": {
       "type": "contact-form",
-      "disabled": true,
       "settings": {
         "layout": "2",
         "page_Width": 700,
@@ -245,7 +314,8 @@
     "page",
     "6c0763b2-0d0a-49b0-b91d-9518164b13eb",
     "1633769564023b4dfb",
-    "0789fc22-7b10-42e2-9072-3883c464eec2",
+    "36fb4958-5fd2-4d93-b4e5-9ecc8bd66777",
+    "333b48a4-47f8-4c4b-bbae-234edc6f66e8",
     "593ad453-c94a-45cb-a6f8-5ec7bca4c33d"
   ]
 }
