@@ -2,6 +2,7 @@
   "sections": {
     "page": {
       "type": "page-template",
+      "disabled": true,
       "settings": {
         "section_width": false,
         "hide_hdft": false,
@@ -24,6 +25,65 @@
         "hide_ttl": false
       }
     },
+    "2f028a23-6478-4871-80e6-6e2850fe17ed": {
+      "type": "hero",
+      "settings": {
+        "top-offeset": "default",
+        "section_width": true,
+        "ds_height": 340,
+        "tb_height": 350,
+        "mb_height": 250,
+        "parallax_scroll": false,
+        "image": "shopify:\/\/shop_images\/lQLPJx-0LdzE9sLNAZDNBQCwN3lCSGMfQS0Eaz3PIoALAQ_1280_400.png",
+        "alignment": "center",
+        "pretext": "",
+        "pcl": "#333",
+        "pfs": 15,
+        "pfsm": 13,
+        "pff": "ft1",
+        "pfw": "400",
+        "plh": 1.3,
+        "pmb": 10,
+        "pmbm": 5,
+        "title": "Heybike Memoir",
+        "tcl": "#000",
+        "tfs": 30,
+        "tfsm": 20,
+        "tff": "ft2",
+        "tfw": "700",
+        "tlh": 1.3,
+        "tmb": 10,
+        "tmbm": 5,
+        "text": "",
+        "cl": "#000",
+        "fs": 16,
+        "fsm": 14,
+        "fw": "400",
+        "lh": 1.6,
+        "mb": 30,
+        "mbm": 20,
+        "button_label": "",
+        "button_link": "\/",
+        "link_image": false,
+        "btn-style": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "isbox": true,
+        "bg": "#fff",
+        "opt": 0.3,
+        "bdr": 0,
+        "textalign": "tc",
+        "bxalign": "f-jcc f-aic",
+        "wd": 1200,
+        "snow_effect": false,
+        "snow_style": "style1",
+        "hero_dealtimer": false,
+        "cnt_date": "12\/20\/2023",
+        "cntbg": "#000",
+        "cntcl": "#eee",
+        "cntbd": "#000"
+      }
+    },
     "1633702112e4ae85a2": {
       "type": "richtext",
       "settings": {
@@ -31,15 +91,15 @@
         "fullwidth": false,
         "section_cov": false,
         "sec_bg_clr": "rgba(0,0,0,0)",
-        "max-width": 630,
-        "title": "",
+        "max-width": 770,
+        "title": "Write Your Part in Heybike Memoir!",
         "tcl": "#000000",
-        "tfs": 32,
+        "tfs": 30,
         "tfsm": 20,
         "tff": "ft2",
         "tfw": "700",
-        "tlh": 1.2,
-        "richtxt": "<p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+        "tlh": 1.9,
+        "richtxt": "<p>Thank you for choosing Heybike! We hope Heybike will be part of your life and hope it is meaningful to every Heybike rider as all of them Heybike riders have been part of Heybike!<br\/><br\/>In this case, we started the Heybike Memoir program for collecting videos made by you. You can post your video on social media, email us the URL link, or send us your file. You may receive a basket\/saddlebag or Heybike gift card as a reward! (The prize is to be dependent on the quality of the videos)<br\/><br\/>Heybike Memoir is to be combined by all Heybike riders! We would like you to share your Heybike ride experience and feelings about riding the Heybike e-bike, how it transformed you, how it gets through the adventure with you, and how it enriches your life.<br\/><br\/>In this way, we can change people's conception and the mode of transportation and lead a more enjoyable, environmentally-protect, and healthy life.<br\/><\/p>",
         "cl": "#000000",
         "fs": 15,
         "fsm": 13,
@@ -56,287 +116,36 @@
         "text_clr": "#111111"
       }
     },
-    "1633702782070ac30c": {
-      "type": "custom-content",
-      "blocks": {
-        "1633702782070ac30c-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/fashion_787be7e7-7c09-4366-b4a8-226812bed4ea.jpg",
-            "imgurl": "",
-            "width": "100%",
-            "alignment": "center"
-          }
-        },
-        "1633702782070ac30c-0": {
-          "type": "text",
-          "settings": {
-            "title": "WHY WE",
-            "font-size": "h5",
-            "text": "",
-            "btntxt": "Read More",
-            "btnurl": "",
-            "btn-style": "btn",
-            "width": "wd20-md",
-            "alignment": "top-middle",
-            "align_text": "left",
-            "eblock_bg": false,
-            "block_bg": "#f5f5f5",
-            "block_txt": "#000000"
-          }
-        },
-        "eed07140-f1a1-4718-94f4-94e32ccb2103": {
-          "type": "text",
-          "settings": {
-            "title": "",
-            "font-size": "small",
-            "text": "<p>Avon comes with easy-to-use interface and outstanding support. You can implement your own design. You can easily change the store's appearance as per your requirements using our ready sections and options available.<\/p>",
-            "btntxt": "Read More",
-            "btnurl": "",
-            "btn-style": "btn",
-            "width": "wd75-md",
-            "alignment": "center",
-            "align_text": "left",
-            "eblock_bg": false,
-            "block_bg": "#f5f5f5",
-            "block_txt": "#000000"
-          }
-        },
-        "8a140d65-6d1f-4f5f-93f1-da0600d08f22": {
-          "type": "text",
-          "settings": {
-            "title": "OUR VISION",
-            "font-size": "h5",
-            "text": "",
-            "btntxt": "Read More",
-            "btnurl": "",
-            "btn-style": "btn",
-            "width": "wd20-md",
-            "alignment": "top-middle",
-            "align_text": "left",
-            "eblock_bg": false,
-            "block_bg": "#f5f5f5",
-            "block_txt": "#000000"
-          }
-        },
-        "c77370ff-5e67-4570-bc10-d2fa93287ec6": {
-          "type": "text",
-          "settings": {
-            "title": "",
-            "font-size": "small",
-            "text": "<p>Vestibulum ultricies aliquam convallis. Maecenas ut tellus mi. Proin tincidunt, lectus eu volutpat mattis, ante metus lacinia tellus, vitae condimentum nulla enim bibendum nibh. Praesent turpis risus, interdum nec venenatis id, pretium sit amet purus. Interdum et malesuada fames ac ante ipsum primis in faucibus.<\/p>",
-            "btntxt": "Read More",
-            "btnurl": "",
-            "btn-style": "btn",
-            "width": "wd75-md",
-            "alignment": "center",
-            "align_text": "left",
-            "eblock_bg": false,
-            "block_bg": "#f5f5f5",
-            "block_txt": "#000000"
-          }
-        },
-        "40718c49-79ca-4320-b27d-8999804d71ab": {
-          "type": "text",
-          "settings": {
-            "title": "OUR MISSION",
-            "font-size": "h5",
-            "text": "",
-            "btntxt": "Read More",
-            "btnurl": "",
-            "btn-style": "btn",
-            "width": "wd20-md",
-            "alignment": "top-middle",
-            "align_text": "left",
-            "eblock_bg": false,
-            "block_bg": "#f5f5f5",
-            "block_txt": "#000000"
-          }
-        },
-        "8b2834e8-dc5c-4b9f-97a7-133cdb1f5102": {
-          "type": "text",
-          "settings": {
-            "title": "",
-            "font-size": "small",
-            "text": "<p>Vestibulum ultricies aliquam convallis. Maecenas ut tellus mi. Proin tincidunt, lectus eu volutpat mattis, ante metus lacinia tellus, vitae condimentum nulla enim bibendum nibh. Praesent turpis risus, interdum nec venenatis id, pretium sit amet purus. Interdum et malesuada fames ac ante ipsum primis in faucibus.<br\/><br\/><\/p>",
-            "btntxt": "Read More",
-            "btnurl": "",
-            "btn-style": "btn",
-            "width": "wd75-md",
-            "alignment": "center",
-            "align_text": "left",
-            "eblock_bg": false,
-            "block_bg": "#f5f5f5",
-            "block_txt": "#000000"
-          }
-        },
-        "6ee42776-fc73-4702-a528-8c7076cb451e": {
-          "type": "text",
-          "settings": {
-            "title": "CONTACT US",
-            "font-size": "h5",
-            "text": "",
-            "btntxt": "Read More",
-            "btnurl": "",
-            "btn-style": "btn",
-            "width": "wd20-md",
-            "alignment": "top-middle",
-            "align_text": "left",
-            "eblock_bg": false,
-            "block_bg": "#f5f5f5",
-            "block_txt": "#000000"
-          }
-        },
-        "67d36c2e-c818-445f-b8a0-62c7cf8ff2ca": {
-          "type": "text",
-          "settings": {
-            "title": "",
-            "font-size": "small",
-            "text": "<p><strong>55 Gallaxy Enque,<\/strong><br\/>2568 steet, 23568 NY<br\/><br\/><strong>Phone<\/strong> : (440) 000 000 0000 <br\/><strong>Email<\/strong>: sales@yousite.com<\/p>",
-            "btntxt": "Read More",
-            "btnurl": "",
-            "btn-style": "btn",
-            "width": "wd75-md",
-            "alignment": "center",
-            "align_text": "left",
-            "eblock_bg": false,
-            "block_bg": "#f5f5f5",
-            "block_txt": "#000000"
-          }
-        },
-        "d7d13fe3-df55-4cd6-8a34-d3bd77cc8469": {
-          "type": "html",
-          "settings": {
-            "code": "",
-            "width": "100%",
-            "alignment": "f-asc"
-          }
-        }
-      },
-      "block_order": [
-        "1633702782070ac30c-1",
-        "1633702782070ac30c-0",
-        "eed07140-f1a1-4718-94f4-94e32ccb2103",
-        "8a140d65-6d1f-4f5f-93f1-da0600d08f22",
-        "c77370ff-5e67-4570-bc10-d2fa93287ec6",
-        "40718c49-79ca-4320-b27d-8999804d71ab",
-        "8b2834e8-dc5c-4b9f-97a7-133cdb1f5102",
-        "6ee42776-fc73-4702-a528-8c7076cb451e",
-        "67d36c2e-c818-445f-b8a0-62c7cf8ff2ca",
-        "d7d13fe3-df55-4cd6-8a34-d3bd77cc8469"
-      ],
+    "d5f9b85b-4528-443a-a4e0-d59191733b41": {
+      "type": "video",
       "settings": {
-        "title": "",
-        "subtitle": "",
         "top-offeset": "default",
         "section_width": false,
+        "rounded": true,
         "hide_mobile": false,
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa",
-        "prbox_style": "style1",
-        "btn-size-desk": "btn-sm",
-        "btn-size-mob": "mob-btn-sm"
-      }
-    },
-    "163370338231fb431a": {
-      "type": "custom-content",
-      "blocks": {
-        "163370338231fb431a-0": {
-          "type": "text",
-          "settings": {
-            "title": "OUR TEAM",
-            "font-size": "h5",
-            "text": "",
-            "btntxt": "Read More",
-            "btnurl": "",
-            "btn-style": "btn",
-            "width": "wd20-md",
-            "alignment": "top-middle",
-            "align_text": "left",
-            "eblock_bg": false,
-            "block_bg": "#f5f5f5",
-            "block_txt": "#000000"
-          }
-        },
-        "d7503bf8-9d57-4a7b-8aac-89862c84effa": {
-          "type": "text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/demo2-about-3.jpg",
-            "title": "ANGELA ROBOT",
-            "font-size": "h6",
-            "text": "<p>FOUNDER & CEO<\/p>",
-            "btntxt": "",
-            "btnurl": "",
-            "btn-style": "btn",
-            "width": "wd25-md",
-            "alignment": "top-middle",
-            "align_text": "center",
-            "eblock_bg": false,
-            "block_bg": "#f5f5f5",
-            "block_txt": "#000000"
-          }
-        },
-        "31b173ca-f68b-4d1f-9477-ee4ab1522adc": {
-          "type": "text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/demo2-about-2.jpg",
-            "title": "JULIA WILLE",
-            "font-size": "h6",
-            "text": "<p>Co. FOUNDER<\/p>",
-            "btntxt": "Read More",
-            "btnurl": "",
-            "btn-style": "btn",
-            "width": "wd25-md",
-            "alignment": "top-middle",
-            "align_text": "center",
-            "eblock_bg": false,
-            "block_bg": "#f5f5f5",
-            "block_txt": "#000000"
-          }
-        },
-        "38032b1b-fbc4-4576-835b-e614f3b86e0f": {
-          "type": "text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/demo2-about-1.jpg",
-            "title": "STEVE SMITH",
-            "font-size": "h6",
-            "text": "<p>DASHION DESIGNER<\/p>",
-            "btntxt": "Read More",
-            "btnurl": "",
-            "btn-style": "btn",
-            "width": "wd25-md",
-            "alignment": "top-middle",
-            "align_text": "center",
-            "eblock_bg": false,
-            "block_bg": "#f5f5f5",
-            "block_txt": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "163370338231fb431a-0",
-        "d7503bf8-9d57-4a7b-8aac-89862c84effa",
-        "31b173ca-f68b-4d1f-9477-ee4ab1522adc",
-        "38032b1b-fbc4-4576-835b-e614f3b86e0f"
-      ],
-      "settings": {
-        "title": "",
-        "subtitle": "",
-        "top-offeset": "small",
-        "section_width": false,
-        "hide_mobile": false,
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa",
-        "prbox_style": "style1",
-        "btn-size-desk": "btn-sm",
-        "btn-size-mob": "mob-btn-sm"
+        "snow_effect": false,
+        "snow_style": "style1",
+        "pad-desk": 55,
+        "pad-ipad": 15,
+        "pad-mbl": 10,
+        "mp4url": "",
+        "title": "Video Text",
+        "color_ttl": "#fff",
+        "tfs": 20,
+        "tfsm": 12,
+        "hide_text": false,
+        "btntxt": "",
+        "btnurl": "",
+        "hide_btn": false,
+        "btn-style": "btn",
+        "text_align": "left"
       }
     }
   },
   "order": [
     "page",
+    "2f028a23-6478-4871-80e6-6e2850fe17ed",
     "1633702112e4ae85a2",
-    "1633702782070ac30c",
-    "163370338231fb431a"
+    "d5f9b85b-4528-443a-a4e0-d59191733b41"
   ]
 }
