@@ -1,0 +1,251 @@
+{
+  "sections": {
+    "page": {
+      "type": "page-template",
+      "disabled": true,
+      "settings": {
+        "section_width": false,
+        "hide_hdft": false,
+        "breadcrumb": false,
+        "bnr": true,
+        "bheight": 300,
+        "bheightipad": 200,
+        "bheightmob": 100,
+        "bnr-wd": 600,
+        "show_collection_name": true,
+        "ftTtl": 42,
+        "ftTtlm": 20,
+        "ttlft": "font2",
+        "ttlwt": "fw-700",
+        "ttlcase": "tt-u",
+        "ftTxt": 15,
+        "ttlclr": "#000000",
+        "clr_bg": "#f5f5f5",
+        "width": 1200,
+        "hide_ttl": true
+      }
+    },
+    "6c0763b2-0d0a-49b0-b91d-9518164b13eb": {
+      "type": "hero",
+      "settings": {
+        "top-offeset": "default",
+        "section_width": false,
+        "ds_height": 190,
+        "tb_height": 350,
+        "mb_height": 250,
+        "parallax_scroll": false,
+        "image": "shopify:\/\/shop_images\/lQLPJx-0LdzE9sLNAZDNBQCwN3lCSGMfQS0Eaz3PIoALAQ_1280_400.png",
+        "alignment": "center",
+        "pretext": "",
+        "pcl": "#333333",
+        "pfs": 15,
+        "pfsm": 13,
+        "pff": "ft1",
+        "pfw": "400",
+        "plh": 1.1,
+        "pmb": 10,
+        "pmbm": 5,
+        "title": "Affiliate Program",
+        "tcl": "#ffffff",
+        "tfs": 30,
+        "tfsm": 20,
+        "tff": "ft2",
+        "tfw": "700",
+        "tlh": 1.1,
+        "tmb": 10,
+        "tmbm": 5,
+        "text": "<p>We’re always excited to collaborate with new influential affiliates.<\/p>",
+        "cl": "#ffffff",
+        "fs": 16,
+        "fsm": 14,
+        "fw": "400",
+        "lh": 1.6,
+        "mb": 30,
+        "mbm": 20,
+        "button_label": "",
+        "button_link": "\/",
+        "link_image": false,
+        "btn-style": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "isbox": true,
+        "bg": "#ffffff",
+        "opt": 0.2,
+        "bdr": 0,
+        "textalign": "tc",
+        "bxalign": "f-jcc f-aic",
+        "wd": 1200,
+        "snow_effect": false,
+        "snow_style": "style1",
+        "hero_dealtimer": false,
+        "cnt_date": "12\/20\/2023",
+        "cntbg": "#000000",
+        "cntcl": "#eeeeee",
+        "cntbd": "#000000"
+      }
+    },
+    "1633769564023b4dfb": {
+      "type": "banner-with-text",
+      "blocks": {
+        "1633769564023b4dfb-0": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lQDPJyFWi8lReALNAZrNAZWwtR7lJhj7e7gEaz5jiAAMAA_405_410.jpg",
+            "layout": "right",
+            "title": "Why partner with Heybike-UK?",
+            "text": "<p>HeyBike was driven to make “every e-bike for everyone” possible. And we need creative and enterprising partners to help us spread and realize more to the world.     Considering how quickly our bikes catch on via word-of-mouth, making a suitable convert is easy. Free cost and high commissions, why not apply?<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "text_align": "text-left",
+            "tcl": "#000000",
+            "cl": "#000000",
+            "bg": "#f5f5f5",
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
+          }
+        },
+        "3a7419a4-8a61-43ec-b2d7-43113cc5cbdc": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/heybike_Cityscape_review8_cf82010e-4107-4520-8ad7-873ac8970bde.webp",
+            "layout": "left",
+            "title": "Industry-leading commissions",
+            "text": "<p>With each successful order, you can get up to 3% commission on the transaction value. Take the EC 1, for example; you can get about $XX in commission when a referral buys the EC 1 through your link!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "text_align": "text-left",
+            "tcl": "#000000",
+            "cl": "#000000",
+            "bg": "#f5f5f5",
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
+          }
+        },
+        "679037ac-fdf7-4af6-9a62-df6890f32c60": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/our_story.jpg",
+            "layout": "right",
+            "title": "Promotion made easy",
+            "text": "<p>Promote Heybike-UK using your referral link or our pre-made banners, emails, and other materials. Use the resources we've prepared for you to save time and money on content production.<\/p>",
+            "button_label": "Apply Now",
+            "button_link": "\/",
+            "text_align": "text-left",
+            "tcl": "#000000",
+            "cl": "#000000",
+            "bg": "#f5f5f5",
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "1633769564023b4dfb-0",
+        "3a7419a4-8a61-43ec-b2d7-43113cc5cbdc",
+        "679037ac-fdf7-4af6-9a62-df6890f32c60"
+      ],
+      "settings": {
+        "top_padding": "none",
+        "bottom_padding": "large",
+        "top-offeset": "default",
+        "section_style": "default",
+        "section_width": false,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "snow_effect": false,
+        "snow_style": "style1",
+        "tfs": 30,
+        "tfsm": 22,
+        "tff": "ft1",
+        "tfw": "700",
+        "tlh": 1.2,
+        "tmb": 15,
+        "tmbm": 10,
+        "fs": 14,
+        "fsm": 12,
+        "fw": "400",
+        "lh": 1.6,
+        "mb": 15,
+        "mbm": 10,
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm"
+      }
+    },
+    "0789fc22-7b10-42e2-9072-3883c464eec2": {
+      "type": "multiple-image-text",
+      "blocks": {
+        "b803f4d9-3051-4dd6-9d8f-ea70fc8abdfb": {
+          "type": "image",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/hands-typing-on-laptop.jpg",
+            "text_main": "01: Apply online",
+            "text_sub": "Fill out our affiliate application — it's free and only takes two minutes.",
+            "img_link": ""
+          }
+        },
+        "14f6e684-8f9b-48a4-af91-244f0639c2f4": {
+          "type": "image",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/iphone-detects-qr-code.jpg",
+            "text_main": "02: Refer",
+            "text_sub": "We can provide you with beautifully designed marketing materials.",
+            "img_link": ""
+          }
+        },
+        "42187277-4855-4097-bffe-d5f52264f1fa": {
+          "type": "image",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/hands-typing-on-laptop.jpg",
+            "text_main": "03: Get paid",
+            "text_sub": "Earn up to 3% commission on each order. ",
+            "img_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "b803f4d9-3051-4dd6-9d8f-ea70fc8abdfb",
+        "14f6e684-8f9b-48a4-af91-244f0639c2f4",
+        "42187277-4855-4097-bffe-d5f52264f1fa"
+      ],
+      "settings": {
+        "top_padding": "medium",
+        "bottom_padding": "medium",
+        "title": "Get started today",
+        "layout": "imgText",
+        "enable_slider": false,
+        "bottom_line": false
+      }
+    },
+    "593ad453-c94a-45cb-a6f8-5ec7bca4c33d": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "layout": "2",
+        "page_Width": 700,
+        "title": "Drop Us A Line",
+        "subtitle": "Get in touch and let us know how we can help. Have a question but aren’t sure who to contact? Get in touch and a member of our team will reach out to you.",
+        "show_phone": false,
+        "show_subject": false,
+        "top-offeset": "default",
+        "section_cov": true,
+        "sec_bg_clr": "#fafafa"
+      }
+    }
+  },
+  "order": [
+    "page",
+    "6c0763b2-0d0a-49b0-b91d-9518164b13eb",
+    "1633769564023b4dfb",
+    "0789fc22-7b10-42e2-9072-3883c464eec2",
+    "593ad453-c94a-45cb-a6f8-5ec7bca4c33d"
+  ]
+}
