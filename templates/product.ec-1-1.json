@@ -433,7 +433,7 @@
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
             "text_main": "Shimano 7-speed Drivetrain",
-            "text_sub": "The Shimano® 7-speed chain drive ispowerful, smooth, and built to perform high on all roads.",
+            "text_sub": "The Shimano® 7-speed chain drive is powerful, smooth, and built to perform high on all roads.",
             "img_link": ""
           }
         },
@@ -443,8 +443,8 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
-            "text_main": "Find Dealers Near You",
-            "text_sub": "Test Ride & Buy Directly",
+            "text_main": "Puncture-resistant Tires",
+            "text_sub": "700C*40C tires with enhanced anti-puncture technology for versatile city, gravel, and long-distance riding.",
             "img_link": ""
           }
         },
@@ -454,8 +454,40 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
+            "text_main": "Headlights",
+            "text_sub": "Flexible multi-angle adjustment, ideal for lighting during commutes. Ensure that you are well-lit without blinding other drivers.",
+            "img_link": ""
+          }
+        },
+        "c9df6b6c-9075-458e-a57e-2545b123d371": {
+          "type": "image",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/1_71d8bd74-ff24-4cd5-bc58-31265113647d.png",
+            "text_main": "LCD Display",
+            "text_sub": "Compatible with the HEYBIKE App to help you navigate the journey ahead.",
+            "img_link": ""
+          }
+        },
+        "caa3fc66-d164-41ff-b246-a4aac14c9593": {
+          "type": "image",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
             "text_main": "Find Dealers Near You",
             "text_sub": "Test Ride & Buy Directly",
+            "img_link": ""
+          }
+        },
+        "04b2b249-0c89-4131-8699-c023d80235a9": {
+          "type": "image",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
+            "text_main": "Hydraulic disc brakes",
+            "text_sub": "Upgrade your braking experience with our Hydraulic disc brakes. Enjoy accurate and forceful brakes for safer, more consistent travel.",
             "img_link": ""
           }
         }
@@ -463,7 +495,10 @@
       "block_order": [
         "01473a8c-f8f3-4061-8171-24367981f33e",
         "0114d1a4-5f44-43a5-bf46-6af6a08e5df5",
-        "fe7a03d3-b3df-4677-9e12-793a76f51f95"
+        "fe7a03d3-b3df-4677-9e12-793a76f51f95",
+        "c9df6b6c-9075-458e-a57e-2545b123d371",
+        "caa3fc66-d164-41ff-b246-a4aac14c9593",
+        "04b2b249-0c89-4131-8699-c023d80235a9"
       ],
       "settings": {
         "top_padding": "large",
