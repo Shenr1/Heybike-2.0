@@ -93,7 +93,7 @@
             "image": "shopify:\/\/shop_images\/lQDPJyFWi8lReALNAZrNAZWwtR7lJhj7e7gEaz5jiAAMAA_405_410.jpg",
             "layout": "right",
             "title": "Post Heybike • Win the Gifts!",
-            "text": "<p>As we would like to put together something unique for all of our fabulous customers and subscribers for delivering our deepest gratitude for your great support, we arranged the Heybike Reward Program.<\/p><p>Not only quick and easy, but the most important and best part is that it will get you heaps of extra bonuses; here is how it works:<\/p><p>To participate in the program, please share your riding experience with the heybike e-bike as videos or photos on your social media. The videos or pictures posted on (i) YouTube, the titles should contain Heybike; (ii) Facebook, Instagram, TikTok, or Twitter, should be added the tag #heybike and @Heybike_official.<\/p>",
+            "text": "<p>As we would like to put together something unique for all of our fabulous customers and subscribers for delivering our deepest gratitude for your great support, we arranged the Heybike Reward Program.<\/p><p>Not only quick and easy, but the most important and best part is that it will get you heaps of extra bonuses; here is how it works:<\/p><p>To participate in the program, please share your riding experience with the heybike e-bike as videos or photos on your social media. The videos or pictures posted on (i) YouTube, the titles should contain Heybike; (ii) Facebook, Instagram, TikTok, or Twitter, should be added the tag #heybike and @Heybike_official.<\/p><p><strong>Note:<\/strong><\/p><p>1. Please keep your views of the video real.<\/p><p>2. This program is only available for fans owning at least 1 Heybike product.<\/p>",
             "button_label": "",
             "button_link": "",
             "text_align": "text-left",
@@ -122,11 +122,29 @@
             "btnbg": "#000000",
             "btnbd": "#000000"
           }
+        },
+        "cd297f10-5e16-4ae3-af32-9927459621dd": {
+          "type": "row",
+          "settings": {
+            "layout": "right",
+            "title": "Banner With Text",
+            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "\/",
+            "text_align": "text-left",
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "#f5f5f5",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
         }
       },
       "block_order": [
         "1633769564023b4dfb-0",
-        "679037ac-fdf7-4af6-9a62-df6890f32c60"
+        "679037ac-fdf7-4af6-9a62-df6890f32c60",
+        "cd297f10-5e16-4ae3-af32-9927459621dd"
       ],
       "settings": {
         "top_padding": "none",
@@ -160,45 +178,13 @@
       "settings": {
         "layout": "2",
         "page_Width": 700,
-        "title": "Drop Us A Line",
-        "subtitle": "Get in touch and let us know how we can help. Have a question but aren’t sure who to contact? Get in touch and a member of our team will reach out to you.",
+        "title": "Contact Us",
+        "subtitle": "Please feel free to contact us if you have any questions",
         "show_phone": false,
         "show_subject": false,
         "top-offeset": "default",
         "section_cov": true,
         "sec_bg_clr": "#fafafa"
-      }
-    },
-    "9c75a357-b16f-4024-9988-086ad1a493b5": {
-      "type": "richtext",
-      "settings": {
-        "top-offeset": "default",
-        "fullwidth": false,
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa",
-        "max-width": 700,
-        "title": "Note",
-        "tcl": "#000",
-        "tfs": 26,
-        "tfsm": 20,
-        "tff": "ft1",
-        "tfw": "700",
-        "tlh": 1.2,
-        "richtxt": "<p>1. Please keep your views of the video real.<\/p><p>2. This program is only available for fans owning at least 1 Heybike product.<\/p><p>Please feel free to contact us if you have any questions<\/p>",
-        "cl": "#000",
-        "fs": 14,
-        "fsm": 13,
-        "lh": 1.6,
-        "btntxt": "",
-        "btnurl": "",
-        "btn-style": "btn",
-        "btntxt1": "",
-        "btnurl1": "",
-        "btn-style2": "btn",
-        "btn-size-desk": "btn-md",
-        "btn-size-mob": "mob-btn-sm",
-        "txt_align": "tl",
-        "text_clr": "#111"
       }
     }
   },
@@ -206,7 +192,6 @@
     "page",
     "6c0763b2-0d0a-49b0-b91d-9518164b13eb",
     "1633769564023b4dfb",
-    "593ad453-c94a-45cb-a6f8-5ec7bca4c33d",
-    "9c75a357-b16f-4024-9988-086ad1a493b5"
+    "593ad453-c94a-45cb-a6f8-5ec7bca4c33d"
   ]
 }
