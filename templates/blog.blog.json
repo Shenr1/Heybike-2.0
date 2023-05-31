@@ -191,8 +191,8 @@
         "subtitle": "",
         "show_phone": false,
         "show_subject": false,
-        "top-offeset": "default",
-        "section_cov": true,
+        "top-offeset": "small",
+        "section_cov": false,
         "sec_bg_clr": "#fafafa"
       }
     }
