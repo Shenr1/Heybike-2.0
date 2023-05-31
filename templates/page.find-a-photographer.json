@@ -183,6 +183,72 @@
         "form_bg": "#f8f8f8",
         "form_text": "#111111"
       }
+    },
+    "9db7547b-3f09-4b1d-90d4-0ac4f70cae7a": {
+      "type": "logo-list",
+      "blocks": {
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-0": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "opentab": false
+          }
+        },
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-1": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "opentab": false
+          }
+        },
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-2": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "opentab": false
+          }
+        },
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-3": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "opentab": false
+          }
+        },
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-4": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "opentab": false
+          }
+        },
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-5": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "opentab": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-0",
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-1",
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-2",
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-3",
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-4",
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-5"
+      ],
+      "settings": {
+        "title": "Logo list",
+        "subtitle": "Describe your products, collection, content etc...",
+        "top-offeset": "default",
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "logostyle": "carousel",
+        "grid": 6,
+        "tablet-grid": 5,
+        "mobile-grid": 3
+      }
     }
   },
   "order": [
@@ -190,6 +256,7 @@
     "fe6340dd-ea38-4ce9-9f9e-0abb15908260",
     "bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a",
     "eded3e05-a976-441e-9060-85cc81f16735",
-    "contact"
+    "contact",
+    "9db7547b-3f09-4b1d-90d4-0ac4f70cae7a"
   ]
 }

@@ -2,6 +2,7 @@
   "sections": {
     "contact": {
       "type": "contact-template",
+      "disabled": true,
       "settings": {
         "width": 1200,
         "hide_ttl": true,
@@ -12,7 +13,7 @@
         "contact_text_desc": "Get in touch and let us know how we can help. Have a question but aren’t sure who to contact? Get in touch and a member of our team will reach out to you.",
         "show_phone": false,
         "show_subject": false,
-        "store_opening_time": "<p><b>OPENING HOURS<\/b><\/p>\nMon - Fri : 9am - 11 pm <br>",
+        "store_opening_time": "<p><b>OPENING HOURS<\/b><\/p>\nMon - Fri : 9am - 6 pm <br>",
         "cnt_title": "",
         "store_address": "<b>ADDRESS:<\/b><br>55 Gallaxy Enque, 2568 steet, 23568 NY",
         "store_phone": "",
@@ -22,9 +23,76 @@
         "form_bg": "#f8f8f8",
         "form_text": "#111111"
       }
+    },
+    "746e6059-ac66-40dc-865b-17bd58ed7b6c": {
+      "type": "banner-with-text",
+      "blocks": {
+        "template--19143575175483__746e6059-ac66-40dc-865b-17bd58ed7b6c-168552199358466c63-0": {
+          "type": "row",
+          "settings": {
+            "layout": "right",
+            "title": "Banner With Text",
+            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "\/",
+            "text_align": "text-left",
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "#f5f5f5",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "template--19143575175483__746e6059-ac66-40dc-865b-17bd58ed7b6c-168552199358466c63-0"
+      ],
+      "settings": {
+        "top_padding": "none",
+        "bottom_padding": "large",
+        "top-offeset": "default",
+        "section_style": "default",
+        "section_width": true,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "snow_effect": false,
+        "snow_style": "style1",
+        "tfs": 30,
+        "tfsm": 22,
+        "tff": "ft1",
+        "tfw": "700",
+        "tlh": 1.2,
+        "tmb": 15,
+        "tmbm": 10,
+        "fs": 14,
+        "fsm": 12,
+        "fw": "400",
+        "lh": 1.6,
+        "mb": 15,
+        "mbm": 10,
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm"
+      }
+    },
+    "5482db4a-a98c-4c40-a21e-e4e273714733": {
+      "type": "contact-form",
+      "settings": {
+        "layout": "2",
+        "page_Width": 700,
+        "title": "Drop Us A Line",
+        "subtitle": "Get in touch and let us know how we can help. Have a question but aren’t sure who to contact? Get in touch and a member of our team will reach out to you.",
+        "show_phone": false,
+        "show_subject": false,
+        "top-offeset": "default",
+        "section_cov": true,
+        "sec_bg_clr": "#fafafa"
+      }
     }
   },
   "order": [
-    "contact"
+    "contact",
+    "746e6059-ac66-40dc-865b-17bd58ed7b6c",
+    "5482db4a-a98c-4c40-a21e-e4e273714733"
   ]
 }
