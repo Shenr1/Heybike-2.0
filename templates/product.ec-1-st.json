@@ -55,8 +55,8 @@
         "product-form": {
           "type": "cta",
           "settings": {
-            "qty_sel": false,
-            "bm": 30
+            "qty_sel": true,
+            "bm": 20
           }
         },
         "900c2863-7a02-4344-845e-386c8248bc4d": {
@@ -601,6 +601,8 @@
             "title": "Smarttech and APP",
             "text": "<p>Your amazing rides deserve a journal! Connect your bike to the HEYBIKE App, and build an impressive mileage count!<\/p>",
             "bottom_logo": "shopify:\/\/shop_images\/app-store.webp",
+            "logo_url": "",
+            "logo_url2": "",
             "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
