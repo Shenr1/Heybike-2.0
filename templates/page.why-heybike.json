@@ -258,17 +258,17 @@
           "type": "text_block",
           "settings": {
             "icons": "at-ship-fast",
-            "title": "FREE SHIPPING",
-            "text": "<p>When you spend $100+<\/p>",
+            "title": "Fast Shipping",
+            "text": "<p>Ships to the UK<\/p>",
             "texturl": ""
           }
         },
         "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-1": {
           "type": "text_block",
           "settings": {
-            "icons": "at-undo-r",
-            "title": "FREE RETURNS",
-            "text": "<p>30-days free return policy.<\/p>",
+            "icons": " at-customer-service",
+            "title": "Fast Support",
+            "text": "<p>Email & Phone Service<\/p>",
             "texturl": ""
           }
         },
@@ -314,7 +314,7 @@
         "icons_clr": "#ffffff",
         "isz": 33,
         "tcl": "#111111",
-        "tfs": 14,
+        "tfs": 15,
         "tfsm": 12,
         "tfw": "500",
         "tlh": 1.2,
