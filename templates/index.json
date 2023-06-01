@@ -459,7 +459,7 @@
         "bottom_padding": "extraLarge",
         "top-offeset": "none",
         "section_style": "heybike",
-        "section_width": true,
+        "section_width": false,
         "section_cov": true,
         "sec_bg_clr": "#232426",
         "hide_mobile": false,
