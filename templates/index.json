@@ -31,37 +31,38 @@
             "txtposm": "f-ais f-jcs"
           }
         },
-        "1561726660568-1": {
+        "208504ac-576d-4468-85f2-307d5444445e": {
           "type": "image",
-          "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/Banner_2.jpg",
+            "imagem": "shopify:\/\/shop_images\/3_e9ed99a9-28ce-4c95-9ae8-0fa55a098d88.webp",
             "ialign": "center_center",
-            "hd1": "",
-            "pcl": "#111111",
-            "title": "<b>Speed up your store<br> to convert more Sales<\/b>",
-            "tcl": "#111111",
-            "hd3": "The Powerful Theme You can Trust",
+            "hd1": "EC 1-ST",
+            "pcl": "#ffffff",
+            "title": "Bring an Ideal<br>Uran Life",
+            "tcl": "#ffffff",
+            "hd3": "",
             "hideh3": true,
-            "cl": "#111111",
-            "btn": "Shop now",
-            "link": "shopify:\/\/collections\/hot-collection",
-            "btn1window": false,
+            "cl": "#ffffff",
+            "btn": "Shop Now &nbsp >",
+            "link": "shopify:\/\/products\/heybike-ec-1",
+            "btn1window": true,
             "btn-style": "btn",
             "display_btn": false,
-            "btn2": "Shop now",
-            "link2": "",
+            "btn2": "Shop Now",
+            "link2": "shopify:\/\/collections",
             "btn2window": false,
             "btn-style1": "btn1",
             "contwd": 1300,
-            "text-left": false,
-            "txtpos": "f-jce-md f-aic-md",
-            "txtposm": "f-jcc f-aie"
+            "text-left": true,
+            "txtpos": "f-aic-md f-jcs-md",
+            "txtposm": "f-ais f-jcs"
           }
         }
       },
       "block_order": [
         "1561726660568-0",
-        "1561726660568-1"
+        "208504ac-576d-4468-85f2-307d5444445e"
       ],
       "settings": {
         "top-offeset": "none",

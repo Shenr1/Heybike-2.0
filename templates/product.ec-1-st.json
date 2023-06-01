@@ -280,7 +280,7 @@
         "a27b30d1-ea2c-42ec-9fce-1899fef048f4": {
           "type": "item",
           "settings": {
-            "item_title": "50miles+",
+            "item_title": "Up to50mile",
             "item_dec": "Range"
           }
         },
@@ -294,7 +294,7 @@
         "77f5c680-eb06-4cbd-b967-0b45bc01402e": {
           "type": "item",
           "settings": {
-            "item_title": "155-185cm",
+            "item_title": "5.08’-6.06",
             "item_dec": "Rider Height"
           }
         },
