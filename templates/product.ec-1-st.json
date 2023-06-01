@@ -683,6 +683,7 @@
         },
         "c546c699-a8e3-44bd-a2db-1c70b9fdf444": {
           "type": "objList",
+          "disabled": true,
           "settings": {
             "title": "Accessories",
             "slide_w": "25%",
