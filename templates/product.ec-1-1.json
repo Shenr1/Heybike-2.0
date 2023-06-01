@@ -429,7 +429,7 @@
         "01473a8c-f8f3-4061-8171-24367981f33e": {
           "type": "image",
           "settings": {
-            "slide_w": "w-2\/3",
+            "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/Heybike_Shimano_7-speed_Drivetrain.png",
             "text_main": "Shimano 7-speed Drivetrain",
@@ -442,7 +442,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
+            "bg_img": "shopify:\/\/shop_images\/Puncture-resistant_Tires.png",
             "text_main": "Puncture-resistant Tires",
             "text_sub": "700C*40C tires with enhanced anti-puncture technology for versatile city, gravel, and long-distance riding.",
             "img_link": ""
@@ -453,7 +453,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
+            "bg_img": "shopify:\/\/shop_images\/Headlights.png",
             "text_main": "Headlights",
             "text_sub": "Flexible multi-angle adjustment, ideal for lighting during commutes. Ensure that you are well-lit without blinding other drivers.",
             "img_link": ""
@@ -464,7 +464,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/1_71d8bd74-ff24-4cd5-bc58-31265113647d.png",
+            "bg_img": "shopify:\/\/shop_images\/Heybike_LCD_Display.png",
             "text_main": "LCD Display",
             "text_sub": "Compatible with the HEYBIKE App to help you navigate the journey ahead.",
             "img_link": ""
@@ -475,6 +475,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/Heybike_Hidden_inner_wiring_design.png",
             "text_main": "Hidden inner wiring design",
             "text_sub": "The internal wiring design enhances aesthetics, reduces wind resistance, and minimizes cable-vehicle body collisions on rough roads.",
             "img_link": ""
@@ -485,7 +486,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
+            "bg_img": "shopify:\/\/shop_images\/Hydraulic_disc_brakes.png",
             "text_main": "Hydraulic disc brakes",
             "text_sub": "Upgrade your braking experience with our Hydraulic disc brakes. Enjoy accurate and forceful brakes for safer, more consistent travel.",
             "img_link": ""
@@ -505,7 +506,7 @@
         "bottom_padding": "large",
         "title": "The World of HEYBIKE",
         "layout": "textImg",
-        "enable_slider": false,
+        "enable_slider": true,
         "bottom_line": true
       }
     },
