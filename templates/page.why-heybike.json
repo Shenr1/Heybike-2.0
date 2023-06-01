@@ -229,7 +229,7 @@
       "type": "featured-blog",
       "settings": {
         "title": "Customer stories",
-        "subtitle": "Describe your products, collection, content etc...",
+        "subtitle": "",
         "top-offeset": "default",
         "section_cov": true,
         "sec_bg_clr": "#fafafa",
