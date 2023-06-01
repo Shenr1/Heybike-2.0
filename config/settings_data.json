@@ -111,8 +111,8 @@
     "tphfont": 12,
     "main_header_fullwidth": false,
     "logosvg": "",
-    "logo": "shopify:\/\/shop_images\/LOGO-02.png",
-    "logo_reversal": "shopify:\/\/shop_images\/logo_624c236d-be86-4c8f-b763-206f22dceab3.png",
+    "logo": "shopify:\/\/shop_images\/logo-white.png",
+    "logo_reversal": "shopify:\/\/shop_images\/logo-black.png",
     "logo_width": "130",
     "header_height": "77",
     "mobile_header_height": "50",
@@ -431,7 +431,7 @@
           "f7510364-7668-446e-8629-906714d86056": {
             "type": "legal",
             "settings": {
-              "logo_img": "shopify:\/\/shop_images\/logo_2f39a5a2-1fb1-4269-a0dc-b787c511a865.png",
+              "logo_img": "shopify:\/\/shop_images\/logo-white.png",
               "text_link1": "Refund Policy",
               "link_url1": "shopify:\/\/pages\/return",
               "text_link2": "Terms of Service",
