@@ -173,35 +173,40 @@
           "type": "slide",
           "settings": {
             "text_main": "\"The HeyBike Mars is a special type of fat tire e-bike that folds down for easier transportation, meaning you can take that ride-everywhere fun on the go with you.\"",
-            "text_sub": "- ELECTREK"
+            "text_sub": "- ELECTREK",
+            "logo_image": "shopify:\/\/shop_images\/cropped-electrek-logo11.webp"
           }
         },
         "8eefd08f-d454-46d4-b30c-fd984b8f78bc": {
           "type": "slide",
           "settings": {
             "text_main": "\"The Heybike Mars hits a good price point and is a lot of fun to ride.\"",
-            "text_sub": "- MSN"
+            "text_sub": "- MSN",
+            "logo_image": "shopify:\/\/shop_images\/images_6ef9583c-32cb-464a-ae13-2388f8534db5.png"
           }
         },
         "b8d1ea7c-4393-4005-9ae8-96cd23567cbc": {
           "type": "slide",
           "settings": {
             "text_main": "\"When it comes to solid, folding e-bikes, HeyBike has got game, with the manufacturer presenting us with a wide range of fat-tire wheelers.\"",
-            "text_sub": "- AUTOEVOLUTION"
+            "text_sub": "- AUTOEVOLUTION",
+            "logo_image": "shopify:\/\/shop_images\/AUTOEVOLUTION.png"
           }
         },
         "d296e9a1-883f-46b9-9e75-1f5fdcdc5464": {
           "type": "slide",
           "settings": {
             "text_main": "\"The Heybike Cityrun stands out for safety and security features, and even has a place to put your water bottle. It's the perfect e-bike for commuting.\"",
-            "text_sub": "- ZDNET"
+            "text_sub": "- ZDNET",
+            "logo_image": "shopify:\/\/shop_images\/ZDNet-logo-347F1C3C61-seeklogo.com.png"
           }
         },
         "3699aca2-c188-4a68-a2f5-9e0835180a39": {
           "type": "slide",
           "settings": {
             "text_main": "\"The Brawn from Heybike is a motorcycle inspired off-road beast.\"",
-            "text_sub": "- electrifiedreviews"
+            "text_sub": "- electrifiedreviews",
+            "logo_image": "shopify:\/\/shop_images\/74e96bd12406130d753f8d21926568a3.webp"
           }
         }
       },
