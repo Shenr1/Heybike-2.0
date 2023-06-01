@@ -273,7 +273,7 @@
         "47ff9f65-a513-4378-86dd-760e66cf239c": {
           "type": "item",
           "settings": {
-            "item_title": "10Ah",
+            "item_title": "360Wh",
             "item_dec": "Battery"
           }
         },
@@ -300,18 +300,16 @@
         },
         "c4bf62db-57aa-4884-a373-6a2c5aeb6ff2": {
           "type": "item",
-          "disabled": true,
           "settings": {
-            "item_title": "360wh",
-            "item_dec": "Battery"
+            "item_title": "7 Speed",
+            "item_dec": "Shimano"
           }
         },
         "5f9f9e75-45fd-46a0-a3ac-f3d9004997a4": {
           "type": "item",
-          "disabled": true,
           "settings": {
-            "item_title": "360wh",
-            "item_dec": "Battery"
+            "item_title": "3.7'",
+            "item_dec": "LCD Display"
           }
         }
       },
