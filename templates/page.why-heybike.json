@@ -323,12 +323,11 @@
     },
     "eded3e05-a976-441e-9060-85cc81f16735": {
       "type": "contact-form",
-      "disabled": true,
       "settings": {
         "layout": "2",
         "page_Width": 700,
-        "title": "BECOME A DEALER",
-        "subtitle": "Partnership with Heybike-UK: Unleash the power of electric bikes in your region.<br>\nApply as a distributor now to win a free ticket to ERUOBIKE 2023! <br>Limited amounts are offered on a first-come, first-served basis!",
+        "title": "Contact Us",
+        "subtitle": "",
         "show_phone": false,
         "show_subject": false,
         "top-offeset": "default",
