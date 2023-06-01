@@ -101,11 +101,32 @@
             "btnbg": "#000000",
             "btnbd": "#000000"
           }
+        },
+        "cd0ae458-8d85-4fc8-9d07-6d27feb19a14": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_460x_54bb42e7-9b61-4b27-aa33-4d396b213fe5.webp",
+            "layout": "right",
+            "title": "Pay in 4. Anywhere",
+            "text": "<p>Pay in 4 with Klarna from Klarna.com, or anywhere Visa is accepted. No credit impact. (*CA resident loans made or arranged pursuant to a California Financing Law license.)<\/p>",
+            "logo_url": "",
+            "logo_url2": "",
+            "button_label": "Shop Now",
+            "button_link": "\/",
+            "text_align": "text-left",
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "#f5f5f5",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
         }
       },
       "block_order": [
         "1d1c291c-29e1-4645-911c-1cb922034f67",
-        "template--19289277169979__fe6340dd-ea38-4ce9-9f9e-0abb15908260-16853339263b39c458-0"
+        "template--19289277169979__fe6340dd-ea38-4ce9-9f9e-0abb15908260-16853339263b39c458-0",
+        "cd0ae458-8d85-4fc8-9d07-6d27feb19a14"
       ],
       "settings": {
         "top_padding": "none",
@@ -272,6 +293,15 @@
             "texturl": ""
           }
         },
+        "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-3": {
+          "type": "text_block",
+          "settings": {
+            "icons": "at-chat",
+            "title": "30-Day Trial",
+            "text": "<p>Buy with Confidence<\/p>",
+            "texturl": ""
+          }
+        },
         "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-2": {
           "type": "text_block",
           "settings": {
@@ -280,23 +310,13 @@
             "text": "<p>We accept all major credit cards.<\/p>",
             "texturl": ""
           }
-        },
-        "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-3": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "icons": "at-chat",
-            "title": "24\/7 HELP CENTER",
-            "text": "<p>Dedicated 24\/7 support<\/p>",
-            "texturl": ""
-          }
         }
       },
       "block_order": [
         "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-0",
         "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-1",
-        "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-2",
-        "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-3"
+        "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-3",
+        "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-2"
       ],
       "settings": {
         "top_padding": "none",
