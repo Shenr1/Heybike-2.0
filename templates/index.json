@@ -120,6 +120,7 @@
       "blocks": {
         "74434e2d-7316-4cea-a46d-2fe1337dab28": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "product": "heybike-ec-1",
             "product_image": "shopify:\/\/shop_images\/EC-1-ST_07512530-a553-4c03-aab6-b603643b1daa.png",
