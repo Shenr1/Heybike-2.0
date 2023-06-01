@@ -600,6 +600,8 @@
             "title": "Smarttech and APP",
             "text": "<p>Your amazing rides deserve a journal! Connect your bike to the HEYBIKE App, and build an impressive mileage count!<\/p>",
             "bottom_logo": "shopify:\/\/shop_images\/app-store.webp",
+            "logo_url": "",
+            "logo_url2": "",
             "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
@@ -682,24 +684,17 @@
         },
         "79f6deea-8f1c-478d-9b34-f7e1e19b578a": {
           "type": "objList",
+          "disabled": true,
           "settings": {
             "title": "Accessories",
             "slide_w": "25%",
             "content": "Mudguards:Included<br>\nKickstand:Included<br>\nReflector:Included<br>\nRear rack\t: Optional<br>\nKettle holder:Optional<br>"
           }
         },
-        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac": {
-          "type": "objList",
-          "settings": {
-            "title": "FAQs",
-            "slide_w": "full",
-            "content": "Riding Range Test | Mars:Max Range: 38 miles(pure electric) \/48 miles(pedal assist)\n\n*Note: Throttle Max Range tests are calculated using PAS 1 with a rider weight of 165 lbs on flat terrain. Throttle speed and range may vary if ridden in different conditions.<br>\n\nAre fat tire bikes good for long distances?:Basically, it depends on the capability of the battery. As for Mars, it has a 48V 12.5Ah Lithium battery. Its ranges up to 48 miles per charge under PAS (Pedal Assist) mode."
-          }
-        },
         "8c62a64d-13dd-4e76-830e-bf631cb4d864": {
           "type": "image",
           "settings": {
-            "title": "What’s Inside The Box",
+            "title": "E-Bike Box",
             "url_pc": "shopify:\/\/shop_images\/Frame_6155.webp",
             "url_mb": "shopify:\/\/shop_images\/Frame_6155.webp"
           }
@@ -715,6 +710,14 @@
             "text3": "",
             "metafield3": ""
           }
+        },
+        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac": {
+          "type": "objList",
+          "settings": {
+            "title": "FAQs",
+            "slide_w": "full",
+            "content": "Riding Range Test | Mars:Max Range: 38 miles(pure electric) \/48 miles(pedal assist)\n\n*Note: Throttle Max Range tests are calculated using PAS 1 with a rider weight of 165 lbs on flat terrain. Throttle speed and range may vary if ridden in different conditions.<br>\n\nAre fat tire bikes good for long distances?:Basically, it depends on the capability of the battery. As for Mars, it has a 48V 12.5Ah Lithium battery. Its ranges up to 48 miles per charge under PAS (Pedal Assist) mode."
+          }
         }
       },
       "block_order": [
@@ -722,9 +725,9 @@
         "5077f913-2293-419e-bffd-2366b26667e6",
         "93a85b26-dcb5-4841-93b3-eb4ebebe4e88",
         "79f6deea-8f1c-478d-9b34-f7e1e19b578a",
-        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac",
         "8c62a64d-13dd-4e76-830e-bf631cb4d864",
-        "e7514e3b-0b1e-49db-a19a-d7074c9543c2"
+        "e7514e3b-0b1e-49db-a19a-d7074c9543c2",
+        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac"
       ],
       "settings": {
         "top_padding": "default",
