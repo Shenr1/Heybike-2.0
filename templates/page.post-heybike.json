@@ -126,11 +126,12 @@
         "cd297f10-5e16-4ae3-af32-9927459621dd": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/our_story.jpg",
             "layout": "right",
             "title": "Facebook & Instagram & Twitter",
-            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Shop Now",
-            "button_link": "\/",
+            "text": "<p><strong>Photo & Video Likes and Reward<\/strong><\/p><p><strong>30-50: <\/strong>Chain Lock\/Phone Mount 2.0\/Mirror<\/p><p><strong>51-200: <\/strong>1 coupon of $50 OFF for the heybike.com website<\/p><p><strong>&gt;200: <\/strong>1 coupon of $100 OFF for the heybike.com website<\/p>",
+            "button_label": "",
+            "button_link": "",
             "text_align": "text-left",
             "tcl": "#000000",
             "cl": "#000000",
