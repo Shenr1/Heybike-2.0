@@ -293,10 +293,9 @@
         },
         "77f5c680-eb06-4cbd-b967-0b45bc01402e": {
           "type": "item",
-          "disabled": true,
           "settings": {
-            "item_title": "360wh",
-            "item_dec": "Battery"
+            "item_title": "7 Speed",
+            "item_dec": "Shimano"
           }
         },
         "c4bf62db-57aa-4884-a373-6a2c5aeb6ff2": {
