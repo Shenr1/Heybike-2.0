@@ -432,10 +432,10 @@
             "type": "legal",
             "settings": {
               "logo_img": "shopify:\/\/shop_images\/logo-white.png",
-              "text_link1": "Refund Policy",
-              "link_url1": "shopify:\/\/pages\/return",
-              "text_link2": "Terms of Service",
-              "link_url2": "shopify:\/\/pages\/terms-of-service"
+              "text_link1": "",
+              "link_url1": "",
+              "text_link2": "",
+              "link_url2": ""
             }
           },
           "0fbd70ba-a5ec-4f78-b500-98fa94c457c2": {
