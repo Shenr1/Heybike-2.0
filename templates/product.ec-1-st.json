@@ -380,7 +380,7 @@
         "3491c024-f7d7-4349-9f63-aa201626f2bf": {
           "type": "slide",
           "settings": {
-            "color": "#F67280",
+            "color": "#f67280",
             "image": "shopify:\/\/shop_images\/HeybieEC1STPink1.png"
           }
         }
@@ -715,7 +715,7 @@
           "settings": {
             "title": "FAQ",
             "slide_w": "full",
-            "content": "Are there any restrictions or regulations on the use of e-bikes in the UK?:\nPlease click on the following website to learn more about the UK Government's policy on e-bikes https:\/\/www.gov.uk\/electric-bike-rules<br>Are there any restrictions or regulations on the use of e-bikes in the UK?:"
+            "content": "Are there any restrictions or regulations on the use of e-bikes in the UK?:\nPlease click on the following website www.gov.uk\/electric-bike-rules to learn more about the UK Government's policy on e-bikes. <br>Are there any restrictions or regulations on the use of e-bikes in the UK?"
           }
         }
       },
