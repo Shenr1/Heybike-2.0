@@ -379,9 +379,9 @@
         },
         "3491c024-f7d7-4349-9f63-aa201626f2bf": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "color": "#000000"
+            "color": "#F67280",
+            "image": "shopify:\/\/shop_images\/HeybieEC1STPink1.png"
           }
         }
       },
