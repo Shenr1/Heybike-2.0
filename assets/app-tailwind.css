@@ -1,6 +1,5 @@
 /* 动态生成的类名 */
 .flickity-button{@apply opacity-100}
-.shopify-section .grid{@apply flex}
 
 [section-name = 'products-slider-full'] .flickity-slider .is-selected{@apply opacity-100}
 [section-name = 'products-slider-full'] .flickity-slider .is-selected [tag-name = 'product-info']{@apply opacity-100}
@@ -68,8 +67,13 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
     
 }
 
+@layer utilities{
+    .shopify-section .grid:not(.flickity-enabled){@apply flex}
+    .shopify-section .grid.flickity-enabled{@apply block}
+}
+
 @layer components {
-    .template-product .grid{@apply flex}
+
     .site-header,#siteNav>li.ctsize, #siteNav>li.dropdown{@apply static}
 
     .social-icons .social-icons__link{@apply text-black-400}

@@ -22,28 +22,29 @@
 
     <div class="grid rwcols-{{secSt.mobile-grid}} rwcols-md-{{secSt.tablet-grid}} rwcols-lg-{{secSt.grid}} grid--blog carousel arwOut" data-flickity='{ "cellAlign":"left","groupCells":true,"wrapAround":true,"pageDots":false{%- if secSt.autoplay -%},"autoPlay":{{secSt.speed | times: 1000}}{% endif %}{%- if settings.rtl -%},"rightToLeft": true{%- endif -%} }'>
       {% for article in blog.articles limit: secSt.post_limit %}
-      	    <div class="gitem">{% render 'blog-card-grid', blog:blog, article:article, secSt:secSt, sizes: image_size %}</div>
-       {% else %}
-              {% for i in (1..secSt.post_limit) %}
-                <div class="gitem">
-                  <div class="wrap-blog">
-                    <div class="article__grid-image mb15">{% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}{{ 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}</div>
-                    <div class="article__grid-meta">
-                      <div class="wrap-blog-inner {{ secSt.blog_align }}">
-                        <h4 class="article__title"><a href="#">{{ 'homepage.onboarding.blog_title' | t }}</a></h4>
-                        {% if secSt.blog_show_author %}<span class="article__author">{{ 'homepage.onboarding.blog_author' | t }}</span>{% endif %}
-                        {% if secSt.show_mini_des %}	<div class="rte article__grid-excerpt">{{ 'homepage.onboarding.blog_excerpt' | t }}</div> {% endif %}
 
-                        {% if secSt.show_read_more %}
-                        <ul class="list--inline article__meta-buttons">
-                          <li><a href="{{ article.url }}" class="btn btn2">{{ 'blogs.article.read_more' | t }}</a></li>
-                        </ul>
-                        {% endif %}
-                      </div>
-                    </div>
+        <div class="gitem">{% render 'blog-card-grid', blog:blog, article:article, secSt:secSt, sizes: image_size %}</div>
+        {% else %}
+          {% for i in (1..secSt.post_limit) %}
+            <div class="gitem">
+              <div class="wrap-blog">
+                <div class="article__grid-image mb15">{% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}{{ 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}</div>
+                <div class="article__grid-meta">
+                  <div class="wrap-blog-inner {{ secSt.blog_align }}">
+                    <h4 class="article__title"><a href="#">{{ 'homepage.onboarding.blog_title' | t }}</a></h4>
+                    {% if secSt.blog_show_author %}<span class="article__author">{{ 'homepage.onboarding.blog_author' | t }}</span>{% endif %}
+                    {% if secSt.show_mini_des %}	<div class="rte article__grid-excerpt">{{ 'homepage.onboarding.blog_excerpt' | t }}</div> {% endif %}
+
+                    {% if secSt.show_read_more %}
+                    <ul class="list--inline article__meta-buttons">
+                      <li><a href="{{ article.url }}" class="btn btn2">{{ 'blogs.article.read_more' | t }}</a></li>
+                    </ul>
+                    {% endif %}
                   </div>
                 </div>
-              {% endfor %}
+              </div>
+            </div>
+          {% endfor %}
     
       {% endfor %}
     </div>

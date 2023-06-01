@@ -4,7 +4,7 @@
      data-bgset="{% render 'prgrid-img', image: article.image, sizes: sizes %}" data-sizes="auto" data-parent-fit="contain" style="padding-bottom:{{ 1 | divided_by: collection_image.aspect_ratio | times: 100}}%;"></a>
   {% endif %}
   <div class="article__grid-meta {{ secSt.blog_align }}{% if article.image %} article__grid-meta--has-image{% endif %}">
-      <a class="h4 article__title" href="{{ article.url }}">{{ article.title }}</a>
+      <a class="h4 article__title block h-12" href="{{ article.url }}">{{ article.title }}</a>
       <ul class="publish-detail">
         {% if secSt.blog_show_date %}<li class="article__date">{{ article.published_at | time_tag: format: 'date' }}</li>{% endif %}
         {% if secSt.blog_show_author %}<li class="article__author">{{ 'blogs.article.by_author' | t: author: article.author }}</li>{% endif %}

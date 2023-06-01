@@ -9,22 +9,15 @@
     <div {% if ebSlider %}data-flickity='{"pageDots": false, "draggable": false, "imagesLoaded": true,"wrapAround":true }' {% else %} class="md:flex"{% endif %} >
       {% for block in section.blocks %}
       {%- assign blkSt = block.settings -%}
-      {% if textImg != true and ebSlide != true %}
-        {% assign imgFormatClass = 'h-4/5' %}
-        {% assign textFormatClass = 'h-1/5' %}
-      {% else $}
-        {% assign imgFormatClass = '' %}
-        {% assign textFormatClass = '' %}
-      {% endif %}
-
-
+      
       {% if blkSt.bg_img != blank or blkSt.video_url != blank %}
 
       {% if secSt.layout == 'textImg' %}{% assign textImg = true %} {% else %} {% assign textImg = false %} {% endif %}
       {% if forloop.length < 3 %} {% assign rounded = 'md:rounded-section' %} {% else %} {% assign rounded = '' %} {% endif %}
 
-      <div class="md:{{blkSt.slide_w}} w-full {% unless ebSlider %}md:mx-3 last:mr-0 first:ml-0 {% endunless %} flex flex-col md:m-0 mb-8  relative">  
-        <div class="{{rounded}} {{imgFormatClass}} rounded-3xl overflow-hidden h-full {% if ebSlider %}mx-2{% endif %} {% unless textImg %}md:mb-6 mb-2{% endunless %}"
+      <div class="md:{{blkSt.slide_w}} {% unless ebSlider %}md:mx-3 last:mr-0 first:ml-0 {% endunless %}
+       {% if textImg or ebSlider %}flex{% endif %} w-full flex-col md:m-0 mb-8 relative">  
+        <div class="{{rounded}} rounded-3xl overflow-hidden {% if textImg or ebSlider %}h-full{% endif %} {% if ebSlider %}mx-2{% endif %} {% unless textImg %}md:mb-6 mb-2{% endunless %}"
           style="background-color:{{blkSt.bg_color}};">
 
         {% case block.type %} 
@@ -44,7 +37,7 @@
         {% if blkSt.text_main != blank %}
 
 
-          <section class="{{textFormatClass}} {% if textImg %}absolute bottom-6 left-6 text-white w-4/5{% endif %} ">
+          <section class="{% if textImg %}absolute bottom-6 left-6 text-white w-4/5{% endif %} ">
             {% if blkSt.img_link != blank %} <a href="{{ blkSt.img_link }}" > {% endif %}
               <h1 class="{% if textImg %}md:text-xl text-lg mb-1 {% else %} md:text-3xl text-2xl md:mb-2 mb-0{% endif %}">{{ blkSt.text_main  }}</h1>
               <p class="{% if textImg %}text-base{% else %}text-lg{% endif %} break-words">{{ blkSt.text_sub  }}</p>
