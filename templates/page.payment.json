@@ -45,18 +45,18 @@
         "plh": 1.1,
         "pmb": 10,
         "pmbm": 5,
-        "title": "Help Spread , Then We Give Back",
+        "title": "Payment",
         "tcl": "#ffffff",
-        "tfs": 28,
+        "tfs": 30,
         "tfsm": 20,
         "tff": "ft2",
         "tfw": "700",
         "tlh": 1.1,
         "tmb": 10,
         "tmbm": 5,
-        "text": "<p>Heybike is now offering rewards for social media sharing!<\/p>",
+        "text": "",
         "cl": "#ffffff",
-        "fs": 17,
+        "fs": 16,
         "fsm": 14,
         "fw": "400",
         "lh": 1.6,
@@ -92,8 +92,92 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/lQDPJyFWi8lReALNAZrNAZWwtR7lJhj7e7gEaz5jiAAMAA_405_410.jpg",
             "layout": "right",
-            "title": "Post Heybike • Win the Gifts!",
-            "text": "<p>As we would like to put together something unique for all of our fabulous customers and subscribers for delivering our deepest gratitude for your great support, we arranged the Heybike Reward Program.<\/p><p>Not only quick and easy, but the most important and best part is that it will get you heaps of extra bonuses; here is how it works:<\/p><p>To participate in the program, please share your riding experience with the heybike e-bike as videos or photos on your social media. The videos or pictures posted on (i) YouTube, the titles should contain Heybike; (ii) Facebook, Instagram, TikTok, or Twitter, should be added the tag #heybike and @Heybike_official.<\/p><p><strong>Note:<\/strong><\/p><p>1. Please keep your views of the video real.<\/p><p>2. This program is only available for fans owning at least 1 Heybike product.<\/p>",
+            "title": "",
+            "text": "<p>If you pay by credit card, your payment could be somehow denied at the checkout by our system in defense against possible credit card fraud. It's a good idea to call your credit card company or bank ahead of time to inform them about the purchase so that it doesn't get declined.<\/p><p><strong>Under such circumstances, here are three solutions for you:<\/strong><\/p><p>1. If you have a PayPal account, please try to pay by PayPal.<\/p><p>2. Please switch to your other credit\/debit cards.<\/p><p>3. If you do not have a PayPal account, please select PayPal still at the checkout page & click the complete order button. Then you'll be directed to a page with access to both PayPal and Debit\/Credit card payment (for the latter option, you don't have to register for PayPal).<\/p><p> <\/p>",
+            "button_label": "",
+            "button_link": "",
+            "text_align": "text-left",
+            "tcl": "#000000",
+            "cl": "#000000",
+            "bg": "#f5f5f5",
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "1633769564023b4dfb-0"
+      ],
+      "settings": {
+        "top_padding": "none",
+        "bottom_padding": "large",
+        "top-offeset": "default",
+        "section_style": "default",
+        "section_width": false,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "snow_effect": false,
+        "snow_style": "style1",
+        "tfs": 30,
+        "tfsm": 22,
+        "tff": "ft1",
+        "tfw": "700",
+        "tlh": 1.2,
+        "tmb": 15,
+        "tmbm": 10,
+        "fs": 14,
+        "fsm": 12,
+        "fw": "400",
+        "lh": 1.6,
+        "mb": 15,
+        "mbm": 10,
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm"
+      }
+    },
+    "36fb4958-5fd2-4d93-b4e5-9ecc8bd66777": {
+      "type": "richtext",
+      "settings": {
+        "top-offeset": "default",
+        "fullwidth": false,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "max-width": 700,
+        "title": "As following steps:",
+        "tcl": "#000000",
+        "tfs": 26,
+        "tfsm": 20,
+        "tff": "ft1",
+        "tfw": "700",
+        "tlh": 1.2,
+        "richtxt": "",
+        "cl": "#000000",
+        "fs": 14,
+        "fsm": 13,
+        "lh": 1.6,
+        "btntxt": "",
+        "btnurl": "",
+        "btn-style": "btn",
+        "btntxt1": "",
+        "btnurl1": "",
+        "btn-style2": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "txt_align": "tc",
+        "text_clr": "#111111"
+      }
+    },
+    "333b48a4-47f8-4c4b-bbae-234edc6f66e8": {
+      "type": "banner-with-text",
+      "blocks": {
+        "template--19320943345979__333b48a4-47f8-4c4b-bbae-234edc6f66e8-1685517169e04f9469-0": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/payment_screenshot_1.png",
+            "layout": "right",
+            "title": "Step 1:",
+            "text": "<p>Select PayPal (even if you don't have a PayPal account)<\/p>",
             "button_label": "",
             "button_link": "",
             "text_align": "text-left",
@@ -105,15 +189,15 @@
             "btnbd": "#000000"
           }
         },
-        "679037ac-fdf7-4af6-9a62-df6890f32c60": {
+        "c71f45a1-6643-4087-a182-795ae539412d": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/our_story.jpg",
-            "layout": "left",
-            "title": "YouTube & TikTok",
-            "text": "<p><strong>Video Views and Reward<\/strong><\/p><p><strong>5K-10K: <\/strong>1 coupon of $100 OFF for the heybike.com website<\/p><p><strong>&gt;10K-50K: <\/strong>1 coupon of $200 OFF for the heybike.com website<\/p><p><strong>&gt;50K-100K:<\/strong> 1 FREE e-bike<\/p><p><strong>&gt;100K: <\/strong>1 FREE e-bike of Heybike's next new model<\/p>",
+            "image": "shopify:\/\/shop_images\/screenshot_paypal_login2_c1379c4e-6090-4d1f-bae9-ff5797f2b451.webp",
+            "layout": "right",
+            "title": "Step 2:",
+            "text": "<p>Click on \"Pay with Debit or Credit Card\".<\/p>",
             "button_label": "",
-            "button_link": "\/",
+            "button_link": "",
             "text_align": "text-left",
             "tcl": "#000000",
             "cl": "#000000",
@@ -123,12 +207,13 @@
             "btnbd": "#000000"
           }
         },
-        "cd297f10-5e16-4ae3-af32-9927459621dd": {
+        "c795faea-83fe-42c0-a816-179a3a21520b": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/payment_sreenshot_3.webp",
             "layout": "right",
-            "title": "Facebook & Instagram & Twitter",
-            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Step 3:",
+            "text": "<p>Fill in your credit card info and complete your order.<\/p>",
             "button_label": "Shop Now",
             "button_link": "\/",
             "text_align": "text-left",
@@ -142,9 +227,9 @@
         }
       },
       "block_order": [
-        "1633769564023b4dfb-0",
-        "679037ac-fdf7-4af6-9a62-df6890f32c60",
-        "cd297f10-5e16-4ae3-af32-9927459621dd"
+        "template--19320943345979__333b48a4-47f8-4c4b-bbae-234edc6f66e8-1685517169e04f9469-0",
+        "c71f45a1-6643-4087-a182-795ae539412d",
+        "c795faea-83fe-42c0-a816-179a3a21520b"
       ],
       "settings": {
         "top_padding": "none",
@@ -179,7 +264,7 @@
         "layout": "2",
         "page_Width": 700,
         "title": "Contact Us",
-        "subtitle": "Please feel free to contact us if you have any questions",
+        "subtitle": "If you have any other questions, please feel free to contact us",
         "show_phone": false,
         "show_subject": false,
         "top-offeset": "default",
@@ -192,6 +277,8 @@
     "page",
     "6c0763b2-0d0a-49b0-b91d-9518164b13eb",
     "1633769564023b4dfb",
+    "36fb4958-5fd2-4d93-b4e5-9ecc8bd66777",
+    "333b48a4-47f8-4c4b-bbae-234edc6f66e8",
     "593ad453-c94a-45cb-a6f8-5ec7bca4c33d"
   ]
 }

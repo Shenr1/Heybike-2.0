@@ -437,7 +437,7 @@
         "bg_color": "",
         "layout": "textImage",
         "img_size": "small",
-        "img": "shopify:\/\/shop_images\/1.png",
+        "img": "shopify:\/\/shop_images\/heybike_EC1_Battery.jpg",
         "text_main": "Portable Battery",
         "text_sub": "Designed to fuel your adventures, this battery from Samsung offers exceptional performance and efficiency.",
         "text_dec": "Unleash your freedom with an impressive range of 50 miles on a single charge, allowing you to explore without limits.",
@@ -480,7 +480,7 @@
         "bg_color": "",
         "layout": "imageText",
         "img_size": "small",
-        "img": "shopify:\/\/shop_images\/1_71d8bd74-ff24-4cd5-bc58-31265113647d.png",
+        "img": "shopify:\/\/shop_images\/heybike_EC1_motor.jpg",
         "text_main": "Lightweight Motor",
         "text_sub": "Experience the ultimate ride with our 250W lightweight motor, which offers outstanding stability, resistance to bumps and shocks, minimal noise and vibration, smooth operation, and an impressive lifespan.",
         "text_dec": "",
@@ -495,7 +495,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
+            "bg_img": "shopify:\/\/shop_images\/Heybike_Shimano_7-speed_Drivetrain.png",
             "text_main": "Shimano 7-speed Drivetrain",
             "text_sub": "The Shimano® 7-speed chain drive ispowerful, smooth, and built to perform high on all roads.",
             "img_link": ""
@@ -506,7 +506,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
+            "bg_img": "shopify:\/\/shop_images\/Puncture-resistant_Tires.png",
             "text_main": "Puncture-resistant Tires",
             "text_sub": "700C*40C tires with enhanced anti-puncture technology for versatile city, gravel, and long-distance riding.",
             "img_link": ""
@@ -517,7 +517,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
+            "bg_img": "shopify:\/\/shop_images\/Headlights.png",
             "text_main": "Headlights",
             "text_sub": "Flexible multi-angle adjustment, ideal for lighting during commutes. Ensure that you are well-lit without blinding other drivers.",
             "img_link": ""
@@ -528,7 +528,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
+            "bg_img": "shopify:\/\/shop_images\/Hydraulic_disc_brakes.png",
             "text_main": "Hydraulic disc brakes",
             "text_sub": "Upgrade your braking experience with our Hydraulic disc brakes. Enjoy accurate and forceful brakes for safer, more consistent travel.",
             "img_link": ""
@@ -539,7 +539,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
+            "bg_img": "shopify:\/\/shop_images\/Heybike_LCD_Display.png",
             "text_main": "LCD Display",
             "text_sub": "Compatible with the HEYBIKE App to help you navigate the journey ahead.",
             "img_link": ""
@@ -550,7 +550,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/1_0c0fc3cf-a185-4219-a2e0-9a127767002d.png",
+            "bg_img": "shopify:\/\/shop_images\/Heybike_Hidden_inner_wiring_design.png",
             "text_main": "Hidden inner wiring design",
             "text_sub": "The internal wiring design enhances aesthetics, reduces wind resistance, and minimizes cable-vehicle body collisions on rough roads.",
             "img_link": ""
@@ -596,7 +596,7 @@
         "template--19143574815035__a8ffb222-813d-463f-9e86-871bceb908a5-1684996746297eb402-0": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/APP.png",
+            "image": "shopify:\/\/shop_images\/Heybike_Ap.png",
             "layout": "right",
             "title": "Smarttech and APP",
             "text": "<p>Your amazing rides deserve a journal! Connect your bike to the HEYBIKE App, and build an impressive mileage count!<\/p>",
@@ -683,6 +683,7 @@
         },
         "c546c699-a8e3-44bd-a2db-1c70b9fdf444": {
           "type": "objList",
+          "disabled": true,
           "settings": {
             "title": "Accessories",
             "slide_w": "25%",
@@ -712,7 +713,7 @@
         "2bdea729-fb07-4fc5-87c8-a226a6cbbeac": {
           "type": "objList",
           "settings": {
-            "title": "FAQs",
+            "title": "FAQ",
             "slide_w": "full",
             "content": "Riding Range Test | Mars:Max Range: 38 miles(pure electric) \/48 miles(pedal assist)\n\n*Note: Throttle Max Range tests are calculated using PAS 1 with a rider weight of 165 lbs on flat terrain. Throttle speed and range may vary if ridden in different conditions.<br>\n\nAre fat tire bikes good for long distances?:Basically, it depends on the capability of the battery. As for Mars, it has a 48V 12.5Ah Lithium battery. Its ranges up to 48 miles per charge under PAS (Pedal Assist) mode."
           }

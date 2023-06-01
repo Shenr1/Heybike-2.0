@@ -68,7 +68,7 @@
             "image": "shopify:\/\/shop_images\/1_7d2d2aae-2891-438d-b368-7e08d3712a0f.jpg",
             "layout": "right",
             "title": "",
-            "text": "<p>Heybike-UK was driven to provide widely accessible and affordable electric transportation to people across the globe. And we realize this mission also needs brilliant photographers to join us and help present the most attractive products to our customers.It is essential to understand one thing – the shooting of the Heybike-UK electric bikes is equally fascinating as of glorious views; they just solve different aesthetic tasks.<br\/>For details, please email us, introduce yourself, and attach works\/links to your social media. We will make further talk with you!<\/p>",
+            "text": "<p>Heybike was driven to provide widely accessible and affordable electric transportation to people across the globe. And we realize this mission also needs brilliant photographers to join us and help present the most attractive products to our customers.It is essential to understand one thing – the shooting of the Heybike electric bikes is equally fascinating as of glorious views; they just solve different aesthetic tasks.<br\/>For details, please email us, introduce yourself, and attach works\/links to your social media. We will make further talk with you!<\/p>",
             "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
@@ -151,7 +151,7 @@
       "settings": {
         "layout": "2",
         "page_Width": 700,
-        "title": "Signed up as a Heybike-UK photographer",
+        "title": "Signed up as a Heybike photographer",
         "subtitle": "",
         "show_phone": false,
         "show_subject": false,
@@ -183,6 +183,72 @@
         "form_bg": "#f8f8f8",
         "form_text": "#111111"
       }
+    },
+    "9db7547b-3f09-4b1d-90d4-0ac4f70cae7a": {
+      "type": "logo-list",
+      "blocks": {
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-0": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "opentab": false
+          }
+        },
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-1": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "opentab": false
+          }
+        },
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-2": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "opentab": false
+          }
+        },
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-3": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "opentab": false
+          }
+        },
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-4": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "opentab": false
+          }
+        },
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-5": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "opentab": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-0",
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-1",
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-2",
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-3",
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-4",
+        "template--19318633464123__9db7547b-3f09-4b1d-90d4-0ac4f70cae7a-168553007428418514-5"
+      ],
+      "settings": {
+        "title": "Logo list",
+        "subtitle": "Describe your products, collection, content etc...",
+        "top-offeset": "default",
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "logostyle": "carousel",
+        "grid": 6,
+        "tablet-grid": 5,
+        "mobile-grid": 3
+      }
     }
   },
   "order": [
@@ -190,6 +256,7 @@
     "fe6340dd-ea38-4ce9-9f9e-0abb15908260",
     "bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a",
     "eded3e05-a976-441e-9060-85cc81f16735",
-    "contact"
+    "contact",
+    "9db7547b-3f09-4b1d-90d4-0ac4f70cae7a"
   ]
 }

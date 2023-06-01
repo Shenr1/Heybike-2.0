@@ -21,8 +21,8 @@ body.template-index .stickyHeader [tag-name = 'logo']{@apply !hidden}
 body.template-index #header:not(.stickyHeader) [tag-name = 'logo']{@apply block}
 body.template-index #header:not(.stickyHeader) [tag-name = 'reversal-logo']{@apply !hidden}
 body:not(.template-index) [tag-name = 'logo']{@apply !hidden}
-{@apply !hidden}
-r:not(.stickyHeader) [tag-name = 'reversal-logo']{@apply !block}
+
+body.template-product #header:not(.stickyHeader) [tag-name = 'reversal-logo']{@apply !block}
 body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hidden}
 
 .template-index #header.stickyHeader [section-name = 'localization'] select{@apply text-black-900}

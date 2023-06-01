@@ -92,11 +92,7 @@ body:not(.template-index) [tag-name = 'logo'] {
   display:none !important;
 }
 
- {
-  display:none !important;
-}
-
-r:not(.stickyHeader) [tag-name = 'reversal-logo'] {
+body.template-product #header:not(.stickyHeader) [tag-name = 'reversal-logo'] {
   display:block !important;
 }
 
@@ -587,6 +583,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   margin-bottom:0px !important;
 }
 
+.-ml-\[30px\] {
+  margin-left:-30px;
+}
+
 .mb-0 {
   margin-bottom:0px;
 }
@@ -751,6 +751,14 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   height:1px;
 }
 
+.h-1\/5 {
+  height:20%;
+}
+
+.h-4\/5 {
+  height:80%;
+}
+
 .max-h-36 {
   max-height:9rem;
 }
@@ -781,6 +789,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 
 .w-2\/3 {
   width:66.666667%;
+}
+
+.w-2\/5 {
+  width:40%;
 }
 
 .w-24 {
@@ -1162,6 +1174,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   padding-left:0.5rem;
 }
 
+.pl-\[30px\] {
+  padding-left:30px;
+}
+
 .pr-0 {
   padding-right:0px;
 }
@@ -1524,10 +1540,6 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 
   .md\:mb-8 {
     margin-bottom:2rem;
-  }
-
-  .md\:ml-12 {
-    margin-left:3rem;
   }
 
   .md\:ml-2 {

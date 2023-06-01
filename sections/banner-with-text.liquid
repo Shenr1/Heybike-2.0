@@ -49,7 +49,14 @@
           </div>
 
           {% if hbStyle %}
-              <div class="md:mt-20 mt-10 md:text-left text-center"> {{ blkSt.bottom_logo | image_url: height: 50 | image_tag: Height: 50, loading: 'lazy' }} </div>
+              <div class="md:mt-20 mt-10 md:text-left text-center">
+              {% if blkSt.bottom_logo != blank %}
+                <a class="mr-4" href="{{blkSt.logo_url}}">{{ blkSt.bottom_logo | image_url: height: 100 | image_tag: height: 50, loading: 'lazy' }}</a>
+              {% endif %}
+              {% if blkSt.bottom_logo2 != blank %}
+                <a href="{{blkSt.logo_url2}}">{{ blkSt.bottom_logo2 | image_url: height: 100 | image_tag: height: 50, loading: 'lazy' }}</a>
+              {% endif %}
+              </div>
           {% endif %}
 
         </div>
@@ -481,6 +488,21 @@
         "type": "image_picker",
         "id": "bottom_logo",
         "label": "Content buttom logo"
+      },
+      {
+        "type": "url",
+        "id": "logo_url",
+        "label": "First logo link"
+      },
+      {
+        "type": "image_picker",
+        "id": "bottom_logo2",
+        "label": "Content buttom second logo"
+      },
+      {
+        "type": "url",
+        "id": "logo_url2",
+        "label": "Second logo link"
       },
       {
         "type": "text",
