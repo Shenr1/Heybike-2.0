@@ -122,7 +122,8 @@
           "settings": {
             "product": "heybike-ec-1",
             "product_image": "shopify:\/\/shop_images\/EC-1-ST_07512530-a553-4c03-aab6-b603643b1daa.png",
-            "info": "Aviation grade magnesium alloy"
+            "info": "Aviation grade magnesium alloy",
+            "tags_image": "shopify:\/\/shop_images\/EC-1-ST_07512530-a553-4c03-aab6-b603643b1daa.png"
           }
         },
         "aced053b-8c7e-443c-ba77-07bf8bef930e": {
@@ -300,7 +301,7 @@
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/eurobike23_banner_1200x628px_en.jpg__1079x720_q85_subsampling-2.jpg",
             "text_main": "EUROBIKE 2023",
-            "text_sub": "Looking forward to your arrival！",
+            "text_sub": "Looking forward to your arrival！Looking forward to your arrival！Looking forward to your arrival！Looking forward to your arrival！Looking forward to your arrival！Looking forward to your arrival！",
             "img_link": ""
           }
         },
