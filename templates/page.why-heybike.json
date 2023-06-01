@@ -69,6 +69,8 @@
             "layout": "right",
             "title": "Various Options for Your Need",
             "text": "<p>HeyBike produces fat tire folding e-bikes, step-thru design e-bikes, and commuter e-bikes. Our electric bikes represent the full capabilities of the e-bike revolution. We are committed to meeting all your needs, from off-road adventures to daily commuting, and we are suited to those looking to experience wild or boulevard cruisers and weekend rides.<\/p>",
+            "logo_url": "",
+            "logo_url2": "",
             "button_label": "Shop Now",
             "button_link": "mailto:\/sales.uk@heybike.com",
             "text_align": "text-left",
@@ -87,6 +89,8 @@
             "layout": "left",
             "title": "80,000+ Active Riders",
             "text": "<p>Trusted by 80,000 riders and being part of their lives, Heybike is leading a healthy and positive attitude in life, and a convenient efficient lifestyle!<\/p>",
+            "logo_url": "",
+            "logo_url2": "",
             "button_label": "Join Us",
             "button_link": "\/",
             "text_align": "text-left",
@@ -169,40 +173,35 @@
           "type": "slide",
           "settings": {
             "text_main": "\"The HeyBike Mars is a special type of fat tire e-bike that folds down for easier transportation, meaning you can take that ride-everywhere fun on the go with you.\"",
-            "text_sub": "- ELECTREK",
-            "logo_image": "shopify:\/\/shop_images\/cropped-electrek-logo11.webp"
+            "text_sub": "- ELECTREK"
           }
         },
         "8eefd08f-d454-46d4-b30c-fd984b8f78bc": {
           "type": "slide",
           "settings": {
             "text_main": "\"The Heybike Mars hits a good price point and is a lot of fun to ride.\"",
-            "text_sub": "- MSN",
-            "logo_image": "shopify:\/\/shop_images\/MSN_1b24447f-9170-4e3a-96a3-a7fa001633c9.png"
+            "text_sub": "- MSN"
           }
         },
         "b8d1ea7c-4393-4005-9ae8-96cd23567cbc": {
           "type": "slide",
           "settings": {
             "text_main": "\"When it comes to solid, folding e-bikes, HeyBike has got game, with the manufacturer presenting us with a wide range of fat-tire wheelers.\"",
-            "text_sub": "- AUTOEVOLUTION",
-            "logo_image": "shopify:\/\/shop_images\/AUTOEVOLUTION.png"
+            "text_sub": "- AUTOEVOLUTION"
           }
         },
         "d296e9a1-883f-46b9-9e75-1f5fdcdc5464": {
           "type": "slide",
           "settings": {
             "text_main": "\"The Heybike Cityrun stands out for safety and security features, and even has a place to put your water bottle. It's the perfect e-bike for commuting.\"",
-            "text_sub": "- ZDNET",
-            "logo_image": "shopify:\/\/shop_images\/zdnet_0007b688-3598-42f8-a3a5-9aa4cea63c55.png"
+            "text_sub": "- ZDNET"
           }
         },
         "3699aca2-c188-4a68-a2f5-9e0835180a39": {
           "type": "slide",
           "settings": {
             "text_main": "\"The Brawn from Heybike is a motorcycle inspired off-road beast.\"",
-            "text_sub": "- electrifiedreviews",
-            "logo_image": "shopify:\/\/shop_images\/electrifiedreviews.png"
+            "text_sub": "- electrifiedreviews"
           }
         }
       },
