@@ -293,26 +293,23 @@
         },
         "77f5c680-eb06-4cbd-b967-0b45bc01402e": {
           "type": "item",
-          "disabled": true,
           "settings": {
-            "item_title": "360wh",
-            "item_dec": "Battery"
+            "item_title": "155-185cm",
+            "item_dec": "Rider Height"
           }
         },
         "c4bf62db-57aa-4884-a373-6a2c5aeb6ff2": {
           "type": "item",
-          "disabled": true,
           "settings": {
-            "item_title": "360wh",
-            "item_dec": "Battery"
+            "item_title": "7 Speed",
+            "item_dec": "Shimano"
           }
         },
         "5f9f9e75-45fd-46a0-a3ac-f3d9004997a4": {
           "type": "item",
-          "disabled": true,
           "settings": {
-            "item_title": "360wh",
-            "item_dec": "Battery"
+            "item_title": "4.5'",
+            "item_dec": "LCD Display"
           }
         }
       },
@@ -330,7 +327,7 @@
         "bg_color": "#f5f5f5",
         "layout": "textImage",
         "img_size": "big",
-        "img": "shopify:\/\/shop_images\/dadf88a3f619898d09aec8a7ffd3123a.png",
+        "img": "shopify:\/\/shop_images\/765x670.png",
         "text_main": "Reframing The Future",
         "text_sub": "EC 1-ST's streamlined form allows it to move like a gazelle through the congested city streets, getting to locations inaccessible to cars.",
         "text_dec": "The low frame design allows ladies to wear dresses and shop in style comfortably.",
@@ -414,7 +411,7 @@
         "c2cd3913-f9ab-4d1a-90a3-425a71e726c2": {
           "type": "item",
           "settings": {
-            "item_title": "12Ah",
+            "item_title": "10Ah",
             "item_dec": "Capacity"
           }
         },
@@ -437,7 +434,7 @@
         "bg_color": "",
         "layout": "textImage",
         "img_size": "small",
-        "img": "shopify:\/\/shop_images\/heybike_EC1_Battery.jpg",
+        "img": "shopify:\/\/shop_images\/166466156d1590776520265a7038375c_a40b64c5-22d0-4906-82b2-290a1c8db7b8.png",
         "text_main": "Portable Battery",
         "text_sub": "Designed to fuel your adventures, this battery from Samsung offers exceptional performance and efficiency.",
         "text_dec": "Unleash your freedom with an impressive range of 50 miles on a single charge, allowing you to explore without limits.",
@@ -891,7 +888,7 @@
         "section_cov": true,
         "sec_bg_clr": "#232426",
         "hide_mobile": false,
-        "title": "Superb bikes. Superior Service.",
+        "title": "Superb Bikes. Superior Service.",
         "subtitle": "Exceeding Expectations with Unparalleled Customer Care",
         "style": "style1",
         "icon-type": "image",

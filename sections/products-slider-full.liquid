@@ -30,18 +30,14 @@
 
         </div>
           {% if block.settings.product_image %}
-          {% assign imgWapClass = 'scale-90 transition-all duration-700 delay-300 xl:mt-0 lg:mt-12 md:mt-20' %}
           {% assign media = block.settings.product_image %}
-          <div class='{{imgWapClass}}' tag-name="product-img">
-            {{ media | image_url: width: 1920 | image_tag: width: media.width, height: media.height, lazyload: true, class:'h-auto' }}
-          </div>
           {% else %}
           {% assign media = product.featured_image %}
+          {% endif %}
+          {% assign imgWapClass = 'scale-90 transition-all duration-700 delay-300 xl:mt-0 lg:mt-12 md:mt-20' %}
           <div class='{{imgWapClass}}' tag-name="product-img">
             {{ media | image_url: width: 1920 | image_tag: width: media.width, height: media.height, lazyload: true, class:'h-auto' }}
           </div>
-          {% endif %}
-        
         {% endif %}
       </div>
 

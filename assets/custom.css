@@ -711,6 +711,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   height:2.75rem;
 }
 
+.h-12 {
+  height:3rem;
+}
+
 .h-14 {
   height:3.5rem;
 }
@@ -743,8 +747,12 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   height:1px;
 }
 
-.h-12 {
-  height:3rem;
+.h-72 {
+  height:18rem;
+}
+
+.h-\[19rem\] {
+  height:19rem;
 }
 
 .max-h-36 {
@@ -1032,6 +1040,14 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 
 .bg-cover {
   background-size:cover;
+}
+
+.bg-contain {
+  background-size:contain;
+}
+
+.bg-left {
+  background-position:left;
 }
 
 .bg-no-repeat {

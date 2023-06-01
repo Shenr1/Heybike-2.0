@@ -122,7 +122,8 @@
           "settings": {
             "product": "heybike-ec-1",
             "product_image": "shopify:\/\/shop_images\/EC-1-ST_07512530-a553-4c03-aab6-b603643b1daa.png",
-            "info": "Aviation grade magnesium alloy"
+            "info": "Aviation grade magnesium alloy",
+            "tags_image": "shopify:\/\/shop_images\/EC-1-ST_07512530-a553-4c03-aab6-b603643b1daa.png"
           }
         },
         "aced053b-8c7e-443c-ba77-07bf8bef930e": {
@@ -299,8 +300,8 @@
             "slide_w": "w-2\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/eurobike23_banner_1200x628px_en.jpg__1079x720_q85_subsampling-2.jpg",
-            "text_main": "EUROBIKE 2023",
-            "text_sub": "Looking forward to your arrival！",
+            "text_main": "EUROBIKE 2023 is just around the corner!",
+            "text_sub": "We look forward to meeting you at the event and discussing mutually beneficial prospects.",
             "img_link": ""
           }
         },
@@ -456,11 +457,11 @@
         "bottom_padding": "extraLarge",
         "top-offeset": "none",
         "section_style": "heybike",
-        "section_width": false,
+        "section_width": true,
         "section_cov": true,
         "sec_bg_clr": "#232426",
         "hide_mobile": false,
-        "title": "Superb bikes. Superior Service.",
+        "title": "Superb Bikes. Superior Service.",
         "subtitle": "Exceeding Expectations with Unparalleled Customer Care",
         "style": "style1",
         "icon-type": "image",

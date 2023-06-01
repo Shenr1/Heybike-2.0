@@ -27,7 +27,7 @@
             {% assign imgClass = 'h-full object-cover block w-full enlarge h-auto' %}
             <a href="{{ blkSt.img_link }}" > 
             {% endif %}
-              {{ blkSt.bg_img | image_url: width: 1000 | image_tag: class: imgClass, lazyload: true  }}
+              {{ blkSt.bg_img | image_url: height: 650 | image_tag: class: imgClass, lazyload: true  }}
             {% if blkSt.img_link != blank %} </a> {% endif %}
           {% else %}
             <div class="video-wrapper"><iframe src="//www.youtube.com/embed/{{ blkSt.video_url.id }}?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe></div>

@@ -101,11 +101,32 @@
             "btnbg": "#000000",
             "btnbd": "#000000"
           }
+        },
+        "cd0ae458-8d85-4fc8-9d07-6d27feb19a14": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_460x_54bb42e7-9b61-4b27-aa33-4d396b213fe5.webp",
+            "layout": "right",
+            "title": "Pay in 4. Anywhere",
+            "text": "<p>Pay in 4 with Klarna from Klarna.com, or anywhere Visa is accepted. No credit impact. (*CA resident loans made or arranged pursuant to a California Financing Law license.)<\/p>",
+            "logo_url": "",
+            "logo_url2": "",
+            "button_label": "Shop Now",
+            "button_link": "\/",
+            "text_align": "text-left",
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "#f5f5f5",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
         }
       },
       "block_order": [
         "1d1c291c-29e1-4645-911c-1cb922034f67",
-        "template--19289277169979__fe6340dd-ea38-4ce9-9f9e-0abb15908260-16853339263b39c458-0"
+        "template--19289277169979__fe6340dd-ea38-4ce9-9f9e-0abb15908260-16853339263b39c458-0",
+        "cd0ae458-8d85-4fc8-9d07-6d27feb19a14"
       ],
       "settings": {
         "top_padding": "none",
@@ -229,13 +250,13 @@
       "type": "featured-blog",
       "settings": {
         "title": "Customer stories",
-        "subtitle": "Describe your products, collection, content etc...",
+        "subtitle": "",
         "top-offeset": "default",
         "section_cov": true,
         "sec_bg_clr": "#fafafa",
         "blog": "customer-stories",
         "img_ratio": "40",
-        "post_limit": 3,
+        "post_limit": 8,
         "grid": 3,
         "tablet-grid": 2,
         "mobile-grid": 1,
@@ -258,17 +279,26 @@
           "type": "text_block",
           "settings": {
             "icons": "at-ship-fast",
-            "title": "FREE SHIPPING",
-            "text": "<p>When you spend $100+<\/p>",
+            "title": "Fast Shipping",
+            "text": "<p>Ships to the UK<\/p>",
             "texturl": ""
           }
         },
         "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-1": {
           "type": "text_block",
           "settings": {
-            "icons": "at-undo-r",
-            "title": "FREE RETURNS",
-            "text": "<p>30-days free return policy.<\/p>",
+            "icons": " at-customer-service",
+            "title": "Fast Support",
+            "text": "<p>Email & Phone Service<\/p>",
+            "texturl": ""
+          }
+        },
+        "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-3": {
+          "type": "text_block",
+          "settings": {
+            "icons": "at-chat",
+            "title": "30-Day Trial",
+            "text": "<p>Buy with Confidence<\/p>",
             "texturl": ""
           }
         },
@@ -280,23 +310,13 @@
             "text": "<p>We accept all major credit cards.<\/p>",
             "texturl": ""
           }
-        },
-        "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-3": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "icons": "at-chat",
-            "title": "24\/7 HELP CENTER",
-            "text": "<p>Dedicated 24\/7 support<\/p>",
-            "texturl": ""
-          }
         }
       },
       "block_order": [
         "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-0",
         "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-1",
-        "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-2",
-        "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-3"
+        "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-3",
+        "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-2"
       ],
       "settings": {
         "top_padding": "none",
@@ -305,7 +325,7 @@
         "section_style": "default",
         "section_width": false,
         "section_cov": true,
-        "sec_bg_clr": "#fff",
+        "sec_bg_clr": "#ffffff",
         "hide_mobile": false,
         "title": "Superb bikes. Superior Service.",
         "subtitle": "Exceeding Expectations with Unparalleled Customer Care",
@@ -314,7 +334,7 @@
         "icons_clr": "#ffffff",
         "isz": 33,
         "tcl": "#111111",
-        "tfs": 12,
+        "tfs": 15,
         "tfsm": 12,
         "tfw": "500",
         "tlh": 1.2,
@@ -370,11 +390,11 @@
         "section_width": false,
         "section_cov": true,
         "sec_bg_clr": "#fafafa",
-        "text_clr": "#000",
-        "input_bg": "#fff",
-        "input_text": "#000",
-        "input_btn": "#000",
-        "input_btn_text": "#fff"
+        "text_clr": "#000000",
+        "input_bg": "#ffffff",
+        "input_text": "#000000",
+        "input_btn": "#000000",
+        "input_btn_text": "#ffffff"
       }
     }
   },
