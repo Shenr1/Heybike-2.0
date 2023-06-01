@@ -364,7 +364,7 @@
         "bottom_padding": "none",
         "top-offeset": "default",
         "section_style": "heybike",
-        "section_width": true,
+        "section_width": false,
         "section_cov": false,
         "sec_bg_clr": "#fafafa",
         "snow_effect": false,
