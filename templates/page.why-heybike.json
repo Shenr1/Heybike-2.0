@@ -235,7 +235,7 @@
         "sec_bg_clr": "#fafafa",
         "blog": "customer-stories",
         "img_ratio": "40",
-        "post_limit": 3,
+        "post_limit": 8,
         "grid": 3,
         "tablet-grid": 2,
         "mobile-grid": 1,
@@ -305,7 +305,7 @@
         "section_style": "default",
         "section_width": false,
         "section_cov": true,
-        "sec_bg_clr": "#fff",
+        "sec_bg_clr": "#ffffff",
         "hide_mobile": false,
         "title": "Superb bikes. Superior Service.",
         "subtitle": "Exceeding Expectations with Unparalleled Customer Care",
@@ -370,11 +370,11 @@
         "section_width": false,
         "section_cov": true,
         "sec_bg_clr": "#fafafa",
-        "text_clr": "#000",
-        "input_bg": "#fff",
-        "input_text": "#000",
-        "input_btn": "#000",
-        "input_btn_text": "#fff"
+        "text_clr": "#000000",
+        "input_bg": "#ffffff",
+        "input_text": "#000000",
+        "input_btn": "#000000",
+        "input_btn_text": "#ffffff"
       }
     }
   },
