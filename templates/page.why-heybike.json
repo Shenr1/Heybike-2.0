@@ -283,6 +283,7 @@
         },
         "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-3": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "icons": "at-chat",
             "title": "24\/7 HELP CENTER",
@@ -304,14 +305,14 @@
         "section_style": "default",
         "section_width": false,
         "section_cov": true,
-        "sec_bg_clr": "#fafafa",
+        "sec_bg_clr": "#fff",
         "hide_mobile": false,
-        "title": "",
-        "subtitle": "",
+        "title": "Superb bikes. Superior Service.",
+        "subtitle": "Exceeding Expectations with Unparalleled Customer Care",
         "style": "style1",
         "icon-type": "icon",
         "icons_clr": "#ffffff",
-        "isz": 48,
+        "isz": 33,
         "tcl": "#111111",
         "tfs": 12,
         "tfsm": 12,
@@ -323,6 +324,7 @@
     },
     "eded3e05-a976-441e-9060-85cc81f16735": {
       "type": "contact-form",
+      "disabled": true,
       "settings": {
         "layout": "2",
         "page_Width": 700,
@@ -359,30 +361,20 @@
         "form_text": "#111111"
       }
     },
-    "cdc442a8-d0f8-43cf-954f-eb01d5b74f72": {
-      "type": "featured-blog",
+    "81a20925-7fed-4824-afe4-e930c15adf92": {
+      "type": "newsletter",
       "settings": {
-        "title": "Blog posts",
-        "subtitle": "Describe your products, collection, content etc...",
+        "title": "Newsletter",
+        "subtitle": "Sign up to stay in the loop. Receive updates, access to exclusive deals, and more.",
         "top-offeset": "default",
+        "section_width": false,
         "section_cov": true,
         "sec_bg_clr": "#fafafa",
-        "blog": "news",
-        "img_ratio": "50",
-        "post_limit": 3,
-        "grid": 3,
-        "tablet-grid": 2,
-        "mobile-grid": 1,
-        "blog_align": "tc",
-        "blog_show_author": false,
-        "blog_show_date": true,
-        "show_comment": true,
-        "show_mini_des": true,
-        "show_read_more": true,
-        "show_view_all": false,
-        "btn-style": "btn",
-        "btn-size-desk": "btn-sm",
-        "btn-size-mob": "mob-btn-sm"
+        "text_clr": "#000",
+        "input_bg": "#fff",
+        "input_text": "#000",
+        "input_btn": "#000",
+        "input_btn_text": "#fff"
       }
     }
   },
@@ -395,6 +387,6 @@
     "ac592caa-d3ee-4db0-9040-5260670faf11",
     "eded3e05-a976-441e-9060-85cc81f16735",
     "contact",
-    "cdc442a8-d0f8-43cf-954f-eb01d5b74f72"
+    "81a20925-7fed-4824-afe4-e930c15adf92"
   ]
 }
