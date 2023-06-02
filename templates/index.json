@@ -75,6 +75,7 @@
         "isovr": false,
         "obg": "#3d4246",
         "oopt": 0.5,
+        "style": "hbstyle",
         "pfs": 30,
         "pfsm": 22,
         "pff": "ft1",
