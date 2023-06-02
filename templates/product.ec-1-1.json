@@ -330,7 +330,6 @@
         "bg_color": "#f5f5f5",
         "layout": "textImage",
         "img_size": "big",
-        "img": "shopify:\/\/shop_images\/dadf88a3f619898d09aec8a7ffd3123a.png",
         "text_main": "Reframing The Future",
         "text_sub": "EC 1-ST's streamlined form allows it to move like a gazelle through the congested city streets, getting to locations inaccessible to cars.",
         "text_dec": "The low frame design allows ladies to wear dresses and shop in style comfortably.",
@@ -360,12 +359,36 @@
             "item_title": "36V",
             "item_dec": "Voltage"
           }
+        },
+        "6bc25017-bec7-4c7c-baf0-333689c1b56e": {
+          "type": "item",
+          "settings": {
+            "item_title": "5.08’-6.06",
+            "item_dec": "Rider Height"
+          }
+        },
+        "94533bbf-c451-4d09-8571-cd8430dd495b": {
+          "type": "item",
+          "settings": {
+            "item_title": "7 Speed",
+            "item_dec": "Shimano"
+          }
+        },
+        "dff7cc0a-62a1-40bc-830c-228efea7c50b": {
+          "type": "item",
+          "settings": {
+            "item_title": "4.5'",
+            "item_dec": "LCD Display"
+          }
         }
       },
       "block_order": [
         "de3cbb43-265d-4140-8bf7-0d8250145964",
         "c2cd3913-f9ab-4d1a-90a3-425a71e726c2",
-        "c40ebf74-fd0a-4136-902b-64c9b076e175"
+        "c40ebf74-fd0a-4136-902b-64c9b076e175",
+        "6bc25017-bec7-4c7c-baf0-333689c1b56e",
+        "94533bbf-c451-4d09-8571-cd8430dd495b",
+        "dff7cc0a-62a1-40bc-830c-228efea7c50b"
       ],
       "settings": {
         "top_padding": "large",
@@ -373,7 +396,7 @@
         "bg_color": "",
         "layout": "textImage",
         "img_size": "small",
-        "img": "shopify:\/\/shop_images\/heybike_EC1_Battery.jpg",
+        "img": "shopify:\/\/shop_images\/166466156d1590776520265a7038375c_a40b64c5-22d0-4906-82b2-290a1c8db7b8.png",
         "text_main": "Portable Battery",
         "text_sub": "Designed to fuel your adventures, this battery from Samsung offers exceptional performance and efficiency.",
         "text_dec": "Unleash your freedom with an impressive range of 50 miles on a single charge, allowing you to explore without limits.",
@@ -516,8 +539,7 @@
         "42b01243-65bf-4d68-93ef-f11af85385a1": {
           "type": "slide",
           "settings": {
-            "color": "#000000",
-            "image": "shopify:\/\/shop_images\/46b2a74aeb513a93d28c84bb6b472853.png"
+            "color": "#000000"
           }
         },
         "3f2b5db7-4454-454d-a182-9e69238708a7": {
