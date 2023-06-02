@@ -76,7 +76,6 @@
         "obg": "#3d4246",
         "oopt": 0.5,
         "style": "hbstyle",
-        "style": "hbstyle",
         "pfs": 30,
         "pfsm": 22,
         "pff": "ft1",
@@ -322,7 +321,7 @@
             "bg_img": "shopify:\/\/shop_images\/eurobike23_banner_1200x628px_en.jpg__1079x720_q85_subsampling-2.jpg",
             "text_main": "EUROBIKE 2023 is just around the corner!",
             "text_sub": "We look forward to meeting you at the event and discussing mutually beneficial prospects.",
-            "img_link": ""
+            "img_link": "shopify:\/\/pages\/become-a-dealer"
           }
         },
         "61279fbb-db0a-4969-b5f8-ca73202edf62": {
@@ -356,7 +355,6 @@
         "template--19143575470395__e0be29cc-4f32-4503-8012-abbb3949eb80-1684744024f2b6438e-0": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/APP.png",
             "image": "shopify:\/\/shop_images\/app720x700.png",
             "layout": "right",
             "title": "Smarttech and APP",
