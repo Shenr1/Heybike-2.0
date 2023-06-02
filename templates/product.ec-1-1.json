@@ -813,7 +813,7 @@
           "settings": {
             "text_main": "\"The HeyBike Mars is a special type of fat tire e-bike that folds down for easier transportation, meaning you can take that ride-everywhere fun on the go with you.\"",
             "text_sub": "- ELECTREK",
-            "logo_image": "shopify:\/\/shop_images\/electrek.png"
+            "logo_image": "shopify:\/\/shop_images\/cropped-electrek-logo11.webp"
           }
         },
         "6dc0201d-f684-4821-a9d9-70e940aa064b": {
@@ -839,13 +839,29 @@
             "text_sub": "- ZDNET",
             "logo_image": "shopify:\/\/shop_images\/zdnet_0007b688-3598-42f8-a3a5-9aa4cea63c55.png"
           }
+        },
+        "4ec4da19-273b-4078-9612-8362a44fde81": {
+          "type": "slide",
+          "settings": {
+            "text_main": "Grazie a una batteria facilmente estraibile, pneumatici più larghi e luce anteriore integrata.",
+            "text_sub": "- Largest moto-comtmunity in Italy"
+          }
+        },
+        "52833067-ef9a-446c-8294-f6cf9649de75": {
+          "type": "slide",
+          "settings": {
+            "text_main": "Grazie a una batteria facilmente estraibile, pneumatici più larghi e luce anteriore integrata.",
+            "text_sub": "- Largest moto-comtmunity in Italy"
+          }
         }
       },
       "block_order": [
         "1db61a36-a277-4c68-acad-574b812f8fc6",
         "6dc0201d-f684-4821-a9d9-70e940aa064b",
         "ea0d551e-e63a-4f7c-b7aa-0fb32c3680d8",
-        "55119407-dcaa-4908-a061-61c15c6dbd9d"
+        "55119407-dcaa-4908-a061-61c15c6dbd9d",
+        "4ec4da19-273b-4078-9612-8362a44fde81",
+        "52833067-ef9a-446c-8294-f6cf9649de75"
       ],
       "settings": {
         "top_padding": "large",
