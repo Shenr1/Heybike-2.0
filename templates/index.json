@@ -6,10 +6,10 @@
         "1561726660568-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1a.png",
+            "image": "shopify:\/\/shop_images\/Banner_1_a.jpg",
             "imagem": "shopify:\/\/shop_images\/3_e9ed99a9-28ce-4c95-9ae8-0fa55a098d88.webp",
             "ialign": "center_center",
-            "hd1": "EC 1-ST",
+            "hd1": "EC 1",
             "pcl": "#ffffff",
             "title": "Bring an Ideal<br>Uran Life!",
             "tcl": "#ffffff",
@@ -17,7 +17,7 @@
             "hideh3": true,
             "cl": "#ffffff",
             "btn": "Shop Now &nbsp >",
-            "link": "shopify:\/\/products\/ec-1-st-1",
+            "link": "shopify:\/\/products\/heybike-ec-1",
             "btn1window": true,
             "btn-style": "btn",
             "display_btn": false,
