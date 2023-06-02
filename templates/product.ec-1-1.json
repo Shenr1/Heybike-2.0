@@ -327,7 +327,7 @@
         "bg_color": "#f5f5f5",
         "layout": "textImage",
         "img_size": "big",
-        "img": "shopify:\/\/shop_images\/765x670.png",
+        "img": "shopify:\/\/shop_images\/765x670_d167a46a-d34c-46b9-91de-b423f9021eb1.png",
         "text_main": "Reframing The Future",
         "text_sub": "EC 1-ST's streamlined form allows it to move like a gazelle through the congested city streets, getting to locations inaccessible to cars.",
         "text_dec": "The low frame design allows ladies to wear dresses and shop in style comfortably.",
@@ -366,22 +366,19 @@
         "3491c024-f7d7-4349-9f63-aa201626f2bf": {
           "type": "slide",
           "settings": {
-            "color": "#111111",
-            "image": "shopify:\/\/shop_images\/EC-1-_-1_216ace8b-8a5b-4923-afa7-b017d2d5e298.png"
+            "color": "#111111"
           }
         },
         "42b01243-65bf-4d68-93ef-f11af85385a1": {
           "type": "slide",
           "settings": {
-            "color": "#fffbea",
-            "image": "shopify:\/\/shop_images\/EC-1_35130920-6100-4b30-a34c-2fc3ccd98e47.png"
+            "color": "#fffbea"
           }
         },
         "3f2b5db7-4454-454d-a182-9e69238708a7": {
           "type": "slide",
           "settings": {
-            "color": "#72b1c4",
-            "image": "shopify:\/\/shop_images\/EC-1_035ef48f-adc1-446a-a063-ac7f330966ef.png"
+            "color": "#72b1c4"
           }
         }
       },
