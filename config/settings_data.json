@@ -275,23 +275,23 @@
           "86aca260-e282-40f4-97fb-c8bb57b7ef06": {
             "type": "megamenuHb",
             "settings": {
-              "title": "E-Bikes",
+              "title": "E-Bike",
               "url": "shopify:\/\/collections\/electric-bike",
               "mm_linklist": "electric-bike",
-              "text_main1": "Two models to choose, either one to try",
-              "text_sub1": "OUR E-BIKES",
-              "text_link1": "Explore all products",
+              "text_main1": "Bring an ideal uran life!",
+              "text_sub1": "Two models to choose, either one to try",
+              "text_link1": "View All",
               "url_link1": "shopify:\/\/collections\/electric-bike",
               "img_url2": "shopify:\/\/shop_images\/Heybie_EC1_ST_1_png.jpg",
-              "text_main2": "HEYBIKE EC 1-ST",
-              "text_sub2": "Bring an ideal uran life",
+              "text_main2": "EC 1-ST",
+              "text_sub2": "Suitable for female riders more",
               "text_link2": "",
               "url_link2": "shopify:\/\/products\/ec-1-st-1",
               "img_url3": "shopify:\/\/shop_images\/Heybie_EC1_ST_2_png.jpg",
-              "text_main3": "HEYBIKE EC 1",
-              "text_sub3": "Bring an ideal uran life",
+              "text_main3": "EC 1",
+              "text_sub3": "Meet your needs for commuting",
               "text_link3": "",
-              "url_link3": "shopify:\/\/collections\/electric-bike"
+              "url_link3": "shopify:\/\/products\/heybike-ec-1"
             }
           },
           "eaf15dca-1822-4a37-8c94-bd24e939b788": {
