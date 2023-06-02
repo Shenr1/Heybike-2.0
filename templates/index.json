@@ -75,6 +75,7 @@
         "isovr": false,
         "obg": "#3d4246",
         "oopt": 0.5,
+        "style": "hbstyle",
         "pfs": 30,
         "pfsm": 22,
         "pff": "ft1",
@@ -302,7 +303,7 @@
         "top_padding": "large",
         "bottom_padding": "default",
         "bg_color": "#000000",
-        "bg_img": "shopify:\/\/shop_images\/f69ffd45fc9af7c258278f836e2ddd60.jpg",
+        "bg_img": "shopify:\/\/shop_images\/C.jpg",
         "text_main": "Find Dealers Near You",
         "text_sub": "Test Ride & Buy Directly",
         "text_btn": "Read More",
@@ -354,7 +355,7 @@
         "template--19143575470395__e0be29cc-4f32-4503-8012-abbb3949eb80-1684744024f2b6438e-0": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Heybike_Ap.png",
+            "image": "shopify:\/\/shop_images\/APP.png",
             "layout": "right",
             "title": "Smarttech and APP",
             "text": "<p>Your amazing rides deserve a journal! Connect your bike to the HEYBIKE App, and build an impressive mileage count!<\/p>",
@@ -378,7 +379,7 @@
         "template--19143575470395__e0be29cc-4f32-4503-8012-abbb3949eb80-1684744024f2b6438e-0"
       ],
       "settings": {
-        "top_padding": "default",
+        "top_padding": "none",
         "bottom_padding": "none",
         "top-offeset": "default",
         "section_style": "heybike",

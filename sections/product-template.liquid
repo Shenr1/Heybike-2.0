@@ -352,7 +352,7 @@
                                 <label class="lblqty v-hidden" for="quantity">{{ 'products.product.quantity' | t }}</label>
                                 <div class="fl f-wrap f-aic f-jcsb">
                                     {%- if blkSt.qty_sel -%}
-                                        <quantity-input class="qtyField mb15" title="{{ 'products.product.quantity' | t }}">
+                                        <quantity-input class="qtyField mb15 overflow-hidden" title="{{ 'products.product.quantity' | t }}">
                                             <button type="button" class="qtyBtn minus" name="minus"><i class="at at-minus-r" aria-hidden="true"></i><span class="v-hidden">{{- 'products.quantity.decrease' | t: product: product.title | escape -}}</span></button>
                                             <input type="number" id="quantity" name="quantity" value="1" min="{{ current_variant.quantity_rule.min }}" class="pr_input qty" step="{{ current_variant.quantity_rule.increment }}" />
                                             <button type="button" class="qtyBtn plus" name="plus"><i class="at at-plus-r" aria-hidden="true"></i><span class="v-hidden">{{- 'products.quantity.increase' | t: product: product.title | escape -}}</span></button>

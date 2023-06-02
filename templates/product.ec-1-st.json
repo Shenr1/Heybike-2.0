@@ -373,14 +373,14 @@
         "3f2b5db7-4454-454d-a182-9e69238708a7": {
           "type": "slide",
           "settings": {
-            "color": "#00afff",
+            "color": "#72b1c4",
             "image": "shopify:\/\/shop_images\/EC-1-ST_156e7d28-913a-4c59-b0c0-127e7cba1e75.png"
           }
         },
         "3491c024-f7d7-4349-9f63-aa201626f2bf": {
           "type": "slide",
           "settings": {
-            "color": "#f67280",
+            "color": "#b07c8b",
             "image": "shopify:\/\/shop_images\/EC-1-ST_61447deb-d0eb-4ef5-9e39-acf5320cda94.png"
           }
         }
@@ -617,7 +617,7 @@
         "template--19143574815035__a8ffb222-813d-463f-9e86-871bceb908a5-1684996746297eb402-0"
       ],
       "settings": {
-        "top_padding": "default",
+        "top_padding": "none",
         "bottom_padding": "none",
         "top-offeset": "default",
         "section_style": "heybike",

@@ -35,15 +35,15 @@
 
               {%- when "image" -%}
                   <div>
-                    {{ blkSt.url_pc | image_url: width:1300 | image_tag: width:nil, class:"w-full md:block hidden", loading: 'lazy'}}
-                    {{ blkSt.url_mb | image_url: width:765 | image_tag: width:nil, class:"w-full md:hidden block", loading: 'lazy'}}
+                    {{ blkSt.url_pc | image_url: width:1920 | image_tag: height:blkSt.url_pc.height, class:"w-full md:block hidden", loading: 'lazy'}}
+                    {{ blkSt.url_mb | image_url: width:765 | image_tag: height:blkSt.url_mb.height, class:"w-full md:hidden block", loading: 'lazy'}}
                   </div>
 
               {%- when "imageGrid" -%}
               {% assign divClass1 = "flex flex-wrap font-semibold" %}
-              {% assign divClass2 = "xl:w-1/7 lg:w-1/5 md:w-1/3 w-1/2" %}
-              {% assign divClass3 = "mx-2 rounded overflow-hidden shadow mb-4" %}
-              {% assign pClass = "md:text-base text-sm md:h-14 h-10 flex items-center leading-tight p-2 mb-2" %}
+              {% assign divClass2 = "xl:w-1/7 lg:w-1/5 md:w-1/3 w-1/2 mb-4" %}
+              {% assign divClass3 = "mx-2 rounded overflow-hidden shadow h-full" %}
+              {% assign pClass = "md:text-base text-sm leading-tight p-2 pb-0 mb-2" %}
               {% assign imgClass = "block max-h-36 mx-auto" %}
                   {%- if product.metafields.custom[blkSt.metafield1] != blank -%}
                   <div class="{{ divClass1 }}">

@@ -14,6 +14,9 @@ module.exports = {
   purge: false,
   theme: {
     extend: {
+      screens: {
+        '2k': '2048px',
+      },
       fontSize: {
         '4_5xl': ['2.5rem','3rem'],
         '3_5xl': ['2rem','2.5rem'],

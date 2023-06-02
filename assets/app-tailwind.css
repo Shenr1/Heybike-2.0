@@ -28,7 +28,8 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
 .template-index #header [section-name = 'localization'] select{@apply text-white}
 .footer-bottom [section-name = 'localization'] select{@apply text-white}
 
-[section-name = 'color-slider-full'] [tag-name = 'color-carousel'] div.is-selected svg{@apply !block; filter: drop-shadow(-1px -1px 0px #ffffff) drop-shadow(1px -1px 0px #ffffff) drop-shadow(1px 1px 0px #ffffff) drop-shadow(-1px 1px 0px #ffffff);}
+[section-name = 'color-slider-full'] div.is-selected [tag-name = 'color-block'] > div{@apply shadow-black-600}
+[section-name = 'color-slider-full'] div.is-selected [tag-name = 'color-block']{@apply border-black-800}
 
 [section-name = 'multiple-image-text'] .flickity-button{@apply bg-black-700 hover:bg-black-900}
 [section-name = 'multiple-image-text'] .flickity-button-icon{@apply fill-white}
