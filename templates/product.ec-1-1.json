@@ -431,7 +431,7 @@
         "bg_color": "",
         "layout": "textImage",
         "img_size": "small",
-        "img": "shopify:\/\/shop_images\/166466156d1590776520265a7038375c_a40b64c5-22d0-4906-82b2-290a1c8db7b8.png",
+        "img": "shopify:\/\/shop_images\/7ecc40279fd871bac0e0d11e210a632b.jpg",
         "text_main": "Portable Battery",
         "text_sub": "Designed to fuel your adventures, this battery from Samsung offers exceptional performance and efficiency.",
         "text_dec": "Unleash your freedom with an impressive range of 50 miles on a single charge, allowing you to explore without limits.",
@@ -590,7 +590,7 @@
         "template--19143574815035__a8ffb222-813d-463f-9e86-871bceb908a5-1684996746297eb402-0": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Heybike_Ap.png",
+            "image": "shopify:\/\/shop_images\/App_770x680_862b21cd-2498-4673-bfd2-b21c2dab86d6.png",
             "layout": "right",
             "title": "Smarttech and APP",
             "text": "<p>Your amazing rides deserve a journal! Connect your bike to the HEYBIKE App, and build an impressive mileage count!<\/p>",
@@ -614,7 +614,7 @@
         "template--19143574815035__a8ffb222-813d-463f-9e86-871bceb908a5-1684996746297eb402-0"
       ],
       "settings": {
-        "top_padding": "none",
+        "top_padding": "default",
         "bottom_padding": "none",
         "top-offeset": "default",
         "section_style": "heybike",
@@ -691,8 +691,8 @@
           "type": "image",
           "settings": {
             "title": "E-bike Box",
-            "url_pc": "shopify:\/\/shop_images\/1280x500.jpg",
-            "url_mb": "shopify:\/\/shop_images\/1280x500.jpg"
+            "url_pc": "shopify:\/\/shop_images\/1280x500_8a446629-0d9b-4994-8b5d-aaf72544999e.jpg",
+            "url_mb": "shopify:\/\/shop_images\/1280x500_8a446629-0d9b-4994-8b5d-aaf72544999e.jpg"
           }
         },
         "e7514e3b-0b1e-49db-a19a-d7074c9543c2": {
