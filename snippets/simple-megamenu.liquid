@@ -1,7 +1,6 @@
 <ul class="dropdown !py-2 !w-full left-0 border-none shadow-none flex justify-between text-black-900 h-[19rem]">
 
 {% assign liClass = "bg-no-repeat w-1/3 mx-1 hover:opacity-90 transition-all bg-cover bg-right hover:bg-left duration-500" %}
- 111111111{{ blkSet.text_link1 }}
     <li class="{{ liClass }}" {% if blkSet.img_url1 != balnk %}style="background-image: url({{blkSet.img_url1 | image_url: width:master }});"{% endif %}>
         {% if blkSet.text_link1 == blank and blkSet.url_link1 != blank%}
         <a class="!bg-transparent h-full" href="{{ blkSet.url_link1 }}">
