@@ -379,7 +379,7 @@
         "template--19143575470395__e0be29cc-4f32-4503-8012-abbb3949eb80-1684744024f2b6438e-0"
       ],
       "settings": {
-        "top_padding": "default",
+        "top_padding": "none",
         "bottom_padding": "none",
         "top-offeset": "default",
         "section_style": "heybike",
