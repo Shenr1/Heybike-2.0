@@ -28,7 +28,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
 .template-index #header [section-name = 'localization'] select{@apply text-white}
 .footer-bottom [section-name = 'localization'] select{@apply text-white}
 
-[section-name = 'color-slider-full'] [tag-name = 'color-carousel'] div.is-selected svg{@apply !block}
+[section-name = 'color-slider-full'] [tag-name = 'color-carousel'] div.is-selected svg{@apply !block; filter: drop-shadow(-1px -1px 0px #ffffff) drop-shadow(1px -1px 0px #ffffff) drop-shadow(1px 1px 0px #ffffff) drop-shadow(-1px 1px 0px #ffffff);}
 
 [section-name = 'multiple-image-text'] .flickity-button{@apply bg-black-700 hover:bg-black-900}
 [section-name = 'multiple-image-text'] .flickity-button-icon{@apply fill-white}
@@ -44,8 +44,13 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
 
 [tag-name = 'simple-menu-item'] ul.dropdown li{@apply !border-t-0}
 
-
+.pswp--click-to-zoom.pswp--zoom-allowed .pswp__img{@apply bg-white}
 .zoomImg{@apply !bg-white}
+
+.slideshow-wrapper .hbStyle .flickity-page-dots{@apply px-4 max-w-page left-1/2 -translate-x-1/2 justify-start lg:bottom-12 md:bottom-8 bottom-6}
+.slideshow-wrapper .hbStyle .flickity-page-dots .dot{@apply bg-white rounded-none w-2 h-2 transition-all}
+.slideshow-wrapper .hbStyle .flickity-page-dots .dot.is-selected{@apply bg-vi w-8}
+
 
 @media only screen and (max-width:765px) {
     .pr_thumbs_item {@apply w-[18.5%] mx-[0.3%] }

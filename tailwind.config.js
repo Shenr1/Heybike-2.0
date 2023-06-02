@@ -35,6 +35,9 @@ module.exports = {
         '1/2vw': '50vw',
         'page': '1320px'
       },
+      width: {
+        '1/7': '14.285%'
+      },
       borderRadius: {
         'section': '3rem'
       },

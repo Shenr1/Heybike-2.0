@@ -280,7 +280,7 @@
         "a27b30d1-ea2c-42ec-9fce-1899fef048f4": {
           "type": "item",
           "settings": {
-            "item_title": "50miles+",
+            "item_title": "50mile+",
             "item_dec": "Range"
           }
         },
@@ -294,7 +294,7 @@
         "77f5c680-eb06-4cbd-b967-0b45bc01402e": {
           "type": "item",
           "settings": {
-            "item_title": "155-185cm",
+            "item_title": "5.08'-6.06'",
             "item_dec": "Rider Height"
           }
         },
@@ -308,7 +308,7 @@
         "5f9f9e75-45fd-46a0-a3ac-f3d9004997a4": {
           "type": "item",
           "settings": {
-            "item_title": "4.5'",
+            "item_title": "3.4''",
             "item_dec": "LCD Display"
           }
         }
@@ -374,14 +374,14 @@
           "type": "slide",
           "settings": {
             "color": "#00afff",
-            "image": "shopify:\/\/shop_images\/EC-1-ST_07512530-a553-4c03-aab6-b603643b1daa.png"
+            "image": "shopify:\/\/shop_images\/EC-1-ST_156e7d28-913a-4c59-b0c0-127e7cba1e75.png"
           }
         },
         "3491c024-f7d7-4349-9f63-aa201626f2bf": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "color": "#000000"
+            "color": "#f67280",
+            "image": "shopify:\/\/shop_images\/EC-1-ST_61447deb-d0eb-4ef5-9e39-acf5320cda94.png"
           }
         }
       },
@@ -547,7 +547,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/Heybike_Hidden_inner_wiring_design.png",
+            "bg_img": "shopify:\/\/shop_images\/f956d5b5bf5da5cb869ce37f7af9190e.png",
             "text_main": "Hidden inner wiring design",
             "text_sub": "The internal wiring design enhances aesthetics, reduces wind resistance, and minimizes cable-vehicle body collisions on rough roads.",
             "img_link": ""
@@ -693,9 +693,9 @@
         "8c62a64d-13dd-4e76-830e-bf631cb4d864": {
           "type": "image",
           "settings": {
-            "title": "What’s Inside The Box",
-            "url_pc": "shopify:\/\/shop_images\/Frame_6155.webp",
-            "url_mb": "shopify:\/\/shop_images\/Frame_6155.webp"
+            "title": "E-bike Box",
+            "url_pc": "shopify:\/\/shop_images\/1280x500.jpg",
+            "url_mb": "shopify:\/\/shop_images\/1280x500.jpg"
           }
         },
         "e7514e3b-0b1e-49db-a19a-d7074c9543c2": {
@@ -715,7 +715,7 @@
           "settings": {
             "title": "FAQ",
             "slide_w": "full",
-            "content": "Riding Range Test | Mars:Max Range: 38 miles(pure electric) \/48 miles(pedal assist)\n\n*Note: Throttle Max Range tests are calculated using PAS 1 with a rider weight of 165 lbs on flat terrain. Throttle speed and range may vary if ridden in different conditions.<br>\n\nAre fat tire bikes good for long distances?:Basically, it depends on the capability of the battery. As for Mars, it has a 48V 12.5Ah Lithium battery. Its ranges up to 48 miles per charge under PAS (Pedal Assist) mode."
+            "content": "Are there any restrictions or regulations on the use of e-bikes in the UK?:\nPlease click on the following website www.gov.uk\/electric-bike-rules to learn more about the UK Government's policy on e-bikes. <br>Are there any restrictions or regulations on the use of e-bikes in the UK?"
           }
         }
       },
@@ -797,7 +797,7 @@
           "settings": {
             "text_main": "\"The Heybike Mars hits a good price point and is a lot of fun to ride.\"",
             "text_sub": "- MSN",
-            "logo_image": "shopify:\/\/shop_images\/MSN_1b24447f-9170-4e3a-96a3-a7fa001633c9.png"
+            "logo_image": "shopify:\/\/shop_images\/images_6ef9583c-32cb-464a-ae13-2388f8534db5.png"
           }
         },
         "ea0d551e-e63a-4f7c-b7aa-0fb32c3680d8": {
@@ -805,7 +805,7 @@
           "settings": {
             "text_main": "\"When it comes to solid, folding e-bikes, HeyBike has got game, with the manufacturer presenting us with a wide range of fat-tire wheelers.\"",
             "text_sub": "- AUTOEVOLUTION",
-            "logo_image": "shopify:\/\/shop_images\/AUTOEVOLUTION.png"
+            "logo_image": "shopify:\/\/shop_images\/AU_e9db3ab0-4166-42df-8978-c88757d205ed.png"
           }
         },
         "8be00180-92b5-454b-96c3-689113c2b127": {
@@ -813,7 +813,7 @@
           "settings": {
             "text_main": "\"The Heybike Cityrun stands out for safety and security features, and even has a place to put your water bottle. It's the perfect e-bike for commuting.\"",
             "text_sub": "- ZDNET",
-            "logo_image": "shopify:\/\/shop_images\/zdnet_0007b688-3598-42f8-a3a5-9aa4cea63c55.png"
+            "logo_image": "shopify:\/\/shop_images\/ZDNet-logo-347F1C3C61-seeklogo.com.png"
           }
         },
         "fd3ab8dd-5f81-4973-9544-5bf7bdfe28f3": {
@@ -821,7 +821,7 @@
           "settings": {
             "text_main": "\"The Brawn from Heybike is a motorcycle inspired off-road beast.\"",
             "text_sub": "- electrifiedreviews",
-            "logo_image": "shopify:\/\/shop_images\/electrifiedreviews.png"
+            "logo_image": "shopify:\/\/shop_images\/logo-sharing.png"
           }
         }
       },
@@ -848,7 +848,7 @@
           "settings": {
             "icons": "at-ship-fast",
             "title": "Fast Shipping",
-            "text": "<p>Ships to UK<\/p>",
+            "text": "<p>Ships to the UK<\/p>",
             "texturl": ""
           }
         },

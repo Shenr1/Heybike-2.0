@@ -22,14 +22,13 @@
                 {% else %}
                     --slht:{{section.settings.htd}}px;--slhtt:{{section.settings.htt}}px;--slhtm:{{section.settings.htm}}px;
                 {% endif %}
-                {% unless secSt.arrow %}--arw:none{% endunless %};	
+                {% unless secSt.arrow %}--arw:none{% endunless %};
                 {% unless secSt.dot %}--dot:none{% endunless %};	
                 --arrow: {{secSt.arrowc}};
                  --dotsa:{{secSt.dots }};
                  --dots: {{secSt.dots |   color_modify:'alpha', 0.3 }};
             {%- endcapture -%}
-    <div class="slideshow pr ctStyle" style="{{height}}" id="ss{{ section.id }}" data-flickity='{ "cellAlign":"left","wrapAround":true,"fade":true,"selectedAttraction": "0.2","friction":"0.8"{%- if section.settings.autoplay -%},"autoPlay":{{section.settings.speed | times: 1000}}{% endif %}{%- if settings.rtl -%},"rightToLeft": true{%- endif -%} }'>
-           
+    <div class="slideshow pr ctStyle {% if secSt.style == 'hbstyle' %}hbStyle{% endif %}" style="{{height}}" id="ss{{ section.id }}" data-flickity='{ "cellAlign":"left","fade":true,"selectedAttraction": 0.1,"friction": 1 {%- if section.settings.autoplay -%},"autoPlay":{{section.settings.speed | times: 1000}}{% endif %}{%- if settings.rtl -%},"rightToLeft": true{%- endif -%} }'>
       {% for block in section.blocks %}
 
                     {%- liquid
@@ -58,7 +57,7 @@
                            assign img2Pos = blkSt.imagem.presentation.focal_point
                         endif
                     %} 
-                    {% comment %} 本地破图处理 {% endcomment %}
+
                     <div class="sslide of_hidden{% if section.settings.ht == '1' %} im{% else %} ct{% endif %} sl{{ block.id }}" data-type="{{block.type}}" {% if block.type == 'video' %} data-video="{{videotype}}"{% endif %} {{ block.shopify_attributes }}>
                         {% if blkSt.display_btn != true and blkSt.link != blank and block.type != 'video' %}<a href="{{ blkSt.link }}" class="ss_link" {% if blkSt.btn1window %} target="_blank" {% endif %}>{% endif %}
                         {% if block.type == 'image' and blkSt.image != blank %}
@@ -99,7 +98,7 @@
                         {%- endcapture -%}
                         <div class="ss_txt-wrap w_100 h_100" {% if secSt.isbox or secSt.isboxm %} style="--ibg:{{ secSt.obg | color_modify: 'alpha', secSt.oopt }};--brad:{{secSt.brad}}px;"{% endif %}>
                             <div class="page-width fl h_100 {{ blkSt.txtpos }} {{ blkSt.txtposm }}" style="max-width:{{blkSt.contwd}}px;{{bxStyle}}">
-                                <div class="ss_txt xl:mb-20 lg:mb-12 md:mb-6 md:mt-0 mt-10{% if blkSt.text-left %} tl{% else %} tc{% endif %}{% if section.settings.txtanimation %} anim {{ section.settings.anim }}{% endif %}">
+                                <div class="ss_txt xl:mb-[12%] lg:mb-[8%] md:mb-[6%] md:mt-0 mt-10{% if blkSt.text-left %} tl{% else %} tc{% endif %}{% if section.settings.txtanimation %} anim {{ section.settings.anim }}{% endif %}">
                                     {% if blkSt.hd1 != blank %}
                                         <p class="stxt hd1 {{secSt.pff}}" style="--cl:{{blkSt.pcl}};--fs:{{secSt.pfs}}px;--fsm:{{secSt.pfsm}}px;--fw:{{secSt.pfw}};--lh:{{secSt.plh}};--mb:{{secSt.pmb}}px;--mbm:{{secSt.pmbm}}px">{{ blkSt.hd1 }}</p>
                                     {% endif %}
@@ -242,6 +241,22 @@
             "label": "Overlay Opacity",
             "unit": "%",
             "default": 0
+        },
+        {
+            "type": "select",
+            "id": "style",
+            "label": "Slideshow style",
+            "options": [
+                {
+                "value": "default",
+                "label": "Default style"
+                },
+                {
+                "value": "hbstyle",
+                "label": "Heybike style"
+                }
+            ],
+            "default": "default"
         },
 	  {
         "type": "header",
