@@ -329,8 +329,8 @@
         "img_size": "big",
         "img": "shopify:\/\/shop_images\/765x670_d167a46a-d34c-46b9-91de-b423f9021eb1.png",
         "text_main": "Reframing The Future",
-        "text_sub": "EC 1-ST's streamlined form allows it to move like a gazelle through the congested city streets, getting to locations inaccessible to cars.",
-        "text_dec": "The low frame design allows ladies to wear dresses and shop in style comfortably.",
+        "text_sub": "EC 1 streamlined form allows it to move like a gazelle through the congested city streets, getting to locations inaccessible to cars.",
+        "text_dec": "The combination of comfort, reliability and intelligent technology means you can spend more time enjoying your journey wherever you want to explore.",
         "bottom_line": false
       }
     },
@@ -487,6 +487,17 @@
     "532d629b-5414-439a-9833-fe4f04d408f2": {
       "type": "multiple-image-text",
       "blocks": {
+        "23013716-ea85-4509-a43b-7967d284b85a": {
+          "type": "image",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/Heybike_Hidden_inner_wiring_design.png",
+            "text_main": "Hidden inner wiring design",
+            "text_sub": "Internal wiring enhances aesthetics, decreases wind resistance, and lessens crashes.",
+            "img_link": ""
+          }
+        },
         "01473a8c-f8f3-4061-8171-24367981f33e": {
           "type": "image",
           "settings": {
@@ -495,39 +506,6 @@
             "bg_img": "shopify:\/\/shop_images\/4329a2cf13558c822173f9e4a4b9c055_a2d18231-1102-4f52-8d31-1cd250f91e27.png",
             "text_main": "Shimano 7-speed Drivetrain",
             "text_sub": "The Shimano® 7-speed chain drive ispowerful, smooth, and built to perform high on all roads.",
-            "img_link": ""
-          }
-        },
-        "0114d1a4-5f44-43a5-bf46-6af6a08e5df5": {
-          "type": "image",
-          "settings": {
-            "slide_w": "w-1\/3",
-            "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/Puncture-resistant_Tires.png",
-            "text_main": "Puncture-resistant Tires",
-            "text_sub": "700C*40C tires with enhanced anti-puncture technology for versatile city, gravel, and long-distance riding.",
-            "img_link": ""
-          }
-        },
-        "fe7a03d3-b3df-4677-9e12-793a76f51f95": {
-          "type": "image",
-          "settings": {
-            "slide_w": "w-1\/3",
-            "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/ac196cb8060db8dfee41df982ab9109e.png",
-            "text_main": "Headlights",
-            "text_sub": "Flexible multi-angle adjustment, ideal for lighting during commutes. Ensure that you are well-lit without blinding other drivers.",
-            "img_link": ""
-          }
-        },
-        "a290cf41-aeb1-4cf0-8844-01c278986b75": {
-          "type": "image",
-          "settings": {
-            "slide_w": "w-1\/3",
-            "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/c645415ce73bdc283fb6ce854e9de7c6.png",
-            "text_main": "Hydraulic disc brakes",
-            "text_sub": "Upgrade your braking experience with our Hydraulic disc brakes. Enjoy accurate and forceful brakes for safer, more consistent travel.",
             "img_link": ""
           }
         },
@@ -542,25 +520,47 @@
             "img_link": ""
           }
         },
-        "23013716-ea85-4509-a43b-7967d284b85a": {
+        "0114d1a4-5f44-43a5-bf46-6af6a08e5df5": {
           "type": "image",
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/ac196cb8060db8dfee41df982ab9109e_067d1e8b-58ec-47b2-aa42-ff0e47b33ca1.png",
-            "text_main": "Hidden inner wiring design",
-            "text_sub": "The internal wiring design enhances aesthetics, reduces wind resistance, and minimizes cable-vehicle body collisions on rough roads.",
+            "bg_img": "shopify:\/\/shop_images\/Puncture-resistant_Tires.png",
+            "text_main": "Puncture-resistant Tires",
+            "text_sub": "Versatile 700C*40C tires with anti-puncture tech for city, gravel, and long-distance rides.",
+            "img_link": ""
+          }
+        },
+        "fe7a03d3-b3df-4677-9e12-793a76f51f95": {
+          "type": "image",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/ac196cb8060db8dfee41df982ab9109e.png",
+            "text_main": "Headlights",
+            "text_sub": "Adjustable multi-angle illumination for safe and non-distracting commuting.",
+            "img_link": ""
+          }
+        },
+        "a290cf41-aeb1-4cf0-8844-01c278986b75": {
+          "type": "image",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/c645415ce73bdc283fb6ce854e9de7c6.png",
+            "text_main": "Hydraulic disc brakes",
+            "text_sub": "Upgrade your brakes: Hydraulic discs provide more precise, powerful, and safe stopping.",
             "img_link": ""
           }
         }
       },
       "block_order": [
+        "23013716-ea85-4509-a43b-7967d284b85a",
         "01473a8c-f8f3-4061-8171-24367981f33e",
+        "99fa6312-d3d6-4e55-9944-519e0909fb8f",
         "0114d1a4-5f44-43a5-bf46-6af6a08e5df5",
         "fe7a03d3-b3df-4677-9e12-793a76f51f95",
-        "a290cf41-aeb1-4cf0-8844-01c278986b75",
-        "99fa6312-d3d6-4e55-9944-519e0909fb8f",
-        "23013716-ea85-4509-a43b-7967d284b85a"
+        "a290cf41-aeb1-4cf0-8844-01c278986b75"
       ],
       "settings": {
         "top_padding": "large",
@@ -662,7 +662,7 @@
           "settings": {
             "title": "Electronics",
             "slide_w": "25%",
-            "content": "Motor:250W Rear Hub Motor<br>\nSensor:250W Rear Hub Motor<br>\nBattery:12Ah 36V Samsung Battery<br>\nDrivetrain:Shimano 7-speed Drivetrain<br>"
+            "content": "Motor:250W Rear Hub Motor<br>\nBattery:12Ah 36V Samsung Battery<br>\nDrivetrain:Shimano 7-speed Drivetrain<br>"
           }
         },
         "3f710971-b1d4-43f6-87bf-68c7f0429f81": {
@@ -670,7 +670,7 @@
           "settings": {
             "title": "Performance",
             "slide_w": "25%",
-            "content": "Top Speed: 25 km\/h or 16 mph<br>\nRange: 40 - 80 km depending on riding conditions <br>\nFull Bike Weight:40lbs<br>\nBattery Charging Time:4-6 hours<br>\nMax Load:300lbs"
+            "content": "Top Speed: 25 km\/h or 16 mph<br>\nRange: Up to 60 miles <br>\nFull Bike Weight:40lbs<br>\nBattery Charging Time:4-6 hours<br>\nMax Load:300lbs<br>:*Actual performance will vary depending on temperature, road conditions, rider's weight, etc."
           }
         },
         "9dfdd47e-961b-4375-b72a-202eb5083615": {
@@ -715,7 +715,7 @@
           "settings": {
             "title": "FAQ",
             "slide_w": "full",
-            "content": "Are there any restrictions or regulations on the use of e-bikes in the UK?:\nPlease click on the following website www.gov.uk\/electric-bike-rules to learn more about the UK Government's policy on e-bikes. <br>Are there any restrictions or regulations on the use of e-bikes in the UK?"
+            "content": "Are there any restrictions or regulations on the use of e-bikes in the UK?:\nPlease click on the following website www.gov.uk\/electric-bike-rules to learn more about the UK Government's policy on e-bikes. <br>"
           }
         }
       },
@@ -736,14 +736,24 @@
     "a96d37af-dc7b-43f1-8f0b-23018e00eaf4": {
       "type": "multiple-image-text",
       "blocks": {
+        "a1291fa1-d564-4ec3-a6ce-51e0bf8a956c": {
+          "type": "video",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=aqUZWdzBEoQ",
+            "text_main": "",
+            "text_sub": ""
+          }
+        },
         "033d0f0f-4ee3-4457-87a7-add32b86ed90": {
           "type": "video",
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=y2sdW0J7diE",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=EejV1lDYDnI",
             "text_main": "",
-            "text_sub": "Test Ride & Buy Directly"
+            "text_sub": ""
           }
         },
         "061ccc1b-95bb-4147-bfcd-d264635cfafb": {
@@ -751,7 +761,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=y2sdW0J7diE",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=xTCRU3mP1e4&list=PLY2mr2usEhKFruo7hTcclMWxJFgQ6E4WA",
             "text_main": "",
             "text_sub": ""
           }
@@ -761,23 +771,68 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=y2sdW0J7diE",
-            "text_main": "Find Dealers Near You",
-            "text_sub": "Test Ride & Buy Directly"
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_YVxfTO10Eo",
+            "text_main": "",
+            "text_sub": ""
+          }
+        },
+        "3dac81aa-ed07-4ff0-81c6-811683d0d6b2": {
+          "type": "video",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=9UgCYLNXM3w",
+            "text_main": "",
+            "text_sub": ""
+          }
+        },
+        "c32ea110-615b-422e-9bdc-4995bc8c9b78": {
+          "type": "video",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=1F-nPjs-tqs",
+            "text_main": "",
+            "text_sub": ""
+          }
+        },
+        "1164f111-84a9-41fe-b66e-466d31a87b9b": {
+          "type": "video",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=ZY8hAbtu4d8",
+            "text_main": "",
+            "text_sub": ""
+          }
+        },
+        "13baa40f-fa01-44db-8cf4-d0d220d60d67": {
+          "type": "video",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=rm2q-c78I3k",
+            "text_main": "",
+            "text_sub": ""
           }
         }
       },
       "block_order": [
+        "a1291fa1-d564-4ec3-a6ce-51e0bf8a956c",
         "033d0f0f-4ee3-4457-87a7-add32b86ed90",
         "061ccc1b-95bb-4147-bfcd-d264635cfafb",
-        "bfd3caac-3459-4b88-a706-8828f77c6c8a"
+        "bfd3caac-3459-4b88-a706-8828f77c6c8a",
+        "3dac81aa-ed07-4ff0-81c6-811683d0d6b2",
+        "c32ea110-615b-422e-9bdc-4995bc8c9b78",
+        "1164f111-84a9-41fe-b66e-466d31a87b9b",
+        "13baa40f-fa01-44db-8cf4-d0d220d60d67"
       ],
       "settings": {
         "top_padding": "large",
         "bottom_padding": "default",
         "title": "Redskins Video",
         "layout": "textImg",
-        "enable_slider": false,
+        "enable_slider": true,
         "bottom_line": false
       }
     },
@@ -848,7 +903,7 @@
           "settings": {
             "icons": "at-ship-fast",
             "title": "Fast Shipping",
-            "text": "<p>Ships to the UK<\/p>",
+            "text": "<p>Speedy and Trusted Shipping <\/p>",
             "texturl": ""
           }
         },

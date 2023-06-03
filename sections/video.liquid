@@ -1,5 +1,5 @@
 {% assign secSt = section.settings %}
-<div class="content-indent{% if secSt.hide_mobile %} hide-sm{% endif %} {{ secSt.top-offeset}} wow fadeIn">
+<div class="content-indent{% if secSt.hide_mobile %} hide-sm{% endif %} {{ secSt.top-offeset}} wow fadeIn {% render 'section-interva-set' , secSt:secSt %}">
   <div class="wow fadeIn {{secSt.style}}{% unless secSt.section_width %} page-width{% else %} fullwidth npd{% endunless %}" {% if secSt.section_width %}style="--spd:{{ secSt.pad-desk}}px;--spdt:{{ secSt.pad-ipad}}px;--spdm:{{ secSt.pad-mbl}}px;"{% endif %}>  
   	
    <div class="video-sec{% if secSt.rounded %} md:rounded-section rounded-3xl overflow-hidden{% endif %} {% if secSt.snow_effect %} falling-snow{% endif %}{% if secSt.snow_style == "style2" %} style2{% else %} style1{% endif %}" style="--fs:{{secSt.tfs}}px;--fsm:{{secSt.tfsm}}px;">   
@@ -60,6 +60,70 @@
           }
         ]
       },
+      {
+        "type": "select",
+        "id": "top_padding",
+        "label": "top interval",
+        "default": "none",
+        "options": [
+          {
+            "value": "extraLarge",
+            "label": "Extra Large"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding",
+        "label": "bottom interval",
+        "default": "large",
+        "options": [
+          {
+            "value": "extraLarge",
+            "label": "Extra Large"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },	  
       {
         "type": "checkbox",
         "id": "section_width",

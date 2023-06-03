@@ -505,7 +505,7 @@
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/Puncture-resistant_Tires.png",
             "text_main": "Puncture-resistant Tires",
-            "text_sub": "700C*40C tires with enhanced anti-puncture technology for versatile city, gravel, and long-distance riding.",
+            "text_sub": "Versatile 700C*40C tires with anti-puncture tech for city, gravel, and long-distance rides.",
             "img_link": ""
           }
         },
@@ -516,7 +516,7 @@
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/Headlights.png",
             "text_main": "Headlights",
-            "text_sub": "Flexible multi-angle adjustment, ideal for lighting during commutes. Ensure that you are well-lit without blinding other drivers.",
+            "text_sub": "Adjustable multi-angle illumination for safe and non-distracting commuting.",
             "img_link": ""
           }
         },
@@ -527,7 +527,7 @@
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/Hydraulic_disc_brakes.png",
             "text_main": "Hydraulic disc brakes",
-            "text_sub": "Upgrade your braking experience with our Hydraulic disc brakes. Enjoy accurate and forceful brakes for safer, more consistent travel.",
+            "text_sub": "Upgrade your brakes: Hydraulic discs provide more precise, powerful, and safe stopping.",
             "img_link": ""
           }
         },
@@ -547,9 +547,9 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/f956d5b5bf5da5cb869ce37f7af9190e.png",
+            "bg_img": "shopify:\/\/shop_images\/Heybike_Hidden_inner_wiring_design.png",
             "text_main": "Hidden inner wiring design",
-            "text_sub": "The internal wiring design enhances aesthetics, reduces wind resistance, and minimizes cable-vehicle body collisions on rough roads.",
+            "text_sub": "Internal wiring enhances aesthetics, decreases wind resistance, and lessens crashes.",
             "img_link": ""
           }
         }
@@ -662,7 +662,7 @@
           "settings": {
             "title": "Electronics",
             "slide_w": "25%",
-            "content": "Motor:250W Rear Hub Motor<br>\nSensor:250W Rear Hub Motor<br>\nBattery:12Ah 36V Samsung Battery<br>\nDrivetrain:Shimano 7-speed Drivetrain<br>"
+            "content": "Motor:250W Rear Hub Motor<br>\nBattery:12Ah 36V Samsung Battery<br>\nDrivetrain:Shimano 7-speed Drivetrain<br>"
           }
         },
         "3f710971-b1d4-43f6-87bf-68c7f0429f81": {
@@ -670,7 +670,7 @@
           "settings": {
             "title": "Performance",
             "slide_w": "25%",
-            "content": "Top Speed: 25 km\/h or 16 mph<br>\nRange: 40 - 80 km depending on riding conditions <br>\nFull Bike Weight:40lbs<br>\nBattery Charging Time:4-6 hours<br>\nMax Load:300lbs"
+            "content": "Top Speed: 25 km\/h or 16 mph<br>\nRange: Up to 60 miles <br>\nFull Bike Weight:40lbs<br>\nBattery Charging Time:4-6 hours<br>\nMax Load:300lbs<br>:*Actual performance will vary depending on temperature, road conditions, rider's weight, etc."
           }
         },
         "9dfdd47e-961b-4375-b72a-202eb5083615": {
@@ -704,8 +704,8 @@
             "title": "Tool Box",
             "text1": "Tools",
             "metafield1": "tools",
-            "text2": "",
-            "metafield2": "",
+            "text2": "Electrics",
+            "metafield2": "electrics",
             "text3": "",
             "metafield3": ""
           }
@@ -715,7 +715,7 @@
           "settings": {
             "title": "FAQ",
             "slide_w": "full",
-            "content": "Are there any restrictions or regulations on the use of e-bikes in the UK?:\nPlease click on the following website www.gov.uk\/electric-bike-rules to learn more about the UK Government's policy on e-bikes. <br>Are there any restrictions or regulations on the use of e-bikes in the UK?"
+            "content": "Are there any restrictions or regulations on the use of e-bikes in the UK?:\nPlease click on the following website www.gov.uk\/electric-bike-rules to learn more about the UK Government's policy on e-bikes. <br>"
           }
         }
       },
@@ -736,14 +736,14 @@
     "a96d37af-dc7b-43f1-8f0b-23018e00eaf4": {
       "type": "multiple-image-text",
       "blocks": {
-        "033d0f0f-4ee3-4457-87a7-add32b86ed90": {
+        "34d82dd4-4589-44a3-8a94-84134067f971": {
           "type": "video",
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=y2sdW0J7diE",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=aqUZWdzBEoQ",
             "text_main": "",
-            "text_sub": "Test Ride & Buy Directly"
+            "text_sub": ""
           }
         },
         "061ccc1b-95bb-4147-bfcd-d264635cfafb": {
@@ -751,7 +751,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=y2sdW0J7diE",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=EejV1lDYDnI",
             "text_main": "",
             "text_sub": ""
           }
@@ -761,23 +761,78 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=y2sdW0J7diE",
-            "text_main": "Find Dealers Near You",
-            "text_sub": "Test Ride & Buy Directly"
+            "video_url": "https:\/\/www.youtube.com\/watch?v=xTCRU3mP1e4&list=PLY2mr2usEhKFruo7hTcclMWxJFgQ6E4WA",
+            "text_main": "",
+            "text_sub": ""
+          }
+        },
+        "033d0f0f-4ee3-4457-87a7-add32b86ed90": {
+          "type": "video",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_YVxfTO10Eo",
+            "text_main": "",
+            "text_sub": ""
+          }
+        },
+        "28807607-3f72-4bcf-b00c-d0b40fe3e1e6": {
+          "type": "video",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=rm2q-c78I3k",
+            "text_main": "",
+            "text_sub": ""
+          }
+        },
+        "faceb785-b8e4-41fa-b66e-a5b5cf3c7b1c": {
+          "type": "video",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=9UgCYLNXM3w",
+            "text_main": "",
+            "text_sub": ""
+          }
+        },
+        "988774fe-8a7f-43c0-bdf7-896464c3a981": {
+          "type": "video",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=1F-nPjs-tqs",
+            "text_main": "",
+            "text_sub": ""
+          }
+        },
+        "aa916361-3a58-419b-ac8a-909857b6bd90": {
+          "type": "video",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=ZY8hAbtu4d8",
+            "text_main": "",
+            "text_sub": ""
           }
         }
       },
       "block_order": [
-        "033d0f0f-4ee3-4457-87a7-add32b86ed90",
+        "34d82dd4-4589-44a3-8a94-84134067f971",
         "061ccc1b-95bb-4147-bfcd-d264635cfafb",
-        "bfd3caac-3459-4b88-a706-8828f77c6c8a"
+        "bfd3caac-3459-4b88-a706-8828f77c6c8a",
+        "033d0f0f-4ee3-4457-87a7-add32b86ed90",
+        "28807607-3f72-4bcf-b00c-d0b40fe3e1e6",
+        "faceb785-b8e4-41fa-b66e-a5b5cf3c7b1c",
+        "988774fe-8a7f-43c0-bdf7-896464c3a981",
+        "aa916361-3a58-419b-ac8a-909857b6bd90"
       ],
       "settings": {
         "top_padding": "large",
         "bottom_padding": "default",
         "title": "Redskins Video",
         "layout": "textImg",
-        "enable_slider": false,
+        "enable_slider": true,
         "bottom_line": false
       }
     },
@@ -848,7 +903,7 @@
           "settings": {
             "icons": "at-ship-fast",
             "title": "Fast Shipping",
-            "text": "<p>Ships to the UK<\/p>",
+            "text": "<p>Speedy and Trusted Shipping <\/p>",
             "texturl": ""
           }
         },
