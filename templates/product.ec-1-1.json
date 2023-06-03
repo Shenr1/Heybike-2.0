@@ -667,15 +667,6 @@
             "content": "Display:LCD Display<br>\nBrake:Hydraulic Disc Brakes<br>\nFrame:Aviation Grade Magnesium Alloy<br>\nTires: 700C*40C Puncture-resistant Tires<br>\nFront Fork: Aluminium Alloy Fork<br>\nHeadlight: Included<br>\nFront and Rear Mudguard: Included<br>\nKickstand: Included<br>\nFront & Rear Reflectors: Included<br>"
           }
         },
-        "c546c699-a8e3-44bd-a2db-1c70b9fdf444": {
-          "type": "objList",
-          "disabled": true,
-          "settings": {
-            "title": "Accessories",
-            "slide_w": "25%",
-            "content": "Mudguards:Included<br>\nKickstand:Included<br>\nReflector:Included<br>\nRear rack\t: Optional<br>\nKettle holder:Optional<br>"
-          }
-        },
         "8c62a64d-13dd-4e76-830e-bf631cb4d864": {
           "type": "image",
           "settings": {
@@ -690,8 +681,8 @@
             "title": "Tool Box",
             "text1": "Tools",
             "metafield1": "tools",
-            "text2": "",
-            "metafield2": "",
+            "text2": "Electrics",
+            "metafield2": "Electrics",
             "text3": "",
             "metafield3": ""
           }
@@ -718,7 +709,6 @@
         "4b9baf99-1d5e-4b05-94c6-37d9a3d707a8",
         "3f710971-b1d4-43f6-87bf-68c7f0429f81",
         "9dfdd47e-961b-4375-b72a-202eb5083615",
-        "c546c699-a8e3-44bd-a2db-1c70b9fdf444",
         "8c62a64d-13dd-4e76-830e-bf631cb4d864",
         "e7514e3b-0b1e-49db-a19a-d7074c9543c2",
         "2bdea729-fb07-4fc5-87c8-a226a6cbbeac",
