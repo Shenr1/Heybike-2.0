@@ -703,6 +703,14 @@
             "slide_w": "full",
             "content": "Are there any restrictions or regulations on the use of e-bikes in the UK?:\nPlease click on the following website www.gov.uk\/electric-bike-rules to learn more about the UK Government's policy on e-bikes. <br>"
           }
+        },
+        "8199fd9a-dacd-4cb3-8f18-ce7ce3ace2d6": {
+          "type": "imgTxtList",
+          "settings": {
+            "title": "Geometry",
+            "th": ",SIZE(mm),S,M,L",
+            "td": "Total Length-69-72-74<br>Seat tube angle-73-84-95"
+          }
         }
       },
       "block_order": [
@@ -712,7 +720,8 @@
         "c546c699-a8e3-44bd-a2db-1c70b9fdf444",
         "8c62a64d-13dd-4e76-830e-bf631cb4d864",
         "e7514e3b-0b1e-49db-a19a-d7074c9543c2",
-        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac"
+        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac",
+        "8199fd9a-dacd-4cb3-8f18-ce7ce3ace2d6"
       ],
       "settings": {
         "top_padding": "default",
