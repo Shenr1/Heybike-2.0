@@ -487,6 +487,17 @@
     "532d629b-5414-439a-9833-fe4f04d408f2": {
       "type": "multiple-image-text",
       "blocks": {
+        "23013716-ea85-4509-a43b-7967d284b85a": {
+          "type": "image",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/Heybike_Hidden_inner_wiring_design.png",
+            "text_main": "Hidden inner wiring design",
+            "text_sub": "The internal wiring design enhances aesthetics, reduces wind resistance, and minimizes cable-vehicle body collisions on rough roads.",
+            "img_link": ""
+          }
+        },
         "01473a8c-f8f3-4061-8171-24367981f33e": {
           "type": "image",
           "settings": {
@@ -495,6 +506,17 @@
             "bg_img": "shopify:\/\/shop_images\/4329a2cf13558c822173f9e4a4b9c055_a2d18231-1102-4f52-8d31-1cd250f91e27.png",
             "text_main": "Shimano 7-speed Drivetrain",
             "text_sub": "The Shimano® 7-speed chain drive ispowerful, smooth, and built to perform high on all roads.",
+            "img_link": ""
+          }
+        },
+        "99fa6312-d3d6-4e55-9944-519e0909fb8f": {
+          "type": "image",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/Heybike_LCD_Display.png",
+            "text_main": "LCD Display",
+            "text_sub": "Compatible with the HEYBIKE App to help you navigate the journey ahead.",
             "img_link": ""
           }
         },
@@ -530,37 +552,15 @@
             "text_sub": "Upgrade your braking experience with our Hydraulic disc brakes. Enjoy accurate and forceful brakes for safer, more consistent travel.",
             "img_link": ""
           }
-        },
-        "99fa6312-d3d6-4e55-9944-519e0909fb8f": {
-          "type": "image",
-          "settings": {
-            "slide_w": "w-1\/3",
-            "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/Heybike_LCD_Display.png",
-            "text_main": "LCD Display",
-            "text_sub": "Compatible with the HEYBIKE App to help you navigate the journey ahead.",
-            "img_link": ""
-          }
-        },
-        "23013716-ea85-4509-a43b-7967d284b85a": {
-          "type": "image",
-          "settings": {
-            "slide_w": "w-1\/3",
-            "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/Heybike_Hidden_inner_wiring_design.png",
-            "text_main": "Hidden inner wiring design",
-            "text_sub": "The internal wiring design enhances aesthetics, reduces wind resistance, and minimizes cable-vehicle body collisions on rough roads.",
-            "img_link": ""
-          }
         }
       },
       "block_order": [
+        "23013716-ea85-4509-a43b-7967d284b85a",
         "01473a8c-f8f3-4061-8171-24367981f33e",
+        "99fa6312-d3d6-4e55-9944-519e0909fb8f",
         "0114d1a4-5f44-43a5-bf46-6af6a08e5df5",
         "fe7a03d3-b3df-4677-9e12-793a76f51f95",
-        "a290cf41-aeb1-4cf0-8844-01c278986b75",
-        "99fa6312-d3d6-4e55-9944-519e0909fb8f",
-        "23013716-ea85-4509-a43b-7967d284b85a"
+        "a290cf41-aeb1-4cf0-8844-01c278986b75"
       ],
       "settings": {
         "top_padding": "large",
