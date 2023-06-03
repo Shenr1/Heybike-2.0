@@ -785,6 +785,36 @@
             "text_main": "",
             "text_sub": ""
           }
+        },
+        "faceb785-b8e4-41fa-b66e-a5b5cf3c7b1c": {
+          "type": "video",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=9UgCYLNXM3w",
+            "text_main": "",
+            "text_sub": ""
+          }
+        },
+        "988774fe-8a7f-43c0-bdf7-896464c3a981": {
+          "type": "video",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=1F-nPjs-tqs",
+            "text_main": "",
+            "text_sub": ""
+          }
+        },
+        "aa916361-3a58-419b-ac8a-909857b6bd90": {
+          "type": "video",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=ZY8hAbtu4d8",
+            "text_main": "",
+            "text_sub": ""
+          }
         }
       },
       "block_order": [
@@ -792,7 +822,10 @@
         "061ccc1b-95bb-4147-bfcd-d264635cfafb",
         "bfd3caac-3459-4b88-a706-8828f77c6c8a",
         "033d0f0f-4ee3-4457-87a7-add32b86ed90",
-        "28807607-3f72-4bcf-b00c-d0b40fe3e1e6"
+        "28807607-3f72-4bcf-b00c-d0b40fe3e1e6",
+        "faceb785-b8e4-41fa-b66e-a5b5cf3c7b1c",
+        "988774fe-8a7f-43c0-bdf7-896464c3a981",
+        "aa916361-3a58-419b-ac8a-909857b6bd90"
       ],
       "settings": {
         "top_padding": "large",
