@@ -338,6 +338,8 @@
       "type": "video",
       "settings": {
         "top-offeset": "default",
+        "top_padding": "none",
+        "bottom_padding": "large",
         "section_width": false,
         "rounded": true,
         "hide_mobile": false,
@@ -569,22 +571,6 @@
         "layout": "textImg",
         "enable_slider": true,
         "bottom_line": true
-      }
-    },
-    "d4b5c56e-c26a-4b14-977c-38e23d8137ca": {
-      "type": "section-space",
-      "settings": {
-        "sdesk": 30,
-        "mdesk": 15,
-        "color_bg": "#ffffff"
-      }
-    },
-    "249f5118-94f0-47fc-be93-3e7f16ec14ba": {
-      "type": "section-space",
-      "settings": {
-        "sdesk": 30,
-        "mdesk": 15,
-        "color_bg": "#ffffff"
       }
     },
     "a8ffb222-813d-463f-9e86-871bceb908a5": {
@@ -985,8 +971,6 @@
     "c9dbe5e5-19b2-4769-9fd9-a600c03bdb17",
     "57d28d3e-e7d1-4115-8f16-31ef4e965106",
     "532d629b-5414-439a-9833-fe4f04d408f2",
-    "d4b5c56e-c26a-4b14-977c-38e23d8137ca",
-    "249f5118-94f0-47fc-be93-3e7f16ec14ba",
     "a8ffb222-813d-463f-9e86-871bceb908a5",
     "286ef3df-4b4b-4252-9fb2-4c7f64f4dda4",
     "b832809d-c477-4c3b-a13f-acb6501dceec",
