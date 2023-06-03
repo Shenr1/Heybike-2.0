@@ -709,8 +709,8 @@
           "settings": {
             "title": "Geometry",
             "image": "shopify:\/\/shop_images\/A5CF3E54-F3E3-4c46-B1C8-8CB1281D4939.png",
-            "th": ",SIZE(mm),S,M,L",
-            "td": "Total Length-69-72-74<br>Seat tube angle-73-84-95"
+            "th": ",SIZE(mm),M,L",
+            "td": "Total Length-69-72<br>Seat tube angle-73-84"
           }
         }
       },
