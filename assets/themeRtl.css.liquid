@@ -1803,10 +1803,10 @@ h2.com-title { font-size:14px; text-align:left; letter-spacing:0.5px; margin:0; 
 
 
 {% comment %}/*========= Footer Styles =========*/{% endcomment %}
-body:not(.template-index) .site-footer { margin-top:20px; }
-@media only screen and (min-width:767px) {
-	body:not(.template-index) .site-footer { margin-top:50px; }
-}
+{% comment %} body:not(.template-product):not(.template-index) .site-footer{ margin-top:20px; }
+@media only screen and (min-width:768px) {
+  body:not(.template-product):not(.template-index) .site-footer{ margin-top:50px; }
+} {% endcomment %}
 
 .footer-block { display:flex; width:100%; -ms-flex-align:stretch; align-items:stretch; flex-wrap:wrap; margin-bottom:-30px; margin-left:-30px; padding:50px 0; }
 .footer-block__item { flex:0 0 auto; margin-bottom:30px; padding-left:30px; max-width:100%; }

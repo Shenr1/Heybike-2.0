@@ -88,11 +88,12 @@
 
               {%- when "imgTxtList" -%}
               {% assign tClass = 'text-sm font-medium text-gray-900 px-4 py-2' %}
-
+              
+              {% if blkSt.image != blank %}
               <div class="flex md:flex-row flex-col justify-between">
               {% assign thArr = blkSt.th | split: ','  %}
               
-                <table class=" order-2 md:w-[{{ thArr.size | times: 10 }}%] md:mr-8 -ml-4 w-[100vw]">
+                <table class=" order-2 md:w-[{{ thArr.size | times: 10 }}%] md:mr-8 md:ml-0 -ml-4 w-[100vw]">
                   <thead class="bg-white border-b text-base">
                     <tr>
                       {% for thTxt in thArr %}
@@ -129,6 +130,7 @@
                   {{ blkSt.image | image_url: width: 1000 | image_tag: width: blkSt.image.width,  loading: 'lazy',class: 'auto' }}
                 </div> 
               </div>
+              {% endif %}
             
             {%- endcase -%}
             </div>

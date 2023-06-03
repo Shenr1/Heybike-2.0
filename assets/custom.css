@@ -804,6 +804,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   height:1px;
 }
 
+.h-\[19rem\] {
+  height:19rem;
+}
+
 .max-h-36 {
   max-height:9rem;
 }
@@ -1733,6 +1737,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
     margin-right:2rem;
   }
 
+  .md\:ml-0 {
+    margin-left:0px;
+  }
+
   .md\:block {
     display:block;
   }
@@ -2166,5 +2174,9 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 
   .\32k\:h-\[22rem\] {
     height:22rem;
+  }
+
+  .\32k\:h-\[26rem\] {
+    height:26rem;
   }
 }
