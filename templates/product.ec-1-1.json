@@ -781,9 +781,19 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "video_url": "",
-            "text_main": "Find Dealers Near You",
-            "text_sub": "Test Ride & Buy Directly"
+            "video_url": "https:\/\/www.youtube.com\/watch?v=1F-nPjs-tqs",
+            "text_main": "",
+            "text_sub": ""
+          }
+        },
+        "1164f111-84a9-41fe-b66e-466d31a87b9b": {
+          "type": "video",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=ZY8hAbtu4d8",
+            "text_main": "",
+            "text_sub": ""
           }
         }
       },
@@ -792,7 +802,8 @@
         "061ccc1b-95bb-4147-bfcd-d264635cfafb",
         "bfd3caac-3459-4b88-a706-8828f77c6c8a",
         "3dac81aa-ed07-4ff0-81c6-811683d0d6b2",
-        "c32ea110-615b-422e-9bdc-4995bc8c9b78"
+        "c32ea110-615b-422e-9bdc-4995bc8c9b78",
+        "1164f111-84a9-41fe-b66e-466d31a87b9b"
       ],
       "settings": {
         "top_padding": "large",
