@@ -736,16 +736,6 @@
     "a96d37af-dc7b-43f1-8f0b-23018e00eaf4": {
       "type": "multiple-image-text",
       "blocks": {
-        "033d0f0f-4ee3-4457-87a7-add32b86ed90": {
-          "type": "video",
-          "settings": {
-            "slide_w": "w-1\/3",
-            "bg_color": "",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=y2sdW0J7diE",
-            "text_main": "",
-            "text_sub": "Test Ride & Buy Directly"
-          }
-        },
         "061ccc1b-95bb-4147-bfcd-d264635cfafb": {
           "type": "video",
           "settings": {
@@ -765,12 +755,22 @@
             "text_main": "Find Dealers Near You",
             "text_sub": "Test Ride & Buy Directly"
           }
+        },
+        "033d0f0f-4ee3-4457-87a7-add32b86ed90": {
+          "type": "video",
+          "settings": {
+            "slide_w": "w-1\/3",
+            "bg_color": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_YVxfTO10Eo",
+            "text_main": "",
+            "text_sub": "Test Ride & Buy Directly"
+          }
         }
       },
       "block_order": [
-        "033d0f0f-4ee3-4457-87a7-add32b86ed90",
         "061ccc1b-95bb-4147-bfcd-d264635cfafb",
-        "bfd3caac-3459-4b88-a706-8828f77c6c8a"
+        "bfd3caac-3459-4b88-a706-8828f77c6c8a",
+        "033d0f0f-4ee3-4457-87a7-add32b86ed90"
       ],
       "settings": {
         "top_padding": "large",
