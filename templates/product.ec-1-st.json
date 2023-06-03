@@ -566,7 +566,7 @@
       ],
       "settings": {
         "top_padding": "large",
-        "bottom_padding": "small",
+        "bottom_padding": "none",
         "title": "The World of HEYBIKE",
         "layout": "textImg",
         "enable_slider": true,
