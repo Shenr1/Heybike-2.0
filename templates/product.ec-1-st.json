@@ -832,7 +832,7 @@
         "bottom_padding": "default",
         "title": "Redskins Video",
         "layout": "textImg",
-        "enable_slider": false,
+        "enable_slider": true,
         "bottom_line": false
       }
     },
