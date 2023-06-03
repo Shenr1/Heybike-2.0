@@ -339,7 +339,7 @@
       "settings": {
         "top-offeset": "default",
         "top_padding": "none",
-        "bottom_padding": "large",
+        "bottom_padding": "default",
         "section_width": false,
         "rounded": true,
         "hide_mobile": false,
