@@ -646,7 +646,7 @@
           "settings": {
             "title": "Performance",
             "slide_w": "25%",
-            "content": "Top Speed: 25 km\/h or 16 mph<br>\nRange: Up to 60 miles <br>\nFull Bike Weight:40lbs<br>\nBattery Charging Time:4-6 hours<br>\nMax Load:300lbs<br>:*Actual performance will vary depending on temperature, road conditions, rider's weight, etc."
+            "content": "Top Speed: 25 km\/h or 16 mph<br>\nRange: Up to 100 km <br>\nFull Bike Weight:18kg<br>\nBattery Charging Time:4-6 hours<br>\nMax Load:150kg<br>:*Actual performance will vary depending on temperature, road conditions, rider's weight, etc."
           }
         },
         "9dfdd47e-961b-4375-b72a-202eb5083615": {
@@ -697,7 +697,8 @@
           "type": "imgTxtList",
           "settings": {
             "title": "Geometry",
-            "th": ",SIZE(mm),M,L",
+            "image": "shopify:\/\/shop_images\/A5CF3E54-F3E3-4c46-B1C8-8CB1281D4939.png",
+            "th": ",SIZE(mm),M",
             "td": "Total Length-69-72<br>Seat tube angle-73-84<br>Effective top tube-45-69<br>Head tube-78-64<br>Wheelbase-78-98<br>Wheel length-62-64<br>Total Height-65-76<br>"
           }
         }
