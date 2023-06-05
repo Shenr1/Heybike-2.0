@@ -181,7 +181,8 @@
           "type": "slide",
           "settings": {
             "text_main": "\"The HeyBike Mars is a special type of fat tire e-bike that folds down for easier transportation, meaning you can take that ride-everywhere fun on the go with you.\"",
-            "text_sub": "- ELECTREK"
+            "text_sub": "- ELECTREK",
+            "logo_image": "shopify:\/\/shop_images\/electrek.png"
           }
         },
         "bfd88edc-65df-4713-b474-231d6eb30b82": {
@@ -340,7 +341,9 @@
             "layout": "right",
             "title": "Smarttech and APP",
             "text": "<p>Deine tollen Fahrten verdienen ein Tagebuch! Verbinde dein Fahrrad mit der HEYBIKE App und erstelle einen beeindruckenden Kilometerstand!<\/p>",
+            "bottom_logo": "shopify:\/\/shop_images\/icon01.png",
             "logo_url": "",
+            "bottom_logo2": "shopify:\/\/shop_images\/icon0.png",
             "logo_url2": "",
             "button_label": "",
             "button_link": "\/",
