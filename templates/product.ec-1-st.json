@@ -823,35 +823,40 @@
           "type": "slide",
           "settings": {
             "text_main": "\"The HeyBike Mars is a special type of fat tire e-bike that folds down for easier transportation, meaning you can take that ride-everywhere fun on the go with you.\"",
-            "text_sub": "- ELECTREK"
+            "text_sub": "- ELECTREK",
+            "logo_image": "shopify:\/\/shop_images\/cropped-electrek-logo11_90838650-4cdd-4c7c-8805-c5c1d5cd7dbb.png"
           }
         },
         "6dc0201d-f684-4821-a9d9-70e940aa064b": {
           "type": "slide",
           "settings": {
             "text_main": "\"The Heybike Mars hits a good price point and is a lot of fun to ride.\"",
-            "text_sub": "- MSN"
+            "text_sub": "- MSN",
+            "logo_image": "shopify:\/\/shop_images\/images_8a47b1b2-efe5-472c-bc65-ff896180b643.png"
           }
         },
         "ea0d551e-e63a-4f7c-b7aa-0fb32c3680d8": {
           "type": "slide",
           "settings": {
             "text_main": "\"When it comes to solid, folding e-bikes, HeyBike has got game, with the manufacturer presenting us with a wide range of fat-tire wheelers.\"",
-            "text_sub": "- AUTOEVOLUTION"
+            "text_sub": "- AUTOEVOLUTION",
+            "logo_image": "shopify:\/\/shop_images\/AU_1ee61b22-7f72-42ed-9d63-79ec89279189.png"
           }
         },
         "8be00180-92b5-454b-96c3-689113c2b127": {
           "type": "slide",
           "settings": {
             "text_main": "\"The Heybike Cityrun stands out for safety and security features, and even has a place to put your water bottle. It's the perfect e-bike for commuting.\"",
-            "text_sub": "- ZDNET"
+            "text_sub": "- ZDNET",
+            "logo_image": "shopify:\/\/shop_images\/ZDNet-logo-347F1C3C61-seeklogo.com_a86e5079-3340-4867-ae7b-bd390b2724cd.png"
           }
         },
         "fd3ab8dd-5f81-4973-9544-5bf7bdfe28f3": {
           "type": "slide",
           "settings": {
             "text_main": "\"The Brawn from Heybike is a motorcycle inspired off-road beast.\"",
-            "text_sub": "- electrifiedreviews"
+            "text_sub": "- electrifiedreviews",
+            "logo_image": "shopify:\/\/shop_images\/123456.png"
           }
         }
       },
