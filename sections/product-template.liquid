@@ -64,7 +64,7 @@
 	{% capture imgSt %}--imgw:100%;{% endcapture %}
 {% endif %}
 
-{% include 'product-tabs-nav' %}
+{% include 'product-tabs-nav', sets:section.settings  %}
 
 <div class="ptContainer {{settings.product_latyout}} page-width{% if secSt.section_width %} fullwidth{%endif%} lg:mt-24 md:mt-18 mt-12" data-style="{{settings.product_latyout}}" data-url="{{ product.url }}" data-section-id="{{ section.id }}" data-section-type="product" data-enable-history-state="true">
 	{%- capture productImages -%}
@@ -813,1250 +813,1291 @@
 {{schemaTags | strip_newlines | remove: "  " | remove: "	" }}
 {% schema %}
 {
-"name": "Product Page",
+  "name": "Product Page",
   "settings": [
-	  {
-		"type":"checkbox",
-		"id":"section_width",
-		"label":"Fullwidth?",
-		"default": false
-	   },
-      {
-		"type": "paragraph",
-        "content":"Manage some global product options from Theme Settings -> Product Page"
-	  }
+    {
+      "type": "checkbox",
+      "id": "section_width",
+      "label": "Fullwidth?",
+      "default": false
+    },
+    {
+      "type": "paragraph",
+      "content": "Manage some global product options from Theme Settings -> Product Page"
+    },
+	{
+		"type": "header",
+		"content": "Anchor nav settings=========",
+		"info": "Anchor name为展示的文案,Anchor href会找到相同href的[product anchor] section"
+	},
+	{
+		"type": "text",
+		"id": "anchor1",
+		"label": "Anchor-1 name",
+		"default": "Features"
+	},
+	{
+		"type": "text",
+		"id": "anchor_href1",
+		"label": "Anchor-1 href",
+		"default": "nav-features"
+	},
+	{
+		"type": "text",
+		"id": "anchor2",
+		"label": "Anchor-2 name",
+		"default": "Specifications"
+	},
+	{
+		"type": "text",
+		"id": "anchor_href2",
+		"label": "Anchor-2 href",
+		"default": "nav-specifications"
+	},
+	{
+		"type": "text",
+		"id": "anchor3",
+		"label": "Anchor-3 name",
+		"default": "Reviews"
+	},
+	{
+		"type": "text",
+		"id": "anchor_href3",
+		"label": "Anchor-3 href",
+		"default": "nav-reviews"
+	}
   ],
-	"blocks": [
-		{
-			"type": "hr",
-			"name": "Divider/Space",   
-			"settings": [
-				{ 
-					"type":"color",
-					"id":"hrc",
-					"label":"Color",
-					"default":"#222"	 
-				},	
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 50,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 20,
-					"info":"You can also use this block to add more space between 2 blocks"
-				}          
-			]
-		}, 
-		{
-			"type": "title",
-			"name": "Title",
-			"limit": 1,
-			"settings": [
-				{
-					"type": "color",
-					"id": "cl",
-					"label": "Color",
-					"default": "#000"
-				},
-				{
-					"type": "range",
-					"id": "fs",
-					"min": 10,
-					"max": 60,
-					"step": 1,
-					"label": "Font Size",
-					"unit": "px",
-					"default": 22
-				},
-				{
-					"type": "range",
-					"id": "fsm",
-					"min": 10,
-					"max": 60,
-					"step": 1,
-					"label": "Font Size(mobile)",
-					"unit": "px",
-					"default": 18
-				},
-                  {
-                    "type": "select",
-                    "id": "ff",
-                    "label": "Font Family",
-                    "default": "ft2",
-                    "options": [
-                      {
-                        "value": "ft1",
-                        "label": "Font 1"
-                      },
-                      {
-                        "value": "ft2",
-                        "label": "Font 2"
-                      },
-                      {
-                        "value": "ft3",
-                        "label": "Font 3"
-                      }
-                    ]
-                  },
-				{
-					"type": "select",
-					"id": "fw",
-					"label": "Font Weight",
-					"default": "600",
-					"options": [
-						{
-							"value": "300",
-							"label": "Light"
-						},
-						{
-							"value": "400",
-							"label": "Regular"
-						},
-						{
-							"value": "500",
-							"label": "Medium"
-						},
-						{
-							"value": "600",
-							"label": "Semi Bold"
-						},
-						{
-							"value": "700",
-							"label": "Bold"
-						}
-					]
-				},
-                  {
-                    "type": "select",
-                    "id": "transform",
-                    "label": "Text Transform",
-                    "default": "tt-c",
-                    "options": [
-                      {
-                        "value": "none",
-                        "label": "none"
-                      },
-                      {
-                        "value": "tt-c",
-                        "label": "Capitalize"
-                      },
-                      {
-                        "value": "tt-l",
-                        "label": "Lowercase"
-                      },
-                      {
-                        "value": "tt-u",
-                        "label": "Uppercase"
-                      }
-                    ]
-                  },
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 30,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 20
-				}          
-			]   
-		},
-		{
-			"type": "price",
-			"name": "Price",
-			"limit": 1,
-			"settings": [
-				{
-					"type": "color",
-					"id": "pcl",
-					"label": "Price",
-					"default": "#000"
-				},
-				{
-					"type": "color",
-					"id": "pcls",
-					"label": "Sale Price",
-					"default": "#e95144"
-				},
-				{
-					"type": "range",
-					"id": "fs",
-					"min": 10,
-					"max": 60,
-					"step": 1,
-					"label": "Font Size",
-					"unit": "px",
-					"default": 25
-				},
-				{
-					"type": "range",
-					"id": "fsm",
-					"min": 10,
-					"max": 60,
-					"step": 1,
-					"label": "Font Size(mobile)",
-					"unit": "px",
-					"default": 16
-				},
-				 {
-				  "type": "select",
-				  "id": "pfw",
-				  "label": "Font Weight",
-				  "default": "600",
-				  "options": [
-					{
-					  "value": "300",
-					  "label": "Light"
-					},
-					{
-					  "value": "400",
-					  "label": "Regular"
-					},
-					{
-					  "value": "500",
-					  "label": "Medium"
-					},
-					{
-					  "value": "600",
-					  "label": "Semi Bold"
-					},
-					{
-					  "value": "700",
-					  "label": "Bold"
-					}
-				  ]
-				},
-				{
-					"type": "checkbox",
-					"id": "saved",
-					"label": "Show Discount Saved Badge?",
-					"default": true,
-					"info": "Display right after price if product have discount"
-				},
-				{
-					"type": "checkbox",
-					"id": "taxship",
-					"label": "Show tax and shipping information label?",
-					"default": false
-				},
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 30,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 20
-				}          
-			]    
-		},
-		{
-			"type": "vendor",
-			"name": "Vendor/Brand",
-			"limit": 1,
-			"settings": [			
-				{
-					"type": "checkbox",
-					"id": "img",
-					"label": "Show vendor logo?",
-					"info": "Need to create png logo image with same name as vendor name and upload at settings > files. Example: Coca Cola = coca-cola.png, Nike = nike.png"
-				},
-				{
-					"type": "range",
-					"id": "lwd",
-					"min": 50,
-					"max": 500,
-					"step": 5,
-					"label": "Logo width",
-					"unit": "px",
-					"default": 150
-				},
-				{
-					"type": "color",
-					"id": "cl",
-					"label": "Color",
-					"default": "#000"
-				},
-				{
-					"type": "range",
-					"id": "fs",
-					"min": 10,
-					"max": 60,
-					"step": 1,
-					"label": "Font Size",
-					"unit": "px",
-					"default": 13
-				},
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 30,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 20
-				}                
-			]   
-		},
-		{
-			"type": "shortdes",
-			"name": "Product Description",
-			"limit": 1,
-			"settings": [  
-				{
-					"type": "select",
-					"id": "type",
-					"label": "Show",
-					"default": "shortd",
-					"info":"[Description by metafield?](https://www.adornthemes.com/knowledge-base/vogal-product-metafields/)",
-					"options": [
-						{
-							"value": "shortd",
-							"label": "Short Description"
-						},
-						{
-							"value": "fulld",
-							"label": "Full Description"
-						},
-						{
-							"value": "meta",
-							"label": "Metafield Description"
-						}
-					]
-				},
-				{
-					"type": "range",
-					"id": "lmt",
-					"min": 5,
-					"max": 100,
-					"step": 1,
-					"label": "Short Description Limit",
-					"unit": "px",
-					"default": 40
-				},            
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 30,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 20
-				}          
-			]
-		},   
-		{
-			"type": "cta",
-			"name": "Product Form",
-			"limit": 1,
-			"settings":[
-				{
-					"type": "checkbox",
-					"id": "qty_sel",
-					"label": "Show Quantity Selector?",
-					"default": true
-				},      
-			    {
-					"type": "paragraph",
-					"content": "Manage swatch style from Theme Settings-> Product Page"
-				},
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 30,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 20
-				}                                           
-			]   
-		},
-		{
-			"type": "countdown",
-			"name": "Countdown",
-			"limit": 1,
-			"settings": [
-				{       
-					"type": "paragraph",       
-					"content": "[How to set Countdown timer for each products?](https:\/\/www.adornthemes.com\/knowledge-base\/how-to-add-product-countdown-shopify\/)"
-				},
-              {
-                "type": "text",
-                "id": "lbl",
-                "label": "Label",
-                "default": "Hurry up! Sales End In"
-              },
-              {
-                "type": "color",
-                "id": "lcl",
-                "label": "Label",
-                "default": "#000"
-              },
-              {
-                "type": "color",
-                "id": "cl",
-                "label": "Text",
-                "default": "#fff"
-              },
-              {
-                "type": "color",
-                "id": "bg",
-                "label": "Background",
-                "default": "#16395b"
-              },
-              {
-                "type": "color",
-                "id": "bd",
-                "label": "Border",
-                "default": "#eee"
-              },
-              {
-					"type": "range",
-					"id": "bdr",
-					"min": 0,
-					"max": 50,
-					"step": 1,
-					"label": "Border Radius",
-					"unit": "px",
-					"default": 0
-				},   
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 30,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 20
-				}          
-			]   
-		},
-		{
-			"type": "img",
-			"name": "Image",
-			"settings": [
-				{
-					"type": "image_picker",
-					"id": "pimg",
-					"label": "Image"
-				},
-				{
-					"type": "url",
-					"id": "pimg_url",
-					"label": "Image Link"
-				},	 
-				{
-					"type": "checkbox",
-					"id": "img_align",
-					"label": "Image align center?",
-					"default": false
-				},
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 30,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 20
-				}          
-			]
-		}, 
-		{
-			"type": "text",
-			"name": "Text",   
-			"settings": [
-				{ 
-					"type":"textarea",
-					"id":"text",
-					"label":"Text",
-					"default":"Text block",
-                    "info":"[Find icons here](http:\/\/www.adornthemes.com\/optimal-icons\/)"
-				},    
-                 {
-                    "type": "color",
-                    "id": "cl",
-                    "label": "Text Color",
-                    "default": "#000"
-                  },
-                  {
-                    "type": "checkbox",
-                    "id": "addbg",
-                    "label": "Add Background?",
-                    "default": false
-                  },
-                 {
-                    "type": "color",
-                    "id": "bg",
-                    "label": "Color",
-                    "default": "#f5f5f5"
-                  },
-                 {
-                      "type": "range",
-                      "id": "fs",
-                      "label": "Font Size",
-                      "default": 13,
-                      "min": 10,
-                      "max": 20,
-                      "step": 1,
-                      "unit": "px"
-                  },
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 30,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 20
-				}          
-			]
-		},
-		{
-			"type": "ras",
-			"name": "Rating/Availability/SKU",
-            "limit": 1,
-			"settings": [
-				{ 
-					"type":"paragraph",				
-					"content":"Display Ratings from app. Choose app from General Settings -> Products Reviews"
-				},
-              {
-                "type": "checkbox",
-                "id": "availability",
-                "label": "Show Product Availability?",
-                "default": true
-              },
-              {
-                "type": "checkbox",
-                "id": "sku",
-                "label": "Show Product SKU?",
-                "default": true
-              },      
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 30,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 20
-				}          
-			]
-		},
-		{
-		"type": "colimg",
-		"name": "Column img",
-		"limit": 1,
-		"settings": [
-			{ 
-				"type":"text",
-				"id":"text1",
-				"label":"First content",
-				"default":"Free shipping"
-			},     
-			{ 
-				"type":"text",
-				"id":"text2",
-				"label":"Second content",
-				"default":"VAT included"
-			},     
-			{ 
-				"type":"text",
-				"id":"text3",
-				"label":"Third content",
-				"default":"2-year warranty"
-			},     
-			{ 
-				"type":"image_picker",
-				"id":"icon1",
-				"label":"First icon"
-			},     
-			{ 
-				"type":"image_picker",
-				"id":"icon2",
-				"label":"Second icon"
-			},     
-			{ 
-				"type":"image_picker",
-				"id":"icon3",
-				"label":"Third icon"
-			}
-		]
-		},
-		{
-		"type": "giveaways",
-		"name": "Giveaways",
-		"settings": [
-			{ 
-				"type":"text",
-				"id":"title",
-				"label":"Title",
-				"default":"Fender Set"
-			},
-			{ 
-				"type":"text",
-				"id":"price",
-				"label":"Price",
-				"default":"45"
-			},
-			{ 
-				"type":"text",
-				"id":"tag",
-				"label":"tag",
-				"default":"FREE"
-			},
-			{ 
-				"type":"image_picker",
-				"id": "Image",
-				"label": "Image"
-			}
-		]
-		},
-		{
-			"type": "coltabs",
-			"name": "Collapsible Tab",
-			"settings": [
-				{ 
-					"type":"text",
-					"id":"title",
-					"label":"Heading",
-					"default":"Care Instructions"
-				},  
-				{
-					"type": "select",
-					"id": "opt",
-					"label": "Content Source",
-					"default": "txt",
-					"options": [
-						{
-							"value": "txt",
-							"label": "Text as Below"
-						},
-						{
-							"value": "des",
-							"label": "Description"
-						},
-						{
-							"value": "size",
-							"label": "Size Chart"
-						}
-					]
-				},
-				{
-					"type": "richtext",
-					"id": "richtxt",
-					"label": "Tab text",       
-					"default":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>"
-				},
-                {
-            		"type":"checkbox",
-            		"id":"open",
-            		"label":"Open by default?",
-            		"default": false
-          	    },
-                { 
-					"type":"paragraph",				
-					"content":"Manage color and fonts from theme settings > product page > Collapsible Tab"
-				},
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 30,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 0
-				}
-			]
-		}, 
-		{
-			"type": "qty",
-			"name": "Quantity Message",
-            "limit": 1,
-			"settings": [
-              {
-                "type": "range",
-                "id": "maxqty",
-                "label": "Max Quantity",
-                "min": 1,
-                "max": 50,
-                "step": 1,
-                "default": 20,
-                "info": "Display stock left number when product stock is less than selected numbers"
-              },
-              {
-                "type": "color",
-                "id": "cl",
-                "label": "Text",
-                "default": "#fff"
-              },
-              {
-                "type": "color",
-                "id": "bg",
-                "label": "Background",
-                "default": "#ff656c"
-              },
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 30,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 20
-				}          
-			]
-		},
-		{
-			"type": "order",
-			"name": "Fake Order",
-			"limit": 1,
-			"settings": [				
-				{
-					"type": "range",
-					"id": "orders",
-					"label": "Max Items",
-					"min": 1,
-					"max": 50,
-					"step": 1,
-					"default": 20,
-					"unit": "qty"
-				},
-				{
-					"type": "range",
-					"id": "otime",
-					"label": "Order time",
-					"min": 5,
-					"max": 48,
-					"step": 1,
-					"default": 24,
-					"unit": "h"
-				},
-				{
-					"type": "textarea",
-					"id": "omsg",
-					"label": "Orders Message",
-					"default": "<i class='at at-fire-l'></i> [orders] sold in last [hours] hours",
-					"info": "Use '[orders]' for items counts and '[hours]' for hours counts"
-				},
-                {
-                    "type": "color",
-                    "id": "cl",
-                    "label": "Text Color",
-                    "default": "#000"
-                  },                  
-                 {
-                      "type": "range",
-                      "id": "fs",
-                      "label": "Font Size",
-                      "default": 13,
-                      "min": 10,
-                      "max": 20,
-                      "step": 1,
-                      "unit": "px"
-                  },
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 30,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 15
-				}          
-			]   
-		},
-		{
-			"type": "visitor",
-			"name": "Fake Visitor",
-			"limit": 1,
-			"settings": [				
-				{
-					"type": "range",
-					"id": "visitors",
-					"label": "Max Visitors",
-					"min": 10,
-					"max": 500,
-					"step": 10,
-					"default": 50
-				},
-				{
-					"type": "range",
-					"id": "visitors_time",
-					"label": "Interval time",
-					"min": 1,
-					"max": 20,
-					"step": 1,
-					"unit": "sec",
-					"default": 5
-				},
-				{
-					"type": "textarea",
-					"id": "visitors_msg",
-					"label": "Visitors Message",
-					"default": "<i class='at at-eye-r'></i> [visitors] People looking for this product",
-					"info": "Use '[visitors]' to show user counts"
-				},
-                {
-                    "type": "color",
-                    "id": "cl",
-                    "label": "Text Color",
-                    "default": "#000"
-                  },                  
-                 {
-                      "type": "range",
-                      "id": "fs",
-                      "label": "Font Size",
-                      "default": 13,
-                      "min": 10,
-                      "max": 20,
-                      "step": 1,
-                      "unit": "px"
-                  },
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 30,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 15
-				}          
-			]   
-		},	
-		{
-			"type": "shiptime",
-			"name": "Shipping Estimate",
-			"limit": 1,
-			"settings": [
-				{
-					"type": "paragraph",       
-					"content": "Display same time for all products, To set different for each product [follow this article](https:\/\/www.adornthemes.com\/knowledge-base\/show-shipping-estimated-time-for-specific-product-2\/)"
-				},
-				{
-					"type": "text",
-					"id": "estimate",
-					"label": "Shipping Estimated Days",
-					"default": "4\/10",
-					"info": "Add value in days like 4\/10 and customer will show date after 4 to 10 days from today date."
-				},
-				{
-					"type": "textarea",
-					"id": "msg",
-					"label": "Shipping Estimate Message",
-					"default": "<i class='at at-clock-r'></i> Estimated delivery between [startdate] - [enddate].",
-					"info": "Use '[startdate]' and [enddate] for date to show with message"
-				},
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 30,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 15
-				}          
-			]   
-		},
-		{
-			"type": "freeship",
-			"name": "Free Shipping",
-			"limit": 1,
-			"settings": [           
-				{
-					"type": "paragraph",
-					"content": "Manage free shipping message from Theme Settings -> General Settings -> Free Shipping Message"          
-				},
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 30,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 15
-				}          
-			]
-		},
-		{
-			"type": "pickup",
-			"name": "Pickup Availability",
-			"limit": 1,
-			"settings":[ 
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 30,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 15
-				}          
-			]  
-		},      
-		{
-			"type": "customc",
-			"name": "HTML/Liquid",
-			"limit": 2,
-			"settings":[
-				{
-					"type": "liquid",
-					"id": "custom_liquid",
-					"label": "HTML",
-					"info": "Add app snippets or other Liquid code to create advanced customizations.",
-					"default":"<h4>Custom code block</h4><p>Use this advance section to add custom HTML, app scripts, or liquid.</p>"
-				},
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 30,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 15
-				}          
-			]
-		},
-		{
-			"type": "@app"
-		},
-		{
-			"type": "complementary",
-			"name": "Complementary products",
-			"limit": 1,
-			"settings": [
-				{
-					"type": "paragraph",
-					"content": "To select complementary products, add the Search & Discovery app. [Learn more](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
-				},
-				{
-					"type": "text",
-					"id": "title",
-					"label": "Heading",
-					"default": "Complete the look"
-				},
-				{
-					"type": "color",
-					"id": "cl",
-					"label": "Color",
-					"default": "#000"
-				},
-				{
-					"type": "range",
-					"id": "fs",
-					"min": 10,
-					"max": 60,
-					"step": 1,
-					"label": "Font Size",
-					"unit": "px",
-					"default": 22
-				},
-				{
-					"type": "range",
-					"id": "fsm",
-					"min": 10,
-					"max": 60,
-					"step": 1,
-					"label": "Font Size(mobile)",
-					"unit": "px",
-					"default": 16
-				},    
-				{
-					"type": "select",
-					"id": "fw",
-					"label": "Font Weight",
-					"default": "600",
-					"options": [
-						{
-							"value": "300",
-							"label": "Light"
-						},
-						{
-							"value": "400",
-							"label": "Regular"
-						},
-						{
-							"value": "500",
-							"label": "Medium"
-						},
-						{
-							"value": "600",
-							"label": "Semi Bold"
-						},
-						{
-							"value": "700",
-							"label": "Bold"
-						}
-					]
-				},
-				{
-					"type": "range",
-					"id": "limit",
-					"min": 1,
-					"max": 10,
-					"step": 1,
-					"default": 10,
-					"label": "Maximum products to show"
-				},
-				{
-					"type": "paragraph",
-					"content": "Products Per Row ==="
-				},
-				{
-					"type": "range",
-					"id": "grid",
-					"label": "Desktop",
-					"default": 4,
-					"min": 2,
-					"max": 5,
-					"step": 1
-				},
-				{
-					"type": "range",
-					"id": "gridtb",
-					"label": "Tablet",
-					"default": 3,
-					"min": 1,
-					"max": 5,
-					"step": 1
-				},
-				{
-					"type": "range",
-					"id": "gridmb",
-					"label": "Mobile",
-					"default": 2,
-					"min": 1,
-					"max": 5,
-					"step": 1
-				},
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 30,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 15
-				}
-			]
-		}, 
-		{
-			"type": "more-color",
-			"name": "More Colors",
-			"limit": 1,
-			"settings": [
-				 {
-					"type": "paragraph",
-					"content": "To select color products, add the metafields. [Learn more](https://www.adornthemes.com/knowledge-base/more-color-products/)"
-				},
-				{
-					"type": "text",
-					"id": "title",
-					"label": "Heading",
-					"default": "More colors"
-				},
-				{
-					"type": "color",
-					"id": "cl",
-					"label": "Color",
-					"default": "#000"
-				},
-				{
-					"type": "range",
-					"id": "fs",
-					"min": 10,
-					"max": 60,
-					"step": 1,
-					"label": "Font Size",
-					"unit": "px",
-					"default":16
-				},
-				{
-					"type": "range",
-					"id": "fsm",
-					"min": 10,
-					"max": 60,
-					"step": 1,
-					"label": "Font Size(mobile)",
-					"unit": "px",
-					"default": 16
-				},    
-				{
-					"type": "select",
-					"id": "fw",
-					"label": "Font Weight",
-					"default": "600",
-					"options": [
-						{
-							"value": "300",
-							"label": "Light"
-						},
-						{
-							"value": "400",
-							"label": "Regular"
-						},
-						{
-							"value": "500",
-							"label": "Medium"
-						},
-						{
-							"value": "600",
-							"label": "Semi Bold"
-						},
-						{
-							"value": "700",
-							"label": "Bold"
-						}
-					]
-				},           
-				{
-					"type": "range",
-					"id": "wd",
-					"min": 30,
-					"max": 150,
-					"step": 5,
-					"label": "Image Width",
-					"unit": "px",
-					"default": 100
-				},
-				{
-					"type": "color",
-					"id": "bd",
-					"label": "Active Border",
-					"default": "#000"
-				},
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 30,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 15
-				}
-			]   
-		},      
-		{
-			"type": "ft",
-			"name": "Feature Points",
-			"limit": 1,
-			"settings":[
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 30,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 15
-				},
-                  {
-                    "type": "textarea",
-                    "id": "ft1",
-                    "label": "Feature Text 1",
-                    "default": "<i class='at at-truck-l'><\/i> Free Shipping & Return"
-                  },
-                  {
-                    "type": "textarea",
-                    "id": "ft2",
-                    "label": "Feature Text 2",
-                    "default": "<i class='at at-sync-ar'><\/i> Money back guarantee"
-                  },
-                  {
-                    "type": "textarea",
-                    "id": "ft3",
-                    "label": "Feature Text 3",
-                    "default": "<i class='at at-question-l'><\/i> Fast & reliable support"
-                  },
-                  {
-                    "type": "textarea",
-                    "id": "ft4",
-                    "label": "Feature Text 4",
-                    "default": "<i class='at at-credit-card-l'><\/i> Secure payment"
-                  },
-                  {
-                    "type": "color",
-                    "id": "cl",
-                    "label": "Text",
-                    "default": "#111"
-                  }
-			]
-		},      
-		{
-			"type": "type",
-			"name": "Product Type",
-			"limit": 1,
-			"settings":[
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 30,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 15
-				}          
-			]
-		},      
-		{
-			"type": "cl",
-			"name": "Product Collection",
-			"limit": 1,
-			"settings":[
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 30,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 15
-				}          
-			]
-		},      
-		{
-			"type": "tags",
-			"name": "Product Tags",
-			"limit": 1,
-			"settings":[
-				{
-					"type": "range",
-					"id": "bm",
-					"min": 0,
-					"max": 30,
-					"step": 5,
-					"label": "Bottom Margin",
-					"unit": "px",
-					"default": 15
-				}          
-			]
-		}
-	]
+  "blocks": [
+    {
+      "type": "hr",
+      "name": "Divider/Space",
+      "settings": [
+        {
+          "type": "color",
+          "id": "hrc",
+          "label": "Color",
+          "default": "#222"
+        },
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 50,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 20,
+          "info": "You can also use this block to add more space between 2 blocks"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "name": "Title",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "color",
+          "id": "cl",
+          "label": "Color",
+          "default": "#000"
+        },
+        {
+          "type": "range",
+          "id": "fs",
+          "min": 10,
+          "max": 60,
+          "step": 1,
+          "label": "Font Size",
+          "unit": "px",
+          "default": 22
+        },
+        {
+          "type": "range",
+          "id": "fsm",
+          "min": 10,
+          "max": 60,
+          "step": 1,
+          "label": "Font Size(mobile)",
+          "unit": "px",
+          "default": 18
+        },
+        {
+          "type": "select",
+          "id": "ff",
+          "label": "Font Family",
+          "default": "ft2",
+          "options": [
+            {
+              "value": "ft1",
+              "label": "Font 1"
+            },
+            {
+              "value": "ft2",
+              "label": "Font 2"
+            },
+            {
+              "value": "ft3",
+              "label": "Font 3"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "fw",
+          "label": "Font Weight",
+          "default": "600",
+          "options": [
+            {
+              "value": "300",
+              "label": "Light"
+            },
+            {
+              "value": "400",
+              "label": "Regular"
+            },
+            {
+              "value": "500",
+              "label": "Medium"
+            },
+            {
+              "value": "600",
+              "label": "Semi Bold"
+            },
+            {
+              "value": "700",
+              "label": "Bold"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "transform",
+          "label": "Text Transform",
+          "default": "tt-c",
+          "options": [
+            {
+              "value": "none",
+              "label": "none"
+            },
+            {
+              "value": "tt-c",
+              "label": "Capitalize"
+            },
+            {
+              "value": "tt-l",
+              "label": "Lowercase"
+            },
+            {
+              "value": "tt-u",
+              "label": "Uppercase"
+            }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 20
+        }
+      ]
+    },
+    {
+      "type": "price",
+      "name": "Price",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "color",
+          "id": "pcl",
+          "label": "Price",
+          "default": "#000"
+        },
+        {
+          "type": "color",
+          "id": "pcls",
+          "label": "Sale Price",
+          "default": "#e95144"
+        },
+        {
+          "type": "range",
+          "id": "fs",
+          "min": 10,
+          "max": 60,
+          "step": 1,
+          "label": "Font Size",
+          "unit": "px",
+          "default": 25
+        },
+        {
+          "type": "range",
+          "id": "fsm",
+          "min": 10,
+          "max": 60,
+          "step": 1,
+          "label": "Font Size(mobile)",
+          "unit": "px",
+          "default": 16
+        },
+        {
+          "type": "select",
+          "id": "pfw",
+          "label": "Font Weight",
+          "default": "600",
+          "options": [
+            {
+              "value": "300",
+              "label": "Light"
+            },
+            {
+              "value": "400",
+              "label": "Regular"
+            },
+            {
+              "value": "500",
+              "label": "Medium"
+            },
+            {
+              "value": "600",
+              "label": "Semi Bold"
+            },
+            {
+              "value": "700",
+              "label": "Bold"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "saved",
+          "label": "Show Discount Saved Badge?",
+          "default": true,
+          "info": "Display right after price if product have discount"
+        },
+        {
+          "type": "checkbox",
+          "id": "taxship",
+          "label": "Show tax and shipping information label?",
+          "default": false
+        },
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 20
+        }
+      ]
+    },
+    {
+      "type": "vendor",
+      "name": "Vendor/Brand",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "img",
+          "label": "Show vendor logo?",
+          "info": "Need to create png logo image with same name as vendor name and upload at settings > files. Example: Coca Cola = coca-cola.png, Nike = nike.png"
+        },
+        {
+          "type": "range",
+          "id": "lwd",
+          "min": 50,
+          "max": 500,
+          "step": 5,
+          "label": "Logo width",
+          "unit": "px",
+          "default": 150
+        },
+        {
+          "type": "color",
+          "id": "cl",
+          "label": "Color",
+          "default": "#000"
+        },
+        {
+          "type": "range",
+          "id": "fs",
+          "min": 10,
+          "max": 60,
+          "step": 1,
+          "label": "Font Size",
+          "unit": "px",
+          "default": 13
+        },
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 20
+        }
+      ]
+    },
+    {
+      "type": "shortdes",
+      "name": "Product Description",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "select",
+          "id": "type",
+          "label": "Show",
+          "default": "shortd",
+          "info": "[Description by metafield?](https://www.adornthemes.com/knowledge-base/vogal-product-metafields/)",
+          "options": [
+            {
+              "value": "shortd",
+              "label": "Short Description"
+            },
+            {
+              "value": "fulld",
+              "label": "Full Description"
+            },
+            {
+              "value": "meta",
+              "label": "Metafield Description"
+            }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "lmt",
+          "min": 5,
+          "max": 100,
+          "step": 1,
+          "label": "Short Description Limit",
+          "unit": "px",
+          "default": 40
+        },
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 20
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "name": "Product Form",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "qty_sel",
+          "label": "Show Quantity Selector?",
+          "default": true
+        },
+        {
+          "type": "paragraph",
+          "content": "Manage swatch style from Theme Settings-> Product Page"
+        },
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 20
+        }
+      ]
+    },
+    {
+      "type": "countdown",
+      "name": "Countdown",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "[How to set Countdown timer for each products?](https://www.adornthemes.com/knowledge-base/how-to-add-product-countdown-shopify/)"
+        },
+        {
+          "type": "text",
+          "id": "lbl",
+          "label": "Label",
+          "default": "Hurry up! Sales End In"
+        },
+        {
+          "type": "color",
+          "id": "lcl",
+          "label": "Label",
+          "default": "#000"
+        },
+        {
+          "type": "color",
+          "id": "cl",
+          "label": "Text",
+          "default": "#fff"
+        },
+        {
+          "type": "color",
+          "id": "bg",
+          "label": "Background",
+          "default": "#16395b"
+        },
+        {
+          "type": "color",
+          "id": "bd",
+          "label": "Border",
+          "default": "#eee"
+        },
+        {
+          "type": "range",
+          "id": "bdr",
+          "min": 0,
+          "max": 50,
+          "step": 1,
+          "label": "Border Radius",
+          "unit": "px",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 20
+        }
+      ]
+    },
+    {
+      "type": "img",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "pimg",
+          "label": "Image"
+        },
+        {
+          "type": "url",
+          "id": "pimg_url",
+          "label": "Image Link"
+        },
+        {
+          "type": "checkbox",
+          "id": "img_align",
+          "label": "Image align center?",
+          "default": false
+        },
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 20
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Text",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Text",
+          "default": "Text block",
+          "info": "[Find icons here](http://www.adornthemes.com/optimal-icons/)"
+        },
+        {
+          "type": "color",
+          "id": "cl",
+          "label": "Text Color",
+          "default": "#000"
+        },
+        {
+          "type": "checkbox",
+          "id": "addbg",
+          "label": "Add Background?",
+          "default": false
+        },
+        {
+          "type": "color",
+          "id": "bg",
+          "label": "Color",
+          "default": "#f5f5f5"
+        },
+        {
+          "type": "range",
+          "id": "fs",
+          "label": "Font Size",
+          "default": 13,
+          "min": 10,
+          "max": 20,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 20
+        }
+      ]
+    },
+    {
+      "type": "ras",
+      "name": "Rating/Availability/SKU",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Display Ratings from app. Choose app from General Settings -> Products Reviews"
+        },
+        {
+          "type": "checkbox",
+          "id": "availability",
+          "label": "Show Product Availability?",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "sku",
+          "label": "Show Product SKU?",
+          "default": true
+        },
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 20
+        }
+      ]
+    },
+    {
+      "type": "colimg",
+      "name": "Column img",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "text1",
+          "label": "First content",
+          "default": "Free shipping"
+        },
+        {
+          "type": "text",
+          "id": "text2",
+          "label": "Second content",
+          "default": "VAT included"
+        },
+        {
+          "type": "text",
+          "id": "text3",
+          "label": "Third content",
+          "default": "2-year warranty"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon1",
+          "label": "First icon"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon2",
+          "label": "Second icon"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon3",
+          "label": "Third icon"
+        }
+      ]
+    },
+    {
+      "type": "giveaways",
+      "name": "Giveaways",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Fender Set"
+        },
+        {
+          "type": "text",
+          "id": "price",
+          "label": "Price",
+          "default": "45"
+        },
+        {
+          "type": "text",
+          "id": "tag",
+          "label": "tag",
+          "default": "FREE"
+        },
+        {
+          "type": "image_picker",
+          "id": "Image",
+          "label": "Image"
+        }
+      ]
+    },
+    {
+      "type": "coltabs",
+      "name": "Collapsible Tab",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Care Instructions"
+        },
+        {
+          "type": "select",
+          "id": "opt",
+          "label": "Content Source",
+          "default": "txt",
+          "options": [
+            {
+              "value": "txt",
+              "label": "Text as Below"
+            },
+            {
+              "value": "des",
+              "label": "Description"
+            },
+            {
+              "value": "size",
+              "label": "Size Chart"
+            }
+          ]
+        },
+        {
+          "type": "richtext",
+          "id": "richtxt",
+          "label": "Tab text",
+          "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>"
+        },
+        {
+          "type": "checkbox",
+          "id": "open",
+          "label": "Open by default?",
+          "default": false
+        },
+        {
+          "type": "paragraph",
+          "content": "Manage color and fonts from theme settings > product page > Collapsible Tab"
+        },
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 0
+        }
+      ]
+    },
+    {
+      "type": "qty",
+      "name": "Quantity Message",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "range",
+          "id": "maxqty",
+          "label": "Max Quantity",
+          "min": 1,
+          "max": 50,
+          "step": 1,
+          "default": 20,
+          "info": "Display stock left number when product stock is less than selected numbers"
+        },
+        {
+          "type": "color",
+          "id": "cl",
+          "label": "Text",
+          "default": "#fff"
+        },
+        {
+          "type": "color",
+          "id": "bg",
+          "label": "Background",
+          "default": "#ff656c"
+        },
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 20
+        }
+      ]
+    },
+    {
+      "type": "order",
+      "name": "Fake Order",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "range",
+          "id": "orders",
+          "label": "Max Items",
+          "min": 1,
+          "max": 50,
+          "step": 1,
+          "default": 20,
+          "unit": "qty"
+        },
+        {
+          "type": "range",
+          "id": "otime",
+          "label": "Order time",
+          "min": 5,
+          "max": 48,
+          "step": 1,
+          "default": 24,
+          "unit": "h"
+        },
+        {
+          "type": "textarea",
+          "id": "omsg",
+          "label": "Orders Message",
+          "default": "<i class='at at-fire-l'></i> [orders] sold in last [hours] hours",
+          "info": "Use '[orders]' for items counts and '[hours]' for hours counts"
+        },
+        {
+          "type": "color",
+          "id": "cl",
+          "label": "Text Color",
+          "default": "#000"
+        },
+        {
+          "type": "range",
+          "id": "fs",
+          "label": "Font Size",
+          "default": 13,
+          "min": 10,
+          "max": 20,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 15
+        }
+      ]
+    },
+    {
+      "type": "visitor",
+      "name": "Fake Visitor",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "range",
+          "id": "visitors",
+          "label": "Max Visitors",
+          "min": 10,
+          "max": 500,
+          "step": 10,
+          "default": 50
+        },
+        {
+          "type": "range",
+          "id": "visitors_time",
+          "label": "Interval time",
+          "min": 1,
+          "max": 20,
+          "step": 1,
+          "unit": "sec",
+          "default": 5
+        },
+        {
+          "type": "textarea",
+          "id": "visitors_msg",
+          "label": "Visitors Message",
+          "default": "<i class='at at-eye-r'></i> [visitors] People looking for this product",
+          "info": "Use '[visitors]' to show user counts"
+        },
+        {
+          "type": "color",
+          "id": "cl",
+          "label": "Text Color",
+          "default": "#000"
+        },
+        {
+          "type": "range",
+          "id": "fs",
+          "label": "Font Size",
+          "default": 13,
+          "min": 10,
+          "max": 20,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 15
+        }
+      ]
+    },
+    {
+      "type": "shiptime",
+      "name": "Shipping Estimate",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Display same time for all products, To set different for each product [follow this article](https://www.adornthemes.com/knowledge-base/show-shipping-estimated-time-for-specific-product-2/)"
+        },
+        {
+          "type": "text",
+          "id": "estimate",
+          "label": "Shipping Estimated Days",
+          "default": "4/10",
+          "info": "Add value in days like 4/10 and customer will show date after 4 to 10 days from today date."
+        },
+        {
+          "type": "textarea",
+          "id": "msg",
+          "label": "Shipping Estimate Message",
+          "default": "<i class='at at-clock-r'></i> Estimated delivery between [startdate] - [enddate].",
+          "info": "Use '[startdate]' and [enddate] for date to show with message"
+        },
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 15
+        }
+      ]
+    },
+    {
+      "type": "freeship",
+      "name": "Free Shipping",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Manage free shipping message from Theme Settings -> General Settings -> Free Shipping Message"
+        },
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 15
+        }
+      ]
+    },
+    {
+      "type": "pickup",
+      "name": "Pickup Availability",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 15
+        }
+      ]
+    },
+    {
+      "type": "customc",
+      "name": "HTML/Liquid",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "liquid",
+          "id": "custom_liquid",
+          "label": "HTML",
+          "info": "Add app snippets or other Liquid code to create advanced customizations.",
+          "default": "<h4>Custom code block</h4><p>Use this advance section to add custom HTML, app scripts, or liquid.</p>"
+        },
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 15
+        }
+      ]
+    },
+    {
+      "type": "@app"
+    },
+    {
+      "type": "complementary",
+      "name": "Complementary products",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "To select complementary products, add the Search & Discovery app. [Learn more](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Complete the look"
+        },
+        {
+          "type": "color",
+          "id": "cl",
+          "label": "Color",
+          "default": "#000"
+        },
+        {
+          "type": "range",
+          "id": "fs",
+          "min": 10,
+          "max": 60,
+          "step": 1,
+          "label": "Font Size",
+          "unit": "px",
+          "default": 22
+        },
+        {
+          "type": "range",
+          "id": "fsm",
+          "min": 10,
+          "max": 60,
+          "step": 1,
+          "label": "Font Size(mobile)",
+          "unit": "px",
+          "default": 16
+        },
+        {
+          "type": "select",
+          "id": "fw",
+          "label": "Font Weight",
+          "default": "600",
+          "options": [
+            {
+              "value": "300",
+              "label": "Light"
+            },
+            {
+              "value": "400",
+              "label": "Regular"
+            },
+            {
+              "value": "500",
+              "label": "Medium"
+            },
+            {
+              "value": "600",
+              "label": "Semi Bold"
+            },
+            {
+              "value": "700",
+              "label": "Bold"
+            }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "limit",
+          "min": 1,
+          "max": 10,
+          "step": 1,
+          "default": 10,
+          "label": "Maximum products to show"
+        },
+        {
+          "type": "paragraph",
+          "content": "Products Per Row ==="
+        },
+        {
+          "type": "range",
+          "id": "grid",
+          "label": "Desktop",
+          "default": 4,
+          "min": 2,
+          "max": 5,
+          "step": 1
+        },
+        {
+          "type": "range",
+          "id": "gridtb",
+          "label": "Tablet",
+          "default": 3,
+          "min": 1,
+          "max": 5,
+          "step": 1
+        },
+        {
+          "type": "range",
+          "id": "gridmb",
+          "label": "Mobile",
+          "default": 2,
+          "min": 1,
+          "max": 5,
+          "step": 1
+        },
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 15
+        }
+      ]
+    },
+    {
+      "type": "more-color",
+      "name": "More Colors",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "To select color products, add the metafields. [Learn more](https://www.adornthemes.com/knowledge-base/more-color-products/)"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "More colors"
+        },
+        {
+          "type": "color",
+          "id": "cl",
+          "label": "Color",
+          "default": "#000"
+        },
+        {
+          "type": "range",
+          "id": "fs",
+          "min": 10,
+          "max": 60,
+          "step": 1,
+          "label": "Font Size",
+          "unit": "px",
+          "default": 16
+        },
+        {
+          "type": "range",
+          "id": "fsm",
+          "min": 10,
+          "max": 60,
+          "step": 1,
+          "label": "Font Size(mobile)",
+          "unit": "px",
+          "default": 16
+        },
+        {
+          "type": "select",
+          "id": "fw",
+          "label": "Font Weight",
+          "default": "600",
+          "options": [
+            {
+              "value": "300",
+              "label": "Light"
+            },
+            {
+              "value": "400",
+              "label": "Regular"
+            },
+            {
+              "value": "500",
+              "label": "Medium"
+            },
+            {
+              "value": "600",
+              "label": "Semi Bold"
+            },
+            {
+              "value": "700",
+              "label": "Bold"
+            }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "wd",
+          "min": 30,
+          "max": 150,
+          "step": 5,
+          "label": "Image Width",
+          "unit": "px",
+          "default": 100
+        },
+        {
+          "type": "color",
+          "id": "bd",
+          "label": "Active Border",
+          "default": "#000"
+        },
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 15
+        }
+      ]
+    },
+    {
+      "type": "ft",
+      "name": "Feature Points",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 15
+        },
+        {
+          "type": "textarea",
+          "id": "ft1",
+          "label": "Feature Text 1",
+          "default": "<i class='at at-truck-l'></i> Free Shipping & Return"
+        },
+        {
+          "type": "textarea",
+          "id": "ft2",
+          "label": "Feature Text 2",
+          "default": "<i class='at at-sync-ar'></i> Money back guarantee"
+        },
+        {
+          "type": "textarea",
+          "id": "ft3",
+          "label": "Feature Text 3",
+          "default": "<i class='at at-question-l'></i> Fast & reliable support"
+        },
+        {
+          "type": "textarea",
+          "id": "ft4",
+          "label": "Feature Text 4",
+          "default": "<i class='at at-credit-card-l'></i> Secure payment"
+        },
+        {
+          "type": "color",
+          "id": "cl",
+          "label": "Text",
+          "default": "#111"
+        }
+      ]
+    },
+    {
+      "type": "type",
+      "name": "Product Type",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 15
+        }
+      ]
+    },
+    {
+      "type": "cl",
+      "name": "Product Collection",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 15
+        }
+      ]
+    },
+    {
+      "type": "tags",
+      "name": "Product Tags",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "range",
+          "id": "bm",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "label": "Bottom Margin",
+          "unit": "px",
+          "default": 15
+        }
+      ]
+    }
+  ]
 }
 {% endschema %}

@@ -5,36 +5,6 @@ $(function(){
     $(this).find('[tag-name="accordion-arrow"] svg:last-child').fadeToggle(500,"linear");
   });
 
-  // 轮播内嵌模式改写 todo 封装 没用了
-  // const iniFlickity = (index) => {
-  //   console.log("iniFlickity");
-  //   const flickityEles = $("[hb-flickity]");
-  //   flickityEles.each(function(i) {
-
-  //     // 如果没传说明全部都初始化
-  //     // 如果传了就判断是否和当前的i相同,相同才初始化
-  //     if(index != null && index != i){ return }
-  //     const optionObj = $.parseJSON($(this).attr('hb-flickity'));
-  //     if ($(this).flickity) {
-  //       $(this).on( 'ready.flickity', (item) => { 
-  //         console.log("ready");
-  //         console.log($(this).height());
-  //         if($(this).height() < 100){ 
-  //           console.log("re"); 
-  //           iniFlickity(i) 
-  //         }
-  //       });
-  //       $(this).flickity(optionObj);
-  //     } else {
-  //       setTimeout(iniFlickity, 300);
-  //     }
-  //   });
-  // }
-  // iniFlickity()
-
-
-
-
   // 移动端轮播处理
   if ( matchMedia('screen and (max-width: 768px)').matches ) {
     $('[section-name = "store-features"] .store-info').flickity( { prevNextButtons: true, pageDots: false } );
@@ -74,10 +44,13 @@ $(function(){
     $(window).on("scroll", function() {
       const scrollPosition = $(window).scrollTop();
       for (var i = 0; i < navLinks.length; i++) {
+        // 当前的锚点
         const ele = $(navLinks.eq(i).attr('href'));
+        // 下一个锚点
         const nextEle = $(navLinks.eq(i+1).attr('href'));
+
         const eleTop = ele.position().top;
-        const nextEleTop = $(navLinks.eq(i+1)).length?nextEle.position().top:scrollPosition+1;
+        const nextEleTop = nextEle.length?nextEle.position().top:scrollPosition+1;
         if ( eleTop <= scrollPosition && nextEleTop > scrollPosition) {
           navLinks.removeClass('active');
           navLinks.eq(i).addClass('active');
