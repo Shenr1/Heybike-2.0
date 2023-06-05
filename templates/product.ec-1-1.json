@@ -484,7 +484,7 @@
         "bottom_padding": "default",
         "bg_color": "",
         "layout": "imageText",
-        "img_size": "small",
+        "img_size": "default",
         "img": "shopify:\/\/shop_images\/heybike_EC1_motor.jpg",
         "text_main": "Lightweight Motor",
         "text_sub": "Experience the ultimate ride with our 250W lightweight motor, which offers outstanding stability, resistance to bumps and shocks, minimal noise and vibration, smooth operation, and an impressive lifespan.",
