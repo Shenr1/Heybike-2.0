@@ -121,6 +121,7 @@
           "type": "slide",
           "settings": {
             "product": "heybike-ec-1",
+            "product_image": "shopify:\/\/shop_images\/EC-1.png",
             "info": "Aviation grade magnesium alloy"
           }
         },
@@ -128,6 +129,7 @@
           "type": "slide",
           "settings": {
             "product": "ec-1-st-1",
+            "product_image": "shopify:\/\/shop_images\/EC-1-ST_46b11121-6fc4-402d-b03c-e2f15da2ccc5.png",
             "info": "Aviation grade magnesium alloy"
           }
         },
@@ -135,6 +137,7 @@
           "type": "slide",
           "settings": {
             "product": "ec-1-st-1",
+            "product_image": "shopify:\/\/shop_images\/EC-1-ST_61447deb-d0eb-4ef5-9e39-acf5320cda94.png",
             "info": "Aviation grade magnesium alloy"
           }
         },
@@ -142,6 +145,7 @@
           "type": "slide",
           "settings": {
             "product": "ec-1-st-1",
+            "product_image": "shopify:\/\/shop_images\/EC-1-ST_156e7d28-913a-4c59-b0c0-127e7cba1e75.png",
             "info": "Aviation grade magnesium alloy"
           }
         },
@@ -156,6 +160,7 @@
           "type": "slide",
           "settings": {
             "product": "heybike-ec-1",
+            "product_image": "shopify:\/\/shop_images\/EC-1-_-1_7999a1b7-7e79-4820-8a71-df49f3ad9562.png",
             "info": "Aviation grade magnesium alloy"
           }
         }
@@ -191,28 +196,32 @@
           "type": "slide",
           "settings": {
             "text_main": "\"The Heybike Mars hits a good price point and is a lot of fun to ride.\"",
-            "text_sub": "- MSN"
+            "text_sub": "- MSN",
+            "logo_image": "shopify:\/\/shop_images\/images_6ef9583c-32cb-464a-ae13-2388f8534db5.png"
           }
         },
         "4154eb24-d1e7-4988-890f-30696b81b6ea": {
           "type": "slide",
           "settings": {
             "text_main": "\"When it comes to solid, folding e-bikes, HeyBike has got game, with the manufacturer presenting us with a wide range of fat-tire wheelers.\"",
-            "text_sub": "- AUTOEVOLUTION"
+            "text_sub": "- AUTOEVOLUTION",
+            "logo_image": "shopify:\/\/shop_images\/AU_e9db3ab0-4166-42df-8978-c88757d205ed.png"
           }
         },
         "32c33951-7d78-4c30-9e61-72ec75ab3884": {
           "type": "slide",
           "settings": {
             "text_main": "\"The Heybike Cityrun stands out for safety and security features, and even has a place to put your water bottle. It's the perfect e-bike for commuting.\"",
-            "text_sub": "- ZDNET"
+            "text_sub": "- ZDNET",
+            "logo_image": "shopify:\/\/shop_images\/ZDNet-logo-347F1C3C61-seeklogo.com_70c3aa2a-1d94-4695-9fff-f4f04eed3928.png"
           }
         },
         "707889c1-1ed2-47d6-b2ea-e60f9ad69530": {
           "type": "slide",
           "settings": {
             "text_main": "\"The Brawn from Heybike is a motorcycle inspired off-road beast.\"",
-            "text_sub": "- electrifiedreviews"
+            "text_sub": "- electrifiedreviews",
+            "logo_image": "shopify:\/\/shop_images\/logo_9da7fafa-760e-4bae-8104-3b6fdac0facc.png"
           }
         }
       },
