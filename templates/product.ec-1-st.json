@@ -473,7 +473,7 @@
         "text_main": "Lightweight Motor",
         "text_sub": "Experience the ultimate ride with our 250W lightweight motor, which offers outstanding stability, resistance to bumps and shocks, minimal noise and vibration, smooth operation, and an impressive lifespan.",
         "text_dec": "Experience the difference of a motor designed for excellence and elevate your riding experience to new heights.",
-        "bottom_line": false
+        "bottom_line": true
       }
     },
     "532d629b-5414-439a-9833-fe4f04d408f2": {
@@ -690,7 +690,7 @@
           "settings": {
             "title": "FAQ",
             "slide_w": "full",
-            "content": "Are there any restrictions or regulations on the use of e-bikes in the UK?:\nPlease click on the following website www.gov.uk\/electric-bike-rules to learn more about the UK Government's policy on e-bikes. <br>"
+            "content": "Gibt es in Deutschland irgendwelche Einschränkungen oder Vorschriften für die Nutzung von E-Bikes?: Please click on the following website www.gov.uk\/electric-bike-rules to learn more about the UK Government's policy on e-bikes. <br>"
           }
         },
         "8199fd9a-dacd-4cb3-8f18-ce7ce3ace2d6": {
