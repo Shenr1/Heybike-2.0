@@ -11,10 +11,10 @@
     "en_searchwords": true,
     "show_product_review": true,
     "show_reviewgrid": true,
-    "favicon": "shopify:\/\/shop_images\/favicon.png",
-    "favicon_retina": "shopify:\/\/shop_images\/favicon-152.png",
-    "hm_keywords": "Best Shopify Theme, Fashion theme, Electronics",
-    "hm_author": "Sanjay Khunt",
+    "favicon": "shopify:\/\/shop_images\/icon32.png",
+    "favicon_retina": "shopify:\/\/shop_images\/icon132_15c5651a-fea9-480b-83a7-ae565f51b480.png",
+    "hm_keywords": "Heybike: Die besten erschwinglichen Elektrofahrräder für Erwachsene",
+    "hm_author": "Heybike.DE",
     "dynamicTtl": false,
     "free_ship": "free-shipping",
     "free_ship_msg": "Spent $ more for free shipping",
@@ -278,17 +278,15 @@
             "settings": {
               "title": "E-Bikes",
               "url": "shopify:\/\/collections\/electric-bike",
-              "mm_linklist": "electric-bike",
+              "mm_linklist": "",
               "text_main1": "Bring an ideal uran life!",
               "text_sub1": "Two models to choose, either one to try",
               "text_link1": "View All",
               "url_link1": "shopify:\/\/collections\/electric-bike",
-              "img_url2": "shopify:\/\/shop_images\/Heybie_EC1_ST_1_png.jpg",
               "text_main2": "EC 1-ST",
               "text_sub2": "Preferred by female cyclists",
               "text_link2": "",
               "url_link2": "shopify:\/\/products\/ec-1-st-1",
-              "img_url3": "shopify:\/\/shop_images\/Heybie_EC1_ST_2_png.jpg",
               "text_main3": "EC 1",
               "text_sub3": "Meet your needs for commuting",
               "text_link3": "",
@@ -300,7 +298,7 @@
             "settings": {
               "title": "Equipment",
               "url": "",
-              "mm_linklist": "accessories",
+              "mm_linklist": "",
               "text_main1": "",
               "text_sub1": "",
               "text_link1": "",
@@ -320,7 +318,7 @@
             "settings": {
               "title": "Support",
               "url": "",
-              "mm_linklist": "support"
+              "mm_linklist": ""
             }
           },
           "1559988240897": {
@@ -328,7 +326,7 @@
             "settings": {
               "title": "Community",
               "url": "",
-              "mm_linklist": "community"
+              "mm_linklist": ""
             }
           },
           "1559992848977": {
@@ -336,7 +334,7 @@
             "settings": {
               "title": "Help Center",
               "url": "#",
-              "mm_linklist": "help-center"
+              "mm_linklist": ""
             }
           },
           "ff0e6f22-f740-4d49-9986-8cbc1de21b2e": {
@@ -390,7 +388,7 @@
             "type": "menu",
             "settings": {
               "title": "PROEUCTS",
-              "menulinks": "products",
+              "menulinks": "",
               "width": "wd20-md"
             }
           },
@@ -398,7 +396,7 @@
             "type": "menu",
             "settings": {
               "title": "BEFORE YOU BUY",
-              "menulinks": "about-us",
+              "menulinks": "",
               "width": "wd20-md"
             }
           },
@@ -406,7 +404,7 @@
             "type": "menu",
             "settings": {
               "title": "GET HELP",
-              "menulinks": "service",
+              "menulinks": "",
               "width": "wd20-md"
             }
           },
@@ -414,7 +412,7 @@
             "type": "menu",
             "settings": {
               "title": "COMPANY",
-              "menulinks": "more",
+              "menulinks": "",
               "width": "wd20-md"
             }
           },
@@ -432,7 +430,6 @@
           "f7510364-7668-446e-8629-906714d86056": {
             "type": "legal",
             "settings": {
-              "logo_img": "shopify:\/\/shop_images\/logo-white.png",
               "text_link1": "",
               "link_url1": "",
               "text_link2": "",
