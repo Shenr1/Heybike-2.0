@@ -236,7 +236,7 @@
       "settings": {
         "top_padding": "large",
         "bottom_padding": "small",
-        "style": "default",
+        "style": "style1",
         "bg_color": "",
         "text_color": "#ffffff"
       }
