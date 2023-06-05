@@ -700,8 +700,8 @@
           "settings": {
             "title": "Geometry",
             "image": "shopify:\/\/shop_images\/A5CF3E54-F3E3-4c46-B1C8-8CB1281D4939.png",
-            "th": ",SIZE(mm),M,L",
-            "td": "Total Length-69-72<br>Seat tube angle-73-84<br>Effective top tube-45-69<br>Head tube-78-64<br>Wheelbase-78-98<br>Wheel length-62-64<br>Total Height-65-76<br>"
+            "th": ",Description,Size(in)",
+            "td": "Total Length-72.45<br>Chaint Stay Length-17.96<br>Top Tube Length\n-21.62<br>Head Tube Length-10.86<br>Wheelbase-44.30<br>Wheel Diameter-28.07<br>Handlebar Height\n-43.40<br>Stand Height\n-14.63<br>Maximum Seat Height\n-8.66<br>Minimum Seat Height\n-19.04<br>Minimum Seat to Floor\n-38.02<br>"
           }
         }
       },
