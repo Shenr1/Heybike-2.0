@@ -579,9 +579,11 @@
         "template--19143574815035__a8ffb222-813d-463f-9e86-871bceb908a5-1684996746297eb402-0": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Heybike_Ap_720x_df6e7f6b-a3a8-4597-99b1-2871fa876476.webp",
             "layout": "right",
             "title": "Smarttech and APP",
             "text": "<p>Your amazing rides deserve a journal! Connect your bike to the HEYBIKE App, and build an impressive mileage count!<\/p>",
+            "bottom_logo": "shopify:\/\/shop_images\/app-store_d3bfb846-5e0a-4c38-aa4e-2ee064b1c690.png",
             "logo_url": "",
             "bottom_logo2": "shopify:\/\/shop_images\/icon0.png",
             "logo_url2": "",
