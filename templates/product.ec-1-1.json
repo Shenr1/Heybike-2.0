@@ -436,7 +436,7 @@
         "bg_color": "",
         "layout": "textImage",
         "img_size": "small",
-        "img": "shopify:\/\/shop_images\/7ecc40279fd871bac0e0d11e210a632b.jpg",
+        "img": "shopify:\/\/shop_images\/7ecc40279fd871bac0e0d11e210a632b_6d23bccc-184f-45c4-a53b-0c3cc0192d0c.jpg",
         "text_main": "Portable Battery",
         "text_sub": "Designed to fuel your adventures, this battery from Samsung offers exceptional performance and efficiency.",
         "text_dec": "Unleash your freedom with an impressive range of 50 miles on a single charge, allowing you to explore without limits.",
@@ -494,7 +494,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/Heybike_Hidden_inner_wiring_design.png",
+            "bg_img": "shopify:\/\/shop_images\/f956d5b5bf5da5cb869ce37f7af9190e.png",
             "text_main": "Hidden inner wiring design",
             "text_sub": "Internal wiring enhances aesthetics, decreases wind resistance, and lessens crashes.",
             "img_link": ""
