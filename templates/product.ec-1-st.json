@@ -825,7 +825,7 @@
       ],
       "settings": {
         "top_padding": "large",
-        "bottom_padding": "default",
+        "bottom_padding": "none",
         "title": "Redskins Video",
         "layout": "textImg",
         "enable_slider": true,
