@@ -921,7 +921,7 @@
         ".sec-ttl .h3,div.sec-ttl p {color: #fff;}"
       ],
       "settings": {
-        "top_padding": "small",
+        "top_padding": "medium",
         "bottom_padding": "small",
         "top-offeset": "none",
         "section_style": "heybike",
