@@ -224,6 +224,14 @@
             "text_sub": "- electrifiedreviews",
             "logo_image": "shopify:\/\/shop_images\/logo_9da7fafa-760e-4bae-8104-3b6fdac0facc.png"
           }
+        },
+        "b4d6a997-74f4-4a1a-aa63-e64de9416440": {
+          "type": "slide",
+          "settings": {
+            "text_main": "MARS is a good choice for those people who want to use their bikes in multiple scenarios, like commuting and outdoor off-road.",
+            "text_sub": "- Techtimes",
+            "logo_image": "shopify:\/\/shop_images\/6fb53c51539b47559cf0d122a832cf63_fa89fd2b-20df-4510-8a61-a65f74b397c8.png"
+          }
         }
       },
       "block_order": [
@@ -231,7 +239,8 @@
         "bfd88edc-65df-4713-b474-231d6eb30b82",
         "4154eb24-d1e7-4988-890f-30696b81b6ea",
         "32c33951-7d78-4c30-9e61-72ec75ab3884",
-        "707889c1-1ed2-47d6-b2ea-e60f9ad69530"
+        "707889c1-1ed2-47d6-b2ea-e60f9ad69530",
+        "b4d6a997-74f4-4a1a-aa63-e64de9416440"
       ],
       "settings": {
         "top_padding": "large",
