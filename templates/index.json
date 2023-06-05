@@ -237,6 +237,7 @@
         "top_padding": "large",
         "bottom_padding": "small",
         "style": "style1",
+        "bg_img": "shopify:\/\/shop_images\/Banner_1_a_2000x_4627af81-2675-4a7d-a7a8-acfe69a6b4ff.jpg",
         "bg_color": "",
         "text_color": "#ffffff"
       }
