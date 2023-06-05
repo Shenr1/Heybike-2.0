@@ -1,14 +1,9 @@
 {
   "sections": {
-    "29369a63-663e-49a0-9bd8-58148a9ee550": {
-      "type": "custom-liquid",
+    "7c8f87cd-07c2-4d60-b02a-fc26e48095a5": {
+      "type": "product-anchor",
       "settings": {
-        "title": "",
-        "subtitle": "",
-        "custom_liquid": "<article id=\"nav-features\"><\/article>",
-        "top-offeset": "none",
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa"
+        "anchor_id": "nav-features"
       }
     },
     "product": {
@@ -131,7 +126,13 @@
         "75a78218-e9d0-4681-b8f1-d4b99318f5b7"
       ],
       "settings": {
-        "section_width": false
+        "section_width": false,
+        "anchor1": "Features",
+        "anchor_href1": "nav-features",
+        "anchor2": "Specifications",
+        "anchor_href2": "nav-specifications",
+        "anchor3": "Reviews",
+        "anchor_href3": "nav-reviews"
       }
     },
     "upsell": {
@@ -629,15 +630,10 @@
         "btn-size-mob": "mob-btn-sm"
       }
     },
-    "286ef3df-4b4b-4252-9fb2-4c7f64f4dda4": {
-      "type": "custom-liquid",
+    "32e46169-5f1d-45ab-8765-2b6eda818fa8": {
+      "type": "product-anchor",
       "settings": {
-        "title": "",
-        "subtitle": "",
-        "custom_liquid": "<article id=\"nav-specifications\"><\/article>",
-        "top-offeset": "none",
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa"
+        "anchor_id": "nav-specifications"
       }
     },
     "b832809d-c477-4c3b-a13f-acb6501dceec": {
@@ -944,7 +940,7 @@
         "style": "style1",
         "icon-type": "image",
         "icons_clr": "#ffffff",
-        "isz": 75,
+        "isz": 54,
         "tcl": "#ffffff",
         "tfs": 24,
         "tfsm": 20,
@@ -954,21 +950,15 @@
         "border_sep": "rgba(0,0,0,0)"
       }
     },
-    "e3a92eba-3e67-4b48-9a4d-6d63ed097c70": {
-      "type": "custom-liquid",
-      "disabled": true,
+    "d1415328-b82f-4a03-8fe0-cbc736860f33": {
+      "type": "product-anchor",
       "settings": {
-        "title": "",
-        "subtitle": "",
-        "custom_liquid": "<article id=\"nav-reviews\"><\/article>",
-        "top-offeset": "none",
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa"
+        "anchor_id": "nav-reviews"
       }
     }
   },
   "order": [
-    "29369a63-663e-49a0-9bd8-58148a9ee550",
+    "7c8f87cd-07c2-4d60-b02a-fc26e48095a5",
     "product",
     "upsell",
     "tabs",
@@ -983,11 +973,11 @@
     "57d28d3e-e7d1-4115-8f16-31ef4e965106",
     "532d629b-5414-439a-9833-fe4f04d408f2",
     "a8ffb222-813d-463f-9e86-871bceb908a5",
-    "286ef3df-4b4b-4252-9fb2-4c7f64f4dda4",
+    "32e46169-5f1d-45ab-8765-2b6eda818fa8",
     "b832809d-c477-4c3b-a13f-acb6501dceec",
     "a96d37af-dc7b-43f1-8f0b-23018e00eaf4",
     "22f50d3e-5443-46e2-a356-2469bdea240d",
     "dd234409-19b7-4258-8b98-44063da04a59",
-    "e3a92eba-3e67-4b48-9a4d-6d63ed097c70"
+    "d1415328-b82f-4a03-8fe0-cbc736860f33"
   ]
 }

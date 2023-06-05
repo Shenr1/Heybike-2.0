@@ -131,7 +131,13 @@
         "75a78218-e9d0-4681-b8f1-d4b99318f5b7"
       ],
       "settings": {
-        "section_width": false
+        "section_width": false,
+        "anchor1": "Features",
+        "anchor_href1": "nav-features",
+        "anchor2": "Specifications",
+        "anchor_href2": "nav-specifications",
+        "anchor3": "Reviews",
+        "anchor_href3": "nav-reviews"
       }
     },
     "upsell": {
@@ -934,7 +940,7 @@
         "style": "style1",
         "icon-type": "image",
         "icons_clr": "#ffffff",
-        "isz": 75,
+        "isz": 54,
         "tcl": "#ffffff",
         "tfs": 24,
         "tfsm": 20,

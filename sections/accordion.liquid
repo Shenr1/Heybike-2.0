@@ -35,7 +35,7 @@
 
               {%- when "image" -%}
                   <div>
-                    {{ blkSt.url_pc | image_url: width:1920 | image_tag: height:blkSt.url_pc.height, class:"w-full md:block hidden", loading: 'lazy'}}
+                    {{ blkSt.url_pc | image_url: width:1480 | image_tag: height:blkSt.url_pc.height, class:"w-full md:block hidden lazyload", loading: 'lazy'}}
                     {{ blkSt.url_mb | image_url: width:765 | image_tag: height:blkSt.url_mb.height, class:"w-full md:hidden block", loading: 'lazy'}}
                   </div>
 
@@ -52,7 +52,7 @@
                       <div class="{{ divClass2 }}">
                         <div class="{{ divClass3 }}">
                           <p class="{{ pClass }}"> {{image.alt}}</p>
-                          {{ image | image_url: width:500 | image_tag: height:350, class:imgClass, loading: 'lazy'}}
+                          {{ image | image_url: width:200 | image_tag: height:image.height, class:imgClass, loading: 'lazy'}}
                         </div>
                       </div>
                     {% endfor %}
@@ -65,7 +65,7 @@
                       <div class="{{ divClass2 }}">
                         <div class="{{ divClass3 }}">
                           <p class="{{ pClass }}"> {{image.alt}}</p>
-                          {{ image | image_url: width:500 | image_tag: width:nil, class:imgClass, loading: 'lazy'}}
+                          {{ image | image_url: width:200 | image_tag: height:image.height, class:imgClass, loading: 'lazy'}}
                         </div>
                       </div>
                     {% endfor %}
@@ -78,7 +78,7 @@
                       <div class="{{ divClass2 }}">
                         <div class="{{ divClass3 }}">
                           <p class="{{ pClass }}"> {{image.alt}}</p>
-                          {{ image | image_url: width:500 | image_tag: width:nil, class:imgClass, loading: 'lazy'}}
+                          {{ image | image_url: width:200 | image_tag: height:image.height, class:imgClass, loading: 'lazy'}}
                         </div>
                       </div>
                     {% endfor %}
