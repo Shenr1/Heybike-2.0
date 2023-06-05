@@ -670,7 +670,9 @@
         "8c62a64d-13dd-4e76-830e-bf631cb4d864": {
           "type": "image",
           "settings": {
-            "title": "E-bike Box"
+            "title": "E-bike Box",
+            "url_pc": "shopify:\/\/shop_images\/1280x500_8a446629-0d9b-4994-8b5d-aaf72544999e_1.jpg",
+            "url_mb": "shopify:\/\/shop_images\/1280x500_8a446629-0d9b-4994-8b5d-aaf72544999e_1.jpg"
           }
         },
         "e7514e3b-0b1e-49db-a19a-d7074c9543c2": {
@@ -697,6 +699,7 @@
           "type": "imgTxtList",
           "settings": {
             "title": "Geometry",
+            "image": "shopify:\/\/shop_images\/A5CF3E54-F3E3-4c46-B1C8-8CB1281D4939.png",
             "th": ",SIZE(mm),M,L",
             "td": "Total Length-69-72<br>Seat tube angle-73-84<br>Effective top tube-45-69<br>Head tube-78-64<br>Wheelbase-78-98<br>Wheel length-62-64<br>Total Height-65-76<br>"
           }
