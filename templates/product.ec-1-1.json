@@ -441,7 +441,7 @@
         "bottom_padding": "default",
         "bg_color": "",
         "layout": "textImage",
-        "img_size": "small",
+        "img_size": "default",
         "img": "shopify:\/\/shop_images\/7ecc40279fd871bac0e0d11e210a632b_6d23bccc-184f-45c4-a53b-0c3cc0192d0c.jpg",
         "text_main": "Portable Battery",
         "text_sub": "Designed to fuel your adventures, this battery from Samsung offers exceptional performance and efficiency.",
