@@ -422,6 +422,7 @@
         "bg_color": "",
         "layout": "textImage",
         "img_size": "small",
+        "img": "shopify:\/\/shop_images\/7ecc40279fd871bac0e0d11e210a632b_78117ecc-f97c-4d5f-8c11-f5fa7b7cae8f.jpg",
         "text_main": "Portable Battery",
         "text_sub": "Designed to fuel your adventures, this battery from Samsung offers exceptional performance and efficiency.",
         "text_dec": "Unleash your freedom with an impressive range of 50 miles on a single charge, allowing you to explore without limits.",
@@ -464,6 +465,7 @@
         "bg_color": "",
         "layout": "imageText",
         "img_size": "small",
+        "img": "shopify:\/\/shop_images\/heybike_EC1_motor_7e8c19c5-710f-4207-bc9f-5490ebd1fdbe.jpg",
         "text_main": "Lightweight Motor",
         "text_sub": "Experience the ultimate ride with our 250W lightweight motor, which offers outstanding stability, resistance to bumps and shocks, minimal noise and vibration, smooth operation, and an impressive lifespan.",
         "text_dec": "Experience the difference of a motor designed for excellence and elevate your riding experience to new heights.",
@@ -478,6 +480,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/Heybike_Shimano_7-speed_Drivetrain.png",
             "text_main": "Shimano 7-speed Drivetrain",
             "text_sub": "The Shimano® 7-speed chain drive ispowerful, smooth, and built to perform high on all roads.",
             "img_link": ""
@@ -488,6 +491,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/Puncture-resistant_Tires_6df1c98d-7ec6-475e-8239-a1ac4f4a44bb.png",
             "text_main": "Puncture-resistant Tires",
             "text_sub": "Versatile 700C*40C tires with anti-puncture tech for city, gravel, and long-distance rides.",
             "img_link": ""
@@ -498,6 +502,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/Headlights.png",
             "text_main": "Headlights",
             "text_sub": "Adjustable multi-angle illumination for safe and non-distracting commuting.",
             "img_link": ""
@@ -508,6 +513,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/Hydraulic_disc_brakes.png",
             "text_main": "Hydraulic disc brakes",
             "text_sub": "Upgrade your brakes: Hydraulic discs provide more precise, powerful, and safe stopping.",
             "img_link": ""
@@ -518,6 +524,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/Heybike_LCD_Display_f74b48c5-e82d-4d3b-a835-257975c4ce0a.png",
             "text_main": "LCD Display",
             "text_sub": "Compatible with the HEYBIKE App to help you navigate the journey ahead.",
             "img_link": ""
@@ -528,6 +535,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/f956d5b5bf5da5cb869ce37f7af9190e_83dfe711-6c77-4b6f-af75-d69d858f1df0.png",
             "text_main": "Hidden inner wiring design",
             "text_sub": "Internal wiring enhances aesthetics, decreases wind resistance, and lessens crashes.",
             "img_link": ""
