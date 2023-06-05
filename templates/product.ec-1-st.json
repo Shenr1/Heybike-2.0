@@ -949,6 +949,12 @@
         "cl": "#eeeeee",
         "border_sep": "rgba(0,0,0,0)"
       }
+    },
+    "d1415328-b82f-4a03-8fe0-cbc736860f33": {
+      "type": "product-anchor",
+      "settings": {
+        "anchor_id": "nav-reviews"
+      }
     }
   },
   "order": [
@@ -971,6 +977,7 @@
     "b832809d-c477-4c3b-a13f-acb6501dceec",
     "a96d37af-dc7b-43f1-8f0b-23018e00eaf4",
     "22f50d3e-5443-46e2-a356-2469bdea240d",
-    "dd234409-19b7-4258-8b98-44063da04a59"
+    "dd234409-19b7-4258-8b98-44063da04a59",
+    "d1415328-b82f-4a03-8fe0-cbc736860f33"
   ]
 }
