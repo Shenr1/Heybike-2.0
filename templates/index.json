@@ -308,8 +308,9 @@
       "type": "image-text",
       "settings": {
         "top_padding": "large",
-        "bottom_padding": "default",
+        "bottom_padding": "large",
         "bg_color": "#000000",
+        "bg_img": "shopify:\/\/shop_images\/C.jpg",
         "text_main": "Find Dealers Near You",
         "text_sub": "Test Ride & Buy Directly",
         "text_btn": "Read More",
@@ -411,33 +412,6 @@
         "btn-size-mob": "mob-btn-sm"
       }
     },
-    "1633781776086e75a0": {
-      "type": "featured-blog",
-      "disabled": true,
-      "settings": {
-        "title": "<b>Heybike Blog<\/b>",
-        "subtitle": "Learn more about E-bike knowledge and information",
-        "top-offeset": "default",
-        "section_cov": true,
-        "sec_bg_clr": "#fafafa",
-        "blog": "news",
-        "img_ratio": "50",
-        "post_limit": 3,
-        "grid": 3,
-        "tablet-grid": 2,
-        "mobile-grid": 1,
-        "blog_align": "text-center",
-        "blog_show_author": false,
-        "blog_show_date": true,
-        "show_comment": true,
-        "show_mini_des": false,
-        "show_read_more": false,
-        "show_view_all": false,
-        "btn-style": "btn",
-        "btn-size-desk": "btn-sm",
-        "btn-size-mob": "mob-btn-sm"
-      }
-    },
     "16337817926d98687d": {
       "type": "store-features",
       "blocks": {
@@ -491,7 +465,7 @@
         "style": "style1",
         "icon-type": "image",
         "icons_clr": "#ffffff",
-        "isz": 64,
+        "isz": 54,
         "tcl": "#ffffff",
         "tfs": 24,
         "tfsm": 10,
@@ -510,7 +484,6 @@
     "9097e021-5397-4a21-8d22-e6f121fbda8f",
     "a2d3fa24-4809-40c0-b63d-a720d6b02f2c",
     "e0be29cc-4f32-4503-8012-abbb3949eb80",
-    "1633781776086e75a0",
     "16337817926d98687d"
   ]
 }
