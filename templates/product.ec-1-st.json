@@ -886,8 +886,8 @@
           "type": "text_block",
           "settings": {
             "icons": "at-ship-fast",
-            "title": "Fast Shipping",
-            "text": "<p>Speedy and Trusted Shipping <\/p>",
+            "title": "Schneller Versand",
+            "text": "<p>Schneller und zuverlässiger Versand <\/p>",
             "texturl": ""
           }
         },
@@ -895,8 +895,8 @@
           "type": "text_block",
           "settings": {
             "icons": "at-users-l",
-            "title": "Fast Support",
-            "text": "<p>Email & Phone Service<\/p>",
+            "title": "Schnelle Unterstützung",
+            "text": "<p>E-Mail- und Telefon-Service<\/p>",
             "texturl": ""
           }
         },
@@ -904,8 +904,8 @@
           "type": "text_block",
           "settings": {
             "icons": "at-shield-check-r",
-            "title": "30-Day Trial",
-            "text": "<p>Buy with Confidence<\/p>",
+            "title": "30-Tage-Testversion",
+            "text": "<p>Kaufen Sie mit Zuversicht<\/p>",
             "texturl": ""
           }
         }
@@ -927,8 +927,8 @@
         "section_cov": true,
         "sec_bg_clr": "#232426",
         "hide_mobile": false,
-        "title": "Superb Bikes. Superior Service.",
-        "subtitle": "Exceeding Expectations with Unparalleled Customer Care",
+        "title": "Hervorragende Fahrräder. Hervorragender Service.",
+        "subtitle": "Mit beispielloser Kundenbetreuung die Erwartungen übertreffen",
         "style": "style1",
         "icon-type": "image",
         "icons_clr": "#ffffff",
