@@ -437,9 +437,9 @@
         "layout": "textImage",
         "img_size": "small",
         "img": "shopify:\/\/shop_images\/7ecc40279fd871bac0e0d11e210a632b_6d23bccc-184f-45c4-a53b-0c3cc0192d0c_1.jpg",
-        "text_main": "Portable Battery",
-        "text_sub": "Designed to fuel your adventures, this battery from Samsung offers exceptional performance and efficiency.",
-        "text_dec": "Unleash your freedom with an impressive range of 50 miles on a single charge, allowing you to explore without limits.",
+        "text_main": "Tragbare Batterie",
+        "text_sub": "Dieser Akku von Samsung wurde entwickelt, um Ihre Abenteuer zu unterstützen und bietet außergewöhnliche Leistung und Effizienz.",
+        "text_dec": "Entfesseln Sie Ihre Freiheit mit einer beeindruckenden Reichweite von 50 Meilen mit einer einzigen Ladung, so dass Sie grenzenlos erkunden können.",
         "bottom_line": true
       }
     },
@@ -478,11 +478,11 @@
         "bottom_padding": "default",
         "bg_color": "",
         "layout": "imageText",
-        "img_size": "small",
+        "img_size": "default",
         "img": "shopify:\/\/shop_images\/heybike_EC1_motor.jpg",
-        "text_main": "Lightweight Motor",
-        "text_sub": "Experience the ultimate ride with our 250W lightweight motor, which offers outstanding stability, resistance to bumps and shocks, minimal noise and vibration, smooth operation, and an impressive lifespan.",
-        "text_dec": "Experience the difference of a motor designed for excellence and elevate your riding experience to new heights.",
+        "text_main": "Leichter Motor",
+        "text_sub": "Erleben Sie das ultimative Fahrgefühl mit unserem leichten 250-W-Motor, der sich durch hervorragende Stabilität, Widerstandsfähigkeit gegen Stöße und Erschütterungen, minimale Geräusche und Vibrationen, reibungslosen Betrieb und eine beeindruckende Lebensdauer auszeichnet.",
+        "text_dec": "Erleben Sie den Unterschied eines auf Spitzenleistung ausgelegten Motors und heben Sie Ihr Fahrerlebnis auf ein neues Niveau.",
         "bottom_line": false
       }
     },
