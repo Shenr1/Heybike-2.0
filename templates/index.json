@@ -311,9 +311,9 @@
         "bottom_padding": "large",
         "bg_color": "#000000",
         "bg_img": "shopify:\/\/shop_images\/C.jpg",
-        "text_main": "Find Dealers Near You",
-        "text_sub": "Test Ride & Buy Directly",
-        "text_btn": "Read More",
+        "text_main": "Händler in Ihrer Nähe finden",
+        "text_sub": "Probefahrt & Direktkauf",
+        "text_btn": "Mehr lesen",
         "url": ""
       }
     },
