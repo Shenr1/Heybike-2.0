@@ -136,6 +136,7 @@
     },
     "upsell": {
       "type": "upsell-bundle",
+      "disabled": true,
       "settings": {
         "title": "Frequently Bought Together",
         "subtitle": "",
@@ -395,8 +396,8 @@
       "settings": {
         "top_padding": "large",
         "bottom_padding": "default",
-        "title": "Bring an Ideal Urban Life",
-        "sub_title": "Made of aluminum alloy",
+        "title": "Ein ideales Stadtleben schaffen",
+        "sub_title": "Hergestellt aus einer Aluminiumlegierung",
         "bg_color": "#f5f5f5"
       }
     },
