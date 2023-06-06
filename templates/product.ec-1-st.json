@@ -698,8 +698,8 @@
           "settings": {
             "title": "Geometry",
             "image": "shopify:\/\/shop_images\/A5CF3E54-F3E3-4c46-B1C8-8CB1281D4939.png",
-            "th": ",SIZE(mm),M",
-            "td": "Total Length-69-72<br>Seat tube angle-73-84<br>Effective top tube-45-69<br>Head tube-78-64<br>Wheelbase-78-98<br>Wheel length-62-64<br>Total Height-65-76<br>"
+            "th": ",Size(cm),M",
+            "td": "Gesamtlänge-72.34<br>Kettenstrebenlänge-17.95<br>Länge Oberrohr\n-21.68<br>Kopfrohrlänge-11.78<br>Radstand-44.29<br>Raddurchmesser-28.09<br>Lenkerhöhe\n-44.26<br>Ständerhöhe\n-17.53<br>Maximale Sitzhöhe\n-8.66<br>Minimale Sitzhöhe\n-16.14<br>Minimaler Abstand Sitz zu Boden\n-36.15<br>"
           }
         }
       },
