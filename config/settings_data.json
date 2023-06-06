@@ -414,7 +414,7 @@
             "type": "menu",
             "settings": {
               "title": "COMPANY",
-              "menulinks": "",
+              "menulinks": "mehr",
               "width": "wd20-md"
             }
           },
