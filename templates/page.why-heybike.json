@@ -226,7 +226,8 @@
           "type": "slide",
           "settings": {
             "text_main": "\"The Brawn from Heybike is a motorcycle inspired off-road beast.\"",
-            "text_sub": "- electrifiedreviews"
+            "text_sub": "- electrifiedreviews",
+            "logo_image": "shopify:\/\/shop_images\/123456.png"
           }
         }
       },
