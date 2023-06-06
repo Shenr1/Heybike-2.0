@@ -110,6 +110,7 @@
         "3a7419a4-8a61-43ec-b2d7-43113cc5cbdc": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/16.png",
             "layout": "left",
             "title": "Industry-leading commissions",
             "text": "<p>With each successful order, you can get up to 3% commission on the transaction value. Take the EC 1, for example; you can get about $XX in commission when a referral buys the EC 1 through your link!<\/p>",
@@ -129,6 +130,7 @@
         "679037ac-fdf7-4af6-9a62-df6890f32c60": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/15_5bfd3d6d-b65d-40e5-a5e8-50fd9bb33819.png",
             "layout": "right",
             "title": "Promotion made easy",
             "text": "<p>Promote Heybike using your referral link or our pre-made banners, emails, and other materials. Use the resources we've prepared for you to save time and money on content production.<\/p>",
