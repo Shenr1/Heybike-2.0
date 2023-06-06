@@ -4,7 +4,7 @@
       "type": "hero",
       "settings": {
         "top-offeset": "default",
-        "section_width": true,
+        "section_width": false,
         "ds_height": 270,
         "tb_height": 350,
         "mb_height": 250,
