@@ -65,7 +65,7 @@
         "1d1c291c-29e1-4645-911c-1cb922034f67": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/C.jpg",
+            "image": "shopify:\/\/shop_images\/Heybike-eurobike23_b11fed9a-8e40-4a5e-9f5e-0350d3e2201f.jpg",
             "layout": "left",
             "title": "Kontaktieren Sie uns gleich jetzt!",
             "text": "<p>Die Messe EUROBIKE 2023 steht vor der Tür! Bewerben Sie sich jetzt als Händler und gewinnen Sie eine Freikarte für die ERUOBIKE 2023! Das Kontingent ist begrenzt, wer zuerst kommt, mahlt zuerst!<\/p>",
@@ -84,14 +84,14 @@
         },
         "template--19289277169979__fe6340dd-ea38-4ce9-9f9e-0abb15908260-16853339263b39c458-0": {
           "type": "row",
-          "disabled": true,
           "settings": {
-            "layout": "left",
-            "title": "About Heybike",
-            "text": "<p>The Heybike-UK is committed to the research and development of product functions, and provides users with the ultimate product and riding experience by improving product performance.<\/p>",
+            "image": "shopify:\/\/shop_images\/eb23_venueoverview_website_en_0412.jpg__1079x720_q85_subsampling-2.jpg",
+            "layout": "right",
+            "title": "Standort",
+            "text": "<p>Messe Frankfurt<\/p><p><strong>Halle 9.2, Booth D16<\/strong><\/p><p>Ludwig-Erhard-Anlage 1, 60327 Frankfurt am Main, Deutschland<\/p>",
             "logo_url": "",
             "logo_url2": "",
-            "button_label": "",
+            "button_label": "ZUM TICKETSHOP",
             "button_link": "\/",
             "text_align": "text-left",
             "tcl": "#000000",
@@ -106,7 +106,7 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/Explore_with_Heybike_Mars.webp",
-            "layout": "right",
+            "layout": "left",
             "title": "Starke Lieferkette",
             "text": "<p>Schließen Sie sich Heybike an und profitieren Sie von einem konkurrenzlosen Zugang zu einer leistungsfähigen Lieferkette. Unsere selbst gebauten Fabriken, strategischen Lagerhäuser und Logistikpartnerschaften ebnen den Weg für Ihren Erfolg. Entfesseln Sie grenzenlose Möglichkeiten auf dem E-Bike-Markt und gestalten Sie die Zukunft der Mobilität neu.<\/p>",
             "logo_url": "",
@@ -126,7 +126,7 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/21_3baf312a-11dd-4af1-978b-863d77815329.webp",
-            "layout": "left",
+            "layout": "right",
             "title": "Kundenerfolg",
             "text": "<p>Heybike befähigt Großhändler zum Erfolg, was sich in unseren Erfolgen im Jahr 2022 zeigt: 60.000 verkaufte E-Bikes, mehr als 30 Millionen Dollar Umsatz. Lassen Sie uns unsere gemeinsame Reise fortsetzen, den Elektrofahrradmarkt revolutionieren und neue Wachstumsmöglichkeiten finden.<\/p>",
             "logo_url": "",
@@ -146,7 +146,7 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/lQDPJyFWi8lReALNAZrNAZWwtR7lJhj7e7gEaz5jiAAMAA_405_410.jpg",
-            "layout": "right",
+            "layout": "left",
             "title": "Professionelles Team",
             "text": "<p>Als Partner von Heybike erhalten Sie engagierte Unterstützung durch unser Expertenteam. Erleben Sie einen unvergleichlichen Service, Marketing-Know-how und After-Sales-Betreuung. Nehmen Sie jetzt Kontakt mit uns auf, um unsere gemeinsame erfolgreiche Reise zu beginnen.<\/p>",
             "logo_url": "",
@@ -166,7 +166,7 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/1_7d2d2aae-2891-438d-b368-7e08d3712a0f.jpg",
-            "layout": "left",
+            "layout": "right",
             "title": "Marketing-Lösungen",
             "text": "<p>Zusammenarbeit mit Heybike für weltweite Markenpräsenz. Unser einflussreiches Netzwerk und maßgeschneiderte Marketinglösungen sorgen für gezielte Reichweite und bemerkenswerten Erfolg.<\/p>",
             "logo_url": "",
