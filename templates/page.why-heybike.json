@@ -65,9 +65,10 @@
         "1d1c291c-29e1-4645-911c-1cb922034f67": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Banner_1_a_2000x_4627af81-2675-4a7d-a7a8-acfe69a6b4ff.jpg",
             "layout": "right",
-            "title": "Various Options for Your Need",
-            "text": "<p>HeyBike produces fat tire folding e-bikes, step-thru design e-bikes, and commuter e-bikes. Our electric bikes represent the full capabilities of the e-bike revolution. We are committed to meeting all your needs, from off-road adventures to daily commuting, and we are suited to those looking to experience wild or boulevard cruisers and weekend rides.<\/p>",
+            "title": "Verschiedene Optionen für Ihren Bedarf",
+            "text": "<p>HeyBike produziert faltbare E-Bikes mit dicken Reifen, E-Bikes im Step-Thru-Design und E-Bikes für Pendler. Unsere Elektroräder repräsentieren die volle Leistungsfähigkeit der E-Bike-Revolution. Wir sind bestrebt, alle Ihre Bedürfnisse zu erfüllen, von Offroad-Abenteuern bis zum täglichen Pendeln, und wir sind für diejenigen geeignet, die wilde oder Boulevard-Cruiser und Wochenendausflüge erleben wollen.<\/p>",
             "logo_url": "",
             "logo_url2": "",
             "button_label": "Shop Now",
@@ -84,9 +85,10 @@
         "template--19289277169979__fe6340dd-ea38-4ce9-9f9e-0abb15908260-16853339263b39c458-0": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/02_720x_be7c6cd4-d099-40ca-a69c-e9bba1de7bea.jpg",
             "layout": "left",
-            "title": "80,000+ Active Riders",
-            "text": "<p>Trusted by 80,000 riders and being part of their lives, Heybike is leading a healthy and positive attitude in life, and a convenient efficient lifestyle!<\/p>",
+            "title": "80.000+ aktive Fahrer",
+            "text": "<p>80.000 Fahrer vertrauen auf Heybike und machen es zu einem Teil ihres Lebens. Heybike steht für eine gesunde und positive Lebenseinstellung und einen bequemen, effizienten Lebensstil!<\/p>",
             "logo_url": "",
             "logo_url2": "",
             "button_label": "Join Us",
@@ -103,6 +105,7 @@
         "cd0ae458-8d85-4fc8-9d07-6d27feb19a14": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/4_460x_eeb8a6bd-d09e-49ce-bb77-a4b53cbb9e62.webp",
             "layout": "right",
             "title": "Pay in 4. Anywhere",
             "text": "<p>Pay in 4 with Klarna from Klarna.com, or anywhere Visa is accepted. No credit impact. (*CA resident loans made or arranged pursuant to a California Financing Law license.)<\/p>",
