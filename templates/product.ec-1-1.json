@@ -647,7 +647,7 @@
         "4b9baf99-1d5e-4b05-94c6-37d9a3d707a8": {
           "type": "objList",
           "settings": {
-            "title": "Electronics",
+            "title": "Elektronik",
             "slide_w": "25%",
             "content": "Motor:250W Rear Hub Motor<br>\nBattery:12Ah 36V Samsung Battery<br>\nDrivetrain:Shimano 7-speed Drivetrain<br>"
           }
@@ -655,7 +655,7 @@
         "3f710971-b1d4-43f6-87bf-68c7f0429f81": {
           "type": "objList",
           "settings": {
-            "title": "Performance",
+            "title": "Leistung",
             "slide_w": "25%",
             "content": "Top Speed: 25 km\/h or 16 mph<br>\nRange: Up to 60 miles <br>\nFull Bike Weight:40lbs<br>\nBattery Charging Time:4-6 hours<br>\nMax Load:300lbs<br>:*Actual performance will vary depending on temperature, road conditions, rider's weight, etc."
           }
@@ -663,7 +663,7 @@
         "9dfdd47e-961b-4375-b72a-202eb5083615": {
           "type": "objList",
           "settings": {
-            "title": "Component",
+            "title": "Komponente",
             "slide_w": "25%",
             "content": "Display:LCD Display<br>\nBrake:Hydraulic Disc Brakes<br>\nFrame:Aviation Grade Magnesium Alloy<br>\nTires: 700C*40C Puncture-resistant Tires<br>\nFront Fork: Aluminium Alloy Fork<br>\nHeadlight: Included<br>\nFront and Rear Mudguard: Included<br>\nKickstand: Included<br>\nFront & Rear Reflectors: Included<br>"
           }
@@ -679,7 +679,7 @@
         "e7514e3b-0b1e-49db-a19a-d7074c9543c2": {
           "type": "imageGrid",
           "settings": {
-            "title": "Tool Box",
+            "title": "Werkzeugkasten",
             "text1": "Tools",
             "metafield1": "tools",
             "text2": "Electrics",
@@ -699,7 +699,7 @@
         "7ef2d0ba-c008-429d-929a-980c2c0d5698": {
           "type": "imgTxtList",
           "settings": {
-            "title": "Geometry",
+            "title": "Geometrie",
             "image": "shopify:\/\/shop_images\/A5CF3E54-F3E3-4c46-B1C8-8CB1281D4939.png",
             "th": ",SIZE(mm),M,L",
             "td": "Total Length-69-72<br>Seat tube angle-73-84<br>Effective top tube-45-69<br>Head tube-78-64<br>Wheelbase-78-98<br>Wheel length-62-64<br>Total Height-65-76<br>"
