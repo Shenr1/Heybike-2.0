@@ -281,21 +281,21 @@
         "a27b30d1-ea2c-42ec-9fce-1899fef048f4": {
           "type": "item",
           "settings": {
-            "item_title": "50mile+",
+            "item_title": "Up to 100km",
             "item_dec": "Range"
           }
         },
         "19891b48-30b5-4d5d-9969-7cc834a3cbde": {
           "type": "item",
           "settings": {
-            "item_title": "40lbs",
+            "item_title": "18kg",
             "item_dec": "Weight"
           }
         },
         "77f5c680-eb06-4cbd-b967-0b45bc01402e": {
           "type": "item",
           "settings": {
-            "item_title": "5.24'-6.23'",
+            "item_title": "160-190cm",
             "item_dec": "Rider Height"
           }
         },
