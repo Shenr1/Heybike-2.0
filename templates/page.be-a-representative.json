@@ -140,8 +140,8 @@
         "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-1": {
           "type": "faqs",
           "settings": {
-            "question": "What information must I submit to apply to be a representative?",
-            "answer": "1. Name\/Age\/Profession<br>\n2. Your Location<br>\n3. What do you usually use e-bike for?<br>\n4. Did you have a Heybike e-bike? If yes, which model?<br>\n5. How long have you been using an e-bike? And how often do you use your e-bike?<br>\n6. Would you be willing for people around you to come and experience the bike you currently own?"
+            "question": "Welche Informationen muss ich einreichen, um mich als Vertreter zu bewerben?",
+            "answer": "1. Name\/Alter\/Beruf<br>\n2. Ihr Standort<br>\n3. Wofür benutzen Sie das E-Bike normalerweise?<br>\n4. Hatten Sie ein Heybike E-Bike? Wenn ja, welches Modell?<br>\n5. Wie lange benutzen Sie schon ein E-Bike? Und wie oft benutzen Sie Ihr E-Bike?<br>\n6. Wären Sie bereit, dass Menschen in Ihrer Umgebung das Fahrrad, das Sie derzeit besitzen, kennenlernen?"
           }
         }
       },
@@ -149,7 +149,7 @@
         "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-1"
       ],
       "settings": {
-        "title": "Frequently Asked Questions",
+        "title": "Häufig gestellte Fragen",
         "subtitle": "",
         "top-offeset": "default",
         "section_cov": true,
