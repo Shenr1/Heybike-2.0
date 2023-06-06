@@ -389,8 +389,8 @@
           "1558678581777": {
             "type": "menu",
             "settings": {
-              "title": "PROEUCTS",
-              "menulinks": "",
+              "title": "PRODUKTE",
+              "menulinks": "produkte",
               "width": "wd20-md"
             }
           },
