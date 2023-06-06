@@ -701,7 +701,7 @@
           "settings": {
             "title": "Geometrie",
             "image": "shopify:\/\/shop_images\/A5CF3E54-F3E3-4c46-B1C8-8CB1281D4939.png",
-            "th": ",SIZE(cm),L",
+            "th": ",Beschreibung,Size(cm)",
             "td": "Total Length-184.03<br>\nChaint Stay Length-45.61<br>\nTop Tube Length-54.91<br>\nHead Tube Length-27.59<br>\nWheelbase-112.51<br>\nWheel Diameter-71.29<br>\nHandlebar Height-110.24<br>\nStand Height-37.16<br>\nMaximum Seat Height-22<br>\nMinimum Seat Height-48.36<br>\nMinimum Seat to Floor-96.57<br>"
           }
         }
