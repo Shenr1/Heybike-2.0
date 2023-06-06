@@ -20,7 +20,7 @@
         "plh": 1.3,
         "pmb": 10,
         "pmbm": 5,
-        "title": "Become A Dealer",
+        "title": "Werden Sie ein Händler",
         "tcl": "#ffffff",
         "tfs": 33,
         "tfsm": 20,
@@ -29,7 +29,7 @@
         "tlh": 1.3,
         "tmb": 10,
         "tmbm": 5,
-        "text": "<p>We appreciate your interest in Heybike, where we always work to better the riding experience by understanding it, living it, and improving it.<\/p>",
+        "text": "<p>Wir freuen uns über Ihr Interesse an Heybike, wo wir stets daran arbeiten, das Fahrerlebnis zu verbessern, indem wir es verstehen, leben und verbessern.<\/p>",
         "cl": "#ffffff",
         "fs": 16,
         "fsm": 14,
@@ -65,7 +65,6 @@
         "1d1c291c-29e1-4645-911c-1cb922034f67": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eurobike23_banner_1200x628px_en.jpg__1079x720_q85_subsampling-2.jpg",
             "layout": "left",
             "title": "Contact us right now!",
             "text": "<p>The EUROBIKE 2023 exhibition is just around the corner! Apply as a distributor now to win a free ticket to ERUOBIKE 2023! Limited amounts are offered on a first-come, first-served basis!<\/p>",
@@ -86,7 +85,6 @@
           "type": "row",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Explore_with_Heybike_Mars.jpg",
             "layout": "left",
             "title": "About Heybike",
             "text": "<p>The Heybike-UK is committed to the research and development of product functions, and provides users with the ultimate product and riding experience by improving product performance.<\/p>",
@@ -106,7 +104,6 @@
         "e7e856a6-1018-4e98-b839-7c350042e23a": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/our_story.jpg",
             "layout": "right",
             "title": "Strong Supply Chain",
             "text": "<p>Join Heybike for unrivaled access to an empowering supply chain. Our self-built factories, strategic warehouses, and logistics partnerships pave the way for your success. Unleash boundless opportunities in the e-bike market and reshape mobility's future.<\/p>",
@@ -146,7 +143,6 @@
         "fa575a46-0f1f-4d5e-a3aa-1dd1baceee33": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Our-Story_img.webp",
             "layout": "right",
             "title": "Professional Team",
             "text": "<p>Partner with Heybike for dedicated support from our expert team. Experience unparalleled service, marketing expertise, and after-sales care. Contact us now to begin our successful journey together.<\/p>",
@@ -166,7 +162,6 @@
         "8f722eb6-0b95-4376-ba50-14187f5060a3": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/02_5d4178c9-4a9a-4ff3-a2a9-e98eff36001d.webp",
             "layout": "left",
             "title": "Marketing Solutions",
             "text": "<p>Collaboration with Heybike for worldwide brand exposure. Our influential network and customised marketing solutions provide targeted reach and remarkable success.<\/p>",
