@@ -9,7 +9,7 @@
         "tb_height": 350,
         "mb_height": 250,
         "parallax_scroll": false,
-        "image": "shopify:\/\/shop_images\/00_7e09e7fa-da7c-4336-9eea-47300fd8218b.webp",
+        "image": "shopify:\/\/shop_images\/heybike_banner_450x_5562f4f9-bf20-4211-83ce-e0ca518174f2.webp",
         "alignment": "center",
         "pretext": "",
         "pcl": "#ffffff",
@@ -105,9 +105,10 @@
         "e7e856a6-1018-4e98-b839-7c350042e23a": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Explore_with_Heybike_Mars.webp",
             "layout": "right",
-            "title": "Strong Supply Chain",
-            "text": "<p>Join Heybike for unrivaled access to an empowering supply chain. Our self-built factories, strategic warehouses, and logistics partnerships pave the way for your success. Unleash boundless opportunities in the e-bike market and reshape mobility's future.<\/p>",
+            "title": "Starke Lieferkette",
+            "text": "<p>Schließen Sie sich Heybike an und profitieren Sie von einem konkurrenzlosen Zugang zu einer leistungsfähigen Lieferkette. Unsere selbst gebauten Fabriken, strategischen Lagerhäuser und Logistikpartnerschaften ebnen den Weg für Ihren Erfolg. Entfesseln Sie grenzenlose Möglichkeiten auf dem E-Bike-Markt und gestalten Sie die Zukunft der Mobilität neu.<\/p>",
             "logo_url": "",
             "logo_url2": "",
             "button_label": "",
@@ -126,8 +127,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/21_3baf312a-11dd-4af1-978b-863d77815329.webp",
             "layout": "left",
-            "title": "Customer Success",
-            "text": "<p>Heybike empowers wholesalers for success, evident in our 2022 achievements: 60,000 e-bikes sold, $30M+ turnover. Let's continue our collaborative journey, revolutionizing the electric bicycle market and finding new growth opportunities.<\/p>",
+            "title": "Kundenerfolg",
+            "text": "<p>Heybike befähigt Großhändler zum Erfolg, was sich in unseren Erfolgen im Jahr 2022 zeigt: 60.000 verkaufte E-Bikes, mehr als 30 Millionen Dollar Umsatz. Lassen Sie uns unsere gemeinsame Reise fortsetzen, den Elektrofahrradmarkt revolutionieren und neue Wachstumsmöglichkeiten finden.<\/p>",
             "logo_url": "",
             "logo_url2": "",
             "button_label": "",
@@ -144,9 +145,10 @@
         "fa575a46-0f1f-4d5e-a3aa-1dd1baceee33": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/lQDPJyFWi8lReALNAZrNAZWwtR7lJhj7e7gEaz5jiAAMAA_405_410.jpg",
             "layout": "right",
-            "title": "Professional Team",
-            "text": "<p>Partner with Heybike for dedicated support from our expert team. Experience unparalleled service, marketing expertise, and after-sales care. Contact us now to begin our successful journey together.<\/p>",
+            "title": "Professionelles Team",
+            "text": "<p>Als Partner von Heybike erhalten Sie engagierte Unterstützung durch unser Expertenteam. Erleben Sie einen unvergleichlichen Service, Marketing-Know-how und After-Sales-Betreuung. Nehmen Sie jetzt Kontakt mit uns auf, um unsere gemeinsame erfolgreiche Reise zu beginnen.<\/p>",
             "logo_url": "",
             "logo_url2": "",
             "button_label": "",
@@ -163,9 +165,10 @@
         "8f722eb6-0b95-4376-ba50-14187f5060a3": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/1_7d2d2aae-2891-438d-b368-7e08d3712a0f.jpg",
             "layout": "left",
-            "title": "Marketing Solutions",
-            "text": "<p>Collaboration with Heybike for worldwide brand exposure. Our influential network and customised marketing solutions provide targeted reach and remarkable success.<\/p>",
+            "title": "Marketing-Lösungen",
+            "text": "<p>Zusammenarbeit mit Heybike für weltweite Markenpräsenz. Unser einflussreiches Netzwerk und maßgeschneiderte Marketinglösungen sorgen für gezielte Reichweite und bemerkenswerten Erfolg.<\/p>",
             "logo_url": "",
             "logo_url2": "",
             "button_label": "",
@@ -221,29 +224,29 @@
         "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-0": {
           "type": "faqs",
           "settings": {
-            "question": "Exist any specifications for the actual shop operation's address if I wish to become a distributor?",
-            "answer": "To apply to be a Heybike dealer, we would like your brick-and-mortar store in the United Kingdom range. You could offer a test ride service to customers and directly sell the items if they are satisfied. Of course, a repair service is also desirable."
+            "question": "Gibt es Vorgaben für die Adresse des eigentlichen Geschäftsbetriebs, wenn ich Händler werden möchte?",
+            "answer": "Um sich als Heybike-Händler zu bewerben, hoffen wir, dass sich Ihr Ladengeschäft in Deutschland befindet. Sie können den Kunden eine Probefahrt anbieten und wenn sie zufrieden sind, den Artikel direkt verkaufen. Natürlich ist auch ein Wartungsservice erwünscht."
           }
         },
         "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-2": {
           "type": "faqs",
           "settings": {
-            "question": "Is drop-shipping available?",
-            "answer": "Sorry, we do not accept drop-shipping now."
+            "question": "Ist Drop-Shipping möglich?",
+            "answer": "Leider akzeptieren wir derzeit keinen Dropshipping-Versand."
           }
         },
         "template--19289277169979__bf901bad-e3a9-4a15-ad88-6ffbf9df4c1a-16853415491348916f-1": {
           "type": "faqs",
           "settings": {
-            "question": "What information must I submit to apply to be a dealer?",
-            "answer": "Phone Number<br>\nCompany\/Shop Name<br>\nAddress<br>\nCity<br>\nState \/ Province<br>\nPostcode \/ ZIP<br>\nCountry<br>\nPhotos of your Dealership, inside and outside, including display\/service area.<br>\nWe will contact you within 3-5 business days via e-mail for more details."
+            "question": "Welche Informationen muss ich einreichen, um mich als Händler zu bewerben?",
+            "answer": "Telefonnummer<br>\nName der Firma\/des Geschäfts<br>\nAnschrift<br>\nStadt<br>\nBundesland\/Provinz<br>\nPostleitzahl<br>\nLand<br>\nFotos Ihres Autohauses, innen und außen, einschließlich Ausstellungs-\/Servicebereich.<br>\nWir werden uns innerhalb von 3-5 Werktagen per E-Mail mit Ihnen in Verbindung setzen, um weitere Einzelheiten zu besprechen."
           }
         },
         "c36fb116-72ea-4606-a257-1c080e1578f9": {
           "type": "faqs",
           "settings": {
-            "question": "Disclaimer",
-            "answer": "By sending us your contact information, you acknowledge and agree that Heybike may use the information you share to communicate with you through e-mails, text messages, and calls to provide our product or service-related information and for promotional and marketing purposes. All information provided will be secured and processed according to our privacy policy."
+            "question": "Haftungsausschluss",
+            "answer": "Indem Sie uns Ihre Kontaktdaten übermitteln, erklären Sie sich damit einverstanden, dass Heybike die von Ihnen zur Verfügung gestellten Informationen verwendet, um mit Ihnen über E-Mails, SMS und Anrufe zu kommunizieren und Sie über unsere Produkte und Dienstleistungen zu informieren sowie zu Werbe- und Marketingzwecken. Alle bereitgestellten Informationen werden gemäß unserer Datenschutzrichtlinie gesichert und verarbeitet."
           }
         }
       },
@@ -254,7 +257,7 @@
         "c36fb116-72ea-4606-a257-1c080e1578f9"
       ],
       "settings": {
-        "title": "Frequently Asked Questions",
+        "title": "Häufig gestellte Fragen",
         "subtitle": "",
         "top-offeset": "default",
         "section_cov": true,
@@ -278,8 +281,8 @@
       "settings": {
         "layout": "2",
         "page_Width": 700,
-        "title": "BECOME A DEALER",
-        "subtitle": "Partnership with Heybike: Unleash the power of electric bikes in your region.<br>\nApply as a distributor now to win a free ticket to ERUOBIKE 2023! <br>Limited amounts are offered on a first-come, first-served basis!",
+        "title": "VERTRAGSHÄNDLER WERDEN",
+        "subtitle": "Partnerschaft mit Heybike: Entfesseln Sie die Kraft der Elektrofahrräder in Ihrer Region.<br>\nBewerben Sie sich jetzt als Händler und gewinnen Sie eine Freikarte für die ERUOBIKE 2023! <br>Ein begrenztes Kontingent wird nach dem Windhundprinzip vergeben!",
         "show_phone": false,
         "show_subject": false,
         "top-offeset": "default",
