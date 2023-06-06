@@ -582,7 +582,7 @@
             "image": "shopify:\/\/shop_images\/Heybike_Ap_720x_df6e7f6b-a3a8-4597-99b1-2871fa876476.webp",
             "layout": "right",
             "title": "Smarttech and APP",
-            "text": "<p>Your amazing rides deserve a journal! Connect your bike to the HEYBIKE App, and build an impressive mileage count!<\/p>",
+            "text": "<p>Deine tollen Fahrten verdienen ein Tagebuch! Verbinde dein Fahrrad mit der HEYBIKE App und erstelle einen beeindruckenden Kilometerstand!<\/p>",
             "bottom_logo": "shopify:\/\/shop_images\/app-store_d3bfb846-5e0a-4c38-aa4e-2ee064b1c690.png",
             "logo_url": "",
             "bottom_logo2": "shopify:\/\/shop_images\/icon0.png",
@@ -887,8 +887,8 @@
           "type": "text_block",
           "settings": {
             "icons": "at-ship-fast",
-            "title": "Fast Shipping",
-            "text": "<p>Speedy and Trusted Shipping <\/p>",
+            "title": "Schneller Versand",
+            "text": "<p>Schneller Versand<\/p>",
             "texturl": ""
           }
         },
@@ -896,8 +896,8 @@
           "type": "text_block",
           "settings": {
             "icons": "at-users-l",
-            "title": "Fast Support",
-            "text": "<p>Email & Phone Service<\/p>",
+            "title": "Schnelle Unterstützung",
+            "text": "<p>E-Mail- und Telefon-Service<\/p>",
             "texturl": ""
           }
         },
@@ -905,8 +905,8 @@
           "type": "text_block",
           "settings": {
             "icons": "at-shield-check-r",
-            "title": "30-Day Trial",
-            "text": "<p>Buy with Confidence<\/p>",
+            "title": "30-Tage-Testversion",
+            "text": "<p>Kaufen Sie mit Zuversicht<\/p>",
             "texturl": ""
           }
         }
@@ -928,12 +928,12 @@
         "section_cov": true,
         "sec_bg_clr": "#232426",
         "hide_mobile": false,
-        "title": "Superb Bikes. Superior Service.",
+        "title": "Hervorragende Fahrräder. Hervorragender Service.",
         "subtitle": "Exceeding Expectations with Unparalleled Customer Care",
         "style": "style1",
         "icon-type": "image",
         "icons_clr": "#ffffff",
-        "isz": 75,
+        "isz": 54,
         "tcl": "#ffffff",
         "tfs": 24,
         "tfsm": 20,
