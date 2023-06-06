@@ -398,7 +398,7 @@
             "type": "menu",
             "settings": {
               "title": "BEFORE YOU BUY",
-              "menulinks": "",
+              "menulinks": "ber-uns",
               "width": "wd20-md"
             }
           },
@@ -406,7 +406,7 @@
             "type": "menu",
             "settings": {
               "title": "GET HELP",
-              "menulinks": "",
+              "menulinks": "dienst",
               "width": "wd20-md"
             }
           },
