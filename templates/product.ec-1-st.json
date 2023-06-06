@@ -318,9 +318,9 @@
         "layout": "textImage",
         "img_size": "big",
         "img": "shopify:\/\/shop_images\/765x670.png",
-        "text_main": "Reframing The Future",
-        "text_sub": "EC 1-ST's streamlined form allows it to move like a gazelle through the congested city streets, getting to locations inaccessible to cars.",
-        "text_dec": "The low frame design allows ladies to wear dresses and shop in style comfortably.",
+        "text_main": "Die Zukunft neu gestalten",
+        "text_sub": "Dank seiner stromlinienförmigen Form kann sich der EC 1-ST wie eine Gazelle durch die verstopften Straßen der Stadt bewegen und an Orte gelangen, die für Autos unzugänglich sind.",
+        "text_dec": "Das niedrige Rahmendesign ermöglicht es Damen, bequem Kleider zu tragen und stilvoll einzukaufen.",
         "bottom_line": false
       }
     },
@@ -427,9 +427,9 @@
         "layout": "textImage",
         "img_size": "small",
         "img": "shopify:\/\/shop_images\/7ecc40279fd871bac0e0d11e210a632b_78117ecc-f97c-4d5f-8c11-f5fa7b7cae8f.jpg",
-        "text_main": "Portable Battery",
-        "text_sub": "Designed to fuel your adventures, this battery from Samsung offers exceptional performance and efficiency.",
-        "text_dec": "Unleash your freedom with an impressive range of 50 miles on a single charge, allowing you to explore without limits.",
+        "text_main": "Tragbare Batterie",
+        "text_sub": "Dieser Akku von Samsung wurde entwickelt, um Ihre Abenteuer zu unterstützen und bietet außergewöhnliche Leistung und Effizienz.",
+        "text_dec": "Entfesseln Sie Ihre Freiheit mit einer beeindruckenden Reichweite von 100 km mit einer einzigen Akkuladung, so dass Sie grenzenlos erkunden können.",
         "bottom_line": true
       }
     },
