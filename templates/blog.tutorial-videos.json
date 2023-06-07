@@ -181,26 +181,11 @@
         "show_mini_des": true,
         "show_tags": true
       }
-    },
-    "9016ea7c-c5de-4556-9a98-0317a20a7e7c": {
-      "type": "contact-form",
-      "settings": {
-        "layout": "2",
-        "page_Width": 700,
-        "title": "Contact Us",
-        "subtitle": "",
-        "show_phone": false,
-        "show_subject": false,
-        "top-offeset": "small",
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa"
-      }
     }
   },
   "order": [
     "e70e32a1-2a0e-4413-95d0-1369256ea0c5",
     "ef35ff53-d545-4ee9-b818-2a45c7e97232",
-    "blog",
-    "9016ea7c-c5de-4556-9a98-0317a20a7e7c"
+    "blog"
   ]
 }
