@@ -6,8 +6,6 @@
         "1561726660568-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_1_a.jpg",
-            "imagem": "shopify:\/\/shop_images\/Banner_1_a.jpg",
             "ialign": "center_center",
             "hd1": "EC 1",
             "pcl": "#ffffff",
@@ -34,8 +32,6 @@
         "208504ac-576d-4468-85f2-307d5444445e": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_2.jpg",
-            "imagem": "shopify:\/\/shop_images\/Banner_2.jpg",
             "ialign": "center_center",
             "hd1": "EC 1-ST",
             "pcl": "#ffffff",
@@ -123,7 +119,6 @@
           "type": "slide",
           "settings": {
             "product": "heybike-ec-1",
-            "product_image": "shopify:\/\/shop_images\/EC-1.png",
             "info": "Aviation grade magnesium alloy"
           }
         },
@@ -131,7 +126,6 @@
           "type": "slide",
           "settings": {
             "product": "ec-1-st-1",
-            "product_image": "shopify:\/\/shop_images\/EC-1-ST_46b11121-6fc4-402d-b03c-e2f15da2ccc5.png",
             "info": "Aviation grade magnesium alloy"
           }
         },
@@ -139,7 +133,6 @@
           "type": "slide",
           "settings": {
             "product": "ec-1-st-1",
-            "product_image": "shopify:\/\/shop_images\/EC-1-ST_61447deb-d0eb-4ef5-9e39-acf5320cda94.png",
             "info": "Aviation grade magnesium alloy"
           }
         },
@@ -147,7 +140,6 @@
           "type": "slide",
           "settings": {
             "product": "ec-1-st-1",
-            "product_image": "shopify:\/\/shop_images\/EC-1-ST_156e7d28-913a-4c59-b0c0-127e7cba1e75.png",
             "info": "Aviation grade magnesium alloy"
           }
         },
@@ -155,7 +147,6 @@
           "type": "slide",
           "settings": {
             "product": "heybike-ec-1",
-            "product_image": "shopify:\/\/shop_images\/EC-1_e0ada7b4-10f3-42f9-ac93-3527255d4a64.png",
             "info": "Aviation grade magnesium alloy"
           }
         },
@@ -163,7 +154,6 @@
           "type": "slide",
           "settings": {
             "product": "heybike-ec-1",
-            "product_image": "shopify:\/\/shop_images\/EC-1-_-1_7999a1b7-7e79-4820-8a71-df49f3ad9562.png",
             "info": "Aviation grade magnesium alloy"
           }
         }
@@ -191,48 +181,42 @@
           "type": "slide",
           "settings": {
             "text_main": "\"The HeyBike Mars is a special type of fat tire e-bike that folds down for easier transportation, meaning you can take that ride-everywhere fun on the go with you.\"",
-            "text_sub": "- ELECTREK",
-            "logo_image": "shopify:\/\/shop_images\/cropped-electrek-logo11.webp"
+            "text_sub": "- ELECTREK"
           }
         },
         "bfd88edc-65df-4713-b474-231d6eb30b82": {
           "type": "slide",
           "settings": {
             "text_main": "\"The Heybike Mars hits a good price point and is a lot of fun to ride.\"",
-            "text_sub": "- MSN",
-            "logo_image": "shopify:\/\/shop_images\/images_6ef9583c-32cb-464a-ae13-2388f8534db5.png"
+            "text_sub": "- MSN"
           }
         },
         "4154eb24-d1e7-4988-890f-30696b81b6ea": {
           "type": "slide",
           "settings": {
             "text_main": "\"When it comes to solid, folding e-bikes, HeyBike has got game, with the manufacturer presenting us with a wide range of fat-tire wheelers.\"",
-            "text_sub": "- AUTOEVOLUTION",
-            "logo_image": "shopify:\/\/shop_images\/AU_e9db3ab0-4166-42df-8978-c88757d205ed.png"
+            "text_sub": "- AUTOEVOLUTION"
           }
         },
         "32c33951-7d78-4c30-9e61-72ec75ab3884": {
           "type": "slide",
           "settings": {
             "text_main": "\"The Heybike Cityrun stands out for safety and security features, and even has a place to put your water bottle. It's the perfect e-bike for commuting.\"",
-            "text_sub": "- ZDNET",
-            "logo_image": "shopify:\/\/shop_images\/ZDNet-logo-347F1C3C61-seeklogo.com.png"
+            "text_sub": "- ZDNET"
           }
         },
         "707889c1-1ed2-47d6-b2ea-e60f9ad69530": {
           "type": "slide",
           "settings": {
             "text_main": "\"The Brawn from Heybike is a motorcycle inspired off-road beast.\"",
-            "text_sub": "- electrifiedreviews",
-            "logo_image": "shopify:\/\/shop_images\/logo_9da7fafa-760e-4bae-8104-3b6fdac0facc.png"
+            "text_sub": "- electrifiedreviews"
           }
         },
         "4758eb01-b94b-42b2-b933-de9ec51b2bd0": {
           "type": "slide",
           "settings": {
             "text_main": "MARS is a good choice for those people who want to use their bikes in multiple scenarios, like commuting and outdoor off-road.",
-            "text_sub": "- Techtimes",
-            "logo_image": "shopify:\/\/shop_images\/6fb53c51539b47559cf0d122a832cf63_b1639750-8312-4b95-a47f-f0d4960e988c.png"
+            "text_sub": "- Techtimes"
           }
         }
       },
@@ -248,7 +232,6 @@
         "top_padding": "large",
         "bottom_padding": "small",
         "style": "default",
-        "bg_img": "shopify:\/\/shop_images\/1280x422.jpg",
         "bg_color": "",
         "text_color": "#ffffff"
       }
@@ -302,8 +285,7 @@
         "top_padding": "none",
         "bottom_padding": "large",
         "bg_color": "#f3f5f9",
-        "title": "Go Green with Heybike",
-        "image": "shopify:\/\/shop_images\/40x400.png"
+        "title": "Go Green with Heybike"
       }
     },
     "9097e021-5397-4a21-8d22-e6f121fbda8f": {
@@ -312,7 +294,6 @@
         "top_padding": "large",
         "bottom_padding": "default",
         "bg_color": "#000000",
-        "bg_img": "shopify:\/\/shop_images\/C.jpg",
         "text_main": "Find Dealers Near You",
         "text_sub": "Test Ride & Buy Directly",
         "text_btn": "Read More",
@@ -327,7 +308,6 @@
           "settings": {
             "slide_w": "w-2\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/Heybike-eurobike23.jpg",
             "text_main": "EUROBIKE 2023 is just around the corner!",
             "text_sub": "We look forward to meeting you at the event and discussing mutually beneficial prospects.",
             "img_link": "shopify:\/\/pages\/become-a-dealer"
@@ -338,7 +318,6 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/lQDPJyFWi8lReALNAZrNAZWwtR7lJhj7e7gEaz5jiAAMAA_405_410.jpg",
             "text_main": "Share your lovely moment",
             "text_sub": "Follow us on Facebook & YouTube",
             "img_link": "shopify:\/\/pages\/photos"
@@ -368,9 +347,7 @@
             "layout": "right",
             "title": "Smarttech and APP",
             "text": "<p>Your amazing rides deserve a journal! Connect your bike to the HEYBIKE App, and build an impressive mileage count!<\/p>",
-            "bottom_logo": "shopify:\/\/shop_images\/app-store.webp",
             "logo_url": "",
-            "bottom_logo2": "shopify:\/\/shop_images\/icon0.png",
             "logo_url2": "",
             "button_label": "",
             "button_link": "\/",
