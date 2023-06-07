@@ -377,8 +377,8 @@
       "settings": {
         "layout": "2",
         "page_Width": 700,
-        "title": "Contact us",
-        "subtitle": "Please feel free to contact us if you have any questions",
+        "title": "Kontakt",
+        "subtitle": "Bitte zögern Sie nicht, uns zu kontaktieren, wenn Sie irgendwelche Fragen haben",
         "show_phone": false,
         "show_subject": false,
         "top-offeset": "default",
