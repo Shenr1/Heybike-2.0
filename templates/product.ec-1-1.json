@@ -5,7 +5,7 @@
       "settings": {
         "title": "",
         "subtitle": "",
-        "custom_liquid": "<article id=\"nav-features\"><\/article>",
+        "custom_liquid": "<article id=\"nav-Merkmale\"><\/article>",
         "top-offeset": "none",
         "section_cov": false,
         "sec_bg_clr": "#fafafa"
@@ -635,7 +635,7 @@
       "settings": {
         "title": "",
         "subtitle": "",
-        "custom_liquid": "<article id=\"nav-specifications\"><\/article>",
+        "custom_liquid": "<article id=\"nav-Spezifikationen\"><\/article>",
         "top-offeset": "none",
         "section_cov": false,
         "sec_bg_clr": "#fafafa"
