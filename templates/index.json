@@ -177,7 +177,7 @@
       "settings": {
         "top_padding": "large",
         "bottom_padding": "default",
-        "title": "All HEYBIKE Models",
+        "title": "Alle HEYBIKE Modelle",
         "btn_Text": "Jetzt kaufen",
         "bg_color": "#f3f5f9"
       }
@@ -300,7 +300,7 @@
         "top_padding": "none",
         "bottom_padding": "large",
         "bg_color": "#f3f5f9",
-        "title": "Go Green with Heybike",
+        "title": "Grüner werden mit Heybike",
         "image": "shopify:\/\/shop_images\/40x400.webp"
       }
     },
@@ -350,7 +350,7 @@
       "settings": {
         "top_padding": "large",
         "bottom_padding": "default",
-        "title": "The World of HEYBIKE",
+        "title": "Die Welt von HEYBIKE",
         "layout": "imgText",
         "enable_slider": false,
         "bottom_line": false
