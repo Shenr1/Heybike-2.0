@@ -440,14 +440,14 @@
           "type": "item",
           "settings": {
             "item_title": "250 W",
-            "item_dec": "Power"
+            "item_dec": "Strom"
           }
         },
         "bd530c13-0782-4c23-a156-1e0a11200db7": {
           "type": "item",
           "settings": {
             "item_title": "37 Nm",
-            "item_dec": "Torque"
+            "item_dec": "Drehmoment"
           }
         },
         "f4b077ec-d5f4-464e-a93c-199cc05db80b": {
