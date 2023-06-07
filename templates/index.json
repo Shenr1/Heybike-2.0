@@ -257,9 +257,9 @@
         "55af95fe-1f67-44a9-922b-0a20b4838325": {
           "type": "slide",
           "settings": {
-            "text_main": "1,754,852",
-            "text_suf": "mile",
-            "text_sub": "Total Distance Riden"
+            "text_main": "2,824,160",
+            "text_suf": "km",
+            "text_sub": "Gesamtentfernung Fahrten"
           }
         },
         "2cec7d8f-443d-475d-82d9-58b68117bc6d": {
@@ -267,15 +267,15 @@
           "settings": {
             "text_main": "80000",
             "text_suf": "+",
-            "text_sub": "Active Riders"
+            "text_sub": "Aktive Reiter"
           }
         },
         "3b0e13f5-a095-46d4-afa9-e33dfc671812": {
           "type": "slide",
           "settings": {
-            "text_main": "9,989,368",
-            "text_suf": "lb",
-            "text_sub": "Total CO₂ Emissions Saved"
+            "text_main": "4,531,101",
+            "text_suf": "kg",
+            "text_sub": "Eingesparte CO₂-Emissionen insgesamt"
           }
         },
         "752b2092-7e2b-4a37-b195-38804c6a344e": {
@@ -283,7 +283,7 @@
           "settings": {
             "text_main": "987,865",
             "text_suf": "pcs",
-            "text_sub": "Equivalent Trees Planted"
+            "text_sub": "Gepflanzte Bäume (Äquivalent)"
           }
         }
       },
