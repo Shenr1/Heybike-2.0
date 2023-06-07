@@ -298,7 +298,7 @@
           "eaf15dca-1822-4a37-8c94-bd24e939b788": {
             "type": "megamenuHb",
             "settings": {
-              "title": "Equipment",
+              "title": "Ausrüstung",
               "url": "",
               "mm_linklist": "",
               "text_main1": "",
@@ -318,7 +318,7 @@
           "23b6094a-ec02-4808-bac4-8dbb5fed7f32": {
             "type": "dropdown",
             "settings": {
-              "title": "Support",
+              "title": "Unterstützung",
               "url": "",
               "mm_linklist": ""
             }
@@ -326,7 +326,7 @@
           "1559988240897": {
             "type": "dropdown",
             "settings": {
-              "title": "Community",
+              "title": "Gemeinschaft",
               "url": "",
               "mm_linklist": "gemeinschaft"
             }
@@ -334,16 +334,15 @@
           "1559992848977": {
             "type": "dropdown",
             "settings": {
-              "title": "Help Center",
+              "title": "Hilfe-Center",
               "url": "#",
               "mm_linklist": ""
             }
           },
           "ff0e6f22-f740-4d49-9986-8cbc1de21b2e": {
             "type": "dropdown",
-            "disabled": true,
             "settings": {
-              "title": "Dealer",
+              "title": "Händler",
               "url": "https:\/\/1.envato.market\/KdyYx",
               "mm_linklist": ""
             }
