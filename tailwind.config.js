@@ -18,9 +18,11 @@ module.exports = {
         '2k': '2048px',
       },
       fontSize: {
-        '4_5xl': ['2.5rem','3rem'],
+        'xxs': ['0.65rem','0.8rem'],
+        '1_5xl': ['1.375rem','1.775rem'],
+        '2_5xl': ['1.745rem','2.15rem'],
         '3_5xl': ['2rem','2.5rem'],
-        '1_5xl': ['1.375rem','1.875rem']
+        '4_5xl': ['2.5rem','3rem']
       },
       margin: {
         '18': '4.5rem',
@@ -39,14 +41,16 @@ module.exports = {
         'page': '1320px'
       },
       width: {
+        '38': '9.5rem',
         '1/7': '14.285%'
       },
       borderRadius: {
-        'section': '3rem'
+        'section': '3rem',
+        '4xl': '2rem'
       },
       colors: {
         vi: {
-          light: '#ffcf2c',
+          light: '#ffe897',
           DEFAULT: '#F6BE00',
           dark: '#e4b000',
         },

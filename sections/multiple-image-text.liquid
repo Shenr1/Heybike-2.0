@@ -27,7 +27,10 @@
             {% assign imgClass = 'h-full object-cover block w-full enlarge h-auto' %}
             <a href="{{ blkSt.img_link }}" > 
             {% endif %}
-              {{ blkSt.bg_img | image_url: height: 650 | image_tag: class: imgClass, lazyload: true  }}
+              <section class="md:block hidden">{{ blkSt.bg_img | image_url: height: 650 | image_tag: class: imgClass, lazyload: true }}</section>
+              {% if blkSt.bg_img_mb != blank %}
+              <section class="md:hidden block "> {{ blkSt.bg_img_mb | image_url: height: 650 | image_tag: class: imgClass, lazyload: true }} </section>
+              {% endif %}
             {% if blkSt.img_link != blank %} </a> {% endif %}
           {% else %}
             <div class="video-wrapper"><iframe src="//www.youtube.com/embed/{{ blkSt.video_url.id }}?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe></div>
@@ -39,8 +42,8 @@
 
           <section class="{% if textImg %}absolute bottom-6 left-6 text-white w-4/5{% endif %} ">
             {% if blkSt.img_link != blank %} <a href="{{ blkSt.img_link }}" > {% endif %}
-              <h1 class="{% if textImg %}md:text-xl text-lg mb-1 {% else %} md:text-3xl text-2xl md:mb-2 mb-0{% endif %}">{{ blkSt.text_main  }}</h1>
-              <p class="{% if textImg %}text-base{% else %}text-lg{% endif %} break-words">{{ blkSt.text_sub  }}</p>
+              <h1 class="{% if textImg %}md:text-xl text-lg mb-1 {% else %} md:text-3xl text-xl mb-2{% endif %}">{{ blkSt.text_main }}</h1>
+              <p class="{% if textImg %}text-base{% else %}md:text-lg{% endif %} break-words">{{ blkSt.text_sub }}</p>
             {% if blkSt.img_link != blank %} </a> {% endif %}
           </section>
         {% endif %}
@@ -197,6 +200,11 @@
             "type": "image_picker",
             "id": "bg_img",
             "label": "Slide image"
+          },
+          {
+            "type": "image_picker",
+            "id": "bg_img_mb",
+            "label": "Slide image (mobile)"
           },
           {
             "type": "text",

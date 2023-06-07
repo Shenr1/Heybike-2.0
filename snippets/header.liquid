@@ -101,7 +101,7 @@
 			{% if settings.align_logo == "center" %}{{logo}}{% endif %}
 				<div class="icons-col fl f-jce f-aic">
 
-					{% render 'localization' %}
+					<div class="hidden md:block"> {% render 'localization' %} </div>
 
                   	{% if settings.enable_search %}
 						<a href="{{ routes.search_url }}" class="hdicon searchIco hide-sm hide-md" title="{{ 'general.search.tool_tip' | t }}"><i class="at at-search-l"></i></a>

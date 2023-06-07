@@ -8,7 +8,7 @@
         {% for block in section.blocks %}          
           {% assign blkSt = block.settings %}
 
-        {% capture blockTtl %}{% if blkSt.title != blank %}<p class="h4 mb15">{{ blkSt.title }}</p>{% endif %}{% endcapture %}
+        {% capture blockTtl %}{% if blkSt.title != blank %}<p class="h4 mb15 md:text-base !text-lg">{{ blkSt.title }}</p>{% endif %}{% endcapture %}
         {%- case block.type -%}
         {% when 'custom' %}
         <div id="nav_menu-{{ block.id }}" class="footer-block__item {{blkSt.width}} custom-block{% if blkSt.txt_align %} tc{% endif %}">
@@ -32,9 +32,9 @@
         {% when 'menu' %}
         <div id="nav_menu-{{ block.id }}" class="footer-block__item {{blkSt.width}} footer-links">
           {{blockTtl}}
-          <ul>
+          <ul class="md:bg-transparent bg-black-700 md:p-0 p-4">
             {% for link in linklists[blkSt.menulinks].links %}
-            <li><a href="{{ link.url }}">{{ link.title | split: '[' | first }}</a></li>
+            <li class="md:!mb-2 !mb-4 last:!mb-0"><a href="{{ link.url }}">{{ link.title | split: '[' | first }}</a></li>
             {% endfor %}
           </ul>
         </div>
@@ -67,7 +67,7 @@
 
         {% when 'newsletter' %}
         <div id="text-{{ block.id }}" class="footer-block__item {{blkSt.width}} newsletter{% if blkSt.newltr_align %} tc{% endif %}">
-          <div class="wrap-newsletter">
+          <div class="wrap-newsletter md:mt-0 mt-4">
             {{blockTtl}}
             {% render 'newsletter-form' , formId: 'footNewslt' , content:blkSt.sub_title %}
             {% if blkSt.show_socials %}
@@ -134,20 +134,22 @@
       </div>  
 
 
-      <div class="md:flex justify-between text-black-400 mt-10 mb-4 -ml-[30px]">
+      <div class="md:flex justify-between text-black-400 md:mt-10 mt-4 mb-4 md:-ml-[30px]">
         {% for block in section.blocks %}     
         {% assign blkSt = block.settings %}
       
         {% case block.type %}
         {% when 'legal' %}
-        <div class="flex items-center justify-between md:mb-0 mb-4 w-2/5">
-          <div class="md:w-1/2 pl-[30px]">{{ blkSt.logo_img | image_url: width: settings.logo_width | image_tag: width: nil, loading: 'lazy' }} </div>
+        <div class="flex items-center justify-between md:mb-0 mb-4 md:w-2/5">
+          <div class="md:w-1/2 pl-[30px] md:block hidden">{{ blkSt.logo_img | image_url: width: settings.logo_width | image_tag: width: nil, loading: 'lazy' }} </div>
+          
+          <div class="block md:hidden"> {% render 'localization' %} </div>
           <div class="md:text-left text-center text-sm md:text-base"> <a class="text-black-400" href="{{blkSt.text_link1}}"> {{blkSt.text_link1}} </a> </div>
           <div class="md:text-left text-center text-sm md:text-base"> <a class="text-black-400" href="{{blkSt.text_link2}}"> {{blkSt.text_link2}} </a> </div>
         </div>     
         {% when'socialicons' %}
         <div id="text-{{ block.id }}" class="socialicons flex items-center">
-          <p class="m-0 mr-8">{{blkSt.title}}</p>
+          <p class="m-0 mr-8 md:block hidden">{{blkSt.title}}</p>
           {% render 'social-media', hideLbl: true %}
         </div>
         {%- endcase -%}     
@@ -162,9 +164,8 @@
   <div class="footer-bottom">
 
 
-    <div class="fl f-aic f-jcsb f-col f-row-md{% unless secSt.section_width %} page-width{% else %} fullwidth{% endunless %}">
-        {% render 'localization' %}
-        
+    <div class="fl f-aic md:!items-center !items-start f-jcsb f-col f-row-md{% unless secSt.section_width %} page-width{% else %} fullwidth{% endunless %}">
+        <div class="hidden md:block"> {% render 'localization' %} </div>
         {% if secSt.copyright_text != blank %}
         <div class="fl1{% if secSt.show_payment %} tc tl-md{% else %} tc{% endif %} text-black-600">
           {{ secSt.copyright_text }}

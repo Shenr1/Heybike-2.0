@@ -12,12 +12,12 @@
       {%- assign delay_time = 50 | times : box-delay -%}
 
       {%- capture image_layout -%}
-      <div class="{% unless hbStyle %}fl1{% endunless %}{% if hbStyle %}md:w-3/5 w-full{% endif %} imgCol wow{% if blkSt.layout == 'right' %} fadeInRight{% else %} fadeInLeft{% endif %}" data-wow-delay="{{delay_time}}ms">
+      <div class="{% unless hbStyle %}fl1{% endunless %}{% if hbStyle %}md:w-3/5 w-full md:order-0 order-5{% endif %} imgCol wow{% if blkSt.layout == 'right' %} fadeInRight{% else %} fadeInLeft{% endif %}" data-wow-delay="{{delay_time}}ms">
         {% if blkSt.image != blank %}
           {%- assign img_url = blkSt.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
           <span class="imgWrapper" style="max-width:{{ blkSt.image.width }}px;">
-              <img class="imgFl feature-row__image lazyload" width="{{ blkSt.image.width }}" height="{{ blkSt.image.height }}"
-                data-src="{{ img_url }}" data-widths="[180, 360, 540, 720, 900]" data-aspectratio="{{ blkSt.image.aspect_ratio }}" data-sizes="auto" alt="{{ blkSt.image.alt | escape }}">
+            <img class="imgFl feature-row__image lazyload" width="{{ blkSt.image.width }}" height="{{ blkSt.image.height }}" loading="lazy"
+              data-src="{{ img_url }}" data-widths="[180, 360, 540, 720, 900]" data-aspectratio="{{ blkSt.image.aspect_ratio }}" data-sizes="auto" alt="{{ blkSt.image.alt | escape }}">
           </span>
         {% else %}
         	{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
@@ -33,13 +33,13 @@
         {% endif %}
     
         {{ image_layout }}
-        <div class="{% unless hbStyle %}fl1{% endunless %}{% if hbStyle %}md:w-2/5 mb-8 md:mt-0 mt-4{% endif %} feature-row__text {{ blkSt.layout }} wow{% if blkSt.layout == 'right' %} fadeInLeft{% else %} fadeInRight{% endif %}" data-wow-delay="{{delay_time}}ms">
-          <div class="row-text md:{{blkSt.text_align}} {% if hbStyle %}text-center !m-0 !p-0{% endif %}">
+        <div class="{% unless hbStyle %}fl1{% endunless %}{% if hbStyle %}md:w-2/5 md:mb-8 mb-0 md:mt-0 mt-10{% endif %} feature-row__text {{ blkSt.layout }} wow{% if blkSt.layout == 'right' %} fadeInLeft{% else %} fadeInRight{% endif %}" data-wow-delay="{{delay_time}}ms">
+          <div class="row-text md:{{blkSt.text_align}} {% if hbStyle %}md:text-center !m-0 !p-0{% endif %}">
             {% if blkSt.title != blank %}
-              <h3 class="{% if hbStyle %}md:text-4_5xl text-3xl{% endif %} ttlTxt mb{{secSt.tmbm}} mb{{secSt.tmb}}-md" style="--tcl:{{blkSt.tcl}};--tfs:{{secSt.tfs}}px;--tfsm:{{secSt.tfsm}}px;--tff:var(--{{secSt.tff}});--tfw:{{secSt.tfw}};--tlh:{{secSt.tlh}};">{{ blkSt.title }}</h3>
+              <h3 class="{% if hbStyle %}md:text-4_5xl text-2_5xl{% endif %} ttlTxt mb{{secSt.tmbm}} mb{{secSt.tmb}}-md" style="--tcl:{{blkSt.tcl}};--tfs:{{secSt.tfs}}px;--tff:var(--{{secSt.tff}});--tfw:{{secSt.tfw}};--tlh:{{secSt.tlh}};">{{ blkSt.title }}</h3>
             {% endif %}
             {% if blkSt.text != blank %}
-              <div class="{% if hbStyle %}text-xl{% endif %} rgTxt rte featured-row__subtext mb{{secSt.mbm}} mb{{secSt.mb}}-md" style="--cl:{{blkSt.cl}};--fs:{{secSt.fs}}px;--fsm:{{secSt.fsm}}px;--fw:{{secSt.fw}};--lh:{{secSt.lh}};">
+              <div class="{% if hbStyle %}md:text-xl{% endif %} rgTxt rte featured-row__subtext mb{{secSt.mbm}} mb{{secSt.mb}}-md" style="--cl:{{blkSt.cl}};--fs:{{secSt.fs}}px;--fw:{{secSt.fw}};--lh:{{secSt.lh}};">
                   {{ blkSt.text }}
               </div>
             {% endif %}
@@ -49,12 +49,12 @@
           </div>
 
           {% if hbStyle %}
-              <div class="md:mt-20 mt-10 md:text-left text-center">
+              <div class="md:mt-20 mt-10 ">
               {% if blkSt.bottom_logo != blank %}
-                <a class="mr-4" href="{{blkSt.logo_url}}">{{ blkSt.bottom_logo | image_url: height: 100 | image_tag: height: 50, loading: 'lazy' }}</a>
+                <a class="mr-4" href="{{blkSt.logo_url}}">{{ blkSt.bottom_logo | image_url: height: 100 | image_tag: height: blkSt.bottom_logo.height, loading: 'lazy' }}</a>
               {% endif %}
               {% if blkSt.bottom_logo2 != blank %}
-                <a href="{{blkSt.logo_url2}}">{{ blkSt.bottom_logo2 | image_url: height: 100 | image_tag: height: 50, loading: 'lazy' }}</a>
+                <a href="{{blkSt.logo_url2}}">{{ blkSt.bottom_logo2 | image_url: height: 100 | image_tag: height: blkSt.bottom_logo2.height, loading: 'lazy' }}</a>
               {% endif %}
               </div>
           {% endif %}

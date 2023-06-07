@@ -62,7 +62,7 @@
         "900c2863-7a02-4344-845e-386c8248bc4d": {
           "type": "text",
           "settings": {
-            "text": "Order now, get FREE Mudguards & Kickstand!",
+            "text": "Order now, and get a FREE Helmet and Pannier Bag!",
             "cl": "#999999",
             "addbg": false,
             "bg": "#f5f5f5",
@@ -90,6 +90,7 @@
         },
         "7ff82dc7-abaf-42c2-a8c8-d415a91325d5": {
           "type": "giveaways",
+          "disabled": true,
           "settings": {
             "title": "Foot Support",
             "price": "3500",
@@ -441,7 +442,7 @@
         "bottom_padding": "default",
         "bg_color": "",
         "layout": "textImage",
-        "img_size": "small",
+        "img_size": "default",
         "img": "shopify:\/\/shop_images\/7ecc40279fd871bac0e0d11e210a632b_6d23bccc-184f-45c4-a53b-0c3cc0192d0c.jpg",
         "text_main": "Portable Battery",
         "text_sub": "Designed to fuel your adventures, this battery from Samsung offers exceptional performance and efficiency.",
@@ -484,7 +485,7 @@
         "bottom_padding": "default",
         "bg_color": "",
         "layout": "imageText",
-        "img_size": "small",
+        "img_size": "default",
         "img": "shopify:\/\/shop_images\/heybike_EC1_motor.jpg",
         "text_main": "Lightweight Motor",
         "text_sub": "Experience the ultimate ride with our 250W lightweight motor, which offers outstanding stability, resistance to bumps and shocks, minimal noise and vibration, smooth operation, and an impressive lifespan.",
@@ -573,7 +574,7 @@
       "settings": {
         "top_padding": "large",
         "bottom_padding": "none",
-        "title": "The World of HEYBIKE",
+        "title": "Take a Closer Look",
         "layout": "textImg",
         "enable_slider": true,
         "bottom_line": true
@@ -698,7 +699,7 @@
           "settings": {
             "title": "FAQ",
             "slide_w": "full",
-            "content": "Are there any restrictions or regulations on the use of e-bikes in the UK?:\nPlease click on the following website www.gov.uk\/electric-bike-rules to learn more about the UK Government's policy on e-bikes. <br>"
+            "content": "Are there any restrictions or regulations on the use of e-bikes in the UK?: Please click on the following website www.gov.uk\/electric-bike-rules to learn more about the UK Government's policy on e-bikes. <br>"
           }
         },
         "7ef2d0ba-c008-429d-929a-980c2c0d5698": {

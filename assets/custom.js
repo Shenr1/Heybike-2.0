@@ -1,5 +1,20 @@
 $(function(){
 
+  const autoReponsive = (varScale) => {
+    const width = document.body.clientWidth || window.innerWidth;
+    if(width <= 750){
+      const scale = varScale?varScale:width / 750;
+      const content = 'width=750, initial-scale=' + scale + ', minimum-scale=' + scale + ', maximum-scale=' + scale + ', viewport-fit=cover';
+      $('meta[name="viewport"]').attr("content",content);
+    }
+  }
+  if (Shopify.designMode) {
+    if($("body").width() < 500){
+      $("body,html").css("font-size", "13.36px");
+    }
+  }else{autoReponsive()}
+
+
   $(document).on('click', '.accordion [tag-name="accordion-header"]', function(e) {
     $(this).parent().find('[tag-name="accordion-content"]').slideToggle(500,"linear");
     $(this).find('[tag-name="accordion-arrow"] svg:last-child').fadeToggle(500,"linear");
