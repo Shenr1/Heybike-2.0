@@ -99,7 +99,7 @@
         "fullwidth": true,
         "section_cov": false,
         "sec_bg_clr": "#fafafa",
-        "max-width": 700,
+        "max-width": 1200,
         "title": "Erscheinen Sie in unserem Dokumentarfilm",
         "tcl": "#000",
         "tfs": 26,
@@ -120,7 +120,7 @@
         "btn-style2": "btn",
         "btn-size-desk": "btn-md",
         "btn-size-mob": "mob-btn-sm",
-        "txt_align": "tc",
+        "txt_align": "tl",
         "text_clr": "#111"
       }
     },
