@@ -475,8 +475,8 @@
         ".sec-ttl .h3,div.sec-ttl p {color: #fff;}"
       ],
       "settings": {
-        "top_padding": "large",
-        "bottom_padding": "extraLarge",
+        "top_padding": "default",
+        "bottom_padding": "none",
         "top-offeset": "none",
         "section_style": "heybike",
         "section_width": false,
@@ -488,7 +488,7 @@
         "style": "style1",
         "icon-type": "image",
         "icons_clr": "#ffffff",
-        "isz": 52,
+        "isz": 55,
         "tcl": "#ffffff",
         "tfs": 24,
         "tfsm": 10,
