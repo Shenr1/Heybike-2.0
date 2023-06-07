@@ -264,28 +264,28 @@
           "type": "item",
           "settings": {
             "item_title": "360Wh",
-            "item_dec": "Battery"
+            "item_dec": "Batterie"
           }
         },
         "a27b30d1-ea2c-42ec-9fce-1899fef048f4": {
           "type": "item",
           "settings": {
-            "item_title": "Up to 100km",
-            "item_dec": "Range"
+            "item_title": "Bis zu 100",
+            "item_dec": "Bereich(km)"
           }
         },
         "19891b48-30b5-4d5d-9969-7cc834a3cbde": {
           "type": "item",
           "settings": {
             "item_title": "18kg",
-            "item_dec": "Weight"
+            "item_dec": "Gewicht"
           }
         },
         "77f5c680-eb06-4cbd-b967-0b45bc01402e": {
           "type": "item",
           "settings": {
             "item_title": "155-185cm",
-            "item_dec": "Rider Height"
+            "item_dec": "Höhe des Fahrers"
           }
         },
         "c4bf62db-57aa-4884-a373-6a2c5aeb6ff2": {
@@ -299,7 +299,7 @@
           "type": "item",
           "settings": {
             "item_title": "3.4''",
-            "item_dec": "LCD Display"
+            "item_dec": "LCD-Anzeige"
           }
         }
       },
