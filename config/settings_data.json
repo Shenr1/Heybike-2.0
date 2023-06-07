@@ -343,7 +343,7 @@
             "type": "dropdown",
             "settings": {
               "title": "Händler",
-              "url": "https:\/\/1.envato.market\/KdyYx",
+              "url": "shopify:\/\/pages\/werden-sie-handler",
               "mm_linklist": ""
             }
           }
@@ -422,7 +422,7 @@
             "settings": {
               "newltr_align": false,
               "title": "NEWSLETTER",
-              "sub_title": "Enter your email to receive a newsletter and a £50 off e-bike voucher.",
+              "sub_title": "Tragen Sie Ihre E-Mail-Adresse ein, um einen Newsletter und einen Gutschein über 50 € für ein E-Bike zu erhalten.",
               "show_socials": false,
               "socials_ttl": "Stay Connected",
               "width": "wd20-md"
@@ -441,7 +441,7 @@
           "0fbd70ba-a5ec-4f78-b500-98fa94c457c2": {
             "type": "socialicons",
             "settings": {
-              "title": "Follow Us"
+              "title": "Folgen Sie uns"
             }
           }
         },
