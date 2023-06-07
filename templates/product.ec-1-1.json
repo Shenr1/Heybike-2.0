@@ -109,9 +109,9 @@
         "75a78218-e9d0-4681-b8f1-d4b99318f5b7": {
           "type": "colimg",
           "settings": {
-            "text1": "Free shipping",
-            "text2": "VAT included",
-            "text3": "1-year warranty",
+            "text1": "Kostenloser Versand",
+            "text2": "Inklusive Mehrwertsteuer",
+            "text3": "1 Jahr Garantie",
             "icon1": "shopify:\/\/shop_images\/646653b0ac6b117df7f13ce8570d0e38_ab1303c8-a54e-47d4-999d-44eeabc4aa8c.png",
             "icon2": "shopify:\/\/shop_images\/25a2ae4f3aeacec2f66ab92e67040928_29841172-068c-444e-8995-be304cc5fc24.png",
             "icon3": "shopify:\/\/shop_images\/a8c3ad982099abeca6bbdb913b166a0e_c4cecf57-e225-4816-b140-46dc840131f7.png"
@@ -275,28 +275,28 @@
           "type": "item",
           "settings": {
             "item_title": "360Wh",
-            "item_dec": "Battery"
+            "item_dec": "Batterie"
           }
         },
         "a27b30d1-ea2c-42ec-9fce-1899fef048f4": {
           "type": "item",
           "settings": {
-            "item_title": "Up to 100km",
-            "item_dec": "Range"
+            "item_title": "bis zu 100",
+            "item_dec": "Bereich(km)"
           }
         },
         "19891b48-30b5-4d5d-9969-7cc834a3cbde": {
           "type": "item",
           "settings": {
             "item_title": "18kg",
-            "item_dec": "Weight"
+            "item_dec": "Gewicht"
           }
         },
         "77f5c680-eb06-4cbd-b967-0b45bc01402e": {
           "type": "item",
           "settings": {
             "item_title": "160-190cm",
-            "item_dec": "Rider Height"
+            "item_dec": "Empfohlene Höhe"
           }
         },
         "c4bf62db-57aa-4884-a373-6a2c5aeb6ff2": {
@@ -310,7 +310,7 @@
           "type": "item",
           "settings": {
             "item_title": "3.4''",
-            "item_dec": "LCD Display"
+            "item_dec": "LCD-Anzeige"
           }
         }
       },
@@ -408,21 +408,21 @@
           "type": "item",
           "settings": {
             "item_title": "360Wh",
-            "item_dec": "Power"
+            "item_dec": "Strom"
           }
         },
         "c2cd3913-f9ab-4d1a-90a3-425a71e726c2": {
           "type": "item",
           "settings": {
             "item_title": "10Ah",
-            "item_dec": "Capacity"
+            "item_dec": "Kapazität"
           }
         },
         "c40ebf74-fd0a-4136-902b-64c9b076e175": {
           "type": "item",
           "settings": {
             "item_title": "36V",
-            "item_dec": "Voltage"
+            "item_dec": "Spannung"
           }
         }
       },
@@ -451,14 +451,14 @@
           "type": "item",
           "settings": {
             "item_title": "250 W",
-            "item_dec": "Power"
+            "item_dec": "Strom"
           }
         },
         "bd530c13-0782-4c23-a156-1e0a11200db7": {
           "type": "item",
           "settings": {
             "item_title": "37 Nm",
-            "item_dec": "Torque"
+            "item_dec": "Drehmoment"
           }
         },
         "f4b077ec-d5f4-464e-a93c-199cc05db80b": {
