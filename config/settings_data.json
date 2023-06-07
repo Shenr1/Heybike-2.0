@@ -396,7 +396,7 @@
           "1561010652330": {
             "type": "menu",
             "settings": {
-              "title": "BEFORE YOU BUY",
+              "title": "BEVOR SIE KAUFEN",
               "menulinks": "ber-uns",
               "width": "wd20-md"
             }
@@ -404,7 +404,7 @@
           "1558678570770": {
             "type": "menu",
             "settings": {
-              "title": "GET HELP",
+              "title": "HILFE ERHALTEN",
               "menulinks": "dienst",
               "width": "wd20-md"
             }
@@ -412,7 +412,7 @@
           "4e102e40-8900-4358-895e-37dd5ac9809b": {
             "type": "menu",
             "settings": {
-              "title": "COMPANY",
+              "title": "UNTERNEHMEN",
               "menulinks": "mehr",
               "width": "wd20-md"
             }
