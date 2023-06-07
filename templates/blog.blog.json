@@ -184,6 +184,7 @@
     },
     "9016ea7c-c5de-4556-9a98-0317a20a7e7c": {
       "type": "contact-form",
+      "disabled": true,
       "settings": {
         "layout": "2",
         "page_Width": 700,
