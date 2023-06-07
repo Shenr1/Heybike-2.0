@@ -341,6 +341,7 @@
           },
           "ff0e6f22-f740-4d49-9986-8cbc1de21b2e": {
             "type": "dropdown",
+            "disabled": true,
             "settings": {
               "title": "Händler",
               "url": "shopify:\/\/pages\/werden-sie-handler",
