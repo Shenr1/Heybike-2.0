@@ -5,6 +5,7 @@
       "blocks": {
         "4719c871-5612-465a-a169-c71ed12eb496": {
           "type": "search",
+          "disabled": true,
           "settings": {
             "title": ""
           }
@@ -94,7 +95,7 @@
       "settings": {
         "sdesk": 30,
         "mdesk": 15,
-        "color_bg": "#fff"
+        "color_bg": "#ffffff"
       }
     },
     "22c03e54-e03e-4ffb-97a6-664a64e7d103": {
@@ -102,7 +103,7 @@
       "settings": {
         "sdesk": 30,
         "mdesk": 15,
-        "color_bg": "#fff"
+        "color_bg": "#ffffff"
       }
     }
   },
