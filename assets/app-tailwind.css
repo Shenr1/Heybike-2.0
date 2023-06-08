@@ -72,6 +72,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
     #newsletter-modal h2,
     .footer-links .h4:before,
     h3,
+    .shopify-policy__title h1, .page-title,
     #newsletter-modal .mfp-close{@apply !text-lg}
     .site-header{@apply h-[4.65rem]}
     .site-header a.hdicon .at{@apply text-2xl leading-none}

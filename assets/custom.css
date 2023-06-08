@@ -319,6 +319,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   #newsletter-modal h2,
     .footer-links .h4:before,
     h3,
+    .shopify-policy__title h1, .page-title,
     #newsletter-modal .mfp-close {
     font-size:1.125rem !important;
     line-height:1.75rem !important;
