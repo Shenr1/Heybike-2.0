@@ -322,6 +322,7 @@
             "slide_w": "w-2\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/Heybike-eurobike23.jpg",
+            "bg_img_mb": "shopify:\/\/shop_images\/bolg_1.jpg",
             "text_main": "EUROBIKE 2023 is just around the corner!",
             "text_sub": "We look forward to meeting you at the event and discussing mutually beneficial prospects.",
             "img_link": "shopify:\/\/pages\/become-a-dealer"
@@ -333,6 +334,7 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/lQDPJyFWi8lReALNAZrNAZWwtR7lJhj7e7gEaz5jiAAMAA_405_410.jpg",
+            "bg_img_mb": "shopify:\/\/shop_images\/bolg_2.jpg",
             "text_main": "Share your lovely moment",
             "text_sub": "Follow us on Facebook & YouTube",
             "img_link": "shopify:\/\/pages\/photos"
