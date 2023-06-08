@@ -189,14 +189,16 @@
           "type": "slide",
           "settings": {
             "text_main": "\"The HeyBike Mars is a special type of fat tire e-bike that folds down for easier transportation, meaning you can take that ride-everywhere fun on the go with you.\"",
-            "text_sub": "- ELECTREK"
+            "text_sub": "- ELECTREK",
+            "logo_image": "shopify:\/\/shop_images\/cropped-electrek-logo11.webp"
           }
         },
         "bfd88edc-65df-4713-b474-231d6eb30b82": {
           "type": "slide",
           "settings": {
             "text_main": "\"The Heybike Mars hits a good price point and is a lot of fun to ride.\"",
-            "text_sub": "- MSN"
+            "text_sub": "- MSN",
+            "logo_image": "shopify:\/\/shop_images\/images.png"
           }
         },
         "4154eb24-d1e7-4988-890f-30696b81b6ea": {
