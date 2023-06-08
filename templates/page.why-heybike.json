@@ -322,7 +322,7 @@
         "top_padding": "none",
         "bottom_padding": "small",
         "top-offeset": "default",
-        "section_style": "default",
+        "section_style": "heybike",
         "section_width": false,
         "section_cov": true,
         "sec_bg_clr": "#ffffff",
