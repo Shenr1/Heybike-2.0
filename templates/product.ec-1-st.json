@@ -95,6 +95,7 @@
         "3e5ff436-8638-45b7-a3ce-b36263b34395": {
           "type": "img",
           "settings": {
+            "pimg": "shopify:\/\/shop_images\/111_2df45b57-d322-4d77-96c9-7418048507fa.png",
             "pimg_url": "",
             "img_align": false,
             "bm": 20
@@ -105,7 +106,10 @@
           "settings": {
             "text1": "Free shipping",
             "text2": "VAT included",
-            "text3": "1-year warranty"
+            "text3": "1-year warranty",
+            "icon1": "shopify:\/\/shop_images\/646653b0ac6b117df7f13ce8570d0e38_ab1303c8-a54e-47d4-999d-44eeabc4aa8c.png",
+            "icon2": "shopify:\/\/shop_images\/2_db248150-9d91-47d8-af7f-fd791013a8f4.png",
+            "icon3": "shopify:\/\/shop_images\/123.png"
           }
         }
       },
