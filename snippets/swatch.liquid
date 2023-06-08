@@ -18,22 +18,7 @@
         {%- endif -%}
     </label>
 	{% assign values = '' %}
-	{% assign colors = product.metafields.custom.color.value %}
 	{% for variant in product.variants %}
-
-		{% assign i = forloop.index %}
-		{{ colors }}
-		{% for color in colors %}
-
-			<div class="" style="background-color:{{color}};">1111</div>
-
-			{% if forloop.index == i %}
-				<div class="" style="background-color:{{color}};">1111</div>
-			{% endif %}
-
-		{% endfor %}
-
-
 		{% assign value = variant.options[optindex] %}
 		{% unless values contains value %}
 			{% assign values = values | join: ',' %}
@@ -45,7 +30,7 @@
 			{% if is_color %}
                 {% if settings.sw_type == "color" %}
                     <label class="swatchLbl color !shadow-[inset_0px_0px_0px_3.5px_white] {{settings.sw_size}} swt{{value | handle}}" for="{{product.id}}-{{ optg }}-{{ value | handle }}"
-						style="background-color:{{ colors[forloop.index] }};"></label>
+						style="background-color:{{ value | handle }};"></label>
                 {% else %}
                     <label class="swatchLbl color !shadow-[inset_0px_0px_0px_3.5px_white] {{settings.sw_size}} lazyload" for="{{product.id}}-{{ optg }}-{{ value | handle }}" data-bgset="{{ variant.image.src | product_img_url: '100x'}}" data-sizes="auto" data-parent-fit="contain"></label>
                 {% endif %}
