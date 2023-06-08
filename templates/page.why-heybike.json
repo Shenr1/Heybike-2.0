@@ -323,7 +323,7 @@
       ],
       "settings": {
         "top_padding": "none",
-        "bottom_padding": "small",
+        "bottom_padding": "none",
         "top-offeset": "default",
         "section_style": "heybike",
         "section_width": false,
@@ -336,12 +336,12 @@
         "icon-type": "icon",
         "icons_clr": "#ffffff",
         "isz": 33,
-        "tcl": "#fff",
+        "tcl": "#ffffff",
         "tfs": 15,
         "tfsm": 75,
         "tfw": "500",
         "tlh": 1.2,
-        "cl": "#fff",
+        "cl": "#ffffff",
         "border_sep": "#eeeeee"
       }
     },
