@@ -11,6 +11,7 @@
         },
         "f250fe59-2ef9-4aad-9c70-6bd81219d4ff": {
           "type": "menu",
+          "disabled": true,
           "settings": {
             "title": "Categories",
             "side_categories": "categories"
@@ -18,6 +19,7 @@
         },
         "2ba1fb83-1b45-493e-8110-40ca2ed8ec8d": {
           "type": "rposts",
+          "disabled": true,
           "settings": {
             "title": "Recent Posts",
             "count": 5
@@ -25,10 +27,9 @@
         },
         "d93736f3-6af7-4a55-82fb-1b7116d51b1f": {
           "type": "products",
-          "disabled": true,
           "settings": {
             "title": "Popular Products",
-            "sidebar_products": "beachwear",
+            "sidebar_products": "electric-bike",
             "num_of_products": "3",
             "side_all_products": false,
             "btn_txt": "View All",
@@ -94,7 +95,7 @@
       "settings": {
         "sdesk": 30,
         "mdesk": 15,
-        "color_bg": "#fff"
+        "color_bg": "#ffffff"
       }
     },
     "141e7fe5-9360-4dae-aa41-9e0d0d432be6": {
@@ -102,7 +103,7 @@
       "settings": {
         "sdesk": 30,
         "mdesk": 15,
-        "color_bg": "#fff"
+        "color_bg": "#ffffff"
       }
     }
   },
