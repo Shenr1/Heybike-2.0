@@ -700,9 +700,9 @@
           "type": "imgTxtList",
           "settings": {
             "title": "Geometrie",
-            "image": "shopify:\/\/shop_images\/A5CF3E54-F3E3-4c46-B1C8-8CB1281D4939.png",
+            "image": "shopify:\/\/shop_images\/630x800.jpg",
             "th": ",Beschreibung,Size(cm)",
-            "td": "Total Length-184.03<br>\nChaint Stay Length-45.61<br>\nTop Tube Length-54.91<br>\nHead Tube Length-27.59<br>\nWheelbase-112.51<br>\nWheel Diameter-71.29<br>\nHandlebar Height-110.24<br>\nStand Height-37.16<br>\nMaximum Seat Height-22<br>\nMinimum Seat Height-48.36<br>\nMinimum Seat to Floor-96.57<br>"
+            "td": "Gesamtlänge-184.03<br>\nLänge der Kettenstrebe-45.61<br>\nOberrohr Länge-54.91<br>\nSteuerrohr Länge-27.59<br>\nRadstand-112.51<br>\nRaddurchmesser-71.29<br>\nLenkerhöhe-110.24<br>\nStänderhöhe-37.16<br>\nMaximale Sitzhöhe-22<br>\nMinimale Sitzhöhe-48.36<br>\nMinimaler Sitzabstand zum Boden-96.57<br>"
           }
         }
       },
