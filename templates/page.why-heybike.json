@@ -323,7 +323,7 @@
       ],
       "settings": {
         "top_padding": "default",
-        "bottom_padding": "small",
+        "bottom_padding": "default",
         "top-offeset": "default",
         "section_style": "heybike",
         "section_width": false,
