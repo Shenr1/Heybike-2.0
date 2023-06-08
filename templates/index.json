@@ -125,6 +125,14 @@
             "info": "Aviation grade magnesium alloy"
           }
         },
+        "f8ffd36a-8915-47a9-930d-e2ad87fcd760": {
+          "type": "slide",
+          "settings": {
+            "product": "ec-1-st",
+            "product_image": "shopify:\/\/shop_images\/EC-1-ST_46b11121-6fc4-402d-b03c-e2f15da2ccc5.png",
+            "info": "Aviation grade magnesium alloy"
+          }
+        },
         "49c3920c-4c72-4966-97a0-17f141bf1e62": {
           "type": "slide",
           "settings": {
@@ -138,14 +146,6 @@
           "settings": {
             "product": "ec-1",
             "product_image": "shopify:\/\/shop_images\/EC-1_e0ada7b4-10f3-42f9-ac93-3527255d4a64.png",
-            "info": "Aviation grade magnesium alloy"
-          }
-        },
-        "f8ffd36a-8915-47a9-930d-e2ad87fcd760": {
-          "type": "slide",
-          "settings": {
-            "product": "ec-1-st",
-            "product_image": "shopify:\/\/shop_images\/EC-1-ST_46b11121-6fc4-402d-b03c-e2f15da2ccc5.png",
             "info": "Aviation grade magnesium alloy"
           }
         },
@@ -168,9 +168,9 @@
       },
       "block_order": [
         "74434e2d-7316-4cea-a46d-2fe1337dab28",
+        "f8ffd36a-8915-47a9-930d-e2ad87fcd760",
         "49c3920c-4c72-4966-97a0-17f141bf1e62",
         "265ae58e-bbd5-431e-950a-654097cb3d2c",
-        "f8ffd36a-8915-47a9-930d-e2ad87fcd760",
         "aced053b-8c7e-443c-ba77-07bf8bef930e",
         "f480f755-ce5b-49ba-93bd-4d6b4ea96954"
       ],
