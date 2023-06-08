@@ -92,6 +92,38 @@
         "text_clr": "#111111"
       }
     },
+    "b28f4c65-a0b1-471f-a33a-0df055e65768": {
+      "type": "richtext",
+      "settings": {
+        "top-offeset": "default",
+        "fullwidth": true,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "max-width": 1200,
+        "title": "Apparaître dans notre documentaire",
+        "tcl": "#000",
+        "tfs": 26,
+        "tfsm": 20,
+        "tff": "ft1",
+        "tfw": "700",
+        "tlh": 1.2,
+        "richtxt": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.<\/p>",
+        "cl": "#000",
+        "fs": 14,
+        "fsm": 13,
+        "lh": 1.6,
+        "btntxt": "",
+        "btnurl": "",
+        "btn-style": "btn",
+        "btntxt1": "",
+        "btnurl1": "",
+        "btn-style2": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "txt_align": "tl",
+        "text_clr": "#111"
+      }
+    },
     "blog": {
       "type": "blog-template",
       "blocks": {
@@ -200,6 +232,7 @@
   "order": [
     "e70e32a1-2a0e-4413-95d0-1369256ea0c5",
     "ef35ff53-d545-4ee9-b818-2a45c7e97232",
+    "b28f4c65-a0b1-471f-a33a-0df055e65768",
     "blog",
     "9016ea7c-c5de-4556-9a98-0317a20a7e7c"
   ]
