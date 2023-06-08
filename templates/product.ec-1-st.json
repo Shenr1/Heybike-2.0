@@ -496,6 +496,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/Puncture-resistant_Tires.png",
             "text_main": "Puncture-resistant Tires",
             "text_sub": "Versatile 700C*40C tires with anti-puncture tech for city, gravel, and long-distance rides.",
             "img_link": ""
@@ -506,6 +507,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/Headlights.png",
             "text_main": "Headlights",
             "text_sub": "Adjustable multi-angle illumination for safe and non-distracting commuting.",
             "img_link": ""
@@ -516,6 +518,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/Hydraulic_disc_brakes.png",
             "text_main": "Hydraulic disc brakes",
             "text_sub": "Upgrade your brakes: Hydraulic discs provide more precise, powerful, and safe stopping.",
             "img_link": ""
@@ -526,6 +529,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/Heybike_LCD_Display.png",
             "text_main": "LCD Display",
             "text_sub": "Compatible with the HEYBIKE App to help you navigate the journey ahead.",
             "img_link": ""
@@ -536,6 +540,7 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/f956d5b5bf5da5cb869ce37f7af9190e.png",
             "text_main": "Hidden inner wiring design",
             "text_sub": "Internal wiring enhances aesthetics, decreases wind resistance, and lessens crashes.",
             "img_link": ""
