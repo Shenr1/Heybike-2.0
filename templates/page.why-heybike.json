@@ -318,6 +318,9 @@
         "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-3",
         "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-2"
       ],
+      "custom_css": [
+        ".sec-ttl .h3,div.sec-ttl p {color: #fff;}"
+      ],
       "settings": {
         "top_padding": "none",
         "bottom_padding": "small",
