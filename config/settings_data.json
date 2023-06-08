@@ -335,8 +335,8 @@
             "type": "dropdown",
             "settings": {
               "title": "Help Center",
-              "url": "shopify:\/\/pages\/contact",
-              "mm_linklist": ""
+              "url": "",
+              "mm_linklist": "centre-daide"
             }
           },
           "ff0e6f22-f740-4d49-9986-8cbc1de21b2e": {
