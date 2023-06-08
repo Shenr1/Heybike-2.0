@@ -398,7 +398,7 @@
             "type": "menu",
             "settings": {
               "title": "BEFORE YOU BUY",
-              "menulinks": "",
+              "menulinks": "avant-dacheter",
               "width": "wd20-md"
             }
           },
@@ -495,7 +495,7 @@
               "title11": "Blanc",
               "color11": "#fffbea",
               "title12": "Noir",
-              "color12": "#000",
+              "color12": "#000000",
               "title13": "Rose",
               "color13": "#b07c8b",
               "title14": "",
