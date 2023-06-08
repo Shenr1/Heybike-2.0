@@ -61,23 +61,22 @@
     },
     "ef35ff53-d545-4ee9-b818-2a45c7e97232": {
       "type": "richtext",
-      "disabled": true,
       "settings": {
         "top-offeset": "small",
         "fullwidth": true,
         "section_cov": false,
         "sec_bg_clr": "#fafafa",
-        "max-width": 1050,
+        "max-width": 1150,
         "title": "Appear In Our Documentary",
         "tcl": "#000000",
-        "tfs": 26,
+        "tfs": 30,
         "tfsm": 20,
         "tff": "ft1",
         "tfw": "700",
         "tlh": 1.2,
-        "richtxt": "<p>As we sincerely hope our electric bikes have brought convenience to your life, we also would like to know the changes in your life Heybike brought you and your unforgettable moment with Heybike. So, we want to hear about the story between you and Heybike e-bike.<\/p><p>Are you, the main character, willing to share your story with the camera? As a reward, we will give you a FREE E-bike after the shooting. Once we make a deal, our director will contact you and communicate the shoot details.<\/p><p><em><strong>*Just so you know, you need to allow us to display your interview content online, including the official website and Heybike-UK social media platform.<\/strong><\/em><\/p>",
+        "richtxt": "<p>As we sincerely hope our electric bikes have brought convenience to your life, we also would like to know the changes in your life Heybike brought you and your unforgettable moment with Heybike. So, we want to hear about the story between you and Heybike e-bike.<\/p><p>Are you, the main character, willing to share your story with the camera? As a reward, we will give you a FREE E-bike after the shooting. Once we make a deal, our director will contact you and communicate the shoot details.<\/p><p><em><strong>*Just so you know, you need to allow us to display your interview content online, including the official website and Heybike social media platform.<\/strong><\/em><\/p>",
         "cl": "#000000",
-        "fs": 14,
+        "fs": 20,
         "fsm": 13,
         "lh": 1.6,
         "btntxt": "",
@@ -182,12 +181,36 @@
         "show_tags": true
       }
     },
+    "7293b3c5-7868-415f-97fa-7632731448e3": {
+      "type": "section-space",
+      "settings": {
+        "sdesk": 30,
+        "mdesk": 15,
+        "color_bg": "#fff"
+      }
+    },
+    "fc12e1eb-21dd-4c5d-82c6-5d6c2630b749": {
+      "type": "section-space",
+      "settings": {
+        "sdesk": 30,
+        "mdesk": 15,
+        "color_bg": "#fff"
+      }
+    },
+    "7a0b84ca-cdc3-44ae-afd7-659a134eec4a": {
+      "type": "section-space",
+      "settings": {
+        "sdesk": 30,
+        "mdesk": 15,
+        "color_bg": "#fff"
+      }
+    },
     "9016ea7c-c5de-4556-9a98-0317a20a7e7c": {
       "type": "contact-form",
       "settings": {
         "layout": "2",
         "page_Width": 700,
-        "title": "Contact Us",
+        "title": "Sincerely welcome your participation!",
         "subtitle": "",
         "show_phone": false,
         "show_subject": false,
@@ -201,6 +224,9 @@
     "e70e32a1-2a0e-4413-95d0-1369256ea0c5",
     "ef35ff53-d545-4ee9-b818-2a45c7e97232",
     "blog",
+    "7293b3c5-7868-415f-97fa-7632731448e3",
+    "fc12e1eb-21dd-4c5d-82c6-5d6c2630b749",
+    "7a0b84ca-cdc3-44ae-afd7-659a134eec4a",
     "9016ea7c-c5de-4556-9a98-0317a20a7e7c"
   ]
 }
