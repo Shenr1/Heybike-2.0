@@ -13,7 +13,7 @@
           "type": "menu",
           "settings": {
             "title": "Categories",
-            "side_categories": "categories"
+            "side_categories": ""
           }
         },
         "2ba1fb83-1b45-493e-8110-40ca2ed8ec8d": {
@@ -88,9 +88,36 @@
         "rpauto": false,
         "auto_speed": 5
       }
+    },
+    "01424536-1e65-407a-8fc6-64dfb6d145e0": {
+      "type": "section-space",
+      "settings": {
+        "sdesk": 30,
+        "mdesk": 15,
+        "color_bg": "#fff"
+      }
+    },
+    "78e4b20d-3bde-4e21-98cf-00ff413e00da": {
+      "type": "section-space",
+      "settings": {
+        "sdesk": 30,
+        "mdesk": 15,
+        "color_bg": "#fff"
+      }
+    },
+    "6de165c6-f263-42ed-b1da-c3ee3fc3591a": {
+      "type": "section-space",
+      "settings": {
+        "sdesk": 30,
+        "mdesk": 15,
+        "color_bg": "#fff"
+      }
     }
   },
   "order": [
-    "article"
+    "article",
+    "01424536-1e65-407a-8fc6-64dfb6d145e0",
+    "78e4b20d-3bde-4e21-98cf-00ff413e00da",
+    "6de165c6-f263-42ed-b1da-c3ee3fc3591a"
   ]
 }
