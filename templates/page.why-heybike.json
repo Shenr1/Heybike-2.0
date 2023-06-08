@@ -324,7 +324,7 @@
       "settings": {
         "top_padding": "none",
         "bottom_padding": "none",
-        "top-offeset": "default",
+        "top-offeset": "none",
         "section_style": "heybike",
         "section_width": false,
         "section_cov": true,
