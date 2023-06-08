@@ -368,19 +368,22 @@
         "3491c024-f7d7-4349-9f63-aa201626f2bf": {
           "type": "slide",
           "settings": {
-            "color": "#111111"
+            "color": "#111111",
+            "image": "shopify:\/\/shop_images\/2.png"
           }
         },
         "42b01243-65bf-4d68-93ef-f11af85385a1": {
           "type": "slide",
           "settings": {
-            "color": "#fffbea"
+            "color": "#fffbea",
+            "image": "shopify:\/\/shop_images\/3.png"
           }
         },
         "3f2b5db7-4454-454d-a182-9e69238708a7": {
           "type": "slide",
           "settings": {
-            "color": "#72b1c4"
+            "color": "#72b1c4",
+            "image": "shopify:\/\/shop_images\/1.png"
           }
         }
       },
