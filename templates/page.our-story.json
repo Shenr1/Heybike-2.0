@@ -293,7 +293,7 @@
       "type": "newsletter",
       "settings": {
         "title": "Newsletter",
-        "subtitle": "Sign up to stay in the loop. Receive updates, access to exclusive deals, and more.",
+        "subtitle": "Melden Sie sich an, um auf dem Laufenden zu bleiben. Sie erhalten Updates, Zugang zu exklusiven Angeboten und mehr.",
         "top-offeset": "default",
         "section_width": true,
         "section_cov": true,
