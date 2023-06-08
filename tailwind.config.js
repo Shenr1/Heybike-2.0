@@ -14,6 +14,9 @@ module.exports = {
   purge: false,
   theme: {
     extend: {
+      spacing: {
+        '9vh': '90vh',
+      },
       screens: {
         '2k': '2048px',
       },

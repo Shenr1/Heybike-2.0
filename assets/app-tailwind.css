@@ -125,6 +125,8 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
 @layer utilities{
     .shopify-section .grid:not(.flickity-enabled){@apply flex}
     .shopify-section .grid.flickity-enabled{@apply block}
+    [aria-labelledby = 'pi-unionpay']{@apply hidden}
+
 
     @media only screen and (max-width:750px){
         html,body { font-size:28px }

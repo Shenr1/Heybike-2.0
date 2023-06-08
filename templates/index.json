@@ -7,7 +7,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Banner_1_a.jpg",
-            "imagem": "shopify:\/\/shop_images\/Banner_1_a.jpg",
+            "imagem": "shopify:\/\/shop_images\/fff_a4b4845e-823b-4a4f-8d3d-a96ef181121c.webp",
             "ialign": "center_center",
             "hd1": "EC 1",
             "pcl": "#ffffff",
@@ -476,7 +476,7 @@
       ],
       "settings": {
         "top_padding": "default",
-        "bottom_padding": "none",
+        "bottom_padding": "large",
         "top-offeset": "none",
         "section_style": "heybike",
         "section_width": false,
@@ -486,7 +486,7 @@
         "title": "Superb Bikes. Superior Service.",
         "subtitle": "Exceeding Expectations with Unparalleled Customer Care",
         "style": "style1",
-        "icon-type": "image",
+        "icon-type": "icon",
         "icons_clr": "#ffffff",
         "isz": 55,
         "tcl": "#ffffff",

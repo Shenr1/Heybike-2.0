@@ -90,7 +90,7 @@
         "1633769564023b4dfb-0": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/lQDPJyFWi8lReALNAZrNAZWwtR7lJhj7e7gEaz5jiAAMAA_405_410.jpg",
+            "image": "shopify:\/\/shop_images\/1_fd20cd87-aff5-41ee-bbf1-f9e6b62bc57d.jpg",
             "layout": "right",
             "title": "Why partner with Heybike?",
             "text": "<p>HeyBike was driven to make “every e-bike for everyone” possible. And we need creative and enterprising partners to help us spread and realize more to the world.     Considering how quickly our bikes catch on via word-of-mouth, making a suitable convert is easy. Free cost and high commissions, why not apply?<\/p>",
@@ -110,7 +110,7 @@
         "3a7419a4-8a61-43ec-b2d7-43113cc5cbdc": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/heybike_Cityscape_review8_cf82010e-4107-4520-8ad7-873ac8970bde.webp",
+            "image": "shopify:\/\/shop_images\/1_01ef5a91-5f99-47ab-ad5c-810775b34443.jpg",
             "layout": "left",
             "title": "Industry-leading commissions",
             "text": "<p>With each successful order, you can get up to 3% commission on the transaction value. Take the EC 1, for example; you can get about $XX in commission when a referral buys the EC 1 through your link!<\/p>",
@@ -130,7 +130,7 @@
         "679037ac-fdf7-4af6-9a62-df6890f32c60": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/our_story.jpg",
+            "image": "shopify:\/\/shop_images\/5.jpg",
             "layout": "right",
             "title": "Promotion made easy",
             "text": "<p>Promote Heybike using your referral link or our pre-made banners, emails, and other materials. Use the resources we've prepared for you to save time and money on content production.<\/p>",
@@ -189,6 +189,7 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/hands-typing-on-laptop.jpg",
+            "bg_img_mb": "shopify:\/\/shop_images\/hands-typing-on-laptop.jpg",
             "text_main": "01: Apply online",
             "text_sub": "Fill out our affiliate application — it's free and only takes two minutes.",
             "img_link": ""
@@ -200,6 +201,7 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/iphone-detects-qr-code.jpg",
+            "bg_img_mb": "shopify:\/\/shop_images\/iphone-detects-qr-code.jpg",
             "text_main": "02: Refer",
             "text_sub": "We can provide you with beautifully designed marketing materials.",
             "img_link": ""
@@ -211,6 +213,7 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/handful-of-cash.jpg",
+            "bg_img_mb": "shopify:\/\/shop_images\/handful-of-cash.jpg",
             "text_main": "03: Get paid",
             "text_sub": "Earn up to 3% commission on each order. ",
             "img_link": ""

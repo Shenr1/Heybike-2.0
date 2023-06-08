@@ -1360,6 +1360,11 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
      object-fit:cover;
 }
 
+.\!object-bottom {
+  -o-object-position:bottom !important;
+     object-position:bottom !important;
+}
+
 .object-left {
   -o-object-position:left;
      object-position:left;
@@ -1788,6 +1793,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   display:block;
 }
 
+[aria-labelledby = 'pi-unionpay'] {
+  display:none;
+}
+
 @media only screen and (max-width:750px){
   html,body {
     font-size:28px
@@ -2175,6 +2184,11 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   .md\:object-fill {
     -o-object-fit:fill;
        object-fit:fill;
+  }
+
+  .md\:object-center {
+    -o-object-position:center;
+       object-position:center;
   }
 
   .md\:p-0 {
