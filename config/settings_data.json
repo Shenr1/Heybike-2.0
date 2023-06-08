@@ -406,7 +406,7 @@
             "type": "menu",
             "settings": {
               "title": "GET HELP",
-              "menulinks": "",
+              "menulinks": "obtenir-de-laide",
               "width": "wd20-md"
             }
           },
