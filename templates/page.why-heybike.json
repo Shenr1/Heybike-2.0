@@ -249,7 +249,7 @@
     "d84ec3b7-47d3-45f8-a150-478d33a6d76e": {
       "type": "featured-blog",
       "settings": {
-        "title": "Customer stories",
+        "title": "Kundengeschichten",
         "subtitle": "",
         "top-offeset": "small",
         "section_cov": true,
@@ -279,8 +279,8 @@
           "type": "text_block",
           "settings": {
             "icons": "at-ship-fast",
-            "title": "Fast Shipping",
-            "text": "<p>Ships to the UK<\/p>",
+            "title": "Schneller Versand",
+            "text": "<p>Schneller und zuverlässiger Versand <\/p>",
             "texturl": ""
           }
         },
@@ -288,8 +288,8 @@
           "type": "text_block",
           "settings": {
             "icons": "at-customer-service",
-            "title": "Fast Support",
-            "text": "<p>Email & Phone Service<\/p>",
+            "title": "Schnelle Unterstützung",
+            "text": "<p>E-Mail- und Telefon-Service<\/p>",
             "texturl": ""
           }
         },
@@ -297,8 +297,8 @@
           "type": "text_block",
           "settings": {
             "icons": "at-chat",
-            "title": "30-Day Trial",
-            "text": "<p>Buy with Confidence<\/p>",
+            "title": "30-Tage-Testversion",
+            "text": "<p>Kaufen Sie mit Zuversicht<\/p>",
             "texturl": ""
           }
         },
@@ -306,8 +306,8 @@
           "type": "text_block",
           "settings": {
             "icons": "at-payment-security",
-            "title": "Secured Payments",
-            "text": "<p>We accept all major credit cards.<\/p>",
+            "title": "Gesicherte Zahlungen",
+            "text": "<p>Wir akzeptieren alle gängigen Kreditkarten.<\/p>",
             "texturl": ""
           }
         }
