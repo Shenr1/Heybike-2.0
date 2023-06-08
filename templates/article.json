@@ -19,10 +19,9 @@
         },
         "2ba1fb83-1b45-493e-8110-40ca2ed8ec8d": {
           "type": "rposts",
-          "disabled": true,
           "settings": {
             "title": "Recent Posts",
-            "count": 5
+            "count": 3
           }
         },
         "d93736f3-6af7-4a55-82fb-1b7116d51b1f": {
