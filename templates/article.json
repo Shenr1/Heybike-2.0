@@ -72,7 +72,7 @@
         "sidebar_position": "left",
         "text_align": "text-left",
         "blogfs": 25,
-        "blogfsm": 18,
+        "blogfsm": 80,
         "blogtf": "font2",
         "blogtw": "fw-600",
         "featured-img": true,
@@ -88,9 +88,27 @@
         "rpauto": false,
         "auto_speed": 5
       }
+    },
+    "81fb93d4-956d-4fed-bedf-92872a2f534f": {
+      "type": "section-space",
+      "settings": {
+        "sdesk": 30,
+        "mdesk": 15,
+        "color_bg": "#fff"
+      }
+    },
+    "141e7fe5-9360-4dae-aa41-9e0d0d432be6": {
+      "type": "section-space",
+      "settings": {
+        "sdesk": 30,
+        "mdesk": 15,
+        "color_bg": "#fff"
+      }
     }
   },
   "order": [
-    "article"
+    "article",
+    "81fb93d4-956d-4fed-bedf-92872a2f534f",
+    "141e7fe5-9360-4dae-aa41-9e0d0d432be6"
   ]
 }
