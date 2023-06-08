@@ -287,7 +287,8 @@
         "top_padding": "none",
         "bottom_padding": "large",
         "bg_color": "#f3f5f9",
-        "title": "Go Green with Heybike"
+        "title": "Go Green with Heybike",
+        "image": "shopify:\/\/shop_images\/40x400.png"
       }
     },
     "9097e021-5397-4a21-8d22-e6f121fbda8f": {
@@ -310,6 +311,7 @@
           "settings": {
             "slide_w": "w-2\/3",
             "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/Heybike-eurobike23.jpg",
             "text_main": "EUROBIKE 2023 is just around the corner!",
             "text_sub": "We look forward to meeting you at the event and discussing mutually beneficial prospects.",
             "img_link": "shopify:\/\/pages\/become-a-dealer"
