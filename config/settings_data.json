@@ -335,7 +335,7 @@
             "type": "dropdown",
             "settings": {
               "title": "Help Center",
-              "url": "#",
+              "url": "shopify:\/\/pages\/contact",
               "mm_linklist": ""
             }
           },
