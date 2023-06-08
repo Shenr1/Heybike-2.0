@@ -7,6 +7,7 @@
     "enable_wishlist": false,
     "wishlist_page": "wishlist",
     "enable_site_animation": false,
+    "rtl": false,
     "enable_search": false,
     "en_searchwords": true,
     "show_product_review": true,
