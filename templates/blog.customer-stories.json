@@ -59,39 +59,6 @@
         "cntbd": "#000000"
       }
     },
-    "ef35ff53-d545-4ee9-b818-2a45c7e97232": {
-      "type": "richtext",
-      "disabled": true,
-      "settings": {
-        "top-offeset": "small",
-        "fullwidth": true,
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa",
-        "max-width": 1050,
-        "title": "Appear In Our Documentary",
-        "tcl": "#000000",
-        "tfs": 26,
-        "tfsm": 20,
-        "tff": "ft1",
-        "tfw": "700",
-        "tlh": 1.2,
-        "richtxt": "<p>As we sincerely hope our electric bikes have brought convenience to your life, we also would like to know the changes in your life Heybike brought you and your unforgettable moment with Heybike. So, we want to hear about the story between you and Heybike e-bike.<\/p><p>Are you, the main character, willing to share your story with the camera? As a reward, we will give you a FREE E-bike after the shooting. Once we make a deal, our director will contact you and communicate the shoot details.<\/p><p><em><strong>*Just so you know, you need to allow us to display your interview content online, including the official website and Heybike-UK social media platform.<\/strong><\/em><\/p>",
-        "cl": "#000000",
-        "fs": 14,
-        "fsm": 13,
-        "lh": 1.6,
-        "btntxt": "",
-        "btnurl": "",
-        "btn-style": "btn",
-        "btntxt1": "",
-        "btnurl1": "",
-        "btn-style2": "btn",
-        "btn-size-desk": "btn-md",
-        "btn-size-mob": "mob-btn-sm",
-        "txt_align": "tl",
-        "text_clr": "#111111"
-      }
-    },
     "b28f4c65-a0b1-471f-a33a-0df055e65768": {
       "type": "richtext",
       "settings": {
@@ -122,6 +89,14 @@
         "btn-size-mob": "mob-btn-sm",
         "txt_align": "tl",
         "text_clr": "#111"
+      }
+    },
+    "bd0b9be7-a40c-4f65-929b-777e50a8d441": {
+      "type": "section-space",
+      "settings": {
+        "sdesk": 30,
+        "mdesk": 15,
+        "color_bg": "#fff"
       }
     },
     "blog": {
@@ -214,6 +189,14 @@
         "show_tags": true
       }
     },
+    "2d033f43-8e72-4296-a519-d05c9467ef11": {
+      "type": "section-space",
+      "settings": {
+        "sdesk": 30,
+        "mdesk": 15,
+        "color_bg": "#fff"
+      }
+    },
     "9016ea7c-c5de-4556-9a98-0317a20a7e7c": {
       "type": "contact-form",
       "settings": {
@@ -228,7 +211,7 @@
         "sec_bg_clr": "#fafafa"
       }
     },
-    "bd0b9be7-a40c-4f65-929b-777e50a8d441": {
+    "fa4081bb-5e70-416a-a3aa-945c018d0d44": {
       "type": "section-space",
       "settings": {
         "sdesk": 30,
@@ -239,10 +222,11 @@
   },
   "order": [
     "e70e32a1-2a0e-4413-95d0-1369256ea0c5",
-    "ef35ff53-d545-4ee9-b818-2a45c7e97232",
     "b28f4c65-a0b1-471f-a33a-0df055e65768",
+    "bd0b9be7-a40c-4f65-929b-777e50a8d441",
     "blog",
+    "2d033f43-8e72-4296-a519-d05c9467ef11",
     "9016ea7c-c5de-4556-9a98-0317a20a7e7c",
-    "bd0b9be7-a40c-4f65-929b-777e50a8d441"
+    "fa4081bb-5e70-416a-a3aa-945c018d0d44"
   ]
 }
