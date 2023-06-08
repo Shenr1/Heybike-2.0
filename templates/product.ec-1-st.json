@@ -70,7 +70,8 @@
           "settings": {
             "title": "Urban Ebike Helmet",
             "price": "6500",
-            "tag": "FREE"
+            "tag": "FREE",
+            "Image": "shopify:\/\/shop_images\/heybike_helmet.webp"
           }
         },
         "ca52189d-109d-45f5-91c5-d195b2c24af3": {
@@ -78,7 +79,8 @@
           "settings": {
             "title": "Bike Rack Pannier Bag",
             "price": "7500",
-            "tag": "FREE"
+            "tag": "FREE",
+            "Image": "shopify:\/\/shop_images\/heybike_pannier_bag.webp"
           }
         },
         "7ff82dc7-abaf-42c2-a8c8-d415a91325d5": {
