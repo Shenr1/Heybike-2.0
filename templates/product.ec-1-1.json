@@ -706,7 +706,7 @@
           "type": "imgTxtList",
           "settings": {
             "title": "Geometry",
-            "image": "shopify:\/\/shop_images\/A5CF3E54-F3E3-4c46-B1C8-8CB1281D4939.png",
+            "image": "shopify:\/\/shop_images\/630x800_fb915bd6-8a7d-4397-84c6-e3eb7f873bf1.jpg",
             "th": ",Size(in),L",
             "td": "Total Length-72.45<br>Chaint Stay Length-17.96<br>Top Tube Length\n-21.62<br>Head Tube Length-10.86<br>Wheelbase-44.30<br>Wheel Diameter-28.07<br>Handlebar Height\n-43.40<br>Stand Height\n-14.63<br>Maximum Seat Height\n-8.66<br>Minimum Seat Height\n-19.04<br>Minimum Seat to Floor\n-38.02<br>"
           }
@@ -732,7 +732,7 @@
         "a1291fa1-d564-4ec3-a6ce-51e0bf8a956c": {
           "type": "video",
           "settings": {
-            "slide_w": "w-1\/3",
+            "slide_w": "w-2\/3",
             "bg_color": "",
             "video_url": "https:\/\/www.youtube.com\/watch?v=aqUZWdzBEoQ",
             "text_main": "",
@@ -742,7 +742,7 @@
         "033d0f0f-4ee3-4457-87a7-add32b86ed90": {
           "type": "video",
           "settings": {
-            "slide_w": "w-1\/3",
+            "slide_w": "w-2\/3",
             "bg_color": "",
             "video_url": "https:\/\/www.youtube.com\/watch?v=EejV1lDYDnI",
             "text_main": "",
@@ -752,7 +752,7 @@
         "061ccc1b-95bb-4147-bfcd-d264635cfafb": {
           "type": "video",
           "settings": {
-            "slide_w": "w-1\/3",
+            "slide_w": "w-2\/3",
             "bg_color": "",
             "video_url": "https:\/\/www.youtube.com\/watch?v=xTCRU3mP1e4&list=PLY2mr2usEhKFruo7hTcclMWxJFgQ6E4WA",
             "text_main": "",
@@ -762,7 +762,7 @@
         "bfd3caac-3459-4b88-a706-8828f77c6c8a": {
           "type": "video",
           "settings": {
-            "slide_w": "w-1\/3",
+            "slide_w": "w-2\/3",
             "bg_color": "",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_YVxfTO10Eo",
             "text_main": "",
@@ -772,7 +772,7 @@
         "3dac81aa-ed07-4ff0-81c6-811683d0d6b2": {
           "type": "video",
           "settings": {
-            "slide_w": "w-1\/3",
+            "slide_w": "w-2\/3",
             "bg_color": "",
             "video_url": "https:\/\/www.youtube.com\/watch?v=9UgCYLNXM3w",
             "text_main": "",
@@ -782,7 +782,7 @@
         "c32ea110-615b-422e-9bdc-4995bc8c9b78": {
           "type": "video",
           "settings": {
-            "slide_w": "w-1\/3",
+            "slide_w": "w-2\/3",
             "bg_color": "",
             "video_url": "https:\/\/www.youtube.com\/watch?v=1F-nPjs-tqs",
             "text_main": "",
@@ -792,7 +792,7 @@
         "1164f111-84a9-41fe-b66e-466d31a87b9b": {
           "type": "video",
           "settings": {
-            "slide_w": "w-1\/3",
+            "slide_w": "w-2\/3",
             "bg_color": "",
             "video_url": "https:\/\/www.youtube.com\/watch?v=ZY8hAbtu4d8",
             "text_main": "",
@@ -802,7 +802,7 @@
         "13baa40f-fa01-44db-8cf4-d0d220d60d67": {
           "type": "video",
           "settings": {
-            "slide_w": "w-1\/3",
+            "slide_w": "w-2\/3",
             "bg_color": "",
             "video_url": "https:\/\/www.youtube.com\/watch?v=rm2q-c78I3k",
             "text_main": "",
@@ -928,8 +928,8 @@
         ".sec-ttl .h3,div.sec-ttl p {color: #fff;}"
       ],
       "settings": {
-        "top_padding": "medium",
-        "bottom_padding": "small",
+        "top_padding": "large",
+        "bottom_padding": "extraLarge",
         "top-offeset": "none",
         "section_style": "heybike",
         "section_width": false,

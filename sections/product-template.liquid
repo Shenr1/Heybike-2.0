@@ -176,12 +176,12 @@
         {%  when 'hr' %}
             <hr class="mt0 mb{{blkSt.bm}}" style="border-color: {{blkSt.hrc}}" {{ block.shopify_attributes }} /> 
         {%  when 'title' %}
-            <h1 class="product-single__title ttlTxt {{blkSt.transform}} mb{{blkSt.bm}}" style="--tcl:{{blkSt.cl}};--tfs:{{blkSt.fs}}px;--tfsm:{{blkSt.fsm}}px;--tff:var(--{{blkSt.ff}});--tfw:{{blkSt.fw}};--tlh:1.4;" {{ block.shopify_attributes }}>{{ product.title }}</h1>
+            <h1 class="product-single__title ttlTxt {{blkSt.transform}} mb{{blkSt.bm}}" style="--tcl:{{blkSt.cl}};--tfs:{{blkSt.fs}}px;--tfsm:{{blkSt.fsm | divided_by: 100.0 }}rem;--tff:var(--{{blkSt.ff}});--tfw:{{blkSt.fw}};--tlh:1.4;" {{ block.shopify_attributes }}>{{ product.title }}</h1>
 	   		<p class="text-lg border-solid border-0 border-b border-black-300 pb-4">Aviation grade magnesium alloy</p>
 	    {%  when 'price' %}
-            {%- if product.metafields.custom.product_group != blank -%}<style>.priceSingle{--pcl:{{blkSt.pcl}};--pcls:{{blkSt.pcls}};--fs:{{blkSt.fs}}px; --fsm:{{blkSt.fsm}}px;--pfw:{{ blkSt.pfw}};}</style>{%- endif -%}
+            {%- if product.metafields.custom.product_group != blank -%}<style>.priceSingle{--pcl:{{blkSt.pcl}};--pcls:{{blkSt.pcls}};--fs:{{blkSt.fs}}px; --fsm:{{blkSt.fsm | divided_by: 100.0 }}rem;--pfw:{{ blkSt.pfw}};}</style>{%- endif -%}
             {%- unless settings.hide-price or product.metafields.custom.product_group != blank -%}
-              <div id="price{{ section.id }}" class="fl f-wrap psinglePriceWr mb{{blkSt.bm}}" style="--pcl:{{blkSt.pcl}};--pcls:{{blkSt.pcls}};--fs:{{blkSt.fs}}px; --fsm:{{blkSt.fsm}}px;--pfw:{{ blkSt.pfw}};" {{ block.shopify_attributes }}>
+              <div id="price{{ section.id }}" class="fl f-wrap psinglePriceWr mb{{blkSt.bm}}" style="--pcl:{{blkSt.pcl}};--pcls:{{blkSt.pcls}};--fs:{{blkSt.fs}}px; --fsm:{{blkSt.fsm | divided_by: 100.0 }}rem;--pfw:{{ blkSt.pfw}};" {{ block.shopify_attributes }}>
                   {% if current_variant.compare_at_price > current_variant.price %}
                       <span class="v-hidden">{{ 'products.product.regular_price' | t }}</span>
                       <span class="psinglePrice sale"><span id="ProductPrice-{{ section.id }}">{{ current_variant.price | money }}</span></span>
@@ -913,14 +913,14 @@
           "default": 22
         },
         {
-          "type": "range",
-          "id": "fsm",
-          "min": 10,
-          "max": 60,
-          "step": 1,
-          "label": "Font Size(mobile)",
-          "unit": "px",
-          "default": 18
+            "type": "range",
+            "id": "fsm",
+            "label": "Font Size (mobile)",
+            "default": 85,
+            "min": 50,
+            "max": 300,
+            "step": 5,
+            "unit": "%"
         },
         {
           "type": "select",
@@ -1034,14 +1034,14 @@
           "default": 25
         },
         {
-          "type": "range",
-          "id": "fsm",
-          "min": 10,
-          "max": 60,
-          "step": 1,
-          "label": "Font Size(mobile)",
-          "unit": "px",
-          "default": 16
+            "type": "range",
+            "id": "fsm",
+            "label": "Font Size (mobile)",
+            "default": 85,
+            "min": 50,
+            "max": 300,
+            "step": 5,
+            "unit": "%"
         },
         {
           "type": "select",
@@ -1814,14 +1814,14 @@
           "default": 22
         },
         {
-          "type": "range",
-          "id": "fsm",
-          "min": 10,
-          "max": 60,
-          "step": 1,
-          "label": "Font Size(mobile)",
-          "unit": "px",
-          "default": 16
+            "type": "range",
+            "id": "fsm",
+            "label": "Font Size (mobile)",
+            "default": 85,
+            "min": 50,
+            "max": 300,
+            "step": 5,
+            "unit": "%"
         },
         {
           "type": "select",
@@ -1935,14 +1935,14 @@
           "default": 16
         },
         {
-          "type": "range",
-          "id": "fsm",
-          "min": 10,
-          "max": 60,
-          "step": 1,
-          "label": "Font Size(mobile)",
-          "unit": "px",
-          "default": 16
+            "type": "range",
+            "id": "fsm",
+            "label": "Font Size (mobile)",
+            "default": 85,
+            "min": 50,
+            "max": 300,
+            "step": 5,
+            "unit": "%"
         },
         {
           "type": "select",

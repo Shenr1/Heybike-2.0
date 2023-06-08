@@ -36,7 +36,7 @@
         <div class="{% unless hbStyle %}fl1{% endunless %}{% if hbStyle %}md:w-2/5 md:mb-8 mb-0 md:mt-0 mt-10{% endif %} feature-row__text {{ blkSt.layout }} wow{% if blkSt.layout == 'right' %} fadeInLeft{% else %} fadeInRight{% endif %}" data-wow-delay="{{delay_time}}ms">
           <div class="row-text md:{{blkSt.text_align}} {% if hbStyle %}md:text-center !m-0 !p-0{% endif %}">
             {% if blkSt.title != blank %}
-              <h3 class="{% if hbStyle %}md:text-4_5xl text-2_5xl{% endif %} ttlTxt mb{{secSt.tmbm}} mb{{secSt.tmb}}-md" style="--tcl:{{blkSt.tcl}};--tfs:{{secSt.tfs}}px;--tff:var(--{{secSt.tff}});--tfw:{{secSt.tfw}};--tlh:{{secSt.tlh}};">{{ blkSt.title }}</h3>
+              <h3 class="{% if hbStyle %}md:!text-4_5xl !text-2_5xl{% endif %} ttlTxt mb{{secSt.tmbm}} mb{{secSt.tmb}}-md" style="--tcl:{{blkSt.tcl}};--tfs:{{secSt.tfs}}px;--tff:var(--{{secSt.tff}});--tfw:{{secSt.tfw}};--tlh:{{secSt.tlh}};">{{ blkSt.title }}</h3>
             {% endif %}
             {% if blkSt.text != blank %}
               <div class="{% if hbStyle %}md:text-xl{% endif %} rgTxt rte featured-row__subtext mb{{secSt.mbm}} mb{{secSt.mb}}-md" style="--cl:{{blkSt.cl}};--fs:{{secSt.fs}}px;--fw:{{secSt.fw}};--lh:{{secSt.lh}};">
@@ -244,11 +244,11 @@
         "type": "range",
         "id": "tfsm",
         "label": "Font Size (mobile)",
-        "default": 22,
-        "min": 10,
-        "max": 60,
-        "step": 1,
-        "unit": "px"
+        "default": 100,
+        "min": 50,
+        "max": 300,
+        "step": 5,
+        "unit": "%"
     },
     {
         "type": "select",
@@ -346,11 +346,11 @@
             "type": "range",
             "id": "fsm",
             "label": "Font Size (mobile)",
-            "default": 12,
-            "min": 10,
-            "max": 60,
-            "step": 1,
-            "unit": "px"
+            "default": 85,
+            "min": 50,
+            "max": 300,
+            "step": 5,
+            "unit": "%"
         },
         {
             "type": "select",

@@ -63,7 +63,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
     .notification-bar__message,
     #newsletter-modal .checkboxlink,
     #newsletter-modal p.sub-text{@apply !text-xs}
-    .footer-top a{@apply !text-[26px]}
+    .footer-top a{@apply !text-[.925rem]}
     #MobileNav li a,
     .closemmn .at,
     .site-footer,
@@ -71,6 +71,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
     input, textarea, select{@apply !text-base}
     #newsletter-modal h2,
     .footer-links .h4:before,
+    h3,
     #newsletter-modal .mfp-close{@apply !text-lg}
     .site-header{@apply h-[4.65rem]}
     .site-header a.hdicon .at{@apply text-2xl leading-none}
@@ -115,6 +116,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
         :root{
             --fs:'28px';
             --fsm:'24px';
+            --qfsm:'.75rem'
         }
     }
 }

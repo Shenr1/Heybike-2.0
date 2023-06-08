@@ -184,6 +184,7 @@
     },
     "9016ea7c-c5de-4556-9a98-0317a20a7e7c": {
       "type": "contact-form",
+      "disabled": true,
       "settings": {
         "layout": "2",
         "page_Width": 700,
@@ -195,12 +196,39 @@
         "section_cov": false,
         "sec_bg_clr": "#fafafa"
       }
+    },
+    "00e59093-42f7-4505-a259-c1c7e7729683": {
+      "type": "section-space",
+      "settings": {
+        "sdesk": 30,
+        "mdesk": 15,
+        "color_bg": "#fff"
+      }
+    },
+    "cfa54328-2754-4478-88d9-4ca1934c18e2": {
+      "type": "section-space",
+      "settings": {
+        "sdesk": 30,
+        "mdesk": 15,
+        "color_bg": "#fff"
+      }
+    },
+    "5759fcc7-b848-49dc-a8c2-55490c88b5a3": {
+      "type": "section-space",
+      "settings": {
+        "sdesk": 30,
+        "mdesk": 15,
+        "color_bg": "#fff"
+      }
     }
   },
   "order": [
     "e70e32a1-2a0e-4413-95d0-1369256ea0c5",
     "ef35ff53-d545-4ee9-b818-2a45c7e97232",
     "blog",
-    "9016ea7c-c5de-4556-9a98-0317a20a7e7c"
+    "9016ea7c-c5de-4556-9a98-0317a20a7e7c",
+    "00e59093-42f7-4505-a259-c1c7e7729683",
+    "cfa54328-2754-4478-88d9-4ca1934c18e2",
+    "5759fcc7-b848-49dc-a8c2-55490c88b5a3"
   ]
 }

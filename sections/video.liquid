@@ -2,7 +2,7 @@
 <div class="content-indent{% if secSt.hide_mobile %} hide-sm{% endif %} {{ secSt.top-offeset}} wow fadeIn {% render 'section-interva-set' , secSt:secSt %}">
   <div class="wow fadeIn {{secSt.style}}{% unless secSt.section_width %} page-width{% else %} fullwidth npd{% endunless %}" {% if secSt.section_width %}style="--spd:{{ secSt.pad-desk}}px;--spdt:{{ secSt.pad-ipad}}px;--spdm:{{ secSt.pad-mbl}}px;"{% endif %}>  
   	
-   <div class="video-sec{% if secSt.rounded %} md:rounded-section rounded-4xl overflow-hidden{% endif %} {% if secSt.snow_effect %} falling-snow{% endif %}{% if secSt.snow_style == "style2" %} style2{% else %} style1{% endif %}" style="--fs:{{secSt.tfs}}px;--fsm:{{secSt.tfsm}}px;">   
+   <div class="video-sec{% if secSt.rounded %} md:rounded-section rounded-4xl overflow-hidden{% endif %} {% if secSt.snow_effect %} falling-snow{% endif %}{% if secSt.snow_style == "style2" %} style2{% else %} style1{% endif %}" style="--fs:{{secSt.tfs}}px;--fsm:{{secSt.tfsm | divided_by: 100.0 }}rem;">   
       {% if secSt.video_url == blank and secSt.mp4url == blank	%}
       	<div class="video-wrapper">
           <iframe src="//www.youtube.com/embed/_9VUPq3SxOc?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
@@ -239,14 +239,14 @@
         "unit": "px"
       },
       {
-        "type": "range",
-        "id": "tfsm",
-        "label": "Font Size (mobile)",
-        "default": 12,
-        "min": 10,
-        "max": 60,
-        "step": 1,
-        "unit": "px"
+          "type": "range",
+          "id": "tfsm",
+          "label": "Font Size (mobile)",
+          "default": 100,
+          "min": 50,
+          "max": 300,
+          "step": 5,
+          "unit": "%"
       },
       {
         "type": "checkbox",

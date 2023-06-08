@@ -7,14 +7,14 @@
      style="background-color:{{secSt.sec_bg_clr}};"> {% endif%}
       <div class="{% unless section.settings.section_width %}page-width{% else %}fullwidth{% endunless %} wow fadeIn">          
       
-      <section {% if hbStyle %}tag-name="features-header"{% endif %} class="{% if hbStyle %}md:mb-20 mb-8 {% endif %}">
+      <section {% if hbStyle %}tag-name="features-header"{% endif %} class="{% if hbStyle %}md:mb-20 mb-4 {% endif %}">
         {% render 'sec-title' %}
       </section>
 
 
-        <ul {% if hbStyle %}tag-name="features-ul"{% endif %} class="md:bg-transparent rounded-4xl md:h-auto h-[90vw] md:pt-0 pt-16 bg-black-800 store-info fl f-jcsb sec{{section.id}} {{ secSt.style}}"
+        <ul {% if hbStyle %}tag-name="features-ul"{% endif %} class="md:bg-transparent rounded-4xl md:h-auto h-[90vw] md:pt-0 pt-14 bg-black-800 store-info fl f-jcsb sec{{section.id}} {{ secSt.style}}"
             data-flickity='{"pageDots": true, "prevNextButtons": false, "wrapAround":true, "watchCSS":true }' flickity-screen='mobile'
-            style="--cl:{{secSt.cl}};--tcl:{{secSt.tcl}};--tfs:{{secSt.tfs}}px;--tsm:{{secSt.tfsm}}px;--tff:var(--ft1);--tfw:{{secSt.tfw}};--lh:{{secSt.tlh}};
+            style="--cl:{{secSt.cl}};--tcl:{{secSt.tcl}};--tfs:{{secSt.tfs}}px;--tsm:{{secSt.tfsm | divided_by: 100.0 }}rem;--tff:var(--ft1);--tfw:{{secSt.tfw}};--lh:{{secSt.tlh}};
                     --icl:{{secSt.icons_clr}};--isz:{{secSt.isz}}px;--bd:{{secSt.border_sep}}">
             {% for block in section.blocks limit: section.blocks.size %}
             {%- assign blkSt = block.settings -%}
@@ -263,14 +263,14 @@
       "unit": "px"
     },
     {
-      "type": "range",
-      "id": "tfsm",
-      "label": "Font Size (mobile)",
-      "default": 12,
-      "min": 10,
-      "max": 60,
-      "step": 1,
-      "unit": "px"
+        "type": "range",
+        "id": "tfsm",
+        "label": "Font Size (mobile)",
+        "default": 100,
+        "min": 50,
+        "max": 300,
+        "step": 5,
+        "unit": "%"
     },
     {
       "type": "select",

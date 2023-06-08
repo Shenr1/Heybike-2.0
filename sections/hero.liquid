@@ -24,10 +24,10 @@
               {% if secSt.pretext != blank or secSt.title != blank or secSt.text != blank %}
               <div class="wrap-text {{secSt.textalign}}{% if secSt.isbox %} bx{% endif %}"{% if secSt.isbox %} style="--bg:{{secSt.bg | color_modify: 'alpha', secSt.opt}};--bdr:{{secSt.bdr}}px;"{% endif %}>
                 {% if secSt.pretext != blank %}
-                  <p class="rgTxt {{secSt.pff}} mb{{secSt.pmbm}} mb{{secSt.pmb}}-md" style="--cl:{{secSt.pcl}};--fs:{{secSt.pfs}}px;--fsm:{{secSt.pfsm}}px;--fw:{{secSt.pfw}};--lh:{{secSt.plh}};">{{ secSt.pretext }}</p>
+                  <p class="rgTxt {{secSt.pff}} mb{{secSt.pmbm}} mb{{secSt.pmb}}-md" style="--cl:{{secSt.pcl}};--fs:{{secSt.pfs}}px;--fsm:{{secSt.pfsm | divided_by: 100.0 }}rem;--fw:{{secSt.pfw}};--lh:{{secSt.plh}};">{{ secSt.pretext }}</p>
                 {% endif %}
                 {% if secSt.title != blank %}
-                  <h2 class="ttlTxt mega-title mb{{secSt.tmbm}} mb{{secSt.tmb}}-md" style="--tcl:{{secSt.tcl}};--tfs:{{secSt.tfs}}px;--tfsm:{{secSt.tfsm}}px;--tff:var(--{{secSt.tff}});--tfw:{{secSt.tfw}};--tlh:{{secSt.tlh}};">{{ secSt.title }}</h2>
+                  <h2 class="ttlTxt mega-title mb{{secSt.tmbm}} mb{{secSt.tmb}}-md" style="--tcl:{{secSt.tcl}};--tfs:{{secSt.tfs}}px;--tfsm:{{secSt.tfsm | divided_by: 100.0 }}rem;--tff:var(--{{secSt.tff}});--tfw:{{secSt.tfw}};--tlh:{{secSt.tlh}};">{{ secSt.title }}</h2>
                 {% endif %}
                 {% if secSt.hero_dealtimer %}
                       <div class="heroSaleTime atCounter tc desktop" data-date="{{secSt.cnt_date}}" style="--cl:{{secSt.cntcl}};--bg:{{secSt.cntbg}};--bd:{{secSt.cntbd}};">
@@ -35,7 +35,7 @@
                       </div>
                 {% endif %}
                 {% if secSt.text != blank %}
-                  <div class="rgTxt rte-setting mega-subtitle mb{{secSt.mbm}} mb{{secSt.mb}}-md" style="--cl:{{secSt.cl}};--fs:{{secSt.fs}}px;--fsm:{{secSt.fsm}}px;--fw:{{secSt.fw}};--lh:{{secSt.lh}};">{{ secSt.text }}</div>
+                  <div class="rgTxt rte-setting mega-subtitle mb{{secSt.mbm}} mb{{secSt.mb}}-md" style="--cl:{{secSt.cl}};--fs:{{secSt.fs}}px;--fsm:{{secSt.fsm | divided_by: 100.0 }}rem;--fw:{{secSt.fw}};--lh:{{secSt.lh}};">{{ secSt.text }}</div>
                 {% endif %}
                 {% if secSt.button_label != blank and secSt.button_link != blank %}
                     {% if secSt.link_image %}
@@ -191,11 +191,11 @@
             "type": "range",
             "id": "pfsm",
             "label": "Font Size (mobile)",
-            "default": 13,
-            "min": 10,
-            "max": 60,
-            "step": 1,
-            "unit": "px"
+            "default": 85,
+            "min": 50,
+            "max": 300,
+            "step": 5,
+            "unit": "%"
         },
         {
             "type": "select",
@@ -301,11 +301,11 @@
             "type": "range",
             "id": "tfsm",
             "label": "Font Size (mobile)",
-            "default": 20,
-            "min": 10,
-            "max": 60,
-            "step": 1,
-            "unit": "px"
+            "default": 100,
+            "min": 50,
+            "max": 300,
+            "step": 5,
+            "unit": "%"
         },
         {
             "type": "select",
@@ -411,11 +411,11 @@
             "type": "range",
             "id": "fsm",
             "label": "Font Size (mobile)",
-            "default": 14,
-            "min": 10,
-            "max": 60,
-            "step": 1,
-            "unit": "px"
+            "default": 85,
+            "min": 50,
+            "max": 300,
+            "step": 5,
+            "unit": "%"
         },
         {
             "type": "select",

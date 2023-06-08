@@ -4,8 +4,8 @@
   <div class="page-width" style="max-width:{{section.settings.max-width}}px;">
 	{% render 'sec-title' %}
     <div class="faq-{{section.settings.pagestyle}}">
-      <div id="{{section.id}}" class="faqList" style="--tcl:{{secSt.tcl}};--tfs:{{secSt.tfs}}px;--tfsm:{{secSt.tfsm}}px;--tff:var(--{{secSt.tff}});--tfw:{{secSt.tfw}};--tbg:{{secSt.tbg}};
-            --qcl:{{secSt.qcl}};--qfs:{{secSt.qfs}}px;--qfsm:{{secSt.qfsm}}px;--qfw:{{secSt.qfw}};">
+      <div id="{{section.id}}" class="faqList" style="--tcl:{{secSt.tcl}};--tfs:{{secSt.tfs}}px;--tfsm:{{secSt.tfsm | divided_by: 100.0 }}rem;--tff:var(--{{secSt.tff}});--tfw:{{secSt.tfw}};--tbg:{{secSt.tbg}};
+            --qcl:{{secSt.qcl}};--qfs:{{secSt.qfs}}px;--qfsm:{{secSt.qfsm | divided_by: 100.0 }}rem;--qfw:{{secSt.qfw}};">
         {% for block in section.blocks limit: section.blocks.size%}                 
 			{% if block.type == 'faqsection' and block.settings.sectiontitle != blank %}<h3 class="ttlTxt">{{block.settings.sectiontitle}}</h3>{% endif %}
 			{% if block.type == 'faqs' %}
@@ -119,16 +119,16 @@
                     "step": 1,
                     "unit": "px"
                 },
-                {
-                    "type": "range",
-                    "id": "tfsm",
-                    "label": "Font Size (mobile)",
-                    "default": 18,
-                    "min": 10,
-                    "max": 60,
-                    "step": 1,
-                    "unit": "px"
-                },
+				{
+					"type": "range",
+					"id": "tfsm",
+					"label": "Font Size (mobile)",
+					"default": 100,
+					"min": 50,
+					"max": 300,
+					"step": 5,
+					"unit": "%"
+				},
                 {
                     "type": "select",
                     "id": "tff",
@@ -196,17 +196,17 @@
                     "max": 100,
                     "step": 1,
                     "unit": "px"
-                },
-                {
-                    "type": "range",
-                    "id": "qfsm",
-                    "label": "Font Size (mobile)",
-                    "default": 14,
-                    "min": 10,
-                    "max": 60,
-                    "step": 1,
-                    "unit": "px"
-                },
+                }
+				{
+					"type": "range",
+					"id": "qfsm",
+					"label": "Font Size (mobile)",
+					"default": 85,
+					"min": 50,
+					"max": 300,
+					"step": 5,
+					"unit": "%"
+				},
                 {
                     "type": "select",
                     "id": "qfw",
