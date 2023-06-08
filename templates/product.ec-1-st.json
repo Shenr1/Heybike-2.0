@@ -675,7 +675,8 @@
         "8c62a64d-13dd-4e76-830e-bf631cb4d864": {
           "type": "image",
           "settings": {
-            "title": "E-bike Box"
+            "title": "E-bike Box",
+            "url_pc": "shopify:\/\/shop_images\/1280x500.jpg"
           }
         },
         "e7514e3b-0b1e-49db-a19a-d7074c9543c2": {
@@ -702,6 +703,7 @@
           "type": "imgTxtList",
           "settings": {
             "title": "Geometry",
+            "image": "shopify:\/\/shop_images\/630x800.jpg",
             "th": ",Description,SIZE(in)",
             "td": "Total Length-72.34<br>Chaint Stay Length-17.95<br>Top Tube Length\n-21.68<br>Head Tube Length-11.78<br>Wheelbase-44.29<br>Wheel Diameter-28.09<br>Handlebar Height\n-44.26<br>Stand Height\n-17.53<br>Maximum Seat Height\n-8.66<br>Minimum Seat Height\n-16.14<br>Minimum Seat to Floor\n-36.15<br>"
           }
