@@ -34,7 +34,7 @@
         "tb_height": 350,
         "mb_height": 250,
         "parallax_scroll": false,
-        "image": "shopify:\/\/shop_images\/lQLPJx-0LdzE9sLNAZDNBQCwN3lCSGMfQS0Eaz3PIoALAQ_1280_400.png",
+        "image": "shopify:\/\/shop_images\/Cityrun.jpg",
         "alignment": "center",
         "pretext": "",
         "pcl": "#333333",
@@ -125,14 +125,14 @@
         "sec_bg_clr": "#fafafa",
         "max-width": 1180,
         "title": "Below is an example made by Modern Canine:",
-        "tcl": "#000",
+        "tcl": "#000000",
         "tfs": 26,
         "tfsm": 100,
         "tff": "ft1",
         "tfw": "700",
         "tlh": 1.2,
         "richtxt": "",
-        "cl": "#000",
+        "cl": "#000000",
         "fs": 14,
         "fsm": 75,
         "lh": 1.6,
@@ -145,13 +145,15 @@
         "btn-size-desk": "btn-md",
         "btn-size-mob": "mob-btn-sm",
         "txt_align": "tl",
-        "text_clr": "#111"
+        "text_clr": "#111111"
       }
     },
     "d5f9b85b-4528-443a-a4e0-d59191733b41": {
       "type": "video",
       "settings": {
         "top-offeset": "small",
+        "top_padding": "none",
+        "bottom_padding": "large",
         "section_width": false,
         "rounded": true,
         "hide_mobile": false,

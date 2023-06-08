@@ -5,11 +5,11 @@
       "settings": {
         "top-offeset": "default",
         "section_width": false,
-        "ds_height": 280,
+        "ds_height": 320,
         "tb_height": 350,
         "mb_height": 250,
         "parallax_scroll": false,
-        "image": "shopify:\/\/shop_images\/out-stor_banner_1728x_9577e598-d4ce-4dc7-93f1-d1281c38e894.webp",
+        "image": "shopify:\/\/shop_images\/11.jpg",
         "alignment": "center",
         "pretext": "",
         "pcl": "#333333",
@@ -186,7 +186,7 @@
       "settings": {
         "sdesk": 30,
         "mdesk": 15,
-        "color_bg": "#fff"
+        "color_bg": "#ffffff"
       }
     },
     "0a640d08-44e0-4c24-889f-cf8936ecdd39": {
@@ -194,7 +194,7 @@
       "settings": {
         "sdesk": 30,
         "mdesk": 15,
-        "color_bg": "#fff"
+        "color_bg": "#ffffff"
       }
     },
     "fc12e1eb-21dd-4c5d-82c6-5d6c2630b749": {
@@ -202,7 +202,7 @@
       "settings": {
         "sdesk": 30,
         "mdesk": 15,
-        "color_bg": "#fff"
+        "color_bg": "#ffffff"
       }
     },
     "9016ea7c-c5de-4556-9a98-0317a20a7e7c": {
@@ -224,7 +224,7 @@
       "settings": {
         "sdesk": 30,
         "mdesk": 15,
-        "color_bg": "#fff"
+        "color_bg": "#ffffff"
       }
     }
   },
