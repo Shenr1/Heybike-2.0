@@ -107,7 +107,7 @@
         "tff": "ft1",
         "tfw": "700",
         "tlh": 1.2,
-        "richtxt": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.<\/p>",
+        "richtxt": "<p>Nous espérons sincèrement que nos vélos électriques ont amélioré votre vie, mais nous aimerions également connaître les changements que Heybike a apportés dans votre vie et les moments inoubliables que vous avez vécus avec Heybike. Nous souhaitons donc connaître l'histoire entre vous et le vélo électrique Heybike.<br\/><br\/>Êtes-vous prêt, en tant que personnage principal, à partager votre histoire avec la caméra ? En guise de récompense, nous vous offrirons un vélo électrique GRATUIT après le tournage. Une fois l'accord conclu, notre réalisateur vous contactera et vous communiquera les détails du tournage.<br\/><br\/><strong>*Pour votre information, vous devez nous autoriser à diffuser le contenu de votre interview en ligne, y compris sur le site web officiel et sur la plateforme de médias sociaux Heybike.<\/strong><\/p>",
         "cl": "#000",
         "fs": 14,
         "fsm": 13,
@@ -219,13 +219,21 @@
       "settings": {
         "layout": "2",
         "page_Width": 700,
-        "title": "Contact Us",
+        "title": "Nous nous réjouissons de votre participation !",
         "subtitle": "",
         "show_phone": false,
         "show_subject": false,
         "top-offeset": "small",
         "section_cov": false,
         "sec_bg_clr": "#fafafa"
+      }
+    },
+    "bd0b9be7-a40c-4f65-929b-777e50a8d441": {
+      "type": "section-space",
+      "settings": {
+        "sdesk": 30,
+        "mdesk": 15,
+        "color_bg": "#fff"
       }
     }
   },
@@ -234,6 +242,7 @@
     "ef35ff53-d545-4ee9-b818-2a45c7e97232",
     "b28f4c65-a0b1-471f-a33a-0df055e65768",
     "blog",
-    "9016ea7c-c5de-4556-9a98-0317a20a7e7c"
+    "9016ea7c-c5de-4556-9a98-0317a20a7e7c",
+    "bd0b9be7-a40c-4f65-929b-777e50a8d441"
   ]
 }
