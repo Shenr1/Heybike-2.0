@@ -48,7 +48,7 @@
         "show_collection_name": true,
         "tcl": "#333333",
         "tfs": 20,
-        "tfsm": 20,
+        "tfsm": 100,
         "tff": "ft2",
         "tfw": "600",
         "tlh": 1,
