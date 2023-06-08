@@ -239,8 +239,8 @@
         "3699aca2-c188-4a68-a2f5-9e0835180a39"
       ],
       "settings": {
-        "top_padding": "small",
-        "bottom_padding": "small",
+        "top_padding": "none",
+        "bottom_padding": "none",
         "style": "style1",
         "bg_color": "",
         "text_color": "#000000"
@@ -251,18 +251,18 @@
       "settings": {
         "title": "Customer stories",
         "subtitle": "",
-        "top-offeset": "default",
+        "top-offeset": "small",
         "section_cov": true,
         "sec_bg_clr": "#fafafa",
         "blog": "kundengeschichten",
-        "img_ratio": "40",
-        "post_limit": 8,
+        "img_ratio": "60",
+        "post_limit": 7,
         "grid": 3,
         "tablet-grid": 2,
         "mobile-grid": 1,
         "blog_align": "tc",
         "blog_show_author": false,
-        "blog_show_date": true,
+        "blog_show_date": false,
         "show_comment": true,
         "show_mini_des": true,
         "show_read_more": true,
