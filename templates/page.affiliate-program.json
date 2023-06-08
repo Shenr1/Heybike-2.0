@@ -136,7 +136,7 @@
             "text": "<p>Bewerben Sie Heybike mit Ihrem Empfehlungslink oder unseren vorgefertigten Bannern, E-Mails und anderen Materialien. Nutzen Sie die Ressourcen, die wir für Sie vorbereitet haben, um Zeit und Geld bei der Erstellung von Inhalten zu sparen.<\/p>",
             "logo_url": "",
             "logo_url2": "",
-            "button_label": "Apply Now",
+            "button_label": "Jetzt bewerben",
             "button_link": "\/",
             "text_align": "text-left",
             "tcl": "#000000",
@@ -189,8 +189,8 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/hands-typing-on-laptop.jpg",
-            "text_main": "01: Apply online",
-            "text_sub": "Fill out our affiliate application — it's free and only takes two minutes.",
+            "text_main": "01: Online bewerben",
+            "text_sub": "Füllen Sie unseren Partnerantrag aus - er ist kostenlos und dauert nur zwei Minuten.",
             "img_link": ""
           }
         },
@@ -200,8 +200,8 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/iphone-detects-qr-code.jpg",
-            "text_main": "02: Refer",
-            "text_sub": "We can provide you with beautifully designed marketing materials.",
+            "text_main": "02: Referat",
+            "text_sub": "Wir können Ihnen schön gestaltete Marketingmaterialien zur Verfügung stellen.",
             "img_link": ""
           }
         },
@@ -211,8 +211,8 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/handful-of-cash.jpg",
-            "text_main": "03: Get paid",
-            "text_sub": "Earn up to 3% commission on each order. ",
+            "text_main": "03: Bezahlt werden",
+            "text_sub": "Verdienen Sie bis zu 3% Provision für jede Bestellung. ",
             "img_link": ""
           }
         },
@@ -237,7 +237,7 @@
       "settings": {
         "top_padding": "medium",
         "bottom_padding": "medium",
-        "title": "Get started today",
+        "title": "Beginnen Sie noch heute",
         "layout": "imgText",
         "enable_slider": false,
         "bottom_line": false
