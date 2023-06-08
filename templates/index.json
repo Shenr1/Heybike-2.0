@@ -213,21 +213,24 @@
           "type": "slide",
           "settings": {
             "text_main": "\"The Heybike Cityrun stands out for safety and security features, and even has a place to put your water bottle. It's the perfect e-bike for commuting.\"",
-            "text_sub": "- ZDNET"
+            "text_sub": "- ZDNET",
+            "logo_image": "shopify:\/\/shop_images\/ZDNet-logo-347F1C3C61-seeklogo.com.png"
           }
         },
         "707889c1-1ed2-47d6-b2ea-e60f9ad69530": {
           "type": "slide",
           "settings": {
             "text_main": "\"The Brawn from Heybike is a motorcycle inspired off-road beast.\"",
-            "text_sub": "- electrifiedreviews"
+            "text_sub": "- electrifiedreviews",
+            "logo_image": "shopify:\/\/shop_images\/logo.png"
           }
         },
         "4758eb01-b94b-42b2-b933-de9ec51b2bd0": {
           "type": "slide",
           "settings": {
             "text_main": "MARS is a good choice for those people who want to use their bikes in multiple scenarios, like commuting and outdoor off-road.",
-            "text_sub": "- Techtimes"
+            "text_sub": "- Techtimes",
+            "logo_image": "shopify:\/\/shop_images\/logo-tech-times.png"
           }
         }
       },
