@@ -323,12 +323,12 @@
       ],
       "settings": {
         "top_padding": "none",
-        "bottom_padding": "none",
-        "top-offeset": "none",
+        "bottom_padding": "small",
+        "top-offeset": "default",
         "section_style": "heybike",
         "section_width": false,
         "section_cov": true,
-        "sec_bg_clr": "#1d1d1d",
+        "sec_bg_clr": "#111",
         "hide_mobile": false,
         "title": "Superb bikes. Superior Service.",
         "subtitle": "Exceeding Expectations with Unparalleled Customer Care",
@@ -336,13 +336,13 @@
         "icon-type": "icon",
         "icons_clr": "#ffffff",
         "isz": 33,
-        "tcl": "#ffffff",
+        "tcl": "#fff",
         "tfs": 15,
         "tfsm": 75,
         "tfw": "500",
         "tlh": 1.2,
         "cl": "#ffffff",
-        "border_sep": "#eeeeee"
+        "border_sep": "rgba(0,0,0,0)"
       }
     },
     "eded3e05-a976-441e-9060-85cc81f16735": {
