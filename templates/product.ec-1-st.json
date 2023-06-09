@@ -57,7 +57,7 @@
         "900c2863-7a02-4344-845e-386c8248bc4d": {
           "type": "text",
           "settings": {
-            "text": "Order now, and get a FREE Helmet and Pannier Bag!",
+            "text": "Commandez maintenant et recevez un casque et une sacoche GRATUITS !",
             "cl": "#999999",
             "addbg": false,
             "bg": "#f5f5f5",
@@ -68,18 +68,18 @@
         "dba108ba-fba9-466d-afd3-21f64c8a1db7": {
           "type": "giveaways",
           "settings": {
-            "title": "Urban Ebike Helmet",
+            "title": "Casque Ebike urbain",
             "price": "6500",
-            "tag": "FREE",
+            "tag": "GRATUIT",
             "Image": "shopify:\/\/shop_images\/heybike_helmet.webp"
           }
         },
         "ca52189d-109d-45f5-91c5-d195b2c24af3": {
           "type": "giveaways",
           "settings": {
-            "title": "Bike Rack Pannier Bag",
+            "title": "Sacoche pour porte-bagages de vélo",
             "price": "7500",
-            "tag": "FREE",
+            "tag": "GRATUIT",
             "Image": "shopify:\/\/shop_images\/heybike_pannier_bag.webp"
           }
         },
@@ -104,9 +104,9 @@
         "75a78218-e9d0-4681-b8f1-d4b99318f5b7": {
           "type": "colimg",
           "settings": {
-            "text1": "Free shipping",
-            "text2": "VAT included",
-            "text3": "1-year warranty",
+            "text1": "Livraison gratuite",
+            "text2": "TVA incluse",
+            "text3": "Garantie de 1 an",
             "icon1": "shopify:\/\/shop_images\/646653b0ac6b117df7f13ce8570d0e38_ab1303c8-a54e-47d4-999d-44eeabc4aa8c.png",
             "icon2": "shopify:\/\/shop_images\/2_db248150-9d91-47d8-af7f-fd791013a8f4.png",
             "icon3": "shopify:\/\/shop_images\/123.png"
@@ -275,21 +275,21 @@
           "type": "item",
           "settings": {
             "item_title": "360Wh",
-            "item_dec": "Battery"
+            "item_dec": "Batterie"
           }
         },
         "a27b30d1-ea2c-42ec-9fce-1899fef048f4": {
           "type": "item",
           "settings": {
-            "item_title": "50mile+",
-            "item_dec": "Range"
+            "item_title": "100km",
+            "item_dec": "Gamme (Jusqu'à)"
           }
         },
         "19891b48-30b5-4d5d-9969-7cc834a3cbde": {
           "type": "item",
           "settings": {
-            "item_title": "40lbs",
-            "item_dec": "Weight"
+            "item_title": "18kg",
+            "item_dec": "Poids"
           }
         },
         "77f5c680-eb06-4cbd-b967-0b45bc01402e": {
@@ -329,9 +329,9 @@
         "layout": "textImage",
         "img_size": "big",
         "img": "shopify:\/\/shop_images\/765x670.png",
-        "text_main": "Reframing The Future",
-        "text_sub": "EC 1-ST's streamlined form allows it to move like a gazelle through the congested city streets, getting to locations inaccessible to cars.",
-        "text_dec": "The low frame design allows ladies to wear dresses and shop in style comfortably.",
+        "text_main": "Recadrer l'avenir",
+        "text_sub": "La forme aérodynamique de l'EC 1-ST lui permet de se déplacer comme une gazelle dans les rues encombrées de la ville et de se rendre dans des endroits inaccessibles aux voitures.",
+        "text_dec": "La conception du cadre bas permet aux femmes de porter des robes et de faire du shopping avec style en tout confort.",
         "bottom_line": false
       }
     },
