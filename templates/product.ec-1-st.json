@@ -396,8 +396,8 @@
       "settings": {
         "top_padding": "default",
         "bottom_padding": "default",
-        "title": "Bring an Ideal Urban Life",
-        "sub_title": "Made of aluminum alloy",
+        "title": "Une vie urbaine idéale",
+        "sub_title": "En alliage d'aluminium",
         "bg_color": "#f5f5f5"
       }
     },
@@ -438,9 +438,9 @@
         "layout": "textImage",
         "img_size": "default",
         "img": "shopify:\/\/shop_images\/7ecc40279fd871bac0e0d11e210a632b.jpg",
-        "text_main": "Portable Battery",
-        "text_sub": "Designed to fuel your adventures, this battery from Samsung offers exceptional performance and efficiency.",
-        "text_dec": "Unleash your freedom with an impressive range of 50 miles on a single charge, allowing you to explore without limits.",
+        "text_main": "Batterie portable",
+        "text_sub": "Conçue pour alimenter vos aventures, cette batterie Samsung offre des performances et une efficacité exceptionnelles.",
+        "text_dec": "Avec une autonomie de 100 km avec une seule charge, vous pouvez laisser libre cours à votre liberté et explorer la région sans aucune restriction.",
         "bottom_line": true
       }
     },
