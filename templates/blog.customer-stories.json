@@ -5,11 +5,11 @@
       "settings": {
         "top-offeset": "default",
         "section_width": false,
-        "ds_height": 280,
+        "ds_height": 330,
         "tb_height": 350,
         "mb_height": 250,
         "parallax_scroll": false,
-        "image": "shopify:\/\/shop_images\/1280x422.jpg",
+        "image": "shopify:\/\/shop_images\/11.jpg",
         "alignment": "center",
         "pretext": "",
         "pcl": "#333333",
@@ -68,14 +68,14 @@
         "sec_bg_clr": "#fafafa",
         "max-width": 1200,
         "title": "Apparaître dans notre documentaire",
-        "tcl": "#000",
+        "tcl": "#000000",
         "tfs": 26,
         "tfsm": 20,
         "tff": "ft1",
         "tfw": "700",
         "tlh": 1.2,
         "richtxt": "<p>Nous espérons sincèrement que nos vélos électriques ont amélioré votre vie, mais nous aimerions également connaître les changements que Heybike a apportés dans votre vie et les moments inoubliables que vous avez vécus avec Heybike. Nous souhaitons donc connaître l'histoire entre vous et le vélo électrique Heybike.<br\/><br\/>Êtes-vous prêt, en tant que personnage principal, à partager votre histoire avec la caméra ? En guise de récompense, nous vous offrirons un vélo électrique GRATUIT après le tournage. Une fois l'accord conclu, notre réalisateur vous contactera et vous communiquera les détails du tournage.<br\/><br\/><strong>*Pour votre information, vous devez nous autoriser à diffuser le contenu de votre interview en ligne, y compris sur le site web officiel et sur la plateforme de médias sociaux Heybike.<\/strong><\/p>",
-        "cl": "#000",
+        "cl": "#000000",
         "fs": 14,
         "fsm": 13,
         "lh": 1.6,
@@ -88,7 +88,7 @@
         "btn-size-desk": "btn-md",
         "btn-size-mob": "mob-btn-sm",
         "txt_align": "tl",
-        "text_clr": "#111"
+        "text_clr": "#111111"
       }
     },
     "bd0b9be7-a40c-4f65-929b-777e50a8d441": {
@@ -96,7 +96,7 @@
       "settings": {
         "sdesk": 30,
         "mdesk": 15,
-        "color_bg": "#fff"
+        "color_bg": "#ffffff"
       }
     },
     "blog": {
@@ -194,7 +194,7 @@
       "settings": {
         "sdesk": 30,
         "mdesk": 15,
-        "color_bg": "#fff"
+        "color_bg": "#ffffff"
       }
     },
     "9016ea7c-c5de-4556-9a98-0317a20a7e7c": {
@@ -216,7 +216,7 @@
       "settings": {
         "sdesk": 30,
         "mdesk": 15,
-        "color_bg": "#fff"
+        "color_bg": "#ffffff"
       }
     }
   },
