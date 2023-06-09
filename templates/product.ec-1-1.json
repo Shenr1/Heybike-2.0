@@ -109,9 +109,9 @@
         "75a78218-e9d0-4681-b8f1-d4b99318f5b7": {
           "type": "colimg",
           "settings": {
-            "text1": "Free shipping",
-            "text2": "VAT included",
-            "text3": "1-year warranty",
+            "text1": "Livraison gratuite",
+            "text2": "TVA incluse",
+            "text3": "Garantie de 1 an",
             "icon1": "shopify:\/\/shop_images\/646653b0ac6b117df7f13ce8570d0e38_ab1303c8-a54e-47d4-999d-44eeabc4aa8c.png",
             "icon2": "shopify:\/\/shop_images\/2_db248150-9d91-47d8-af7f-fd791013a8f4.png",
             "icon3": "shopify:\/\/shop_images\/123.png"
@@ -334,9 +334,9 @@
         "layout": "textImage",
         "img_size": "big",
         "img": "shopify:\/\/shop_images\/765x670_08da6c33-3e35-4483-bcb9-4e639eea1a42.png",
-        "text_main": "Reframing The Future",
-        "text_sub": "EC 1 streamlined form allows it to move like a gazelle through the congested city streets, getting to locations inaccessible to cars.",
-        "text_dec": "The combination of comfort, reliability and intelligent technology means you can spend more time enjoying your journey wherever you want to explore.",
+        "text_main": "Recadrer l'avenir",
+        "text_sub": "La forme aérodynamique d'EC 1 lui permet de se déplacer comme une gazelle dans les rues encombrées de la ville et de se rendre dans des endroits inaccessibles aux voitures.",
+        "text_dec": "La combinaison du confort, de la fiabilité et de la technologie intelligente vous permet de passer plus de temps à profiter de votre voyage, où que vous souhaitiez l'explorer.",
         "bottom_line": false
       }
     },
