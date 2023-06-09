@@ -33,8 +33,8 @@
         "ds_height": 300,
         "tb_height": 350,
         "mb_height": 250,
-        "parallax_scroll": true,
-        "image": "shopify:\/\/shop_images\/lQDPJwfUX-_g9sLNAsbNB4CwPYWqPgXkiM0Eaz3PIIAMAQ_1920_710.jpg",
+        "parallax_scroll": false,
+        "image": "shopify:\/\/shop_images\/out-stor_banner_2048x_edf63634-e400-47ab-8541-fb91fac11317.webp",
         "alignment": "center",
         "pretext": "",
         "pcl": "#ffffff",
@@ -151,7 +151,7 @@
         "1633769564023b4dfb-0": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/our_story.jpg",
+            "image": "shopify:\/\/shop_images\/3_22747556-46e6-446c-b963-b59ac7d4b40b.jpg",
             "layout": "right",
             "title": "About Us",
             "text": "<p>While working in a tall office building, our founder, Jason, had a realization that would forever change his life: he could no longer manage to commute. He was driven to discover a better alternative by the ongoing gridlock and delays in the public transport system. Jason founded Heybike in collaboration with William, a recognized authority in bicycles. Their initial invention, the Cityscape Electric Cruiser Bike, made commuting easy and incorporated riding into daily life. Heybike now has over 40 e-bike models, with cruiser, mountain, folding, city, and fat tire options. Come redefine commuting with us and discover the joy of riding.<\/p>",
@@ -171,7 +171,7 @@
         "2e105c30-ca60-49b7-b2de-d12191fb8727": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/lQDPJyFWi8lReALNAZrNAZWwtR7lJhj7e7gEaz5jiAAMAA_405_410.jpg",
+            "image": "shopify:\/\/shop_images\/4_dca935e6-2639-4c54-88d8-eb2d46c0ca38.jpg",
             "layout": "left",
             "title": "Innovative PEV Solution",
             "text": "<p>As technology progresses, we have all seen the rise of Personal Electric Vehicles (PEVs) and their impact on modern transportation. This tech was in its early adoption phase just a few years ago. Still, we find electric transportation options take much work to get our hands on and come at premium prices. Heybike-UK was driven to provide widely accessible and affordable electric transportation to people across the globe.<\/p>",
@@ -191,7 +191,7 @@
         "679037ac-fdf7-4af6-9a62-df6890f32c60": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Why-banner.webp",
+            "image": "shopify:\/\/shop_images\/3_20ea6eb4-ce87-4b40-9ab3-2ac5535d083e.jpg",
             "layout": "right",
             "title": "Our Mission",
             "text": "<p>To Provide widely accessible, affordable, and ultimate electric transportation for everyone.<\/p>",
@@ -211,7 +211,7 @@
         "3a7419a4-8a61-43ec-b2d7-43113cc5cbdc": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/02_31a53d77-ed0d-45f8-b6cd-7215cb8658a9.webp",
+            "image": "shopify:\/\/shop_images\/8.jpg",
             "layout": "left",
             "title": "Our Vision",
             "text": "<p>To create a better green convenient life for as many people as possible.<\/p>",
