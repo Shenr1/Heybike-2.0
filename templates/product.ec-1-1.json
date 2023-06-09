@@ -280,7 +280,7 @@
           "type": "item",
           "settings": {
             "item_title": "360Wh",
-            "item_dec": "Battery"
+            "item_dec": "Batterie"
           }
         },
         "a27b30d1-ea2c-42ec-9fce-1899fef048f4": {
@@ -300,14 +300,14 @@
         "77f5c680-eb06-4cbd-b967-0b45bc01402e": {
           "type": "item",
           "settings": {
-            "item_title": "5.24'-6.23'",
-            "item_dec": "Rider Height"
+            "item_title": "160-190cm",
+            "item_dec": "Hauteur recommandée"
           }
         },
         "c4bf62db-57aa-4884-a373-6a2c5aeb6ff2": {
           "type": "item",
           "settings": {
-            "item_title": "7 Speed",
+            "item_title": "7 Vitesse",
             "item_dec": "Shimano"
           }
         },
@@ -315,7 +315,7 @@
           "type": "item",
           "settings": {
             "item_title": "3.4''",
-            "item_dec": "LCD Display"
+            "item_dec": "Écran LCD"
           }
         }
       },
@@ -401,8 +401,8 @@
       "settings": {
         "top_padding": "large",
         "bottom_padding": "default",
-        "title": "Bring an Ideal Urban Life",
-        "sub_title": "Made of aluminum alloy",
+        "title": "Une vie urbaine idéale",
+        "sub_title": "En alliage d'aluminium",
         "bg_color": "#f5f5f5"
       }
     },
@@ -413,21 +413,21 @@
           "type": "item",
           "settings": {
             "item_title": "360Wh",
-            "item_dec": "Power"
+            "item_dec": "Puissance"
           }
         },
         "c2cd3913-f9ab-4d1a-90a3-425a71e726c2": {
           "type": "item",
           "settings": {
             "item_title": "10Ah",
-            "item_dec": "Capacity"
+            "item_dec": "Capacité"
           }
         },
         "c40ebf74-fd0a-4136-902b-64c9b076e175": {
           "type": "item",
           "settings": {
             "item_title": "36V",
-            "item_dec": "Voltage"
+            "item_dec": "Tension"
           }
         }
       },
@@ -443,9 +443,9 @@
         "layout": "textImage",
         "img_size": "default",
         "img": "shopify:\/\/shop_images\/7ecc40279fd871bac0e0d11e210a632b_94adc967-026a-460f-b24d-9712e9f3a5c0.jpg",
-        "text_main": "Portable Battery",
-        "text_sub": "Designed to fuel your adventures, this battery from Samsung offers exceptional performance and efficiency.",
-        "text_dec": "Unleash your freedom with an impressive range of 50 miles on a single charge, allowing you to explore without limits.",
+        "text_main": "Batterie portable",
+        "text_sub": "Conçue pour alimenter vos aventures, cette batterie Samsung offre des performances et une efficacité exceptionnelles.",
+        "text_dec": "Avec une autonomie de 100 km avec une seule charge, vous pouvez laisser libre cours à votre liberté et explorer la région sans aucune restriction.",
         "bottom_line": true
       }
     },
