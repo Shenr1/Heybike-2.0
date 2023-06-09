@@ -62,7 +62,7 @@
         "900c2863-7a02-4344-845e-386c8248bc4d": {
           "type": "text",
           "settings": {
-            "text": "Order now, and get a FREE Helmet and Pannier Bag!",
+            "text": "Commandez maintenant et recevez un casque et une sacoche GRATUITS !",
             "cl": "#999999",
             "addbg": false,
             "bg": "#f5f5f5",
@@ -73,18 +73,18 @@
         "dba108ba-fba9-466d-afd3-21f64c8a1db7": {
           "type": "giveaways",
           "settings": {
-            "title": "Urban Ebike Helmet",
+            "title": "Casque Ebike urbain",
             "price": "6500",
-            "tag": "FREE",
+            "tag": "GRATUIT",
             "Image": "shopify:\/\/shop_images\/heybike_helmet.webp"
           }
         },
         "ca52189d-109d-45f5-91c5-d195b2c24af3": {
           "type": "giveaways",
           "settings": {
-            "title": "Bike Rack Pannier Bag",
+            "title": "Sacoche pour porte-bagages de vélo",
             "price": "7500",
-            "tag": "FREE",
+            "tag": "GRATUIT",
             "Image": "shopify:\/\/shop_images\/heybike_pannier_bag.webp"
           }
         },
