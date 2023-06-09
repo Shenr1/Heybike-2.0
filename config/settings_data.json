@@ -397,7 +397,7 @@
           "1561010652330": {
             "type": "menu",
             "settings": {
-              "title": "BEFORE YOU BUY",
+              "title": "AVANT D'ACHETER",
               "menulinks": "avant-dacheter",
               "width": "wd20-md"
             }
@@ -405,7 +405,7 @@
           "1558678570770": {
             "type": "menu",
             "settings": {
-              "title": "GET HELP",
+              "title": "OBTENIR DE L'AIDE",
               "menulinks": "obtenir-de-laide",
               "width": "wd20-md"
             }
@@ -413,7 +413,7 @@
           "4e102e40-8900-4358-895e-37dd5ac9809b": {
             "type": "menu",
             "settings": {
-              "title": "COMPANY",
+              "title": "SOCIÉTÉ",
               "menulinks": "societe",
               "width": "wd20-md"
             }
@@ -422,8 +422,8 @@
             "type": "newsletter",
             "settings": {
               "newltr_align": false,
-              "title": "NEWSLETTER",
-              "sub_title": "Enter your email to receive a newsletter and a £50 off e-bike voucher.",
+              "title": "LETTRE D'INFORMATION",
+              "sub_title": "Entrez votre email pour recevoir une lettre d'information et un bon de réduction de 50€ sur les vélos électriques.",
               "show_socials": false,
               "socials_ttl": "Stay Connected",
               "width": "wd20-md"
@@ -442,7 +442,7 @@
           "0fbd70ba-a5ec-4f78-b500-98fa94c457c2": {
             "type": "socialicons",
             "settings": {
-              "title": "Follow Us"
+              "title": "Suivez-nous"
             }
           }
         },
