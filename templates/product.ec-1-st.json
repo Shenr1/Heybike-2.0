@@ -408,21 +408,21 @@
           "type": "item",
           "settings": {
             "item_title": "360Wh",
-            "item_dec": "Power"
+            "item_dec": "Puissance"
           }
         },
         "c2cd3913-f9ab-4d1a-90a3-425a71e726c2": {
           "type": "item",
           "settings": {
             "item_title": "10Ah",
-            "item_dec": "Capacity"
+            "item_dec": "Capacité"
           }
         },
         "c40ebf74-fd0a-4136-902b-64c9b076e175": {
           "type": "item",
           "settings": {
             "item_title": "36V",
-            "item_dec": "Voltage"
+            "item_dec": "Tension"
           }
         }
       },
@@ -451,14 +451,14 @@
           "type": "item",
           "settings": {
             "item_title": "250 W",
-            "item_dec": "Power"
+            "item_dec": "Puissance"
           }
         },
         "bd530c13-0782-4c23-a156-1e0a11200db7": {
           "type": "item",
           "settings": {
             "item_title": "37 Nm",
-            "item_dec": "Torque"
+            "item_dec": "Couple"
           }
         },
         "f4b077ec-d5f4-464e-a93c-199cc05db80b": {
@@ -496,8 +496,8 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/4329a2cf13558c822173f9e4a4b9c055.png",
-            "text_main": "Shimano 7-speed Drivetrain",
-            "text_sub": "The Shimano® 7-speed chain drive ispowerful, smooth, and built to perform high on all roads.",
+            "text_main": "Transmission Shimano à 7 vitesses",
+            "text_sub": "La transmission par chaîne Shimano® à 7 vitesses est puissante, souple et conçue pour offrir des performances élevées sur toutes les routes.",
             "img_link": ""
           }
         },
@@ -507,8 +507,8 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/Puncture-resistant_Tires.png",
-            "text_main": "Puncture-resistant Tires",
-            "text_sub": "Versatile 700C*40C tires with anti-puncture tech for city, gravel, and long-distance rides.",
+            "text_main": "Pneus anti-crevaison",
+            "text_sub": "Pneus polyvalents 700C*40C avec technologie anti-crevaison pour la ville, le gravier et les longues distances.",
             "img_link": ""
           }
         },
@@ -568,7 +568,7 @@
       "settings": {
         "top_padding": "medium",
         "bottom_padding": "none",
-        "title": "Take a Closer Look",
+        "title": "Plus de détails",
         "layout": "textImg",
         "enable_slider": true,
         "bottom_line": true
