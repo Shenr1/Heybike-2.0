@@ -177,8 +177,8 @@
       "settings": {
         "top_padding": "large",
         "bottom_padding": "default",
-        "title": "All HEYBIKE Models",
-        "btn_Text": "Buy now",
+        "title": "Tous les modèles HEYBIKE",
+        "btn_Text": "Acheter maintenant",
         "bg_color": "#f3f5f9"
       }
     },
@@ -300,7 +300,7 @@
         "top_padding": "none",
         "bottom_padding": "large",
         "bg_color": "#f3f5f9",
-        "title": "Go Green with Heybike",
+        "title": "Passer au vert avec Heybike",
         "image": "shopify:\/\/shop_images\/40x400.png"
       }
     },
@@ -311,9 +311,9 @@
         "bottom_padding": "default",
         "bg_color": "#000000",
         "bg_img": "shopify:\/\/shop_images\/C.jpg",
-        "text_main": "Find Dealers Near You",
-        "text_sub": "Test Ride & Buy Directly",
-        "text_btn": "Read More",
+        "text_main": "Trouver un concessionnaire près de chez vous",
+        "text_sub": "Essai et achat direct",
+        "text_btn": "Lire la suite",
         "url": ""
       }
     },
@@ -349,7 +349,7 @@
       "settings": {
         "top_padding": "large",
         "bottom_padding": "default",
-        "title": "The World of HEYBIKE",
+        "title": "Le monde de HEYBIKE",
         "layout": "imgText",
         "enable_slider": false,
         "bottom_line": false
@@ -364,7 +364,7 @@
             "image": "shopify:\/\/shop_images\/app720x700.png",
             "layout": "right",
             "title": "Smarttech and APP",
-            "text": "<p>Your amazing rides deserve a journal! Connect your bike to the HEYBIKE App, and build an impressive mileage count!<\/p>",
+            "text": "<p>Tes superbes balades méritent un journal ! Connectez votre vélo à l'application HEYBIKE, et construisez un compteur kilométrique impressionnant !<\/p>",
             "bottom_logo": "shopify:\/\/shop_images\/icon01.png",
             "logo_url": "",
             "bottom_logo2": "shopify:\/\/shop_images\/icon0.png",
