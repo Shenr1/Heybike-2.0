@@ -65,13 +65,14 @@
         "1d1c291c-29e1-4645-911c-1cb922034f67": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/3_596f8700-955c-4c5c-9e9f-9ef70255a748.jpg",
             "layout": "right",
-            "title": "Various Options for Your Need",
-            "text": "<p>HeyBike produces fat tire folding e-bikes, step-thru design e-bikes, and commuter e-bikes. Our electric bikes represent the full capabilities of the e-bike revolution. We are committed to meeting all your needs, from off-road adventures to daily commuting, and we are suited to those looking to experience wild or boulevard cruisers and weekend rides.<\/p>",
+            "title": "Diverses options pour répondre à vos besoins",
+            "text": "<p>HeyBike produit des vélos électriques pliants à pneus larges, des vélos électriques de type step-thru et des vélos électriques pour les déplacements quotidiens. Nos vélos électriques représentent toutes les capacités de la révolution de l'e-bike. Nous nous engageons à répondre à tous vos besoins, qu'il s'agisse d'aventures tout-terrain ou de déplacements quotidiens, et nous sommes adaptés à ceux qui cherchent à vivre une expérience sauvage ou à faire des balades sur les boulevards et les week-ends.<\/p>",
             "logo_url": "",
             "logo_url2": "",
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/electric-bike",
+            "button_label": "Acheter",
+            "button_link": "shopify:\/\/collections\/all",
             "text_align": "text-left",
             "tcl": "#000000",
             "cl": "#000000",
@@ -84,6 +85,7 @@
         "template--19289277169979__fe6340dd-ea38-4ce9-9f9e-0abb15908260-16853339263b39c458-0": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/5_f2209487-f177-4258-bb4e-bbdb17cd91a1.jpg",
             "layout": "left",
             "title": "80,000+ Active Riders",
             "text": "<p>Trusted by 80,000 riders and being part of their lives, Heybike is leading a healthy and positive attitude in life, and a convenient efficient lifestyle!<\/p>",
@@ -103,6 +105,7 @@
         "cd0ae458-8d85-4fc8-9d07-6d27feb19a14": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/4_460x_9c835476-b3d3-4283-85e8-ae1f390b4d1a.webp",
             "layout": "right",
             "title": "Pay in 4. Anywhere",
             "text": "<p>Pay in 4 with Klarna from Klarna.com, or anywhere Visa is accepted. No credit impact. (*CA resident loans made or arranged pursuant to a California Financing Law license.)<\/p>",
