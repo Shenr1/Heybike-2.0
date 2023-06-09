@@ -5,11 +5,11 @@
       "settings": {
         "top-offeset": "default",
         "section_width": false,
-        "ds_height": 280,
+        "ds_height": 360,
         "tb_height": 350,
         "mb_height": 250,
-        "parallax_scroll": true,
-        "image": "shopify:\/\/shop_images\/02_31a53d77-ed0d-45f8-b6cd-7215cb8658a9.webp",
+        "parallax_scroll": false,
+        "image": "shopify:\/\/shop_images\/Cityrun_3766f6d3-34bf-4c89-981f-d36e3cbf85c3.jpg",
         "alignment": "center",
         "pretext": "",
         "pcl": "#ffffff",
@@ -65,7 +65,6 @@
         "1d1c291c-29e1-4645-911c-1cb922034f67": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-3.png",
             "layout": "right",
             "title": "Various Options for Your Need",
             "text": "<p>HeyBike produces fat tire folding e-bikes, step-thru design e-bikes, and commuter e-bikes. Our electric bikes represent the full capabilities of the e-bike revolution. We are committed to meeting all your needs, from off-road adventures to daily commuting, and we are suited to those looking to experience wild or boulevard cruisers and weekend rides.<\/p>",
@@ -85,7 +84,6 @@
         "template--19289277169979__fe6340dd-ea38-4ce9-9f9e-0abb15908260-16853339263b39c458-0": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/02_5d4178c9-4a9a-4ff3-a2a9-e98eff36001d.webp",
             "layout": "left",
             "title": "80,000+ Active Riders",
             "text": "<p>Trusted by 80,000 riders and being part of their lives, Heybike is leading a healthy and positive attitude in life, and a convenient efficient lifestyle!<\/p>",
@@ -105,7 +103,6 @@
         "cd0ae458-8d85-4fc8-9d07-6d27feb19a14": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_460x_54bb42e7-9b61-4b27-aa33-4d396b213fe5.webp",
             "layout": "right",
             "title": "Pay in 4. Anywhere",
             "text": "<p>Pay in 4 with Klarna from Klarna.com, or anywhere Visa is accepted. No credit impact. (*CA resident loans made or arranged pursuant to a California Financing Law license.)<\/p>",
@@ -202,16 +199,14 @@
           "type": "slide",
           "settings": {
             "text_main": "\"The Heybike Mars hits a good price point and is a lot of fun to ride.\"",
-            "text_sub": "- MSN",
-            "logo_image": "shopify:\/\/shop_images\/images_6ef9583c-32cb-464a-ae13-2388f8534db5.png"
+            "text_sub": "- MSN"
           }
         },
         "b8d1ea7c-4393-4005-9ae8-96cd23567cbc": {
           "type": "slide",
           "settings": {
             "text_main": "\"When it comes to solid, folding e-bikes, HeyBike has got game, with the manufacturer presenting us with a wide range of fat-tire wheelers.\"",
-            "text_sub": "- AUTOEVOLUTION",
-            "logo_image": "shopify:\/\/shop_images\/AU_e9db3ab0-4166-42df-8978-c88757d205ed.png"
+            "text_sub": "- AUTOEVOLUTION"
           }
         },
         "d296e9a1-883f-46b9-9e75-1f5fdcdc5464": {
@@ -226,8 +221,7 @@
           "type": "slide",
           "settings": {
             "text_main": "\"The Brawn from Heybike is a motorcycle inspired off-road beast.\"",
-            "text_sub": "- electrifiedreviews",
-            "logo_image": "shopify:\/\/shop_images\/74e96bd12406130d753f8d21926568a3.webp"
+            "text_sub": "- electrifiedreviews"
           }
         }
       },
@@ -249,12 +243,12 @@
     "d84ec3b7-47d3-45f8-a150-478d33a6d76e": {
       "type": "featured-blog",
       "settings": {
-        "title": "Customer stories",
+        "title": "Témoignages de clients",
         "subtitle": "",
         "top-offeset": "default",
         "section_cov": true,
         "sec_bg_clr": "#fafafa",
-        "blog": "customer-stories",
+        "blog": "temoignages-de-clients",
         "img_ratio": "40",
         "post_limit": 8,
         "grid": 3,
