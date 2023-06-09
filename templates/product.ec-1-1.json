@@ -830,7 +830,7 @@
       "settings": {
         "top_padding": "large",
         "bottom_padding": "large",
-        "title": "Reviews",
+        "title": "Commentaires",
         "layout": "textImg",
         "enable_slider": true,
         "bottom_line": false
