@@ -287,14 +287,14 @@
           "type": "item",
           "settings": {
             "item_title": "100 km",
-            "item_dec": "Gamme(Jusqu'à)"
+            "item_dec": "Gamme (Jusqu'à)"
           }
         },
         "19891b48-30b5-4d5d-9969-7cc834a3cbde": {
           "type": "item",
           "settings": {
-            "item_title": "40lbs",
-            "item_dec": "Weight"
+            "item_title": "18kg",
+            "item_dec": "Poids"
           }
         },
         "77f5c680-eb06-4cbd-b967-0b45bc01402e": {
