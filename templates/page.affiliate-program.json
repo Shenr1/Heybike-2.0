@@ -45,7 +45,7 @@
         "plh": 1.1,
         "pmb": 10,
         "pmbm": 5,
-        "title": "Affiliate Program",
+        "title": "Programme d'affiliation",
         "tcl": "#ffffff",
         "tfs": 30,
         "tfsm": 20,
@@ -54,7 +54,7 @@
         "tlh": 1.1,
         "tmb": 10,
         "tmbm": 5,
-        "text": "<p>We’re always excited to collaborate with new influential affiliates.<\/p>",
+        "text": "<p>Nous sommes toujours ravis de collaborer avec de nouveaux affiliés influents.<\/p>",
         "cl": "#ffffff",
         "fs": 16,
         "fsm": 14,
@@ -70,7 +70,7 @@
         "btn-size-mob": "mob-btn-sm",
         "isbox": true,
         "bg": "#ffffff",
-        "opt": 0.2,
+        "opt": 0,
         "bdr": 0,
         "textalign": "tc",
         "bxalign": "f-jcc f-aic",
@@ -92,8 +92,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/4.jpg",
             "layout": "right",
-            "title": "Why partner with Heybike?",
-            "text": "<p>HeyBike was driven to make “every e-bike for everyone” possible. And we need creative and enterprising partners to help us spread and realize more to the world.     Considering how quickly our bikes catch on via word-of-mouth, making a suitable convert is easy. Free cost and high commissions, why not apply?<\/p>",
+            "title": "Pourquoi un partenariat avec Heybike ?",
+            "text": "<p>HeyBike s'est donné pour mission de rendre possible \"chaque vélo électrique pour tout le monde\". Et nous avons besoin de partenaires créatifs et entreprenants pour nous aider à diffuser et à réaliser davantage dans le monde.     Compte tenu de la rapidité avec laquelle nos vélos se répandent grâce au bouche-à-oreille, il est facile de trouver un partenaire adéquat. Des frais gratuits et des commissions élevées, pourquoi ne pas postuler ?<\/p>",
             "logo_url": "",
             "logo_url2": "",
             "button_label": "",
@@ -112,8 +112,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/5_37112b59-f1d5-48f3-b26a-b14380fe7881.jpg",
             "layout": "left",
-            "title": "Industry-leading commissions",
-            "text": "<p>With each successful order, you can get up to 3% commission on the transaction value. Take the EC 1, for example; you can get about $XX in commission when a referral buys the EC 1 through your link!<\/p>",
+            "title": "Les meilleures commissions du secteur",
+            "text": "<p>Pour chaque commande réussie, vous pouvez recevoir jusqu'à 3 % de commission sur la valeur de la transaction. Prenons l'exemple de l'EC 1 ; vous pouvez recevoir une commission d'environ XX $ lorsqu'un filleul achète l'EC 1 par l'intermédiaire de votre lien !<\/p>",
             "logo_url": "",
             "logo_url2": "",
             "button_label": "",
@@ -132,11 +132,11 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/5_6c40bee6-3859-42a4-a310-51a0beac9a5e.jpg",
             "layout": "right",
-            "title": "Promotion made easy",
-            "text": "<p>Promote Heybike using your referral link or our pre-made banners, emails, and other materials. Use the resources we've prepared for you to save time and money on content production.<\/p>",
+            "title": "La promotion en toute simplicité",
+            "text": "<p>Faites la promotion d'Heybike en utilisant votre lien de parrainage ou nos bannières, e-mails et autres supports prédéfinis. Utilisez les ressources que nous avons préparées pour vous afin d'économiser du temps et de l'argent sur la production de contenu.<\/p>",
             "logo_url": "",
             "logo_url2": "",
-            "button_label": "Apply Now",
+            "button_label": "Postuler",
             "button_link": "\/",
             "text_align": "text-left",
             "tcl": "#000000",
@@ -189,8 +189,8 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/hands-typing-on-laptop.jpg",
-            "text_main": "01: Apply online",
-            "text_sub": "Fill out our affiliate application — it's free and only takes two minutes.",
+            "text_main": "01 : Demande en ligne",
+            "text_sub": "Remplissez notre formulaire de demande d'affiliation - c'est gratuit et cela ne prend que deux minutes.",
             "img_link": ""
           }
         },
@@ -200,8 +200,8 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/iphone-detects-qr-code.jpg",
-            "text_main": "02: Refer",
-            "text_sub": "We can provide you with beautifully designed marketing materials.",
+            "text_main": "02 : Référer",
+            "text_sub": "Nous pouvons vous fournir du matériel de marketing magnifiquement conçu.",
             "img_link": ""
           }
         },
@@ -211,8 +211,8 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/handful-of-cash.jpg",
-            "text_main": "03: Get paid",
-            "text_sub": "Earn up to 3% commission on each order. ",
+            "text_main": "03 : Se faire payer",
+            "text_sub": "Gagnez jusqu'à 3 % de commission sur chaque commande. ",
             "img_link": ""
           }
         },
@@ -237,7 +237,7 @@
       "settings": {
         "top_padding": "medium",
         "bottom_padding": "medium",
-        "title": "Get started today",
+        "title": "Commencez dès aujourd'hui",
         "layout": "imgText",
         "enable_slider": false,
         "bottom_line": false
