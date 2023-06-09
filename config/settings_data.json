@@ -318,7 +318,7 @@
           "23b6094a-ec02-4808-bac4-8dbb5fed7f32": {
             "type": "dropdown",
             "settings": {
-              "title": "Support",
+              "title": "Soutien",
               "url": "",
               "mm_linklist": "obtenir-de-laide"
             }
@@ -326,7 +326,7 @@
           "1559988240897": {
             "type": "dropdown",
             "settings": {
-              "title": "Community",
+              "title": "Communauté",
               "url": "",
               "mm_linklist": "communaut"
             }
@@ -334,7 +334,7 @@
           "1559992848977": {
             "type": "dropdown",
             "settings": {
-              "title": "Help Center",
+              "title": "Centre d'aide",
               "url": "",
               "mm_linklist": "centre-daide"
             }
