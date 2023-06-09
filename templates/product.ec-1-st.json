@@ -704,8 +704,8 @@
           "settings": {
             "title": "Géométrie",
             "image": "shopify:\/\/shop_images\/630x800.jpg",
-            "th": ",Description,SIZE(in)",
-            "td": "Total Length-72.34<br>Chaint Stay Length-17.95<br>Top Tube Length\n-21.68<br>Head Tube Length-11.78<br>Wheelbase-44.29<br>Wheel Diameter-28.09<br>Handlebar Height\n-44.26<br>Stand Height\n-17.53<br>Maximum Seat Height\n-8.66<br>Minimum Seat Height\n-16.14<br>Minimum Seat to Floor\n-36.15<br>"
+            "th": ",Description,Size(cm)",
+            "td": "Longueur totale-72.34<br>Longueur des bases-17.95<br>Longueur du tube supérieur\n-21.68<br>Longueur du tube de tête-11.78<br>Entraxe des roues-44.29<br>Diamètre des roues-28.09<br>Hauteur du guidon\n-44.26<br>Hauteur de la béquille\n-17.53<br>Hauteur maximale du siège\n-8.66<br>Hauteur d'assise minimale\n-16.14<br>Distance minimale entre le siège et le sol\n-36.15<br>"
           }
         }
       },
