@@ -292,8 +292,8 @@
     "f6dadf45-ce66-41ec-8300-28bcc40b3eef": {
       "type": "newsletter",
       "settings": {
-        "title": "Newsletter",
-        "subtitle": "Sign up to stay in the loop. Receive updates, access to exclusive deals, and more.",
+        "title": "Bulletin d'information",
+        "subtitle": "Inscrivez-vous pour rester dans la boucle. Recevez des mises à jour, accédez à des offres exclusives, et plus encore.",
         "top-offeset": "default",
         "section_width": true,
         "section_cov": true,
