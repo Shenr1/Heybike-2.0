@@ -295,14 +295,14 @@
         "77f5c680-eb06-4cbd-b967-0b45bc01402e": {
           "type": "item",
           "settings": {
-            "item_title": "5.08'-6.06'",
-            "item_dec": "Rider Height"
+            "item_title": "155-185cm",
+            "item_dec": "Hauteur recommandée"
           }
         },
         "c4bf62db-57aa-4884-a373-6a2c5aeb6ff2": {
           "type": "item",
           "settings": {
-            "item_title": "7 Speed",
+            "item_title": "7 Vitesse",
             "item_dec": "Shimano"
           }
         },
@@ -310,7 +310,7 @@
           "type": "item",
           "settings": {
             "item_title": "3.4''",
-            "item_dec": "LCD Display"
+            "item_dec": "Écran LCD"
           }
         }
       },
