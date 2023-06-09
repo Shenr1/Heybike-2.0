@@ -692,8 +692,8 @@
         "e7514e3b-0b1e-49db-a19a-d7074c9543c2": {
           "type": "imageGrid",
           "settings": {
-            "title": "Tool Box",
-            "text1": "Tools",
+            "title": "Boîte à outils",
+            "text1": "Outils",
             "metafield1": "tools",
             "text2": "Electrics",
             "metafield2": "electrics",
@@ -714,7 +714,7 @@
           "settings": {
             "title": "Geometry",
             "image": "shopify:\/\/shop_images\/630x800_b35262cf-c079-415a-b996-814f5faa715e.jpg",
-            "th": ",Size(in),L",
+            "th": ",Size(cm),L",
             "td": "Total Length-72.45<br>Chaint Stay Length-17.96<br>Top Tube Length\n-21.62<br>Head Tube Length-10.86<br>Wheelbase-44.30<br>Wheel Diameter-28.07<br>Handlebar Height\n-43.40<br>Stand Height\n-14.63<br>Maximum Seat Height\n-8.66<br>Minimum Seat Height\n-19.04<br>Minimum Seat to Floor\n-38.02<br>"
           }
         }
