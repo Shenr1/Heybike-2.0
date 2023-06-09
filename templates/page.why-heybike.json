@@ -202,14 +202,16 @@
           "type": "slide",
           "settings": {
             "text_main": "\"The Heybike Mars hits a good price point and is a lot of fun to ride.\"",
-            "text_sub": "- MSN"
+            "text_sub": "- MSN",
+            "logo_image": "shopify:\/\/shop_images\/images.png"
           }
         },
         "b8d1ea7c-4393-4005-9ae8-96cd23567cbc": {
           "type": "slide",
           "settings": {
             "text_main": "\"When it comes to solid, folding e-bikes, HeyBike has got game, with the manufacturer presenting us with a wide range of fat-tire wheelers.\"",
-            "text_sub": "- AUTOEVOLUTION"
+            "text_sub": "- AUTOEVOLUTION",
+            "logo_image": "shopify:\/\/shop_images\/AU.png"
           }
         },
         "d296e9a1-883f-46b9-9e75-1f5fdcdc5464": {
@@ -224,7 +226,8 @@
           "type": "slide",
           "settings": {
             "text_main": "\"The Brawn from Heybike is a motorcycle inspired off-road beast.\"",
-            "text_sub": "- electrifiedreviews"
+            "text_sub": "- electrifiedreviews",
+            "logo_image": "shopify:\/\/shop_images\/electrifiedreviews.png"
           }
         }
       },
