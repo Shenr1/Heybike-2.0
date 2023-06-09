@@ -381,8 +381,8 @@
     "81a20925-7fed-4824-afe4-e930c15adf92": {
       "type": "newsletter",
       "settings": {
-        "title": "Newsletter",
-        "subtitle": "Sign up to stay in the loop. Receive updates, access to exclusive deals, and more.",
+        "title": "Bulletin d'information",
+        "subtitle": "Inscrivez-vous pour rester dans la boucle. Recevez des mises à jour, accédez à des offres exclusives, et plus encore.",
         "top-offeset": "default",
         "section_width": false,
         "section_cov": true,
