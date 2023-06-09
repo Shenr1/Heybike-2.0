@@ -5,11 +5,11 @@
       "settings": {
         "top-offeset": "default",
         "section_width": false,
-        "ds_height": 280,
+        "ds_height": 380,
         "tb_height": 350,
         "mb_height": 250,
-        "parallax_scroll": true,
-        "image": "shopify:\/\/shop_images\/02_31a53d77-ed0d-45f8-b6cd-7215cb8658a9.webp",
+        "parallax_scroll": false,
+        "image": "shopify:\/\/shop_images\/Brawn_3565e38e-a6de-49f9-856c-340ce1dfef49.jpg",
         "alignment": "center",
         "pretext": "",
         "pcl": "#ffffff",
@@ -65,10 +65,12 @@
         "e7e856a6-1018-4e98-b839-7c350042e23a": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/our_story.jpg",
+            "image": "shopify:\/\/shop_images\/3.jpg",
             "layout": "right",
             "title": "",
             "text": "<p>If you own a Heybike e-bike, join us and become a Heybike product representative! You just need to provide your address and phone number and allow heybike potential riders to test your bike!<br\/><br\/>Allowing new customers to contact and test your model, as a reward, Heybike representatives will get rewards once a customer buys an e-bike with their coupon codes or referral links. Also, you will have a chance to experience our new model!<\/p><p>We will list your info on your website to allow our potential riders to contact you.<br\/> <\/p>",
+            "logo_url": "",
+            "logo_url2": "",
             "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
@@ -83,10 +85,12 @@
         "67f390d6-a648-4fc8-83ed-132007d2ba6e": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/21_3baf312a-11dd-4af1-978b-863d77815329.webp",
+            "image": "shopify:\/\/shop_images\/5_9c14c9a6-7399-4b98-8913-50aa92933038.jpg",
             "layout": "left",
             "title": "What you get?",
             "text": "<p>1. You will receive Heybike merch.<br\/>2. You will receive a reward of the same value as the coupon if a test rider uses your recommended coupon to purchase a product.<br\/>3. You are likely to receive our new model as deep cooperation.<\/p>",
+            "logo_url": "",
+            "logo_url2": "",
             "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
