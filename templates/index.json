@@ -297,7 +297,8 @@
         "bottom_padding": "large",
         "bg_color": "#f3f5f9",
         "title": "Go Green with Heybike",
-        "image": "shopify:\/\/shop_images\/40x400.png"
+        "image": "shopify:\/\/shop_images\/40x400.png",
+        "image_mb": "shopify:\/\/shop_images\/40x400.png"
       }
     },
     "9097e021-5397-4a21-8d22-e6f121fbda8f": {
