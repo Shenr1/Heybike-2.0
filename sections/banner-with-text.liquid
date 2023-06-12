@@ -15,14 +15,13 @@
       <div class="{% unless hbStyle %}fl1{% endunless %}{% if hbStyle %}md:w-3/5 w-full md:order-0 order-5{% endif %} imgCol wow{% if blkSt.layout == 'right' %} fadeInRight{% else %} fadeInLeft{% endif %}" data-wow-delay="{{delay_time}}ms">
         {% if blkSt.image != blank %}
           {%- assign img_url = blkSt.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-          {%- assign spanClass = "" -%}
 
           {% if blkSt.image_mb != blank %}
-          {% assign spanClass = "md:block hidden" %}
           <section class="md:hidden block"> {{ blkSt.image_mb | image_url: width: 980 | image_tag: height: blkSt.bg_img_mb.height, class: 'w-full mt-8', lazyload: true }} </section>
           {% endif %}
-
-          <span class="{{ spanClass }} imgWrapper" style="max-width:{{ blkSt.image.width }}px;">
+          
+          <span class="{% if blkSt.image_mb != blank %}md:block hidden{% endif %} imgWrapper"
+             style="max-width:{{ blkSt.image.width }}px;">
             <img class="imgFl feature-row__image lazyload" width="{{ blkSt.image.width }}" height="{{ blkSt.image.height }}" loading="lazy"
               data-src="{{ img_url }}" data-widths="[180, 360, 540, 720, 900]" data-aspectratio="{{ blkSt.image.aspect_ratio }}" data-sizes="auto" alt="{{ blkSt.image.alt | escape }}">
           </span>
@@ -466,17 +465,17 @@
         "type": "row",
         "name": "Block",
         "settings": [
-          {
-            "type": "image_picker",
-            "id": "image",
-            "label": "Image"
-          },  
-          {
-            "type": "image_picker",
-            "id": "image_mb",
-            "label": "Image (mobile)"
-          },  
-      {
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },  
+        {
+          "type": "image_picker",
+          "id": "image_mb",
+          "label": "Image (mobile)"
+        },  
+        {
         "type": "select",
         "id": "layout",
         "label":"Image alignment",
