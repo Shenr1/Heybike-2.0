@@ -34,7 +34,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
 [section-name = 'color-slider-full'] div.is-selected [tag-name = 'color-block'] > div{@apply shadow-black-600}
 [section-name = 'color-slider-full'] div.is-selected [tag-name = 'color-block']{@apply border-black-800}
 
-[section-name = 'multiple-image-text'] .flickity-button{@apply bg-black-700 hover:bg-black-900}
+[section-name = 'multiple-image-text'] .flickity-button{@apply bg-black-700 hover:bg-black-900 md:visible invisible}
 [section-name = 'multiple-image-text'] .flickity-button-icon{@apply fill-white}
 [section-name = 'multiple-image-text'] .flickity-prev-next-button.previous{@apply md:-left-14}
 [section-name = 'multiple-image-text'] .flickity-prev-next-button.next{@apply md:-right-14}
@@ -44,7 +44,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
 [section-name = 'products-slider-full'] .flickity-prev-next-button.previous{@apply md:left-12}
 [section-name = 'products-slider-full'] .flickity-prev-next-button.next{@apply md:right-12}
 
-[section-name = 'product-tabs-nav'] [tag-name = 'tabs-wrapper'] >a.active{@apply text-white border-solid border-0 border-b-4 border-white}
+[section-name = 'product-tabs-nav'] [tag-name = 'tabs-wrapper'] >a.active{@apply text-white border-solid border-0 md:border-b-4 border-white}
 
 [tag-name = 'simple-menu-item'] ul.dropdown li{@apply !border-t-0}
 
@@ -56,7 +56,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
 .slideshow-wrapper .hbStyle .flickity-page-dots .dot.is-selected{@apply bg-vi md:w-8 w-12}
 
 @media only screen and (max-width:765px) {
-    .pr_thumbs_item {@apply w-[18.5%] mx-[0.3%] }
+    .pr_thumbs_item {@apply md:w-[18.5%] md:mx-[0.3%] mx-1 w-[5.65rem]}
     .product-single .flickity-button{@apply hidden }
     [flickity-screen='pc']:after {@apply content-none }
     [flickity-screen='mobile']:after {@apply content-['flickity'] hidden }

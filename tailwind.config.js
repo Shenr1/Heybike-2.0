@@ -16,6 +16,7 @@ module.exports = {
     extend: {
       spacing: {
         '9vh': '90vh',
+        '13': '3.25rem'
       },
       screens: {
         '2k': '2048px',
@@ -39,6 +40,7 @@ module.exports = {
         'ProductSans': 'Product Sans, Arial, sans-serif'
       },
       maxWidth: {
+        '1/3': '33.333%',
         '1/2': '50%',
         '1/2vw': '50vw',
         'page': '1320px'

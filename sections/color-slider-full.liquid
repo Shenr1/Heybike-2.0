@@ -3,7 +3,7 @@
 
 <section section-name="color-slider-full" class="{% render 'section-interva-set' , secSt:secSt %}" style="background-color: {{secSt.bg_color}};">
   <div class="page-width text-center ">
-    <h1 class="md:text-4_5xl text-2xl mb-2">{{secSt.title}}</h1> 
+    <h1 class="md:text-4_5xl text-2_5xl mb-2">{{secSt.title}}</h1> 
     <p class="text-lg mb-6">{{secSt.sub_title}}</p>
 
     {% for block in section.blocks %}
@@ -23,10 +23,10 @@
     {% endcase %}
 
 
-    <div class="rounded-full bg-white py-2 px-4 {{switchW}} mx-auto shadow-sm">
+    <div class="rounded-full bg-white py-2 md:px-4 px-2 {{switchW}} mx-auto shadow-sm">
       <div tag-name="color-carousel" data-flickity='{"draggable": false, "asNavFor": "#carousel-main-{{section.id}}", "contain": true, "pageDots": false, "prevNextButtons": false}'>
         {% for block in section.blocks %}
-        <div class="px-1">
+        <div class="md:px-1 px-2">
           <div tag-name="color-block" class="p-[2px] border-solid border border-black-300 rounded-full transition-all duration-500">
             <div class="cursor-pointer rounded-full w-7 h-7 shadow-inner transition-all duration-500" style="background-color:{{block.settings.color}}" ></div>
           </div>
