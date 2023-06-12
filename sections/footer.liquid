@@ -3,7 +3,7 @@
 <footer class="site-footer{% if secSt.snow_effect %} falling-snow{% endif %}{% if secSt.snow_style == "style2" %} style2{% else %} style1{% endif %}" role="contentinfo">  
    
   {% if section.blocks.size != 0 %}
-  	<div class="{% unless secSt.section_width %}page-width{% else %} fullwidth{% endunless %}">
+  	<div class="{% unless secSt.section_width %}page-width xl:px-4 px-8{% else %} fullwidth{% endunless %}">
   	<div class="footer-top footer-block">
         {% for block in section.blocks %}          
           {% assign blkSt = block.settings %}
@@ -134,13 +134,13 @@
       </div>  
 
 
-      <div class="md:flex justify-between text-black-400 md:mt-10 mt-4 mb-4 md:-ml-[30px]">
+      <div class="flex items-center justify-between text-black-400 md:mt-10 mt-4 mb-4 md:-ml-[30px]">
         {% for block in section.blocks %}     
         {% assign blkSt = block.settings %}
       
         {% case block.type %}
         {% when 'legal' %}
-        <div class="flex items-center justify-between md:mb-0 mb-4 md:w-2/5">
+        <div class="flex items-center justify-between mb-0 md:w-2/5">
           <div class="md:w-1/2 pl-[30px] md:block hidden">{{ blkSt.logo_img | image_url: width: settings.logo_width | image_tag: width: nil, loading: 'lazy' }} </div>
           
           <div class="block md:hidden"> {% render 'localization' %} </div>

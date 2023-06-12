@@ -2,9 +2,8 @@
 
 {% if secSt.enable_slider %} {% assign ebSlider = true %} {% else %} {% assign ebSlider = false %} {% endif %}
 
-<section section-name="multiple-image-text" class="{% render 'section-interva-set', secSt:secSt %}" >
+<section section-name="multiple-image-text" class="{% render 'section-interva-set', secSt:secSt %} page-width xl:px-4 px-8" >
 
-  
 
   <div class="page-width {% if ebSlider %}md:px-4 !px-0{% else %}px-4{% endif %}">
     <h1 class="md:text-4_5xl text-3xl text-center md:mb-12 mb-8">{{secSt.title}}</h1>

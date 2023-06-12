@@ -16,9 +16,11 @@ module.exports = {
     extend: {
       spacing: {
         '9vh': '90vh',
-        '13': '3.25rem'
+        '13': '3.25rem',
+        '1/5':'20%'
       },
       screens: {
+        'md': '769px',
         '2k': '2048px',
       },
       fontSize: {

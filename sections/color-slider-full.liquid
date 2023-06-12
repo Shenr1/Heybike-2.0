@@ -27,7 +27,7 @@
       <div tag-name="color-carousel" data-flickity='{"draggable": false, "asNavFor": "#carousel-main-{{section.id}}", "contain": true, "pageDots": false, "prevNextButtons": false}'>
         {% for block in section.blocks %}
         <div class="md:px-1 px-2">
-          <div tag-name="color-block" class="p-[2px] border-solid border border-black-300 rounded-full transition-all duration-500">
+          <div tag-name="color-block" class="p-[2px] border-solid border-2 border-black-300 rounded-full transition-all duration-500">
             <div class="cursor-pointer rounded-full w-7 h-7 shadow-inner transition-all duration-500" style="background-color:{{block.settings.color}}" ></div>
           </div>
         </div>

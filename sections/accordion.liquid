@@ -1,7 +1,7 @@
 {%- assign secSt = section.settings -%}
 
 <section section-name="accordion" class="{% render 'section-interva-set' , secSt:secSt %}" >
-    <div class="page-width px-4 mx-auto">
+    <div class="page-width xl:px-4 px-8 mx-auto">
       <ul class="accordion w-full">
 
       {%- for block in section.blocks -%}
@@ -11,8 +11,7 @@
             <div tag-name='accordion-header' class="flex flex-row border-solid border-0 border-b border-black-700 cursor-pointer justify-between items-center">
                 <p class="md:text-2xl text-1_5xl font-semibold md:my-6 my-3">{{ blkSt.title }}</p>
                 <div tag-name='accordion-arrow' class="overflow-hidden text-white relative">
-                  <i class="{%- unless forFirsrt -%}hidden {% endunless %}at at-minus-r bg-black-800 md:text-2xl md:!leading-[95%] !leading-[90%] p-2 rounded-full transition-all top-1/2 -translate-y-1/2 absolute"></i> 
-                  <i class="at at-plus-r bg-black-400 md:text-2xl md:!leading-[95%] !leading-[90%] p-2 rounded-full"></i> 
+                  <i class="{%- unless forFirsrt -%}at-plus-r {% endunless %}at at-minus-r bg-black-800 md:text-lg text-base md:!leading-[95%] !leading-[87%] md:p-2 p-1 rounded-full transition-all"></i> 
                 </div>
             </div>
 

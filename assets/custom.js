@@ -18,8 +18,31 @@ $(function(){
 
   // 产品页口风琴
   $(document).on('click', '.accordion [tag-name="accordion-header"]', function(e) {
-    $(this).parent().find('[tag-name="accordion-content"]').slideToggle(500,"linear");
-    $(this).find('[tag-name="accordion-arrow"] i:first-child').toggle();
+    // $('[tag-name="accordion-content"]').slideUp(500,"linear");
+    // $('[tag-name="accordion-arrow"] i:first-child').hidden();
+
+    // $(this).parent().find('[tag-name="accordion-content"]').slideToggle(500,"linear");
+    // $(this).find('[tag-name="accordion-arrow"] i:first-child').toggle();
+
+
+
+    var $this = $(this);
+    var $content = $this.parent().find('[tag-name="accordion-content"]');
+    var $arrows = $('[tag-name="accordion-arrow"] i:first-child');
+    var $thisArrows =  $this.find('[tag-name="accordion-arrow"] i:first-child');
+  
+      $arrows.removeClass('at-minus-r').addClass('at-plus-r');
+    if (!$content.is(':visible') ) {
+      $thisArrows.removeClass('at-plus-r').addClass('at-minus-r');
+    }
+
+    $('.accordion [tag-name="accordion-content"]').not($content).slideUp(500, "linear"); // 收起非当前折叠内容
+    $content.slideToggle(500, "linear"); // 打开当前折叠内容
+
+
+
+
+
   });
 
   // 移动端轮播处理
@@ -29,7 +52,7 @@ $(function(){
 
   // Header触摸白底
   if($(".template-index").length){
-    $("#header").mouseenter(function(){
+    $("#header").mouseover(function(){
       if(!$(this).hasClass("fadeInDown")){
         $(this).addClass("stickyHeader !absolute !top-auto")
       }

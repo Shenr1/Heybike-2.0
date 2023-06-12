@@ -8,14 +8,14 @@
   {% assign textMtClass = "md:mt-[28%] mt-10" %}
   {%- when "default" -%}
   {% assign imgSizeClass = "md:w-[85%] w-full" %}
-  {% assign textMtClass = "md:mt-[22%] mt-10" %}
+  {% assign textMtClass = "md:mt-[15%] mt-10" %}
   {%- when "small" -%}
   {% assign imgSizeClass = "md:w-[70%] w-full" %}
-  {% assign textMtClass = "md:mt-[15%] mt-10" %}
+  {% assign textMtClass = "md:mt-[12%] mt-10" %}
 {%- endcase -%}
 
   <section section-name="image-list-text" style="background-color:{{secSt.bg_color}};" class="{% render 'section-interva-set' , secSt:secSt %}" >
-    <div class="page-width px-4 mx-auto flex md:flex-row flex-col {% if secSt.bottom_line %}border-solid border-0 border-b border-black-300 pb-8 {% endif %}">
+    <div class="page-width xl:px-4 md:px-8 px-4 mx-auto flex md:flex-row flex-col {% if secSt.bottom_line %}border-solid border-0 border-b border-black-300 pb-8 {% endif %}">
 
       <div class='md:w-[59.5%] flex justify-center items-center {% if secSt.layout == "textImage" %}order-3{%else%}md:order-1 order-3{% endif %}' >
         {{ secSt.img | image_url: width: 1000 | image_tag: width: nil, loading: 'lazy', class:imgSizeClass }}
