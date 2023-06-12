@@ -336,8 +336,9 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "text_main": "Share your lovely moment",
-            "text_sub": "Follow us on Facebook & YouTube",
+            "bg_img": "shopify:\/\/shop_images\/lQDPJyFWi8lReALNAZrNAZWwtR7lJhj7e7gEaz5jiAAMAA_405_410.jpg",
+            "text_main": "Partagez votre moment de bonheur",
+            "text_sub": "Suivez-nous sur Facebook et YouTube",
             "img_link": "shopify:\/\/pages\/photos"
           }
         }
