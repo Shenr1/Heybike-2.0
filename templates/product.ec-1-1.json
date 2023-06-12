@@ -19,7 +19,7 @@
           "settings": {
             "cl": "#000000",
             "fs": 36,
-            "fsm": 150,
+            "fsm": 200,
             "ff": "ft2",
             "fw": "600",
             "transform": "tt-c",
@@ -32,7 +32,7 @@
             "pcl": "#000000",
             "pcls": "#e95144",
             "fs": 30,
-            "fsm": 125,
+            "fsm": 180,
             "pfw": "600",
             "saved": false,
             "taxship": false,
@@ -344,8 +344,8 @@
     "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4": {
       "type": "video",
       "settings": {
-        "top-offeset": "default",
-        "top_padding": "none",
+        "top-offeset": "none",
+        "top_padding": "large",
         "bottom_padding": "large",
         "section_width": false,
         "rounded": true,
