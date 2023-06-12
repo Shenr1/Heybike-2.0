@@ -18,9 +18,9 @@
       {% if secSt.layout == 'textImg' %}{% assign textImg = true %} {% else %} {% assign textImg = false %} {% endif %}
       {% if forloop.length < 3 %} {% assign rounded = 'md:rounded-section' %} {% else %} {% assign rounded = '' %} {% endif %}
 
-      <div class="md:{{ blkSt.slide_w }} {% if ebSlider %}w-4/5{% endif %} {% unless ebSlider %}md:mx-3 last:mr-0 first:ml-0 {% endunless %}
+      <div class="z-20 md:{{ blkSt.slide_w }} {% if ebSlider %}w-4/5{% endif %} {% unless ebSlider %}md:mx-3 last:mr-0 first:ml-0 {% endunless %}
        {% if textImg or ebSlider %}flex{% endif %} flex-col md:m-0 mb-8 relative">  
-        <div class="{{rounded}} rounded-3xl overflow-hidden {% if textImg or ebSlider %}h-full{% endif %} {% if ebSlider %}mx-2{% endif %} {% unless textImg %}md:mb-6{% endunless %} mb-2"
+        <div class="{{ rounded }} rounded-3xl overflow-hidden {% if textImg or ebSlider %}h-full{% endif %} {% if ebSlider %}mx-2{% endif %} {% unless textImg %}md:mb-6{% endunless %} mb-2"
           style="background-color:{{blkSt.bg_color}};">
 
         {% case block.type %} 
@@ -33,12 +33,18 @@
             {% assign sectionClass = "" %}
             {% if blkSt.bg_img_mb != blank %}
             {% assign sectionClass = "md:block hidden" %}
-            <section class="md:hidden block"> {{ blkSt.bg_img_mb | image_url: width: 980 | image_tag: height: blkSt.bg_img_mb.height, class: imgClass, lazyload: true }} </section>
+            <section class="md:hidden block"> {{ blkSt.bg_img_mb | image_url: width: 1280 | image_tag: height: blkSt.bg_img_mb.height, class: imgClass, lazyload: true }} </section>
             {% endif %}
-            <section class="{{ sectionClass }}">{{ blkSt.bg_img | image_url: width: 980 | image_tag: height: blkSt.bg_img.height, class: imgClass, lazyload: true }}</section>
+            <section class="{{ sectionClass }}">{{ blkSt.bg_img | image_url: width: 1280 | image_tag: height: blkSt.bg_img.height, class: imgClass, lazyload: true }}</section>
             {% if blkSt.img_link != blank %} </a> {% endif %}
           {% else %}
-            <div class="video-wrapper"><iframe src="//www.youtube.com/embed/{{ blkSt.video_url.id }}?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe></div>
+
+            {% assign grippyClass = "absolute w-[calc(50%_-_50px)] z-[3] left-0 top-8 bottom-10 before:absolute before:block before:content-[''] before:w-3/5 before:h-[35%] before:left-full before:top-0" %}
+            <div class="relative w-full md:h-96 h-64">
+              <iframe class="absolute w-full h-full z-[2] left-0 top-0" src="//www.youtube.com/embed/{{ blkSt.video_url.id }}" width="850" height="480" frameborder="0" allowfullscreen></iframe>
+              <div class="{{ grippyClass }}"></div>
+              <div class="{{ grippyClass }} left-auto right-0 before:left-auto before:right-full before:top-auto before:bottom-0"></div>
+            </div>
         {% endcase %}
 
         </div>

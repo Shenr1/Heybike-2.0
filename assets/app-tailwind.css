@@ -55,6 +55,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
 .slideshow-wrapper .hbStyle .flickity-page-dots .dot{@apply bg-white rounded-none md:w-2 md:h-2 w-4 h-3 transition-all}
 .slideshow-wrapper .hbStyle .flickity-page-dots .dot.is-selected{@apply bg-vi md:w-8 w-12}
 
+
+.video-wrap__grippy + .video-wrap__grippy { @apply left-auto right-0 before:left-auto before:right-full before:top-auto before:bottom-0; }
+
+
 @media only screen and (max-width:765px) {
     .pr_thumbs_item {@apply md:w-[18.5%] md:mx-[0.3%] mx-1 w-[5.65rem]}
     .product-single .flickity-button{@apply hidden }
