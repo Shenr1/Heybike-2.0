@@ -1316,6 +1316,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   border-width:0px;
 }
 
+.border-4 {
+  border-width:4px;
+}
+
 .border-b {
   border-bottom-width:1px;
 }
@@ -1661,6 +1665,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 
 .pt-5 {
   padding-top:1.25rem;
+}
+
+.pb-1 {
+  padding-bottom:0.25rem;
 }
 
 .text-left {

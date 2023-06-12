@@ -134,7 +134,7 @@
             {% if product.media.size > 0 %}
                 <div class="thumbs_nav {{settings.thumbnail_pos}} pr flickity-enabled{% if settings.product_latyout != "style1" and settings.product_latyout != "style2" %} hide{% endif %}{% if product.media.size == 1 %} hide{% endif %}">
                     <div class="pr_thumbsWr ptw{{ section.id }}">
-                        <div class="pr_thumbs pr_thumbs{{ section.id }}{% if secSt.prthumbs != "bottom" %} f-col-md{% endif %}">
+                        <div class="py-1 pr_thumbs pr_thumbs{{ section.id }}{% if secSt.prthumbs != "bottom" %} f-col-md{% endif %}">
                             {% for media in product.media %}
                                 {%- assign imgNo = forloop.index0 -%}
                                 {% capture thumbImgs %}{{ media | img_url: '100x' }} 100w {{ 100 | divided_by: media.aspect_ratio | round }}h,{{ media | img_url: '200x' }} 200w {{ 200 | divided_by: media.aspect_ratio | round }}h{% endcapture %}
