@@ -64,14 +64,13 @@
       "blocks": {
         "template--19143575175483__746e6059-ac66-40dc-865b-17bd58ed7b6c-168552199358466c63-0": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "layout": "right",
             "title": "CONTACT HEYBIKE",
-            "text": "<p><strong>GENERAL ENQUIRIES: <\/strong>Please check our <a href=\"https:\/\/help.evolveskateboards.com\/en-US\" target=\"_blank\">Help Desk<\/a> first as many questions can be answered immediately. If you still have any questions, please don't hesitate to email us or fill out the form on this page.<br\/><\/p><p><strong>SUPPORT: <\/strong>For support and troubleshooting please check our <a href=\"https:\/\/help.evolveskateboards.com\/en-US\/articles\/troubleshooting-guide-10831\" target=\"_blank\">troubleshooting guide<\/a> first as many problems can be immediately fixed there. If you still have any questions please don't hesitate to contact our Tech Support Team <a href=\"mailto:service@evolveskateboardsusa.com?subject=Inquiry\">here.<\/a><\/p><p>We will respond to all emails within 1 - 2 business days. For urgent assistance you can contact the number below.<\/p><p>Wholesale\/distribution enquiries please email us <a href=\"mailto:trav@evolveskateboards.com?subject=Inquiry\">here<\/a>.<br\/>Collaboration\/Ambassador enquiries please email <a href=\"mailto:collabs@evolveskateboards.com\">collabs@evolveskateboards.com<\/a><\/p>",
+            "text": "<p><strong>GENERAL ENQUIRIES: <\/strong>Please check our Help Desk first as many questions can be answered immediately. If you still have any questions, please don't hesitate to email us or fill out the form on this page.<br\/><br\/><\/p><p><strong>SUPPORT: <\/strong>For support and troubleshooting please check our <a href=\"https:\/\/help.evolveskateboards.com\/en-US\/articles\/troubleshooting-guide-10831\" target=\"_blank\">troubleshooting guide<\/a> first as many problems can be immediately fixed there. If you still have any questions please don't hesitate to contact our Tech Support Team <a href=\"mailto:service@evolveskateboardsusa.com?subject=Inquiry\">here.<\/a><\/p><p>We will respond to all emails within 1 - 2 business days. For urgent assistance you can contact the number below.<\/p><p>Wholesale\/distribution or Collaboration\/Ambassador enquiries please email sales.uk@heybike.com<\/p>",
             "logo_url": "",
             "logo_url2": "",
-            "button_label": "Shop Now",
+            "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
             "tcl": "#000000",
@@ -139,6 +138,7 @@
     },
     "5482db4a-a98c-4c40-a21e-e4e273714733": {
       "type": "contact-form",
+      "disabled": true,
       "settings": {
         "layout": "2",
         "page_Width": 700,
