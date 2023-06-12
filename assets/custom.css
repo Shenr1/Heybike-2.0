@@ -2279,10 +2279,6 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
     width:70%;
   }
 
-  .md\:w-\[85\%\] {
-    width:85%;
-  }
-
   .md\:w-auto {
     width:auto;
   }
@@ -2293,6 +2289,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 
   .md\:w-8 {
     width:2rem;
+  }
+
+  .md\:w-\[85\%\] {
+    width:85%;
   }
 
   .md\:translate-x-0 {

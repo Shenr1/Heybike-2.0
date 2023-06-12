@@ -21,7 +21,7 @@
         {{ secSt.img | image_url: width: 1000 | image_tag: width: nil, loading: 'lazy', class:imgSizeClass }}
       </div>
       <div class="md:w-[40.5%] order-2 flex flex-col md:text-left text-center md:mb-0 mb-6">
-        <div class="md:mr-2 text-center"> 
+        <div class="md:mr-2 md:text-left text-center"> 
           <h1 class="md:text-4_5xl text-2_5xl">{{ secSt.text_main  }}</h1>
           <p class="md:text-lg text-base md:mb-6 mb-4 break-words">{{ secSt.text_sub | newline_to_br }}</p>
           <p class="md:text-lg text-base text-black-600 md:mb-8 mb-4">{{ secSt.text_dec | newline_to_br }}</p>
