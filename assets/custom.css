@@ -846,6 +846,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   order:5;
 }
 
+.order-1 {
+  order:1;
+}
+
 .\!m-0 {
   margin:0px !important;
 }
@@ -2080,6 +2084,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 
   .md\:order-2 {
     order:2;
+  }
+
+  .md\:order-1 {
+    order:1;
   }
 
   .md\:m-0 {
