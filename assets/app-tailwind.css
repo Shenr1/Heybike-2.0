@@ -67,6 +67,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
     .notification-bar__message,
     #newsletter-modal .checkboxlink,
     #newsletter-modal p.sub-text{@apply !text-xs}
+    #MobileNav li a .at{@apply !text-sm}
     .footer-top a{@apply !text-[.925rem]}
     #MobileNav li a,
     .closemmn .at,
@@ -83,8 +84,8 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
     [tag-name = 'logo'],[tag-name = 'reversal-logo']{@apply !w-38 !h-auto !max-w-none}
     .page-width{@apply !px-4}
     .mobile-nav-wrapper{@apply w-60}
-    #MobileNav li a{@apply py-2}
-    .closemmn{@apply right-10 w-10 h-10}
+    #MobileNav li a{@apply py-3}
+    .closemmn{@apply -right-10 w-10 h-10}
     [section-name = 'products-slider-full']{@apply !bg-none}
     #newsletter-modal,
     #newsletter-modal .wraptext{@apply !max-w-sm}

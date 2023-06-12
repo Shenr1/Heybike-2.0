@@ -336,6 +336,11 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
     line-height:1rem !important;
   }
 
+  #MobileNav li a .at {
+    font-size:0.875rem !important;
+    line-height:1.25rem !important;
+  }
+
   .footer-top a {
     font-size:.925rem !important;
   }
@@ -384,12 +389,12 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   }
 
   #MobileNav li a {
-    padding-top:0.5rem;
-    padding-bottom:0.5rem;
+    padding-top:0.75rem;
+    padding-bottom:0.75rem;
   }
 
   .closemmn {
-    right:2.5rem;
+    right:-2.5rem;
     height:2.5rem;
     width:2.5rem;
   }

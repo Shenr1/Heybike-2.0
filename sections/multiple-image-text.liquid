@@ -25,7 +25,7 @@
 
         {% case block.type %} 
           {% when "image" %}
-            {% assign imgClass = 'object-cover block w-full h-auto' %}
+            {% assign imgClass = 'object-cover block w-full ' %}
             {% if blkSt.img_link != blank %} 
             {% assign imgClass = 'object-cover block w-full enlarge h-auto' %}
             <a href="{{ blkSt.img_link }}" > 
