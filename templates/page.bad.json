@@ -267,13 +267,13 @@
         "max-width": 800,
         "tcl": "#eeeeee",
         "tbg": "#333333",
-        "tfs": 24,
-        "tfsm": 18,
+        "tfs": 40,
+        "tfsm": 55,
         "tff": "ft2",
         "tfw": "600",
         "qcl": "#333333",
-        "qfs": 16,
-        "qfsm": 14,
+        "qfs": 26,
+        "qfsm": 55,
         "qfw": "400"
       }
     },
