@@ -62,7 +62,7 @@
         "900c2863-7a02-4344-845e-386c8248bc4d": {
           "type": "text",
           "settings": {
-            "text": "Order now, and get a FREE Helmet and Pannier Bag!",
+            "text": "<b>Order now, and get a FREE Helmet and Pannier Bag!<\/b>",
             "cl": "#999999",
             "addbg": false,
             "bg": "#f5f5f5",
