@@ -478,7 +478,7 @@
       ],
       "settings": {
         "top_padding": "large",
-        "bottom_padding": "extraLarge",
+        "bottom_padding": "large",
         "top-offeset": "none",
         "section_style": "heybike",
         "section_width": false,
