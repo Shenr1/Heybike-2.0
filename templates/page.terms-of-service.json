@@ -61,7 +61,6 @@
     },
     "page": {
       "type": "page-template",
-      "disabled": true,
       "settings": {
         "section_width": false,
         "hide_hdft": false,
