@@ -25,9 +25,9 @@
 	{% endif %}
 	<div class="pr w_100{% if secSt.tac %} tc{% endif %}" style="max-width:{{secSt.bnr-wd}}px;padding:0 15px;">
 		{% if secSt.show_collection_name %}
-            <h1 class="bnrTtl ttlTxt mb{{secSt.tmbm}} mb{{secSt.tmb}}-md{%  if secSt.tcase %} tt-u{% endif %}" style="--tcl:{{secSt.tcl}};--tfs:{{secSt.tfs}}px;--tfsm:{{secSt.tfsm}}px;--tff:var(--{{secSt.tff}});--tfw:{{secSt.tfw}};--tlh:{{secSt.tlh}};">{{ collection.title }}</h1>
+            <h1 class="bnrTtl ttlTxt mb{{secSt.tmbm}} mb{{secSt.tmb}}-md{%  if secSt.tcase %} tt-u{% endif %}" style="--tcl:{{secSt.tcl}};--tfs:{{secSt.tfs}}px;--tfsm:{{secSt.tfsm | divided_by: 100.0 }}rem;--tff:var(--{{secSt.tff}});--tfw:{{secSt.tfw}};--tlh:{{secSt.tlh}};">{{ collection.title }}</h1>
         {% endif %}
-		{% if secSt.bnr_desc != blank %}<div class="clbnDes ttlTxt mb{{secSt.dmbm}} mb{{secSt.dmb}}-md" style="--tcl:{{secSt.dcl}};--tfs:{{secSt.dfs}}px;--tfsm:{{secSt.dfsm}}px;--tlh:{{secSt.dlh}};">{{ secSt.bnr_desc }}</div>{% endif %}
+		{% if secSt.bnr_desc != blank %}<div class="clbnDes ttlTxt mb{{secSt.dmbm}} mb{{secSt.dmb}}-md" style="--tcl:{{secSt.dcl}};--tfs:{{secSt.dfs}}px;--tfsm:{{secSt.dfsm | divided_by: 100.0 }}rem;--tlh:{{secSt.dlh}};">{{ secSt.bnr_desc }}</div>{% endif %}
 		{% if secSt.bnr_count != blank %}<div class="heroSaleTime atCounter mb0" style="--cl:{{ secSt.ccl }};--bg:{{ secSt.cbg }};" data-date="{{secSt.bnr_count| date: '%FT%T'}}"><span><span class="tm days">00</span>{{'date_formats.days' | t}}</span><span><span class="tm hours">00</span>{{ 'date_formats.hours' | t }}</span><span><span class="tm minutes">00</span>{{'date_formats.minuts' | t}}</span><span><span class="tm seconds">00</span>{{'date_formats.seconds' | t}}</span></div>{% endif %}
 	</div>
   </div>
@@ -73,7 +73,7 @@
 		{% if secSt.bnr and secSt.banner_position != "top" %}{{collectionBanner}}<div class="mb20">&nbsp;</div>{% endif %}  		         
         
         {% unless secSt.show_collection_name and secSt.bnr %}
-            <h1 class="bnrTtl ttlTxt mb{{secSt.tmbm}} mb{{secSt.tmb}}-md{%  if secSt.tcase %} tt-u{% endif %}{% if secSt.tac %} tc{% endif %}" style="--tcl:{{secSt.tcl}};--tfs:{{secSt.tfs}}px;--tfsm:{{secSt.tfsm}}px;--tff:var(--{{secSt.tff}});--tfw:{{secSt.tfw}};--tlh:{{secSt.tlh}};">{{ collection.title }}</h1>     
+            <h1 class="bnrTtl ttlTxt mb{{secSt.tmbm}} mb{{secSt.tmb}}-md{%  if secSt.tcase %} tt-u{% endif %}{% if secSt.tac %} tc{% endif %}" style="--tcl:{{secSt.tcl}};--tfs:{{secSt.tfs}}px;--tfsm:{{secSt.tfsm | divided_by: 100.0 }}rem;--tff:var(--{{secSt.tff}});--tfw:{{secSt.tfw}};--tlh:{{secSt.tlh}};">{{ collection.title }}</h1>     
         {% endunless %}
         {% if secSt.collection-des == "top" and collection.description != blank %}<div class="collection-description rte">{{ collection.description }}</div>{% endif %}      
         <div class="productList">
@@ -150,7 +150,7 @@
             {% for product in collection.products %}
               {% assign box_animation_time = forloop.index | minus:1 %}
               {% assign delay_time = 100 | times : box_animation_time %}
-              <div class="list-view-item fl pr f-aic f-col f-row-md wow fadeInUp mb30" data-wow-delay="{{delay_time}}ms">{% render 'product-card-list', product: product, secSt: secSt, sizes: '130,280,400' %}</div>
+              <div class="list-view-item fl pr f-aic md:flex-col flex-row f-row-md wow fadeInUp mb30" data-wow-delay="{{delay_time}}ms">{% render 'product-card-list', product: product, secSt: secSt, sizes: '130,280,400' %}</div>
             {% else %}
               {% comment %}The onboarding styles and products are only loaded if the store has no products.{% endcomment %}
               {% if collection.handle == 'all' and collection.all_vendors.size == 0 and collection.all_types.size == 0%}
@@ -336,11 +336,11 @@
           "type": "range",
           "id": "tfsm",
           "label": "Font Size (mobile)",
-          "default": 26,
-          "min": 10,
-          "max": 60,
-          "step": 1,
-          "unit": "px"
+          "default": 100,
+          "min": 50,
+          "max": 300,
+          "step": 5,
+          "unit": "%"
       },
       {
           "type": "select",
@@ -452,11 +452,11 @@
           "type": "range",
           "id": "dfsm",
           "label": "Font Size (mobile)",
-          "default": 13,
-          "min": 10,
-          "max": 60,
-          "step": 1,
-          "unit": "px"
+          "default": 85,
+          "min": 50,
+          "max": 300,
+          "step": 5,
+          "unit": "%"
       }, 	
       {
           "type": "range",

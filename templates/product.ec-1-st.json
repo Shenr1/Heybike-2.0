@@ -1,14 +1,9 @@
 {
   "sections": {
-    "29369a63-663e-49a0-9bd8-58148a9ee550": {
-      "type": "custom-liquid",
+    "7c8f87cd-07c2-4d60-b02a-fc26e48095a5": {
+      "type": "product-anchor",
       "settings": {
-        "title": "",
-        "subtitle": "",
-        "custom_liquid": "<article id=\"nav-features\"><\/article>",
-        "top-offeset": "none",
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa"
+        "anchor_id": "nav-features"
       }
     },
     "product": {
@@ -19,7 +14,7 @@
           "settings": {
             "cl": "#000000",
             "fs": 36,
-            "fsm": 24,
+            "fsm": 180,
             "ff": "ft2",
             "fw": "600",
             "transform": "tt-c",
@@ -32,7 +27,7 @@
             "pcl": "#000000",
             "pcls": "#e95144",
             "fs": 30,
-            "fsm": 20,
+            "fsm": 150,
             "pfw": "600",
             "saved": false,
             "taxship": false,
@@ -45,7 +40,7 @@
             "title": "More colors",
             "cl": "#000000",
             "fs": 16,
-            "fsm": 16,
+            "fsm": 100,
             "fw": "600",
             "wd": 100,
             "bd": "#000000",
@@ -121,7 +116,14 @@
         "75a78218-e9d0-4681-b8f1-d4b99318f5b7"
       ],
       "settings": {
-        "section_width": false
+        "section_width": false,
+        "anchor1": "Features",
+        "anchor_href1": "nav-features",
+        "anchor2": "Specifications",
+        "anchor_href2": "nav-specifications",
+        "anchor3": "Reviews",
+        "anchor_href3": "nav-reviews",
+        "tabs_nav": true
       }
     },
     "upsell": {
@@ -343,7 +345,7 @@
         "title": "",
         "color_ttl": "#ffffff",
         "tfs": 20,
-        "tfsm": 12,
+        "tfsm": 75,
         "hide_text": false,
         "btntxt": "",
         "btnurl": "",
@@ -580,6 +582,7 @@
             "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
+            "text_center": true,
             "tcl": "#000000",
             "cl": "#000000",
             "bg": "#f5f5f5",
@@ -603,14 +606,14 @@
         "snow_effect": false,
         "snow_style": "style1",
         "tfs": 30,
-        "tfsm": 22,
+        "tfsm": 150,
         "tff": "ft1",
         "tfw": "700",
         "tlh": 1.2,
         "tmb": 15,
         "tmbm": 10,
         "fs": 14,
-        "fsm": 12,
+        "fsm": 75,
         "fw": "400",
         "lh": 1.6,
         "mb": 15,
@@ -619,15 +622,10 @@
         "btn-size-mob": "mob-btn-sm"
       }
     },
-    "286ef3df-4b4b-4252-9fb2-4c7f64f4dda4": {
-      "type": "custom-liquid",
+    "32e46169-5f1d-45ab-8765-2b6eda818fa8": {
+      "type": "product-anchor",
       "settings": {
-        "title": "",
-        "subtitle": "",
-        "custom_liquid": "<article id=\"nav-specifications\"><\/article>",
-        "top-offeset": "none",
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa"
+        "anchor_id": "nav-specifications"
       }
     },
     "b832809d-c477-4c3b-a13f-acb6501dceec": {
@@ -724,7 +722,7 @@
         "34d82dd4-4589-44a3-8a94-84134067f971": {
           "type": "video",
           "settings": {
-            "slide_w": "w-1\/3",
+            "slide_w": "w-2\/3",
             "bg_color": "",
             "video_url": "https:\/\/www.youtube.com\/watch?v=aqUZWdzBEoQ",
             "text_main": "",
@@ -734,7 +732,7 @@
         "061ccc1b-95bb-4147-bfcd-d264635cfafb": {
           "type": "video",
           "settings": {
-            "slide_w": "w-1\/3",
+            "slide_w": "w-2\/3",
             "bg_color": "",
             "video_url": "https:\/\/www.youtube.com\/watch?v=EejV1lDYDnI",
             "text_main": "",
@@ -744,7 +742,7 @@
         "bfd3caac-3459-4b88-a706-8828f77c6c8a": {
           "type": "video",
           "settings": {
-            "slide_w": "w-1\/3",
+            "slide_w": "w-2\/3",
             "bg_color": "",
             "video_url": "https:\/\/www.youtube.com\/watch?v=xTCRU3mP1e4&list=PLY2mr2usEhKFruo7hTcclMWxJFgQ6E4WA",
             "text_main": "",
@@ -754,7 +752,7 @@
         "033d0f0f-4ee3-4457-87a7-add32b86ed90": {
           "type": "video",
           "settings": {
-            "slide_w": "w-1\/3",
+            "slide_w": "w-2\/3",
             "bg_color": "",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_YVxfTO10Eo",
             "text_main": "",
@@ -764,7 +762,7 @@
         "28807607-3f72-4bcf-b00c-d0b40fe3e1e6": {
           "type": "video",
           "settings": {
-            "slide_w": "w-1\/3",
+            "slide_w": "w-2\/3",
             "bg_color": "",
             "video_url": "https:\/\/www.youtube.com\/watch?v=rm2q-c78I3k",
             "text_main": "",
@@ -774,7 +772,7 @@
         "faceb785-b8e4-41fa-b66e-a5b5cf3c7b1c": {
           "type": "video",
           "settings": {
-            "slide_w": "w-1\/3",
+            "slide_w": "w-2\/3",
             "bg_color": "",
             "video_url": "https:\/\/www.youtube.com\/watch?v=9UgCYLNXM3w",
             "text_main": "",
@@ -784,7 +782,7 @@
         "988774fe-8a7f-43c0-bdf7-896464c3a981": {
           "type": "video",
           "settings": {
-            "slide_w": "w-1\/3",
+            "slide_w": "w-2\/3",
             "bg_color": "",
             "video_url": "https:\/\/www.youtube.com\/watch?v=1F-nPjs-tqs",
             "text_main": "",
@@ -794,7 +792,7 @@
         "aa916361-3a58-419b-ac8a-909857b6bd90": {
           "type": "video",
           "settings": {
-            "slide_w": "w-1\/3",
+            "slide_w": "w-2\/3",
             "bg_color": "",
             "video_url": "https:\/\/www.youtube.com\/watch?v=ZY8hAbtu4d8",
             "text_main": "",
@@ -920,8 +918,8 @@
         ".sec-ttl .h3,div.sec-ttl p {color: #fff;}"
       ],
       "settings": {
-        "top_padding": "medium",
-        "bottom_padding": "small",
+        "top_padding": "large",
+        "bottom_padding": "large",
         "top-offeset": "none",
         "section_style": "heybike",
         "section_width": false,
@@ -936,28 +934,22 @@
         "isz": 53,
         "tcl": "#ffffff",
         "tfs": 24,
-        "tfsm": 20,
+        "tfsm": 100,
         "tfw": "600",
         "tlh": 1.2,
         "cl": "#eeeeee",
         "border_sep": "rgba(0,0,0,0)"
       }
     },
-    "e3a92eba-3e67-4b48-9a4d-6d63ed097c70": {
-      "type": "custom-liquid",
-      "disabled": true,
+    "d1415328-b82f-4a03-8fe0-cbc736860f33": {
+      "type": "product-anchor",
       "settings": {
-        "title": "",
-        "subtitle": "",
-        "custom_liquid": "<article id=\"nav-reviews\"><\/article>",
-        "top-offeset": "none",
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa"
+        "anchor_id": "nav-reviews"
       }
     }
   },
   "order": [
-    "29369a63-663e-49a0-9bd8-58148a9ee550",
+    "7c8f87cd-07c2-4d60-b02a-fc26e48095a5",
     "product",
     "upsell",
     "tabs",
@@ -972,11 +964,11 @@
     "57d28d3e-e7d1-4115-8f16-31ef4e965106",
     "532d629b-5414-439a-9833-fe4f04d408f2",
     "a8ffb222-813d-463f-9e86-871bceb908a5",
-    "286ef3df-4b4b-4252-9fb2-4c7f64f4dda4",
+    "32e46169-5f1d-45ab-8765-2b6eda818fa8",
     "b832809d-c477-4c3b-a13f-acb6501dceec",
     "a96d37af-dc7b-43f1-8f0b-23018e00eaf4",
     "22f50d3e-5443-46e2-a356-2469bdea240d",
     "dd234409-19b7-4258-8b98-44063da04a59",
-    "e3a92eba-3e67-4b48-9a4d-6d63ed097c70"
+    "d1415328-b82f-4a03-8fe0-cbc736860f33"
   ]
 }

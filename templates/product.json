@@ -19,7 +19,7 @@
           "settings": {
             "cl": "#000000",
             "fs": 36,
-            "fsm": 24,
+            "fsm": 150,
             "ff": "ft2",
             "fw": "600",
             "transform": "tt-c",
@@ -32,7 +32,7 @@
             "pcl": "#000000",
             "pcls": "#e95144",
             "fs": 30,
-            "fsm": 20,
+            "fsm": 125,
             "pfw": "600",
             "saved": false,
             "taxship": false,
@@ -45,7 +45,7 @@
             "title": "More colors",
             "cl": "#000000",
             "fs": 16,
-            "fsm": 16,
+            "fsm": 100,
             "fw": "600",
             "wd": 100,
             "bd": "#000000",
@@ -61,6 +61,7 @@
         },
         "900c2863-7a02-4344-845e-386c8248bc4d": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Order now, get FREE Mudguards & Kickstand!",
             "cl": "#999999",
@@ -72,6 +73,7 @@
         },
         "dba108ba-fba9-466d-afd3-21f64c8a1db7": {
           "type": "giveaways",
+          "disabled": true,
           "settings": {
             "title": "Urban Ebike Helmet",
             "price": "6500",
@@ -81,20 +83,12 @@
         },
         "ca52189d-109d-45f5-91c5-d195b2c24af3": {
           "type": "giveaways",
+          "disabled": true,
           "settings": {
             "title": "Bike Rack Pannier Bag",
             "price": "7500",
             "tag": "FREE",
             "Image": "shopify:\/\/shop_images\/1_cb2c2dd4-3923-4b6c-b811-ad94e60c7caa.jpg"
-          }
-        },
-        "7ff82dc7-abaf-42c2-a8c8-d415a91325d5": {
-          "type": "giveaways",
-          "settings": {
-            "title": "Foot Support",
-            "price": "3500",
-            "tag": "FREE",
-            "Image": "shopify:\/\/shop_images\/1_65c744a7-6512-40ba-b565-ca8c0c4e7b72.png"
           }
         },
         "3e5ff436-8638-45b7-a3ce-b36263b34395": {
@@ -112,9 +106,9 @@
             "text1": "Free shipping",
             "text2": "VAT included",
             "text3": "1-year warranty",
-            "icon1": "shopify:\/\/shop_images\/646653b0ac6b117df7f13ce8570d0e38_ab1303c8-a54e-47d4-999d-44eeabc4aa8c.png",
-            "icon2": "shopify:\/\/shop_images\/25a2ae4f3aeacec2f66ab92e67040928_29841172-068c-444e-8995-be304cc5fc24.png",
-            "icon3": "shopify:\/\/shop_images\/a8c3ad982099abeca6bbdb913b166a0e_c4cecf57-e225-4816-b140-46dc840131f7.png"
+            "icon1": "shopify:\/\/shop_images\/01icon.png",
+            "icon2": "shopify:\/\/shop_images\/02icon.png",
+            "icon3": "shopify:\/\/shop_images\/03icon.png"
           }
         }
       },
@@ -126,12 +120,18 @@
         "900c2863-7a02-4344-845e-386c8248bc4d",
         "dba108ba-fba9-466d-afd3-21f64c8a1db7",
         "ca52189d-109d-45f5-91c5-d195b2c24af3",
-        "7ff82dc7-abaf-42c2-a8c8-d415a91325d5",
         "3e5ff436-8638-45b7-a3ce-b36263b34395",
         "75a78218-e9d0-4681-b8f1-d4b99318f5b7"
       ],
       "settings": {
-        "section_width": false
+        "section_width": false,
+        "anchor1": "Features",
+        "anchor_href1": "nav-features",
+        "anchor2": "Specifications",
+        "anchor_href2": "nav-specifications",
+        "anchor3": "Reviews",
+        "anchor_href3": "nav-reviews",
+        "tabs_nav": false
       }
     },
     "upsell": {
@@ -269,6 +269,7 @@
     },
     "9359a303-aa3a-4726-b58e-f9e8bc1ffa0c": {
       "type": "image-list-text",
+      "disabled": true,
       "blocks": {
         "47ff9f65-a513-4378-86dd-760e66cf239c": {
           "type": "item",
@@ -330,7 +331,6 @@
         "bg_color": "#f5f5f5",
         "layout": "textImage",
         "img_size": "big",
-        "img": "shopify:\/\/shop_images\/dadf88a3f619898d09aec8a7ffd3123a.png",
         "text_main": "Reframing The Future",
         "text_sub": "EC 1-ST's streamlined form allows it to move like a gazelle through the congested city streets, getting to locations that are inaccessible to cars.",
         "text_dec": "Women may comfortably wear their dresses and shop in style thanks to the low frame design.",
@@ -339,6 +339,7 @@
     },
     "c9dbe5e5-19b2-4769-9fd9-a600c03bdb17": {
       "type": "image-list-text",
+      "disabled": true,
       "blocks": {
         "de3cbb43-265d-4140-8bf7-0d8250145964": {
           "type": "item",
@@ -382,6 +383,7 @@
     },
     "57d28d3e-e7d1-4115-8f16-31ef4e965106": {
       "type": "image-list-text",
+      "disabled": true,
       "blocks": {
         "9fd2177b-abb0-41fe-919b-05236366cb6f": {
           "type": "item",
@@ -425,6 +427,7 @@
     },
     "532d629b-5414-439a-9833-fe4f04d408f2": {
       "type": "multiple-image-text",
+      "disabled": true,
       "blocks": {
         "01473a8c-f8f3-4061-8171-24367981f33e": {
           "type": "image",
@@ -473,19 +476,18 @@
     },
     "b5bc4525-2802-4e9d-acbe-44c6ddd2167c": {
       "type": "color-slider-full",
+      "disabled": true,
       "blocks": {
         "42b01243-65bf-4d68-93ef-f11af85385a1": {
           "type": "slide",
           "settings": {
-            "color": "#000000",
-            "image": "shopify:\/\/shop_images\/46b2a74aeb513a93d28c84bb6b472853.png"
+            "color": "#000000"
           }
         },
         "3f2b5db7-4454-454d-a182-9e69238708a7": {
           "type": "slide",
           "settings": {
-            "color": "#fffbea",
-            "image": "shopify:\/\/shop_images\/e3b2aca719d85100108a864fbb473d4c.png"
+            "color": "#fffbea"
           }
         },
         "3491c024-f7d7-4349-9f63-aa201626f2bf": {
@@ -511,6 +513,7 @@
     },
     "d4b5c56e-c26a-4b14-977c-38e23d8137ca": {
       "type": "section-space",
+      "disabled": true,
       "settings": {
         "sdesk": 30,
         "mdesk": 15,
@@ -519,8 +522,11 @@
     },
     "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "top-offeset": "default",
+        "top_padding": "none",
+        "bottom_padding": "large",
         "section_width": false,
         "rounded": true,
         "hide_mobile": false,
@@ -534,7 +540,7 @@
         "title": "",
         "color_ttl": "#ffffff",
         "tfs": 20,
-        "tfsm": 12,
+        "tfsm": 75,
         "hide_text": false,
         "btntxt": "",
         "btnurl": "",
@@ -553,6 +559,7 @@
     },
     "a8ffb222-813d-463f-9e86-871bceb908a5": {
       "type": "banner-with-text",
+      "disabled": true,
       "blocks": {
         "template--19143574815035__a8ffb222-813d-463f-9e86-871bceb908a5-1684996746297eb402-0": {
           "type": "row",
@@ -562,9 +569,12 @@
             "title": "Smarttech and APP",
             "text": "<p>Your amazing rides deserve a journal! Connect your bike to the HEYBIKE App, and build an impressive mileage count!<\/p>",
             "bottom_logo": "shopify:\/\/shop_images\/app-store.webp",
+            "logo_url": "",
+            "logo_url2": "",
             "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
+            "text_center": false,
             "tcl": "#000000",
             "cl": "#000000",
             "bg": "#f5f5f5",
@@ -588,14 +598,14 @@
         "snow_effect": false,
         "snow_style": "style1",
         "tfs": 30,
-        "tfsm": 22,
+        "tfsm": 150,
         "tff": "ft1",
         "tfw": "700",
         "tlh": 1.2,
         "tmb": 15,
         "tmbm": 10,
         "fs": 14,
-        "fsm": 12,
+        "fsm": 75,
         "fw": "400",
         "lh": 1.6,
         "mb": 15,
@@ -606,6 +616,7 @@
     },
     "286ef3df-4b4b-4252-9fb2-4c7f64f4dda4": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "title": "",
         "subtitle": "",
@@ -617,6 +628,7 @@
     },
     "b832809d-c477-4c3b-a13f-acb6501dceec": {
       "type": "accordion",
+      "disabled": true,
       "blocks": {
         "4b9baf99-1d5e-4b05-94c6-37d9a3d707a8": {
           "type": "objList",
@@ -668,6 +680,7 @@
     },
     "a96d37af-dc7b-43f1-8f0b-23018e00eaf4": {
       "type": "multiple-image-text",
+      "disabled": true,
       "blocks": {
         "033d0f0f-4ee3-4457-87a7-add32b86ed90": {
           "type": "video",
@@ -716,6 +729,7 @@
     },
     "22f50d3e-5443-46e2-a356-2469bdea240d": {
       "type": "logo-slider",
+      "disabled": true,
       "blocks": {
         "1db61a36-a277-4c68-acad-574b812f8fc6": {
           "type": "slide",
@@ -757,6 +771,7 @@
     },
     "dd234409-19b7-4258-8b98-44063da04a59": {
       "type": "store-features",
+      "disabled": true,
       "blocks": {
         "template--19143574815035__dd234409-19b7-4258-8b98-44063da04a59-1685018564825caa03-0": {
           "type": "text_block",
@@ -811,7 +826,7 @@
         "isz": 75,
         "tcl": "#ffffff",
         "tfs": 24,
-        "tfsm": 20,
+        "tfsm": 100,
         "tfw": "600",
         "tlh": 1.2,
         "cl": "#eeeeee",

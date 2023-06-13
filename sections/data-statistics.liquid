@@ -2,25 +2,28 @@
 
 <section section-name="data-statistics" class="{% render 'section-interva-set' , secSt:secSt %}" >
 
-  <div class="page-width px-4">
-    <div class="md:rounded-section rounded-3xl flex md:flex-row flex-col justify-between overflow-hidden" style="background-color: {{ secSt.bg_color }};">
-      <div class="md:p-12 md:pb-0 px-3 md:w-[62%]">
-        <h1 class="md:text-[2.625rem] text-3xl md:pt-0 pt-5 md:pb-9 pb-5 border-0 border-b-2 border-solid border-black-300 mb-0 relative
+  <div class="page-width xl:px-4 md:px-8 px-6">
+    <div class="md:rounded-section rounded-4xl flex md:flex-row flex-col justify-between overflow-hidden" style="background-color: {{ secSt.bg_color }};">
+      <div class="md:p-12 md:pb-0 px-3 pb-4 md:w-[62%]">
+        <h1 class="xl:text-[2.625rem] md:text-4xl text-2xl md:pt-0 pt-5 md:pb-12 pb-5 border-0 border-b-2 border-solid border-black-300 mb-0 relative
         after:content-[''] after:h-[2px] after:w-1/4 after:bg-black-900 after:block after:absolute after:-bottom-[2px]">{{ secSt.title }}</h1>
-        <div class="md:mt-10 mt-6 flex flex-wrap">
+        <div class="md:mt-12 mt-6 flex flex-wrap">
           {% for block in section.blocks %}
-          <div class="w-1/2 mb-10">
+          <div class="w-1/2 md:mb-10 mb-5">
             <div class="flex items-end font-medium">
-              <p class="lg:text-4xl md:text-2xl text-xl mb-0">{{block.settings.text_main}}</p>
-              <p class="md:text-[1.25rem] text-base md:ml-2 ml-1">{{block.settings.text_suf}}</p>
+              <p class="lg:text-4xl text-1_5xl mb-0">{{block.settings.text_main}}</p>
+              <p class="md:text-[1.25rem] text-sm md:ml-2 ml-1">{{block.settings.text_suf}}</p>
             </div>
-            <p class="text-md">{{block.settings.text_sub}}</p>
+            <p class="md:text-base text-sm">{{block.settings.text_sub}}</p>
           </div>
           {% endfor %}
         </div>
       </div>
-      <div class="border-0 border-l-[.5rem] border-solid border-white md:w-[38%]">
-        <img class="h-full object-cover block w-full" src="{{ secSt.image | image_url: master }}">
+      <div class="border-0 md:border-l-[.5rem] md:border-t-0 border-t-[.5rem] border-solid border-white md:w-[38%]">
+        {{ secSt.image | image_url: width: 1280 | image_tag: height: secSt.image.height, class: 'h-full object-cover md:block hidden w-full' }}
+        {% if secSt.image_mb != blank %}
+        {{ secSt.image_mb | image_url: width: 1280 | image_tag: height: secSt.image_mb.height, class: 'h-full object-cover md:hidden block w-full' }}
+        {% endif %}
       </div>
     </div>
   </div>
@@ -118,6 +121,11 @@
         "type": "image_picker",
         "id": "image",
         "label": "Right image"
+      },
+ 		  {
+        "type": "image_picker",
+        "id": "image_mb",
+        "label": "Right image(mobile)"
       }
     ],
     "blocks":[
