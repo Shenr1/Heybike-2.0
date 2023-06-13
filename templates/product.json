@@ -91,16 +91,6 @@
             "Image": "shopify:\/\/shop_images\/1_cb2c2dd4-3923-4b6c-b811-ad94e60c7caa.jpg"
           }
         },
-        "7ff82dc7-abaf-42c2-a8c8-d415a91325d5": {
-          "type": "giveaways",
-          "disabled": true,
-          "settings": {
-            "title": "Foot Support",
-            "price": "3500",
-            "tag": "FREE",
-            "Image": "shopify:\/\/shop_images\/1_65c744a7-6512-40ba-b565-ca8c0c4e7b72.png"
-          }
-        },
         "3e5ff436-8638-45b7-a3ce-b36263b34395": {
           "type": "img",
           "settings": {
@@ -130,7 +120,6 @@
         "900c2863-7a02-4344-845e-386c8248bc4d",
         "dba108ba-fba9-466d-afd3-21f64c8a1db7",
         "ca52189d-109d-45f5-91c5-d195b2c24af3",
-        "7ff82dc7-abaf-42c2-a8c8-d415a91325d5",
         "3e5ff436-8638-45b7-a3ce-b36263b34395",
         "75a78218-e9d0-4681-b8f1-d4b99318f5b7"
       ],
