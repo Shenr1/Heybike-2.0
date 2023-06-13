@@ -300,7 +300,7 @@
             "type": "megamenuHb",
             "settings": {
               "title": "Equipment",
-              "url": "",
+              "url": "shopify:\/\/collections\/equipment",
               "mm_linklist": "accessories",
               "text_main1": "",
               "text_sub1": "",
