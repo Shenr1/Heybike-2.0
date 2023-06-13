@@ -6,15 +6,15 @@
     {% assign spanClass = 'w-11 h-11 flex items-center justify-center rounded-full border-solid border border-black-300 md:mb-2 mb-1' %}
     
       <li class="{{liClass}}"> 
-        <span class="{{spanClass}}"> {{ block.icon1 | image_url: width : "300px" | image_tag: width: nil, class: 'md:w-auto max-w-4/5' }} </span>
+        <span class="{{ spanClass }}"> {{ block.icon1 | image_url: width : "300px" | image_tag: width: nil, class: 'md:w-auto max-w-2/3' }} </span>
         <p>{{ block.text1 }}</p>
       </li>
       <li class="{{liClass}}">
-        <span class="{{spanClass}}"> {{ block.icon2 | image_url: width : "300px" | image_tag: width: nil, class: 'md:w-auto max-w-4/5' }} </span>
+        <span class="{{ spanClass }}"> {{ block.icon2 | image_url: width : "300px" | image_tag: width: nil, class: 'md:w-auto max-w-2/3' }} </span>
         <p>{{ block.text2 }}</p>
       </li>
       <li class="{{liClass}}">
-        <span class="{{spanClass}}"> {{ block.icon3 | image_url: width : "300px" | image_tag: width: nil, class: 'md:w-auto max-w-4/5' }} </span>
+        <span class="{{ spanClass }}"> {{ block.icon3 | image_url: width : "300px" | image_tag: width: nil, class: 'md:w-auto max-w-2/3' }} </span>
         <p>{{ block.text3 }}</p>
       </li>
     </ul>
