@@ -19,7 +19,7 @@
           "settings": {
             "cl": "#000000",
             "fs": 36,
-            "fsm": 200,
+            "fsm": 180,
             "ff": "ft2",
             "fw": "600",
             "transform": "tt-c",
@@ -587,6 +587,7 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/App_770x680_862b21cd-2498-4673-bfd2-b21c2dab86d6.png",
+            "image_mb": "shopify:\/\/shop_images\/1_78fe76ad-8b30-4b52-87cf-20fc71f865ee.jpg",
             "layout": "right",
             "title": "Smarttech and APP",
             "text": "<p>Your amazing rides deserve a journal! Connect your bike to the HEYBIKE App, and build an impressive mileage count!<\/p>",
