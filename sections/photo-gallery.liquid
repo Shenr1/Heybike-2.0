@@ -5,8 +5,8 @@
      {% render 'sec-title' %}
 
      {% capture styles %}
-          --tcl:{{secSt.tcl}};--tfs:{{secSt.tfs}}px;--tfsm:{{secSt.tfsm | divided_by: 100.0 }}rem;--tff:var(--{{secSt.tff}});--tfw:{{secSt.tfw}};--tlh:{{secSt.tlh}};
-          --cl:{{secSt.cl}};--fs:{{secSt.fs}}px;--fsm:{{secSt.fsm | divided_by: 100.0 }}rem;--fw:{{secSt.fw}};--tlh:{{secSt.lh}};
+          --tcl:{{secSt.tcl}};--tfs:{{secSt.tfs}}px;--tfsm:{{secSt.tfsm}}px;--tff:var(--{{secSt.tff}});--tfw:{{secSt.tfw}};--tlh:{{secSt.tlh}};
+          --cl:{{secSt.cl}};--fs:{{secSt.fs}}px;--fsm:{{secSt.fsm}}px;--fw:{{secSt.fw}};--tlh:{{secSt.lh}};
           --bg:{{secSt.bg | color_modify: 'alpha', secSt.opt}};--zcl:{{secSt.zoom_text }};--zbg:{{ secSt.zoom_bg }};
      {% endcapture %}
      <div class="grid gspace lookbook grid-masonary gallery grid-mr" 
@@ -163,11 +163,11 @@
             "type": "range",
             "id": "tfsm",
             "label": "Font Size (mobile)",
-            "default": 100,
-            "min": 50,
-            "max": 300,
-            "step": 5,
-            "unit": "%"
+            "default": 15,
+            "min": 10,
+            "max": 60,
+            "step": 1,
+            "unit": "px"
         },
         {
             "type": "select",
@@ -251,11 +251,11 @@
             "type": "range",
             "id": "fsm",
             "label": "Font Size (mobile)",
-            "default": 85,
-            "min": 50,
-            "max": 300,
-            "step": 5,
-            "unit": "%"
+            "default": 13,
+            "min": 10,
+            "max": 60,
+            "step": 1,
+            "unit": "px"
         },
         {
             "type": "select",

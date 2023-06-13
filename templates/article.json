@@ -5,6 +5,7 @@
       "blocks": {
         "4719c871-5612-465a-a169-c71ed12eb496": {
           "type": "search",
+          "disabled": true,
           "settings": {
             "title": ""
           }
@@ -13,7 +14,7 @@
           "type": "products",
           "settings": {
             "title": "Popular Products",
-            "sidebar_products": "electric-bike",
+            "sidebar_products": "velo-electrique",
             "num_of_products": "3",
             "side_all_products": false,
             "btn_txt": "View All",
@@ -25,14 +26,14 @@
           "disabled": true,
           "settings": {
             "title": "Categories",
-            "side_categories": "categories"
+            "side_categories": ""
           }
         },
         "2ba1fb83-1b45-493e-8110-40ca2ed8ec8d": {
           "type": "rposts",
           "settings": {
             "title": "Recent Posts",
-            "count": 3
+            "count": 5
           }
         },
         "b6606bd2-f599-49ce-a1f3-3935f06a6d84": {
@@ -72,7 +73,7 @@
         "sidebar_position": "left",
         "text_align": "text-left",
         "blogfs": 25,
-        "blogfsm": 80,
+        "blogfsm": 18,
         "blogtf": "font2",
         "blogtw": "fw-600",
         "featured-img": true,
@@ -89,7 +90,7 @@
         "auto_speed": 5
       }
     },
-    "81fb93d4-956d-4fed-bedf-92872a2f534f": {
+    "6b041c72-f0ec-4bcb-939c-572f18340404": {
       "type": "section-space",
       "settings": {
         "sdesk": 30,
@@ -97,7 +98,7 @@
         "color_bg": "#ffffff"
       }
     },
-    "141e7fe5-9360-4dae-aa41-9e0d0d432be6": {
+    "22c03e54-e03e-4ffb-97a6-664a64e7d103": {
       "type": "section-space",
       "settings": {
         "sdesk": 30,
@@ -108,7 +109,7 @@
   },
   "order": [
     "article",
-    "81fb93d4-956d-4fed-bedf-92872a2f534f",
-    "141e7fe5-9360-4dae-aa41-9e0d0d432be6"
+    "6b041c72-f0ec-4bcb-939c-572f18340404",
+    "22c03e54-e03e-4ffb-97a6-664a64e7d103"
   ]
 }

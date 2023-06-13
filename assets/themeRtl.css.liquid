@@ -941,7 +941,7 @@ a.gimg-link { display:block; }
   .siteNavigation .mm6bx .gview-img .lbl { display:none;}
   
   #siteNav ul.dropdown, #siteNav ul.dropdown ul { border:1px solid {{ settings.nav_dd_divider }}; padding:15px; opacity:0; visibility:hidden; width:240px;
-    position:absolute; top:auto; right:-17px; z-index:999; background-color:{{ settings.nav_dd_link_bg }}; box-shadow:2px 2px 2px 0 rgba(0, 0, 0, 0.3); transition:all 0.5s ease-in-out; }
+    position:absolute; top:auto; right:-17px; z-index:999; background-color:{{ settings.nav_dd_link_bg }}; box-shadow:2px 2px 2px 0 rgba(0, 0, 0, 0.3); transition:all 0.3s ease-in-out; }
   #siteNav ul.dropdown li { border-top:1px solid {{ settings.nav_dd_divider }}; position:relative; }
   #siteNav ul.dropdown li:first-child { border:0 none; }
   #siteNav ul.dropdown li a { font-size:{{settings.mm_font_size}}px; color:{{ settings.nav_dd_link }}; font-weight:400; padding:8px 5px; background-color:{{ settings.nav_dd_link_bg }}; }
@@ -1859,12 +1859,12 @@ h2.com-title { font-size:14px; text-align:left; letter-spacing:0.5px; margin:0; 
 	.footer-block__item.one-whole.newsletter { width:100%; }
 }
 @media only screen and (max-width:766px) {
-  .hrline hr { margin:5px 0;}   
+    .hrline hr { margin:5px 0;}   
 	.site-footer .footer-fw { padding:0 10px; }
-  .footer-block { margin:0; padding:15px 0; }
-  .footer-block__item { width:100% !important; padding:1rem 0; margin:0; }
-	.footer-block__item + .footer-block__item { border-top:1px solid {{settings.footer_title}}75; }
-  .footer-block__item.hrline { border-top:0;} 
+  	.footer-block { margin:0; padding:15px 0; }
+	.footer-block__item { width:100%; padding:12px 0; margin:0; }
+	.footer-block__item + .footer-block__item { border-top:1px solid {{settings.top_footer_text | color_modify: 'alpha', 0.1}}; }
+  	.footer-block__item.hrline { border-top:0;} 
 
 	.footer-links .h4 { line-height:20px; margin-bottom:0; cursor:pointer; }
 	.footer-links .h4:before { content:"\ea45"; font-size:15px; font-family:"adorn-icons"; float:right; }

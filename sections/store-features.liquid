@@ -7,14 +7,13 @@
      style="background-color:{{secSt.sec_bg_clr}};"> {% endif%}
       <div class="{% unless section.settings.section_width %}page-width{% else %}fullwidth{% endunless %} wow fadeIn">          
       
-      <section {% if hbStyle %}tag-name="features-header"{% endif %} class="{% if hbStyle %}md:mb-20 mb-4 {% endif %}">
+      <section {% if hbStyle %}tag-name="features-header"{% endif %} class="{% if hbStyle %}md:mb-20 mb-8 {% endif %}">
         {% render 'sec-title' %}
       </section>
 
 
-        <ul {% if hbStyle %}tag-name="features-ul" {% endif %}class="md:bg-transparent rounded-4xl md:py-0 py-8 bg-black-800 store-info fl f-jcsb sec{{section.id}} {{ secSt.style}}"
-            data-flickity='{"pageDots": true, "prevNextButtons": false, "wrapAround":true, "watchCSS":true }' flickity-screen='mobile'
-            style="--cl:{{secSt.cl}};--tcl:{{secSt.tcl}};--tfs:{{secSt.tfs}}px;--tsm:{{secSt.tfsm | divided_by: 100.0 }}rem;--tff:var(--ft1);--tfw:{{secSt.tfw}};--lh:{{secSt.tlh}};
+        <ul class="store-info fl f-jcsb sec{{section.id}} {{ secSt.style}}"
+            style="--cl:{{secSt.cl}};--tcl:{{secSt.tcl}};--tfs:{{secSt.tfs}}px;--tsm:{{secSt.tfsm}}px;--tff:var(--ft1);--tfw:{{secSt.tfw}};--lh:{{secSt.tlh}};
                     --icl:{{secSt.icons_clr}};--isz:{{secSt.isz}}px;--bd:{{secSt.border_sep}}">
             {% for block in section.blocks limit: section.blocks.size %}
             {%- assign blkSt = block.settings -%}
@@ -23,12 +22,12 @@
                   {% if secSt.icon-type == 'image' and blkSt.image != blank %}
                       <img class="at md:mb-5 mb-2 lazyload" data-src="{{blkSt.image | img_url: '200x' }}" width="{{secSt.isz}}px" height="{{secSt.isz}}px" alt="{{blkSt.image.alt | escap }}" />
                   {% elsif blkSt.icons != blank %}
-                      <span class="bg-black-700 md:py-5 md:px-4 p-3 md:mb-10 mb-6 rounded-full md:inline-block flex justify-center items-center mx-auto w-24 h-24 ">
-                        <i class="at {{ blkSt.icons }} !mb-0 !flex justify-center md:text-base !text-5xl !w-full" aria-hidden="true"></i>
+                      <span class="bg-black-700 md:py-5 md:px-4 p-3 mb-4 rounded-full inline-block">
+                        <i class="at {{ blkSt.icons}} !mb-0 !flex justify-center" aria-hidden="true"></i>
                       </span>
                   {% endif %}
-                <div class="text fl1"> 
-                    {% if blkSt.title %}<h5 class="ttlTxt md:mb-4 mb-2 md:text-2xl text-xl">{{ blkSt.title }}</h5>{% endif %}
+                <div class="text fl1">
+                    {% if blkSt.title %}<h5 class="ttlTxt md:mb-4 mb-1 md:text-2xl text-xl">{{ blkSt.title }}</h5>{% endif %}
                     {% if blkSt.text %}<div class="sub-text{% if hbStyle %} md:text-lg text-base md:px-8 px-2{% endif %}">{{ blkSt.text }}</div>{% endif %}
                 </div>
               </{% if blkSt.texturl != blank %}a{% else %}div{% endif %}>
@@ -263,14 +262,14 @@
       "unit": "px"
     },
     {
-        "type": "range",
-        "id": "tfsm",
-        "label": "Font Size (mobile)",
-        "default": 100,
-        "min": 50,
-        "max": 300,
-        "step": 5,
-        "unit": "%"
+      "type": "range",
+      "id": "tfsm",
+      "label": "Font Size (mobile)",
+      "default": 12,
+      "min": 10,
+      "max": 60,
+      "step": 1,
+      "unit": "px"
     },
     {
       "type": "select",

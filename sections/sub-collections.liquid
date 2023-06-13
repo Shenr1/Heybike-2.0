@@ -12,7 +12,7 @@
     {% if collection.image  != blank and secSt.show_collection_image %}
     <div class="bgImg pa w_100 h_100 lazyload" data-bgset="{% render 'bgset', image: collection.image  %}" data-sizes="auto" data-parent-fit="contain"></div>
     {% endif %}	
-    <h1 class="ttlTxt pr{%  if secSt.tcase %} tt-u{% endif %} mb0" itemprop="name" style="--tcl:{{secSt.tcl}};--tfs:{{secSt.tfs}}px;--tfsm:{{secSt.tfsm | divided_by: 100.0 }}rem;--tff:var(--{{secSt.tff}});--tfw:{{secSt.tfw}};--tlh:{{secSt.tlh}};">{{ collection.title }}</h1>
+    <h1 class="ttlTxt pr{%  if secSt.tcase %} tt-u{% endif %} mb0" itemprop="name" style="--tcl:{{secSt.tcl}};--tfs:{{secSt.tfs}}px;--tfsm:{{secSt.tfsm}}px;--tff:var(--{{secSt.tff}});--tfw:{{secSt.tfw}};--tlh:{{secSt.tlh}};">{{ collection.title }}</h1>
 </div>
 
 {%- if settings.breadcrumb_cl -%}{%- render 'breadcrumb' -%}{%- else -%}<div class="topSpace"></div>{%- endif -%}
@@ -110,11 +110,11 @@
           "type": "range",
           "id": "tfsm",
           "label": "Font Size (mobile)",
-          "default": 100,
-          "min": 50,
-          "max": 300,
-          "step": 5,
-          "unit": "%"
+          "default": 26,
+          "min": 10,
+          "max": 60,
+          "step": 1,
+          "unit": "px"
       },
       {
           "type": "select",

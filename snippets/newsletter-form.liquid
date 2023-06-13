@@ -3,7 +3,7 @@
 {% elsif settings.mailChimp_url != blank %}
 	<form role="form" action="{{ settings.mailChimp_url | replace: '/post?u', '/post-json?u' | append: "&c=?" }}" class="mcNewsletter" method="post">
 		<div class="input-group">
-			<div class="flex border-0 border-b border-solid md:mb-4 mb-2 md:py-0 py-2">
+			<div class="flex border-0 border-b border-solid mb-4">
 				<input type="email" class="!mb-0 input-group__field newsletter__input !bg-transparent border-none p-0 rounded-none !text-white" name="EMAIL" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="{{ 'general.newsletter_form.email_placeholder' | t }}" required>
 				<span class="input-group__btn w-auto"><button type="submit" class="btn newsletter__submit mcNsBtn !bg-transparent" name="commit"><span class="newsletter__submit-text--large">></span></button></span>
 			</div>
@@ -20,7 +20,7 @@
 		{%- else -%}
 			<div class="input-group">
 				<input type="hidden" name="contact[tags]" value="newsletter">
-				<div class="flex border-0 border-b border-solid md:mb-4 mb-2 md:py-0 py-2">
+				<div class="flex border-0 border-b border-solid mb-4">
 					<input type="email" name="contact[email]" id="Email{{ formId }}" class="!mb-0 input-group__field newsletter__input !bg-transparent p-0 rounded-none !text-white border-none" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="{{ 'general.newsletter_form.email_placeholder' | t }}" autocorrect="off" autocapitalize="off">
 					<span class="input-group__btn w-auto"><button type="submit" class="btn newsletter__submit !bg-transparent" name="commit" id="subscribe{{ formId }}">></button></span>
 				</div>

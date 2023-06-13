@@ -2,7 +2,7 @@
 <div class="content-indent {{ section.settings.top-offeset}}">
   <div class="{% unless secSt.section_width %} page-width{% else %} fullwidth npd{% endunless %}" data-section-id="{{ section.id }}" data-section-type="quotes">
     	<div class="sec-{{section.id}} quote-bg bgImg section-cover wow fadeInUp lazyload" {% if secSt.bgimg != blank %}data-bgset="{% render 'bgset', image: secSt.bgimg %}" data-sizes="auto" data-parent-fit="contain"{% endif %} style="--bg:{{secSt.bg}};">
-			<div class="quote-bg-inner" style="--stcl:{{secSt.stcl}};--qcl:{{secSt.qcl}};--qbg:{{secSt.qbg}};--qfs:{{secSt.qfs}}px;--qfsm:{{secSt.qfsm | divided_by: 100.0 }}rem;--rcl:{{secSt.rcl}};">
+			<div class="quote-bg-inner" style="--stcl:{{secSt.stcl}};--qcl:{{secSt.qcl}};--qbg:{{secSt.qbg}};--qfs:{{secSt.qfs}}px;--qfsm:{{secSt.qfsm}}px;--rcl:{{secSt.rcl}};">
 				{%- render 'sec-title' -%}
 				{%- if section.blocks.size > 0 -%}
                     {% capture paginaton %}
@@ -137,16 +137,16 @@
             "step": 1,
             "unit": "px"
         },
-				{
-					"type": "range",
-					"id": "qfsm",
-					"label": "Font Size (mobile)",
-					"default": 85,
-					"min": 50,
-					"max": 300,
-					"step": 5,
-					"unit": "%"
-				},  
+        {
+            "type": "range",
+            "id": "qfsm",
+            "label": "Font Size (mobile)",
+            "default": 13,
+            "min": 10,
+            "max": 30,
+            "step": 1,
+            "unit": "px"
+        },        
  		{	
         "type": "color",
         "id": "rcl",
