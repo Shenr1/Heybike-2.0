@@ -371,6 +371,7 @@
             "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
+            "text_center": true,
             "tcl": "#000000",
             "cl": "#000000",
             "bg": "#f3f5f9",
