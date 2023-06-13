@@ -929,7 +929,7 @@
         ".sec-ttl .h3,div.sec-ttl p {color: #fff;}"
       ],
       "settings": {
-        "top_padding": "default",
+        "top_padding": "large",
         "bottom_padding": "large",
         "top-offeset": "none",
         "section_style": "heybike",
