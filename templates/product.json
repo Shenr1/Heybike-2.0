@@ -130,7 +130,8 @@
         "anchor2": "Specifications",
         "anchor_href2": "nav-specifications",
         "anchor3": "Reviews",
-        "anchor_href3": "nav-reviews"
+        "anchor_href3": "nav-reviews",
+        "tabs_nav": false
       }
     },
     "upsell": {
@@ -576,6 +577,7 @@
             "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
+            "text_center": false,
             "tcl": "#000000",
             "cl": "#000000",
             "bg": "#f5f5f5",
