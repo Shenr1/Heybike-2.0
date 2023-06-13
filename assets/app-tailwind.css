@@ -52,7 +52,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
 .zoomImg{@apply !bg-white}
 
 .slideshow-wrapper .hbStyle .flickity-page-dots{@apply md:pl-8 pl-0 max-w-page md:left-1/2 md:-translate-x-1/2 md:justify-start justify-center lg:bottom-12 md:bottom-8 bottom-6 }
-.slideshow-wrapper .hbStyle .flickity-page-dots .dot{@apply bg-white rounded-none md:w-2 h-2 w-4 transition-all}
+.slideshow-wrapper .hbStyle .flickity-page-dots .dot{@apply bg-white rounded-none md:w-2 md:h-2 h-1 w-4 transition-all}
 .slideshow-wrapper .hbStyle .flickity-page-dots .dot.is-selected{@apply bg-vi md:w-8 w-12}
 
 .video-wrap__grippy + .video-wrap__grippy { @apply left-auto right-0 before:left-auto before:right-full before:top-auto before:bottom-0; }
@@ -60,6 +60,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
 [section-name = 'accordion'] .at-plus-r{@apply bg-black-400}
 .product-single .flickity-button{@apply pad:flex hidden }
 .pr_thumbs_item {@apply pad:w-[14.5%] pad:mx-[.85%] md:w-[18.5%] md:mx-[0.3%] mx-1 w-[5.65rem]}
+#siteNav ul.dropdown li a{@apply bg-transparent}
 
 @media only screen and (max-width:769px) {
     [flickity-screen='pc']:after {@apply content-none }

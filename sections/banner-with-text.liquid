@@ -44,7 +44,7 @@
         {% endif %}
     
         {{ image_layout }}
-        <div class="md:{{blkSt.text_align}} {% if textCenter %}md:text-left text-center {% endif %}{% unless hbStyle %}fl1 {% endunless %}{% if hbStyle %}md:w-2/5 md:mb-8 mb-0 md:mt-0 mt-10{% endif %} feature-row__text {{ blkSt.layout }} wow{% if blkSt.layout == 'right' %} fadeInLeft{% else %} fadeInRight{% endif %}" data-wow-delay="{{delay_time}}ms">
+        <div class="md:{{blkSt.text_align}} {% if textCenter %}md:text-left text-center {% endif %}{% unless hbStyle %}fl1 {% endunless %}{% if hbStyle %}md:w-2/5 md:mb-8 mb-0 md:mt-0 mt-10 {% endif %}feature-row__text {{ blkSt.layout }} wow{% if blkSt.layout == 'right' %} fadeInLeft{% else %} fadeInRight{% endif %}" data-wow-delay="{{delay_time}}ms">
           <div class="row-text {% if hbStyle %}!m-0 !p-0{% endif %}">
             {% if blkSt.title != blank %}
               <h3 class="{% if hbStyle %}md:!text-4_5xl !text-2_5xl{% endif %} ttlTxt mb{{secSt.tmbm}} mb{{secSt.tmb}}-md" style="--tcl:{{blkSt.tcl}};--tfs:{{secSt.tfs}}px;--tff:var(--{{secSt.tff}});--tfw:{{secSt.tfw}};--tlh:{{secSt.tlh}};">{{ blkSt.title }}</h3>

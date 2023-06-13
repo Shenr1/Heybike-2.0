@@ -24,7 +24,7 @@
 
     if settings.product_latyout == "style1"
         assign product_image_width = 'xl:pr-10 lg:pr-6 md:pr-4 pr-0 pl-0 pad:mb-6 md:mb-0 mb-10 pad:w-3/5 md:w-1/2'
-        assign product_description_width = 'xl:pl-10 lg:pl-6 md:pl-4 md:pr-0 pad:w-2/5 md:w-1/2'
+        assign product_description_width = 'xl:pl-10 lg:pl-6 md:pl-4 md:pr-0 px-6 pad:w-2/5 md:w-1/2'
     elsif settings.product_latyout == "style2"
         assign product_image_width = 'wd66-md'
         assign product_description_width = 'wd33-md'
@@ -64,7 +64,9 @@
 	{% capture imgSt %}--imgw:100%;{% endcapture %}
 {% endif %}
 
-{% include 'product-tabs-nav', sets:section.settings  %}
+{% if secSt.tabs_nav %}
+  {% include 'product-tabs-nav', sets:secSt  %}
+{% endif %}
 
 <div class="ptContainer {{settings.product_latyout}} page-width{% if secSt.section_width %} fullwidth{%endif%} lg:mt-24 md:mt-18 mt-12" data-style="{{settings.product_latyout}}" data-url="{{ product.url }}" data-section-id="{{ section.id }}" data-section-type="product" data-enable-history-state="true">
 	{%- capture productImages -%}
@@ -865,7 +867,17 @@
 		"id": "anchor_href3",
 		"label": "Anchor-3 href",
 		"default": "nav-reviews"
-	}
+	},
+  {
+    "type": "header",
+    "content": "Tabs nav (mobile)========="
+  },
+  {
+    "type": "checkbox",
+    "id": "tabs_nav",
+    "label": "enable tabs nav?",
+    "default": true
+  }
   ],
   "blocks": [
     {

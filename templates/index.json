@@ -298,7 +298,7 @@
         "bg_color": "#f3f5f9",
         "title": "Go Green with Heybike",
         "image": "shopify:\/\/shop_images\/40x400.png",
-        "image_mb": "shopify:\/\/shop_images\/40x400.png"
+        "image_mb": "shopify:\/\/shop_images\/683d8ad056250280ab7d53259d3da6aa.png"
       }
     },
     "9097e021-5397-4a21-8d22-e6f121fbda8f": {
@@ -364,9 +364,9 @@
             "layout": "right",
             "title": "Smarttech and APP",
             "text": "<p>Your amazing rides deserve a journal! Connect your bike to the HEYBIKE App, and build an impressive mileage count!<\/p>",
-            "bottom_logo": "shopify:\/\/shop_images\/app-store.webp",
+            "bottom_logo": "shopify:\/\/shop_images\/app-store.png",
             "logo_url": "",
-            "bottom_logo2": "shopify:\/\/shop_images\/icon0.png",
+            "bottom_logo2": "shopify:\/\/shop_images\/google-play.png",
             "logo_url2": "",
             "button_label": "",
             "button_link": "\/",
@@ -477,7 +477,7 @@
         ".sec-ttl .h3,div.sec-ttl p {color: #fff;}"
       ],
       "settings": {
-        "top_padding": "default",
+        "top_padding": "large",
         "bottom_padding": "large",
         "top-offeset": "none",
         "section_style": "heybike",

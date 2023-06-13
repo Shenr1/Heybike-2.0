@@ -268,7 +268,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 }
 
 .slideshow-wrapper .hbStyle .flickity-page-dots .dot {
-  height:0.5rem;
+  height:0.25rem;
   width:1rem;
   border-radius:0px;
   --tw-bg-opacity:1;
@@ -280,6 +280,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 
 @media (min-width: 769px) {
   .slideshow-wrapper .hbStyle .flickity-page-dots .dot {
+    height:0.5rem;
     width:0.5rem;
   }
 }
@@ -344,6 +345,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
     margin-right:.85%;
     width:14.5%;
   }
+}
+
+#siteNav ul.dropdown li a {
+  background-color:transparent;
 }
 
 @media only screen and (max-width:769px) {
@@ -1599,6 +1604,11 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   padding-right:1.75rem;
 }
 
+.px-8 {
+  padding-left:2rem;
+  padding-right:2rem;
+}
+
 .py-1 {
   padding-top:0.25rem;
   padding-bottom:0.25rem;
@@ -1627,11 +1637,6 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 .py-8 {
   padding-top:2rem;
   padding-bottom:2rem;
-}
-
-.px-8 {
-  padding-left:2rem;
-  padding-right:2rem;
 }
 
 .pb-0 {
@@ -1720,6 +1725,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 
 .pt-5 {
   padding-top:1.25rem;
+}
+
+.pb-6 {
+  padding-bottom:1.5rem;
 }
 
 .text-left {
@@ -2374,16 +2383,8 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
     width:40%;
   }
 
-  .md\:w-\[40\.5\%\] {
-    width:40.5%;
-  }
-
   .md\:w-\[50\%\] {
     width:50%;
-  }
-
-  .md\:w-\[59\.5\%\] {
-    width:59.5%;
   }
 
   .md\:w-\[60\%\] {
