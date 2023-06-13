@@ -72,6 +72,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
     #MobileNav li a .at,
     .grid-view-item .pr_price,
     .list-view_title-column .pr_price,
+    .btn.btn-md,
     .grid-view-item__title{@apply !text-sm}
     .footer-top a{@apply !text-[.925rem]}
     #MobileNav li a,

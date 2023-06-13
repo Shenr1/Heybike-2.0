@@ -374,6 +374,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   #MobileNav li a .at,
     .grid-view-item .pr_price,
     .list-view_title-column .pr_price,
+    .btn.btn-md,
     .grid-view-item__title {
     font-size:0.875rem !important;
     line-height:1.25rem !important;
@@ -1725,10 +1726,6 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 
 .pt-5 {
   padding-top:1.25rem;
-}
-
-.pb-6 {
-  padding-bottom:1.5rem;
 }
 
 .text-left {
