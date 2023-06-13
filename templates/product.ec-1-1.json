@@ -19,7 +19,7 @@
           "settings": {
             "cl": "#000000",
             "fs": 36,
-            "fsm": 200,
+            "fsm": 180,
             "ff": "ft2",
             "fw": "600",
             "transform": "tt-c",
@@ -586,7 +586,8 @@
         "template--19143574815035__a8ffb222-813d-463f-9e86-871bceb908a5-1684996746297eb402-0": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/App_770x680_862b21cd-2498-4673-bfd2-b21c2dab86d6.png",
+            "image": "shopify:\/\/shop_images\/1_b0049f01-5229-45da-9346-24332cf186d1.png",
+            "image_mb": "shopify:\/\/shop_images\/1_78fe76ad-8b30-4b52-87cf-20fc71f865ee.jpg",
             "layout": "right",
             "title": "Smarttech and APP",
             "text": "<p>Your amazing rides deserve a journal! Connect your bike to the HEYBIKE App, and build an impressive mileage count!<\/p>",
@@ -928,8 +929,8 @@
         ".sec-ttl .h3,div.sec-ttl p {color: #fff;}"
       ],
       "settings": {
-        "top_padding": "large",
-        "bottom_padding": "extraLarge",
+        "top_padding": "default",
+        "bottom_padding": "large",
         "top-offeset": "none",
         "section_style": "heybike",
         "section_width": false,

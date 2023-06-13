@@ -58,22 +58,26 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
 .video-wrap__grippy + .video-wrap__grippy { @apply left-auto right-0 before:left-auto before:right-full before:top-auto before:bottom-0; }
 
 [section-name = 'accordion'] .at-plus-r{@apply bg-black-400}
-
+.product-single .flickity-button{@apply pad:flex hidden }
+.pr_thumbs_item {@apply pad:w-[14.5%] pad:mx-[.85%] md:w-[18.5%] md:mx-[0.3%] mx-1 w-[5.65rem]}
 
 @media only screen and (max-width:769px) {
-    .pr_thumbs_item {@apply md:w-[18.5%] md:mx-[0.3%] mx-1 w-[5.65rem]}
-    .product-single .flickity-button{@apply hidden }
     [flickity-screen='pc']:after {@apply content-none }
     [flickity-screen='mobile']:after {@apply content-['flickity'] hidden }
     .notification-bar__message,
     #newsletter-modal .checkboxlink,
+    .btn-filter,
     #newsletter-modal p.sub-text{@apply !text-xs}
-    #MobileNav li a .at{@apply !text-sm}
+    #MobileNav li a .at,
+    .grid-view-item .pr_price,
+    .list-view_title-column .pr_price,
+    .grid-view-item__title{@apply !text-sm}
     .footer-top a{@apply !text-[.925rem]}
     #MobileNav li a,
     .closemmn .at,
     .site-footer,
     .footer-top .newsletter .btn,
+    .list-view-item__title,
     input, textarea, select{@apply !text-base}
     #newsletter-modal h2,
     .footer-links .h4:before,
@@ -83,7 +87,6 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
     .site-header{@apply h-[4.65rem]}
     .site-header a.hdicon .at{@apply text-2xl leading-none}
     [tag-name = 'logo'],[tag-name = 'reversal-logo']{@apply !w-38 !h-auto !max-w-none}
-    .page-width{@apply !px-4}
     .mobile-nav-wrapper{@apply w-60}
     #MobileNav li a{@apply py-3}
     .closemmn{@apply -right-10 w-10 h-10}
@@ -97,7 +100,8 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
     .footer-bottom .payment-list__item{@apply !h-auto w-8 mr-2}
     .footer-links .h4.active{@apply text-white font-bold}
     .footer-top .newsletter .wrap-newsletter{@apply max-w-none}
-    #shopify-section-footer [section-name = 'localization'] img{@apply w-5 h-5}
+    #shopify-section-footer [section-name = 'localization'] img,
+    .gridSwatches li{@apply w-5 h-5}
     #shopify-section-footer [section-name = 'localization'] select{@apply text-black-400}
     #CartCount, .favCount{@apply h-4 min-w-[1rem] text-base leading-none -top-1}
 }
@@ -156,6 +160,6 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
     .template-index #header:not(.stickyHeader){@apply text-white bg-transparent absolute w-full border-none}
     .template-index #header:not(.stickyHeader) #siteNav>li>a,.template-index #header:not(.stickyHeader) .site-header a.hdicon{@apply text-white}
 
-    .enlarge {@apply hover:scale-105 transition-transform duration-500}
+    .enlarge {@apply md:hover:scale-105 transition-transform duration-500}
 
 }

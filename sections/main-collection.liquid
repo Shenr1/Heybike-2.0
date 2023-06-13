@@ -150,7 +150,7 @@
             {% for product in collection.products %}
               {% assign box_animation_time = forloop.index | minus:1 %}
               {% assign delay_time = 100 | times : box_animation_time %}
-              <div class="list-view-item fl pr f-aic f-col f-row-md wow fadeInUp mb30" data-wow-delay="{{delay_time}}ms">{% render 'product-card-list', product: product, secSt: secSt, sizes: '130,280,400' %}</div>
+              <div class="list-view-item fl pr f-aic md:flex-col flex-row f-row-md wow fadeInUp mb30" data-wow-delay="{{delay_time}}ms">{% render 'product-card-list', product: product, secSt: secSt, sizes: '130,280,400' %}</div>
             {% else %}
               {% comment %}The onboarding styles and products are only loaded if the store has no products.{% endcomment %}
               {% if collection.handle == 'all' and collection.all_vendors.size == 0 and collection.all_types.size == 0%}

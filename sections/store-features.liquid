@@ -23,8 +23,8 @@
                   {% if secSt.icon-type == 'image' and blkSt.image != blank %}
                       <img class="at md:mb-5 mb-2 lazyload" data-src="{{blkSt.image | img_url: '200x' }}" width="{{secSt.isz}}px" height="{{secSt.isz}}px" alt="{{blkSt.image.alt | escap }}" />
                   {% elsif blkSt.icons != blank %}
-                      <span class="bg-black-700 md:py-5 md:px-4 p-3 mb-10 rounded-full md:inline-block flex justify-center items-center mx-auto md:w-auto md:h-auto w-32 h-32 ">
-                        <i class="at {{ blkSt.icons }} !mb-0 !flex justify-center md:text-base !text-6xl !w-full" aria-hidden="true"></i>
+                      <span class="bg-black-700 md:py-5 md:px-4 p-3 md:mb-10 mb-6 rounded-full md:inline-block flex justify-center items-center mx-auto md:w-auto md:h-auto w-24 h-24 ">
+                        <i class="at {{ blkSt.icons }} !mb-0 !flex justify-center md:text-base !text-5xl !w-full" aria-hidden="true"></i>
                       </span>
                   {% endif %}
                 <div class="text fl1"> 

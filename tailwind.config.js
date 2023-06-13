@@ -21,11 +21,13 @@ module.exports = {
       },
       screens: {
         'md': '769px',
+        'pad': '921px',
         '2k': '2048px',
       },
       fontSize: {
         'xxs': ['0.65rem','0.8rem'],
         '1_5xl': ['1.375rem','1.775rem'],
+        'xl': ['1.25rem', '1.5rem'],
         '2_5xl': ['1.745rem','2.15rem'],
         '3_5xl': ['2rem','2.5rem'],
         '4_5xl': ['2.5rem','3rem']

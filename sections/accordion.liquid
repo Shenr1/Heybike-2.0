@@ -1,7 +1,7 @@
 {%- assign secSt = section.settings -%}
 
 <section section-name="accordion" class="{% render 'section-interva-set' , secSt:secSt %}" >
-    <div class="page-width xl:px-4 px-8 mx-auto">
+    <div class="page-width xl:px-4 px-6 mx-auto">
       <ul class="accordion w-full">
 
       {%- for block in section.blocks -%}
@@ -26,7 +26,7 @@
                       {% assign content = obj | split: ':' | last  %}
                       {% if blkSt.slide_w == "25%" %} {% assign wClass = "md:w-1/4 w-1/2 md:pr-0 pr-2" %} {% else %} {% assign wClass = "w-full" %} {% endif %}
                       <div class="{{ wClass }} md:mb-8 mb-6 ">
-                        <p class="m-0 font-semibold md:text-base text-lg leading-tight md:mb-0 mb-4">{{title}}</p>
+                        <p class="m-0 font-semibold md:text-base text-lg leading-tight md:mb-0 mb-1">{{ title }}</p>
                         <p class="m-0 md:text-base text-sm">{{content | newline_to_br }}</p>
                       </div>
                     {% endfor %}
@@ -34,7 +34,7 @@
 
               {%- when "image" -%}
                   <div>
-                    {{ blkSt.url_pc | image_url: width: 1480 | image_tag: height: blkSt.url_pc.height, class: "w-full md:block hidden lazyload", loading: 'lazy' }}
+                    {{ blkSt.url_pc | image_url: width: 1480 | image_tag: height: blkSt.url_pc.height, class: "w-full md:block hidden lazyload h-auto", loading: 'lazy' }}
                     {{ blkSt.url_mb | image_url: width: 980 | image_tag: height: blkSt.url_mb.height, class: "w-full md:hidden block h-auto", loading: 'lazy' }}
                   </div>
 

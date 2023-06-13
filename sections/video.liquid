@@ -1,6 +1,6 @@
 {% assign secSt = section.settings %}
 <div class="content-indent{% if secSt.hide_mobile %} hide-sm{% endif %} {{ secSt.top-offeset}} wow fadeIn {% render 'section-interva-set' , secSt:secSt %}">
-  <div class="wow fadeIn {{secSt.style}}{% unless secSt.section_width %} page-width xl:px-4 px-8{% else %} fullwidth npd{% endunless %}" {% if secSt.section_width %}style="--spd:{{ secSt.pad-desk}}px;--spdt:{{ secSt.pad-ipad}}px;--spdm:{{ secSt.pad-mbl}}px;"{% endif %}>  
+  <div class="wow fadeIn {{secSt.style}}{% unless secSt.section_width %} page-width xl:px-4 px-6{% else %} fullwidth npd{% endunless %}" {% if secSt.section_width %}style="--spd:{{ secSt.pad-desk}}px;--spdt:{{ secSt.pad-ipad}}px;--spdm:{{ secSt.pad-mbl}}px;"{% endif %}>  
   	
    <div class="video-sec {% if secSt.rounded %} md:rounded-section rounded-4xl overflow-hidden{% endif %} {% if secSt.snow_effect %} falling-snow{% endif %}{% if secSt.snow_style == "style2" %} style2{% else %} style1{% endif %}" style="--fs:{{secSt.tfs}}px;--fsm:{{secSt.tfsm | divided_by: 100.0 }}rem;">   
       {% if secSt.video_url == blank and secSt.mp4url == blank	%}

@@ -3,7 +3,7 @@
 <footer class="site-footer{% if secSt.snow_effect %} falling-snow{% endif %}{% if secSt.snow_style == "style2" %} style2{% else %} style1{% endif %}" role="contentinfo">  
    
   {% if section.blocks.size != 0 %}
-  	<div class="{% unless secSt.section_width %}page-width xl:px-4 px-8{% else %} fullwidth{% endunless %}">
+  	<div class="{% unless secSt.section_width %}page-width xl:px-4 px-6{% else %} fullwidth{% endunless %}">
   	<div class="footer-top footer-block">
         {% for block in section.blocks %}          
           {% assign blkSt = block.settings %}

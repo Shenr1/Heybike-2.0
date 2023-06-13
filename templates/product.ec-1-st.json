@@ -14,7 +14,7 @@
           "settings": {
             "cl": "#000000",
             "fs": 36,
-            "fsm": 150,
+            "fsm": 180,
             "ff": "ft2",
             "fw": "600",
             "transform": "tt-c",
@@ -497,7 +497,7 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/Heybike_Shimano_7-speed_Drivetrain.png",
-            "text_main": "Shimano 7-speed Drivetrain",
+            "text_main": "Gears",
             "text_sub": "The Shimano® 7-speed chain drive ispowerful, smooth, and built to perform high on all roads.",
             "img_link": ""
           }

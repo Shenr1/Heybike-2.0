@@ -13,7 +13,7 @@
     >
       {% for block in section.blocks %}
       
-      <div class="page-width md:mb-0 {% unless forloop.index == 2 %}mb-14{% endunless %} md:opacity-30 md:transition-opacity md:duration-700 md:delay-300 {% if forloop.index > 2 %} hidden md:block {% endif %}" >
+      <div class="page-width md:px-4 !px-6 md:mb-0 {% unless forloop.index == 2 %}mb-14{% endunless %} md:opacity-30 md:transition-opacity md:duration-700 md:delay-300 {% if forloop.index > 2 %} hidden md:block {% endif %}" >
         {%- assign product = block.settings.product -%}
         {% if product.title.size > 0 %}
         
