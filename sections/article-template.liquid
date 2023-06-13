@@ -39,7 +39,7 @@
     <div class="fl1 w_100 {{ section.settings.text_align}}">
       <div class="blog--list-view">   
         <div class="section-header">
-          <h1 style="--blogfsm:{{ section.settings.blogfsm}}px;--blogfs:{{ section.settings.blogfs}}px;" class="{{ section.settings.blogtw}} {{ section.settings.blogtf}}">{{ article.title }}</h1>
+          <h1 style="--blogfsm:{{ section.settings.blogfsm | divided_by: 100.0 }}rem;--blogfs:{{ section.settings.blogfs}}px;" class="{{ section.settings.blogtw}} {{ section.settings.blogtf}}">{{ article.title }}</h1>
           <ul class="publish-detail">
 
             {% if section.settings.blog_show_date %}
@@ -285,15 +285,15 @@
         "step": 1,
 		"unit":"px"
       },
-       {
-        "type": "range",
-        "id": "blogfsm",
-        "label": "Font Size(mobile)",
-        "default": 18,
-        "min": 12,
-        "max": 50,
-        "step": 1,
-		"unit":"px"
+      {
+          "type": "range",
+          "id": "blogfsm",
+          "label": "Font Size (mobile)",
+          "default": 100,
+          "min": 50,
+          "max": 300,
+          "step": 5,
+          "unit": "%"
       },
       {
         "type": "select",
