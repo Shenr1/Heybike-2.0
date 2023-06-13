@@ -298,6 +298,7 @@
           },
           "eaf15dca-1822-4a37-8c94-bd24e939b788": {
             "type": "megamenuHb",
+            "disabled": true,
             "settings": {
               "title": "Equipment",
               "url": "shopify:\/\/collections\/equipment",
@@ -320,6 +321,14 @@
             }
           },
           "23b6094a-ec02-4808-bac4-8dbb5fed7f32": {
+            "type": "dropdown",
+            "settings": {
+              "title": "Equipment",
+              "url": "shopify:\/\/collections\/equipment",
+              "mm_linklist": ""
+            }
+          },
+          "8ce78ede-59e2-430e-af8a-0767a9b36fcc": {
             "type": "dropdown",
             "settings": {
               "title": "Support",
@@ -357,6 +366,7 @@
           "86aca260-e282-40f4-97fb-c8bb57b7ef06",
           "eaf15dca-1822-4a37-8c94-bd24e939b788",
           "23b6094a-ec02-4808-bac4-8dbb5fed7f32",
+          "8ce78ede-59e2-430e-af8a-0767a9b36fcc",
           "1559988240897",
           "1559992848977",
           "ff0e6f22-f740-4d49-9986-8cbc1de21b2e"
