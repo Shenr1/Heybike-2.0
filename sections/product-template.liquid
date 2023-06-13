@@ -23,8 +23,8 @@
     assign product_description_width = 'wd50-md'
 
     if settings.product_latyout == "style1"
-        assign product_image_width = 'wd60-md xl:pr-10 lg:pr-6 md:pr-4 pr-0 pl-0'
-        assign product_description_width = 'wd40-md xl:pl-10 lg:pl-6 md:pl-4 md:pr-0 px-4'
+        assign product_image_width = 'xl:pr-10 lg:pr-6 md:pr-4 pr-0 pl-0 pad:mb-6 md:mb-0 mb-10 pad:w-3/5 md:w-1/2'
+        assign product_description_width = 'xl:pl-10 lg:pl-6 md:pl-4 md:pr-0 px-6 pad:w-2/5 md:w-1/2'
     elsif settings.product_latyout == "style2"
         assign product_image_width = 'wd66-md'
         assign product_description_width = 'wd33-md'
@@ -64,7 +64,9 @@
 	{% capture imgSt %}--imgw:100%;{% endcapture %}
 {% endif %}
 
-{% include 'product-tabs-nav', sets:section.settings  %}
+{% if secSt.tabs_nav %}
+  {% include 'product-tabs-nav', sets:secSt  %}
+{% endif %}
 
 <div class="ptContainer {{settings.product_latyout}} page-width{% if secSt.section_width %} fullwidth{%endif%} lg:mt-24 md:mt-18 mt-12" data-style="{{settings.product_latyout}}" data-url="{{ product.url }}" data-section-id="{{ section.id }}" data-section-type="product" data-enable-history-state="true">
 	{%- capture productImages -%}
@@ -134,7 +136,7 @@
             {% if product.media.size > 0 %}
                 <div class="thumbs_nav {{settings.thumbnail_pos}} pr flickity-enabled{% if settings.product_latyout != "style1" and settings.product_latyout != "style2" %} hide{% endif %}{% if product.media.size == 1 %} hide{% endif %}">
                     <div class="pr_thumbsWr ptw{{ section.id }}">
-                        <div class="pr_thumbs pr_thumbs{{ section.id }}{% if secSt.prthumbs != "bottom" %} f-col-md{% endif %}">
+                        <div class="py-1 pr_thumbs pr_thumbs{{ section.id }}{% if secSt.prthumbs != "bottom" %} f-col-md{% endif %}">
                             {% for media in product.media %}
                                 {%- assign imgNo = forloop.index0 -%}
                                 {% capture thumbImgs %}{{ media | img_url: '100x' }} 100w {{ 100 | divided_by: media.aspect_ratio | round }}h,{{ media | img_url: '200x' }} 200w {{ 200 | divided_by: media.aspect_ratio | round }}h{% endcapture %}
@@ -176,12 +178,12 @@
         {%  when 'hr' %}
             <hr class="mt0 mb{{blkSt.bm}}" style="border-color: {{blkSt.hrc}}" {{ block.shopify_attributes }} /> 
         {%  when 'title' %}
-            <h1 class="product-single__title ttlTxt {{blkSt.transform}} mb{{blkSt.bm}}" style="--tcl:{{blkSt.cl}};--tfs:{{blkSt.fs}}px;--tfsm:{{blkSt.fsm}}px;--tff:var(--{{blkSt.ff}});--tfw:{{blkSt.fw}};--tlh:1.4;" {{ block.shopify_attributes }}>{{ product.title }}</h1>
-	   		<p class="text-lg border-solid border-0 border-b border-black-300 pb-4">Aviation grade magnesium alloy</p>
+            <h1 class="product-single__title ttlTxt {{blkSt.transform}} mb{{blkSt.bm}}" style="--tcl:{{blkSt.cl}};--tfs:{{blkSt.fs}}px;--tfsm:{{blkSt.fsm | divided_by: 100.0 }}rem;--tff:var(--{{blkSt.ff}});--tfw:{{blkSt.fw}};--tlh:1.4;" {{ block.shopify_attributes }}>{{ product.title }}</h1>
+	   		    <p class="text-lg border-solid border-0 border-b border-black-300 pb-4 md:mb-5 mb-4">{{ product.metafields.custom.info.value }}</p>
 	    {%  when 'price' %}
-            {%- if product.metafields.custom.product_group != blank -%}<style>.priceSingle{--pcl:{{blkSt.pcl}};--pcls:{{blkSt.pcls}};--fs:{{blkSt.fs}}px; --fsm:{{blkSt.fsm}}px;--pfw:{{ blkSt.pfw}};}</style>{%- endif -%}
+            {%- if product.metafields.custom.product_group != blank -%}<style>.priceSingle{--pcl:{{blkSt.pcl}};--pcls:{{blkSt.pcls}};--fs:{{blkSt.fs}}px; --fsm:{{blkSt.fsm | divided_by: 100.0 }}rem;--pfw:{{ blkSt.pfw}};}</style>{%- endif -%}
             {%- unless settings.hide-price or product.metafields.custom.product_group != blank -%}
-              <div id="price{{ section.id }}" class="fl f-wrap psinglePriceWr mb{{blkSt.bm}}" style="--pcl:{{blkSt.pcl}};--pcls:{{blkSt.pcls}};--fs:{{blkSt.fs}}px; --fsm:{{blkSt.fsm}}px;--pfw:{{ blkSt.pfw}};" {{ block.shopify_attributes }}>
+              <div id="price{{ section.id }}" class="fl f-wrap psinglePriceWr mb{{blkSt.bm}}" style="--pcl:{{blkSt.pcl}};--pcls:{{blkSt.pcls}};--fs:{{blkSt.fs}}px; --fsm:{{blkSt.fsm | divided_by: 100.0 }}rem;--pfw:{{ blkSt.pfw}};" {{ block.shopify_attributes }}>
                   {% if current_variant.compare_at_price > current_variant.price %}
                       <span class="v-hidden">{{ 'products.product.regular_price' | t }}</span>
                       <span class="psinglePrice sale"><span id="ProductPrice-{{ section.id }}">{{ current_variant.price | money }}</span></span>
@@ -220,7 +222,7 @@
             {%- endif -%}
           {%- endunless -%}								
         {%  when 'text' %}
-            <div class="customtx mb{{blkSt.bm}}{% if blkSt.addbg %} tbg{% endif %}" {{ block.shopify_attributes }} style="--fs:{{ blkSt.fs }}px;--cl:{{ blkSt.cl }};--bg:{{ blkSt.bg}};"> {{ blkSt.text }}</div>
+            <div class="customtx text-lg mb{{blkSt.bm}}{% if blkSt.addbg %} tbg{% endif %}" {{ block.shopify_attributes }} style="--fs:{{ blkSt.fs }}px;--cl:{{ blkSt.cl }};--bg:{{ blkSt.bg}};"> {{ blkSt.text }}</div>
         {%  when 'ras' %}
             <div class="product-info mb{{blkSt.bm}}" {{ block.shopify_attributes }}>
                 {%- if settings.show_product_review -%}
@@ -300,7 +302,7 @@
                 {%- render 'products-group', blkSt: blkSt, infoLinks:infoLinks  -%}
             {%- else -%}
                 {%- assign product_form_id = 'product-form-' | append: section.id -%}
-                <product-form class="db productForm mb{{blkSt.bm}}" {{ block.shopify_attributes }}>
+                <product-form class="db productForm md:mb-5 mb-8" {{ block.shopify_attributes }}>
                     {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
                         <div class="product-form mfp-link fl f-aie f-wrap mb-4">
                             {% assign isSwatch = false %}
@@ -350,7 +352,7 @@
                             <div class="pform-error-wrap errors" role="alert" hidden><span class="ml5 pform-error-msg"></span></div>
                             <div class="fl product-action">
                                 <label class="lblqty v-hidden" for="quantity">{{ 'products.product.quantity' | t }}</label>
-                                <div class="fl f-wrap f-aic f-jcsb">
+                                <div class="f-wrap f-aic f-jcsb md:flex hidden">
                                     {%- if blkSt.qty_sel -%}
                                         <quantity-input class="qtyField mb15 overflow-hidden" title="{{ 'products.product.quantity' | t }}">
                                             <button type="button" class="qtyBtn minus" name="minus"><i class="at at-minus-r" aria-hidden="true"></i><span class="v-hidden">{{- 'products.quantity.decrease' | t: product: product.title | escape -}}</span></button>
@@ -371,7 +373,7 @@
                                             {{'products.product.sold_out' | t }}
                                         {% endif %}
                                     </span>
-                                    <div class="loading-overlay__spinner hidden"><i class="at at-circle-notch-r at-spin"></i></div>
+                                    <div class="loading-overlay__spinner inline-block hidden ml-2"><i class="at at-circle-notch-r at-spin"></i></div>
                                 </button>
                             </div>
                             {%- if settings.dynamic_btn -%}
@@ -865,7 +867,17 @@
 		"id": "anchor_href3",
 		"label": "Anchor-3 href",
 		"default": "nav-reviews"
-	}
+	},
+  {
+    "type": "header",
+    "content": "Tabs nav (mobile)========="
+  },
+  {
+    "type": "checkbox",
+    "id": "tabs_nav",
+    "label": "enable tabs nav?",
+    "default": true
+  }
   ],
   "blocks": [
     {
@@ -913,14 +925,14 @@
           "default": 22
         },
         {
-          "type": "range",
-          "id": "fsm",
-          "min": 10,
-          "max": 60,
-          "step": 1,
-          "label": "Font Size(mobile)",
-          "unit": "px",
-          "default": 18
+            "type": "range",
+            "id": "fsm",
+            "label": "Font Size (mobile)",
+            "default": 85,
+            "min": 50,
+            "max": 300,
+            "step": 5,
+            "unit": "%"
         },
         {
           "type": "select",
@@ -1034,14 +1046,14 @@
           "default": 25
         },
         {
-          "type": "range",
-          "id": "fsm",
-          "min": 10,
-          "max": 60,
-          "step": 1,
-          "label": "Font Size(mobile)",
-          "unit": "px",
-          "default": 16
+            "type": "range",
+            "id": "fsm",
+            "label": "Font Size (mobile)",
+            "default": 85,
+            "min": 50,
+            "max": 300,
+            "step": 5,
+            "unit": "%"
         },
         {
           "type": "select",
@@ -1814,14 +1826,14 @@
           "default": 22
         },
         {
-          "type": "range",
-          "id": "fsm",
-          "min": 10,
-          "max": 60,
-          "step": 1,
-          "label": "Font Size(mobile)",
-          "unit": "px",
-          "default": 16
+            "type": "range",
+            "id": "fsm",
+            "label": "Font Size (mobile)",
+            "default": 85,
+            "min": 50,
+            "max": 300,
+            "step": 5,
+            "unit": "%"
         },
         {
           "type": "select",
@@ -1935,14 +1947,14 @@
           "default": 16
         },
         {
-          "type": "range",
-          "id": "fsm",
-          "min": 10,
-          "max": 60,
-          "step": 1,
-          "label": "Font Size(mobile)",
-          "unit": "px",
-          "default": 16
+            "type": "range",
+            "id": "fsm",
+            "label": "Font Size (mobile)",
+            "default": 85,
+            "min": 50,
+            "max": 300,
+            "step": 5,
+            "unit": "%"
         },
         {
           "type": "select",

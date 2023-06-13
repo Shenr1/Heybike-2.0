@@ -20,7 +20,7 @@
 			{%- endif -%}
         {%- endfor -%}
       </ul>
-      <div class="tab-container" style="--acfs:{{secSt.fsm}}px;--acfw:{{secSt.fw}};--accl:{{secSt.clm}};--acbg:{{secSt.bgm}};--accla:{{secSt.clma}};--acbga:{{secSt.bgma}};">
+      <div class="tab-container" style="--acfs:{{secSt.fsm | divided_by: 100.0 }}rem;--acfw:{{secSt.fw}};--accl:{{secSt.clm}};--acbg:{{secSt.bgm}};--accla:{{secSt.clma}};--acbga:{{secSt.bgma}};">
         {% for block in section.blocks limit: section.blocks.size %}
         {%- assign collection = collections[block.settings.collection] -%}
         <h3 class="acor-ttl hide-md hide-lg {{secSt.ff}} {{ settings.title_align}} {{ secSt.tab-style}}{% if forloop.first %} active{% endif %}"><a class="tablink" href="#collection-{{ block.id }}">{{ block.settings.title }}<i class="at at-angle-down-r" aria-hidden="true"></i></a></h3>

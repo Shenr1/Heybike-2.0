@@ -5,25 +5,25 @@
       "settings": {
         "top-offeset": "default",
         "section_width": false,
-        "ds_height": 360,
+        "ds_height": 330,
         "tb_height": 350,
         "mb_height": 250,
         "parallax_scroll": false,
-        "image": "shopify:\/\/shop_images\/Cityrun_3766f6d3-34bf-4c89-981f-d36e3cbf85c3.jpg",
+        "image": "shopify:\/\/shop_images\/Cityrun.jpg",
         "alignment": "center",
         "pretext": "",
-        "pcl": "#ffffff",
+        "pcl": "#111",
         "pfs": 15,
-        "pfsm": 13,
+        "pfsm": 85,
         "pff": "ft1",
         "pfw": "400",
         "plh": 1.3,
         "pmb": 10,
         "pmbm": 5,
-        "title": "Pourquoi Heybike",
-        "tcl": "#ffffff",
+        "title": "Why Heybike",
+        "tcl": "#fff",
         "tfs": 33,
-        "tfsm": 20,
+        "tfsm": 195,
         "tff": "ft2",
         "tfw": "700",
         "tlh": 1.3,
@@ -32,7 +32,7 @@
         "text": "",
         "cl": "#ffffff",
         "fs": 16,
-        "fsm": 14,
+        "fsm": 85,
         "fw": "400",
         "lh": 1.6,
         "mb": 30,
@@ -65,14 +65,14 @@
         "1d1c291c-29e1-4645-911c-1cb922034f67": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_596f8700-955c-4c5c-9e9f-9ef70255a748.jpg",
+            "image": "shopify:\/\/shop_images\/banner-3.png",
             "layout": "right",
-            "title": "Diverses options pour répondre à vos besoins",
-            "text": "<p>HeyBike produit des vélos électriques pliants à pneus larges, des vélos électriques de type step-thru et des vélos électriques pour les déplacements quotidiens. Nos vélos électriques représentent toutes les capacités de la révolution de l'e-bike. Nous nous engageons à répondre à tous vos besoins, qu'il s'agisse d'aventures tout-terrain ou de déplacements quotidiens, et nous sommes adaptés à ceux qui cherchent à vivre une expérience sauvage ou à faire des balades sur les boulevards et les week-ends.<\/p>",
+            "title": "Various Options for Your Need",
+            "text": "<p>HeyBike produces fat tire folding e-bikes, step-thru design e-bikes, and commuter e-bikes. Our electric bikes represent the full capabilities of the e-bike revolution. We are committed to meeting all your needs, from off-road adventures to daily commuting, and we are suited to those looking to experience wild or boulevard cruisers and weekend rides.<\/p>",
             "logo_url": "",
             "logo_url2": "",
-            "button_label": "Acheter",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/electric-bike",
             "text_align": "text-left",
             "tcl": "#000000",
             "cl": "#000000",
@@ -85,13 +85,13 @@
         "template--19289277169979__fe6340dd-ea38-4ce9-9f9e-0abb15908260-16853339263b39c458-0": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_f2209487-f177-4258-bb4e-bbdb17cd91a1.jpg",
+            "image": "shopify:\/\/shop_images\/02_5d4178c9-4a9a-4ff3-a2a9-e98eff36001d.webp",
             "layout": "left",
-            "title": "Plus de 80 000 coureurs actifs",
-            "text": "<p>Ayant bénéficié de la confiance de 80 000 cyclistes et faisant partie de leur vie, Heybike est à l'origine d'une attitude saine et positive dans la vie, et d'un mode de vie pratique et efficace !<\/p>",
+            "title": "80,000+ Active Riders",
+            "text": "<p>Trusted by 80,000 riders and being part of their lives, Heybike is leading a healthy and positive attitude in life, and a convenient efficient lifestyle!<\/p>",
             "logo_url": "",
             "logo_url2": "",
-            "button_label": "Rejoignez-nous",
+            "button_label": "Join Us",
             "button_link": "shopify:\/\/pages\/heybike-memoir",
             "text_align": "tr",
             "tcl": "#000000",
@@ -105,10 +105,10 @@
         "cd0ae458-8d85-4fc8-9d07-6d27feb19a14": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_460x_9c835476-b3d3-4283-85e8-ae1f390b4d1a.webp",
+            "image": "shopify:\/\/shop_images\/4_460x_54bb42e7-9b61-4b27-aa33-4d396b213fe5.webp",
             "layout": "right",
-            "title": "Payez en 4. n'importe où",
-            "text": "<p>Payez en 4 avec Klarna à partir de Klarna.com, ou partout où Visa est acceptée. Pas d'impact sur le crédit. (*Prêts aux résidents de la Californie accordés ou arrangés en vertu d'une licence de la California Financing Law).<\/p>",
+            "title": "Pay in 4. Anywhere",
+            "text": "<p>Pay in 4 with Klarna from Klarna.com, or anywhere Visa is accepted. No credit impact. (*CA resident loans made or arranged pursuant to a California Financing Law license.)<\/p>",
             "logo_url": "",
             "logo_url2": "",
             "button_label": "Shop Now",
@@ -139,14 +139,14 @@
         "snow_effect": false,
         "snow_style": "style1",
         "tfs": 30,
-        "tfsm": 22,
+        "tfsm": 150,
         "tff": "ft1",
         "tfw": "700",
         "tlh": 1.2,
         "tmb": 15,
         "tmbm": 10,
         "fs": 14,
-        "fsm": 12,
+        "fsm": 75,
         "fw": "400",
         "lh": 1.6,
         "mb": 15,
@@ -166,14 +166,14 @@
         "title": "Testimonials",
         "tcl": "#000000",
         "tfs": 38,
-        "tfsm": 17,
+        "tfsm": 215,
         "tff": "ft1",
         "tfw": "700",
         "tlh": 1.3,
         "richtxt": "",
         "cl": "#000000",
         "fs": 14,
-        "fsm": 13,
+        "fsm": 75,
         "lh": 1.6,
         "btntxt": "",
         "btnurl": "",
@@ -203,7 +203,7 @@
           "settings": {
             "text_main": "\"The Heybike Mars hits a good price point and is a lot of fun to ride.\"",
             "text_sub": "- MSN",
-            "logo_image": "shopify:\/\/shop_images\/images.png"
+            "logo_image": "shopify:\/\/shop_images\/images_6ef9583c-32cb-464a-ae13-2388f8534db5.png"
           }
         },
         "b8d1ea7c-4393-4005-9ae8-96cd23567cbc": {
@@ -211,7 +211,7 @@
           "settings": {
             "text_main": "\"When it comes to solid, folding e-bikes, HeyBike has got game, with the manufacturer presenting us with a wide range of fat-tire wheelers.\"",
             "text_sub": "- AUTOEVOLUTION",
-            "logo_image": "shopify:\/\/shop_images\/AU.png"
+            "logo_image": "shopify:\/\/shop_images\/AU_e9db3ab0-4166-42df-8978-c88757d205ed.png"
           }
         },
         "d296e9a1-883f-46b9-9e75-1f5fdcdc5464": {
@@ -227,7 +227,7 @@
           "settings": {
             "text_main": "\"The Brawn from Heybike is a motorcycle inspired off-road beast.\"",
             "text_sub": "- electrifiedreviews",
-            "logo_image": "shopify:\/\/shop_images\/electrifiedreviews.png"
+            "logo_image": "shopify:\/\/shop_images\/74e96bd12406130d753f8d21926568a3.webp"
           }
         }
       },
@@ -249,12 +249,12 @@
     "d84ec3b7-47d3-45f8-a150-478d33a6d76e": {
       "type": "featured-blog",
       "settings": {
-        "title": "Témoignages de clients",
+        "title": "Customer stories",
         "subtitle": "",
         "top-offeset": "default",
         "section_cov": true,
         "sec_bg_clr": "#fafafa",
-        "blog": "temoignages-de-clients",
+        "blog": "customer-stories",
         "img_ratio": "40",
         "post_limit": 8,
         "grid": 3,
@@ -318,27 +318,30 @@
         "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-3",
         "template--19321892864315__ac592caa-d3ee-4db0-9040-5260670faf11-1685525145fd8e59e7-2"
       ],
+      "custom_css": [
+        ".sec-ttl .h3,div.sec-ttl p {color: #fff;}"
+      ],
       "settings": {
-        "top_padding": "none",
-        "bottom_padding": "small",
+        "top_padding": "default",
+        "bottom_padding": "default",
         "top-offeset": "default",
-        "section_style": "default",
+        "section_style": "heybike",
         "section_width": false,
         "section_cov": true,
-        "sec_bg_clr": "#111",
+        "sec_bg_clr": "#111111",
         "hide_mobile": false,
-        "title": "De superbes vélos. Service de qualité supérieure.",
-        "subtitle": "Dépasser les attentes grâce à un service à la clientèle hors pair",
+        "title": "Superb bikes. Superior Service.",
+        "subtitle": "Exceeding Expectations with Unparalleled Customer Care",
         "style": "style1",
         "icon-type": "icon",
         "icons_clr": "#ffffff",
         "isz": 33,
         "tcl": "#ffffff",
         "tfs": 15,
-        "tfsm": 12,
+        "tfsm": 75,
         "tfw": "500",
         "tlh": 1.2,
-        "cl": "#fff",
+        "cl": "#ffffff",
         "border_sep": "rgba(0,0,0,0)"
       }
     },
@@ -384,8 +387,8 @@
     "81a20925-7fed-4824-afe4-e930c15adf92": {
       "type": "newsletter",
       "settings": {
-        "title": "Bulletin d'information",
-        "subtitle": "Inscrivez-vous pour rester dans la boucle. Recevez des mises à jour, accédez à des offres exclusives, et plus encore.",
+        "title": "Newsletter",
+        "subtitle": "Sign up to stay in the loop. Receive updates, access to exclusive deals, and more.",
         "top-offeset": "default",
         "section_width": false,
         "section_cov": true,

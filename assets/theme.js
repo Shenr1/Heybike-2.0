@@ -1851,7 +1851,7 @@ $(document).ready(function() {
   
    //Footer links for mobiles
   $(".footer-links .h4").click(function() {
-    if($(window).width() < 750){
+    if($(window).width() < 770){
       $(this).toggleClass("active");
       $(this).next().slideToggle();
   	}

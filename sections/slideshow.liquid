@@ -5,31 +5,32 @@
   {% if section.blocks.size > 0 %}
   <div class="slideshow-wrapper{% if section.settings.section_width %} page-width{% endif %}{% if section.settings.snow_effect %} falling-snow{% endif %}{% if section.settings.snow_style == "style2" %} style2{% else %} style1{% endif %}"{% if section.settings.section_width %} style="max-width:{{ section.settings.box-width}}px; margin:0 auto"{% endif %}>
     {%- capture height -%}
-                {% if section.settings.ht == '1' %}
-                    {% for block in section.blocks %}
-                        {% if block.settings.image != blank %}
-                            --slht:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100}}%;
-                            {% if block.settings.imagem != blank %}
-                                --slhtm:{{ 1 | divided_by: block.settings.imagem.aspect_ratio | times: 100}}%;
-                            {% else %}
-                                --slhtm:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100}}%;
-                            {% endif %}
-                            {% break %}
-                        {% else %}
-                            --slht:40%;--slhtm:40%;
-                        {% endif %}
-                    {% endfor %}
+        {% if section.settings.ht == '1' %}
+            {% for block in section.blocks %}
+                {% if block.settings.image != blank %}
+                    --slht:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100}}%;
+                    {% if block.settings.imagem != blank %}
+                        --slhtm:90vh;
+                    {% else %}
+                        --slhtm:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100}}%;
+                    {% endif %}
+                    {% break %}
                 {% else %}
-                    --slht:{{section.settings.htd}}px;--slhtt:{{section.settings.htt}}px;--slhtm:{{section.settings.htm}}px;
+                    --slht:40%;--slhtm:40%;
                 {% endif %}
-                {% unless secSt.arrow %}--arw:none{% endunless %};
-                {% unless secSt.dot %}--dot:none{% endunless %};	
-                --arrow: {{secSt.arrowc}};
-                 --dotsa:{{secSt.dots }};
-                 --dots: {{secSt.dots |   color_modify:'alpha', 0.3 }};
-            {%- endcapture -%}
-    <div class="slideshow pr ctStyle {% if secSt.style == 'hbstyle' %}hbStyle{% endif %}" style="{{height}}" id="ss{{ section.id }}" data-flickity='{ "cellAlign":"left","fade":true,"selectedAttraction": 0.1,"friction": 1 {%- if section.settings.autoplay -%},"autoPlay":{{section.settings.speed | times: 1000}}{% endif %}{%- if settings.rtl -%},"rightToLeft": true{%- endif -%} }'>
-      {% for block in section.blocks %}
+            {% endfor %}
+        {% else %}
+            --slht:{{section.settings.htd}}px;--slhtt:{{section.settings.htt}}px;--slhtm:{{section.settings.htm}}px;
+        {% endif %}
+        {% unless secSt.arrow %}--arw:none{% endunless %};
+        {% unless secSt.dot %}--dot:none{% endunless %};	
+        --arrow: {{secSt.arrowc}};
+            --dotsa:{{secSt.dots }};
+            --dots: {{secSt.dots |   color_modify:'alpha', 0.3 }};
+    {%- endcapture -%}
+    <div class="slideshow pr ctStyle {% if secSt.style == 'hbstyle' %}hbStyle{% endif %}" style="{{ height }}" id="ss{{ section.id }}" 
+    data-flickity='{ "cellAlign":"left", "fade":true, "selectedAttraction": 0.1, "friction": 1, {%- if section.settings.autoplay -%}"autoPlay":{{section.settings.speed | times: 1000}},{% endif %}{%- if settings.rtl -%}"rightToLeft": true,{%- endif -%} "imagesLoaded": true}'>
+    {% for block in section.blocks %}
 
                     {%- liquid
                         assign blkSt = block.settings
@@ -66,7 +67,7 @@
                                  data-src="{{ image }}" data-widths="[400,700,1000,1200,1600,2000]" data-sizes="auto" alt="{{ blkSt.image.alt | escape }}" style="--ipos:{{imgPos}};">
                             {% if blkSt.imagem != blank %}
                                 {%- assign imagem = blkSt.imagem | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-                                <img class="imgFt ssimg hide-md hide-lg lazyload" src="{{ blkSt.imagem | img_url: "100x" }}" width="{{blkSt.imagem.width}}" height="{{blkSt.imagem.height}}"
+                                <img class="imgFt md:object-center !object-bottom ssimg hide-md hide-lg lazyload" src="{{ blkSt.imagem | img_url: "100x" }}" width="{{blkSt.imagem.width}}" height="{{blkSt.imagem.height}}"
                                  data-src="{{ imagem }}" data-widths="[400,700,1000,1400]" data-sizes="auto" alt="{{ blkSt.imagem.alt | escape }}" style="--ipos:{{img2Pos}};">
                             {% endif %}
                         {% elsif block.type == 'video' and blkSt.video_url != blank %}
@@ -96,17 +97,17 @@
                                 --bgm:transparent;--pdm:0;--frcl:transparent;--frmm:none;
                             {% endif %}
                         {%- endcapture -%}
-                        <div class="ss_txt-wrap w_100 h_100" {% if secSt.isbox or secSt.isboxm %} style="--ibg:{{ secSt.obg | color_modify: 'alpha', secSt.oopt }};--brad:{{secSt.brad}}px;"{% endif %}>
-                            <div class="page-width fl h_100 {{ blkSt.txtpos }} {{ blkSt.txtposm }}" style="max-width:{{blkSt.contwd}}px;{{bxStyle}}">
-                                <div class="ss_txt 2k:mb-[20%] 2xl:mb-[16%] xl:mb-[12%] lg:mb-[8%] md:mb-[6%] md:mt-0 mt-10{% if blkSt.text-left %} tl{% else %} tc{% endif %}{% if section.settings.txtanimation %} anim {{ section.settings.anim }}{% endif %}">
+                        <div class="ss_txt-wrap px-0 w_100 h_100" {% if secSt.isbox or secSt.isboxm %} style="--ibg:{{ secSt.obg | color_modify: 'alpha', secSt.oopt }};--brad:{{secSt.brad}}px;"{% endif %}>
+                            <div class="page-width xl:px-4 px-8 fl h_100 {{ blkSt.txtpos }} {{ blkSt.txtposm }}" style="max-width:{{blkSt.contwd}}px;{{bxStyle}}">
+                                <div class="ss_txt md:pl-0  2k:mb-[20%] 2xl:mb-[16%] xl:mb-[12%] lg:mb-[8%] md:mb-[6%] md:mt-0 mt-20{% if blkSt.text-left %} tl{% else %} tc{% endif %}{% if section.settings.txtanimation %} anim {{ section.settings.anim }}{% endif %}">
                                     {% if blkSt.hd1 != blank %}
-                                        <p class="stxt hd1 {{secSt.pff}}" style="--cl:{{blkSt.pcl}};--fs:{{secSt.pfs}}px;--fsm:{{secSt.pfsm}}px;--fw:{{secSt.pfw}};--lh:{{secSt.plh}};--mb:{{secSt.pmb}}px;--mbm:{{secSt.pmbm}}px">{{ blkSt.hd1 }}</p>
+                                        <p class="stxt hd1 {{secSt.pff}}" style="--cl:{{blkSt.pcl}};--fs:{{secSt.pfs}}px;--fsm:1.07rem;--fw:{{secSt.pfw}};--lh:{{secSt.plh}};--mb:{{secSt.pmb}}px;--mbm:0">{{ blkSt.hd1 }}</p>
                                     {% endif %}
                                     {% if blkSt.title != blank %}
-                                        <h2 class="stxt hd2 {{secSt.bff}}" style="--cl:{{blkSt.tcl}};--fs:{{secSt.bfs}}px;--fsm:{{secSt.bfsm}}px;--fw:{{secSt.bfw}};--lh:{{secSt.blh}};--mb:{{secSt.bmb}}px;--mbm:{{secSt.bmbm}}px">{{blkSt.title}}</h2>
+                                        <h2 class="stxt hd2 {{secSt.bff}}" style="--cl:{{blkSt.tcl}};--fs:{{secSt.bfs}}px;--fsm:2.5rem;--fw:{{secSt.bfw}};--lh:{{secSt.blh}};--mb:{{secSt.bmb}}px;--mbm:1rem">{{blkSt.title}}</h2>
                                     {% endif %}
                                     {% if blkSt.hd3 != blank %}
-                                        <div class="stxt hd3 {{secSt.dff}}{% if blkSt.hideh3 %} hide-sm{% endif %}" style="--cl:{{blkSt.cl}};--fs:{{secSt.dfs}}px;--fsm:{{secSt.dfsm}}px;--fw:{{secSt.dfw}};--lh:{{secSt.dlh}};--mb:{{secSt.dmb}}px;--mbm:{{secSt.dmbm}}px">{{ blkSt.hd3 }}</div>
+                                        <div class="stxt hd3 {{secSt.dff}}{% if blkSt.hideh3 %} hide-sm{% endif %}" style="--cl:{{blkSt.cl}};--fs:{{secSt.dfs}}px;--fsm:1.07rem;--fw:{{secSt.dfw}};--lh:{{secSt.dlh}};--mb:{{secSt.dmb}}px;--mbm:0">{{ blkSt.hd3 }}</div>
                                     {% endif %}
                                     {% if blkSt.display_btn %}
                                         <div class="btnWrap">
@@ -117,22 +118,26 @@
                                         {% if blkSt.btn != blank %}<div class="btnWrap"><a class="btn {{secSt.btn-sizem}} {{secSt.btn-size}} {{blkSt.btn-style}}" href="{{ blkSt.link }}">{{blkSt.btn}}</a></div>{% endif %}
                                     {% else %}
                                         {% if blkSt.btn != blank %}
-                                        <div class="btnWrap mt-14">
-                                            <span class="btn btn-featured !text-lg md:!py-3 md:!px-7 py-2 px-4 {{secSt.btn-sizem}} {{secSt.btn-size}} {{blkSt.btn-style}}" >{{blkSt.btn}}</span>
+                                        <div class="btnWrap xl:mt-14 lg:mt-10 md:mt-4 mt-14 ">
+                                            <span class="btn btn-featured md:!text-lg !text-sm pad:!py-3 pad:!px-7 md:!py-1 md:!px-5 !py-2 !px-4 m-0 {{secSt.btn-sizem}} {{secSt.btn-size}} {{blkSt.btn-style}}" >{{blkSt.btn}}</span>
                                         </div>
                                         {% endif %}
                                     {% endif %}            
                                 </div>
                             </div>
-                        </div>             
+                        </div>    
+
+                                 
                         {% if blkSt.display_btn != true and blkSt.link != blank and block.type != 'video' %}</a>{% endif %}
                     </div>
+                    
                 {% endfor %}
     </div>
   </div>
   {% endif %}
   {% if section.blocks.size == 0 %}<div class="placeholder-noblocks">{{ 'homepage.onboarding.no_content' | t }}</div>{% endif %}
 </div>
+
 {%- endcapture -%}
 {{slideShowSec | strip_newlines | remove: "  " | remove: "	" }}
 {% schema %}
@@ -277,16 +282,6 @@
                     "unit": "px"
                 },
                 {
-                    "type": "range",
-                    "id": "pfsm",
-                    "label": "Font Size (mobile)",
-                    "default": 12,
-                    "min": 10,
-                    "max": 60,
-                    "step": 1,
-                    "unit": "px"
-                },
-                {
                     "type": "select",
                     "id": "pff",
                     "label": "Font Family",
@@ -353,17 +348,7 @@
                     "max":50,
                     "step":5,
                     "unit": "px"
-                }, 			              
-                {
-                    "type": "range",
-                    "id": "pmbm",
-                    "label": "Margin Bottom (mobile)",
-                    "default": 5,
-                    "min":0,
-                    "max":50,
-                    "step":5,
-                    "unit": "px"
-                },
+                }, 		
       {
 		"type":"paragraph",
 		"content":"Big Heading ====="
@@ -375,16 +360,6 @@
                     "default": 50,
                     "min": 10,
                     "max": 100,
-                    "step": 1,
-                    "unit": "px"
-                },
-                {
-                    "type": "range",
-                    "id": "bfsm",
-                    "label": "Font Size (mobile)",
-                    "default": 25,
-                    "min": 10,
-                    "max": 60,
                     "step": 1,
                     "unit": "px"
                 },
@@ -455,17 +430,7 @@
                     "max":50,
                     "step":5,
                     "unit": "px"
-                }, 			              
-                {
-                    "type": "range",
-                    "id": "bmbm",
-                    "label": "Margin Bottom (mobile)",
-                    "default": 5,
-                    "min":0,
-                    "max":50,
-                    "step":5,
-                    "unit": "px"
-                },
+                }, 	
       {
 		"type":"paragraph",
 		"content":"Details ====="
@@ -477,16 +442,6 @@
                     "default": 16,
                     "min": 10,
                     "max": 100,
-                    "step": 1,
-                    "unit": "px"
-                },
-                {
-                    "type": "range",
-                    "id": "dfsm",
-                    "label": "Font Size (mobile)",
-                    "default": 14,
-                    "min": 10,
-                    "max": 60,
                     "step": 1,
                     "unit": "px"
                 },
@@ -557,17 +512,7 @@
                     "max":50,
                     "step":5,
                     "unit": "px"
-                }, 			              
-                {
-                    "type": "range",
-                    "id": "dmbm",
-                    "label": "Margin Bottom (mobile)",
-                    "default": 15,
-                    "min":0,
-                    "max":50,
-                    "step":5,
-                    "unit": "px"
-                },
+                }, 		
 	  {
         "type": "checkbox",
         "id": "txtanimation",

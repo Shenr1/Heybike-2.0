@@ -44,7 +44,7 @@
     "color_button_hov": "rgba(0,0,0,0)",
     "btn1_bd_hover": "#000",
     "color_small_button_text": "#fff",
-    "color_small_button": "#F67280",
+    "color_small_button": "#f6be00",
     "btn2_bd": "rgba(0,0,0,0)",
     "btn2_bd_hove": "rgba(0,0,0,0)",
     "solid_btn_3": "#0dbdb9",
@@ -53,7 +53,7 @@
     "bdr_btn_2_text": "#F67280",
     "bdr_btn_2": "#F67280",
     "bdr_btn_2_text_hov": "#fff",
-    "bdr_btn_2_hov": "#F67280",
+    "bdr_btn_2_hov": "#f6be00",
     "link_btn_txt": "#f67280",
     "navigation_font_size": 16,
     "navigation_txt_case": "none",
@@ -93,7 +93,7 @@
     "newsletter_btn": "#000",
     "font-style": "600",
     "mob_browser": "#000",
-    "scroll_icon_colors": "#f77575",
+    "scroll_icon_colors": "#f6be00",
     "text_link": "#444",
     "text_link_hv": "#aaaaaa",
     "color_borders": "#eeeeee",
@@ -111,8 +111,8 @@
     "tphfont": 12,
     "main_header_fullwidth": false,
     "logosvg": "",
-    "logo": "shopify:\/\/shop_images\/3_4x_c21b071a-cd55-4484-9041-ee5d8362c845.png",
-    "logo_reversal": "shopify:\/\/shop_images\/Heybike_LOGO1.png",
+    "logo": "shopify:\/\/shop_images\/logo-white.png",
+    "logo_reversal": "shopify:\/\/shop_images\/logo-black.png",
     "logo_width": "135",
     "header_height": "80",
     "mobile_header_height": "50",
@@ -149,7 +149,7 @@
     "color_sale_text": "#f77575",
     "enable_quickshop": true,
     "prbox_btnbg": "#000",
-    "prbox_btnbgh": "#f75b5b",
+    "prbox_btnbgh": "#f6be00",
     "grid_btn_style": 4,
     "btn_mobiles": true,
     "grid_countdown_text": "#000",
@@ -277,67 +277,79 @@
           "86aca260-e282-40f4-97fb-c8bb57b7ef06": {
             "type": "megamenuHb",
             "settings": {
-              "title": "Vélo électrique",
-              "url": "shopify:\/\/collections\/velo-electrique",
-              "mm_linklist": "",
-              "text_main1": "Apportez une vie idéale à l'uran !",
-              "text_sub1": "Deux modèles au choix, l'un ou l'autre à essayer",
-              "text_link1": "Voir tout",
+              "title": "E-Bikes",
+              "url": "shopify:\/\/collections\/electric-bike",
+              "mm_linklist": "electric-bike",
+              "text_main1": "Bring an ideal urban life!",
+              "text_sub1": "Two models to choose, either one to try",
+              "text_link1": "View All",
               "url_link1": "shopify:\/\/collections\/electric-bike",
               "img_url2": "shopify:\/\/shop_images\/Heybie_EC1_ST_1_png.jpg",
               "text_main2": "EC 1-ST",
-              "text_sub2": "Préféré par les femmes cyclistes",
+              "text_sub2": "Preferred by female cyclists",
               "text_link2": "",
-              "url_link2": "shopify:\/\/products\/ec-1-st",
+              "url_link2": "shopify:\/\/products\/ec-1-st-1",
               "img_url3": "shopify:\/\/shop_images\/Heybie_EC1_ST_2_png.jpg",
               "text_main3": "EC 1",
-              "text_sub3": "Répondre à vos besoins pour les trajets domicile-travail",
+              "text_sub3": "Meet your needs for commuting",
               "text_link3": "",
-              "url_link3": "shopify:\/\/products\/ec-1"
+              "url_link3": "shopify:\/\/products\/heybike-ec-1"
+            }
+          },
+          "fdae2dd8-4778-4ee1-b020-8db5b864a945": {
+            "type": "dropdown",
+            "settings": {
+              "title": "Equipment",
+              "url": "shopify:\/\/collections\/equipment",
+              "mm_linklist": "accessories"
             }
           },
           "eaf15dca-1822-4a37-8c94-bd24e939b788": {
             "type": "megamenuHb",
+            "disabled": true,
             "settings": {
               "title": "Equipment",
-              "url": "",
-              "mm_linklist": "",
+              "url": "shopify:\/\/collections\/equipment",
+              "mm_linklist": "accessories",
+              "img_url1": "shopify:\/\/shop_images\/3_44e6a839-6156-450d-9e85-01671a3bb37c.jpg",
               "text_main1": "",
-              "text_sub1": "",
-              "text_link1": "",
-              "url_link1": "",
+              "text_sub1": "Accessories",
+              "text_link1": "View All",
+              "url_link1": "shopify:\/\/collections\/equipment",
+              "img_url2": "shopify:\/\/shop_images\/1_800x_190ca362-0b04-4ac3-bd9e-f28972a3c8f3.webp",
               "text_main2": "",
-              "text_sub2": "",
-              "text_link2": "",
-              "url_link2": "",
+              "text_sub2": "Replacement Parts",
+              "text_link2": "View All",
+              "url_link2": "shopify:\/\/collections\/equipment",
+              "img_url3": "shopify:\/\/shop_images\/1_800x_8351822d-58a1-4998-b7dc-4b6f0b1e3116.webp",
               "text_main3": "",
-              "text_sub3": "",
-              "text_link3": "",
-              "url_link3": ""
+              "text_sub3": "Merch",
+              "text_link3": "View All",
+              "url_link3": "shopify:\/\/collections\/equipment"
             }
           },
-          "23b6094a-ec02-4808-bac4-8dbb5fed7f32": {
+          "8ce78ede-59e2-430e-af8a-0767a9b36fcc": {
             "type": "dropdown",
             "settings": {
-              "title": "Soutien",
+              "title": "Support",
               "url": "",
-              "mm_linklist": "obtenir-de-laide"
+              "mm_linklist": "support"
             }
           },
           "1559988240897": {
             "type": "dropdown",
             "settings": {
-              "title": "Communauté",
+              "title": "Community",
               "url": "",
-              "mm_linklist": "communaut"
+              "mm_linklist": "community"
             }
           },
           "1559992848977": {
             "type": "dropdown",
             "settings": {
-              "title": "Centre d'aide",
-              "url": "",
-              "mm_linklist": "centre-daide"
+              "title": "Help Center",
+              "url": "#",
+              "mm_linklist": "help-center"
             }
           },
           "ff0e6f22-f740-4d49-9986-8cbc1de21b2e": {
@@ -352,8 +364,9 @@
         },
         "block_order": [
           "86aca260-e282-40f4-97fb-c8bb57b7ef06",
+          "fdae2dd8-4778-4ee1-b020-8db5b864a945",
           "eaf15dca-1822-4a37-8c94-bd24e939b788",
-          "23b6094a-ec02-4808-bac4-8dbb5fed7f32",
+          "8ce78ede-59e2-430e-af8a-0767a9b36fcc",
           "1559988240897",
           "1559992848977",
           "ff0e6f22-f740-4d49-9986-8cbc1de21b2e"
@@ -390,32 +403,32 @@
           "1558678581777": {
             "type": "menu",
             "settings": {
-              "title": "PRODUITS",
-              "menulinks": "produits",
+              "title": "PRODUCTS",
+              "menulinks": "products",
               "width": "wd20-md"
             }
           },
           "1561010652330": {
             "type": "menu",
             "settings": {
-              "title": "AVANT D'ACHETER",
-              "menulinks": "avant-dacheter",
+              "title": "BEFORE YOU BUY",
+              "menulinks": "about-us",
               "width": "wd20-md"
             }
           },
           "1558678570770": {
             "type": "menu",
             "settings": {
-              "title": "OBTENIR DE L'AIDE",
-              "menulinks": "obtenir-de-laide",
+              "title": "GET HELP",
+              "menulinks": "service",
               "width": "wd20-md"
             }
           },
           "4e102e40-8900-4358-895e-37dd5ac9809b": {
             "type": "menu",
             "settings": {
-              "title": "SOCIÉTÉ",
-              "menulinks": "societe",
+              "title": "COMPANY",
+              "menulinks": "more",
               "width": "wd20-md"
             }
           },
@@ -423,8 +436,8 @@
             "type": "newsletter",
             "settings": {
               "newltr_align": false,
-              "title": "LETTRE D'INFORMATION",
-              "sub_title": "Entrez votre email pour recevoir une lettre d'information et un bon de réduction de 50€ sur les vélos électriques.",
+              "title": "NEWSLETTER",
+              "sub_title": "Enter your email to receive a newsletter and a £50 off e-bike voucher.",
               "show_socials": false,
               "socials_ttl": "Stay Connected",
               "width": "wd20-md"
@@ -433,7 +446,7 @@
           "f7510364-7668-446e-8629-906714d86056": {
             "type": "legal",
             "settings": {
-              "logo_img": "shopify:\/\/shop_images\/3_4x_70dee3ac-56bc-48dd-bd41-9b757f1bf4e4.png",
+              "logo_img": "shopify:\/\/shop_images\/logo-white.png",
               "text_link1": "",
               "link_url1": "",
               "text_link2": "",
@@ -443,7 +456,7 @@
           "0fbd70ba-a5ec-4f78-b500-98fa94c457c2": {
             "type": "socialicons",
             "settings": {
-              "title": "Suivez-nous"
+              "title": "Follow Us"
             }
           }
         },
@@ -477,28 +490,28 @@
               "color1": "#f05454",
               "title2": "Emerald",
               "color2": "#00646c",
-              "title3": "White\/Black",
-              "color3": "",
+              "title3": "White",
+              "color3": "#fffbea",
               "title4": "Sage",
               "color4": "#8da29a",
               "title5": "Olive Green",
               "color5": "#bab86c",
               "title6": "Blue",
-              "color6": "#77bff2",
+              "color6": "#72b1c4",
               "title7": "Green",
-              "color7": "#37b767",
+              "color7": "#979f71",
               "title8": "Camel",
               "color8": "#df974d",
-              "title9": "Blanc",
-              "color9": "#111111",
-              "title10": "Bleu",
-              "color10": "#72b1c4",
-              "title11": "Blanc",
-              "color11": "#fffbea",
-              "title12": "Noir",
-              "color12": "#000000",
-              "title13": "Rose",
-              "color13": "#b07c8b",
+              "title9": "Pink",
+              "color9": "#b07c8b",
+              "title10": "Black\/Grey",
+              "color10": "",
+              "title11": "Blue\/Red",
+              "color11": "",
+              "title12": "",
+              "color12": "",
+              "title13": "",
+              "color13": "",
               "title14": "",
               "color14": "",
               "title15": "",

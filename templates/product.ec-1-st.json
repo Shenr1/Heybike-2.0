@@ -14,7 +14,7 @@
           "settings": {
             "cl": "#000000",
             "fs": 36,
-            "fsm": 24,
+            "fsm": 180,
             "ff": "ft2",
             "fw": "600",
             "transform": "tt-c",
@@ -27,7 +27,7 @@
             "pcl": "#000000",
             "pcls": "#e95144",
             "fs": 30,
-            "fsm": 20,
+            "fsm": 150,
             "pfw": "600",
             "saved": false,
             "taxship": false,
@@ -40,7 +40,7 @@
             "title": "More colors",
             "cl": "#000000",
             "fs": 16,
-            "fsm": 16,
+            "fsm": 100,
             "fw": "600",
             "wd": 100,
             "bd": "#000000",
@@ -57,7 +57,7 @@
         "900c2863-7a02-4344-845e-386c8248bc4d": {
           "type": "text",
           "settings": {
-            "text": "Commandez maintenant et recevez un casque et une sacoche GRATUITS !",
+            "text": "<b>Order now, and get a FREE Helmet and Pannier Bag!<\/b>",
             "cl": "#999999",
             "addbg": false,
             "bg": "#f5f5f5",
@@ -68,19 +68,19 @@
         "dba108ba-fba9-466d-afd3-21f64c8a1db7": {
           "type": "giveaways",
           "settings": {
-            "title": "Casque Ebike urbain",
+            "title": "Urban Ebike Helmet",
             "price": "6500",
-            "tag": "GRATUIT",
-            "Image": "shopify:\/\/shop_images\/heybike_helmet.webp"
+            "tag": "FREE",
+            "Image": "shopify:\/\/shop_images\/1_51d81221-099f-41ad-826d-8a1c1345ad5f.jpg"
           }
         },
         "ca52189d-109d-45f5-91c5-d195b2c24af3": {
           "type": "giveaways",
           "settings": {
-            "title": "Sacoche pour porte-bagages de vélo",
+            "title": "Bike Rack Pannier Bag",
             "price": "7500",
-            "tag": "GRATUIT",
-            "Image": "shopify:\/\/shop_images\/heybike_pannier_bag.webp"
+            "tag": "FREE",
+            "Image": "shopify:\/\/shop_images\/1_cb2c2dd4-3923-4b6c-b811-ad94e60c7caa.jpg"
           }
         },
         "7ff82dc7-abaf-42c2-a8c8-d415a91325d5": {
@@ -89,7 +89,8 @@
           "settings": {
             "title": "Foot Support",
             "price": "3500",
-            "tag": "FREE"
+            "tag": "FREE",
+            "Image": "shopify:\/\/shop_images\/1_65c744a7-6512-40ba-b565-ca8c0c4e7b72.png"
           }
         },
         "3e5ff436-8638-45b7-a3ce-b36263b34395": {
@@ -104,12 +105,12 @@
         "75a78218-e9d0-4681-b8f1-d4b99318f5b7": {
           "type": "colimg",
           "settings": {
-            "text1": "Livraison gratuite",
-            "text2": "TVA incluse",
-            "text3": "Garantie de 1 an",
-            "icon1": "shopify:\/\/shop_images\/646653b0ac6b117df7f13ce8570d0e38_ab1303c8-a54e-47d4-999d-44eeabc4aa8c.png",
-            "icon2": "shopify:\/\/shop_images\/2_db248150-9d91-47d8-af7f-fd791013a8f4.png",
-            "icon3": "shopify:\/\/shop_images\/123.png"
+            "text1": "Free shipping",
+            "text2": "VAT included",
+            "text3": "1-year warranty",
+            "icon1": "shopify:\/\/shop_images\/01icon.png",
+            "icon2": "shopify:\/\/shop_images\/02icon.png",
+            "icon3": "shopify:\/\/shop_images\/03icon.png"
           }
         }
       },
@@ -132,7 +133,8 @@
         "anchor2": "Specifications",
         "anchor_href2": "nav-specifications",
         "anchor3": "Reviews",
-        "anchor_href3": "nav-reviews"
+        "anchor_href3": "nav-reviews",
+        "tabs_nav": true
       }
     },
     "upsell": {
@@ -275,34 +277,34 @@
           "type": "item",
           "settings": {
             "item_title": "360Wh",
-            "item_dec": "Batterie"
+            "item_dec": "Battery"
           }
         },
         "a27b30d1-ea2c-42ec-9fce-1899fef048f4": {
           "type": "item",
           "settings": {
-            "item_title": "100km",
-            "item_dec": "Gamme (Jusqu'à)"
+            "item_title": "50mile+",
+            "item_dec": "Range"
           }
         },
         "19891b48-30b5-4d5d-9969-7cc834a3cbde": {
           "type": "item",
           "settings": {
-            "item_title": "18kg",
-            "item_dec": "Poids"
+            "item_title": "40lbs",
+            "item_dec": "Weight"
           }
         },
         "77f5c680-eb06-4cbd-b967-0b45bc01402e": {
           "type": "item",
           "settings": {
-            "item_title": "155-185cm",
-            "item_dec": "Hauteur recommandée"
+            "item_title": "5.08'-6.06'",
+            "item_dec": "Rider Height"
           }
         },
         "c4bf62db-57aa-4884-a373-6a2c5aeb6ff2": {
           "type": "item",
           "settings": {
-            "item_title": "7 Vitesse",
+            "item_title": "7 Speed",
             "item_dec": "Shimano"
           }
         },
@@ -310,7 +312,7 @@
           "type": "item",
           "settings": {
             "item_title": "3.4''",
-            "item_dec": "Écran LCD"
+            "item_dec": "LCD Display"
           }
         }
       },
@@ -329,9 +331,9 @@
         "layout": "textImage",
         "img_size": "big",
         "img": "shopify:\/\/shop_images\/765x670.png",
-        "text_main": "Recadrer l'avenir",
-        "text_sub": "La forme aérodynamique de l'EC 1-ST lui permet de se déplacer comme une gazelle dans les rues encombrées de la ville et de se rendre dans des endroits inaccessibles aux voitures.",
-        "text_dec": "La conception du cadre bas permet aux femmes de porter des robes et de faire du shopping avec style en tout confort.",
+        "text_main": "Reframing The Future",
+        "text_sub": "EC 1-ST's streamlined form allows it to move like a gazelle through the congested city streets, getting to locations inaccessible to cars.",
+        "text_dec": "The low frame design allows ladies to wear dresses and shop in style comfortably.",
         "bottom_line": false
       }
     },
@@ -354,7 +356,7 @@
         "title": "",
         "color_ttl": "#ffffff",
         "tfs": 20,
-        "tfsm": 12,
+        "tfsm": 75,
         "hide_text": false,
         "btntxt": "",
         "btnurl": "",
@@ -370,21 +372,21 @@
           "type": "slide",
           "settings": {
             "color": "#fffbea",
-            "image": "shopify:\/\/shop_images\/2_108d301a-f109-418f-945c-3c17bd43a08f.png"
+            "image": "shopify:\/\/shop_images\/EC-1-ST_2d4ea888-5991-4847-a0e8-4779e3de7866.png"
           }
         },
         "3f2b5db7-4454-454d-a182-9e69238708a7": {
           "type": "slide",
           "settings": {
             "color": "#72b1c4",
-            "image": "shopify:\/\/shop_images\/3_f881d2f8-3c25-4b88-9c36-dc6dbd3e1783.png"
+            "image": "shopify:\/\/shop_images\/EC-1-ST_156e7d28-913a-4c59-b0c0-127e7cba1e75.png"
           }
         },
         "3491c024-f7d7-4349-9f63-aa201626f2bf": {
           "type": "slide",
           "settings": {
             "color": "#b07c8b",
-            "image": "shopify:\/\/shop_images\/1_587f7559-f8d6-47af-8b04-5b93fdb678eb.png"
+            "image": "shopify:\/\/shop_images\/EC-1-ST_61447deb-d0eb-4ef5-9e39-acf5320cda94.png"
           }
         }
       },
@@ -396,8 +398,8 @@
       "settings": {
         "top_padding": "default",
         "bottom_padding": "default",
-        "title": "Une vie urbaine idéale",
-        "sub_title": "En alliage d'aluminium",
+        "title": "Bring an Ideal Urban Life",
+        "sub_title": "Discover your preferred color",
         "bg_color": "#f5f5f5"
       }
     },
@@ -408,21 +410,21 @@
           "type": "item",
           "settings": {
             "item_title": "360Wh",
-            "item_dec": "Puissance"
+            "item_dec": "Power"
           }
         },
         "c2cd3913-f9ab-4d1a-90a3-425a71e726c2": {
           "type": "item",
           "settings": {
             "item_title": "10Ah",
-            "item_dec": "Capacité"
+            "item_dec": "Capacity"
           }
         },
         "c40ebf74-fd0a-4136-902b-64c9b076e175": {
           "type": "item",
           "settings": {
             "item_title": "36V",
-            "item_dec": "Tension"
+            "item_dec": "Voltage"
           }
         }
       },
@@ -437,10 +439,10 @@
         "bg_color": "",
         "layout": "textImage",
         "img_size": "default",
-        "img": "shopify:\/\/shop_images\/7ecc40279fd871bac0e0d11e210a632b.jpg",
-        "text_main": "Batterie portable",
-        "text_sub": "Conçue pour alimenter vos aventures, cette batterie Samsung offre des performances et une efficacité exceptionnelles.",
-        "text_dec": "Avec une autonomie de 100 km avec une seule charge, vous pouvez laisser libre cours à votre liberté et explorer la région sans aucune restriction.",
+        "img": "shopify:\/\/shop_images\/7ecc40279fd871bac0e0d11e210a632b_78117ecc-f97c-4d5f-8c11-f5fa7b7cae8f.jpg",
+        "text_main": "Portable Battery",
+        "text_sub": "Designed to fuel your adventures, this battery from Samsung offers exceptional performance and efficiency.",
+        "text_dec": "Unleash your freedom with an impressive range of 50 miles on a single charge, allowing you to explore without limits.",
         "bottom_line": true
       }
     },
@@ -451,14 +453,14 @@
           "type": "item",
           "settings": {
             "item_title": "250 W",
-            "item_dec": "Puissance"
+            "item_dec": "Power"
           }
         },
         "bd530c13-0782-4c23-a156-1e0a11200db7": {
           "type": "item",
           "settings": {
             "item_title": "37 Nm",
-            "item_dec": "Couple"
+            "item_dec": "Torque"
           }
         },
         "f4b077ec-d5f4-464e-a93c-199cc05db80b": {
@@ -480,7 +482,7 @@
         "bg_color": "",
         "layout": "imageText",
         "img_size": "default",
-        "img": "shopify:\/\/shop_images\/e28a42c4475362c949415a1c17dcc923.jpg",
+        "img": "shopify:\/\/shop_images\/heybike_EC1_motor.jpg",
         "text_main": "Lightweight Motor",
         "text_sub": "Experience the ultimate ride with our 250W lightweight motor, which offers outstanding stability, resistance to bumps and shocks, minimal noise and vibration, smooth operation, and an impressive lifespan.",
         "text_dec": "Experience the difference of a motor designed for excellence and elevate your riding experience to new heights.",
@@ -495,9 +497,9 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/4329a2cf13558c822173f9e4a4b9c055.png",
-            "text_main": "Transmission Shimano à 7 vitesses",
-            "text_sub": "La transmission par chaîne Shimano® à 7 vitesses est puissante, souple et conçue pour offrir des performances élevées sur toutes les routes.",
+            "bg_img": "shopify:\/\/shop_images\/Heybike_Shimano_7-speed_Drivetrain.png",
+            "text_main": "Gears",
+            "text_sub": "The Shimano® 7-speed chain drive ispowerful, smooth, and built to perform high on all roads.",
             "img_link": ""
           }
         },
@@ -507,8 +509,8 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/Puncture-resistant_Tires.png",
-            "text_main": "Pneus anti-crevaison",
-            "text_sub": "Pneus polyvalents 700C*40C avec technologie anti-crevaison pour la ville, le gravier et les longues distances.",
+            "text_main": "Puncture-resistant Tires",
+            "text_sub": "Versatile 700C*40C tires with anti-puncture tech for city, gravel, and long-distance rides.",
             "img_link": ""
           }
         },
@@ -518,8 +520,8 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/Headlights.png",
-            "text_main": "Phares",
-            "text_sub": "Éclairage multi-angle réglable pour des déplacements sûrs et sans distraction.",
+            "text_main": "Headlights",
+            "text_sub": "Adjustable multi-angle illumination for safe and non-distracting commuting.",
             "img_link": ""
           }
         },
@@ -529,8 +531,8 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/Hydraulic_disc_brakes.png",
-            "text_main": "Freins à disque hydrauliques",
-            "text_sub": "Améliorez vos freins : Les disques hydrauliques assurent un freinage plus précis, plus puissant et plus sûr.",
+            "text_main": "Hydraulic disc brakes",
+            "text_sub": "Upgrade your brakes: Hydraulic discs provide more precise, powerful, and safe stopping.",
             "img_link": ""
           }
         },
@@ -540,8 +542,8 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/Heybike_LCD_Display.png",
-            "text_main": "Écran LCD",
-            "text_sub": "Compatible avec l'application HEYBIKE pour vous aider à naviguer.",
+            "text_main": "LCD Display",
+            "text_sub": "Compatible with the HEYBIKE App to help you navigate the journey ahead.",
             "img_link": ""
           }
         },
@@ -550,9 +552,9 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/f956d5b5bf5da5cb869ce37f7af9190e.png",
-            "text_main": "Câblage intérieur caché",
-            "text_sub": "Le câblage interne améliore l'esthétique, diminue la résistance au vent et réduit les risques de collision.",
+            "bg_img": "shopify:\/\/shop_images\/f956d5b5bf5da5cb869ce37f7af9190e_83dfe711-6c77-4b6f-af75-d69d858f1df0.png",
+            "text_main": "Hidden inner wiring design",
+            "text_sub": "Internal wiring enhances aesthetics, decreases wind resistance, and lessens crashes.",
             "img_link": ""
           }
         }
@@ -566,9 +568,9 @@
         "23013716-ea85-4509-a43b-7967d284b85a"
       ],
       "settings": {
-        "top_padding": "medium",
+        "top_padding": "large",
         "bottom_padding": "none",
-        "title": "Plus de détails",
+        "title": "Take a Closer Look",
         "layout": "textImg",
         "enable_slider": true,
         "bottom_line": true
@@ -581,16 +583,18 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/Heybike_Ap.png",
+            "image_mb": "shopify:\/\/shop_images\/1_b0049f01-5229-45da-9346-24332cf186d1.png",
             "layout": "right",
-            "title": "Smarttech et APP",
-            "text": "<p>Tes superbes balades méritent un journal ! Connectez votre vélo à l'application HEYBIKE, et construisez un compteur kilométrique impressionnant !<\/p>",
-            "bottom_logo": "shopify:\/\/shop_images\/icon01.png",
+            "title": "Smarttech and APP",
+            "text": "<p>Your amazing rides deserve a journal! Connect your bike to the HEYBIKE App, and build an impressive mileage count!<\/p>",
+            "bottom_logo": "shopify:\/\/shop_images\/app-store.webp",
             "logo_url": "",
             "bottom_logo2": "shopify:\/\/shop_images\/icon0.png",
             "logo_url2": "",
             "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
+            "text_center": true,
             "tcl": "#000000",
             "cl": "#000000",
             "bg": "#f5f5f5",
@@ -614,14 +618,14 @@
         "snow_effect": false,
         "snow_style": "style1",
         "tfs": 30,
-        "tfsm": 22,
+        "tfsm": 150,
         "tff": "ft1",
         "tfw": "700",
         "tlh": 1.2,
         "tmb": 15,
         "tmbm": 10,
         "fs": 14,
-        "fsm": 12,
+        "fsm": 75,
         "fw": "400",
         "lh": 1.6,
         "mb": 15,
@@ -642,9 +646,9 @@
         "4b9baf99-1d5e-4b05-94c6-37d9a3d707a8": {
           "type": "objList",
           "settings": {
-            "title": "Électronique",
+            "title": "Electronics",
             "slide_w": "25%",
-            "content": "Moteur:Moteur moyeu arrière 250W<br>\nBatterie : Batterie Samsung 12Ah 36V<br>\nTransmission:Transmission Shimano à 7 vitesses<br>"
+            "content": "Motor:250W Rear Hub Motor<br>\nBattery:12Ah 36V Samsung Battery<br>\nDrivetrain:Shimano 7-speed Drivetrain<br>"
           }
         },
         "3f710971-b1d4-43f6-87bf-68c7f0429f81": {
@@ -652,15 +656,15 @@
           "settings": {
             "title": "Performance",
             "slide_w": "25%",
-            "content": "Vitesse maximale : 25 km\/h ou 16 mph<br>\nAutonomie : Jusqu'à 100 km <br>\nPoids total du vélo : 18 kg<br>\nTemps de charge de la batterie : 4-6 heures<br>\nCharge maximale:150kg<br>:*Les performances réelles varient en fonction de la température, de l'état de la route, du poids du cycliste, etc."
+            "content": "Top Speed: 25 km\/h or 16 mph<br>\nRange: Up to 60 miles <br>\nFull Bike Weight:40lbs<br>\nBattery Charging Time:4-6 hours<br>\nMax Load:330lbs<br>:*Actual performance will vary depending on temperature, road conditions, rider's weight, etc."
           }
         },
         "9dfdd47e-961b-4375-b72a-202eb5083615": {
           "type": "objList",
           "settings": {
-            "title": "Composant",
+            "title": "Component",
             "slide_w": "25%",
-            "content": "Écran:Écran LCD<br>\nFreins : Freins à disques hydrauliques<br>\nCadre : alliage de magnésium de qualité aéronautique<br>\nPneus : Pneus 700C*40C résistants aux crevaisons<br>Fourche avant\nFourche avant : fourche en alliage d'aluminium<br>\nPhare : Inclus<br>\nGarde-boue avant et arrière : Inclus<br>\nBéquille : Inclus<br>\nRéflecteurs avant et arrière : Inclus<br>"
+            "content": "Display:LCD Display<br>\nBrake:Hydraulic Disc Brakes<br>\nFrame:Aviation Grade Magnesium Alloy<br>\nTires: 700C*40C Puncture-resistant Tires<br>\nFront Fork: Aluminium Alloy Fork<br>\nHeadlight: Included<br>\nFront and Rear Mudguard: Included<br>\nKickstand: Included<br>\nFront & Rear Reflectors: Included<br>"
           }
         },
         "c546c699-a8e3-44bd-a2db-1c70b9fdf444": {
@@ -675,14 +679,15 @@
         "8c62a64d-13dd-4e76-830e-bf631cb4d864": {
           "type": "image",
           "settings": {
-            "title": "Boîte pour vélos électriques",
-            "url_pc": "shopify:\/\/shop_images\/1280x500.jpg"
+            "title": "E-bike Box",
+            "url_pc": "shopify:\/\/shop_images\/1280x500.jpg",
+            "url_mb": "shopify:\/\/shop_images\/1280x500.jpg"
           }
         },
         "e7514e3b-0b1e-49db-a19a-d7074c9543c2": {
           "type": "imageGrid",
           "settings": {
-            "title": "Boîte à outils",
+            "title": "Tool Box",
             "text1": "Tools",
             "metafield1": "tools",
             "text2": "Electrics",
@@ -696,16 +701,16 @@
           "settings": {
             "title": "FAQ",
             "slide_w": "full",
-            "content": "Existe-t-il des restrictions ou des réglementations sur l'utilisation des vélos électriques en France ? :Veuillez cliquer sur le site web suivant www.service-public.fr ctriques pour en savoir plus sur la politique du gouvernement français en matière de vélos électriques.<br>"
+            "content": "Are there any restrictions or regulations on the use of e-bikes in the UK?: Please click on the following website www.gov.uk\/electric-bike-rules to learn more about the UK Government's policy on e-bikes. <br>"
           }
         },
         "8199fd9a-dacd-4cb3-8f18-ce7ce3ace2d6": {
           "type": "imgTxtList",
           "settings": {
-            "title": "Géométrie",
+            "title": "Geometry",
             "image": "shopify:\/\/shop_images\/630x800.jpg",
-            "th": ",Description,Size(cm)",
-            "td": "Longueur totale-72.34<br>Longueur des bases-17.95<br>Longueur du tube supérieur\n-21.68<br>Longueur du tube de tête-11.78<br>Entraxe des roues-44.29<br>Diamètre des roues-28.09<br>Hauteur du guidon\n-44.26<br>Hauteur de la béquille\n-17.53<br>Hauteur maximale du siège\n-8.66<br>Hauteur d'assise minimale\n-16.14<br>Distance minimale entre le siège et le sol\n-36.15<br>"
+            "th": ",Description,SIZE(in)",
+            "td": "Total Length-72.34<br>Chaint Stay Length-17.95<br>Top Tube Length\n-21.68<br>Head Tube Length-11.78<br>Wheelbase-44.29<br>Wheel Diameter-28.09<br>Handlebar Height\n-44.26<br>Stand Height\n-17.53<br>Maximum Seat Height\n-8.66<br>Minimum Seat Height\n-16.14<br>Minimum Seat to Floor\n-36.15<br>"
           }
         }
       },
@@ -821,7 +826,7 @@
       "settings": {
         "top_padding": "large",
         "bottom_padding": "large",
-        "title": "Commentaires",
+        "title": "Reviews",
         "layout": "textImg",
         "enable_slider": true,
         "bottom_line": false
@@ -843,7 +848,7 @@
           "settings": {
             "text_main": "\"The Heybike Mars hits a good price point and is a lot of fun to ride.\"",
             "text_sub": "- MSN",
-            "logo_image": "shopify:\/\/shop_images\/images.png"
+            "logo_image": "shopify:\/\/shop_images\/images_6ef9583c-32cb-464a-ae13-2388f8534db5.png"
           }
         },
         "ea0d551e-e63a-4f7c-b7aa-0fb32c3680d8": {
@@ -851,7 +856,7 @@
           "settings": {
             "text_main": "\"When it comes to solid, folding e-bikes, HeyBike has got game, with the manufacturer presenting us with a wide range of fat-tire wheelers.\"",
             "text_sub": "- AUTOEVOLUTION",
-            "logo_image": "shopify:\/\/shop_images\/AU.png"
+            "logo_image": "shopify:\/\/shop_images\/AU_e9db3ab0-4166-42df-8978-c88757d205ed.png"
           }
         },
         "8be00180-92b5-454b-96c3-689113c2b127": {
@@ -867,7 +872,7 @@
           "settings": {
             "text_main": "\"The Brawn from Heybike is a motorcycle inspired off-road beast.\"",
             "text_sub": "- electrifiedreviews",
-            "logo_image": "shopify:\/\/shop_images\/electrifiedreviews.png"
+            "logo_image": "shopify:\/\/shop_images\/123456.png"
           }
         }
       },
@@ -893,8 +898,8 @@
           "type": "text_block",
           "settings": {
             "icons": "at-ship-fast",
-            "title": "Expédition rapide",
-            "text": "<p>Expédition rapide et fiable<\/p>",
+            "title": "Fast Shipping",
+            "text": "<p>Speedy and Trusted Shipping <\/p>",
             "texturl": ""
           }
         },
@@ -902,8 +907,8 @@
           "type": "text_block",
           "settings": {
             "icons": "at-users-l",
-            "title": "Soutien rapide",
-            "text": "<p>Service de courrier électronique et de téléphone<\/p>",
+            "title": "Fast Support",
+            "text": "<p>Email & Phone Service<\/p>",
             "texturl": ""
           }
         },
@@ -911,8 +916,8 @@
           "type": "text_block",
           "settings": {
             "icons": "at-shield-check-r",
-            "title": "Essai de 30 jours",
-            "text": "<p>Acheter en toute confiance<\/p>",
+            "title": "30-Day Trial",
+            "text": "<p>Buy with Confidence<\/p>",
             "texturl": ""
           }
         }
@@ -926,23 +931,23 @@
         ".sec-ttl .h3,div.sec-ttl p {color: #fff;}"
       ],
       "settings": {
-        "top_padding": "medium",
-        "bottom_padding": "small",
+        "top_padding": "large",
+        "bottom_padding": "large",
         "top-offeset": "none",
         "section_style": "heybike",
         "section_width": false,
         "section_cov": true,
         "sec_bg_clr": "#232426",
         "hide_mobile": false,
-        "title": "Des vélos superbes. Service de qualité supérieure.",
-        "subtitle": "Dépasser les attentes grâce à un service à la clientèle hors pair",
+        "title": "Superb Bikes. Superior Service.",
+        "subtitle": "Exceeding Expectations with Unparalleled Customer Care",
         "style": "style1",
         "icon-type": "image",
         "icons_clr": "#ffffff",
         "isz": 54,
         "tcl": "#ffffff",
         "tfs": 24,
-        "tfsm": 20,
+        "tfsm": 100,
         "tfw": "600",
         "tlh": 1.2,
         "cl": "#eeeeee",
