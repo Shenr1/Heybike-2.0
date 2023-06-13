@@ -5,8 +5,7 @@
     {% if secSt.dis_grid_icn and template != 'search' %}
       <div class="filters-toolbar__item collection-view-as">
         <button type="button" title="Grid View" class="change-view{% unless pageurl == 'list' %} active{% endunless %}" data-view="grid"><i class="at at-th" aria-hidden="true"></i></button>
-        {% comment %} todo 集合页暂时隐藏 {% endcomment %}
-        {% comment %} <button type="button" title="List View" class="change-view{% if pageurl == 'list' %} active{% endif %}" data-view="list"><i class="at at-th-list" aria-hidden="true"></i></button> {% endcomment %}
+        <button type="button" title="List View" class="change-view{% if pageurl == 'list' %} active{% endif %}" data-view="list"><i class="at at-th-list" aria-hidden="true"></i></button>
       </div>
     {% else %}
         <div class="filters-toolbar__item collection-view-as">&nbsp;</div>

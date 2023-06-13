@@ -7,7 +7,7 @@
               {% for block in section.blocks limit: section.blocks.size %}
                 <div class="gitem">
                 {%- assign collection = collections[block.settings.collection] -%}
-                  <h4 class="column-ttl ttlTxt mb20-md" style="--tcl:{{secSt.cl}};--tfs:{{secSt.fs}}px;--tfsm:{{secSt.fsm | divided_by: 100.0 }}rem;--tff:var(--{{secSt.ff}});--tfw:{{secSt.fw}};--tlh:{{secSt.lh}};">{{ block.settings.tab_name }}</h4>
+                  <h4 class="column-ttl ttlTxt mb20-md" style="--tcl:{{secSt.cl}};--tfs:{{secSt.fs}}px;--tfsm:{{secSt.fsm}}px;--tff:var(--{{secSt.ff}});--tfw:{{secSt.fw}};--tlh:{{secSt.lh}};">{{ block.settings.tab_name }}</h4>
                   <div id="collection-{{ block.id }}" class="list-products">
                       {% for product in collection.products limit: secSt.rows %}
                           <div class="item">{% render 'product-card-grid-columns', product: product, grid_image_width: image_size %}</div>
@@ -127,11 +127,11 @@
             "type": "range",
             "id": "fsm",
             "label": "Font Size (mobile)",
-            "default": 85,
-            "min": 50,
-            "max": 300,
-            "step": 5,
-            "unit": "%"
+            "default": 16,
+            "min": 10,
+            "max": 60,
+            "step": 1,
+            "unit": "px"
         },
         {
             "type": "select",

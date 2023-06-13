@@ -2,8 +2,8 @@
 {%- capture gridBanners -%}
 <div class="content-indent {{ secSt.top-offeset}}"> {% capture imageGallery %}
   {% capture styles %}
-  --cl:{{secSt.cl}};--fs:{{secSt.fs}}px;--fsm:{{secSt.fsm | divided_by: 100.0 }}rem;--fw:{{secSt.fw}};--lh:{{secSt.lh}};
-  --tcl:{{secSt.cl2}};--tfs:{{secSt.tfs}}px;--tfsm:{{secSt.tfsm | divided_by: 100.0 }}rem;--tfw:{{secSt.tfw}};--tlh:{{secSt.tlh}};
+  --cl:{{secSt.cl}};--fs:{{secSt.fs}}px;--fsm:{{secSt.fsm}}px;--fw:{{secSt.fw}};--lh:{{secSt.lh}};
+  --tcl:{{secSt.cl2}};--tfs:{{secSt.tfs}}px;--tfsm:{{secSt.tfsm}}px;--tfw:{{secSt.tfw}};--tlh:{{secSt.tlh}};
   {% if secSt.isbox %}
   --bg:{{secSt.bg | color_modify:'alpha',secSt.opt}};--bdr:{{secSt.bdr}}px;
   {% endif %}
@@ -151,11 +151,11 @@
             "type": "range",
             "id": "fsm",
             "label": "Font Size (mobile)",
-            "default": 85,
-            "min": 50,
-            "max": 300,
-            "step": 5,
-            "unit": "%"
+            "default": 12,
+            "min": 10,
+            "max": 60,
+            "step": 1,
+            "unit": "px"
         },
         {
             "type": "select",
@@ -215,16 +215,16 @@
             "step": 1,
             "unit": "px"
         },
-		{
-			"type": "range",
-			"id": "tfsm",
-			"label": "Font Size (mobile)",
-			"default": 100,
-			"min": 50,
-			"max": 300,
-			"step": 5,
-			"unit": "%"
-		},
+        {
+            "type": "range",
+            "id": "tfsm",
+            "label": "Font Size (mobile)",
+            "default": 18,
+            "min": 10,
+            "max": 60,
+            "step": 1,
+            "unit": "px"
+        },
         {
             "type": "select",
             "id": "tff",

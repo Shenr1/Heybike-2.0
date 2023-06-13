@@ -4,14 +4,14 @@
 <section section-name="logo-slider" class="{% render 'section-interva-set' , secSt:secSt %}" 
 style="{% if secSt.bg_color != blank %}background-color: {{ secSt.bg_color}};{% endif %}">
 
-  <div class="page-width xl:px-4 md:px-8 px-6">
-    <div class="md:rounded-section rounded-4xl bg-no-repeat bg-cover md:py-20 py-10 bg-center" style="{% if secSt.bg_img != blank %}background-image: url({{ secSt.bg_img | image_url:master}});{% endif %}">
-      <div class="md:w-3/5 md:px-0 px-4 mx-auto">
+  <div class="page-width px-4">
+    <div class="md:rounded-section rounded-3xl bg-no-repeat bg-cover md:py-20 py-10" style="{% if secSt.bg_img != blank %}background-image: url({{ secSt.bg_img | image_url:master}});{% endif %}">
+      <div class="md:w-3/5 md:px-0 px-2 mx-auto">
 
         <div id="carousel-main-{{section.id}}" 
           data-flickity='{"pageDots": false, "fade": true,"prevNextButtons": false, "wrapAround": true, "lazyLoad": true{% if isStyle %}, "autoPlay": true{% endif %} }'>
           {% for block in section.blocks %}
-          <div class="md:mb-20 mb-14 text-center" style="color:{{secSt.text_color}};" >
+          <div class="mb-20 text-center" style="color:{{secSt.text_color}};" >
 
             {% if isStyle %}
             <div class="flex items-center mb-6 justify-center">
@@ -20,8 +20,8 @@ style="{% if secSt.bg_color != blank %}background-color: {{ secSt.bg_color}};{% 
               {% endfor %}
             </div>
             {% endif %}
-            <p class="mb-8 md:text-3xl text-2xl font-bold">{{block.settings.text_main}}</p>
-            <p class="md:text-lg">{{block.settings.text_sub}}</p>
+            <p class="mb-8 md:text-3xl text-xl font-bold">{{block.settings.text_main}}</p>
+            <p class="text-lg">{{block.settings.text_sub}}</p>
           </div>
           {% endfor %}
         </div>
@@ -31,9 +31,9 @@ style="{% if secSt.bg_color != blank %}background-color: {{ secSt.bg_color}};{% 
       <section {% if isStyle %}class=" mx-auto"{% endif %} >
         <div data-flickity='{"draggable": false, "asNavFor": "#carousel-main-{{section.id}}", "contain": true, {% unless isStyle %}"pageDots": false,{% endunless %} "wrapAround": true,"prevNextButtons": false,"selectedAttraction": 0.01,"friction": 0.15}'>
           {% for block in section.blocks %}
-          <div class="{% if isStyle %}w-full{% else %}lg:w-1/5 md:w-1/4 w-1/3{% endif %} cursor-pointer text-center">
+          <div class="{% if isStyle %}w-full{% else %}lg:w-1/5 md:w-1/4 w-1/2{% endif %} cursor-pointer text-center">
             {% assign media = block.settings.logo_image %}
-            {{ media | image_url: width: 200 | image_tag: height: media.height, lazyload: true, class: 'grayscale transition-all scale-90 max-h-9 md:h-auto h-8 object-contain' }}
+            {{ media | image_url: width: 200 | image_tag:  height: media.height, lazyload: true, class: 'grayscale transition-all scale-90 max-h-9' }}
           </div>
           {% endfor %}
         </div>
