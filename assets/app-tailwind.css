@@ -16,7 +16,7 @@
 [section-name = 'store-features'] [tag-name = 'features-ul'] .flickity-page-dots .dot{@apply h-1 w-6 rounded-none mx-1 p-0 bg-black-600}
 [section-name = 'store-features'] [tag-name = 'features-ul'] .flickity-page-dots .dot.is-selected{@apply bg-white}
 
-#header{@apply transition-colors duration-300}
+#header{@apply transition-colors duration-500}
 
 body.template-index .stickyHeader [tag-name = 'reversal-logo']{@apply !block}
 body.template-index .stickyHeader [tag-name = 'logo']{@apply !hidden}
