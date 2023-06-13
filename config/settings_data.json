@@ -296,6 +296,14 @@
               "url_link3": "shopify:\/\/products\/heybike-ec-1"
             }
           },
+          "fdae2dd8-4778-4ee1-b020-8db5b864a945": {
+            "type": "dropdown",
+            "settings": {
+              "title": "Equipment",
+              "url": "",
+              "mm_linklist": "accessories"
+            }
+          },
           "eaf15dca-1822-4a37-8c94-bd24e939b788": {
             "type": "megamenuHb",
             "disabled": true,
@@ -318,14 +326,6 @@
               "text_sub3": "Merch",
               "text_link3": "View All",
               "url_link3": "shopify:\/\/collections\/equipment"
-            }
-          },
-          "23b6094a-ec02-4808-bac4-8dbb5fed7f32": {
-            "type": "dropdown",
-            "settings": {
-              "title": "Equipment",
-              "url": "shopify:\/\/collections\/equipment",
-              "mm_linklist": ""
             }
           },
           "8ce78ede-59e2-430e-af8a-0767a9b36fcc": {
@@ -364,8 +364,8 @@
         },
         "block_order": [
           "86aca260-e282-40f4-97fb-c8bb57b7ef06",
+          "fdae2dd8-4778-4ee1-b020-8db5b864a945",
           "eaf15dca-1822-4a37-8c94-bd24e939b788",
-          "23b6094a-ec02-4808-bac4-8dbb5fed7f32",
           "8ce78ede-59e2-430e-af8a-0767a9b36fcc",
           "1559988240897",
           "1559992848977",
