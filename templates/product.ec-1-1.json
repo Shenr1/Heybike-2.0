@@ -19,7 +19,7 @@
           "settings": {
             "cl": "#000000",
             "fs": 36,
-            "fsm": 180,
+            "fsm": 155,
             "ff": "ft2",
             "fw": "600",
             "transform": "tt-c",
@@ -32,7 +32,7 @@
             "pcl": "#000000",
             "pcls": "#e95144",
             "fs": 30,
-            "fsm": 150,
+            "fsm": 205,
             "pfw": "600",
             "saved": false,
             "taxship": false,
@@ -45,7 +45,7 @@
             "title": "More colors",
             "cl": "#000000",
             "fs": 16,
-            "fsm": 100,
+            "fsm": 180,
             "fw": "600",
             "wd": 100,
             "bd": "#000000",
@@ -344,8 +344,8 @@
     "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4": {
       "type": "video",
       "settings": {
-        "top-offeset": "none",
-        "top_padding": "large",
+        "top-offeset": "default",
+        "top_padding": "none",
         "bottom_padding": "large",
         "section_width": false,
         "rounded": true,
@@ -360,7 +360,7 @@
         "title": "",
         "color_ttl": "#ffffff",
         "tfs": 20,
-        "tfsm": 75,
+        "tfsm": 205,
         "hide_text": false,
         "btntxt": "",
         "btnurl": "",
@@ -486,7 +486,8 @@
       "block_order": [
         "9fd2177b-abb0-41fe-919b-05236366cb6f",
         "bd530c13-0782-4c23-a156-1e0a11200db7",
-        "f4b077ec-d5f4-464e-a93c-199cc05db80b"
+        "f4b077ec-d5f4-464e-a93c-199cc05db80b",
+        "016bf994-f90c-4de3-bc7e-d52084038cdd"
       ],
       "settings": {
         "top_padding": "medium",
@@ -605,7 +606,7 @@
             "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
-            "text_center": true,
+            "text_center": false,
             "tcl": "#000000",
             "cl": "#000000",
             "bg": "#f5f5f5",
@@ -629,18 +630,18 @@
         "snow_effect": false,
         "snow_style": "style1",
         "tfs": 30,
-        "tfsm": 150,
+        "tfsm": 225,
         "tff": "ft1",
         "tfw": "700",
         "tlh": 1.2,
         "tmb": 15,
         "tmbm": 10,
         "fs": 14,
-        "fsm": 75,
+        "fsm": 220,
         "fw": "400",
         "lh": 1.6,
         "mb": 15,
-        "mbm": 10,
+        "mbm": 15,
         "btn-size-desk": "btn-md",
         "btn-size-mob": "mob-btn-sm"
       }
@@ -687,7 +688,8 @@
           "type": "image",
           "settings": {
             "title": "Boîte pour vélos électriques",
-            "url_pc": "shopify:\/\/shop_images\/1280x500_d3ca4944-3fd2-4112-8dad-32ea8cda3947.jpg"
+            "url_pc": "shopify:\/\/shop_images\/1280x500_d3ca4944-3fd2-4112-8dad-32ea8cda3947.jpg",
+            "url_mb": "shopify:\/\/shop_images\/1280x500_d3ca4944-3fd2-4112-8dad-32ea8cda3947.jpg"
           }
         },
         "e7514e3b-0b1e-49db-a19a-d7074c9543c2": {
@@ -936,8 +938,8 @@
         ".sec-ttl .h3,div.sec-ttl p {color: #fff;}"
       ],
       "settings": {
-        "top_padding": "large",
-        "bottom_padding": "large",
+        "top_padding": "medium",
+        "bottom_padding": "small",
         "top-offeset": "none",
         "section_style": "heybike",
         "section_width": false,
@@ -952,7 +954,7 @@
         "isz": 54,
         "tcl": "#ffffff",
         "tfs": 24,
-        "tfsm": 100,
+        "tfsm": 235,
         "tfw": "600",
         "tlh": 1.2,
         "cl": "#eeeeee",
