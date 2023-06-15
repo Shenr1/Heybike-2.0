@@ -261,6 +261,54 @@
         "section_cov": true,
         "sec_bg_clr": "#fafafa"
       }
+    },
+    "546970d7-1148-466f-a821-f27eae5116ac": {
+      "type": "richtext",
+      "settings": {
+        "top-offeset": "default",
+        "fullwidth": true,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "max-width": 700,
+        "title": "",
+        "tcl": "#000",
+        "tfs": 26,
+        "tfsm": 100,
+        "tff": "ft1",
+        "tfw": "700",
+        "tlh": 1.2,
+        "richtxt": "",
+        "cl": "#000",
+        "fs": 40,
+        "fsm": 85,
+        "lh": 1.6,
+        "btntxt": "Apply Now",
+        "btnurl": "",
+        "btn-style": "btn",
+        "btntxt1": "",
+        "btnurl1": "",
+        "btn-style2": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "txt_align": "tc",
+        "text_clr": "#111"
+      }
+    },
+    "3b105b65-53b3-408b-94ff-f2508d31b0d0": {
+      "type": "section-space",
+      "settings": {
+        "sdesk": 30,
+        "mdesk": 15,
+        "color_bg": "#fff"
+      }
+    },
+    "ac93857d-eddd-4260-b38d-e7b7a989bf36": {
+      "type": "section-space",
+      "settings": {
+        "sdesk": 30,
+        "mdesk": 15,
+        "color_bg": "#fff"
+      }
     }
   },
   "order": [
@@ -268,6 +316,9 @@
     "6c0763b2-0d0a-49b0-b91d-9518164b13eb",
     "1633769564023b4dfb",
     "0789fc22-7b10-42e2-9072-3883c464eec2",
-    "593ad453-c94a-45cb-a6f8-5ec7bca4c33d"
+    "593ad453-c94a-45cb-a6f8-5ec7bca4c33d",
+    "546970d7-1148-466f-a821-f27eae5116ac",
+    "3b105b65-53b3-408b-94ff-f2508d31b0d0",
+    "ac93857d-eddd-4260-b38d-e7b7a989bf36"
   ]
 }
