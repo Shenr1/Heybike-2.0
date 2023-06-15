@@ -87,9 +87,9 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/eb23_venueoverview_website_en_0412.jpg__1079x720_q85_subsampling-2.jpg",
-            "layout": "left",
-            "title": "About Heybike",
-            "text": "<p>The Heybike-UK is committed to the research and development of product functions, and provides users with the ultimate product and riding experience by improving product performance.<\/p>",
+            "layout": "right",
+            "title": "Localisation",
+            "text": "<p>Foire de Francfort<br\/><br\/><strong>Halle 9.2, stand D16<\/strong><br\/><br\/>Ludwig-Erhard-Anlage 1, 60327 Francfort-sur-le-Main, Allemagne<\/p>",
             "logo_url": "",
             "logo_url2": "",
             "button_label": "",
@@ -108,7 +108,7 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/1.webp",
-            "layout": "right",
+            "layout": "left",
             "title": "Une chaîne d'approvisionnement solide",
             "text": "<p>Rejoignez Heybike pour bénéficier d'un accès inégalé à une chaîne d'approvisionnement performante. Nos propres usines, nos entrepôts stratégiques et nos partenariats logistiques ouvrent la voie à votre réussite. Libérez des opportunités illimitées sur le marché des vélos électriques et redessinez l'avenir de la mobilité.<\/p>",
             "logo_url": "",
@@ -129,7 +129,7 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/1_f9fcb577-b80d-4a5f-bf10-530170bb3f63.jpg",
-            "layout": "left",
+            "layout": "right",
             "title": "Succès des clients",
             "text": "<p>Heybike donne aux grossistes les moyens de réussir, comme en témoignent les résultats obtenus en 2022 : 60 000 vélos électriques vendus, un chiffre d'affaires de plus de 30 millions de dollars. Poursuivons notre collaboration, en révolutionnant le marché du vélo électrique et en trouvant de nouvelles opportunités de croissance.<\/p>",
             "logo_url": "",
@@ -150,7 +150,7 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/1_950ae94e-ca31-4563-8cb0-615a8d54aa76.jpg",
-            "layout": "right",
+            "layout": "left",
             "title": "Professional Team",
             "text": "<p>Associez-vous à Heybike pour bénéficier d'une assistance dédiée de la part de notre équipe d'experts. Bénéficiez d'un service inégalé, d'une expertise marketing et d'un service après-vente. Contactez-nous dès maintenant pour entamer ensemble un voyage fructueux.<\/p>",
             "logo_url": "",
@@ -171,7 +171,7 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/1_e96f6fe1-95b8-427d-be14-d7a34a84d127.jpg",
-            "layout": "left",
+            "layout": "right",
             "title": "Solutions de marketing",
             "text": "<p>Collaboration avec Heybike pour une visibilité mondiale de la marque. Notre réseau influent et nos solutions de marketing personnalisées assurent une portée ciblée et un succès remarquable.<\/p>",
             "logo_url": "",
