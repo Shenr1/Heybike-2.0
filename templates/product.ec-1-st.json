@@ -57,7 +57,7 @@
         "900c2863-7a02-4344-845e-386c8248bc4d": {
           "type": "text",
           "settings": {
-            "text": "<b>Order now, and get a FREE Helmet and Pannier Bag!<\/b>",
+            "text": "<b>Order now, and get a FREE Helmet, a Pannier Bag and a Foot Stop!<\/b>",
             "cl": "#999999",
             "addbg": false,
             "bg": "#f5f5f5",
@@ -85,7 +85,6 @@
         },
         "7ff82dc7-abaf-42c2-a8c8-d415a91325d5": {
           "type": "giveaways",
-          "disabled": true,
           "settings": {
             "title": "Foot Support",
             "price": "3500",
