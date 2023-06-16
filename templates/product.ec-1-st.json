@@ -54,6 +54,14 @@
             "bm": 20
           }
         },
+        "30da0334-cfb0-4846-8c3c-892486b21fb8": {
+          "type": "shiptime",
+          "settings": {
+            "estimate": "60\/75",
+            "msg": "<i class=\"at at-clock-r\"><\/i> Estimated delivery between [startdate] <b>-<\/b> [enddate].",
+            "bm": 15
+          }
+        },
         "900c2863-7a02-4344-845e-386c8248bc4d": {
           "type": "text",
           "settings": {
@@ -111,14 +119,6 @@
             "icon2": "shopify:\/\/shop_images\/02icon.png",
             "icon3": "shopify:\/\/shop_images\/03icon.png"
           }
-        },
-        "30da0334-cfb0-4846-8c3c-892486b21fb8": {
-          "type": "shiptime",
-          "settings": {
-            "estimate": "60\/75",
-            "msg": "<i class=\"at at-clock-r\"><\/i> Estimated delivery between [startdate] <b>-<\/b> [enddate].",
-            "bm": 15
-          }
         }
       },
       "block_order": [
@@ -126,13 +126,13 @@
         "price",
         "43d9e0cf-f5b3-4270-bd73-3845bf580da3",
         "product-form",
+        "30da0334-cfb0-4846-8c3c-892486b21fb8",
         "900c2863-7a02-4344-845e-386c8248bc4d",
         "dba108ba-fba9-466d-afd3-21f64c8a1db7",
         "ca52189d-109d-45f5-91c5-d195b2c24af3",
         "7ff82dc7-abaf-42c2-a8c8-d415a91325d5",
         "3e5ff436-8638-45b7-a3ce-b36263b34395",
-        "75a78218-e9d0-4681-b8f1-d4b99318f5b7",
-        "30da0334-cfb0-4846-8c3c-892486b21fb8"
+        "75a78218-e9d0-4681-b8f1-d4b99318f5b7"
       ],
       "settings": {
         "section_width": false,
