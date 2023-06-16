@@ -62,8 +62,8 @@
         "327d2c80-014b-4f76-8f30-6fdc69c3b923": {
           "type": "shiptime",
           "settings": {
-            "estimate": "4\/10",
-            "msg": "<i class=\"at at-clock-r\"><\/i> Estimated delivery between [startdate] - [enddate].",
+            "estimate": "60\/75",
+            "msg": "<i class=\"at at-clock-r\"><\/i> Estimated delivery between [startdate] <b>-<\/b> [enddate].",
             "bm": 15
           }
         },
