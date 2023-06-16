@@ -159,7 +159,6 @@
     },
     "tabs": {
       "type": "product-tabs",
-      "disabled": true,
       "blocks": {
         "descriptions": {
           "type": "desc",
