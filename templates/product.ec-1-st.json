@@ -102,6 +102,14 @@
             "icon2": "shopify:\/\/shop_images\/25a2ae4f3aeacec2f66ab92e67040928_29841172-068c-444e-8995-be304cc5fc24.png",
             "icon3": "shopify:\/\/shop_images\/a8c3ad982099abeca6bbdb913b166a0e_c4cecf57-e225-4816-b140-46dc840131f7.png"
           }
+        },
+        "62ee1d17-6761-4ae0-a146-e7283b04759f": {
+          "type": "shiptime",
+          "settings": {
+            "estimate": "4\/10",
+            "msg": "<i class=\"at at-clock-r\"><\/i> Estimated delivery between 123 - [enddate].",
+            "bm": 15
+          }
         }
       },
       "block_order": [
@@ -113,15 +121,16 @@
         "dba108ba-fba9-466d-afd3-21f64c8a1db7",
         "ca52189d-109d-45f5-91c5-d195b2c24af3",
         "3e5ff436-8638-45b7-a3ce-b36263b34395",
-        "75a78218-e9d0-4681-b8f1-d4b99318f5b7"
+        "75a78218-e9d0-4681-b8f1-d4b99318f5b7",
+        "62ee1d17-6761-4ae0-a146-e7283b04759f"
       ],
       "settings": {
         "section_width": false,
-        "anchor1": "Features",
+        "anchor1": "Eigenschaften",
         "anchor_href1": "nav-features",
-        "anchor2": "Specifications",
+        "anchor2": "Spezifikationen",
         "anchor_href2": "nav-specifications",
-        "anchor3": "Reviews",
+        "anchor3": "Bewertungen",
         "anchor_href3": "nav-reviews",
         "tabs_nav": true
       }
