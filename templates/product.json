@@ -328,7 +328,6 @@
     },
     "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4": {
       "type": "video",
-      "disabled": true,
       "settings": {
         "top-offeset": "default",
         "top_padding": "none",
@@ -341,8 +340,8 @@
         "pad-desk": 55,
         "pad-ipad": 15,
         "pad-mbl": 10,
-        "video_url": "",
-        "mp4url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/14970270c5514f80a7d7c28535c32bb5.mp4",
+        "video_url": "https:\/\/youtu.be\/yUbrcmI8geM?list=PLY2mr2usEhKE09Q0o8JyHMrIKn3VB2gIE",
+        "mp4url": "",
         "title": "",
         "color_ttl": "#ffffff",
         "tfs": 20,
