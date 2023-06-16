@@ -696,14 +696,6 @@
             "metafield3": "other"
           }
         },
-        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac": {
-          "type": "objList",
-          "settings": {
-            "title": "FAQ",
-            "slide_w": "full",
-            "content": "Gibt es irgendwelche Einschränkungen oder Vorschriften für die Nutzung von E-Bikes in Deutschland?:\nBitte klicken Sie auf die folgende Website www.stvo.de\/strassenverkehrsordnung, um mehr über die Politik der deutschen Regierung in Bezug auf E-Bikes zu erfahren. <br>"
-          }
-        },
         "7ef2d0ba-c008-429d-929a-980c2c0d5698": {
           "type": "imgTxtList",
           "settings": {
@@ -711,6 +703,14 @@
             "image": "shopify:\/\/shop_images\/630x800.jpg",
             "th": ",Beschreibung,Size(cm)",
             "td": "Gesamtlänge-184.03<br>\nLänge der Kettenstrebe-45.61<br>\nOberrohr Länge-54.91<br>\nSteuerrohr Länge-27.59<br>\nRadstand-112.51<br>\nRaddurchmesser-71.29<br>\nLenkerhöhe-110.24<br>\nStänderhöhe-37.16<br>\nMaximale Sitzhöhe-22<br>\nMinimale Sitzhöhe-48.36<br>\nMinimaler Sitzabstand zum Boden-96.57<br>"
+          }
+        },
+        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac": {
+          "type": "objList",
+          "settings": {
+            "title": "FAQ",
+            "slide_w": "full",
+            "content": "Gibt es irgendwelche Einschränkungen oder Vorschriften für die Nutzung von E-Bikes in Deutschland?:\nBitte klicken Sie auf die folgende Website www.stvo.de\/strassenverkehrsordnung, um mehr über die Politik der deutschen Regierung in Bezug auf E-Bikes zu erfahren. <br>"
           }
         }
       },
@@ -720,8 +720,8 @@
         "9dfdd47e-961b-4375-b72a-202eb5083615",
         "8c62a64d-13dd-4e76-830e-bf631cb4d864",
         "e7514e3b-0b1e-49db-a19a-d7074c9543c2",
-        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac",
-        "7ef2d0ba-c008-429d-929a-980c2c0d5698"
+        "7ef2d0ba-c008-429d-929a-980c2c0d5698",
+        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac"
       ],
       "settings": {
         "top_padding": "default",
