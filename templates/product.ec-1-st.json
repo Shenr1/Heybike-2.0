@@ -54,6 +54,14 @@
             "bm": 20
           }
         },
+        "62ee1d17-6761-4ae0-a146-e7283b04759f": {
+          "type": "shiptime",
+          "settings": {
+            "estimate": "4\/10",
+            "msg": "<i class=\"at at-clock-r\"><\/i> Estimated delivery between 123 - [enddate].",
+            "bm": 15
+          }
+        },
         "900c2863-7a02-4344-845e-386c8248bc4d": {
           "type": "text",
           "settings": {
@@ -83,6 +91,15 @@
             "Image": "shopify:\/\/shop_images\/1_440a383c-ab61-4691-902e-cfbc79d366f2.jpg"
           }
         },
+        "26f70621-465c-4e87-adb3-6f55ff3e4bf7": {
+          "type": "giveaways",
+          "settings": {
+            "title": "Bike Rack Pannier Bag",
+            "price": "7500",
+            "tag": "KOSTENLOS",
+            "Image": "shopify:\/\/shop_images\/1_440a383c-ab61-4691-902e-cfbc79d366f2.jpg"
+          }
+        },
         "3e5ff436-8638-45b7-a3ce-b36263b34395": {
           "type": "img",
           "settings": {
@@ -102,14 +119,6 @@
             "icon2": "shopify:\/\/shop_images\/25a2ae4f3aeacec2f66ab92e67040928_29841172-068c-444e-8995-be304cc5fc24.png",
             "icon3": "shopify:\/\/shop_images\/a8c3ad982099abeca6bbdb913b166a0e_c4cecf57-e225-4816-b140-46dc840131f7.png"
           }
-        },
-        "62ee1d17-6761-4ae0-a146-e7283b04759f": {
-          "type": "shiptime",
-          "settings": {
-            "estimate": "4\/10",
-            "msg": "<i class=\"at at-clock-r\"><\/i> Estimated delivery between 123 - [enddate].",
-            "bm": 15
-          }
         }
       },
       "block_order": [
@@ -117,12 +126,13 @@
         "price",
         "43d9e0cf-f5b3-4270-bd73-3845bf580da3",
         "product-form",
+        "62ee1d17-6761-4ae0-a146-e7283b04759f",
         "900c2863-7a02-4344-845e-386c8248bc4d",
         "dba108ba-fba9-466d-afd3-21f64c8a1db7",
         "ca52189d-109d-45f5-91c5-d195b2c24af3",
+        "26f70621-465c-4e87-adb3-6f55ff3e4bf7",
         "3e5ff436-8638-45b7-a3ce-b36263b34395",
-        "75a78218-e9d0-4681-b8f1-d4b99318f5b7",
-        "62ee1d17-6761-4ae0-a146-e7283b04759f"
+        "75a78218-e9d0-4681-b8f1-d4b99318f5b7"
       ],
       "settings": {
         "section_width": false,
@@ -643,13 +653,14 @@
         "4b9baf99-1d5e-4b05-94c6-37d9a3d707a8": {
           "type": "objList",
           "settings": {
-            "title": "Elektronik",
+            "title": "Spezifikationen",
             "slide_w": "25%",
-            "content": "Motor:250W Hinterradnabenmotor<br>\nBatterie:12Ah 36V Samsung Batterie<br>\nAntrieb:Shimano 7-Gang Schaltung<br>"
+            "content": "Motor:250W Hinterradnabenmotor<br>\nBatterie:12Ah 36V Samsung Batterie<br>\nAntrieb:Shimano 7-Gang Schaltung<br>\nHöchstgeschwindigkeit: 25 km\/h oder 16 mph<br>\nReichweite: Bis zu 100 km<br>\nGewicht des gesamten Fahrrads: 18 kg<br>\nAkku-Ladezeit:4-6 Stunden<br>\nMax. Belastung:150kg<br>:*Die tatsächliche Leistung hängt von der Temperatur, den Straßenbedingungen, dem Gewicht des Fahrers usw. ab."
           }
         },
         "3f710971-b1d4-43f6-87bf-68c7f0429f81": {
           "type": "objList",
+          "disabled": true,
           "settings": {
             "title": "Leistung",
             "slide_w": "25%",
@@ -692,14 +703,6 @@
             "metafield3": "other"
           }
         },
-        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac": {
-          "type": "objList",
-          "settings": {
-            "title": "FAQ",
-            "slide_w": "full",
-            "content": "Gibt es irgendwelche Einschränkungen oder Vorschriften für die Nutzung von E-Bikes in Deutschland?:\nBitte klicken Sie auf die folgende Website www.stvo.de\/strassenverkehrsordnung, um mehr über die Politik der deutschen Regierung in Bezug auf E-Bikes zu erfahren. <br>"
-          }
-        },
         "8199fd9a-dacd-4cb3-8f18-ce7ce3ace2d6": {
           "type": "imgTxtList",
           "settings": {
@@ -707,6 +710,14 @@
             "image": "shopify:\/\/shop_images\/A5CF3E54-F3E3-4c46-B1C8-8CB1281D4939.png",
             "th": ",Beschreibung,Größe(cm)",
             "td": "Gesamtlänge-72.34<br>Kettenstrebenlänge-17.95<br>Länge Oberrohr\n-21.68<br>Kopfrohrlänge-11.78<br>Radstand-44.29<br>Raddurchmesser-28.09<br>Lenkerhöhe\n-44.26<br>Ständerhöhe\n-17.53<br>Maximale Sitzhöhe\n-8.66<br>Minimale Sitzhöhe\n-16.14<br>Minimaler Abstand Sitz zu Boden\n-36.15<br>"
+          }
+        },
+        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac": {
+          "type": "objList",
+          "settings": {
+            "title": "FAQ",
+            "slide_w": "full",
+            "content": "Gibt es irgendwelche Einschränkungen oder Vorschriften für die Nutzung von E-Bikes in Deutschland?:\nBitte klicken Sie auf die folgende Website www.stvo.de\/strassenverkehrsordnung, um mehr über die Politik der deutschen Regierung in Bezug auf E-Bikes zu erfahren. <br>"
           }
         }
       },
@@ -717,8 +728,8 @@
         "c546c699-a8e3-44bd-a2db-1c70b9fdf444",
         "8c62a64d-13dd-4e76-830e-bf631cb4d864",
         "e7514e3b-0b1e-49db-a19a-d7074c9543c2",
-        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac",
-        "8199fd9a-dacd-4cb3-8f18-ce7ce3ace2d6"
+        "8199fd9a-dacd-4cb3-8f18-ce7ce3ace2d6",
+        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac"
       ],
       "settings": {
         "top_padding": "default",
