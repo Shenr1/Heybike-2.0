@@ -59,10 +59,18 @@
             "bm": 20
           }
         },
+        "327d2c80-014b-4f76-8f30-6fdc69c3b923": {
+          "type": "shiptime",
+          "settings": {
+            "estimate": "4\/10",
+            "msg": "<i class=\"at at-clock-r\"><\/i> Estimated delivery between [startdate] - [enddate].",
+            "bm": 15
+          }
+        },
         "900c2863-7a02-4344-845e-386c8248bc4d": {
           "type": "text",
           "settings": {
-            "text": "<b>Order now, and get a FREE Helmet and Pannier Bag!<\/b>",
+            "text": "<b>Order now, and get a FREE Helmet, Pannier Bag and Foot stop!<\/b>",
             "cl": "#999999",
             "addbg": false,
             "bg": "#f5f5f5",
@@ -124,6 +132,7 @@
         "price",
         "43d9e0cf-f5b3-4270-bd73-3845bf580da3",
         "product-form",
+        "327d2c80-014b-4f76-8f30-6fdc69c3b923",
         "900c2863-7a02-4344-845e-386c8248bc4d",
         "dba108ba-fba9-466d-afd3-21f64c8a1db7",
         "ca52189d-109d-45f5-91c5-d195b2c24af3",
@@ -656,13 +665,14 @@
         "4b9baf99-1d5e-4b05-94c6-37d9a3d707a8": {
           "type": "objList",
           "settings": {
-            "title": "Electronics",
+            "title": "Specs",
             "slide_w": "25%",
-            "content": "Motor:250W Rear Hub Motor<br>\nBattery:12Ah 36V Samsung Battery<br>\nDrivetrain:Shimano 7-speed Drivetrain<br>"
+            "content": "Motor:250W Rear Hub Motor<br>\nBattery:12Ah 36V Samsung Battery<br>\nDrivetrain:Shimano 7-speed Drivetrain<br>\nTop Speed: 25 km\/h or 16 mph<br>\nRange: Up to 60 miles <br>\nFull Bike Weight:40lbs<br>\nBattery Charging Time:4 <b>-<\/b> 6 hours<br>\nMax Load:330lbs<br>:*Actual performance will vary depending on temperature, road conditions, rider's weight, etc."
           }
         },
         "3f710971-b1d4-43f6-87bf-68c7f0429f81": {
           "type": "objList",
+          "disabled": true,
           "settings": {
             "title": "Performance",
             "slide_w": "25%",
@@ -697,14 +707,6 @@
             "metafield3": "other"
           }
         },
-        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac": {
-          "type": "objList",
-          "settings": {
-            "title": "FAQ",
-            "slide_w": "full",
-            "content": "Are there any restrictions or regulations on the use of e-bikes in the UK?: Please click on the following website www.gov.uk\/electric-bike-rules to learn more about the UK Government's policy on e-bikes. <br>"
-          }
-        },
         "7ef2d0ba-c008-429d-929a-980c2c0d5698": {
           "type": "imgTxtList",
           "settings": {
@@ -712,6 +714,14 @@
             "image": "shopify:\/\/shop_images\/630x800_fb915bd6-8a7d-4397-84c6-e3eb7f873bf1.jpg",
             "th": ",Size(in),L",
             "td": "Total Length-72.45<br>Chaint Stay Length-17.96<br>Top Tube Length\n-21.62<br>Head Tube Length-10.86<br>Wheelbase-44.30<br>Wheel Diameter-28.07<br>Handlebar Height\n-43.40<br>Stand Height\n-14.63<br>Maximum Seat Height\n-8.66<br>Minimum Seat Height\n-19.04<br>Minimum Seat to Floor\n-38.02<br>"
+          }
+        },
+        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac": {
+          "type": "objList",
+          "settings": {
+            "title": "FAQ",
+            "slide_w": "full",
+            "content": "Are there any restrictions or regulations on the use of e-bikes in the UK?: Please click on the following website www.gov.uk\/electric-bike-rules to learn more about the UK Government's policy on e-bikes. <br>"
           }
         }
       },
@@ -721,8 +731,8 @@
         "9dfdd47e-961b-4375-b72a-202eb5083615",
         "8c62a64d-13dd-4e76-830e-bf631cb4d864",
         "e7514e3b-0b1e-49db-a19a-d7074c9543c2",
-        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac",
-        "7ef2d0ba-c008-429d-929a-980c2c0d5698"
+        "7ef2d0ba-c008-429d-929a-980c2c0d5698",
+        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac"
       ],
       "settings": {
         "top_padding": "default",
