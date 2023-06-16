@@ -59,6 +59,14 @@
             "bm": 20
           }
         },
+        "f7c3c390-bede-4d30-bdcc-eaab0f661f2a": {
+          "type": "shiptime",
+          "settings": {
+            "estimate": "60\/75",
+            "msg": "<i class=\"at at-clock-r\"><\/i> Estimated delivery between [startdate] - [enddate].",
+            "bm": 15
+          }
+        },
         "900c2863-7a02-4344-845e-386c8248bc4d": {
           "type": "text",
           "settings": {
@@ -123,6 +131,7 @@
         "price",
         "43d9e0cf-f5b3-4270-bd73-3845bf580da3",
         "product-form",
+        "f7c3c390-bede-4d30-bdcc-eaab0f661f2a",
         "900c2863-7a02-4344-845e-386c8248bc4d",
         "dba108ba-fba9-466d-afd3-21f64c8a1db7",
         "ca52189d-109d-45f5-91c5-d195b2c24af3",
