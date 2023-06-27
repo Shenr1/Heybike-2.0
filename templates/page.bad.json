@@ -64,6 +64,7 @@
       "blocks": {
         "1d1c291c-29e1-4645-911c-1cb922034f67": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/0619-European_trade_fair_preview_social_media_campaign_image.jpg",
             "layout": "left",
@@ -85,6 +86,7 @@
         },
         "template--19289277169979__fe6340dd-ea38-4ce9-9f9e-0abb15908260-16853339263b39c458-0": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/eb23_venueoverview_website_en_0412.jpg__1079x720_q85_subsampling-2.jpg",
             "layout": "right",
@@ -288,7 +290,7 @@
         "layout": "2",
         "page_Width": 700,
         "title": "BECOME A DEALER",
-        "subtitle": "Partnership with Heybike: Unleash the power of electric bikes in your region.<br>\nApply as a distributor now to win a free ticket to ERUOBIKE 2023! <br>Limited amounts are offered on a first-come, first-served basis!",
+        "subtitle": "Partnership with Heybike: Unleash the power of electric bikes in your region.",
         "show_phone": false,
         "show_subject": false,
         "top-offeset": "default",
