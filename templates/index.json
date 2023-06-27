@@ -300,6 +300,7 @@
     },
     "9097e021-5397-4a21-8d22-e6f121fbda8f": {
       "type": "image-text",
+      "disabled": true,
       "settings": {
         "top_padding": "large",
         "bottom_padding": "large",
@@ -313,6 +314,7 @@
     },
     "a2d3fa24-4809-40c0-b63d-a720d6b02f2c": {
       "type": "multiple-image-text",
+      "disabled": true,
       "blocks": {
         "16e18420-5cfa-45d6-a2b4-a4157ffc0f22": {
           "type": "image",
