@@ -64,6 +64,7 @@
       "blocks": {
         "1d1c291c-29e1-4645-911c-1cb922034f67": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/0619-European_trade_fair_preview_social_media_campaign_image.jpg",
             "layout": "left",
@@ -85,6 +86,7 @@
         },
         "template--19289277169979__fe6340dd-ea38-4ce9-9f9e-0abb15908260-16853339263b39c458-0": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/eb23_venueoverview_website_en_0412.jpg__1079x720_q85_subsampling-2.jpg",
             "layout": "right",
@@ -288,7 +290,7 @@
         "layout": "2",
         "page_Width": 700,
         "title": "VERTRAGSHÄNDLER WERDEN",
-        "subtitle": "Partnerschaft mit Heybike: Entfesseln Sie die Kraft der Elektrofahrräder in Ihrer Region.<br>\nBewerben Sie sich jetzt als Händler und gewinnen Sie eine Freikarte für die ERUOBIKE 2023! <br>Ein begrenztes Kontingent wird nach dem Windhundprinzip vergeben!",
+        "subtitle": "Partnerschaft mit Heybike: Entfesseln Sie die Kraft der Elektrofahrräder in Ihrer Region.",
         "show_phone": false,
         "show_subject": false,
         "top-offeset": "default",
