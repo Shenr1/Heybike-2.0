@@ -85,7 +85,7 @@
 	{%- endif -%}
 {%- endcapture -%}
 <div id="header" data-section-id="header" data-section-type="header-section" {% if settings.home_classic and template == "index" %}class="classic-style"{% endif %}>
-		<header class="site-header fl f-aic {{settings.align_logo}}{% if settings.nav_below_logo %} nav-below{% endif %}{% if settings.main_header_fullwidth %} fullwidth{% else %} page-width xl:px-4 md:px-8 px-6{% endif %}">
+		<header class="z-10 site-header fl f-aic {{settings.align_logo}}{% if settings.nav_below_logo %} nav-below{% endif %}{% if settings.main_header_fullwidth %} fullwidth{% else %} page-width xl:px-4 md:px-8 px-6{% endif %}">
 			<div class="mobile-nav hide-lg">
 				<a href="#" class="hdicon js-mobile-nav-toggle open" title="{{ 'layout.navigation.menu' | t }}"><i class="at at-bars-l" aria-hidden="true"></i></a>
 				{% if settings.enable_search %}
@@ -127,6 +127,7 @@
 		{%- if settings.nav_below_logo -%}{{desktopnav}}{%- endif -%}
 </div>
 <div class="stickySpace"></div>
+<div id="header_mask" class="cursor-pointer transition-all fixed hidden top-0 z-10 left-0 w-full h-full bg-black-900 opacity-40"></div>
 {%- if settings.snow_effect -%}</div>{%- endif -%}
 {{mobilenav}}
 {%- endcapture -%}

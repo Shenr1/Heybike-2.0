@@ -8,8 +8,15 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}" {% if isRtl %}dir="rtl"{% endif %}><head>
 
-<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"187045393", enableAutoSpaTracking: true};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"187048371", enableAutoSpaTracking: true};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
+<script>window.uetq = window.uetq || [];window.uetq.push('event', '', {"revenue_value":1,"currency":"GBP"});</script>
+<script>
 
+(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"187048371"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");
+
+</script>
+  
+  
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WL3M09PJVC"></script>
 <script>
@@ -101,6 +108,8 @@
   
   {%- comment -%}{{ content_for_header }}{%- endcomment -%}
   {%- render 'header-content' -%}
+
+{% render 'gsf-conversion-pixels' %}
 </head>
 <body id="{{ page_title | handle }}" class="template-{{ template | split: '.' | first }} lazyload{%- if isRtl -%} rtl{%- endif -%}"
 	{%- if settings.bodybg_img %} data-bgset="{% render 'bgset', image: settings.bodybg_img %}" data-sizes="auto" data-parent-fit="cover" style="background-image:url('{{ settings.bodybg_img | img_url: '50x50' }});"{%- endif -%}>

@@ -16,7 +16,8 @@
 [section-name = 'store-features'] [tag-name = 'features-ul'] .flickity-page-dots .dot{@apply h-1 w-6 rounded-none mx-1 p-0 bg-black-600}
 [section-name = 'store-features'] [tag-name = 'features-ul'] .flickity-page-dots .dot.is-selected{@apply bg-white}
 
-#header{@apply transition-colors duration-500}
+#header{@apply transition-colors duration-500 ease-in-out}
+#header.active{@apply !absolute !top-auto}
 
 body.template-index .stickyHeader [tag-name = 'reversal-logo']{@apply !block}
 body.template-index .stickyHeader [tag-name = 'logo']{@apply !hidden}
@@ -53,7 +54,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
 
 .slideshow-wrapper .hbStyle .flickity-page-dots{@apply md:pl-8 pl-0 max-w-page md:left-1/2 md:-translate-x-1/2 md:justify-start justify-center lg:bottom-12 md:bottom-8 bottom-6 }
 .slideshow-wrapper .hbStyle .flickity-page-dots .dot{@apply bg-white rounded-none md:w-2 md:h-2 h-1 w-4 transition-all}
-.slideshow-wrapper .hbStyle .flickity-page-dots .dot.is-selected{@apply bg-vi md:w-8 w-12}
+.slideshow-wrapper .hbStyle .flickity-page-dots .dot.is-selected{@apply bg-vi md:w-10 w-12}
 
 .video-wrap__grippy + .video-wrap__grippy { @apply left-auto right-0 before:left-auto before:right-full before:top-auto before:bottom-0; }
 
@@ -111,6 +112,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
 @media only screen and (min-width:765px) {
     [flickity-screen='pc']:after {@apply content-['flickity'] hidden}
     [flickity-screen='mobile']:after {@apply content-none}
+    #siteNav [tag-name="main-menu"] + ul.active{@apply opacity-100 visible}
 }
 
 

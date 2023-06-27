@@ -798,9 +798,12 @@ a.gimg-link { display:block; border-radius:{{settings.primg_rad}}px; overflow: h
   #siteNav > li > a .lbl.nm_label4:after { border-left-color:{{settings.nav_link_lbl4}}; border-right:0 none; }
   #siteNav > li > a .lbl.nm_label5:after { border-left-color:{{settings.nav_link_lbl5}}; border-right:0 none; }
 
+  {% if settings.main_header_click_toggle %}
   #siteNav > li:hover > .megamenu,
   #siteNav > li:hover > .dropdown,
   #siteNav > li .dropdown li:hover > ul { top:auto; opacity:1; visibility:visible; pointer-events:visible; }
+  {% endif %}n
+
 
   #siteNav div.megamenu { opacity:0; visibility:hidden; padding:30px 35px 0; margin:0; position:absolute; top:auto; z-index:999; max-height:600px; overflow:auto;
     background-color:{{ settings.nav_mm_bg }}; {% if settings.nav_shadow %} box-shadow:0px 0px 15px rgba(0, 0, 0, 0.1); {% endif %} pointer-events:none; transition:all 0.3s ease-in; }

@@ -2,7 +2,8 @@
 <ul id="siteNav" class="siteNavigation {{ section.settings.menuAlign}}{% if settings.nav_below_logo %}{% unless settings.main_header_fullwidth %} page-width{% endunless %}{% endif %}" role="navigation" data-section-id="site-{{ section.id }}" data-section-type="site-navigation">
     {% for block in section.blocks %}
     {%- assign label = block.settings.title | split: '[label' | last  | split: ']' | first | prepend: "nm_label" -%}
-    {%- capture linkLevel1 -%}<a href="{% if block.settings.url != blank %}{{ block.settings.url }}{% else %}#{% endif %}" {% if block.settings.newtab %} target="_blank"{% endif %}>{{ block.settings.title | split: '[label' | first }}{% if section.settings.menuarrow %} <i class="at at-angle-down-l"></i>{% endif %}{% if block.settings.title contains '[label' %}<span class="lbl {{label}}">{{ section.settings[label] }}</span>{% endif %}</a>{%- endcapture -%}
+    {%- capture linkLevel1 -%}<a {% unless settings.main_header_click_toggle %}tag-name='main-menu'{% endunless %}
+      href="{% if block.settings.url != blank and settings.main_header_click_toggle %}{{ block.settings.url }}{% else %}#{% endif %}" {% if block.settings.newtab %} target="_blank"{% endif %}>{{ block.settings.title | split: '[label' | first }}{% if section.settings.menuarrow %} <i class="at at-angle-down-l"></i>{% endif %}{% if block.settings.title contains '[label' %}<span class="lbl {{label}}">{{ section.settings[label] }}</span>{% endif %}</a>{%- endcapture -%}
     {%- case block.type -%}
     {%- when 'homelink' -%}
     <li class="lvl1"><a href="{{routes.root_url}}">{{ block.settings.title}}</a></li>
@@ -367,7 +368,9 @@
     {% else %}
         {%- for block in section.blocks -%}
         {%- assign label = block.settings.title |  split: '[label' | last  | split: ']' | first | prepend: "nm_label" -%}
-        {%- capture linkLevel1 -%}<a href="{% if block.settings.url != blank %}{{ block.settings.url }}{% else %}#{% endif %}">{{ block.settings.title | split: '[label' | first }}{% if block.settings.title contains '[label' %} <span class="lbl {{label}}">{{ section.settings[label] }}</span>{% endif %} <i class="at at-plus-l"></i></a>{%- endcapture -%}
+        {%- capture linkLevel1 -%}
+        <a href="{% if block.settings.url != blank %}{{ block.settings.url }}{% else %}#{% endif %}">
+          {{ block.settings.title | split: '[label' | first }}{% if block.settings.title contains '[label' %} <span class="lbl {{label}}">{{ section.settings[label] }}</span>{% endif %} <i class="at at-plus-l"></i></a>{%- endcapture -%}
         {%- if block.type == 'homelink' -%}
         	<li class="lvl1"><a href="{{routes.root_url}}">{{ block.settings.title}}</a></li>
         {%- endif -%}

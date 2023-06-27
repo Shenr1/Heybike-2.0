@@ -72,7 +72,7 @@
         "sidebar_position": "left",
         "text_align": "text-left",
         "blogfs": 25,
-        "blogfsm": 80,
+        "blogfsm": 50,
         "blogtf": "font2",
         "blogtw": "fw-600",
         "featured-img": true,

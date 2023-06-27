@@ -1,3 +1,5 @@
 node_modules
 .vscode
 ./templates/*.json
+config.yml
+config/settings_data.json

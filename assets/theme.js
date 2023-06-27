@@ -1811,7 +1811,9 @@ $(document).ready(function() {
           $('#header').addClass("stickyHeader animated fadeInDown");
           $('.stickySpace').css("min-height",$('#header').height());
       } else {
-          $('#header').removeClass("stickyHeader fadeInDown");
+          if(!$('#header').hasClass("active")){
+            $('#header').removeClass("stickyHeader fadeInDown", );
+          }
           $('.stickySpace').css("min-height",'');
       }
     }else{

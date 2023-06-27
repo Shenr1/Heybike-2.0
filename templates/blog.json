@@ -167,7 +167,7 @@
         "sidebar_position": "nosidebar",
         "blog_align": "tl",
         "blogfs": 20,
-        "blogfsm": 18,
+        "blogfsm": 50,
         "blogtf": "font2",
         "blogtw": "fw-600",
         "grid": 2,

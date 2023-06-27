@@ -54,10 +54,18 @@
             "bm": 20
           }
         },
+        "30da0334-cfb0-4846-8c3c-892486b21fb8": {
+          "type": "shiptime",
+          "settings": {
+            "estimate": "60\/75",
+            "msg": "<i class=\"at at-clock-r\"><\/i> Estimated delivery between [startdate] <b>-<\/b> [enddate].",
+            "bm": 15
+          }
+        },
         "900c2863-7a02-4344-845e-386c8248bc4d": {
           "type": "text",
           "settings": {
-            "text": "<b>Order now, and get a FREE Helmet and Pannier Bag!<\/b>",
+            "text": "<b>Order now, and get a FREE Helmet, a Pannier Bag and a Foot Stop!<\/b>",
             "cl": "#999999",
             "addbg": false,
             "bg": "#f5f5f5",
@@ -85,7 +93,6 @@
         },
         "7ff82dc7-abaf-42c2-a8c8-d415a91325d5": {
           "type": "giveaways",
-          "disabled": true,
           "settings": {
             "title": "Foot Support",
             "price": "3500",
@@ -107,7 +114,7 @@
           "settings": {
             "text1": "Free shipping",
             "text2": "VAT included",
-            "text3": "1-year warranty",
+            "text3": "2-year warranty",
             "icon1": "shopify:\/\/shop_images\/01icon.png",
             "icon2": "shopify:\/\/shop_images\/02icon.png",
             "icon3": "shopify:\/\/shop_images\/03icon.png"
@@ -119,6 +126,7 @@
         "price",
         "43d9e0cf-f5b3-4270-bd73-3845bf580da3",
         "product-form",
+        "30da0334-cfb0-4846-8c3c-892486b21fb8",
         "900c2863-7a02-4344-845e-386c8248bc4d",
         "dba108ba-fba9-466d-afd3-21f64c8a1db7",
         "ca52189d-109d-45f5-91c5-d195b2c24af3",
@@ -339,6 +347,7 @@
     },
     "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "top-offeset": "default",
         "top_padding": "none",
@@ -646,13 +655,14 @@
         "4b9baf99-1d5e-4b05-94c6-37d9a3d707a8": {
           "type": "objList",
           "settings": {
-            "title": "Electronics",
+            "title": "Specs",
             "slide_w": "25%",
-            "content": "Motor:250W Rear Hub Motor<br>\nBattery:12Ah 36V Samsung Battery<br>\nDrivetrain:Shimano 7-speed Drivetrain<br>"
+            "content": "Motor:250W Rear Hub Motor<br>\nBattery:12Ah 36V Samsung Battery<br>\nDrivetrain:Shimano 7-speed Drivetrain<br>\nTop Speed: 25 km\/h or 16 mph<br>\nRange: Up to 60 miles <br>\nBattery Charging Time:4 <b>-<\/b> 6 hours<br>\nFull Bike Weight:40lbs<br>\nMax Load:330lbs<br>:*Actual performance will vary depending on temperature, road conditions, rider's weight, etc."
           }
         },
         "3f710971-b1d4-43f6-87bf-68c7f0429f81": {
           "type": "objList",
+          "disabled": true,
           "settings": {
             "title": "Performance",
             "slide_w": "25%",
@@ -696,14 +706,6 @@
             "metafield3": "other"
           }
         },
-        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac": {
-          "type": "objList",
-          "settings": {
-            "title": "FAQ",
-            "slide_w": "full",
-            "content": "Are there any restrictions or regulations on the use of e-bikes in the UK?: Please click on the following website www.gov.uk\/electric-bike-rules to learn more about the UK Government's policy on e-bikes. <br>"
-          }
-        },
         "8199fd9a-dacd-4cb3-8f18-ce7ce3ace2d6": {
           "type": "imgTxtList",
           "settings": {
@@ -711,6 +713,14 @@
             "image": "shopify:\/\/shop_images\/630x800.jpg",
             "th": ",Description,SIZE(in)",
             "td": "Total Length-72.34<br>Chaint Stay Length-17.95<br>Top Tube Length\n-21.68<br>Head Tube Length-11.78<br>Wheelbase-44.29<br>Wheel Diameter-28.09<br>Handlebar Height\n-44.26<br>Stand Height\n-17.53<br>Maximum Seat Height\n-8.66<br>Minimum Seat Height\n-16.14<br>Minimum Seat to Floor\n-36.15<br>"
+          }
+        },
+        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac": {
+          "type": "objList",
+          "settings": {
+            "title": "FAQ",
+            "slide_w": "full",
+            "content": "Are there any restrictions or regulations on the use of e-bikes in the UK?: Please click on the following website www.gov.uk\/electric-bike-rules to learn more about the UK Government's policy on e-bikes. <br>\nWhat’s the minimum age to ride EC 1-ST?: we recommended for riders 18 years of age and older. <br>\nIs EC 1-ST suitable for me as a beginner?: Of course, it's appropriate! EC 1-ST is simple to operate and provides a vigorous ride for beginners. The 1-ST is furnished with a 250W motor, making cruising or commuting effortless.<br>\nCan I remove the battery from EC 1-ST?: Sure! EC 1-ST equips an integrated and removable battery, which means you can charge the battery pack on or off the frame and never miss out on the fun.<br>\nCan a rear rack be added to the Heybike EC 1-ST?: Yes! The EC 1-ST frame has pre-set openings to facilitate this. No matter how much equipment you have, you can install a rear rack to carry all of your necessities.<br>"
           }
         }
       },
@@ -721,8 +731,8 @@
         "c546c699-a8e3-44bd-a2db-1c70b9fdf444",
         "8c62a64d-13dd-4e76-830e-bf631cb4d864",
         "e7514e3b-0b1e-49db-a19a-d7074c9543c2",
-        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac",
-        "8199fd9a-dacd-4cb3-8f18-ce7ce3ace2d6"
+        "8199fd9a-dacd-4cb3-8f18-ce7ce3ace2d6",
+        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac"
       ],
       "settings": {
         "top_padding": "default",
@@ -731,6 +741,7 @@
     },
     "a96d37af-dc7b-43f1-8f0b-23018e00eaf4": {
       "type": "multiple-image-text",
+      "disabled": true,
       "blocks": {
         "34d82dd4-4589-44a3-8a94-84134067f971": {
           "type": "video",

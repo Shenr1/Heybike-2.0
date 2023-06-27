@@ -1,7 +1,6 @@
 {%- assign secSt = section.settings -%}
 
 <section section-name="data-statistics" class="{% render 'section-interva-set' , secSt:secSt %}" >
-
   <div class="page-width xl:px-4 md:px-8 px-6">
     <div class="md:rounded-section rounded-4xl flex md:flex-row flex-col justify-between overflow-hidden" style="background-color: {{ secSt.bg_color }};">
       <div class="md:p-12 md:pb-0 px-3 pb-4 md:w-[62%]">
@@ -11,7 +10,7 @@
           {% for block in section.blocks %}
           <div class="w-1/2 md:mb-10 mb-5">
             <div class="flex items-end font-medium">
-              <p class="lg:text-4xl text-1_5xl mb-0">{{block.settings.text_main}}</p>
+              <p ini-num="{{ block.settings.text_main }}" tag-name="statistic-item" {% if secSt.is_anim %}animation="true"{% endif %} class="lg:text-4xl text-1_5xl mb-0">{{ block.settings.text_main }}</p>
               <p class="md:text-[1.25rem] text-sm md:ml-2 ml-1">{{block.settings.text_suf}}</p>
             </div>
             <p class="md:text-base text-sm">{{block.settings.text_sub}}</p>
@@ -27,8 +26,7 @@
       </div>
     </div>
   </div>
-
-</section>  
+</section>
 
 {% schema %}
   {
@@ -126,6 +124,16 @@
         "type": "image_picker",
         "id": "image_mb",
         "label": "Right image(mobile)"
+      },
+      {
+        "type": "header",
+        "content": "Animation"
+      },
+      {
+        "type": "checkbox",
+        "id": "is_anim",
+        "label": "Increase the count",
+        "default": false
       }
     ],
     "blocks":[
