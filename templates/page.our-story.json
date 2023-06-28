@@ -171,8 +171,8 @@
         },
         "8f0cf8c3-2c69-469b-985b-807b1936bb22": {
           "type": "row",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/our_story.jpg",
             "layout": "right",
             "title": "About Us",
             "text": "<p>e redefine commuting with us and discover the joy of riding.<\/p>",
@@ -214,7 +214,7 @@
         "679037ac-fdf7-4af6-9a62-df6890f32c60": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/04_4f5643ca-c3d6-4366-a4ae-1eac823223fe.webp",
+            "image": "shopify:\/\/shop_images\/5_b92bd0a7-dfcb-43c0-a830-ac43b161cc8c.jpg",
             "layout": "right",
             "title": "Unser Auftrag",
             "text": "<p>Die Bereitstellung eines weithin zugänglichen, erschwinglichen und ultimativen elektrischen Transportmittels für jedermann.<\/p>",
