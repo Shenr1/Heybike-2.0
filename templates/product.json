@@ -55,7 +55,7 @@
         "product-form": {
           "type": "cta",
           "settings": {
-            "qty_sel": false,
+            "qty_sel": true,
             "bm": 30
           }
         },
