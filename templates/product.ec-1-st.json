@@ -645,9 +645,9 @@
         "4b9baf99-1d5e-4b05-94c6-37d9a3d707a8": {
           "type": "objList",
           "settings": {
-            "title": "Électronique",
+            "title": "Performance",
             "slide_w": "25%",
-            "content": "Moteur:Moteur moyeu arrière 250W<br>\nBatterie : Batterie Samsung 12Ah 36V<br>\nTransmission:Transmission Shimano à 7 vitesses<br>"
+            "content": "Moteur:Moteur moyeu arrière 250W<br>\nBatterie : Batterie Samsung 12Ah 36V<br>\nTransmission:Transmission Shimano à 7 vitesses<br>\nVitesse maximale : 25 km\/h ou 16 mph<br>\nAutonomie : Jusqu'à 100 km <br>\nPoids total du vélo : 18 kg<br>\nTemps de charge de la batterie : 4-6 heures<br>\nCharge maximale:150kg<br>:*Les performances réelles varient en fonction de la température, de l'état de la route, du poids du cycliste, etc."
           }
         },
         "3f710971-b1d4-43f6-87bf-68c7f0429f81": {
@@ -694,14 +694,6 @@
             "metafield3": "other"
           }
         },
-        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac": {
-          "type": "objList",
-          "settings": {
-            "title": "FAQ",
-            "slide_w": "full",
-            "content": "Existe-t-il des restrictions ou des réglementations sur l'utilisation des vélos électriques en France ? :Veuillez cliquer sur le site web suivant www.service-public.fr ctriques pour en savoir plus sur la politique du gouvernement français en matière de vélos électriques.<br>"
-          }
-        },
         "8199fd9a-dacd-4cb3-8f18-ce7ce3ace2d6": {
           "type": "imgTxtList",
           "settings": {
@@ -709,6 +701,14 @@
             "image": "shopify:\/\/shop_images\/630x800.jpg",
             "th": ",Description,Size(cm)",
             "td": "Longueur totale-72.34<br>Longueur des bases-17.95<br>Longueur du tube supérieur\n-21.68<br>Longueur du tube de tête-11.78<br>Entraxe des roues-44.29<br>Diamètre des roues-28.09<br>Hauteur du guidon\n-44.26<br>Hauteur de la béquille\n-17.53<br>Hauteur maximale du siège\n-8.66<br>Hauteur d'assise minimale\n-16.14<br>Distance minimale entre le siège et le sol\n-36.15<br>"
+          }
+        },
+        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac": {
+          "type": "objList",
+          "settings": {
+            "title": "FAQ",
+            "slide_w": "full",
+            "content": "Existe-t-il des restrictions ou des réglementations sur l'utilisation des vélos électriques en France ? :Veuillez cliquer sur le site web suivant www.service-public.fr ctriques pour en savoir plus sur la politique du gouvernement français en matière de vélos électriques.<br>"
           }
         }
       },
@@ -719,8 +719,8 @@
         "c546c699-a8e3-44bd-a2db-1c70b9fdf444",
         "8c62a64d-13dd-4e76-830e-bf631cb4d864",
         "e7514e3b-0b1e-49db-a19a-d7074c9543c2",
-        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac",
-        "8199fd9a-dacd-4cb3-8f18-ce7ce3ace2d6"
+        "8199fd9a-dacd-4cb3-8f18-ce7ce3ace2d6",
+        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac"
       ],
       "settings": {
         "top_padding": "default",
