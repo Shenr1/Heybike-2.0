@@ -14,7 +14,7 @@
           "settings": {
             "cl": "#000000",
             "fs": 36,
-            "fsm": 180,
+            "fsm": 220,
             "ff": "ft2",
             "fw": "600",
             "transform": "tt-c",
@@ -27,7 +27,7 @@
             "pcl": "#000000",
             "pcls": "#e95144",
             "fs": 30,
-            "fsm": 150,
+            "fsm": 200,
             "pfw": "600",
             "saved": false,
             "taxship": false,
@@ -40,7 +40,7 @@
             "title": "More colors",
             "cl": "#000000",
             "fs": 16,
-            "fsm": 100,
+            "fsm": 230,
             "fw": "600",
             "wd": 100,
             "bd": "#000000",
@@ -57,7 +57,7 @@
         "900c2863-7a02-4344-845e-386c8248bc4d": {
           "type": "text",
           "settings": {
-            "text": "Commandez maintenant et recevez un casque et une sacoche GRATUITS !",
+            "text": "Casque, sacoche et béquille gratuits avec une commande (valeur de 148€) !",
             "cl": "#999999",
             "addbg": false,
             "bg": "#f5f5f5",
@@ -69,27 +69,27 @@
           "type": "giveaways",
           "settings": {
             "title": "Casque Ebike urbain",
-            "price": "6500",
+            "price": "5900",
             "tag": "GRATUIT",
-            "Image": "shopify:\/\/shop_images\/heybike_helmet.webp"
+            "Image": "shopify:\/\/shop_images\/4_b7ce1a36-a660-4b6b-ad63-43a7f84a88ea.jpg"
           }
         },
         "ca52189d-109d-45f5-91c5-d195b2c24af3": {
           "type": "giveaways",
           "settings": {
             "title": "Sacoche pour porte-bagages de vélo",
-            "price": "7500",
+            "price": "5900",
             "tag": "GRATUIT",
-            "Image": "shopify:\/\/shop_images\/heybike_pannier_bag.webp"
+            "Image": "shopify:\/\/shop_images\/1_6d231b32-b8b7-4860-9390-e6c588b225ed.jpg"
           }
         },
         "7ff82dc7-abaf-42c2-a8c8-d415a91325d5": {
           "type": "giveaways",
-          "disabled": true,
           "settings": {
             "title": "Foot Support",
-            "price": "3500",
-            "tag": "FREE"
+            "price": "3000",
+            "tag": "GRATUIT",
+            "Image": "shopify:\/\/shop_images\/Stander.jpg"
           }
         },
         "3e5ff436-8638-45b7-a3ce-b36263b34395": {
@@ -355,7 +355,7 @@
         "title": "",
         "color_ttl": "#ffffff",
         "tfs": 20,
-        "tfsm": 75,
+        "tfsm": 200,
         "hide_text": false,
         "btntxt": "",
         "btnurl": "",
@@ -582,7 +582,6 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/Heybike_Ap.png",
-            "image_mb": "shopify:\/\/shop_images\/1_b0049f01-5229-45da-9346-24332cf186d1.png",
             "layout": "right",
             "title": "Smarttech et APP",
             "text": "<p>Tes superbes balades méritent un journal ! Connectez votre vélo à l'application HEYBIKE, et construisez un compteur kilométrique impressionnant !<\/p>",
@@ -593,7 +592,7 @@
             "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
-            "text_center": true,
+            "text_center": false,
             "tcl": "#000000",
             "cl": "#000000",
             "bg": "#f5f5f5",
@@ -617,18 +616,18 @@
         "snow_effect": false,
         "snow_style": "style1",
         "tfs": 30,
-        "tfsm": 150,
+        "tfsm": 210,
         "tff": "ft1",
         "tfw": "700",
         "tlh": 1.2,
         "tmb": 15,
-        "tmbm": 10,
+        "tmbm": 30,
         "fs": 14,
-        "fsm": 75,
+        "fsm": 220,
         "fw": "400",
         "lh": 1.6,
         "mb": 15,
-        "mbm": 10,
+        "mbm": 40,
         "btn-size-desk": "btn-md",
         "btn-size-mob": "mob-btn-sm"
       }
@@ -729,6 +728,7 @@
     },
     "a96d37af-dc7b-43f1-8f0b-23018e00eaf4": {
       "type": "multiple-image-text",
+      "disabled": true,
       "blocks": {
         "34d82dd4-4589-44a3-8a94-84134067f971": {
           "type": "video",
@@ -929,8 +929,8 @@
         ".sec-ttl .h3,div.sec-ttl p {color: #fff;}"
       ],
       "settings": {
-        "top_padding": "large",
-        "bottom_padding": "large",
+        "top_padding": "medium",
+        "bottom_padding": "small",
         "top-offeset": "none",
         "section_style": "heybike",
         "section_width": false,
@@ -945,7 +945,7 @@
         "isz": 54,
         "tcl": "#ffffff",
         "tfs": 24,
-        "tfsm": 100,
+        "tfsm": 250,
         "tfw": "600",
         "tlh": 1.2,
         "cl": "#eeeeee",
