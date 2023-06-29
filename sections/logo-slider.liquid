@@ -35,8 +35,7 @@ style="{% if secSt.bg_color != blank %}background-color: {{ secSt.bg_color}};{% 
             {% assign media = block.settings.logo_image %}
             {% comment %} {{ media | image_url: width: 200 | image_tag: height: media.height, class: 'grayscale transition-all scale-90 max-h-9 md:h-auto h-8 object-contain' }} {% endcomment %}
             
-            {% include 'aspect-ratio-img', media: media ,class: 'grayscale transition-all scale-90 object-contain'%}
-          
+            {% include 'aspect-ratio-img', media: media ,class: 'grayscale transition-all scale-90 object-contain px-3 md:px-0'%}
           </div>
           {% endfor %}
         </div>
