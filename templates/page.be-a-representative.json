@@ -8,7 +8,7 @@
         "ds_height": 280,
         "tb_height": 350,
         "mb_height": 250,
-        "parallax_scroll": true,
+        "parallax_scroll": false,
         "image": "shopify:\/\/shop_images\/02_31a53d77-ed0d-45f8-b6cd-7215cb8658a9.webp",
         "alignment": "center",
         "pretext": "",
@@ -65,7 +65,7 @@
         "e7e856a6-1018-4e98-b839-7c350042e23a": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Explore_with_Heybike_Mars.webp",
+            "image": "shopify:\/\/shop_images\/2_5c4423da-44ef-4b93-b963-a71099277489.jpg",
             "layout": "right",
             "title": "",
             "text": "<p>Wenn Sie ein Heybike-E-Bike besitzen, machen Sie mit und werden Sie ein Heybike-Produktvertreter! Sie müssen nur Ihre Adresse und Telefonnummer angeben und Heybike potenziellen Fahrern erlauben, Ihr Fahrrad zu testen!<br\/><br\/>Sie ermöglichen neuen Kunden, Ihr Modell zu kontaktieren und zu testen. Als Belohnung erhalten Heybike-Vertreter Prämien, sobald ein Kunde ein E-Bike mit ihren Gutscheincodes oder Empfehlungslinks kauft. Außerdem haben Sie die Möglichkeit, unser neues Modell zu testen!<br\/><br\/>Wir werden Ihre Daten auf Ihrer Website aufführen, damit unsere potenziellen Fahrer Sie kontaktieren können. <\/p>",
@@ -74,6 +74,7 @@
             "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
+            "text_center": false,
             "tcl": "#000000",
             "cl": "#000000",
             "bg": "#f5f5f5",
@@ -85,7 +86,7 @@
         "67f390d6-a648-4fc8-83ed-132007d2ba6e": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/21_3baf312a-11dd-4af1-978b-863d77815329.webp",
+            "image": "shopify:\/\/shop_images\/2_a77bfd48-4865-4ad3-95d8-80e4e05a3725.jpg",
             "layout": "left",
             "title": "Was werden Sie bekommen?",
             "text": "<p>1. Sie erhalten Heybike-Merchandise.<br\/>2. Sie erhalten eine Prämie im Wert des Gutscheins, wenn ein Testfahrer Ihren empfohlenen Gutschein zum Kauf eines Produkts verwendet.<br\/>3. Sie erhalten mit hoher Wahrscheinlichkeit unser neues Modell als Deep Cooperation.<\/p>",
@@ -94,6 +95,7 @@
             "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
+            "text_center": false,
             "tcl": "#000000",
             "cl": "#000000",
             "bg": "#f5f5f5",
