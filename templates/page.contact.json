@@ -65,7 +65,7 @@
         "template--19143575175483__746e6059-ac66-40dc-865b-17bd58ed7b6c-168552199358466c63-0": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_bf5fc041-1b33-436e-b57f-7ad5ff09641a.jpg",
+            "image": "shopify:\/\/shop_images\/2_a441ff3b-0f8b-4168-b9f6-fabf574c001b.jpg",
             "layout": "right",
             "title": "CONTACT HEYBIKE",
             "text": "<p><strong>GENERAL ENQUIRIES or SUPPORT:  <\/strong>Please check our <a href=\"\/pages\/help-center\" target=\"_blank\" title=\"Help Center\"><strong>Help Center<\/strong><\/a> first as many questions can be answered immediately. If you still have any questions, please don't hesitate to email us via <a href=\"mailto:support.uk@heybike.com\" title=\"mailto:support.uk@heybike.com\"><strong>support.uk@heybike.com<\/strong><\/a> or fill out the form on this page.<\/p><p><strong>Wholesale\/distribution or Collaboration\/Ambassador<\/strong> enquiries please email <a href=\"mailto:sales.uk@heybike.com\" target=\"_blank\" title=\"mailto:sales.uk@heybike.com\"><strong>sales.uk@heybike.com<\/strong><\/a><\/p>",
@@ -74,6 +74,7 @@
             "button_label": "",
             "button_link": "\/",
             "text_align": "text-left",
+            "text_center": false,
             "tcl": "#000000",
             "cl": "#000000",
             "bg": "#f5f5f5",
