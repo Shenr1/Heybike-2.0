@@ -420,12 +420,12 @@
         "icon-type": "icon",
         "icons_clr": "#ffffff",
         "isz": 30,
-        "tcl": "#111111",
+        "tcl": "#fff",
         "tfs": 16,
         "tfsm": 85,
         "tfw": "500",
         "tlh": 1.3,
-        "cl": "#333333",
+        "cl": "#ffffff",
         "border_sep": "#eeeeee"
       }
     },
