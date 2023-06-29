@@ -189,6 +189,7 @@
     "default_currency": "Euro",
     "show_language": false,
     "language_title": "LANGUAGE",
+    "default_language": "German",
     "languages": "language",
     "show_notification": true,
     "notify_collection": "hot-collection",
