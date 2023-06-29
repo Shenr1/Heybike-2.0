@@ -652,6 +652,7 @@
         },
         "3f710971-b1d4-43f6-87bf-68c7f0429f81": {
           "type": "objList",
+          "disabled": true,
           "settings": {
             "title": "Performance",
             "slide_w": "25%",
@@ -663,7 +664,7 @@
           "settings": {
             "title": "Composant",
             "slide_w": "25%",
-            "content": "Écran:Écran LCD<br>\nFreins : Freins à disques hydrauliques<br>\nCadre : alliage de magnésium de qualité aéronautique<br>\nPneus : Pneus 700C*40C résistants aux crevaisons<br>Fourche avant\nFourche avant : fourche en alliage d'aluminium<br>\nPhare : Inclus<br>\nGarde-boue avant et arrière : Inclus<br>\nBéquille : Inclus<br>\nRéflecteurs avant et arrière : Inclus<br>"
+            "content": "Écran:Écran LCD<br>\nFreins : Freins à disques hydrauliques<br>\nCadre : alliage de magnésium de qualité aéronautique<br>\nPneus : Pneus 700C*40C résistants aux crevaisons<br>Fourche avant\nFourche avant : fourche en alliage d'aluminium<br>\nPhare : Inclus<br>\nGarde-boue avant et arrière : Inclus<br>\nBéquille : Inclus<br>\nRéflecteurs arrière: Inclus<br>"
           }
         },
         "c546c699-a8e3-44bd-a2db-1c70b9fdf444": {
