@@ -201,7 +201,7 @@
             "text_center": false,
             "tcl": "#000",
             "cl": "#000",
-            "bg": "#f5f5f5",
+            "bg": "#fff",
             "btncl": "#fff",
             "btnbg": "#000",
             "btnbd": "#000"
@@ -222,7 +222,7 @@
             "text_center": false,
             "tcl": "#000",
             "cl": "#000",
-            "bg": "#f5f5f5",
+            "bg": "#fff",
             "btncl": "#fff",
             "btnbg": "#000",
             "btnbd": "#000"
