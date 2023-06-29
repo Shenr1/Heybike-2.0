@@ -111,7 +111,7 @@
           "settings": {
             "text1": "Livraison gratuite",
             "text2": "TVA incluse",
-            "text3": "Garantie de 1 an",
+            "text3": "Garantie de 2 ans",
             "icon1": "shopify:\/\/shop_images\/646653b0ac6b117df7f13ce8570d0e38_ab1303c8-a54e-47d4-999d-44eeabc4aa8c.png",
             "icon2": "shopify:\/\/shop_images\/2_db248150-9d91-47d8-af7f-fd791013a8f4.png",
             "icon3": "shopify:\/\/shop_images\/123.png"
@@ -343,6 +343,7 @@
     },
     "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "top-offeset": "default",
         "top_padding": "none",
@@ -663,17 +664,18 @@
         "4b9baf99-1d5e-4b05-94c6-37d9a3d707a8": {
           "type": "objList",
           "settings": {
-            "title": "Électronique",
+            "title": "Performance",
             "slide_w": "25%",
-            "content": "Moteur:Moteur moyeu arrière 250W<br>\nBatterie : Batterie Samsung 12Ah 36V<br>\nTransmission:Transmission Shimano à 7 vitesses<br>"
+            "content": "Moteur:Moteur moyeu arrière 250W<br>\nBatterie : Batterie Samsung 12Ah 36V<br>\nTransmission:Transmission Shimano à 7 vitesses<br>\nVitesse maximale : 25 km\/h ou 16 mph<br>\nAutonomie : Jusqu'à 100 km <br>\nPoids total du vélo : 18 kg<br>\nTemps de charge de la batterie : 4-6 heures<br>\nCharge maximale:150kg<br>:*Les performances réelles varient en fonction de la température, de l'état de la route, du poids du cycliste, etc."
           }
         },
         "3f710971-b1d4-43f6-87bf-68c7f0429f81": {
           "type": "objList",
+          "disabled": true,
           "settings": {
             "title": "Performance",
             "slide_w": "25%",
-            "content": "Vitesse maximale : 25 km\/h ou 16 mph<br>\nAutonomie : Jusqu'à 100 km <br>\nPoids total du vélo : 18 kg<br>\nTemps de charge de la batterie : 4-6 heures<br>\nCharge maximale:150kg<br>:*Les performances réelles varient en fonction de la température, de l'état de la route, du poids du cycliste, etc."
+            "content": ""
           }
         },
         "9dfdd47e-961b-4375-b72a-202eb5083615": {
@@ -704,14 +706,6 @@
             "metafield3": "other"
           }
         },
-        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac": {
-          "type": "objList",
-          "settings": {
-            "title": "FAQ",
-            "slide_w": "full",
-            "content": "Existe-t-il des restrictions ou des réglementations sur l'utilisation des vélos électriques en France ? :Veuillez cliquer sur le site web suivant www.service-public.fr ctriques pour en savoir plus sur la politique du gouvernement français en matière de vélos électriques.<br>"
-          }
-        },
         "7ef2d0ba-c008-429d-929a-980c2c0d5698": {
           "type": "imgTxtList",
           "settings": {
@@ -719,6 +713,14 @@
             "image": "shopify:\/\/shop_images\/630x800_b35262cf-c079-415a-b996-814f5faa715e.jpg",
             "th": ",Description,Size(cm)",
             "td": "longueur totale-184.03<br>\nLongueur de la base-45.61<br>\nLongueur du tube supérieur-54.91<br>\nLongueur du tube de direction-27.59<br>\nEmpattement-112.51<br>\nDiamètre de la roue-71.29<br>\nHauteur du guidon-110.24<br>\nHauteur de béquille-37.16<br>\nHauteur d'assise maximale-22<br>\nHauteur minimale d'assise-48.36<br>\nDistance minimale entre l'assise et le sol-96.57<br>"
+          }
+        },
+        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac": {
+          "type": "objList",
+          "settings": {
+            "title": "FAQ",
+            "slide_w": "full",
+            "content": "Existe-t-il des restrictions ou des réglementations sur l'utilisation des vélos électriques en France ? :Veuillez cliquer sur le site web suivant www.service-public.fr ctriques pour en savoir plus sur la politique du gouvernement français en matière de vélos électriques.<br>"
           }
         }
       },
@@ -728,8 +730,8 @@
         "9dfdd47e-961b-4375-b72a-202eb5083615",
         "8c62a64d-13dd-4e76-830e-bf631cb4d864",
         "e7514e3b-0b1e-49db-a19a-d7074c9543c2",
-        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac",
-        "7ef2d0ba-c008-429d-929a-980c2c0d5698"
+        "7ef2d0ba-c008-429d-929a-980c2c0d5698",
+        "2bdea729-fb07-4fc5-87c8-a226a6cbbeac"
       ],
       "settings": {
         "top_padding": "default",
@@ -738,6 +740,7 @@
     },
     "a96d37af-dc7b-43f1-8f0b-23018e00eaf4": {
       "type": "multiple-image-text",
+      "disabled": true,
       "blocks": {
         "a1291fa1-d564-4ec3-a6ce-51e0bf8a956c": {
           "type": "video",
