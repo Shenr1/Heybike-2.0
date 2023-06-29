@@ -90,7 +90,7 @@
         "1633769564023b4dfb-0": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_fd20cd87-aff5-41ee-bbf1-f9e6b62bc57d.jpg",
+            "image": "shopify:\/\/shop_images\/2_a441ff3b-0f8b-4168-b9f6-fabf574c001b.jpg",
             "layout": "right",
             "title": "Warum eine Partnerschaft mit Heybike?",
             "text": "<p>HeyBike wurde angetrieben, um \"jedes E-Bike für jeden\" möglich zu machen. Und wir brauchen kreative und unternehmungslustige Partner, die uns helfen, mehr in der Welt zu verbreiten und zu realisieren.     Wenn man bedenkt, wie schnell sich unsere Fahrräder durch Mundpropaganda verbreiten, ist es einfach, einen geeigneten Partner zu finden. Kostenlose Kosten und hohe Provisionen, warum nicht bewerben?<\/p>",
@@ -99,6 +99,7 @@
             "button_label": "",
             "button_link": "",
             "text_align": "text-left",
+            "text_center": false,
             "tcl": "#000000",
             "cl": "#000000",
             "bg": "#f5f5f5",
@@ -119,6 +120,7 @@
             "button_label": "",
             "button_link": "",
             "text_align": "text-left",
+            "text_center": false,
             "tcl": "#000000",
             "cl": "#000000",
             "bg": "#f5f5f5",
@@ -139,6 +141,7 @@
             "button_label": "Jetzt bewerben",
             "button_link": "\/",
             "text_align": "text-left",
+            "text_center": false,
             "tcl": "#000000",
             "cl": "#000000",
             "bg": "#f5f5f5",
