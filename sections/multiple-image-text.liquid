@@ -32,9 +32,18 @@
             {% assign sectionClass = "" %}
             {% if blkSt.bg_img_mb != blank %}
             {% assign sectionClass = "md:block hidden" %}
-            <section class="md:hidden block"> {{ blkSt.bg_img_mb | image_url: width: 1280 | image_tag: height: blkSt.bg_img_mb.height, class: imgClass, lazyload: true }} </section>
+            <section class="md:hidden block"> 
+
+            {{ blkSt.bg_img_mb | image_url: width: 1280 | image_tag: height: blkSt.bg_img_mb.height, class: imgClass, lazyload: true }}
+            
+            {% include 'aspect-ratio-img', media: media %}
+
+          </section>
             {% endif %}
-            <section class="{{ sectionClass }}">{{ blkSt.bg_img | image_url: width: 1280 | image_tag: height: blkSt.bg_img.height, class: imgClass, lazyload: true }}</section>
+            <section class="{{ sectionClass }}">
+              {% comment %} {{ blkSt.bg_img | image_url: width: 1280 | image_tag: height: blkSt.bg_img.height, class: imgClass, lazyload: true }} {% endcomment %}
+              {% include 'aspect-ratio-img', class: imgClass, media: blkSt.bg_img, placeholder: true %}
+            </section>
             {% if blkSt.img_link != blank %} </a> {% endif %}
           {% else %}
 

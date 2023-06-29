@@ -72,6 +72,9 @@ $(function(){
       $('.accordion [tag-name="accordion-content"]').not($content).slideUp(500, "linear"); // 收起非当前折叠内容
       $content.slideToggle(500, "linear"); // 打开当前折叠内容
   
+    },
+    localizaToggle:function(){
+      $(this).next("div").toggleClass("!block")
     }
   }
   
@@ -96,7 +99,8 @@ $(function(){
     );
   }
 
-
+  // localization国家切换
+  $(document).on('click', '#country_select > button',clickFuns.localizaToggle);
 
   //nav点击出菜单效果
   if($(window).width() > 768){

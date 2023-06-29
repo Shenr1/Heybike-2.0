@@ -28,9 +28,9 @@ body:not(.template-index) [tag-name = 'logo']{@apply !hidden}
 body.template-product #header:not(.stickyHeader) [tag-name = 'reversal-logo']{@apply !block}
 body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hidden}
 
-.template-index #header.stickyHeader [section-name = 'localization'] select{@apply text-black-900}
-.template-index #header [section-name = 'localization'] select{@apply text-white}
-.footer-bottom [section-name = 'localization'] select{@apply text-white}
+[section-name = 'localization'] a > img{@apply h-4}
+.footer-bottom [section-name = 'localization'] > div,
+.footer-top ~ div [section-name = 'localization'] > div{@apply right-auto -top-36}
 
 [section-name = 'color-slider-full'] div.is-selected [tag-name = 'color-block'] > div{@apply shadow-black-600}
 [section-name = 'color-slider-full'] div.is-selected [tag-name = 'color-block']{@apply border-black-800 }
@@ -105,7 +105,6 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
     .footer-top .newsletter .wrap-newsletter{@apply max-w-none}
     #shopify-section-footer [section-name = 'localization'] img,
     .gridSwatches li{@apply w-5 h-5}
-    #shopify-section-footer [section-name = 'localization'] select{@apply text-black-400}
     #CartCount, .favCount{@apply h-4 min-w-[1rem] text-base leading-none -top-1}
 }
 
@@ -165,5 +164,5 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
     .template-index #header:not(.stickyHeader) #siteNav>li>a,.template-index #header:not(.stickyHeader) .site-header a.hdicon{@apply text-white}
 
     .enlarge {@apply md:hover:scale-105 transition-transform duration-500}
-
+    .imgPlaceholder {background: linear-gradient(159.09deg,#313131 7.96%,#6f726c 86.18%);}
 }
