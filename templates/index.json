@@ -293,7 +293,7 @@
 
       ],
       "settings": {
-        "top_padding": "none",
+        "top_padding": "large",
         "bottom_padding": "large",
         "bg_color": "#f3f5f9",
         "title": "Go Green with Heybike",

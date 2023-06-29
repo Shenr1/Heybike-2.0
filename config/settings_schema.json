@@ -2436,7 +2436,7 @@
         "id": "main_header_click_toggle",
         "label": "Hover toggle?",
         "default": true,
-        "info":"Click to show or touch to show"
+        "info": "Click to show or touch to show"
       },
       {
         "type": "textarea",
