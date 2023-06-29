@@ -65,7 +65,7 @@
         "900c2863-7a02-4344-845e-386c8248bc4d": {
           "type": "text",
           "settings": {
-            "text": "Bestellen Sie jetzt und erhalten Sie einen GRATIS-Helm und eine GRATIS-Packtasche!",
+            "text": "Kostenloser Helm, Gepäcktasche und Ständer bei Bestellung (Wert £148)!",
             "cl": "#999999",
             "addbg": false,
             "bg": "#f5f5f5",
@@ -77,27 +77,27 @@
           "type": "giveaways",
           "settings": {
             "title": "Urban Ebike Helmet",
-            "price": "6500",
+            "price": "5900",
             "tag": "KOSTENLOS",
-            "Image": "shopify:\/\/shop_images\/1_51d81221-099f-41ad-826d-8a1c1345ad5f.jpg"
+            "Image": "shopify:\/\/shop_images\/4_cb4ad25c-9e11-4ffd-9e0f-b6c358d3a162.jpg"
           }
         },
         "ca52189d-109d-45f5-91c5-d195b2c24af3": {
           "type": "giveaways",
           "settings": {
             "title": "Bike Rack Pannier Bag",
-            "price": "7500",
+            "price": "5900",
             "tag": "KOSTENLOS",
-            "Image": "shopify:\/\/shop_images\/1_440a383c-ab61-4691-902e-cfbc79d366f2.jpg"
+            "Image": "shopify:\/\/shop_images\/1_75c686b6-8b74-48bb-8af2-7822c7033bbb.jpg"
           }
         },
         "26f70621-465c-4e87-adb3-6f55ff3e4bf7": {
           "type": "giveaways",
           "settings": {
             "title": "Bike Rack Pannier Bag",
-            "price": "7500",
-            "tag": "KOSTENLOS",
-            "Image": "shopify:\/\/shop_images\/1_440a383c-ab61-4691-902e-cfbc79d366f2.jpg"
+            "price": "3000",
+            "tag": "Ständer",
+            "Image": "shopify:\/\/shop_images\/1_65c744a7-6512-40ba-b565-ca8c0c4e7b72.webp"
           }
         },
         "3e5ff436-8638-45b7-a3ce-b36263b34395": {
