@@ -20,7 +20,7 @@
         "plh": 1.3,
         "pmb": 10,
         "pmbm": 25,
-        "title": "Die Meinungen der Experten",
+        "title": "HEYBIKE IN DER PRESSE",
         "tcl": "#ffffff",
         "tfs": 30,
         "tfsm": 235,
@@ -199,12 +199,12 @@
             "button_link": "https:\/\/www.velototal.de\/2023\/06\/05\/heybike-pr%C3%A4sentiert-sich-erstmals-auf-der-eurobike-2023\/",
             "text_align": "text-left",
             "text_center": false,
-            "tcl": "#000",
-            "cl": "#000",
-            "bg": "#fff",
-            "btncl": "#fff",
-            "btnbg": "#000",
-            "btnbd": "#000"
+            "tcl": "#000000",
+            "cl": "#000000",
+            "bg": "#ffffff",
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
           }
         },
         "template--19072511902019__5329daf9-2a5c-4391-8763-b6532cc3630c-1688008629fb994d28-0": {
@@ -220,12 +220,12 @@
             "button_link": "https:\/\/www.inside-digital.de\/news\/neuer-e-bike-hersteller-mit-automatik-und-kampfpreis",
             "text_align": "text-left",
             "text_center": false,
-            "tcl": "#000",
-            "cl": "#000",
-            "bg": "#fff",
-            "btncl": "#fff",
-            "btnbg": "#000",
-            "btnbd": "#000"
+            "tcl": "#000000",
+            "cl": "#000000",
+            "bg": "#ffffff",
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
           }
         }
       },
