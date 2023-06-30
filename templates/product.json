@@ -169,13 +169,13 @@
         "descriptions": {
           "type": "desc",
           "settings": {
-            "title": "PRODUCT DETAILS"
+            "title": "DÉTAILS DU PRODUIT"
           }
         },
         "review": {
           "type": "review",
           "settings": {
-            "title": "REVIEWS",
+            "title": "REVUE",
             "otherapp": ""
           }
         },
