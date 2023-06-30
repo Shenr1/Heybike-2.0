@@ -62,7 +62,7 @@
         "900c2863-7a02-4344-845e-386c8248bc4d": {
           "type": "text",
           "settings": {
-            "text": "Casque, sacoche et béquille gratuits avec une commande (valeur de 148€) !",
+            "text": "Casque, sacoche et béquille gratuits avec une commande (valeur de 158€) !",
             "cl": "#999999",
             "addbg": false,
             "bg": "#f5f5f5",
@@ -83,7 +83,7 @@
           "type": "giveaways",
           "settings": {
             "title": "Sacoche pour porte-bagages de vélo",
-            "price": "5900",
+            "price": "6900",
             "tag": "GRATUIT",
             "Image": "shopify:\/\/shop_images\/1_6d231b32-b8b7-4860-9390-e6c588b225ed.jpg"
           }
