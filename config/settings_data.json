@@ -300,7 +300,7 @@
             "type": "dropdown",
             "settings": {
               "title": "Equipment",
-              "url": "",
+              "url": "shopify:\/\/collections\/accessoires",
               "mm_linklist": ""
             }
           },
