@@ -142,11 +142,11 @@
       ],
       "settings": {
         "section_width": false,
-        "anchor1": "Features",
+        "anchor1": "Caractéristiques",
         "anchor_href1": "nav-features",
-        "anchor2": "Specifications",
+        "anchor2": "Spécifications",
         "anchor_href2": "nav-specifications",
-        "anchor3": "Reviews",
+        "anchor3": "Commentaires",
         "anchor_href3": "nav-reviews",
         "tabs_nav": true
       }
