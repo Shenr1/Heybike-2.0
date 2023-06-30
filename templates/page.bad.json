@@ -64,6 +64,7 @@
       "blocks": {
         "1d1c291c-29e1-4645-911c-1cb922034f67": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Heybike-eurobike23_4a912263-b9f7-4d8d-a094-ba9b4f797902.jpg",
             "layout": "left",
@@ -85,6 +86,7 @@
         },
         "template--19289277169979__fe6340dd-ea38-4ce9-9f9e-0abb15908260-16853339263b39c458-0": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/eb23_venueoverview_website_en_0412.jpg__1079x720_q85_subsampling-2.jpg",
             "layout": "right",
@@ -288,7 +290,7 @@
         "layout": "2",
         "page_Width": 700,
         "title": "DEVENIR REVENDEUR",
-        "subtitle": "Partenariat avec Heybike : Libérez la puissance des vélos électriques dans votre région.\nPosez votre candidature en tant que distributeur dès maintenant pour gagner un billet gratuit pour ERUOBIKE 2023 ! <br>Des quantités limitées sont offertes sur la base du premier arrivé, premier servi !",
+        "subtitle": "Partenariat avec Heybike : Libérez la puissance des vélos électriques dans votre région.",
         "show_phone": false,
         "show_subject": false,
         "top-offeset": "default",
