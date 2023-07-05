@@ -17,7 +17,7 @@
             "hideh3": true,
             "cl": "#ffffff",
             "btn": "Shop Now &nbsp >",
-            "link": "shopify:\/\/products\/heybike-ec-1",
+            "link": "shopify:\/\/products\/ec-1",
             "btn1window": true,
             "btn-style": "btn",
             "display_btn": false,
@@ -116,7 +116,7 @@
         "49c3920c-4c72-4966-97a0-17f141bf1e62": {
           "type": "slide",
           "settings": {
-            "product": "heybike-ec-1",
+            "product": "ec-1",
             "product_image": "shopify:\/\/shop_images\/EC-1.png",
             "info": "Meet your needs for commuting"
           }
@@ -148,7 +148,7 @@
         "265ae58e-bbd5-431e-950a-654097cb3d2c": {
           "type": "slide",
           "settings": {
-            "product": "heybike-ec-1",
+            "product": "ec-1",
             "product_image": "shopify:\/\/shop_images\/EC-1_e0ada7b4-10f3-42f9-ac93-3527255d4a64.png",
             "info": "Meet your needs for commuting"
           }
@@ -156,7 +156,7 @@
         "74434e2d-7316-4cea-a46d-2fe1337dab28": {
           "type": "slide",
           "settings": {
-            "product": "heybike-ec-1",
+            "product": "ec-1",
             "product_image": "shopify:\/\/shop_images\/EC-1-_-1_7999a1b7-7e79-4820-8a71-df49f3ad9562.png",
             "info": "Meet your needs for commuting"
           }
