@@ -113,9 +113,10 @@
       "blocks": {
         "49c3920c-4c72-4966-97a0-17f141bf1e62": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "product": "ec-1",
-            "product_image": "shopify:\/\/shop_images\/2.png",
+            "product_image": "shopify:\/\/shop_images\/7ae4635ee91d0a5871a3ecc98a127d57.jpg",
             "info": "Répondre à vos besoins pour les trajets domicile-travail"
           }
         },
@@ -123,7 +124,6 @@
           "type": "slide",
           "settings": {
             "product": "ec-1-st",
-            "product_image": "shopify:\/\/shop_images\/2_108d301a-f109-418f-945c-3c17bd43a08f.png",
             "info": "Conception en escalier : Rouler avec facilité"
           }
         },
@@ -131,7 +131,6 @@
           "type": "slide",
           "settings": {
             "product": "ec-1",
-            "product_image": "shopify:\/\/shop_images\/1.png",
             "info": "Répondre à vos besoins pour les trajets domicile-travail"
           }
         },
@@ -139,7 +138,6 @@
           "type": "slide",
           "settings": {
             "product": "ec-1-st",
-            "product_image": "shopify:\/\/shop_images\/3_f881d2f8-3c25-4b88-9c36-dc6dbd3e1783.png",
             "info": "Conception en escalier : Rouler avec facilité"
           }
         },
@@ -147,7 +145,6 @@
           "type": "slide",
           "settings": {
             "product": "ec-1",
-            "product_image": "shopify:\/\/shop_images\/3.png",
             "info": "Répondre à vos besoins pour les trajets domicile-travail"
           }
         },
@@ -155,7 +152,6 @@
           "type": "slide",
           "settings": {
             "product": "ec-1-st",
-            "product_image": "shopify:\/\/shop_images\/1_587f7559-f8d6-47af-8b04-5b93fdb678eb.png",
             "info": "Conception en escalier : Rouler avec facilité"
           }
         }
