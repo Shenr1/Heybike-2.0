@@ -113,6 +113,7 @@
       "blocks": {
         "74434e2d-7316-4cea-a46d-2fe1337dab28": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "product": "ec-1",
             "product_image": "shopify:\/\/shop_images\/cdaa4012fb613cdf2d9036a9987dbd0d.png",
