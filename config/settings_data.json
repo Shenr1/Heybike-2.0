@@ -187,7 +187,7 @@
     "cart_btn_text": "#fff",
     "currency_title": "CURRECNY",
     "default_currency": "Euro",
-    "show_language": false,
+    "show_language": true,
     "language_title": "LANGUAGE",
     "default_language": "German",
     "languages": "language",
