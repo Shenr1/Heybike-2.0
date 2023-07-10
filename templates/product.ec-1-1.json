@@ -62,7 +62,7 @@
         "900c2863-7a02-4344-845e-386c8248bc4d": {
           "type": "text",
           "settings": {
-            "text": "Casque, sacoche et béquille gratuits avec une commande (valeur de 158€) !",
+            "text": "Casque, sacoche et porte-bidon de vélo gratuits avec une commande (valeur €143) !",
             "cl": "#999999",
             "addbg": false,
             "bg": "#f5f5f5",
@@ -91,10 +91,10 @@
         "7ff82dc7-abaf-42c2-a8c8-d415a91325d5": {
           "type": "giveaways",
           "settings": {
-            "title": "Foot Support",
-            "price": "300",
+            "title": "Support de bouteille d'eau pour vélo",
+            "price": "1500",
             "tag": "GRATUIT",
-            "Image": "shopify:\/\/shop_images\/Stander.jpg"
+            "Image": "shopify:\/\/shop_images\/images_9b33eeeb-3192-466c-bbd4-94ed004ce25d.png"
           }
         },
         "3e5ff436-8638-45b7-a3ce-b36263b34395": {
@@ -376,22 +376,19 @@
         "3491c024-f7d7-4349-9f63-aa201626f2bf": {
           "type": "slide",
           "settings": {
-            "color": "#111111",
-            "image": "shopify:\/\/shop_images\/2.png"
+            "color": "#111111"
           }
         },
         "42b01243-65bf-4d68-93ef-f11af85385a1": {
           "type": "slide",
           "settings": {
-            "color": "#fffbea",
-            "image": "shopify:\/\/shop_images\/3.png"
+            "color": "#fffbea"
           }
         },
         "3f2b5db7-4454-454d-a182-9e69238708a7": {
           "type": "slide",
           "settings": {
-            "color": "#72b1c4",
-            "image": "shopify:\/\/shop_images\/1.png"
+            "color": "#72b1c4"
           }
         }
       },
