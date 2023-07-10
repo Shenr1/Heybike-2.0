@@ -113,7 +113,6 @@
       "blocks": {
         "74434e2d-7316-4cea-a46d-2fe1337dab28": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "product": "ec-1",
             "product_image": "shopify:\/\/shop_images\/cdaa4012fb613cdf2d9036a9987dbd0d.png",
@@ -124,7 +123,7 @@
           "type": "slide",
           "settings": {
             "product": "ec-1-st",
-            "product_image": "shopify:\/\/shop_images\/EC-1-ST_46b11121-6fc4-402d-b03c-e2f15da2ccc5.png",
+            "product_image": "shopify:\/\/shop_images\/EC_1-ST_wthie_1050.png",
             "info": "Step-Through-Design: Fahren Sie mit Leichtigkeit"
           }
         },
@@ -156,7 +155,7 @@
           "type": "slide",
           "settings": {
             "product": "ec-1-st",
-            "product_image": "shopify:\/\/shop_images\/EC-1-ST_156e7d28-913a-4c59-b0c0-127e7cba1e75.png",
+            "product_image": "shopify:\/\/shop_images\/EC_1-ST_blue_1050.png",
             "info": "Step-Through-Design: Fahren Sie mit Leichtigkeit"
           }
         }
