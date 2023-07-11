@@ -6,7 +6,8 @@
         "1561726660568-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_1_a_2000x_4627af81-2675-4a7d-a7a8-acfe69a6b4ff.jpg",
+            "image": "shopify:\/\/shop_images\/EC_1_Banner_1_a.jpg",
+            "imagem": "shopify:\/\/shop_images\/EC_1_Banner_Vertical_version.jpg",
             "ialign": "center_center",
             "hd1": "EC 1",
             "pcl": "#ffffff",
@@ -33,7 +34,8 @@
         "208504ac-576d-4468-85f2-307d5444445e": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_2_2000x_f86f1993-0263-44fc-94cc-4df1e261cd40.jpg",
+            "image": "shopify:\/\/shop_images\/EC_1-ST_Banner.jpg",
+            "imagem": "shopify:\/\/shop_images\/EC_1_Banner_1_Vertical_version.jpg",
             "ialign": "center_center",
             "hd1": "EC 1-ST",
             "pcl": "#ffffff",
