@@ -370,7 +370,51 @@
             "text_center": false,
             "tcl": "#000",
             "cl": "#000",
-            "bg": "#f5f5f5",
+            "bg": "rgba(0,0,0,0)",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
+        },
+        "5a6bf236-cdf6-449f-83bb-7749de36a894": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Heybike_EC_1-2.webp",
+            "image_mb": "shopify:\/\/shop_images\/Heybike_EC_1-2.webp",
+            "layout": "right",
+            "title": "Tragbar und wendig",
+            "text": "<p>Leichter Körper, einfache Konstruktion, clevere Gewichtsverteilung; einhändiges Anheben möglich.<\/p>",
+            "logo_url": "",
+            "logo_url2": "",
+            "button_label": "",
+            "button_link": "",
+            "text_align": "text-left",
+            "text_center": false,
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "rgba(0,0,0,0)",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
+        },
+        "11a87b33-4c30-4ed2-858d-ebdcdd92e731": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Heybike_EC_1.webp",
+            "image_mb": "shopify:\/\/shop_images\/Heybike_EC_1.webp",
+            "layout": "left",
+            "title": "Einfach zu reiten",
+            "text": "<p>Der EC 1 bewegt sich mühelos wie eine Antilope durch die verstopften Straßen der Stadt und kann Bereiche erreichen, die für Autos unzugänglich sind.<\/p>",
+            "logo_url": "",
+            "logo_url2": "",
+            "button_label": "",
+            "button_link": "",
+            "text_align": "text-left",
+            "text_center": false,
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "rgba(0,0,0,0)",
             "btncl": "#fff",
             "btnbg": "#000",
             "btnbd": "#000"
@@ -378,7 +422,9 @@
         }
       },
       "block_order": [
-        "template--19054793261379__cc709276-2bca-4dbf-a083-56fed2b2098a-16891278623bbe7207-0"
+        "template--19054793261379__cc709276-2bca-4dbf-a083-56fed2b2098a-16891278623bbe7207-0",
+        "5a6bf236-cdf6-449f-83bb-7749de36a894",
+        "11a87b33-4c30-4ed2-858d-ebdcdd92e731"
       ],
       "settings": {
         "top_padding": "none",
