@@ -345,6 +345,61 @@
         "bottom_line": false
       }
     },
+    "67a8c06e-c717-4bd5-902e-29478d84cf91": {
+      "type": "banner-with-text",
+      "blocks": {
+        "template--19054792573251__67a8c06e-c717-4bd5-902e-29478d84cf91-1689152776e1c68fc1-0": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC133500000000000.png",
+            "layout": "left",
+            "title": "Fahren Sie mit Leichtigkeit",
+            "text": "<p>Dank seiner stromlinienförmigen Form kann sich der EC 1-ST wie eine Gazelle durch die verstopften Straßen der Stadt bewegen und an Orte gelangen, die für Autos unzugänglich sind.<\/p>",
+            "logo_url": "",
+            "logo_url2": "",
+            "button_label": "",
+            "button_link": "",
+            "text_align": "text-left",
+            "text_center": false,
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "rgba(0,0,0,0)",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "template--19054792573251__67a8c06e-c717-4bd5-902e-29478d84cf91-1689152776e1c68fc1-0"
+      ],
+      "settings": {
+        "top_padding": "none",
+        "bottom_padding": "large",
+        "top-offeset": "default",
+        "section_style": "default",
+        "section_width": true,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "snow_effect": false,
+        "snow_style": "style1",
+        "tfs": 30,
+        "tfsm": 100,
+        "tff": "ft1",
+        "tfw": "700",
+        "tlh": 1.2,
+        "tmb": 15,
+        "tmbm": 10,
+        "fs": 14,
+        "fsm": 85,
+        "fw": "400",
+        "lh": 1.6,
+        "mb": 15,
+        "mbm": 10,
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm"
+      }
+    },
     "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4": {
       "type": "video",
       "disabled": true,
@@ -981,6 +1036,7 @@
     "recently-viewed",
     "a9f9773e-7468-4d64-9888-c3253cb66bee",
     "9359a303-aa3a-4726-b58e-f9e8bc1ffa0c",
+    "67a8c06e-c717-4bd5-902e-29478d84cf91",
     "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4",
     "b5bc4525-2802-4e9d-acbe-44c6ddd2167c",
     "c9dbe5e5-19b2-4769-9fd9-a600c03bdb17",
