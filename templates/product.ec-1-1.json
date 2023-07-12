@@ -341,6 +341,108 @@
         "bottom_line": false
       }
     },
+    "04a780d1-1cb7-4996-9fb2-2569ccbd0bda": {
+      "type": "banner-with-text",
+      "blocks": {
+        "template--19281882448166__04a780d1-1cb7-4996-9fb2-2569ccbd0bda-16891284399ec3de73-0": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Heybike_EC_1.webp",
+            "image_mb": "shopify:\/\/shop_images\/Heybike_EC_1.webp",
+            "layout": "left",
+            "title": "Simple à conduire",
+            "text": "<p>EC 1 se déplace sans effort dans les rues encombrées de la ville comme une antilope et peut accéder à des zones inaccessibles aux voitures.<\/p>",
+            "logo_url": "",
+            "logo_url2": "",
+            "button_label": "",
+            "button_link": "",
+            "text_align": "text-left",
+            "text_center": false,
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "rgba(0,0,0,0)",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
+        },
+        "3419b641-4a7d-4e5b-926c-5cba713e5c01": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Heybike_EC_1-2.webp",
+            "image_mb": "shopify:\/\/shop_images\/Heybike_EC_1-2.webp",
+            "layout": "right",
+            "title": "Portable et agile",
+            "text": "<p>Corps léger, construction simple, répartition intelligente du poids ; possibilité de levage d'une seule main.<\/p>",
+            "logo_url": "",
+            "logo_url2": "",
+            "button_label": "",
+            "button_link": "",
+            "text_align": "text-left",
+            "text_center": false,
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "rgba(0,0,0,0)",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
+        },
+        "55926dd2-98be-4c80-bed0-1a55233fbbe8": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Heybike_EC_1-3.webp",
+            "image_mb": "shopify:\/\/shop_images\/Heybike_EC_1-3.webp",
+            "layout": "left",
+            "title": "Forte puissance",
+            "text": "<p>Moteur et capteur de vitesse modifiés par Heybike. D'une simple pression sur la pédale, l'EC 1 peut se rendre n'importe où.<\/p>",
+            "logo_url": "",
+            "logo_url2": "",
+            "button_label": "",
+            "button_link": "",
+            "text_align": "text-left",
+            "text_center": false,
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "rgba(0,0,0,0)",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "template--19281882448166__04a780d1-1cb7-4996-9fb2-2569ccbd0bda-16891284399ec3de73-0",
+        "3419b641-4a7d-4e5b-926c-5cba713e5c01",
+        "55926dd2-98be-4c80-bed0-1a55233fbbe8"
+      ],
+      "settings": {
+        "top_padding": "none",
+        "bottom_padding": "large",
+        "top-offeset": "default",
+        "section_style": "default",
+        "section_width": true,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "snow_effect": false,
+        "snow_style": "style1",
+        "tfs": 30,
+        "tfsm": 100,
+        "tff": "ft1",
+        "tfw": "700",
+        "tlh": 1.2,
+        "tmb": 15,
+        "tmbm": 10,
+        "fs": 14,
+        "fsm": 85,
+        "fw": "400",
+        "lh": 1.6,
+        "mb": 15,
+        "mbm": 10,
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm"
+      }
+    },
     "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4": {
       "type": "video",
       "disabled": true,
@@ -984,6 +1086,7 @@
     "recently-viewed",
     "a9f9773e-7468-4d64-9888-c3253cb66bee",
     "9359a303-aa3a-4726-b58e-f9e8bc1ffa0c",
+    "04a780d1-1cb7-4996-9fb2-2569ccbd0bda",
     "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4",
     "b5bc4525-2802-4e9d-acbe-44c6ddd2167c",
     "c9dbe5e5-19b2-4769-9fd9-a600c03bdb17",
