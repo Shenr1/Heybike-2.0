@@ -368,10 +368,54 @@
             "btnbg": "#000",
             "btnbd": "#000"
           }
+        },
+        "c5cd18bb-f3f7-4a96-a7e1-7a57e10f289b": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC1782100427777777.png",
+            "layout": "right",
+            "title": "Starke Leistung",
+            "text": "<p>Heybike modifizierter Motor und Geschwindigkeitssensor. Mit einem einzigen Pedaltritt kann das EC 1-ST überall hinfahren.<\/p>",
+            "logo_url": "",
+            "logo_url2": "",
+            "button_label": "",
+            "button_link": "",
+            "text_align": "text-left",
+            "text_center": false,
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "rgba(0,0,0,0)",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
+        },
+        "327b0881-ddef-4a02-8d6c-bdaf5a16f879": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC13350011111.png",
+            "layout": "left",
+            "title": "Fahren Sie mit Stil",
+            "text": "<p>Elegantes integriertes Karosseriedesign und stilvolle Farbabstimmung.<\/p>",
+            "logo_url": "",
+            "logo_url2": "",
+            "button_label": "",
+            "button_link": "",
+            "text_align": "text-left",
+            "text_center": false,
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "rgba(0,0,0,0)",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
         }
       },
       "block_order": [
-        "template--19054792573251__67a8c06e-c717-4bd5-902e-29478d84cf91-1689152776e1c68fc1-0"
+        "template--19054792573251__67a8c06e-c717-4bd5-902e-29478d84cf91-1689152776e1c68fc1-0",
+        "c5cd18bb-f3f7-4a96-a7e1-7a57e10f289b",
+        "327b0881-ddef-4a02-8d6c-bdaf5a16f879"
       ],
       "settings": {
         "top_padding": "none",
