@@ -278,6 +278,27 @@
             "btnbg": "#000",
             "btnbd": "#000"
           }
+        },
+        "0fb085c2-0dee-41d9-a361-fb62a053ebb8": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6fb53c51539b47559cf0d122a832cf63_3812ca77-306d-4f88-a4d1-ec83218861bb.png",
+            "layout": "right",
+            "title": "Neuer E-Bike Hersteller: Mit Automatik und Kampfpreis",
+            "text": "<p>Auf der Eurobike hat sich ein neuer Player für den deutschen E-Bike-Markt angekündigt. Nach dem US-Markt will man nun mit einem High-End-E-Bike zum Kampfpreis nach Deutschland kommen und hier die Konkurrenz unter Druck...<\/p>",
+            "logo_url": "",
+            "logo_url2": "",
+            "button_label": "En savoir plus",
+            "button_link": "https:\/\/www.inside-digital.de\/news\/neuer-e-bike-hersteller-mit-automatik-und-kampfpreis",
+            "text_align": "text-left",
+            "text_center": false,
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "rgba(0,0,0,0)",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
         }
       },
       "block_order": [
@@ -286,7 +307,8 @@
         "0309149c-f84f-4dcf-8640-ace0be26126f",
         "3f63718c-56f1-4de0-be34-efd196a6e317",
         "d9e37181-51bd-4dd5-919a-4ec2f3cbbb3a",
-        "fc9f5cc3-ccab-4611-a1b0-b19ab393c7da"
+        "fc9f5cc3-ccab-4611-a1b0-b19ab393c7da",
+        "0fb085c2-0dee-41d9-a361-fb62a053ebb8"
       ],
       "settings": {
         "top_padding": "none",
