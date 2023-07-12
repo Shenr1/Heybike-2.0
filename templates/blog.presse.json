@@ -173,10 +173,32 @@
             "btnbg": "#000",
             "btnbd": "#000"
           }
+        },
+        "7d4ddede-7834-4e3b-9e0a-d0a8219b60d6": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/31ebc4370166f179d3bfdc3e4fceb5b0.jpg",
+            "layout": "right",
+            "title": "Heybike UK Launch With Exciting New EC1 E-Bike Models",
+            "text": "<p>Heybike UK is launching an exciting new e-bike range. The well-established US electric bike brand is bringing innovation and style to the UK’s booming e-bike market.<\/p>",
+            "logo_url": "",
+            "logo_url2": "",
+            "button_label": "En savoir plus",
+            "button_link": "https:\/\/www.ebikechoices.com\/heybike-uk-electric-bikes\/",
+            "text_align": "text-left",
+            "text_center": false,
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "rgba(0,0,0,0)",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
         }
       },
       "block_order": [
-        "template--19841526530342__ac23cb1e-a8ec-41b2-a6c4-5e2ec6f55eb4-1689147900a0d1a40f-0"
+        "template--19841526530342__ac23cb1e-a8ec-41b2-a6c4-5e2ec6f55eb4-1689147900a0d1a40f-0",
+        "7d4ddede-7834-4e3b-9e0a-d0a8219b60d6"
       ],
       "settings": {
         "top_padding": "none",
