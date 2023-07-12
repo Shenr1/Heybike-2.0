@@ -334,7 +334,7 @@
         "bg_color": "#f5f5f5",
         "layout": "textImage",
         "img_size": "big",
-        "img": "shopify:\/\/shop_images\/765x670_08da6c33-3e35-4483-bcb9-4e639eea1a42.png",
+        "img": "shopify:\/\/shop_images\/EC-1_765x670_8eb7dba7-4cca-4d79-ae18-bb5fc0ccfe8b.png",
         "text_main": "Recadrer l'avenir",
         "text_sub": "La forme aérodynamique d'EC 1 lui permet de se déplacer comme une gazelle dans les rues encombrées de la ville et de se rendre dans des endroits inaccessibles aux voitures.",
         "text_dec": "La combinaison du confort, de la fiabilité et de la technologie intelligente vous permet de passer plus de temps à profiter de votre voyage, où que vous souhaitiez l'explorer.",
@@ -358,12 +358,12 @@
             "button_link": "",
             "text_align": "text-left",
             "text_center": false,
-            "tcl": "#000",
-            "cl": "#000",
+            "tcl": "#000000",
+            "cl": "#000000",
             "bg": "rgba(0,0,0,0)",
-            "btncl": "#fff",
-            "btnbg": "#000",
-            "btnbd": "#000"
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
           }
         },
         "3419b641-4a7d-4e5b-926c-5cba713e5c01": {
@@ -380,12 +380,12 @@
             "button_link": "",
             "text_align": "text-left",
             "text_center": false,
-            "tcl": "#000",
-            "cl": "#000",
+            "tcl": "#000000",
+            "cl": "#000000",
             "bg": "rgba(0,0,0,0)",
-            "btncl": "#fff",
-            "btnbg": "#000",
-            "btnbd": "#000"
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
           }
         },
         "55926dd2-98be-4c80-bed0-1a55233fbbe8": {
@@ -402,12 +402,12 @@
             "button_link": "",
             "text_align": "text-left",
             "text_center": false,
-            "tcl": "#000",
-            "cl": "#000",
+            "tcl": "#000000",
+            "cl": "#000000",
             "bg": "rgba(0,0,0,0)",
-            "btncl": "#fff",
-            "btnbg": "#000",
-            "btnbd": "#000"
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
           }
         }
       },
