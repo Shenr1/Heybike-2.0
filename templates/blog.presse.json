@@ -227,11 +227,33 @@
             "btnbg": "#000000",
             "btnbd": "#000000"
           }
+        },
+        "bf9a2eed-a3d9-4420-a75a-832c902c7b1c": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CE_logo_black.png",
+            "layout": "right",
+            "title": "Heybike to push into the EU with affordable electric bikes",
+            "text": "<p>Having made an over 80,000 electric bike sale inroad into the marketplace, with particular progress made in the United States, Heybike will now become more...<\/p>",
+            "logo_url": "",
+            "logo_url2": "",
+            "button_label": "Mehr lesen",
+            "button_link": "https:\/\/www.cyclingelectric.com\/news\/heybike-electric-bikes",
+            "text_align": "text-left",
+            "text_center": false,
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "rgba(0,0,0,0)",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
         }
       },
       "block_order": [
         "3a75cc3e-f852-4a33-ab1a-d56f398e63b3",
-        "template--19072511902019__5329daf9-2a5c-4391-8763-b6532cc3630c-1688008629fb994d28-0"
+        "template--19072511902019__5329daf9-2a5c-4391-8763-b6532cc3630c-1688008629fb994d28-0",
+        "bf9a2eed-a3d9-4420-a75a-832c902c7b1c"
       ],
       "settings": {
         "top_padding": "none",
