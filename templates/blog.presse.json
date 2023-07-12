@@ -311,6 +311,27 @@
             "btnbg": "#000",
             "btnbd": "#000"
           }
+        },
+        "212b26af-689e-475b-9686-220209a4820c": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5.png",
+            "layout": "right",
+            "title": "Meet Heybike at EUROBIKE 2023 Germany",
+            "text": "<p>Heybike debuts 3 new eBikes at Eurobike 2023, marking its expansion into Europe...<\/p>",
+            "logo_url": "",
+            "logo_url2": "",
+            "button_label": "Mehr lesen",
+            "button_link": "https:\/\/www.einnews.com\/pr_news\/640525870\/meet-heybike-at-eurobike-2023-germany",
+            "text_align": "text-left",
+            "text_center": false,
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "rgba(0,0,0,0)",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
         }
       },
       "block_order": [
@@ -319,7 +340,8 @@
         "bf9a2eed-a3d9-4420-a75a-832c902c7b1c",
         "0b6c7e05-13a6-458c-8efa-55456e683a0f",
         "e6b1b917-c813-43ac-a775-342c858b0c1b",
-        "08d0abed-d4a3-4cce-8499-326a41240cdc"
+        "08d0abed-d4a3-4cce-8499-326a41240cdc",
+        "212b26af-689e-475b-9686-220209a4820c"
       ],
       "settings": {
         "top_padding": "none",
