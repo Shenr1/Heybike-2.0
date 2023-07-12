@@ -257,6 +257,27 @@
             "btnbg": "#000",
             "btnbd": "#000"
           }
+        },
+        "fc9f5cc3-ccab-4611-a1b0-b19ab393c7da": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.png",
+            "layout": "right",
+            "title": "HEYBIKE® PRÄSENTIERT SICH ERSTMALS AUF DER EUROBIKE 2023",
+            "text": "<p>Heybike ist zum ersten Mal auf der Eurobike vertreten und wird sein Sortiment an E-Bike-Modellen und Zubehör vorstellen, bevor es im Juni seine europäische Website präsentiert...<\/p>",
+            "logo_url": "",
+            "logo_url2": "",
+            "button_label": "En savoir plus",
+            "button_link": "https:\/\/www.velototal.de\/2023\/06\/05\/heybike-pr%C3%A4sentiert-sich-erstmals-auf-der-eurobike-2023\/",
+            "text_align": "text-left",
+            "text_center": false,
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "rgba(0,0,0,0)",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
         }
       },
       "block_order": [
@@ -264,7 +285,8 @@
         "7d4ddede-7834-4e3b-9e0a-d0a8219b60d6",
         "0309149c-f84f-4dcf-8640-ace0be26126f",
         "3f63718c-56f1-4de0-be34-efd196a6e317",
-        "d9e37181-51bd-4dd5-919a-4ec2f3cbbb3a"
+        "d9e37181-51bd-4dd5-919a-4ec2f3cbbb3a",
+        "fc9f5cc3-ccab-4611-a1b0-b19ab393c7da"
       ],
       "settings": {
         "top_padding": "none",
