@@ -194,11 +194,33 @@
             "btnbg": "#000",
             "btnbd": "#000"
           }
+        },
+        "0309149c-f84f-4dcf-8640-ace0be26126f": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4.png",
+            "layout": "right",
+            "title": "Meet Heybike at EUROBIKE 2023 Germany",
+            "text": "<p>Heybike’s success abroad has paved the way for its expansion into Europe, a thriving community of two-wheel enthusiasts. With its space-saving e-Bike designs...<\/p>",
+            "logo_url": "",
+            "logo_url2": "",
+            "button_label": "En savoir plus",
+            "button_link": "https:\/\/apnews.com\/press-release\/ein-presswire-newsmatics\/europe-european-union-932b61a6ebbbd7edad88aa75a78b31cc",
+            "text_align": "text-left",
+            "text_center": false,
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "rgba(0,0,0,0)",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
         }
       },
       "block_order": [
         "template--19841526530342__ac23cb1e-a8ec-41b2-a6c4-5e2ec6f55eb4-1689147900a0d1a40f-0",
-        "7d4ddede-7834-4e3b-9e0a-d0a8219b60d6"
+        "7d4ddede-7834-4e3b-9e0a-d0a8219b60d6",
+        "0309149c-f84f-4dcf-8640-ace0be26126f"
       ],
       "settings": {
         "top_padding": "none",
