@@ -215,12 +215,34 @@
             "btnbg": "#000",
             "btnbd": "#000"
           }
+        },
+        "3f63718c-56f1-4de0-be34-efd196a6e317": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo-new-cyclist.png",
+            "layout": "right",
+            "title": "Heybike is providing an accessible catalogue of tarmac ready bikes with some premium features",
+            "text": "<p>Of Heybike’s own creation, the one-piece magnesium frame deployed is quite a catch at this price point, both from a design perspective and down to some of...<\/p>",
+            "logo_url": "",
+            "logo_url2": "",
+            "button_label": "En savoir plus",
+            "button_link": "https:\/\/www.cyclist.co.uk\/sponsored\/heybike-ebikes",
+            "text_align": "text-left",
+            "text_center": false,
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "rgba(0,0,0,0)",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
         }
       },
       "block_order": [
         "template--19841526530342__ac23cb1e-a8ec-41b2-a6c4-5e2ec6f55eb4-1689147900a0d1a40f-0",
         "7d4ddede-7834-4e3b-9e0a-d0a8219b60d6",
-        "0309149c-f84f-4dcf-8640-ace0be26126f"
+        "0309149c-f84f-4dcf-8640-ace0be26126f",
+        "3f63718c-56f1-4de0-be34-efd196a6e317"
       ],
       "settings": {
         "top_padding": "none",
