@@ -4,6 +4,7 @@
     "box_width": "1310",
     "section_heading_1_size": 22,
     "top-information-bar": false,
+    "show_sticky_arrow": false,
     "enable_wishlist": false,
     "wishlist_page": "wishlist",
     "enable_site_animation": false,
