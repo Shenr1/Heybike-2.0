@@ -57,7 +57,7 @@
         "62ee1d17-6761-4ae0-a146-e7283b04759f": {
           "type": "shiptime",
           "settings": {
-            "estimate": "60\/75",
+            "estimate": "35\/50",
             "msg": "<i class=\"at at-clock-r\"><\/i> Estimated delivery between [startdate] - [enddate].",
             "bm": 15
           }
@@ -76,7 +76,7 @@
         "dba108ba-fba9-466d-afd3-21f64c8a1db7": {
           "type": "giveaways",
           "settings": {
-            "title": "Urban Ebike Helmet",
+            "title": "Urban Ebike Helm",
             "price": "5900",
             "tag": "KOSTENLOS",
             "Image": "shopify:\/\/shop_images\/4_cb4ad25c-9e11-4ffd-9e0f-b6c358d3a162.jpg"
@@ -85,10 +85,10 @@
         "ca52189d-109d-45f5-91c5-d195b2c24af3": {
           "type": "giveaways",
           "settings": {
-            "title": "Bike Rack Pannier Bag",
+            "title": "Hinteres Gestell",
             "price": "6900",
             "tag": "KOSTENLOS",
-            "Image": "shopify:\/\/shop_images\/1_75c686b6-8b74-48bb-8af2-7822c7033bbb.jpg"
+            "Image": "shopify:\/\/shop_images\/heybike_ec_1_rear_rack.png"
           }
         },
         "26f70621-465c-4e87-adb3-6f55ff3e4bf7": {
@@ -97,7 +97,7 @@
             "title": "Fahrrad-Wasserflaschen-Halter",
             "price": "1500",
             "tag": "KOSTENLOS",
-            "Image": "shopify:\/\/shop_images\/images.png"
+            "Image": "shopify:\/\/shop_images\/heybike_ec_1_Bike_Water_Bottle_Holder.png"
           }
         },
         "3e5ff436-8638-45b7-a3ce-b36263b34395": {
@@ -361,12 +361,12 @@
             "button_link": "",
             "text_align": "text-left",
             "text_center": false,
-            "tcl": "#000",
-            "cl": "#000",
+            "tcl": "#000000",
+            "cl": "#000000",
             "bg": "rgba(0,0,0,0)",
-            "btncl": "#fff",
-            "btnbg": "#000",
-            "btnbd": "#000"
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
           }
         },
         "c5cd18bb-f3f7-4a96-a7e1-7a57e10f289b": {
@@ -382,12 +382,12 @@
             "button_link": "",
             "text_align": "text-left",
             "text_center": false,
-            "tcl": "#000",
-            "cl": "#000",
+            "tcl": "#000000",
+            "cl": "#000000",
             "bg": "rgba(0,0,0,0)",
-            "btncl": "#fff",
-            "btnbg": "#000",
-            "btnbd": "#000"
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
           }
         },
         "327b0881-ddef-4a02-8d6c-bdaf5a16f879": {
@@ -403,12 +403,12 @@
             "button_link": "",
             "text_align": "text-left",
             "text_center": false,
-            "tcl": "#000",
-            "cl": "#000",
+            "tcl": "#000000",
+            "cl": "#000000",
             "bg": "rgba(0,0,0,0)",
-            "btncl": "#fff",
-            "btnbg": "#000",
-            "btnbd": "#000"
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
           }
         }
       },
