@@ -380,7 +380,7 @@
         "template--19281882349862__af6bbaa7-4ec7-4ae8-a166-3ca1247c3dd4-1689307281274415f6-0": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC133500000000000.png",
+            "image": "shopify:\/\/shop_images\/5_4ca69f81-ff80-417e-9f3a-6671a260d68a.jpg",
             "layout": "left",
             "title": "Rouler avec aisance",
             "text": "<p>La forme aérodynamique de l'EC 1-ST lui permet de se déplacer comme une gazelle dans les rues encombrées de la ville et de se rendre dans des endroits inaccessibles aux voitures.<\/p>",
@@ -390,12 +390,12 @@
             "button_link": "",
             "text_align": "text-left",
             "text_center": false,
-            "tcl": "#000",
-            "cl": "#000",
+            "tcl": "#000000",
+            "cl": "#000000",
             "bg": "rgba(0,0,0,0)",
-            "btncl": "#fff",
-            "btnbg": "#000",
-            "btnbd": "#000"
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
           }
         },
         "f82fe116-a1bd-4e78-8c8d-4e10101b426e": {
@@ -411,18 +411,18 @@
             "button_link": "",
             "text_align": "text-left",
             "text_center": false,
-            "tcl": "#000",
-            "cl": "#000",
+            "tcl": "#000000",
+            "cl": "#000000",
             "bg": "rgba(0,0,0,0)",
-            "btncl": "#fff",
-            "btnbg": "#000",
-            "btnbd": "#000"
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
           }
         },
         "861b6738-a3e4-4ab0-89d7-d849cb204f68": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC13350011111.png",
+            "image": "shopify:\/\/shop_images\/14_19d98c32-230a-4e3f-ae96-7d116f4b4047.jpg",
             "layout": "left",
             "title": "Rouler avec style",
             "text": "<p>Conception élégante de la carrosserie intégrée et assortiment de couleurs élégantes<\/p>",
@@ -432,12 +432,12 @@
             "button_link": "",
             "text_align": "text-left",
             "text_center": false,
-            "tcl": "#000",
-            "cl": "#000",
+            "tcl": "#000000",
+            "cl": "#000000",
             "bg": "rgba(0,0,0,0)",
-            "btncl": "#fff",
-            "btnbg": "#000",
-            "btnbd": "#000"
+            "btncl": "#ffffff",
+            "btnbg": "#000000",
+            "btnbd": "#000000"
           }
         }
       },
