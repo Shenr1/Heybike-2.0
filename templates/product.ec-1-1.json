@@ -62,7 +62,7 @@
         "f7c3c390-bede-4d30-bdcc-eaab0f661f2a": {
           "type": "shiptime",
           "settings": {
-            "estimate": "60\/75",
+            "estimate": "35\/45",
             "msg": "<i class=\"at at-clock-r\"><\/i> Estimated delivery between [startdate] - [enddate].",
             "bm": 15
           }
@@ -81,7 +81,7 @@
         "dba108ba-fba9-466d-afd3-21f64c8a1db7": {
           "type": "giveaways",
           "settings": {
-            "title": "Urban Ebike Helmet",
+            "title": "Urban Ebike Helm",
             "price": "5900",
             "tag": "KOSTENLOS",
             "Image": "shopify:\/\/shop_images\/4_cb4ad25c-9e11-4ffd-9e0f-b6c358d3a162.jpg"
@@ -90,10 +90,10 @@
         "ca52189d-109d-45f5-91c5-d195b2c24af3": {
           "type": "giveaways",
           "settings": {
-            "title": "Bike Rack Pannier Bag",
+            "title": "Hinteres Gestell",
             "price": "6900",
             "tag": "KOSTENLOS",
-            "Image": "shopify:\/\/shop_images\/1_75c686b6-8b74-48bb-8af2-7822c7033bbb.jpg"
+            "Image": "shopify:\/\/shop_images\/heybike_ec_1_rear_rack.png"
           }
         },
         "7ff82dc7-abaf-42c2-a8c8-d415a91325d5": {
@@ -102,7 +102,7 @@
             "title": "Fahrrad-Wasserflaschen-Halter",
             "price": "1500",
             "tag": "KOSTENLOS",
-            "Image": "shopify:\/\/shop_images\/images.png"
+            "Image": "shopify:\/\/shop_images\/heybike_ec_1_Bike_Water_Bottle_Holder.png"
           }
         },
         "3e5ff436-8638-45b7-a3ce-b36263b34395": {
