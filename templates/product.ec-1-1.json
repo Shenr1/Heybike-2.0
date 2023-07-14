@@ -59,6 +59,14 @@
             "bm": 20
           }
         },
+        "fe93ad5d-10fd-42fd-a61f-4a3af29421e0": {
+          "type": "shiptime",
+          "settings": {
+            "estimate": "35\/45",
+            "msg": "<i class=\"at at-clock-r\"><\/i> Estimated delivery between [startdate] - [enddate].",
+            "bm": 15
+          }
+        },
         "900c2863-7a02-4344-845e-386c8248bc4d": {
           "type": "text",
           "settings": {
@@ -82,10 +90,10 @@
         "ca52189d-109d-45f5-91c5-d195b2c24af3": {
           "type": "giveaways",
           "settings": {
-            "title": "Sacoche pour porte-bagages de vélo",
+            "title": "Porte-bagages arrière",
             "price": "6900",
             "tag": "GRATUIT",
-            "Image": "shopify:\/\/shop_images\/1_6d231b32-b8b7-4860-9390-e6c588b225ed.jpg"
+            "Image": "shopify:\/\/shop_images\/heybike_ec_1_rear_rack.png"
           }
         },
         "7ff82dc7-abaf-42c2-a8c8-d415a91325d5": {
@@ -94,7 +102,7 @@
             "title": "Support de bouteille d'eau pour vélo",
             "price": "1500",
             "tag": "GRATUIT",
-            "Image": "shopify:\/\/shop_images\/images_9b33eeeb-3192-466c-bbd4-94ed004ce25d.png"
+            "Image": "shopify:\/\/shop_images\/heybike_ec_1_Bike_Water_Bottle_Holder.png"
           }
         },
         "3e5ff436-8638-45b7-a3ce-b36263b34395": {
@@ -123,6 +131,7 @@
         "price",
         "43d9e0cf-f5b3-4270-bd73-3845bf580da3",
         "product-form",
+        "fe93ad5d-10fd-42fd-a61f-4a3af29421e0",
         "900c2863-7a02-4344-845e-386c8248bc4d",
         "dba108ba-fba9-466d-afd3-21f64c8a1db7",
         "ca52189d-109d-45f5-91c5-d195b2c24af3",
