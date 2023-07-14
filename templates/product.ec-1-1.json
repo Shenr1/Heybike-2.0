@@ -63,7 +63,7 @@
           "type": "shiptime",
           "settings": {
             "estimate": "35\/45",
-            "msg": "<i class=\"at at-clock-r\"><\/i> Estimated delivery between [startdate] - [enddate].",
+            "msg": "<i class=\"at at-clock-r\"><\/i> Estimated delivery between [startdate]<b> -<b> [enddate].<\/b><\/b>",
             "bm": 15
           }
         },
