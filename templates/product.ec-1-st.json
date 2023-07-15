@@ -348,13 +348,13 @@
     "67a8c06e-c717-4bd5-902e-29478d84cf91": {
       "type": "banner-with-text",
       "blocks": {
-        "template--19054792573251__67a8c06e-c717-4bd5-902e-29478d84cf91-1689152776e1c68fc1-0": {
+        "bc14b894-60f7-4de0-82c9-923fdfafcca6": {
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/5_11a968b7-1377-432d-b21b-f67e4e45683d.jpg",
             "layout": "left",
-            "title": "Fahren Sie mit Leichtigkeit",
-            "text": "<p>Dank seiner stromlinienförmigen Form kann sich der EC 1-ST wie eine Gazelle durch die verstopften Straßen der Stadt bewegen und an Orte gelangen, die für Autos unzugänglich sind.<\/p>",
+            "title": "Unerreichte Leistung",
+            "text": "<p>Erleben Sie nahtlose Mobilität mit Heybikes hochmodernen integrierten Motoren und Sensoren, die Sie mühelos durch jedes Terrain navigieren.<\/p>",
             "logo_url": "",
             "logo_url2": "",
             "button_label": "",
@@ -374,8 +374,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/25.jpg",
             "layout": "right",
-            "title": "Unerreichte Leistung",
-            "text": "<p>Erleben Sie nahtlose Mobilität mit Heybikes hochmodernen integrierten Motoren und Sensoren, die Sie mühelos durch jedes Terrain navigieren.<\/p>",
+            "title": "Fahren Sie mit Leichtigkeit",
+            "text": "<p>Dank seiner stromlinienförmigen Form kann sich der EC 1-ST wie eine Gazelle durch die verstopften Straßen der Stadt bewegen und an Orte gelangen, die für Autos unzugänglich sind.<\/p>",
             "logo_url": "",
             "logo_url2": "",
             "button_label": "",
@@ -413,7 +413,7 @@
         }
       },
       "block_order": [
-        "template--19054792573251__67a8c06e-c717-4bd5-902e-29478d84cf91-1689152776e1c68fc1-0",
+        "bc14b894-60f7-4de0-82c9-923fdfafcca6",
         "c5cd18bb-f3f7-4a96-a7e1-7a57e10f289b",
         "327b0881-ddef-4a02-8d6c-bdaf5a16f879"
       ],
