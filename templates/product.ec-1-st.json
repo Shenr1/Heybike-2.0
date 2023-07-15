@@ -377,13 +377,13 @@
     "af6bbaa7-4ec7-4ae8-a166-3ca1247c3dd4": {
       "type": "banner-with-text",
       "blocks": {
-        "template--19281882349862__af6bbaa7-4ec7-4ae8-a166-3ca1247c3dd4-1689307281274415f6-0": {
+        "a9fbee51-0cb0-4c53-828e-58661ccc13a6": {
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/5_4ca69f81-ff80-417e-9f3a-6671a260d68a.jpg",
             "layout": "left",
-            "title": "Rouler avec aisance",
-            "text": "<p>La forme aérodynamique de l'EC 1-ST lui permet de se déplacer comme une gazelle dans les rues encombrées de la ville et de se rendre dans des endroits inaccessibles aux voitures.<\/p>",
+            "title": "Forte puissance",
+            "text": "<p>Faites l'expérience d'une mobilité sans faille grâce aux moteurs et capteurs intégrés de pointe de Heybike, conçus pour naviguer sans effort sur n'importe quel terrain.<\/p>",
             "logo_url": "",
             "logo_url2": "",
             "button_label": "",
@@ -403,8 +403,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/25.jpg",
             "layout": "right",
-            "title": "Forte puissance",
-            "text": "<p>Faites l'expérience d'une mobilité sans faille grâce aux moteurs et capteurs intégrés de pointe de Heybike, conçus pour naviguer sans effort sur n'importe quel terrain.<\/p>",
+            "title": "Rouler avec aisance",
+            "text": "<p>La forme aérodynamique de l'EC 1-ST lui permet de se déplacer comme une gazelle dans les rues encombrées de la ville et de se rendre dans des endroits inaccessibles aux voitures.<\/p>",
             "logo_url": "",
             "logo_url2": "",
             "button_label": "",
@@ -442,7 +442,7 @@
         }
       },
       "block_order": [
-        "template--19281882349862__af6bbaa7-4ec7-4ae8-a166-3ca1247c3dd4-1689307281274415f6-0",
+        "a9fbee51-0cb0-4c53-828e-58661ccc13a6",
         "f82fe116-a1bd-4e78-8c8d-4e10101b426e",
         "861b6738-a3e4-4ab0-89d7-d849cb204f68"
       ],
