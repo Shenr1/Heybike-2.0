@@ -2496,6 +2496,11 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   .md\:p-2 {
     padding:0.5rem;
   }
+  
+  .md\:\!px-16 {
+    padding-left:4rem !important;
+    padding-right:4rem !important;
+  }
 
   .md\:\!px-7 {
     padding-left:1.75rem !important;
