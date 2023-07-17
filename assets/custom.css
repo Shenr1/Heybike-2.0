@@ -2881,6 +2881,11 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 }
 
 @media (min-width: 1280px) {
+    
+  .xl\:\!px-28 {
+    padding-left:7rem !important;
+    padding-right:7rem !important;
+  }
   .xl\:absolute {
     position:absolute;
   }
