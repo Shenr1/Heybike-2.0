@@ -180,6 +180,7 @@
     },
     "6466a547-b260-459b-b173-ee05a2e100ae": {
       "type": "logo-slider",
+      "disabled": true,
       "blocks": {
         "6029181d-3f62-44e0-aa3e-438b6cddb31c": {
           "type": "slide",
@@ -364,9 +365,7 @@
             "layout": "right",
             "title": "Smarttech and APP",
             "text": "<p>Deine tollen Fahrten verdienen ein Tagebuch! Verbinde dein Fahrrad mit der HEYBIKE App und erstelle einen beeindruckenden Kilometerstand!<\/p>",
-            "bottom_logo": "shopify:\/\/shop_images\/icon01.png",
             "logo_url": "",
-            "bottom_logo2": "shopify:\/\/shop_images\/google-play.png",
             "logo_url2": "",
             "button_label": "",
             "button_link": "\/",

@@ -401,12 +401,26 @@
               "width": "wd20-md"
             }
           },
+          "b702398d-1a86-4cb2-b48d-8ffa7dd83e95": {
+            "type": "contact",
+            "settings": {
+              "title": "Contact Us",
+              "logo-width": 150,
+              "address": "Flinger Broich 18, 40235 Duesseldorf,Germany",
+              "phone": "+49 01 52 23 88 67 83",
+              "email": "support.de@heybike.com",
+              "show_icons": false,
+              "show_socials": false,
+              "socials_ttl": "Stay Connected",
+              "width": "wd16-md"
+            }
+          },
           "1558678581777": {
             "type": "menu",
             "settings": {
               "title": "PRODUKTE",
               "menulinks": "produkte",
-              "width": "wd20-md"
+              "width": "wd16-md"
             }
           },
           "1561010652330": {
@@ -414,7 +428,7 @@
             "settings": {
               "title": "BEVOR SIE KAUFEN",
               "menulinks": "ber-uns",
-              "width": "wd20-md"
+              "width": "wd16-md"
             }
           },
           "1558678570770": {
@@ -422,7 +436,7 @@
             "settings": {
               "title": "HILFE ERHALTEN",
               "menulinks": "dienst",
-              "width": "wd20-md"
+              "width": "wd16-md"
             }
           },
           "4e102e40-8900-4358-895e-37dd5ac9809b": {
@@ -430,7 +444,7 @@
             "settings": {
               "title": "UNTERNEHMEN",
               "menulinks": "mehr",
-              "width": "wd20-md"
+              "width": "wd16-md"
             }
           },
           "1561010492149": {
@@ -441,7 +455,7 @@
               "sub_title": "Tragen Sie Ihre E-Mail-Adresse ein, um einen Newsletter und einen Gutschein über 50 € für ein E-Bike zu erhalten.",
               "show_socials": false,
               "socials_ttl": "Stay Connected",
-              "width": "wd20-md"
+              "width": "wd16-md"
             }
           },
           "f7510364-7668-446e-8629-906714d86056": {
@@ -463,6 +477,7 @@
         },
         "block_order": [
           "1561010286273",
+          "b702398d-1a86-4cb2-b48d-8ffa7dd83e95",
           "1558678581777",
           "1561010652330",
           "1558678570770",
