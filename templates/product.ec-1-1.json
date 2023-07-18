@@ -945,6 +945,7 @@
     },
     "22f50d3e-5443-46e2-a356-2469bdea240d": {
       "type": "logo-slider",
+      "disabled": true,
       "blocks": {
         "1db61a36-a277-4c68-acad-574b812f8fc6": {
           "type": "slide",
