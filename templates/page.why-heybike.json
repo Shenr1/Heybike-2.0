@@ -72,7 +72,7 @@
             "logo_url": "",
             "logo_url2": "",
             "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/electric-bike",
+            "button_link": "shopify:\/\/collections\/e-bikes",
             "text_align": "text-left",
             "text_center": false,
             "tcl": "#000000",
@@ -160,6 +160,7 @@
     },
     "460fe747-d1cc-4930-8de3-908ccde8e9dd": {
       "type": "richtext",
+      "disabled": true,
       "settings": {
         "top-offeset": "default",
         "fullwidth": true,
@@ -192,6 +193,7 @@
     },
     "b31369b1-87cb-4a8d-84cf-80627f1d5bc1": {
       "type": "logo-slider",
+      "disabled": true,
       "blocks": {
         "f125e9ec-4d04-4b7d-8d1d-3cbdc9e531ea": {
           "type": "slide",
@@ -251,6 +253,7 @@
     },
     "5367f2d0-a2ea-4cfb-9058-09a5bf39e6dc": {
       "type": "multiple-image-text",
+      "disabled": true,
       "blocks": {
         "6b1f75bc-5e6f-4831-9631-21f6791c1f58": {
           "type": "video",
@@ -332,6 +335,7 @@
     },
     "d84ec3b7-47d3-45f8-a150-478d33a6d76e": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "title": "Kundengeschichten",
         "subtitle": "",
@@ -420,7 +424,7 @@
         "icon-type": "icon",
         "icons_clr": "#ffffff",
         "isz": 30,
-        "tcl": "#fff",
+        "tcl": "#ffffff",
         "tfs": 16,
         "tfsm": 85,
         "tfw": "500",
