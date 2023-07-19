@@ -403,7 +403,7 @@
             "settings": {
               "title": "PRODUITS",
               "menulinks": "produits",
-              "width": "wd20-md"
+              "width": "wd16-md"
             }
           },
           "1561010652330": {
@@ -411,7 +411,7 @@
             "settings": {
               "title": "AVANT D'ACHETER",
               "menulinks": "avant-dacheter",
-              "width": "wd20-md"
+              "width": "wd16-md"
             }
           },
           "1558678570770": {
@@ -419,7 +419,7 @@
             "settings": {
               "title": "OBTENIR DE L'AIDE",
               "menulinks": "obtenir-de-laide",
-              "width": "wd20-md"
+              "width": "wd16-md"
             }
           },
           "4e102e40-8900-4358-895e-37dd5ac9809b": {
@@ -427,7 +427,7 @@
             "settings": {
               "title": "SOCIÉTÉ",
               "menulinks": "societe",
-              "width": "wd20-md"
+              "width": "wd16-md"
             }
           },
           "1561010492149": {
@@ -438,7 +438,7 @@
               "sub_title": "Entrez votre email pour recevoir une lettre d'information et un bon de réduction de 50€ sur les vélos électriques.",
               "show_socials": false,
               "socials_ttl": "Stay Connected",
-              "width": "wd20-md"
+              "width": "wd16-md"
             }
           },
           "f7510364-7668-446e-8629-906714d86056": {
@@ -468,7 +468,7 @@
               "show_icons": false,
               "show_socials": false,
               "socials_ttl": "Stay Connected",
-              "width": "wd25-md"
+              "width": "wd16-md"
             }
           }
         },
