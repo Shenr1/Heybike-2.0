@@ -118,7 +118,7 @@
           "settings": {
             "product": "ec-1",
             "product_image": "shopify:\/\/shop_images\/EC-1_27746b5d-1eb5-4a59-9e79-2d41c4b0767e.png",
-            "info": "Erfüllen Sie Ihre Bedürfnisse für das Pendeln"
+            "info": "Pendeln Sie Smart, pendeln Sie Grün."
           }
         },
         "f8ffd36a-8915-47a9-930d-e2ad87fcd760": {
@@ -297,7 +297,7 @@
         "top_padding": "none",
         "bottom_padding": "large",
         "bg_color": "#f3f5f9",
-        "title": "Grüner werden mit Heybike",
+        "title": "Werden Grüner mit Heybike",
         "image": "shopify:\/\/shop_images\/7d1092826674963ad143e87bf6fb8dcd.jpg"
       }
     },
@@ -364,7 +364,7 @@
             "image": "shopify:\/\/shop_images\/app720x700.png",
             "layout": "right",
             "title": "Smarttech and APP",
-            "text": "<p>Deine tollen Fahrten verdienen ein Tagebuch! Verbinde dein Fahrrad mit der HEYBIKE App und erstelle einen beeindruckenden Kilometerstand!<\/p>",
+            "text": "<p>Ihre großartigen Fahrten verdienen ein Tagebuch! Verbinden Sie Ihr Fahrrad mit der HEYBIKE-App und erstellen Sie einen beeindruckenden Kilometerstand!<\/p>",
             "logo_url": "",
             "logo_url2": "",
             "button_label": "",
