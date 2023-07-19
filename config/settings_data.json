@@ -456,6 +456,20 @@
             "settings": {
               "title": "Suivez-nous"
             }
+          },
+          "be7e2524-2e16-41b8-acdf-4ecd2b087193": {
+            "type": "contact",
+            "settings": {
+              "title": "CONTACTEZ-NOUS",
+              "logo-width": 150,
+              "address": "Flinger Broich 18, 40235 Duesseldorf, Germany",
+              "phone": "+44 75 97 78 85 13",
+              "email": "sales.fr@heybike.com",
+              "show_icons": false,
+              "show_socials": false,
+              "socials_ttl": "Stay Connected",
+              "width": "wd25-md"
+            }
           }
         },
         "block_order": [
@@ -466,7 +480,8 @@
           "4e102e40-8900-4358-895e-37dd5ac9809b",
           "1561010492149",
           "f7510364-7668-446e-8629-906714d86056",
-          "0fbd70ba-a5ec-4f78-b500-98fa94c457c2"
+          "0fbd70ba-a5ec-4f78-b500-98fa94c457c2",
+          "be7e2524-2e16-41b8-acdf-4ecd2b087193"
         ],
         "settings": {
           "section_width": false,
