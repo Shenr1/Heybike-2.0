@@ -302,7 +302,7 @@
           "fdae2dd8-4778-4ee1-b020-8db5b864a945": {
             "type": "dropdown",
             "settings": {
-              "title": "Ausrüstung",
+              "title": "Zubehör",
               "url": "",
               "mm_linklist": "ausr-stung"
             }
@@ -348,7 +348,7 @@
           "1559992848977": {
             "type": "dropdown",
             "settings": {
-              "title": "Hilfe-Center",
+              "title": "Hilfezentrum",
               "url": "#",
               "mm_linklist": "hilfe-center"
             }
