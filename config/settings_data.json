@@ -418,7 +418,7 @@
           "1558678581777": {
             "type": "menu",
             "settings": {
-              "title": "PRODUKTE",
+              "title": "Entdecken",
               "menulinks": "produkte",
               "width": "wd16-md"
             }
@@ -426,7 +426,7 @@
           "1561010652330": {
             "type": "menu",
             "settings": {
-              "title": "BEVOR SIE KAUFEN",
+              "title": "Über uns",
               "menulinks": "ber-uns",
               "width": "wd16-md"
             }
@@ -434,7 +434,7 @@
           "1558678570770": {
             "type": "menu",
             "settings": {
-              "title": "HILFE ERHALTEN",
+              "title": "Hilfe",
               "menulinks": "dienst",
               "width": "wd16-md"
             }
@@ -442,7 +442,7 @@
           "4e102e40-8900-4358-895e-37dd5ac9809b": {
             "type": "menu",
             "settings": {
-              "title": "UNTERNEHMEN",
+              "title": "Gemeinschaft",
               "menulinks": "mehr",
               "width": "wd16-md"
             }
@@ -451,7 +451,7 @@
             "type": "newsletter",
             "settings": {
               "newltr_align": false,
-              "title": "NEWSLETTER",
+              "title": "Newsletter",
               "sub_title": "Geben Sie Ihre E-Mail-Adresse ein, um einen Newsletter und mehr zu erhalten.",
               "show_socials": false,
               "socials_ttl": "Stay Connected",

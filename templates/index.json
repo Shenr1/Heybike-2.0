@@ -256,7 +256,7 @@
           "settings": {
             "text_main": "2,824,160",
             "text_suf": "km",
-            "text_sub": "Gesamtentfernung Fahrten"
+            "text_sub": "umweltfreundlich zurückgelegt"
           }
         },
         "2cec7d8f-443d-475d-82d9-58b68117bc6d": {
@@ -264,23 +264,23 @@
           "settings": {
             "text_main": "80000",
             "text_suf": "+",
-            "text_sub": "Aktive Reiter"
+            "text_sub": "Fahrer für eine grünere Welt"
           }
         },
         "3b0e13f5-a095-46d4-afa9-e33dfc671812": {
           "type": "slide",
           "settings": {
             "text_main": "4,531,101",
-            "text_suf": "kg",
-            "text_sub": "Eingesparte CO₂-Emissionen insgesamt"
+            "text_suf": "Gramm",
+            "text_sub": "CO₂-Emissionen reduziert"
           }
         },
         "752b2092-7e2b-4a37-b195-38804c6a344e": {
           "type": "slide",
           "settings": {
             "text_main": "987,865",
-            "text_suf": "pcs",
-            "text_sub": "Gepflanzte Bäume (Äquivalent)"
+            "text_suf": "",
+            "text_sub": "Bäume für unsere Zukunft (Äquivalent)"
           }
         }
       },
@@ -297,7 +297,7 @@
         "top_padding": "none",
         "bottom_padding": "large",
         "bg_color": "#f3f5f9",
-        "title": "Grüner Werden mit Heybike",
+        "title": "Mit Heybike zur grünen Zukunft",
         "image": "shopify:\/\/shop_images\/7d1092826674963ad143e87bf6fb8dcd.jpg"
       }
     },
@@ -363,7 +363,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/app720x700.png",
             "layout": "right",
-            "title": "Smarttech and APP",
+            "title": "Smarttech und APP",
             "text": "<p>Ihre großartigen Fahrten verdienen ein Tagebuch! Verbinden Sie Ihr Fahrrad mit der HEYBIKE-App und erstellen Sie einen beeindruckenden Kilometerstand!<\/p>",
             "logo_url": "",
             "logo_url2": "",
@@ -417,8 +417,8 @@
           "type": "text_block",
           "settings": {
             "icons": "at-ship-fast",
-            "title": "Schneller Versand",
-            "text": "<p>Schneller und zuverlässiger Versand <\/p>",
+            "title": "Schnelle Lieferung",
+            "text": "<p>Schnelle und zuverlässige Lieferung <\/p>",
             "texturl": ""
           }
         },
@@ -426,8 +426,8 @@
           "type": "text_block",
           "settings": {
             "icons": "at-users-l",
-            "title": "Schnelle Unterstützung",
-            "text": "<p>E-Mail- und Telefon-Service<\/p>",
+            "title": "Starke Unterstützung",
+            "text": "<p>E-Mail und Telefon-Service<\/p>",
             "texturl": ""
           }
         },
@@ -435,8 +435,8 @@
           "type": "text_block",
           "settings": {
             "icons": "at-shield-check",
-            "title": "30-Tage-Testversion",
-            "text": "<p>Kaufen Sie mit Zuversicht<\/p>",
+            "title": "30 Tage Rückgaberecht",
+            "text": "<p>Kaufen Sie mit Sicherheit<\/p>",
             "texturl": ""
           }
         }
