@@ -303,8 +303,8 @@
             "type": "dropdown",
             "settings": {
               "title": "Zubehör",
-              "url": "",
-              "mm_linklist": "ausr-stung"
+              "url": "shopify:\/\/collections\/zubehor",
+              "mm_linklist": ""
             }
           },
           "eaf15dca-1822-4a37-8c94-bd24e939b788": {
