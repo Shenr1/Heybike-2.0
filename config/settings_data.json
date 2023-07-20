@@ -451,8 +451,8 @@
             "type": "newsletter",
             "settings": {
               "newltr_align": false,
-              "title": "Newsletter",
-              "sub_title": "Geben Sie Ihre E-Mail-Adresse ein, um einen Newsletter und mehr zu erhalten.",
+              "title": "Melden SIe für unseren Newsletter an",
+              "sub_title": "",
               "show_socials": false,
               "socials_ttl": "Stay Connected",
               "width": "wd16-md"
