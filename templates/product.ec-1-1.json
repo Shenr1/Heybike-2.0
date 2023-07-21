@@ -63,14 +63,14 @@
           "type": "shiptime",
           "settings": {
             "estimate": "35\/45",
-            "msg": "<i class=\"at at-clock-r\"><\/i> Estimated delivery between [startdate]<b> -<b> [enddate].<\/b><\/b>",
+            "msg": "<i class=\"at at-clock-r\"><\/i> Voraussichtliche Lieferung: [startdate]<b> -<b> [enddate].<\/b><\/b>",
             "bm": 15
           }
         },
         "900c2863-7a02-4344-845e-386c8248bc4d": {
           "type": "text",
           "settings": {
-            "text": "<b>Helm, Gepäckträger und Trinkflaschenhalterung gratis bei Bestellung (Wert €143)!<b><\/b><\/b>",
+            "text": "<b>Helm, Heckgepäckträger und Flaschenhalter gratis bei Bestellung (Wert €143)!<b><\/b><\/b>",
             "cl": "#999999",
             "addbg": false,
             "bg": "#f5f5f5",
