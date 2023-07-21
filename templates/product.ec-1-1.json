@@ -118,8 +118,8 @@
           "type": "colimg",
           "settings": {
             "text1": "Kostenloser Versand",
-            "text2": "Inklusive Mehrwertsteuer",
-            "text3": "2 Jahre Garantie",
+            "text2": "inkl. MwSt",
+            "text3": "2-Jahres-Garantie",
             "icon1": "shopify:\/\/shop_images\/646653b0ac6b117df7f13ce8570d0e38_ab1303c8-a54e-47d4-999d-44eeabc4aa8c.png",
             "icon2": "shopify:\/\/shop_images\/25a2ae4f3aeacec2f66ab92e67040928_29841172-068c-444e-8995-be304cc5fc24.png",
             "icon3": "shopify:\/\/shop_images\/a8c3ad982099abeca6bbdb913b166a0e_c4cecf57-e225-4816-b140-46dc840131f7.png"
@@ -297,8 +297,8 @@
         "a27b30d1-ea2c-42ec-9fce-1899fef048f4": {
           "type": "item",
           "settings": {
-            "item_title": "bis zu 100",
-            "item_dec": "Bereich(km)"
+            "item_title": "bis zu 80",
+            "item_dec": "Reichweite(km)"
           }
         },
         "19891b48-30b5-4d5d-9969-7cc834a3cbde": {
