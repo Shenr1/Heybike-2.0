@@ -379,6 +379,9 @@
       "block_order": [
         "6cc5bbd0-cbfe-4207-bd7e-e5ffdf170593"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "top-offeset": "none",
         "ht": "2",
@@ -459,6 +462,10 @@
       },
       "block_order": [
         "b95e1998-e56a-4431-a45d-7049209300ac"
+      ],
+      "custom_css": [
+        ".imgFt {opacity: 0.7;}",
+        ".sslide {background-color: #000000;}"
       ],
       "settings": {
         "top-offeset": "none",
