@@ -5,7 +5,7 @@
       "settings": {
         "title": "",
         "subtitle": "",
-        "custom_liquid": "<article id=\"nav-Merkmale\"><\/article>",
+        "custom_liquid": "<article id=\"nav-features\"><\/article>",
         "top-offeset": "none",
         "section_cov": false,
         "sec_bg_clr": "#fafafa"
@@ -452,7 +452,7 @@
             "hd1": "",
             "pcl": "#000000",
             "title": "Entdecke die Freiheit mit Heybike EC 1<br> - Leicht, schick und mühelos unterwegs.",
-            "tcl": "#fff",
+            "tcl": "#ffffff",
             "hd3": "",
             "hideh3": true,
             "cl": "#000000",
@@ -928,7 +928,7 @@
       "settings": {
         "title": "",
         "subtitle": "",
-        "custom_liquid": "<article id=\"nav-Spezifikationen\"><\/article>",
+        "custom_liquid": "<article id=\"nav-specifications\"><\/article>",
         "top-offeset": "none",
         "section_cov": false,
         "sec_bg_clr": "#fafafa"
