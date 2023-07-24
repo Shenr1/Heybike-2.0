@@ -368,7 +368,7 @@
           "type": "video",
           "settings": {
             "video_url": "",
-            "mp4url": "",
+            "mp4url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/328e2c1d11ed4661ba2222ec30b740a7.mp4",
             "ovr": "#3d4246",
             "ovropt": 0,
             "hd1": "",
@@ -449,7 +449,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/EC1_01.jpg",
             "ialign": "center_center",
-            "hd1": "I AM AVONE",
+            "hd1": "",
             "pcl": "#000000",
             "title": "",
             "tcl": "#000000",
@@ -461,7 +461,7 @@
             "btn1window": false,
             "btn-style": "btn1",
             "display_btn": false,
-            "btn2": "Shop now",
+            "btn2": "",
             "link2": "",
             "btn2window": false,
             "btn-style1": "btn1",
