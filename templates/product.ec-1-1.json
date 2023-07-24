@@ -527,6 +527,7 @@
     },
     "cc709276-2bca-4dbf-a083-56fed2b2098a": {
       "type": "banner-with-text",
+      "disabled": true,
       "blocks": {
         "template--19054793261379__cc709276-2bca-4dbf-a083-56fed2b2098a-16891278623bbe7207-0": {
           "type": "row",
