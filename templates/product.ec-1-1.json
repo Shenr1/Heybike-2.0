@@ -1030,7 +1030,7 @@
           "settings": {
             "icons": "at-users-l",
             "title": "Schnelle Unterstützung",
-            "text": "<p>E-Mail- und Telefon-Service<\/p>",
+            "text": "<p>E-Mail und Telefon-Service<\/p>",
             "texturl": ""
           }
         },
@@ -1038,8 +1038,8 @@
           "type": "text_block",
           "settings": {
             "icons": "at-shield-check-r",
-            "title": "30-Tage-Testversion",
-            "text": "<p>Kaufen Sie mit Zuversicht<\/p>",
+            "title": "30 Tage Rückgaberecht",
+            "text": "<p>Kaufen Sie mit Sicherheit<\/p>",
             "texturl": ""
           }
         }
