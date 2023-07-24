@@ -464,6 +464,10 @@
       "block_order": [
         "template--19281882448166__8ce826c1-999f-43b7-afda-a0127f864a6d-image-1"
       ],
+      "custom_css": [
+        ".imgFt {opacity: 0.7;}",
+        ".sslide {background-color: #000000;}"
+      ],
       "settings": {
         "top-offeset": "none",
         "ht": "1",
@@ -512,6 +516,7 @@
     },
     "04a780d1-1cb7-4996-9fb2-2569ccbd0bda": {
       "type": "banner-with-text",
+      "disabled": true,
       "blocks": {
         "template--19281882448166__04a780d1-1cb7-4996-9fb2-2569ccbd0bda-16891284399ec3de73-0": {
           "type": "row",
