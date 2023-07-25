@@ -496,6 +496,35 @@
         "cl": "#eeeeee",
         "border_sep": "rgba(0,0,0,0)"
       }
+    },
+    "93ffc9c6-9ceb-4806-829a-a4adf3b62ec8": {
+      "type": "image-slideshow",
+      "blocks": {
+        "template--19281882808614__93ffc9c6-9ceb-4806-829a-a4adf3b62ec8-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EC1-PC-FR-01.jpg",
+            "mb_image": "shopify:\/\/shop_images\/EC1-M-FR-01.jpg",
+            "link": "",
+            "newTab": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19281882808614__93ffc9c6-9ceb-4806-829a-a4adf3b62ec8-image-1"
+      ],
+      "settings": {
+        "top-offeset": "default",
+        "section_width": true,
+        "autoplay": false,
+        "speed": 0,
+        "arrow": false,
+        "arrowc": "#fff",
+        "dot": false,
+        "dots": "#ddd",
+        "snow_effect": false,
+        "snow_style": "style1"
+      }
     }
   },
   "order": [
@@ -507,6 +536,7 @@
     "a2d3fa24-4809-40c0-b63d-a720d6b02f2c",
     "e0be29cc-4f32-4503-8012-abbb3949eb80",
     "1633781776086e75a0",
-    "16337817926d98687d"
+    "16337817926d98687d",
+    "93ffc9c6-9ceb-4806-829a-a4adf3b62ec8"
   ]
 }
