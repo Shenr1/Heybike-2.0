@@ -436,7 +436,7 @@
             "hd1": "",
             "pcl": "#000000",
             "title": "Dein zuverlässiger Begleiter<br> für jede Tageszeit und Gelegenheit!",
-            "tcl": "#fff",
+            "tcl": "#ffffff",
             "hd3": "",
             "hideh3": true,
             "cl": "#000000",
@@ -996,6 +996,33 @@
         "bottom_padding": "default"
       }
     },
+    "d1415328-b82f-4a03-8fe0-cbc736860f33": {
+      "type": "product-anchor",
+      "settings": {
+        "anchor_id": "nav-reviews"
+      }
+    },
+    "1690267903e7f2ab69": {
+      "type": "apps",
+      "blocks": {
+        "0a7ba2bf-c632-4b68-a5c0-184f1562b7da": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "f7415192-2776-419b-bade-2cd1ad279fa0": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "0a7ba2bf-c632-4b68-a5c0-184f1562b7da",
+        "f7415192-2776-419b-bade-2cd1ad279fa0"
+      ],
+      "settings": {
+      }
+    },
     "a96d37af-dc7b-43f1-8f0b-23018e00eaf4": {
       "type": "multiple-image-text",
       "disabled": true,
@@ -1222,12 +1249,6 @@
         "cl": "#eeeeee",
         "border_sep": "rgba(0,0,0,0)"
       }
-    },
-    "d1415328-b82f-4a03-8fe0-cbc736860f33": {
-      "type": "product-anchor",
-      "settings": {
-        "anchor_id": "nav-reviews"
-      }
     }
   },
   "order": [
@@ -1251,9 +1272,10 @@
     "a8ffb222-813d-463f-9e86-871bceb908a5",
     "32e46169-5f1d-45ab-8765-2b6eda818fa8",
     "b832809d-c477-4c3b-a13f-acb6501dceec",
+    "d1415328-b82f-4a03-8fe0-cbc736860f33",
+    "1690267903e7f2ab69",
     "a96d37af-dc7b-43f1-8f0b-23018e00eaf4",
     "22f50d3e-5443-46e2-a356-2469bdea240d",
-    "dd234409-19b7-4258-8b98-44063da04a59",
-    "d1415328-b82f-4a03-8fe0-cbc736860f33"
+    "dd234409-19b7-4258-8b98-44063da04a59"
   ]
 }
