@@ -470,10 +470,10 @@
       ],
       "settings": {
         "top-offeset": "none",
-        "ht": "1",
+        "ht": "2",
         "htd": 880,
         "htt": 350,
-        "htm": 250,
+        "htm": 420,
         "section_width": false,
         "box-width": 1500,
         "isovr": false,
