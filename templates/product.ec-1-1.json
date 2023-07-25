@@ -655,24 +655,24 @@
         "bg_color": "#f5f5f5"
       }
     },
-    "c9dbe5e5-19b2-4769-9fd9-a600c03bdb17": {
+    "a5253816-0531-4369-b476-7006b5b721a1": {
       "type": "image-list-text",
       "blocks": {
-        "de3cbb43-265d-4140-8bf7-0d8250145964": {
+        "625b4a91-90a6-4229-840f-fc6dd5ee765f": {
           "type": "item",
           "settings": {
             "item_title": "360Wh",
             "item_dec": "Puissance"
           }
         },
-        "c2cd3913-f9ab-4d1a-90a3-425a71e726c2": {
+        "f4e8db61-4ff2-4f75-862a-7e5bdede0e24": {
           "type": "item",
           "settings": {
             "item_title": "10Ah",
             "item_dec": "Capacité"
           }
         },
-        "c40ebf74-fd0a-4136-902b-64c9b076e175": {
+        "9191c403-5aef-414d-aaa7-030bfe728a26": {
           "type": "item",
           "settings": {
             "item_title": "36V",
@@ -681,9 +681,9 @@
         }
       },
       "block_order": [
-        "de3cbb43-265d-4140-8bf7-0d8250145964",
-        "c2cd3913-f9ab-4d1a-90a3-425a71e726c2",
-        "c40ebf74-fd0a-4136-902b-64c9b076e175"
+        "625b4a91-90a6-4229-840f-fc6dd5ee765f",
+        "f4e8db61-4ff2-4f75-862a-7e5bdede0e24",
+        "9191c403-5aef-414d-aaa7-030bfe728a26"
       ],
       "settings": {
         "top_padding": "large",
@@ -837,10 +837,10 @@
         "bottom_line": true
       }
     },
-    "a8ffb222-813d-463f-9e86-871bceb908a5": {
+    "7ebb96f5-9c0e-43d8-a074-8d55d5984d36": {
       "type": "banner-with-text",
       "blocks": {
-        "template--19143574815035__a8ffb222-813d-463f-9e86-871bceb908a5-1684996746297eb402-0": {
+        "b5f73c3e-e519-45b5-8822-ee21d995806d": {
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/Heybike_Ap.png",
@@ -863,7 +863,7 @@
         }
       },
       "block_order": [
-        "template--19143574815035__a8ffb222-813d-463f-9e86-871bceb908a5-1684996746297eb402-0"
+        "b5f73c3e-e519-45b5-8822-ee21d995806d"
       ],
       "settings": {
         "top_padding": "none",
@@ -1226,6 +1226,21 @@
         "section_cov": false,
         "sec_bg_clr": "#fafafa"
       }
+    },
+    "1cffdeef-a9cf-443b-92bb-d73c46336d2f": {
+      "type": "custom-content",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "top-offeset": "none",
+        "section_width": true,
+        "hide_mobile": false,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "prbox_style": "style1",
+        "btn-size-desk": "btn-sm",
+        "btn-size-mob": "mob-btn-sm"
+      }
     }
   },
   "order": [
@@ -1242,15 +1257,16 @@
     "8ce826c1-999f-43b7-afda-a0127f864a6d",
     "04a780d1-1cb7-4996-9fb2-2569ccbd0bda",
     "b5bc4525-2802-4e9d-acbe-44c6ddd2167c",
-    "c9dbe5e5-19b2-4769-9fd9-a600c03bdb17",
+    "a5253816-0531-4369-b476-7006b5b721a1",
     "57d28d3e-e7d1-4115-8f16-31ef4e965106",
     "532d629b-5414-439a-9833-fe4f04d408f2",
-    "a8ffb222-813d-463f-9e86-871bceb908a5",
+    "7ebb96f5-9c0e-43d8-a074-8d55d5984d36",
     "286ef3df-4b4b-4252-9fb2-4c7f64f4dda4",
     "b832809d-c477-4c3b-a13f-acb6501dceec",
     "a96d37af-dc7b-43f1-8f0b-23018e00eaf4",
     "22f50d3e-5443-46e2-a356-2469bdea240d",
     "dd234409-19b7-4258-8b98-44063da04a59",
-    "e3a92eba-3e67-4b48-9a4d-6d63ed097c70"
+    "e3a92eba-3e67-4b48-9a4d-6d63ed097c70",
+    "1cffdeef-a9cf-443b-92bb-d73c46336d2f"
   ]
 }
