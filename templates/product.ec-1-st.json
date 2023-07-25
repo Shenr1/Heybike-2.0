@@ -356,12 +356,12 @@
             "ovr": "#3d4246",
             "ovropt": 0,
             "hd1": "",
-            "pcl": "#000",
+            "pcl": "#000000",
             "title": "",
-            "tcl": "#000",
+            "tcl": "#000000",
             "hd3": "",
             "hideh3": true,
-            "cl": "#000",
+            "cl": "#000000",
             "btn": "",
             "link": "",
             "display_btn": false,
@@ -415,15 +415,15 @@
         "btn-sizem": "mob-btn-sm",
         "isbox": false,
         "isboxm": false,
-        "tbg": "#fff",
+        "tbg": "#ffffff",
         "opt": 0.9,
         "brad": 0,
         "autoplay": true,
         "speed": 7,
         "arrow": true,
-        "arrowc": "#fff",
+        "arrowc": "#ffffff",
         "dot": false,
-        "dots": "#ddd",
+        "dots": "#dddddd",
         "snow_effect": false,
         "snow_style": "style1"
       }
@@ -438,12 +438,12 @@
             "imagem": "shopify:\/\/shop_images\/EC1-st_01.jpg",
             "ialign": "center_center",
             "hd1": "",
-            "pcl": "#000",
+            "pcl": "#000000",
             "title": "",
-            "tcl": "#000",
+            "tcl": "#000000",
             "hd3": "",
             "hideh3": true,
-            "cl": "#000",
+            "cl": "#000000",
             "btn": "",
             "link": "",
             "btn1window": false,
@@ -500,15 +500,15 @@
         "btn-sizem": "mob-btn-sm",
         "isbox": false,
         "isboxm": false,
-        "tbg": "#fff",
+        "tbg": "#ffffff",
         "opt": 0.9,
         "brad": 0,
         "autoplay": true,
         "speed": 7,
         "arrow": true,
-        "arrowc": "#fff",
+        "arrowc": "#ffffff",
         "dot": false,
-        "dots": "#ddd",
+        "dots": "#dddddd",
         "snow_effect": false,
         "snow_style": "style1"
       }
@@ -977,20 +977,20 @@
     },
     "a96d37af-dc7b-43f1-8f0b-23018e00eaf4": {
       "type": "multiple-image-text",
-      "disabled": true,
       "blocks": {
         "34d82dd4-4589-44a3-8a94-84134067f971": {
           "type": "video",
           "settings": {
             "slide_w": "w-2\/3",
             "bg_color": "",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=aqUZWdzBEoQ",
+            "video_url": "https:\/\/youtu.be\/VeASZKd6TPU",
             "text_main": "",
             "text_sub": ""
           }
         },
         "061ccc1b-95bb-4147-bfcd-d264635cfafb": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "slide_w": "w-2\/3",
             "bg_color": "",
@@ -1001,6 +1001,7 @@
         },
         "bfd3caac-3459-4b88-a706-8828f77c6c8a": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "slide_w": "w-2\/3",
             "bg_color": "",
@@ -1011,6 +1012,7 @@
         },
         "033d0f0f-4ee3-4457-87a7-add32b86ed90": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "slide_w": "w-2\/3",
             "bg_color": "",
@@ -1021,6 +1023,7 @@
         },
         "28807607-3f72-4bcf-b00c-d0b40fe3e1e6": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "slide_w": "w-2\/3",
             "bg_color": "",
@@ -1031,6 +1034,7 @@
         },
         "faceb785-b8e4-41fa-b66e-a5b5cf3c7b1c": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "slide_w": "w-2\/3",
             "bg_color": "",
@@ -1041,6 +1045,7 @@
         },
         "988774fe-8a7f-43c0-bdf7-896464c3a981": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "slide_w": "w-2\/3",
             "bg_color": "",
@@ -1051,6 +1056,7 @@
         },
         "aa916361-3a58-419b-ac8a-909857b6bd90": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "slide_w": "w-2\/3",
             "bg_color": "",
