@@ -1014,6 +1014,38 @@
         "bottom_padding": "default"
       }
     },
+    "e3a92eba-3e67-4b48-9a4d-6d63ed097c70": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "custom_liquid": "<article id=\"nav-reviews\"><\/article>",
+        "top-offeset": "none",
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa"
+      }
+    },
+    "16902677769e0e22b5": {
+      "type": "apps",
+      "blocks": {
+        "d63dcbb6-b33e-432a-b504-a671f3a49fc2": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "b051e6cd-de04-4b54-bb11-8be25e789c6b": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "d63dcbb6-b33e-432a-b504-a671f3a49fc2",
+        "b051e6cd-de04-4b54-bb11-8be25e789c6b"
+      ],
+      "settings": {
+      }
+    },
     "a96d37af-dc7b-43f1-8f0b-23018e00eaf4": {
       "type": "multiple-image-text",
       "disabled": true,
@@ -1240,17 +1272,6 @@
         "cl": "#eeeeee",
         "border_sep": "rgba(0,0,0,0)"
       }
-    },
-    "e3a92eba-3e67-4b48-9a4d-6d63ed097c70": {
-      "type": "custom-liquid",
-      "settings": {
-        "title": "",
-        "subtitle": "",
-        "custom_liquid": "<article id=\"nav-reviews\"><\/article>",
-        "top-offeset": "none",
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa"
-      }
     }
   },
   "order": [
@@ -1274,9 +1295,10 @@
     "a8ffb222-813d-463f-9e86-871bceb908a5",
     "286ef3df-4b4b-4252-9fb2-4c7f64f4dda4",
     "b832809d-c477-4c3b-a13f-acb6501dceec",
+    "e3a92eba-3e67-4b48-9a4d-6d63ed097c70",
+    "16902677769e0e22b5",
     "a96d37af-dc7b-43f1-8f0b-23018e00eaf4",
     "22f50d3e-5443-46e2-a356-2469bdea240d",
-    "dd234409-19b7-4258-8b98-44063da04a59",
-    "e3a92eba-3e67-4b48-9a4d-6d63ed097c70"
+    "dd234409-19b7-4258-8b98-44063da04a59"
   ]
 }
