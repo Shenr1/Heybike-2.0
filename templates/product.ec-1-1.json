@@ -436,7 +436,8 @@
         "template--19281882448166__8ce826c1-999f-43b7-afda-a0127f864a6d-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EC1_01.jpg",
+            "image": "shopify:\/\/shop_images\/EC1-PC-FR-01.jpg",
+            "imagem": "shopify:\/\/shop_images\/EC1-M-FR-01.jpg",
             "ialign": "center_center",
             "hd1": "",
             "pcl": "#000000",
@@ -465,8 +466,7 @@
         "template--19281882448166__8ce826c1-999f-43b7-afda-a0127f864a6d-image-1"
       ],
       "custom_css": [
-        ".imgFt {opacity: 0.7;}",
-        ".sslide {background-color: #000000;}"
+
       ],
       "settings": {
         "top-offeset": "none",
