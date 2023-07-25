@@ -10,6 +10,7 @@
     "enable_site_animation": false,
     "enable_search": false,
     "en_searchwords": true,
+    "searchwords": "",
     "show_product_review": true,
     "show_reviewgrid": true,
     "favicon": "shopify:\/\/shop_images\/icon32.png",
