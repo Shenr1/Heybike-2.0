@@ -374,7 +374,6 @@
         "bg_color": "",
         "layout": "textImage",
         "img_size": "small",
-        "img": "shopify:\/\/shop_images\/1.png",
         "text_main": "Portable Battery",
         "text_sub": "By using  high capacity Samsung batteries.You may easily ride for more than 80 kilometers on a single charge.",
         "text_dec": "Seamless integration & Robust power output",
@@ -835,6 +834,21 @@
         "section_cov": false,
         "sec_bg_clr": "#fafafa"
       }
+    },
+    "169026765845f08850": {
+      "type": "apps",
+      "blocks": {
+        "68f4a53f-961f-4545-8f50-e75f4a31bf79": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "68f4a53f-961f-4545-8f50-e75f4a31bf79"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -860,6 +874,7 @@
     "a96d37af-dc7b-43f1-8f0b-23018e00eaf4",
     "22f50d3e-5443-46e2-a356-2469bdea240d",
     "dd234409-19b7-4258-8b98-44063da04a59",
-    "e3a92eba-3e67-4b48-9a4d-6d63ed097c70"
+    "e3a92eba-3e67-4b48-9a4d-6d63ed097c70",
+    "169026765845f08850"
   ]
 }
