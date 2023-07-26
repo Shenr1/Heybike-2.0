@@ -448,6 +448,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/EC1-PC-DE-01.jpg",
+            "imagem": "shopify:\/\/shop_images\/EC1-M-DE-01.jpg",
             "ialign": "center_center",
             "hd1": "",
             "pcl": "#000000",
