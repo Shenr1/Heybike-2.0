@@ -431,11 +431,12 @@
         "template--19054792573251__018ef5e0-7495-4486-a595-fb4178c0926f-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EC1_01_b06deadb-a4da-433c-98b3-6d4c24800f83.jpg",
+            "image": "shopify:\/\/shop_images\/EC1_ST-PC-DE-01.jpg",
+            "imagem": "shopify:\/\/shop_images\/EC1_ST-M-DE-01.jpg",
             "ialign": "center_center",
             "hd1": "",
             "pcl": "#000000",
-            "title": "Dein zuverlässiger Begleiter<br> für jede Tageszeit und Gelegenheit!",
+            "title": "",
             "tcl": "#ffffff",
             "hd3": "",
             "hideh3": true,
