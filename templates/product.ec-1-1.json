@@ -1095,7 +1095,6 @@
     },
     "22f50d3e-5443-46e2-a356-2469bdea240d": {
       "type": "logo-slider",
-      "disabled": true,
       "blocks": {
         "1db61a36-a277-4c68-acad-574b812f8fc6": {
           "type": "slide",
@@ -1151,6 +1150,21 @@
         "style": "style1",
         "bg_color": "#f5f5f5",
         "text_color": "#000000"
+      }
+    },
+    "169035796300bd6ddd": {
+      "type": "apps",
+      "blocks": {
+        "9e9213df-80b2-4712-ab00-a58f94a4e968": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "9e9213df-80b2-4712-ab00-a58f94a4e968"
+      ],
+      "settings": {
       }
     },
     "dd234409-19b7-4258-8b98-44063da04a59": {
@@ -1265,6 +1279,7 @@
     "b832809d-c477-4c3b-a13f-acb6501dceec",
     "a96d37af-dc7b-43f1-8f0b-23018e00eaf4",
     "22f50d3e-5443-46e2-a356-2469bdea240d",
+    "169035796300bd6ddd",
     "dd234409-19b7-4258-8b98-44063da04a59",
     "e3a92eba-3e67-4b48-9a4d-6d63ed097c70",
     "1cffdeef-a9cf-443b-92bb-d73c46336d2f"
