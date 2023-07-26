@@ -996,7 +996,6 @@
     },
     "a96d37af-dc7b-43f1-8f0b-23018e00eaf4": {
       "type": "multiple-image-text",
-      "disabled": true,
       "blocks": {
         "a1291fa1-d564-4ec3-a6ce-51e0bf8a956c": {
           "type": "video",
