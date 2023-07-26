@@ -434,8 +434,8 @@
         "b95e1998-e56a-4431-a45d-7049209300ac": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EC1-st_01.jpg",
-            "imagem": "shopify:\/\/shop_images\/EC1-st_01.jpg",
+            "image": "shopify:\/\/shop_images\/EC1_ST-PC-FR-01.jpg",
+            "imagem": "shopify:\/\/shop_images\/EC1_ST-M-FR-01.jpg",
             "ialign": "center_center",
             "hd1": "",
             "pcl": "#000000",
@@ -464,15 +464,14 @@
         "b95e1998-e56a-4431-a45d-7049209300ac"
       ],
       "custom_css": [
-        ".imgFt {opacity: 0.7;}",
-        ".sslide {background-color: #000000;}"
+
       ],
       "settings": {
         "top-offeset": "none",
         "ht": "1",
         "htd": 880,
         "htt": 350,
-        "htm": 250,
+        "htm": 800,
         "section_width": false,
         "box-width": 1500,
         "isovr": false,
