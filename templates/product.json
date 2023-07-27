@@ -55,7 +55,7 @@
         "44323c4e-dc60-4204-84b6-4966cbfa84d4": {
           "type": "shiptime",
           "settings": {
-            "estimate": "4\/10",
+            "estimate": "45\/55",
             "msg": "<i class=\"at at-clock-r\"><\/i> Estimated delivery between [startdate] - [enddate].",
             "bm": 15
           }
@@ -63,7 +63,7 @@
         "product-form": {
           "type": "cta",
           "settings": {
-            "qty_sel": false,
+            "qty_sel": true,
             "bm": 30
           }
         },

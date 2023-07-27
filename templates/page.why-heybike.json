@@ -12,7 +12,7 @@
         "image": "shopify:\/\/shop_images\/Cityrun.jpg",
         "alignment": "center",
         "pretext": "",
-        "pcl": "#111",
+        "pcl": "#111111",
         "pfs": 15,
         "pfsm": 85,
         "pff": "ft1",
@@ -21,7 +21,7 @@
         "pmb": 10,
         "pmbm": 5,
         "title": "Why Heybike",
-        "tcl": "#fff",
+        "tcl": "#ffffff",
         "tfs": 33,
         "tfsm": 195,
         "tff": "ft2",
@@ -74,6 +74,7 @@
             "button_label": "Shop Now",
             "button_link": "shopify:\/\/collections\/electric-bike",
             "text_align": "text-left",
+            "text_center": false,
             "tcl": "#000000",
             "cl": "#000000",
             "bg": "#f5f5f5",
@@ -94,6 +95,7 @@
             "button_label": "Join Us",
             "button_link": "shopify:\/\/pages\/heybike-memoir",
             "text_align": "tr",
+            "text_center": false,
             "tcl": "#000000",
             "cl": "#000000",
             "bg": "#f5f5f5",
@@ -104,6 +106,7 @@
         },
         "cd0ae458-8d85-4fc8-9d07-6d27feb19a14": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/4_460x_54bb42e7-9b61-4b27-aa33-4d396b213fe5.webp",
             "layout": "right",
@@ -114,6 +117,7 @@
             "button_label": "Shop Now",
             "button_link": "shopify:\/\/collections\/electric-bike",
             "text_align": "text-left",
+            "text_center": false,
             "tcl": "#000000",
             "cl": "#000000",
             "bg": "#f5f5f5",
@@ -157,6 +161,7 @@
     },
     "460fe747-d1cc-4930-8de3-908ccde8e9dd": {
       "type": "richtext",
+      "disabled": true,
       "settings": {
         "top-offeset": "default",
         "fullwidth": true,
@@ -189,6 +194,7 @@
     },
     "b31369b1-87cb-4a8d-84cf-80627f1d5bc1": {
       "type": "logo-slider",
+      "disabled": true,
       "blocks": {
         "f125e9ec-4d04-4b7d-8d1d-3cbdc9e531ea": {
           "type": "slide",
@@ -248,6 +254,7 @@
     },
     "d84ec3b7-47d3-45f8-a150-478d33a6d76e": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "title": "Customer stories",
         "subtitle": "",
@@ -331,7 +338,7 @@
         "sec_bg_clr": "#111111",
         "hide_mobile": false,
         "title": "Superb bikes. Superior Service.",
-        "subtitle": "Exceeding Expectations with Unparalleled Customer Care",
+        "subtitle": "Responsive and Reliable Customer Support",
         "style": "style1",
         "icon-type": "icon",
         "icons_clr": "#ffffff",

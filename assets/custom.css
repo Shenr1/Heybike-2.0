@@ -2558,6 +2558,11 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
     padding:0.5rem;
   }
 
+  .md\:\!px-16 {
+    padding-left:4rem !important;
+    padding-right:4rem !important;
+  }
+
   .md\:\!px-5 {
     padding-left:1.25rem !important;
     padding-right:1.25rem !important;
@@ -2633,6 +2638,16 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
     padding-bottom:1.5rem;
   }
 
+  .md\:\!px-32 {
+    padding-left:8rem !important;
+    padding-right:8rem !important;
+  }
+
+  .md\:\!px-28 {
+    padding-left:7rem !important;
+    padding-right:7rem !important;
+  }
+
   .md\:pb-0 {
     padding-bottom:0px;
   }
@@ -2687,6 +2702,14 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 
   .md\:pt-6 {
     padding-top:1.5rem;
+  }
+
+  .md\:\!pl-24 {
+    padding-left:6rem !important;
+  }
+
+  .md\:\!pl-32 {
+    padding-left:8rem !important;
   }
 
   .md\:text-left {
@@ -2959,6 +2982,11 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   .xl\:px-4 {
     padding-left:1rem;
     padding-right:1rem;
+  }
+
+  .xl\:\!px-28 {
+    padding-left:7rem !important;
+    padding-right:7rem !important;
   }
 
   .xl\:pb-18 {

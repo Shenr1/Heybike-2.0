@@ -4,6 +4,7 @@
     "box_width": "1310",
     "section_heading_1_size": 22,
     "top-information-bar": false,
+    "show_sticky_arrow": false,
     "enable_wishlist": false,
     "wishlist_page": "wishlist",
     "enable_site_animation": false,
@@ -110,7 +111,6 @@
     "centerTxt": "FREE SHIPPING on order above £99",
     "tphfont": 12,
     "main_header_fullwidth": false,
-    "main_header_click_toggle": false,
     "logosvg": "",
     "logo": "shopify:\/\/shop_images\/logo-white.png",
     "logo_reversal": "shopify:\/\/shop_images\/logo-black.png",
@@ -165,6 +165,7 @@
     "shippingpage": "delivary-and-returns",
     "sizechart_link": false,
     "sizechart_page": "size-chart",
+    "sizeOpt": "Size, Dimension, Taille, Velikost, talla, Taglia",
     "show_share_buttons_single": false,
     "sharing_lbl": "Share:",
     "sw_type": "color",
@@ -195,7 +196,7 @@
     "notify_msg": "Someone liked and Bought",
     "notify_delay": "5000",
     "current_flag": "shopify:\/\/shop_images\/c07d2406fd8c110061f629dd3ffe5fdf.png",
-    "region_menu": "flag2-0",
+    "region_menu": "flag",
     "mailChimp_url": "\/\/adornthemes.us14.list-manage.com\/subscribe\/post?u=7871991105e328584f24626f6&amp;id=ca417a745e",
     "newsletter_popup": false,
     "newsltr-style": "style2",
@@ -204,7 +205,7 @@
     "newsletter_social_icn": "#121212",
     "show_closetrext": true,
     "social_twitter_link": "https:\/\/twitter.com\/Heybike_EU",
-    "social_facebook_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/profile.php?id=100094166675892",
     "social_pinterest_link": "https:\/\/www.pinterest.de\/Heybike_EU\/",
     "social_instagram_link": "",
     "social_youtube_link": "https:\/\/www.youtube.com\/@HeybikeEU\/featured",
@@ -285,16 +286,16 @@
               "text_sub1": "Two models to choose, either one to try",
               "text_link1": "View All",
               "url_link1": "shopify:\/\/collections\/electric-bike",
-              "img_url2": "shopify:\/\/shop_images\/Heybie_EC1_ST_1_png.jpg",
+              "img_url2": "shopify:\/\/shop_images\/A.jpg",
               "text_main2": "EC 1-ST",
               "text_sub2": "Preferred by female cyclists",
               "text_link2": "",
               "url_link2": "shopify:\/\/products\/ec-1-st-1",
-              "img_url3": "shopify:\/\/shop_images\/Heybie_EC1_ST_2_png.jpg",
+              "img_url3": "shopify:\/\/shop_images\/B_91327e7a-0162-4901-8185-a4a6b322cb48.jpg",
               "text_main3": "EC 1",
               "text_sub3": "Meet your needs for commuting",
               "text_link3": "",
-              "url_link3": "shopify:\/\/products\/heybike-ec-1"
+              "url_link3": "shopify:\/\/products\/ec-1"
             }
           },
           "fdae2dd8-4778-4ee1-b020-8db5b864a945": {
@@ -438,7 +439,7 @@
             "settings": {
               "newltr_align": false,
               "title": "NEWSLETTER",
-              "sub_title": "Enter your email to receive a newsletter and a £50 off e-bike voucher.",
+              "sub_title": "Enter your email to receive a newsletter and more.",
               "show_socials": false,
               "socials_ttl": "Stay Connected",
               "width": "wd20-md"
@@ -491,22 +492,22 @@
               "color1": "#f05454",
               "title2": "Emerald",
               "color2": "#00646c",
-              "title3": "White",
+              "title3": "Buttery White",
               "color3": "#fffbea",
               "title4": "Sage",
               "color4": "#8da29a",
               "title5": "Olive Green",
               "color5": "#bab86c",
-              "title6": "Blue",
+              "title6": "Teal Blue",
               "color6": "#72b1c4",
               "title7": "Green",
               "color7": "#979f71",
               "title8": "Camel",
               "color8": "#df974d",
-              "title9": "Pink",
+              "title9": "Light Pink",
               "color9": "#b07c8b",
-              "title10": "Black\/Grey",
-              "color10": "",
+              "title10": "gradient purple",
+              "color10": "#ba55d3",
               "title11": "Blue\/Red",
               "color11": "",
               "title12": "",
@@ -609,7 +610,15 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "15914998778720525373": {
+        "type": "shopify:\/\/apps\/crisp-live-chat-chatbot\/blocks\/app-embed\/5c3cfd5f-01d4-496a-891b-f98ecf27ff08",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
   }

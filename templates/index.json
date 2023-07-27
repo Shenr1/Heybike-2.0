@@ -6,8 +6,8 @@
         "1561726660568-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_1_a.jpg",
-            "imagem": "shopify:\/\/shop_images\/EC1_0613.jpg",
+            "image": "shopify:\/\/shop_images\/EC_1_Banner_1_a.jpg",
+            "imagem": "shopify:\/\/shop_images\/EC_1_Banner_Vertical_version.jpg",
             "ialign": "center_center",
             "hd1": "EC 1",
             "pcl": "#ffffff",
@@ -17,7 +17,7 @@
             "hideh3": true,
             "cl": "#ffffff",
             "btn": "Shop Now &nbsp >",
-            "link": "shopify:\/\/products\/heybike-ec-1",
+            "link": "shopify:\/\/products\/ec-1",
             "btn1window": true,
             "btn-style": "btn",
             "display_btn": false,
@@ -34,8 +34,8 @@
         "208504ac-576d-4468-85f2-307d5444445e": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_2.jpg",
-            "imagem": "shopify:\/\/shop_images\/a10613.jpg",
+            "image": "shopify:\/\/shop_images\/EC_1-ST_Banner.jpg",
+            "imagem": "shopify:\/\/shop_images\/EC_1_Banner_1_Vertical_version.jpg",
             "ialign": "center_center",
             "hd1": "EC 1-ST",
             "pcl": "#ffffff",
@@ -116,8 +116,8 @@
         "49c3920c-4c72-4966-97a0-17f141bf1e62": {
           "type": "slide",
           "settings": {
-            "product": "heybike-ec-1",
-            "product_image": "shopify:\/\/shop_images\/EC-1.png",
+            "product": "ec-1",
+            "product_image": "shopify:\/\/shop_images\/EC-1_c0ccd849-3ab7-4d5b-8761-0e848e9dedc3.png",
             "info": "Meet your needs for commuting"
           }
         },
@@ -125,7 +125,7 @@
           "type": "slide",
           "settings": {
             "product": "ec-1-st-1",
-            "product_image": "shopify:\/\/shop_images\/EC-1-ST_46b11121-6fc4-402d-b03c-e2f15da2ccc5.png",
+            "product_image": "shopify:\/\/shop_images\/EC-ST.png",
             "info": "Step-Through Design: Ride with Ease"
           }
         },
@@ -133,7 +133,7 @@
           "type": "slide",
           "settings": {
             "product": "ec-1-st-1",
-            "product_image": "shopify:\/\/shop_images\/EC-1-ST_61447deb-d0eb-4ef5-9e39-acf5320cda94.png",
+            "product_image": "shopify:\/\/shop_images\/EC_1-ST_pink_10502.png",
             "info": "Step-Through Design: Ride with Ease"
           }
         },
@@ -141,23 +141,23 @@
           "type": "slide",
           "settings": {
             "product": "ec-1-st-1",
-            "product_image": "shopify:\/\/shop_images\/EC-1-ST_156e7d28-913a-4c59-b0c0-127e7cba1e75.png",
+            "product_image": "shopify:\/\/shop_images\/EC-ST_3de72fa5-2376-4677-b24f-0e51c604311a.png",
             "info": "Step-Through Design: Ride with Ease"
           }
         },
         "265ae58e-bbd5-431e-950a-654097cb3d2c": {
           "type": "slide",
           "settings": {
-            "product": "heybike-ec-1",
-            "product_image": "shopify:\/\/shop_images\/EC-1_e0ada7b4-10f3-42f9-ac93-3527255d4a64.png",
+            "product": "ec-1",
+            "product_image": "shopify:\/\/shop_images\/EC_1_white_right1050.png",
             "info": "Meet your needs for commuting"
           }
         },
         "74434e2d-7316-4cea-a46d-2fe1337dab28": {
           "type": "slide",
           "settings": {
-            "product": "heybike-ec-1",
-            "product_image": "shopify:\/\/shop_images\/EC-1-_-1_7999a1b7-7e79-4820-8a71-df49f3ad9562.png",
+            "product": "ec-1",
+            "product_image": "shopify:\/\/shop_images\/EC-1_2083d25a-faf2-4bee-aa73-4e1f60f87fbf.png",
             "info": "Meet your needs for commuting"
           }
         }
@@ -180,6 +180,7 @@
     },
     "6466a547-b260-459b-b173-ee05a2e100ae": {
       "type": "logo-slider",
+      "disabled": true,
       "blocks": {
         "6029181d-3f62-44e0-aa3e-438b6cddb31c": {
           "type": "slide",
@@ -242,7 +243,7 @@
         "top_padding": "large",
         "bottom_padding": "small",
         "style": "default",
-        "bg_img": "shopify:\/\/shop_images\/1280x422.jpg",
+        "bg_img": "shopify:\/\/shop_images\/2_713bb8d5-3534-43c1-9739-098f49500741.png",
         "bg_color": "",
         "text_color": "#ffffff"
       }
@@ -293,11 +294,11 @@
 
       ],
       "settings": {
-        "top_padding": "large",
+        "top_padding": "none",
         "bottom_padding": "large",
         "bg_color": "#f3f5f9",
         "title": "Go Green with Heybike",
-        "image": "shopify:\/\/shop_images\/40x400.png",
+        "image": "shopify:\/\/shop_images\/7d1092826674963ad143e87bf6fb8dcd.jpg",
         "image_mb": "shopify:\/\/shop_images\/683d8ad056250280ab7d53259d3da6aa.png"
       }
     },
@@ -364,9 +365,7 @@
             "layout": "right",
             "title": "Smarttech and APP",
             "text": "<p>Your amazing rides deserve a journal! Connect your bike to the HEYBIKE App, and build an impressive mileage count!<\/p>",
-            "bottom_logo": "shopify:\/\/shop_images\/app-store.png",
             "logo_url": "",
-            "bottom_logo2": "shopify:\/\/shop_images\/google-play.png",
             "logo_url2": "",
             "button_label": "",
             "button_link": "\/",
@@ -467,12 +466,22 @@
             "text": "<p>Buy with Confidence<\/p>",
             "texturl": ""
           }
+        },
+        "32d5e282-cf64-4a7b-bc5f-125a7c64fd80": {
+          "type": "text_block",
+          "settings": {
+            "icons": "at-truck-l",
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to display your store information<\/p>",
+            "texturl": ""
+          }
         }
       },
       "block_order": [
         "1561784085337-0",
         "1561784085337-2",
-        "1561784085337-1"
+        "1561784085337-1",
+        "32d5e282-cf64-4a7b-bc5f-125a7c64fd80"
       ],
       "custom_css": [
         ".sec-ttl .h3,div.sec-ttl p {color: #fff;}"
@@ -487,7 +496,7 @@
         "sec_bg_clr": "#1d1d1d",
         "hide_mobile": false,
         "title": "Superb Bikes. Superior Service.",
-        "subtitle": "Exceeding Expectations with Unparalleled Customer Care",
+        "subtitle": "Responsive and Reliable Customer Support",
         "style": "style1",
         "icon-type": "icon",
         "icons_clr": "#ffffff",
