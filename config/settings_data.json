@@ -102,7 +102,7 @@
     "announcement": true,
     "announcement_mb": false,
     "announcement_txt": "<b>Nouvel Arrivage ! Ne manquez pas le premier cadeau de l'été !<\/b>",
-    "announcement_link": "shopify:\/\/collections\/electric-bike",
+    "announcement_link": "https:\/\/heybike.fr\/collections\/velo-electrique",
     "annouance_bg": "#121212",
     "annouance_fs": 11,
     "annouance_pd": "style2",
