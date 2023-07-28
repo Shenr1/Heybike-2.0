@@ -430,7 +430,7 @@
       "settings": {
         "top_padding": "none",
         "bottom_padding": "none",
-        "bg_color": "#E8EBF0",
+        "bg_color": "#e8ebf0",
         "full_width": true,
         "img": "shopify:\/\/shop_images\/EC1_ST-PC-DE-01.jpg",
         "img_mb": "shopify:\/\/shop_images\/EC1_ST-M-DE-01.jpg"
@@ -784,7 +784,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/App_770x680_89347628-9eb3-4b21-ad0f-fb1e54f3ef41.png",
             "layout": "right",
-            "title": "Smarttech and APP",
+            "title": "Smarttech und APP",
             "text": "<p>Deine tollen Fahrten verdienen ein Tagebuch! Verbinde dein Fahrrad mit der HEYBIKE App und erstelle einen beeindruckenden Kilometerstand!<\/p>",
             "logo_url": "",
             "logo_url2": "",
