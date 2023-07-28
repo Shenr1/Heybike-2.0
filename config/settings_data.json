@@ -99,7 +99,7 @@
     "text_link": "#444",
     "text_link_hv": "#aaaaaa",
     "color_borders": "#eeeeee",
-    "announcement": true,
+    "announcement": false,
     "announcement_mb": false,
     "announcement_txt": "<b>Neu eingetroffen! Verpassen Sie nicht das erste Geschenk des Sommers!<\/b>",
     "announcement_link": "shopify:\/\/collections\/electric-bike",
