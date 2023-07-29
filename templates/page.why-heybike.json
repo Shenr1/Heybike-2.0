@@ -385,8 +385,8 @@
           "type": "text_block",
           "settings": {
             "icons": "at-chat",
-            "title": "30-Tage-Testversion",
-            "text": "<p>Kaufen Sie mit Zuversicht<\/p>",
+            "title": "30 Tage Rückgaberecht",
+            "text": "<p>Kaufen Sie mit Sicherheit<\/p>",
             "texturl": ""
           }
         },
@@ -474,6 +474,7 @@
     },
     "81a20925-7fed-4824-afe4-e930c15adf92": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "title": "Newsletter",
         "subtitle": "Melden Sie sich an, um auf dem Laufenden zu bleiben. Sie erhalten Updates, Zugang zu exklusiven Angeboten und mehr.",
