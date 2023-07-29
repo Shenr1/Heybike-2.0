@@ -250,6 +250,7 @@
     },
     "8ac0dd31-ebc0-46e2-867c-a7d6e2e0fd90": {
       "type": "data-statistics",
+      "disabled": true,
       "blocks": {
         "55af95fe-1f67-44a9-922b-0a20b4838325": {
           "type": "slide",

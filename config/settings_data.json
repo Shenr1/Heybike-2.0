@@ -412,7 +412,7 @@
               "show_icons": false,
               "show_socials": false,
               "socials_ttl": "Stay Connected",
-              "width": "wd16-md"
+              "width": "wd20-md"
             }
           },
           "1558678581777": {
@@ -420,7 +420,7 @@
             "settings": {
               "title": "Entdecken",
               "menulinks": "produkte",
-              "width": "wd16-md"
+              "width": "wd20-md"
             }
           },
           "1561010652330": {
@@ -428,7 +428,7 @@
             "settings": {
               "title": "Über uns",
               "menulinks": "ber-uns",
-              "width": "wd16-md"
+              "width": "wd20-md"
             }
           },
           "1558678570770": {
@@ -436,11 +436,12 @@
             "settings": {
               "title": "Hilfe",
               "menulinks": "dienst",
-              "width": "wd16-md"
+              "width": "wd20-md"
             }
           },
           "4e102e40-8900-4358-895e-37dd5ac9809b": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "Gemeinschaft",
               "menulinks": "mehr",
@@ -449,6 +450,7 @@
           },
           "1561010492149": {
             "type": "newsletter",
+            "disabled": true,
             "settings": {
               "newltr_align": false,
               "title": "Melden SIe für unseren Newsletter an",
