@@ -39,6 +39,14 @@
             "bm": 20
           }
         },
+        "4fcf895f-7fd7-4916-b9e8-f443e3782764": {
+          "type": "customc",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<div class=\"flex items-center\">\n    <img class=\"mr-4\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0727\/4535\/3500\/files\/klama_50x_d45af387-b200-4d45-bbd0-12c8ca24a6f6.png?v=1690597910\" alt=\"\">\n    <p>\n      Zahle 3263 e \/Mo. Zu 12,90% Sollzinssatz.\n      <br>\n      <a style=\"text-decoration: underline;\" href=\"https:\/\/www.klarna.com\/de\/\">Mehr erfahren<\/a>\n    <\/p>\n  <\/div>",
+            "bm": 15
+          }
+        },
         "43d9e0cf-f5b3-4270-bd73-3845bf580da3": {
           "type": "more-color",
           "settings": {
@@ -138,6 +146,7 @@
       "block_order": [
         "title",
         "price",
+        "4fcf895f-7fd7-4916-b9e8-f443e3782764",
         "43d9e0cf-f5b3-4270-bd73-3845bf580da3",
         "product-form",
         "f7c3c390-bede-4d30-bdcc-eaab0f661f2a",
