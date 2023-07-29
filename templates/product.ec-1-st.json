@@ -49,9 +49,8 @@
         },
         "3dede891-3e2e-4644-ae5c-e18f08d47125": {
           "type": "customc",
-          "disabled": true,
           "settings": {
-            "custom_liquid": "<div class=\"flex items-center\">\n    <img class=\"mr-4\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0727\/4535\/3500\/files\/klama_50x_d45af387-b200-4d45-bbd0-12c8ca24a6f6.png?v=1690597910\" alt=\"\">\n    <p>\n      Zahle 3263 e \/Mo. Zu 12,90% Sollzinssatz.\n      <br>\n      <a style=\"text-decoration: underline;\" href=\"\/\">Mehr erfahren<\/a>\n    <\/p>\n  <\/div>",
+            "custom_liquid": "<div class=\"flex items-center\">\n    <img class=\"mr-4\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0727\/4535\/3500\/files\/klama_50x_d45af387-b200-4d45-bbd0-12c8ca24a6f6.png?v=1690597910\" alt=\"\">\n    <p>\n      Zahle 3263 e \/Mo. Zu 12,90% Sollzinssatz.\n      <br>\n      <a style=\"text-decoration: underline;\" href=\"https:\/\/www.klarna.com\/de\/jetzt-kaufen-spaeter-bezahlen\/\">Mehr erfahren<\/a>\n    <\/p>\n  <\/div>",
             "bm": 15
           }
         },
