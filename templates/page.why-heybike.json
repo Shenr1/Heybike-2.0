@@ -9,7 +9,8 @@
         "tb_height": 350,
         "mb_height": 250,
         "parallax_scroll": false,
-        "image": "shopify:\/\/shop_images\/contact_banner.webp",
+        "image": "shopify:\/\/shop_images\/Brawn.jpg",
+        "mb_image": "shopify:\/\/shop_images\/Brawn.jpg",
         "alignment": "center",
         "pretext": "",
         "pcl": "#111111",
@@ -377,7 +378,7 @@
           "settings": {
             "icons": "at-customer-service",
             "title": "Schnelle Unterstützung",
-            "text": "<p>E-Mail- und Telefon-Service<\/p>",
+            "text": "<p>E-Mail und Telefon-Service<\/p>",
             "texturl": ""
           }
         },
