@@ -217,7 +217,7 @@
             "image": "shopify:\/\/shop_images\/5_b92bd0a7-dfcb-43c0-a830-ac43b161cc8c.jpg",
             "layout": "right",
             "title": "Unser Auftrag",
-            "text": "<p>Die Bereitstellung eines weithin zugänglichen, erschwinglichen und ultimativen elektrischen Transportmittels für jedermann.<\/p>",
+            "text": "<p>Die Bereitstellung eines weithin zugänglichen, erschwinglichen und qualitativen<strong> <\/strong>elektrischen Transportmittels für jedermann.<\/p>",
             "logo_url": "",
             "logo_url2": "",
             "button_label": "",
@@ -317,6 +317,7 @@
     },
     "f6dadf45-ce66-41ec-8300-28bcc40b3eef": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "title": "Newsletter",
         "subtitle": "Melden Sie sich an, um auf dem Laufenden zu bleiben. Sie erhalten Updates, Zugang zu exklusiven Angeboten und mehr.",
