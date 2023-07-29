@@ -303,7 +303,7 @@
             "type": "dropdown",
             "settings": {
               "title": "Zubehör",
-              "url": "shopify:\/\/collections\/zubehor",
+              "url": "shopify:\/\/collections\/zubehor-1",
               "mm_linklist": "ausr-stung"
             }
           },
