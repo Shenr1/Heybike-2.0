@@ -63,7 +63,7 @@
           "type": "shiptime",
           "settings": {
             "estimate": "35\/45",
-            "msg": "<i class=\"at at-clock-r\"><\/i> Estimated delivery between [startdate] <b>-<b> [enddate].<\/b><\/b>",
+            "msg": "<i class=\"at at-clock-r\">  Période de prévente : Du 5 au 31 août\n<br>\n<i class=\"at at-clock-r\"><\/i> Estimated delivery between [startdate] <b>-<b> [enddate].<\/b><\/b><\/i>",
             "bm": 15
           }
         },
@@ -435,7 +435,7 @@
       "settings": {
         "top_padding": "none",
         "bottom_padding": "none",
-        "bg_color": "#E8EBF0",
+        "bg_color": "#e8ebf0",
         "full_width": true,
         "img": "shopify:\/\/shop_images\/lQDPJxdIrREqBNjNA3DNB4CwKZYfiv-kgeMEtakFVwASAA_1920_880.jpg",
         "img_mb": "shopify:\/\/shop_images\/lQDPJwzf230FN1jNA4TNAu6w9I4o_f34vPMEtakFhsASAA_750_900.jpg"
