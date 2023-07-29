@@ -853,6 +853,21 @@
         "section_cov": false,
         "sec_bg_clr": "#fafafa"
       }
+    },
+    "1690604426d31965d4": {
+      "type": "apps",
+      "blocks": {
+        "a2c5c4f1-6fe5-4d94-b18c-a5d5ee9901ae": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "a2c5c4f1-6fe5-4d94-b18c-a5d5ee9901ae"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -878,6 +893,7 @@
     "a96d37af-dc7b-43f1-8f0b-23018e00eaf4",
     "22f50d3e-5443-46e2-a356-2469bdea240d",
     "dd234409-19b7-4258-8b98-44063da04a59",
-    "e3a92eba-3e67-4b48-9a4d-6d63ed097c70"
+    "e3a92eba-3e67-4b48-9a4d-6d63ed097c70",
+    "1690604426d31965d4"
   ]
 }
