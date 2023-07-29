@@ -9,6 +9,7 @@
         "tb_height": 350,
         "mb_height": 250,
         "parallax_scroll": false,
+        "image": "shopify:\/\/shop_images\/16.jpg",
         "alignment": "center",
         "pretext": "",
         "pcl": "#333333",
