@@ -35,14 +35,14 @@
         "title": "",
         "tcl": "#000000",
         "tfs": 32,
-        "tfsm": 100,
+        "tfsm": 50,
         "tff": "ft2",
         "tfw": "700",
         "tlh": 1.2,
         "richtxt": "<p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
         "cl": "#000000",
         "fs": 15,
-        "fsm": 85,
+        "fsm": 50,
         "lh": 1.6,
         "btntxt": "Read More",
         "btnurl": "",
@@ -62,7 +62,6 @@
         "1633702782070ac30c-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/fashion_787be7e7-7c09-4366-b4a8-226812bed4ea.jpg",
             "imgurl": "",
             "width": "100%",
             "alignment": "center"
@@ -261,7 +260,6 @@
         "d7503bf8-9d57-4a7b-8aac-89862c84effa": {
           "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/demo2-about-3.jpg",
             "title": "ANGELA ROBOT",
             "font-size": "h6",
             "text": "<p>FOUNDER & CEO<\/p>",
@@ -279,7 +277,6 @@
         "31b173ca-f68b-4d1f-9477-ee4ab1522adc": {
           "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/demo2-about-2.jpg",
             "title": "JULIA WILLE",
             "font-size": "h6",
             "text": "<p>Co. FOUNDER<\/p>",
@@ -297,7 +294,6 @@
         "38032b1b-fbc4-4576-835b-e614f3b86e0f": {
           "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/demo2-about-1.jpg",
             "title": "STEVE SMITH",
             "font-size": "h6",
             "text": "<p>DASHION DESIGNER<\/p>",
