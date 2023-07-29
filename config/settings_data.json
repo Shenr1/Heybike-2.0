@@ -404,7 +404,7 @@
             "settings": {
               "title": "CONTACTEZ-NOUS",
               "logo-width": 150,
-              "address": "Horaires d'ouverture : \n<br>8h - 20h, UCT+1\/Heure de Paris\n<br>\nFlinger Broich 18, 40235 Duesseldorf, Germany",
+              "address": "Flinger Broich 18, 40235 Duesseldorf, Germany",
               "phone": "+44 75 97 78 85 13",
               "email": "sales.fr@heybike.com",
               "show_icons": false,
@@ -439,7 +439,6 @@
           },
           "4e102e40-8900-4358-895e-37dd5ac9809b": {
             "type": "menu",
-            "disabled": true,
             "settings": {
               "title": "SOCIÉTÉ",
               "menulinks": "societe",
@@ -448,7 +447,6 @@
           },
           "1561010492149": {
             "type": "newsletter",
-            "disabled": true,
             "settings": {
               "newltr_align": false,
               "title": "LETTRE D'INFORMATION",
