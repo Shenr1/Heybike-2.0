@@ -303,7 +303,7 @@
             "settings": {
               "title": "Equipment",
               "url": "shopify:\/\/collections\/equipment",
-              "mm_linklist": "accessories"
+              "mm_linklist": "equipment"
             }
           },
           "eaf15dca-1822-4a37-8c94-bd24e939b788": {
@@ -312,7 +312,7 @@
             "settings": {
               "title": "Equipment",
               "url": "shopify:\/\/collections\/equipment",
-              "mm_linklist": "accessories",
+              "mm_linklist": "equipment",
               "img_url1": "shopify:\/\/shop_images\/3_44e6a839-6156-450d-9e85-01671a3bb37c.jpg",
               "text_main1": "",
               "text_sub1": "Accessories",
