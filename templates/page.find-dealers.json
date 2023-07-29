@@ -39,7 +39,7 @@
         "tff": "ft2",
         "tfw": "700",
         "tlh": 1.2,
-        "richtxt": "<p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+        "richtxt": "<p>Vous ne savez toujours pas si le vélo répond à vos besoins personnels ? Venez visiter un magasin en dur ! Vous y trouverez les vélos électriques Heybike et le service Test Ride est désormais disponible. Si vous êtes satisfait du vélo, vous pouvez l'acheter directement. Les vélos électriques achetés dans ces magasins sont également couverts par la garantie Heybike.<br\/><br\/>Remarque : veuillez nous contacter ou appeler le magasin hors ligne pour savoir si le modèle que vous souhaitez est disponible.<\/p>",
         "cl": "#000000",
         "fs": 15,
         "fsm": 50,
@@ -52,12 +52,13 @@
         "btn-style2": "btn",
         "btn-size-desk": "btn-sm",
         "btn-size-mob": "mob-btn-sm",
-        "txt_align": "tc",
+        "txt_align": "tl",
         "text_clr": "#111111"
       }
     },
     "1633702782070ac30c": {
       "type": "custom-content",
+      "disabled": true,
       "blocks": {
         "1633702782070ac30c-1": {
           "type": "image",
@@ -239,6 +240,7 @@
     },
     "163370338231fb431a": {
       "type": "custom-content",
+      "disabled": true,
       "blocks": {
         "163370338231fb431a-0": {
           "type": "text",
