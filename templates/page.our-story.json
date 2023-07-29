@@ -268,7 +268,6 @@
     },
     "63dbf790-4eef-47c2-a483-6e22cad4b8ad": {
       "type": "featured-blog",
-      "disabled": true,
       "settings": {
         "title": "Blog posts",
         "subtitle": "Describe your products, collection, content etc...",
