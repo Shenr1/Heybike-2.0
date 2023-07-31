@@ -241,7 +241,7 @@
       "settings": {
         "top_padding": "large",
         "bottom_padding": "small",
-        "style": "style1",
+        "style": "default",
         "bg_img": "shopify:\/\/shop_images\/2.png",
         "bg_color": "",
         "text_color": "#ffffff"
