@@ -304,16 +304,15 @@
     },
     "9097e021-5397-4a21-8d22-e6f121fbda8f": {
       "type": "image-text",
-      "disabled": true,
       "settings": {
         "top_padding": "large",
         "bottom_padding": "large",
         "bg_color": "#000000",
         "bg_img": "shopify:\/\/shop_images\/C.jpg",
-        "text_main": "Händler in Ihrer Nähe finden",
+        "text_main": "Finden Sie einen Händler in Ihrer Nähe",
         "text_sub": "Probefahrt & Direktkauf",
         "text_btn": "Mehr lesen",
-        "url": ""
+        "url": "shopify:\/\/pages\/werden-sie-handler"
       }
     },
     "a2d3fa24-4809-40c0-b63d-a720d6b02f2c": {
