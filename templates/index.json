@@ -180,10 +180,10 @@
     },
     "6466a547-b260-459b-b173-ee05a2e100ae": {
       "type": "logo-slider",
-      "disabled": true,
       "blocks": {
         "6029181d-3f62-44e0-aa3e-438b6cddb31c": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "text_main": "\"The HeyBike Mars is a special type of fat tire e-bike that folds down for easier transportation, meaning you can take that ride-everywhere fun on the go with you.\"",
             "text_sub": "- ELECTREK",
@@ -192,6 +192,7 @@
         },
         "bfd88edc-65df-4713-b474-231d6eb30b82": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "text_main": "\"The Heybike Mars hits a good price point and is a lot of fun to ride.\"",
             "text_sub": "- MSN",
@@ -200,6 +201,7 @@
         },
         "4154eb24-d1e7-4988-890f-30696b81b6ea": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "text_main": "\"When it comes to solid, folding e-bikes, HeyBike has got game, with the manufacturer presenting us with a wide range of fat-tire wheelers.\"",
             "text_sub": "- AUTOEVOLUTION",
@@ -208,6 +210,7 @@
         },
         "32c33951-7d78-4c30-9e61-72ec75ab3884": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "text_main": "\"The Heybike Cityrun stands out for safety and security features, and even has a place to put your water bottle. It's the perfect e-bike for commuting.\"",
             "text_sub": "- ZDNET",
@@ -216,6 +219,7 @@
         },
         "707889c1-1ed2-47d6-b2ea-e60f9ad69530": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "text_main": "\"The Brawn from Heybike is a motorcycle inspired off-road beast.\"",
             "text_sub": "- electrifiedreviews",
@@ -224,6 +228,7 @@
         },
         "b4d6a997-74f4-4a1a-aa63-e64de9416440": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "text_main": "MARS is a good choice for those people who want to use their bikes in multiple scenarios, like commuting and outdoor off-road.",
             "text_sub": "- Techtimes",
