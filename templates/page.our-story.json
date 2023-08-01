@@ -215,8 +215,9 @@
         },
         "4e540039-0bab-428a-b786-6f170a174a7c": {
           "type": "row",
-          "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/10_deb0062c-eb41-4a91-b1d3-4b200bba602d.jpg",
+            "image_mb": "shopify:\/\/shop_images\/10_deb0062c-eb41-4a91-b1d3-4b200bba602d.jpg",
             "layout": "right",
             "title": "Innovative E-Bike-Lösung",
             "text": "<p>Im Zuge des technologischen Fortschritts haben wir alle den Aufstieg von Elektrofahrrädern und ihre Auswirkungen auf den modernen Verkehr miterlebt. Noch vor wenigen Jahren befand sich diese Technologie in einer frühen Phase ihrer Einführung. Dennoch finden wir, dass elektrische Transportmöglichkeiten viel Arbeit erfordern, um sie in die Hände zu bekommen, und zu hohen Preisen angeboten werden. Heybike hat es sich zur Aufgabe gemacht, Menschen auf der ganzen Welt einen weithin zugänglichen und erschwinglichen elektrischen Transport zu ermöglichen.<\/p>",
