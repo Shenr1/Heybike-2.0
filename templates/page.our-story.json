@@ -154,7 +154,7 @@
             "image": "shopify:\/\/shop_images\/7.jpg",
             "image_mb": "shopify:\/\/shop_images\/7.jpg",
             "layout": "right",
-            "title": "Über uns",
+            "title": "Über Heybike",
             "text": "<p>Während er in einem hohen Bürogebäude arbeitete, hatte unser Gründer Jason eine Erkenntnis, die sein Leben für immer verändern sollte: Er konnte es nicht mehr schaffen, zu pendeln. Die ständigen Staus und Verspätungen im öffentlichen Nahverkehr trieben ihn an, eine bessere Alternative zu finden. Jason gründete Heybike in Zusammenarbeit mit William, einer anerkannten Autorität auf dem Gebiet der Fahrräder. Ihre erste Erfindung, das Cityscape Electric Cruiser Bike, erleichterte das Pendeln und integrierte das Fahrradfahren in das tägliche Leben. Heybike hat inzwischen über 40 E-Bike-Modelle im Angebot, darunter Cruiser, Mountainbikes, Falträder, Citybikes und Fahrräder mit dicken Reifen. Definieren Sie mit uns das Pendeln neu und entdecken Sie die Freude am Fahren.<\/p>",
             "logo_url": "",
             "logo_url2": "",
@@ -197,8 +197,8 @@
             "image": "shopify:\/\/shop_images\/18.jpg",
             "image_mb": "shopify:\/\/shop_images\/18.jpg",
             "layout": "left",
-            "title": "Innovative E-Bike-Lösung",
-            "text": "<p>Im Zuge des technologischen Fortschritts haben wir alle den Aufstieg von Elektrofahrrädern und ihre Auswirkungen auf den modernen Verkehr miterlebt. Noch vor wenigen Jahren befand sich diese Technologie in einer frühen Phase ihrer Einführung. Dennoch finden wir, dass elektrische Transportmöglichkeiten viel Arbeit erfordern, um sie in die Hände zu bekommen, und zu hohen Preisen angeboten werden. Heybike hat es sich zur Aufgabe gemacht, Menschen auf der ganzen Welt einen weithin zugänglichen und erschwinglichen elektrischen Transport zu ermöglichen.<\/p>",
+            "title": "Über heybike.eu",
+            "text": "<p>Mit der Mission, das Pendeln neu zu definieren und eine Kultur des umweltfreundlichen Transports zu fördern, begab sich Heybike auf eine neue Reise über den Atlantik. Heybike.eu war geboren und brachte die renommierte Marke für Elektrofahrräder auf den dynamischen deutschen Markt. Wir sind stolz darauf, der offizielle Vertriebs- und Werbezweig von Heybike Inc. zu sein. Das Ziel des Unternehmens ist es, den Enthusiasten in Deutschland die Freude am Radfahren zu vermitteln.<br\/><br\/>Heybike ist heute ein Symbol für Freiheit, Abenteuer und nachhaltige Mobilität. Mit seinem unerschütterlichen Engagement für Qualität, Innovation und Kundenzufriedenheit hat sich Heybike einen Platz in den Herzen von Fahrern auf der ganzen Welt erobert. Begleiten Sie uns auf unserer elektrisierenden Expedition, während wir das Pendeln in der Stadt revolutionieren und den Weg für eine umweltfreundlichere, aufregendere Zukunft ebnen.<br\/><br\/>Entdecken Sie mit Heybike den Nervenkitzel des Radfahrens und lassen Sie uns gemeinsam eine Zukunft annehmen, in der die Freude an der Reise genauso berauschend ist wie das Ziel.<\/p>",
             "logo_url": "",
             "logo_url2": "",
             "button_label": "",
@@ -213,12 +213,33 @@
             "btnbd": "#000000"
           }
         },
+        "4e540039-0bab-428a-b786-6f170a174a7c": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "layout": "right",
+            "title": "Innovative E-Bike-Lösung",
+            "text": "<p>Im Zuge des technologischen Fortschritts haben wir alle den Aufstieg von Elektrofahrrädern und ihre Auswirkungen auf den modernen Verkehr miterlebt. Noch vor wenigen Jahren befand sich diese Technologie in einer frühen Phase ihrer Einführung. Dennoch finden wir, dass elektrische Transportmöglichkeiten viel Arbeit erfordern, um sie in die Hände zu bekommen, und zu hohen Preisen angeboten werden. Heybike hat es sich zur Aufgabe gemacht, Menschen auf der ganzen Welt einen weithin zugänglichen und erschwinglichen elektrischen Transport zu ermöglichen.<\/p>",
+            "logo_url": "",
+            "logo_url2": "",
+            "button_label": "Shop Now",
+            "button_link": "\/",
+            "text_align": "text-left",
+            "text_center": false,
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "#f5f5f5",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
+        },
         "679037ac-fdf7-4af6-9a62-df6890f32c60": {
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/15.jpg",
             "image_mb": "shopify:\/\/shop_images\/15.jpg",
-            "layout": "right",
+            "layout": "left",
             "title": "Unser Auftrag",
             "text": "<p>Die Bereitstellung eines weithin zugänglichen, erschwinglichen und qualitativen<strong> <\/strong>elektrischen Transportmittels für jedermann.<\/p>",
             "logo_url": "",
@@ -240,7 +261,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/13.jpg",
             "image_mb": "shopify:\/\/shop_images\/13.jpg",
-            "layout": "left",
+            "layout": "right",
             "title": "Unsere Vision",
             "text": "<p>Ein besseres, grünes und bequemes Leben für so viele Menschen wie möglich zu schaffen.<\/p><p><strong>Email<\/strong>: support.de@heybike.com<\/p><p><strong>Kontakt Adresse<\/strong>: Flinger Broich 18, 40235 Duesseldorf, Germany<\/p><p><strong>Kontakt Nummer:<\/strong> (+49)0152 2388 6783<\/p><p><\/p>",
             "logo_url": "",
@@ -262,6 +283,7 @@
         "1633769564023b4dfb-0",
         "8f0cf8c3-2c69-469b-985b-807b1936bb22",
         "2e105c30-ca60-49b7-b2de-d12191fb8727",
+        "4e540039-0bab-428a-b786-6f170a174a7c",
         "679037ac-fdf7-4af6-9a62-df6890f32c60",
         "3a7419a4-8a61-43ec-b2d7-43113cc5cbdc"
       ],
