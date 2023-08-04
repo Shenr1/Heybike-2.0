@@ -320,7 +320,7 @@
         "c4bf62db-57aa-4884-a373-6a2c5aeb6ff2": {
           "type": "item",
           "settings": {
-            "item_title": "7 Speed",
+            "item_title": "7 Gang",
             "item_dec": "Shimano"
           }
         },
@@ -648,9 +648,9 @@
         "layout": "textImage",
         "img_size": "small",
         "img": "shopify:\/\/shop_images\/7ecc40279fd871bac0e0d11e210a632b_78117ecc-f97c-4d5f-8c11-f5fa7b7cae8f.jpg",
-        "text_main": "Herausnehmbare Batterie",
+        "text_main": "Herausnehmbarer Akku",
         "text_sub": "Dieser Akku von Samsung wurde entwickelt, um Ihre Abenteuer zu unterstützen und bietet außergewöhnliche Leistung und Effizienz.",
-        "text_dec": "Entfesseln Sie Ihre Freiheit mit einer beeindruckenden Reichweite von 100 km mit einer einzigen Akkuladung, so dass Sie grenzenlos erkunden können.",
+        "text_dec": "Mit einer Reichweite von bis zu 80 km mit einer einzigen Ladung können Sie Ihrer Freiheit freien Lauf lassen und grenzenlos erkunden.",
         "bottom_line": true
       }
     },
