@@ -164,7 +164,6 @@
     },
     "tabs": {
       "type": "product-tabs",
-      "disabled": true,
       "blocks": {
         "descriptions": {
           "type": "desc",
@@ -207,6 +206,7 @@
         "ca4b9cc3-1de5-4957-9152-20d832cd0b41",
         "9946dcbc-20e7-49f8-b126-4356456b2dab"
       ],
+      "disabled": true,
       "settings": {
         "section_width": false,
         "tab_style": "1",
@@ -441,109 +441,6 @@
         "img_mb": "shopify:\/\/shop_images\/lQDPJwzf230FN1jNA4TNAu6w9I4o_f34vPMEtakFhsASAA_750_900.jpg"
       }
     },
-    "04a780d1-1cb7-4996-9fb2-2569ccbd0bda": {
-      "type": "banner-with-text",
-      "disabled": true,
-      "blocks": {
-        "template--19281882448166__04a780d1-1cb7-4996-9fb2-2569ccbd0bda-16891284399ec3de73-0": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_aef5375f-da8a-4a18-ad42-fd2c89b2f0d8.jpg",
-            "image_mb": "shopify:\/\/shop_images\/1_aef5375f-da8a-4a18-ad42-fd2c89b2f0d8.jpg",
-            "layout": "left",
-            "title": "Simple à conduire",
-            "text": "<p>EC 1 se déplace sans effort dans les rues encombrées de la ville comme une antilope et peut accéder à des zones inaccessibles aux voitures.<\/p>",
-            "logo_url": "",
-            "logo_url2": "",
-            "button_label": "",
-            "button_link": "",
-            "text_align": "text-left",
-            "text_center": false,
-            "tcl": "#000000",
-            "cl": "#000000",
-            "bg": "rgba(0,0,0,0)",
-            "btncl": "#ffffff",
-            "btnbg": "#000000",
-            "btnbd": "#000000"
-          }
-        },
-        "3419b641-4a7d-4e5b-926c-5cba713e5c01": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/10_437e79c4-70b1-4575-8763-d92391d00c2b.jpg",
-            "image_mb": "shopify:\/\/shop_images\/10_437e79c4-70b1-4575-8763-d92391d00c2b.jpg",
-            "layout": "right",
-            "title": "Transporter avec facilité",
-            "text": "<p>Corps léger, construction simple, Emmenez votre EC 1 partout où vous allez et sentez la puissance au bout de vos doigts. Profitez d'une mobilité sans effort et d'une performance sans compromis.<\/p>",
-            "logo_url": "",
-            "logo_url2": "",
-            "button_label": "",
-            "button_link": "",
-            "text_align": "text-left",
-            "text_center": false,
-            "tcl": "#000000",
-            "cl": "#000000",
-            "bg": "rgba(0,0,0,0)",
-            "btncl": "#ffffff",
-            "btnbg": "#000000",
-            "btnbd": "#000000"
-          }
-        },
-        "55926dd2-98be-4c80-bed0-1a55233fbbe8": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/12_cbdb6a1d-bd42-4c66-932f-3d773603ccb9.jpg",
-            "image_mb": "shopify:\/\/shop_images\/12_cbdb6a1d-bd42-4c66-932f-3d773603ccb9.jpg",
-            "layout": "left",
-            "title": "Une puissance inégalée",
-            "text": "<p>Faites l'expérience d'une mobilité sans faille grâce aux moteurs et capteurs intégrés de pointe de Heybike, conçus pour naviguer sans effort sur n'importe quel terrain.<\/p>",
-            "logo_url": "",
-            "logo_url2": "",
-            "button_label": "",
-            "button_link": "",
-            "text_align": "text-left",
-            "text_center": false,
-            "tcl": "#000000",
-            "cl": "#000000",
-            "bg": "rgba(0,0,0,0)",
-            "btncl": "#ffffff",
-            "btnbg": "#000000",
-            "btnbd": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "template--19281882448166__04a780d1-1cb7-4996-9fb2-2569ccbd0bda-16891284399ec3de73-0",
-        "3419b641-4a7d-4e5b-926c-5cba713e5c01",
-        "55926dd2-98be-4c80-bed0-1a55233fbbe8"
-      ],
-      "settings": {
-        "top_padding": "none",
-        "bottom_padding": "large",
-        "top-offeset": "default",
-        "section_style": "default",
-        "section_width": true,
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa",
-        "snow_effect": false,
-        "snow_style": "style1",
-        "tfs": 30,
-        "tfsm": 160,
-        "tff": "ft1",
-        "tfw": "700",
-        "tlh": 1.2,
-        "tmb": 15,
-        "tmbm": 10,
-        "fs": 14,
-        "fsm": 185,
-        "fw": "400",
-        "lh": 1.6,
-        "mb": 15,
-        "mbm": 10,
-        "btn-size-desk": "btn-md",
-        "btn-size-mob": "mob-btn-sm"
-      }
-    },
     "b5bc4525-2802-4e9d-acbe-44c6ddd2167c": {
       "type": "color-slider-full",
       "blocks": {
@@ -618,7 +515,7 @@
         "bg_color": "",
         "layout": "textImage",
         "img_size": "default",
-        "img": "shopify:\/\/shop_images\/7ecc40279fd871bac0e0d11e210a632b_94adc967-026a-460f-b24d-9712e9f3a5c0.jpg",
+        "img": "shopify:\/\/shop_images\/92e8c1bfc439f179824e55cb70ac9c62.gif",
         "text_main": "Batterie portable",
         "text_sub": "Conçue pour alimenter vos aventures, cette batterie Samsung offre des performances et une efficacité exceptionnelles.",
         "text_dec": "Avec une autonomie de 100 km avec une seule charge, vous pouvez laisser libre cours à votre liberté et explorer la région sans aucune restriction.",
@@ -648,21 +545,12 @@
             "item_title": "260 R",
             "item_dec": "RPM"
           }
-        },
-        "016bf994-f90c-4de3-bc7e-d52084038cdd": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "item_title": "360wh",
-            "item_dec": "Battery"
-          }
         }
       },
       "block_order": [
         "9fd2177b-abb0-41fe-919b-05236366cb6f",
         "bd530c13-0782-4c23-a156-1e0a11200db7",
-        "f4b077ec-d5f4-464e-a93c-199cc05db80b",
-        "016bf994-f90c-4de3-bc7e-d52084038cdd"
+        "f4b077ec-d5f4-464e-a93c-199cc05db80b"
       ],
       "settings": {
         "top_padding": "medium",
@@ -670,10 +558,54 @@
         "bg_color": "",
         "layout": "imageText",
         "img_size": "default",
-        "img": "shopify:\/\/shop_images\/e28a42c4475362c949415a1c17dcc923.jpg",
+        "img": "shopify:\/\/shop_images\/2c4257161e8d219f9023a0ec4bdf3737.gif",
         "text_main": "Moteur léger",
         "text_sub": "Faites l'expérience de la conduite ultime avec notre moteur léger de 250W, qui offre une stabilité exceptionnelle, une résistance aux bosses et aux chocs, un bruit et des vibrations minimes, un fonctionnement en douceur et une durée de vie impressionnante.",
         "text_dec": "Découvrez la différence d'un moteur conçu pour l'excellence et élevez votre expérience de conduite à de nouveaux sommets.",
+        "bottom_line": false
+      }
+    },
+    "fd910550-fc80-462e-9faf-734a80cca00a": {
+      "type": "image-list-text",
+      "blocks": {
+        "e06954c1-7528-40ea-af47-ffe8044bb3b6": {
+          "type": "item",
+          "settings": {
+            "item_title": "360wh",
+            "item_dec": "Battery"
+          }
+        },
+        "c5784f99-1a17-46c9-8290-68dd89f9cd7a": {
+          "type": "item",
+          "settings": {
+            "item_title": "360wh",
+            "item_dec": "Battery"
+          }
+        },
+        "0a5537a4-b5dc-44af-a6f0-92e5f996c537": {
+          "type": "item",
+          "settings": {
+            "item_title": "360wh",
+            "item_dec": "Battery"
+          }
+        }
+      },
+      "block_order": [
+        "e06954c1-7528-40ea-af47-ffe8044bb3b6",
+        "c5784f99-1a17-46c9-8290-68dd89f9cd7a",
+        "0a5537a4-b5dc-44af-a6f0-92e5f996c537"
+      ],
+      "disabled": true,
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "bg_color": "",
+        "layout": "textImage",
+        "img_size": "big",
+        "img": "shopify:\/\/shop_images\/541ed1bb627ce48df3e66bf0f98cb22c.gif",
+        "text_main": "Reframing The Future",
+        "text_sub": "With its streamlined body, the EC 1-ST moves freely through the crowded city streets like a gazelle, reaching places that are out of the reach of cars.",
+        "text_dec": "The low frame design is ideal for women, so they can wear their dresses and go shopping in style.",
         "bottom_line": false
       }
     },
@@ -1034,7 +966,6 @@
     },
     "22f50d3e-5443-46e2-a356-2469bdea240d": {
       "type": "logo-slider",
-      "disabled": true,
       "blocks": {
         "1db61a36-a277-4c68-acad-574b812f8fc6": {
           "type": "slide",
@@ -1084,6 +1015,7 @@
         "8be00180-92b5-454b-96c3-689113c2b127",
         "fd3ab8dd-5f81-4973-9544-5bf7bdfe28f3"
       ],
+      "disabled": true,
       "settings": {
         "top_padding": "none",
         "bottom_padding": "none",
@@ -1205,10 +1137,10 @@
     "9359a303-aa3a-4726-b58e-f9e8bc1ffa0c",
     "8d678092-ed3c-4b19-b148-f3786e86f187",
     "2e121755-aa26-48d4-910b-a8c729f69e81",
-    "04a780d1-1cb7-4996-9fb2-2569ccbd0bda",
     "b5bc4525-2802-4e9d-acbe-44c6ddd2167c",
     "a5253816-0531-4369-b476-7006b5b721a1",
     "57d28d3e-e7d1-4115-8f16-31ef4e965106",
+    "fd910550-fc80-462e-9faf-734a80cca00a",
     "532d629b-5414-439a-9833-fe4f04d408f2",
     "7ebb96f5-9c0e-43d8-a074-8d55d5984d36",
     "286ef3df-4b4b-4252-9fb2-4c7f64f4dda4",
