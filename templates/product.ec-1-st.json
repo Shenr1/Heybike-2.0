@@ -576,14 +576,14 @@
         "d1175b2f-4a1b-40c9-8dd7-6cfe1334bf71": {
           "type": "item",
           "settings": {
-            "item_title": "19.2kg",
-            "item_dec": "Poids"
+            "item_title": "　19.2kg",
+            "item_dec": "　　Poids"
           }
         },
         "b81b3484-7b6a-44d3-9247-36d53de2b33c": {
           "type": "item",
           "settings": {
-            "item_title": "17\"",
+            "item_title": "　17\"",
             "item_dec": "Genre de Faille"
           }
         }
