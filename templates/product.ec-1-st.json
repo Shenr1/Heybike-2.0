@@ -544,35 +544,6 @@
         "btn-size-mob": "mob-btn-sm"
       }
     },
-    "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "top-offeset": "default",
-        "top_padding": "none",
-        "bottom_padding": "medium",
-        "section_width": false,
-        "rounded": true,
-        "hide_mobile": false,
-        "snow_effect": false,
-        "snow_style": "style1",
-        "pad-desk": 55,
-        "pad-ipad": 15,
-        "pad-mbl": 10,
-        "video_url": "",
-        "mp4url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/14970270c5514f80a7d7c28535c32bb5.mp4",
-        "title": "",
-        "color_ttl": "#ffffff",
-        "tfs": 20,
-        "tfsm": 75,
-        "hide_text": false,
-        "btntxt": "",
-        "btnurl": "",
-        "hide_btn": false,
-        "btn-style": "btn",
-        "text_align": "left"
-      }
-    },
     "b5bc4525-2802-4e9d-acbe-44c6ddd2167c": {
       "type": "color-slider-full",
       "blocks": {
@@ -647,7 +618,7 @@
         "bg_color": "",
         "layout": "textImage",
         "img_size": "small",
-        "img": "shopify:\/\/shop_images\/7ecc40279fd871bac0e0d11e210a632b_78117ecc-f97c-4d5f-8c11-f5fa7b7cae8f.jpg",
+        "img": "shopify:\/\/shop_images\/f3a03e74d3a01933e274aabeb45978de.gif",
         "text_main": "Herausnehmbarer Akku",
         "text_sub": "Dieser Akku von Samsung wurde entwickelt, um Ihre Abenteuer zu unterstützen und bietet außergewöhnliche Leistung und Effizienz.",
         "text_dec": "Mit einer Reichweite von bis zu 80 km mit einer einzigen Ladung können Sie Ihrer Freiheit freien Lauf lassen und grenzenlos erkunden.",
@@ -690,11 +661,55 @@
         "bg_color": "",
         "layout": "imageText",
         "img_size": "default",
-        "img": "shopify:\/\/shop_images\/heybike_EC1_motor_7e8c19c5-710f-4207-bc9f-5490ebd1fdbe.jpg",
+        "img": "shopify:\/\/shop_images\/75ec678a97c25a4cae575457e811112b.gif",
         "text_main": "Leichter Motor",
         "text_sub": "Erleben Sie das ultimative Fahrgefühl mit unserem leichten 250-W-Motor, der hervorragende Stabilität, Widerstandsfähigkeit gegen Stöße und Erschütterungen, reibungslosen Betrieb und eine beeindruckende Lebensdauer bietet.",
         "text_dec": "Erleben Sie den Unterschied eines auf Spitzenleistung ausgelegten Motors und heben Sie Ihr Fahrerlebnis auf ein neues Niveau.",
         "bottom_line": true
+      }
+    },
+    "b28ef2e4-08b5-4a1c-abc3-31bde64a402c": {
+      "type": "image-list-text",
+      "blocks": {
+        "650af799-b29f-4f31-8357-83b7edfeaf48": {
+          "type": "item",
+          "settings": {
+            "item_title": "155-185cm",
+            "item_dec": "Körpergrößer"
+          }
+        },
+        "daa77636-082f-4a3b-9f32-55b9c29fdbe2": {
+          "type": "item",
+          "settings": {
+            "item_title": "19.2kg",
+            "item_dec": "Gewicht"
+          }
+        },
+        "c91efc2e-ecf5-4ce6-ab9f-0e97cf828e64": {
+          "type": "item",
+          "settings": {
+            "item_title": "360wh",
+            "item_dec": "Rahmen"
+          }
+        }
+      },
+      "block_order": [
+        "650af799-b29f-4f31-8357-83b7edfeaf48",
+        "daa77636-082f-4a3b-9f32-55b9c29fdbe2",
+        "c91efc2e-ecf5-4ce6-ab9f-0e97cf828e64"
+      ],
+      "disabled": true,
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "bg_color": "",
+        "layout": "textImage",
+        "img_size": "big",
+        "img": "shopify:\/\/shop_images\/f3a03e74d3a01933e274aabeb45978de.gif",
+        "text_main": "Reframing The Future",
+        "text_sub": "With its streamlined body, the EC 1-ST moves freely through the crowded city streets like a gazelle, reaching places that are out of the reach of cars.",
+        "text_dec": "The low frame design is ideal for women, so they can wear their dresses and go shopping in style.",
+        "bottom_line": false
       }
     },
     "532d629b-5414-439a-9833-fe4f04d408f2": {
@@ -1204,10 +1219,10 @@
     "9c9e9f37-ed21-476b-8dfa-a8cad368a4b4",
     "7ed5ea13-07ba-4d1f-8194-cc06bf936600",
     "67a8c06e-c717-4bd5-902e-29478d84cf91",
-    "6719cc1e-6044-4b7a-9d8e-6f39586bcaf4",
     "b5bc4525-2802-4e9d-acbe-44c6ddd2167c",
     "c9dbe5e5-19b2-4769-9fd9-a600c03bdb17",
     "57d28d3e-e7d1-4115-8f16-31ef4e965106",
+    "b28ef2e4-08b5-4a1c-abc3-31bde64a402c",
     "532d629b-5414-439a-9833-fe4f04d408f2",
     "a8ffb222-813d-463f-9e86-871bceb908a5",
     "32e46169-5f1d-45ab-8765-2b6eda818fa8",
