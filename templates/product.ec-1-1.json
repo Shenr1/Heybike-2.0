@@ -289,43 +289,43 @@
         "47ff9f65-a513-4378-86dd-760e66cf239c": {
           "type": "item",
           "settings": {
-            "item_title": "2-4 Heure",
-            "item_dec": "Temps de Charge"
+            "item_title": "360Wh",
+            "item_dec": "Batterie"
           }
         },
         "a27b30d1-ea2c-42ec-9fce-1899fef048f4": {
           "type": "item",
           "settings": {
-            "item_title": "80 km",
+            "item_title": "100 km",
             "item_dec": "Gamme (Jusqu'à)"
           }
         },
         "19891b48-30b5-4d5d-9969-7cc834a3cbde": {
           "type": "item",
           "settings": {
-            "item_title": "25km\/h",
-            "item_dec": "Limite de Vitesse"
+            "item_title": "18kg",
+            "item_dec": "Poids"
           }
         },
         "77f5c680-eb06-4cbd-b967-0b45bc01402e": {
+          "type": "item",
+          "settings": {
+            "item_title": "160-190cm",
+            "item_dec": "Hauteur recommandée"
+          }
+        },
+        "c4bf62db-57aa-4884-a373-6a2c5aeb6ff2": {
           "type": "item",
           "settings": {
             "item_title": "7 Vitesse",
             "item_dec": "Shimano"
           }
         },
-        "c4bf62db-57aa-4884-a373-6a2c5aeb6ff2": {
+        "5f9f9e75-45fd-46a0-a3ac-f3d9004997a4": {
           "type": "item",
           "settings": {
             "item_title": "3.4''",
             "item_dec": "Écran LCD"
-          }
-        },
-        "5f9f9e75-45fd-46a0-a3ac-f3d9004997a4": {
-          "type": "item",
-          "settings": {
-            "item_title": "700c X 40c",
-            "item_dec": "Taille du Pneu"
           }
         }
       },
@@ -571,22 +571,22 @@
         "e06954c1-7528-40ea-af47-ffe8044bb3b6": {
           "type": "item",
           "settings": {
-            "item_title": "160-190cm",
-            "item_dec": "Hauteur du cavalier"
+            "item_title": "360wh",
+            "item_dec": "Battery"
           }
         },
         "c5784f99-1a17-46c9-8290-68dd89f9cd7a": {
           "type": "item",
           "settings": {
-            "item_title": "17\"\/19\"",
-            "item_dec": "Faille du Cadre"
+            "item_title": "360wh",
+            "item_dec": "Battery"
           }
         },
         "0a5537a4-b5dc-44af-a6f0-92e5f996c537": {
           "type": "item",
           "settings": {
-            "item_title": "19.2kg",
-            "item_dec": "Poids"
+            "item_title": "360wh",
+            "item_dec": "Battery"
           }
         }
       },
@@ -603,8 +603,8 @@
         "img_size": "big",
         "img": "shopify:\/\/shop_images\/541ed1bb627ce48df3e66bf0f98cb22c.gif",
         "text_main": "Reframing The Future",
-        "text_sub": "Avec sa carrosserie aérodynamique, l'EC 1 se déplace librement dans les rues encombrées de la ville, telle une gazelle, et atteint des endroits inaccessibles aux voitures.",
-        "text_dec": "Léger, design simple, répartition ingénieuse du poids, il peut être soulevé d'une seule main. Vous n'avez jamais ressenti une telle dextérité sur un vélo électrique.",
+        "text_sub": "With its streamlined body, the EC 1-ST moves freely through the crowded city streets like a gazelle, reaching places that are out of the reach of cars.",
+        "text_dec": "The low frame design is ideal for women, so they can wear their dresses and go shopping in style.",
         "bottom_line": false
       }
     },
