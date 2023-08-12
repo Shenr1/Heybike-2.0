@@ -543,7 +543,7 @@
           "type": "item",
           "settings": {
             "item_title": "260 R",
-            "item_dec": "RPM"
+            "item_dec": "　RPM"
           }
         }
       },
@@ -578,8 +578,8 @@
         "c5784f99-1a17-46c9-8290-68dd89f9cd7a": {
           "type": "item",
           "settings": {
-            "item_title": "19.2kg",
-            "item_dec": "Poids"
+            "item_title": "　19.2kg",
+            "item_dec": "　　Poids"
           }
         },
         "0a5537a4-b5dc-44af-a6f0-92e5f996c537": {
