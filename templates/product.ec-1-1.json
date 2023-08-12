@@ -594,27 +594,26 @@
             "item_dec": "Körpergröße"
           }
         },
-        "32e89733-0bf9-4afe-8450-bfcf70f02080": {
-          "type": "item",
-          "settings": {
-            "item_title": "18\"\/20\"",
-            "item_dec": "Rahmen"
-          }
-        },
         "a046a6e0-8b93-43d3-84cb-04904bbddea5": {
           "type": "item",
           "settings": {
             "item_title": "19.2kg",
             "item_dec": "Gewicht"
           }
+        },
+        "32e89733-0bf9-4afe-8450-bfcf70f02080": {
+          "type": "item",
+          "settings": {
+            "item_title": "18\"\/20\"",
+            "item_dec": "Rahmen"
+          }
         }
       },
       "block_order": [
         "47450fe6-be77-4844-8f04-0c0189831807",
-        "32e89733-0bf9-4afe-8450-bfcf70f02080",
-        "a046a6e0-8b93-43d3-84cb-04904bbddea5"
+        "a046a6e0-8b93-43d3-84cb-04904bbddea5",
+        "32e89733-0bf9-4afe-8450-bfcf70f02080"
       ],
-      "disabled": true,
       "settings": {
         "top_padding": "large",
         "bottom_padding": "default",
@@ -622,9 +621,9 @@
         "layout": "textImage",
         "img_size": "big",
         "img": "shopify:\/\/shop_images\/541ed1bb627ce48df3e66bf0f98cb22c.gif",
-        "text_main": "Reframing The Future",
-        "text_sub": "With its streamlined body, the EC 1-ST moves freely through the crowded city streets like a gazelle, reaching places that are out of the reach of cars.",
-        "text_dec": "The low frame design is ideal for women, so they can wear their dresses and go shopping in style.",
+        "text_main": "Leichtes Rahmen",
+        "text_sub": "HeyBike steht für Innovation und Qualität. Erleben Sie die Zukunft des Radfahrens mit unseren leichten, hochwertigen Rahmen – Ihr perfekter Begleiter auf jedem Weg.",
+        "text_dec": "Entdecken Sie die Perfektion unserer E-Bike-Rahmen bei HeyBike. Unser leichtgewichtiger Rahmen vereint Qualität und Design in einem atemberaubenden Paket, das für Fahrer von 160-190 cm optimal geeignet ist.",
         "bottom_line": false
       }
     },
