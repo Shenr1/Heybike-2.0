@@ -284,29 +284,15 @@
         "47ff9f65-a513-4378-86dd-760e66cf239c": {
           "type": "item",
           "settings": {
-            "item_title": "360Wh",
-            "item_dec": "Batterie"
+            "item_title": "2-4 Heure",
+            "item_dec": "Temps de Charge"
           }
         },
         "a27b30d1-ea2c-42ec-9fce-1899fef048f4": {
           "type": "item",
           "settings": {
-            "item_title": "100km",
+            "item_title": "80km",
             "item_dec": "Gamme (Jusqu'à)"
-          }
-        },
-        "19891b48-30b5-4d5d-9969-7cc834a3cbde": {
-          "type": "item",
-          "settings": {
-            "item_title": "18kg",
-            "item_dec": "Poids"
-          }
-        },
-        "77f5c680-eb06-4cbd-b967-0b45bc01402e": {
-          "type": "item",
-          "settings": {
-            "item_title": "155-185cm",
-            "item_dec": "Hauteur recommandée"
           }
         },
         "c4bf62db-57aa-4884-a373-6a2c5aeb6ff2": {
@@ -322,15 +308,30 @@
             "item_title": "3.4''",
             "item_dec": "Écran LCD"
           }
+        },
+        "77f5c680-eb06-4cbd-b967-0b45bc01402e": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "item_title": "155-185cm",
+            "item_dec": "Hauteur recommandée"
+          }
+        },
+        "19891b48-30b5-4d5d-9969-7cc834a3cbde": {
+          "type": "item",
+          "settings": {
+            "item_title": "700c X 40c",
+            "item_dec": "Taille du Pneu"
+          }
         }
       },
       "block_order": [
         "47ff9f65-a513-4378-86dd-760e66cf239c",
         "a27b30d1-ea2c-42ec-9fce-1899fef048f4",
-        "19891b48-30b5-4d5d-9969-7cc834a3cbde",
-        "77f5c680-eb06-4cbd-b967-0b45bc01402e",
         "c4bf62db-57aa-4884-a373-6a2c5aeb6ff2",
-        "5f9f9e75-45fd-46a0-a3ac-f3d9004997a4"
+        "5f9f9e75-45fd-46a0-a3ac-f3d9004997a4",
+        "77f5c680-eb06-4cbd-b967-0b45bc01402e",
+        "19891b48-30b5-4d5d-9969-7cc834a3cbde"
       ],
       "settings": {
         "top_padding": "large",
@@ -569,22 +570,22 @@
         "b81b3484-7b6a-44d3-9247-36d53de2b33c": {
           "type": "item",
           "settings": {
-            "item_title": "360wh",
-            "item_dec": "Battery"
+            "item_title": "17\"\/19\"",
+            "item_dec": "Faille du Cadre"
           }
         },
         "2c28a8de-755f-4202-83a7-6cc075646ff3": {
           "type": "item",
           "settings": {
-            "item_title": "360wh",
-            "item_dec": "Battery"
+            "item_title": "155-185cm",
+            "item_dec": "Hauteur du cavalier"
           }
         },
         "d1175b2f-4a1b-40c9-8dd7-6cfe1334bf71": {
           "type": "item",
           "settings": {
-            "item_title": "360wh",
-            "item_dec": "Battery"
+            "item_title": "19.2kg",
+            "item_dec": "Poids"
           }
         }
       },
@@ -601,7 +602,7 @@
         "layout": "textImage",
         "img_size": "big",
         "img": "shopify:\/\/shop_images\/f64e1f6ecfaac485c2156aa9c8e981ef.gif",
-        "text_main": "Reframing The Future",
+        "text_main": "Cadre Classique",
         "text_sub": "With its streamlined body, the EC 1-ST moves freely through the crowded city streets like a gazelle, reaching places that are out of the reach of cars.",
         "text_dec": "The low frame design is ideal for women, so they can wear their dresses and go shopping in style.",
         "bottom_line": false
