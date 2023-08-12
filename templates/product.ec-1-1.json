@@ -70,7 +70,7 @@
           "type": "shiptime",
           "settings": {
             "estimate": "35\/45",
-            "msg": "<i class=\"at at-clock-r\"> <\/i> Vorverkaufszeitraum: 10. August bis 31. August\n<br>\n<i class=\"at at-clock-r\"><\/i> Voraussichtliche Lieferung: [startdate]<b> -<b> [enddate].<\/b><\/b>",
+            "msg": "<i class=\"at at-clock-r\"> <\/i> Vorverkaufszeitraum: 15. August bis 31. August\n<br>\n<i class=\"at at-clock-r\"><\/i> Voraussichtliche Lieferung: [startdate]<b> -<b> [enddate].<\/b><\/b>",
             "bm": 15
           }
         },
@@ -183,7 +183,6 @@
     },
     "tabs": {
       "type": "product-tabs",
-      "disabled": true,
       "blocks": {
         "descriptions": {
           "type": "desc",
@@ -226,6 +225,7 @@
         "ca4b9cc3-1de5-4957-9152-20d832cd0b41",
         "9946dcbc-20e7-49f8-b126-4356456b2dab"
       ],
+      "disabled": true,
       "settings": {
         "section_width": false,
         "tab_style": "1",
@@ -308,8 +308,8 @@
         "47ff9f65-a513-4378-86dd-760e66cf239c": {
           "type": "item",
           "settings": {
-            "item_title": "360Wh",
-            "item_dec": "Batterie"
+            "item_title": "2-4 Stunden",
+            "item_dec": "Ladezeit"
           }
         },
         "a27b30d1-ea2c-42ec-9fce-1899fef048f4": {
@@ -322,29 +322,29 @@
         "19891b48-30b5-4d5d-9969-7cc834a3cbde": {
           "type": "item",
           "settings": {
-            "item_title": "19kg",
-            "item_dec": "Gewicht"
+            "item_title": "25km\/h",
+            "item_dec": "Höchstgeschwindigkeit"
           }
         },
         "77f5c680-eb06-4cbd-b967-0b45bc01402e": {
-          "type": "item",
-          "settings": {
-            "item_title": "160-190cm",
-            "item_dec": "Empfohlene Höhe"
-          }
-        },
-        "c4bf62db-57aa-4884-a373-6a2c5aeb6ff2": {
           "type": "item",
           "settings": {
             "item_title": "7 Gang",
             "item_dec": "Shimano"
           }
         },
-        "5f9f9e75-45fd-46a0-a3ac-f3d9004997a4": {
+        "c4bf62db-57aa-4884-a373-6a2c5aeb6ff2": {
           "type": "item",
           "settings": {
             "item_title": "3.4''",
             "item_dec": "LCD-Anzeige"
+          }
+        },
+        "5f9f9e75-45fd-46a0-a3ac-f3d9004997a4": {
+          "type": "item",
+          "settings": {
+            "item_title": "700C X 40C",
+            "item_dec": "Anti-Pannen-Reifen"
           }
         }
       },
@@ -852,7 +852,6 @@
     },
     "a96d37af-dc7b-43f1-8f0b-23018e00eaf4": {
       "type": "multiple-image-text",
-      "disabled": true,
       "blocks": {
         "a1291fa1-d564-4ec3-a6ce-51e0bf8a956c": {
           "type": "video",
@@ -945,6 +944,7 @@
         "1164f111-84a9-41fe-b66e-466d31a87b9b",
         "13baa40f-fa01-44db-8cf4-d0d220d60d67"
       ],
+      "disabled": true,
       "settings": {
         "top_padding": "large",
         "bottom_padding": "large",
@@ -956,7 +956,6 @@
     },
     "22f50d3e-5443-46e2-a356-2469bdea240d": {
       "type": "logo-slider",
-      "disabled": true,
       "blocks": {
         "1db61a36-a277-4c68-acad-574b812f8fc6": {
           "type": "slide",
@@ -1006,6 +1005,7 @@
         "8be00180-92b5-454b-96c3-689113c2b127",
         "fd3ab8dd-5f81-4973-9544-5bf7bdfe28f3"
       ],
+      "disabled": true,
       "settings": {
         "top_padding": "none",
         "bottom_padding": "none",
