@@ -311,10 +311,9 @@
         },
         "77f5c680-eb06-4cbd-b967-0b45bc01402e": {
           "type": "item",
-          "disabled": true,
           "settings": {
-            "item_title": "155-185cm",
-            "item_dec": "Hauteur recommandée"
+            "item_title": "25km\/h",
+            "item_dec": "Limite de Vitesse"
           }
         },
         "19891b48-30b5-4d5d-9969-7cc834a3cbde": {
