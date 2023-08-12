@@ -289,43 +289,43 @@
         "47ff9f65-a513-4378-86dd-760e66cf239c": {
           "type": "item",
           "settings": {
-            "item_title": "360Wh",
-            "item_dec": "Batterie"
+            "item_title": "2-4 Heure",
+            "item_dec": "Temps de Charge"
           }
         },
         "a27b30d1-ea2c-42ec-9fce-1899fef048f4": {
           "type": "item",
           "settings": {
-            "item_title": "100 km",
+            "item_title": "80 km",
             "item_dec": "Gamme (Jusqu'à)"
           }
         },
         "19891b48-30b5-4d5d-9969-7cc834a3cbde": {
           "type": "item",
           "settings": {
-            "item_title": "18kg",
-            "item_dec": "Poids"
+            "item_title": "25km\/h",
+            "item_dec": "Limite de Vitesse"
           }
         },
         "77f5c680-eb06-4cbd-b967-0b45bc01402e": {
-          "type": "item",
-          "settings": {
-            "item_title": "160-190cm",
-            "item_dec": "Hauteur recommandée"
-          }
-        },
-        "c4bf62db-57aa-4884-a373-6a2c5aeb6ff2": {
           "type": "item",
           "settings": {
             "item_title": "7 Vitesse",
             "item_dec": "Shimano"
           }
         },
-        "5f9f9e75-45fd-46a0-a3ac-f3d9004997a4": {
+        "c4bf62db-57aa-4884-a373-6a2c5aeb6ff2": {
           "type": "item",
           "settings": {
             "item_title": "3.4''",
             "item_dec": "Écran LCD"
+          }
+        },
+        "5f9f9e75-45fd-46a0-a3ac-f3d9004997a4": {
+          "type": "item",
+          "settings": {
+            "item_title": "700c X 40c",
+            "item_dec": "Taille du Pneu"
           }
         }
       },
