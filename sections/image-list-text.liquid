@@ -17,7 +17,7 @@
   <section section-name="image-list-text" style="background-color:{{secSt.bg_color}};" class="{% render 'section-interva-set' , secSt:secSt %}" >
     <div class="page-width xl:px-4 md:px-8 px-6 mx-auto flex md:flex-row flex-col {% if secSt.bottom_line %}border-solid border-0 border-b border-black-300 pb-8 {% endif %}">
 
-      <div class='pad:w-[54.5%] md:w-1/2 flex justify-center items-center {% if secSt.layout == "textImage" %}order-3{%else%}md:order-1 order-3{% endif %}' >
+      <div class='pad:w-[55.5%] md:w-1/2 flex justify-center items-center {% if secSt.layout == "textImage" %}order-3{%else%}md:order-1 order-3{% endif %}' >
         {{ secSt.img | image_url: width: 1000 | image_tag: width: nil, loading: 'lazy', class:imgSizeClass }}
       </div>
       <div class="pad:w-[40.5%] md:w-1/2 order-2 flex flex-col md:text-left text-center md:mb-0 mb-6">
