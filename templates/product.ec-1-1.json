@@ -571,22 +571,22 @@
         "e06954c1-7528-40ea-af47-ffe8044bb3b6": {
           "type": "item",
           "settings": {
-            "item_title": "360wh",
-            "item_dec": "Battery"
+            "item_title": "160-190cm",
+            "item_dec": "Hauteur du cavalier"
           }
         },
         "c5784f99-1a17-46c9-8290-68dd89f9cd7a": {
           "type": "item",
           "settings": {
-            "item_title": "360wh",
-            "item_dec": "Battery"
+            "item_title": "19.2kg",
+            "item_dec": "Poids"
           }
         },
         "0a5537a4-b5dc-44af-a6f0-92e5f996c537": {
           "type": "item",
           "settings": {
-            "item_title": "360wh",
-            "item_dec": "Battery"
+            "item_title": "17\"",
+            "item_dec": "Faille du Cadre"
           }
         }
       },
