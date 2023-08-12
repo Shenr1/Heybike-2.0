@@ -534,7 +534,7 @@
         "bg_color": "",
         "layout": "textImage",
         "img_size": "small",
-        "img": "shopify:\/\/shop_images\/7ecc40279fd871bac0e0d11e210a632b_6d23bccc-184f-45c4-a53b-0c3cc0192d0c_1.jpg",
+        "img": "shopify:\/\/shop_images\/92e8c1bfc439f179824e55cb70ac9c62.gif",
         "text_main": "Herausnehmbare Batterie",
         "text_sub": "Dieser Akku von Samsung wurde entwickelt, um Ihre Abenteuer zu unterstützen und bietet außergewöhnliche Leistung und Effizienz.",
         "text_dec": "Mit einer Reichweite von bis zu 80 km mit einer einzigen Ladung können Sie die Region ohne Einschränkungen fahren und erkunden.",
@@ -577,10 +577,53 @@
         "bg_color": "",
         "layout": "imageText",
         "img_size": "default",
-        "img": "shopify:\/\/shop_images\/heybike_EC1_motor.jpg",
+        "img": "shopify:\/\/shop_images\/2c4257161e8d219f9023a0ec4bdf3737.gif",
         "text_main": "Leichter Motor",
         "text_sub": "Erleben Sie das ultimative Fahrgefühl mit unserem leichten 250-W-Motor, der hervorragende Stabilität, Widerstandsfähigkeit gegen Stöße und Erschütterungen, reibungslosen Betrieb und eine beeindruckende Lebensdauer bietet.",
         "text_dec": "Erleben Sie den Unterschied eines auf Spitzenleistung ausgelegten Motors und heben Sie Ihr Fahrerlebnis auf ein neues Niveau.",
+        "bottom_line": false
+      }
+    },
+    "bb0952f6-f6c4-446f-9aa8-ec6133980003": {
+      "type": "image-list-text",
+      "blocks": {
+        "47450fe6-be77-4844-8f04-0c0189831807": {
+          "type": "item",
+          "settings": {
+            "item_title": "155-185cm",
+            "item_dec": "Körpergröße"
+          }
+        },
+        "32e89733-0bf9-4afe-8450-bfcf70f02080": {
+          "type": "item",
+          "settings": {
+            "item_title": "360wh",
+            "item_dec": "Battery"
+          }
+        },
+        "a046a6e0-8b93-43d3-84cb-04904bbddea5": {
+          "type": "item",
+          "settings": {
+            "item_title": "360wh",
+            "item_dec": "Gewicht"
+          }
+        }
+      },
+      "block_order": [
+        "47450fe6-be77-4844-8f04-0c0189831807",
+        "32e89733-0bf9-4afe-8450-bfcf70f02080",
+        "a046a6e0-8b93-43d3-84cb-04904bbddea5"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "bg_color": "",
+        "layout": "textImage",
+        "img_size": "big",
+        "img": "shopify:\/\/shop_images\/541ed1bb627ce48df3e66bf0f98cb22c.gif",
+        "text_main": "Reframing The Future",
+        "text_sub": "With its streamlined body, the EC 1-ST moves freely through the crowded city streets like a gazelle, reaching places that are out of the reach of cars.",
+        "text_dec": "The low frame design is ideal for women, so they can wear their dresses and go shopping in style.",
         "bottom_line": false
       }
     },
@@ -1093,6 +1136,7 @@
     "b5bc4525-2802-4e9d-acbe-44c6ddd2167c",
     "c9dbe5e5-19b2-4769-9fd9-a600c03bdb17",
     "57d28d3e-e7d1-4115-8f16-31ef4e965106",
+    "bb0952f6-f6c4-446f-9aa8-ec6133980003",
     "532d629b-5414-439a-9833-fe4f04d408f2",
     "a8ffb222-813d-463f-9e86-871bceb908a5",
     "286ef3df-4b4b-4252-9fb2-4c7f64f4dda4",
