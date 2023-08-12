@@ -538,7 +538,7 @@
         "text_main": "Herausnehmbare Batterie",
         "text_sub": "Dieser Akku von Samsung wurde entwickelt, um Ihre Abenteuer zu unterstützen und bietet außergewöhnliche Leistung und Effizienz.",
         "text_dec": "Mit einer Reichweite von bis zu 80 km mit einer einzigen Ladung können Sie die Region ohne Einschränkungen fahren und erkunden.",
-        "bottom_line": true
+        "bottom_line": false
       }
     },
     "57d28d3e-e7d1-4115-8f16-31ef4e965106": {
