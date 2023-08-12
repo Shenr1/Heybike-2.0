@@ -159,7 +159,6 @@
     },
     "tabs": {
       "type": "product-tabs",
-      "disabled": true,
       "blocks": {
         "descriptions": {
           "type": "desc",
@@ -202,6 +201,7 @@
         "ca4b9cc3-1de5-4957-9152-20d832cd0b41",
         "9946dcbc-20e7-49f8-b126-4356456b2dab"
       ],
+      "disabled": true,
       "settings": {
         "section_width": false,
         "tab_style": "1",
@@ -439,106 +439,6 @@
         "img_mb": "shopify:\/\/shop_images\/EC1_ST-M-FR-02_0b4a3ad8-6df9-49ae-8417-61b2778219b9.jpg"
       }
     },
-    "af6bbaa7-4ec7-4ae8-a166-3ca1247c3dd4": {
-      "type": "banner-with-text",
-      "disabled": true,
-      "blocks": {
-        "a9fbee51-0cb0-4c53-828e-58661ccc13a6": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/5_4ca69f81-ff80-417e-9f3a-6671a260d68a.jpg",
-            "layout": "left",
-            "title": "Forte puissance",
-            "text": "<p>Faites l'expérience d'une mobilité sans faille grâce aux moteurs et capteurs intégrés de pointe de Heybike, conçus pour naviguer sans effort sur n'importe quel terrain.<\/p>",
-            "logo_url": "",
-            "logo_url2": "",
-            "button_label": "",
-            "button_link": "",
-            "text_align": "text-left",
-            "text_center": false,
-            "tcl": "#000000",
-            "cl": "#000000",
-            "bg": "rgba(0,0,0,0)",
-            "btncl": "#ffffff",
-            "btnbg": "#000000",
-            "btnbd": "#000000"
-          }
-        },
-        "f82fe116-a1bd-4e78-8c8d-4e10101b426e": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/25.jpg",
-            "layout": "right",
-            "title": "Rouler avec aisance",
-            "text": "<p>La forme aérodynamique de l'EC 1-ST lui permet de se déplacer comme une gazelle dans les rues encombrées de la ville et de se rendre dans des endroits inaccessibles aux voitures.<\/p>",
-            "logo_url": "",
-            "logo_url2": "",
-            "button_label": "",
-            "button_link": "",
-            "text_align": "text-left",
-            "text_center": false,
-            "tcl": "#000000",
-            "cl": "#000000",
-            "bg": "rgba(0,0,0,0)",
-            "btncl": "#ffffff",
-            "btnbg": "#000000",
-            "btnbd": "#000000"
-          }
-        },
-        "861b6738-a3e4-4ab0-89d7-d849cb204f68": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/14_19d98c32-230a-4e3f-ae96-7d116f4b4047.jpg",
-            "layout": "left",
-            "title": "Rouler avec style",
-            "text": "<p>Montez à bord de l'EC 1-ST et voyagez dans le confort et l'élégance. Sa conception à câblage interne lui confère une allure élégante. Découvrez le mélange parfait de style et de performance.<\/p>",
-            "logo_url": "",
-            "logo_url2": "",
-            "button_label": "",
-            "button_link": "",
-            "text_align": "text-left",
-            "text_center": false,
-            "tcl": "#000000",
-            "cl": "#000000",
-            "bg": "rgba(0,0,0,0)",
-            "btncl": "#ffffff",
-            "btnbg": "#000000",
-            "btnbd": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "a9fbee51-0cb0-4c53-828e-58661ccc13a6",
-        "f82fe116-a1bd-4e78-8c8d-4e10101b426e",
-        "861b6738-a3e4-4ab0-89d7-d849cb204f68"
-      ],
-      "settings": {
-        "top_padding": "none",
-        "bottom_padding": "large",
-        "top-offeset": "default",
-        "section_style": "default",
-        "section_width": true,
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa",
-        "snow_effect": false,
-        "snow_style": "style1",
-        "tfs": 30,
-        "tfsm": 100,
-        "tff": "ft1",
-        "tfw": "700",
-        "tlh": 1.2,
-        "tmb": 15,
-        "tmbm": 10,
-        "fs": 14,
-        "fsm": 85,
-        "fw": "400",
-        "lh": 1.6,
-        "mb": 15,
-        "mbm": 10,
-        "btn-size-desk": "btn-md",
-        "btn-size-mob": "mob-btn-sm"
-      }
-    },
     "b5bc4525-2802-4e9d-acbe-44c6ddd2167c": {
       "type": "color-slider-full",
       "blocks": {
@@ -613,7 +513,7 @@
         "bg_color": "",
         "layout": "textImage",
         "img_size": "default",
-        "img": "shopify:\/\/shop_images\/7ecc40279fd871bac0e0d11e210a632b.jpg",
+        "img": "shopify:\/\/shop_images\/f3a03e74d3a01933e274aabeb45978de.gif",
         "text_main": "Batterie portable",
         "text_sub": "Conçue pour alimenter vos aventures, cette batterie Samsung offre des performances et une efficacité exceptionnelles.",
         "text_dec": "Avec une autonomie de 100 km avec une seule charge, vous pouvez laisser libre cours à votre liberté et explorer la région sans aucune restriction.",
@@ -656,10 +556,54 @@
         "bg_color": "",
         "layout": "imageText",
         "img_size": "default",
-        "img": "shopify:\/\/shop_images\/e28a42c4475362c949415a1c17dcc923.jpg",
+        "img": "shopify:\/\/shop_images\/75ec678a97c25a4cae575457e811112b.gif",
         "text_main": "Moteur léger",
         "text_sub": "Faites l'expérience de la conduite ultime avec notre moteur léger de 250W, qui offre une stabilité exceptionnelle, une résistance aux bosses et aux chocs, un bruit et des vibrations minimes, un fonctionnement en douceur et une durée de vie impressionnante.",
         "text_dec": "Experience the difference of a motor designed for excellence and elevate your riding experience to new heights.",
+        "bottom_line": false
+      }
+    },
+    "97665553-c9b3-4297-b84a-d6f35768f687": {
+      "type": "image-list-text",
+      "blocks": {
+        "b81b3484-7b6a-44d3-9247-36d53de2b33c": {
+          "type": "item",
+          "settings": {
+            "item_title": "360wh",
+            "item_dec": "Battery"
+          }
+        },
+        "2c28a8de-755f-4202-83a7-6cc075646ff3": {
+          "type": "item",
+          "settings": {
+            "item_title": "360wh",
+            "item_dec": "Battery"
+          }
+        },
+        "d1175b2f-4a1b-40c9-8dd7-6cfe1334bf71": {
+          "type": "item",
+          "settings": {
+            "item_title": "360wh",
+            "item_dec": "Battery"
+          }
+        }
+      },
+      "block_order": [
+        "b81b3484-7b6a-44d3-9247-36d53de2b33c",
+        "2c28a8de-755f-4202-83a7-6cc075646ff3",
+        "d1175b2f-4a1b-40c9-8dd7-6cfe1334bf71"
+      ],
+      "disabled": true,
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "bg_color": "",
+        "layout": "textImage",
+        "img_size": "big",
+        "img": "shopify:\/\/shop_images\/f64e1f6ecfaac485c2156aa9c8e981ef.gif",
+        "text_main": "Reframing The Future",
+        "text_sub": "With its streamlined body, the EC 1-ST moves freely through the crowded city streets like a gazelle, reaching places that are out of the reach of cars.",
+        "text_dec": "The low frame design is ideal for women, so they can wear their dresses and go shopping in style.",
         "bottom_line": false
       }
     },
@@ -1014,7 +958,6 @@
     },
     "22f50d3e-5443-46e2-a356-2469bdea240d": {
       "type": "logo-slider",
-      "disabled": true,
       "blocks": {
         "1db61a36-a277-4c68-acad-574b812f8fc6": {
           "type": "slide",
@@ -1064,6 +1007,7 @@
         "8be00180-92b5-454b-96c3-689113c2b127",
         "fd3ab8dd-5f81-4973-9544-5bf7bdfe28f3"
       ],
+      "disabled": true,
       "settings": {
         "top_padding": "none",
         "bottom_padding": "none",
@@ -1175,10 +1119,10 @@
     "9359a303-aa3a-4726-b58e-f9e8bc1ffa0c",
     "9b247f0e-860f-47b9-a015-de6f347aa253",
     "42eea536-e3f4-43ab-b978-5a03ec2adeda",
-    "af6bbaa7-4ec7-4ae8-a166-3ca1247c3dd4",
     "b5bc4525-2802-4e9d-acbe-44c6ddd2167c",
     "c9dbe5e5-19b2-4769-9fd9-a600c03bdb17",
     "57d28d3e-e7d1-4115-8f16-31ef4e965106",
+    "97665553-c9b3-4297-b84a-d6f35768f687",
     "532d629b-5414-439a-9833-fe4f04d408f2",
     "a8ffb222-813d-463f-9e86-871bceb908a5",
     "32e46169-5f1d-45ab-8765-2b6eda818fa8",
