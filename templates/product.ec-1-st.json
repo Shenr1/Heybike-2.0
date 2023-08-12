@@ -65,7 +65,7 @@
           "type": "shiptime",
           "settings": {
             "estimate": "35\/50",
-            "msg": "<i class=\"at at-clock-r\"> <\/i>  Vorverkaufszeitraum: 10. August bis 31. August\n<br>\n<i class=\"at at-clock-r\"><\/i> Voraussichtliche Lieferung: [startdate]<b> -<b> [enddate].<\/b><\/b>",
+            "msg": "<i class=\"at at-clock-r\"> <\/i>  Vorverkaufszeitraum: 15. August bis 31. August\n<br>\n<i class=\"at at-clock-r\"><\/i> Voraussichtliche Lieferung: [startdate]<b> -<b> [enddate].<\/b><\/b>",
             "bm": 15
           }
         },
