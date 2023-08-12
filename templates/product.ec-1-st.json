@@ -688,7 +688,7 @@
         "c91efc2e-ecf5-4ce6-ab9f-0e97cf828e64": {
           "type": "item",
           "settings": {
-            "item_title": "360wh",
+            "item_title": "17\"",
             "item_dec": "Rahmen"
           }
         }
@@ -698,7 +698,6 @@
         "daa77636-082f-4a3b-9f32-55b9c29fdbe2",
         "c91efc2e-ecf5-4ce6-ab9f-0e97cf828e64"
       ],
-      "disabled": true,
       "settings": {
         "top_padding": "large",
         "bottom_padding": "default",
