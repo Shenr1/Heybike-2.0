@@ -312,7 +312,7 @@
         "5f9f9e75-45fd-46a0-a3ac-f3d9004997a4": {
           "type": "item",
           "settings": {
-            "item_title": "3.4''",
+            "item_title": "　3.4''",
             "item_dec": "Écran LCD"
           }
         },
@@ -534,14 +534,14 @@
           "type": "item",
           "settings": {
             "item_title": "37 Nm",
-            "item_dec": "Couple"
+            "item_dec": "　Couple"
           }
         },
         "f4b077ec-d5f4-464e-a93c-199cc05db80b": {
           "type": "item",
           "settings": {
             "item_title": "260 R",
-            "item_dec": "RPM"
+            "item_dec": "　RPM"
           }
         }
       },
