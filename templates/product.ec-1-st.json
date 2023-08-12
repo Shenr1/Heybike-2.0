@@ -573,25 +573,25 @@
             "item_dec": "Hauteur du cavalier"
           }
         },
-        "b81b3484-7b6a-44d3-9247-36d53de2b33c": {
-          "type": "item",
-          "settings": {
-            "item_title": "17\"\/19\"",
-            "item_dec": "Faille du Cadre"
-          }
-        },
         "d1175b2f-4a1b-40c9-8dd7-6cfe1334bf71": {
           "type": "item",
           "settings": {
             "item_title": "19.2kg",
             "item_dec": "Poids"
           }
+        },
+        "b81b3484-7b6a-44d3-9247-36d53de2b33c": {
+          "type": "item",
+          "settings": {
+            "item_title": "17\"",
+            "item_dec": "Faille du Cadre"
+          }
         }
       },
       "block_order": [
         "2c28a8de-755f-4202-83a7-6cc075646ff3",
-        "b81b3484-7b6a-44d3-9247-36d53de2b33c",
-        "d1175b2f-4a1b-40c9-8dd7-6cfe1334bf71"
+        "d1175b2f-4a1b-40c9-8dd7-6cfe1334bf71",
+        "b81b3484-7b6a-44d3-9247-36d53de2b33c"
       ],
       "settings": {
         "top_padding": "large",
