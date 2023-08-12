@@ -295,6 +295,13 @@
             "item_dec": "Gamme (Jusqu'à)"
           }
         },
+        "77f5c680-eb06-4cbd-b967-0b45bc01402e": {
+          "type": "item",
+          "settings": {
+            "item_title": "25km\/h",
+            "item_dec": "Limite de Vitesse"
+          }
+        },
         "c4bf62db-57aa-4884-a373-6a2c5aeb6ff2": {
           "type": "item",
           "settings": {
@@ -309,13 +316,6 @@
             "item_dec": "Écran LCD"
           }
         },
-        "77f5c680-eb06-4cbd-b967-0b45bc01402e": {
-          "type": "item",
-          "settings": {
-            "item_title": "25km\/h",
-            "item_dec": "Limite de Vitesse"
-          }
-        },
         "19891b48-30b5-4d5d-9969-7cc834a3cbde": {
           "type": "item",
           "settings": {
@@ -327,9 +327,9 @@
       "block_order": [
         "47ff9f65-a513-4378-86dd-760e66cf239c",
         "a27b30d1-ea2c-42ec-9fce-1899fef048f4",
+        "77f5c680-eb06-4cbd-b967-0b45bc01402e",
         "c4bf62db-57aa-4884-a373-6a2c5aeb6ff2",
         "5f9f9e75-45fd-46a0-a3ac-f3d9004997a4",
-        "77f5c680-eb06-4cbd-b967-0b45bc01402e",
         "19891b48-30b5-4d5d-9969-7cc834a3cbde"
       ],
       "settings": {
