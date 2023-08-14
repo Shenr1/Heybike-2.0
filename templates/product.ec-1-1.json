@@ -815,8 +815,8 @@
           "settings": {
             "title": "Geometry",
             "image": "shopify:\/\/shop_images\/630x800_b35262cf-c079-415a-b996-814f5faa715e.jpg",
-            "th": ",Description,Taille(M),Taille(L)",
-            "td": "longueur totale-180-180<br>\nLongueur de la base-45<br>\nLongueur du tube supérieur-55<br>\nLongueur du tube de direction-14<br>\nEmpattement-109<br>\nDiamètre de la roue-70<br>\nHauteur du guidon-110<br>\nHauteur de béquille-78<br>\nHauteur d'assise maximale-22<br>\nHauteur minimale d'assise-68<br>\nDistance minimale entre l'assise et le sol-110<br>"
+            "th": ",Description,Taille(M),",
+            "td": "longueur totale-180<br>\nLongueur de la base-45<br>\nLongueur du tube supérieur-55<br>\nLongueur du tube de direction-14<br>\nEmpattement-109<br>\nDiamètre de la roue-70<br>\nHauteur du guidon-110<br>\nHauteur de béquille-78<br>\nHauteur d'assise maximale-22<br>\nHauteur minimale d'assise-68<br>\nDistance minimale entre l'assise et le sol-110<br>"
           }
         },
         "2bdea729-fb07-4fc5-87c8-a226a6cbbeac": {
