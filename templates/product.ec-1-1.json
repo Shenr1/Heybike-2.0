@@ -627,7 +627,8 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/4329a2cf13558c822173f9e4a4b9c055.png",
+            "bg_img": "shopify:\/\/shop_images\/4329a2cf13558c822173f9e4a4b9c055_a2d18231-1102-4f52-8d31-1cd250f91e27.png",
+            "bg_img_mb": "shopify:\/\/shop_images\/4329a2cf13558c822173f9e4a4b9c055_a2d18231-1102-4f52-8d31-1cd250f91e27.png",
             "text_main": "Engrenages",
             "text_sub": "La transmission par chaîne Shimano® à 7 vitesses est puissante, souple et conçue pour offrir des performances élevées sur toutes les routes.",
             "img_link": ""
@@ -650,6 +651,7 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/Puncture-resistant_Tires.png",
+            "bg_img_mb": "shopify:\/\/shop_images\/Puncture-resistant_Tires.png",
             "text_main": "Pneus anti-crevaison",
             "text_sub": "Pneus polyvalents 700C*40C avec technologie anti-crevaison pour la ville, le gravier et les longues distances.",
             "img_link": ""
@@ -660,7 +662,8 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/Headlights.png",
+            "bg_img": "shopify:\/\/shop_images\/ac196cb8060db8dfee41df982ab9109e.png",
+            "bg_img_mb": "shopify:\/\/shop_images\/ac196cb8060db8dfee41df982ab9109e.png",
             "text_main": "Phares",
             "text_sub": "Éclairage multi-angle réglable pour des déplacements sûrs et sans distraction.",
             "img_link": ""
@@ -671,7 +674,8 @@
           "settings": {
             "slide_w": "w-1\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/Hydraulic_disc_brakes.png",
+            "bg_img": "shopify:\/\/shop_images\/c645415ce73bdc283fb6ce854e9de7c6.png",
+            "bg_img_mb": "shopify:\/\/shop_images\/c645415ce73bdc283fb6ce854e9de7c6.png",
             "text_main": "Freins à disque hydrauliques",
             "text_sub": "Améliorez vos freins : Les disques hydrauliques assurent un freinage plus précis, plus puissant et plus sûr.",
             "img_link": ""
