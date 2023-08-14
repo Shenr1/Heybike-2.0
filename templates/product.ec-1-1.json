@@ -617,6 +617,7 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/f956d5b5bf5da5cb869ce37f7af9190e.png",
+            "bg_img_mb": "shopify:\/\/shop_images\/f956d5b5bf5da5cb869ce37f7af9190e.png",
             "text_main": "Câblage intérieur caché",
             "text_sub": "Le câblage interne améliore l'esthétique, diminue la résistance au vent et réduit les risques de collision.",
             "img_link": ""
@@ -640,6 +641,7 @@
             "slide_w": "w-1\/3",
             "bg_color": "",
             "bg_img": "shopify:\/\/shop_images\/Heybike_LCD_Display.png",
+            "bg_img_mb": "shopify:\/\/shop_images\/Heybike_LCD_Display.png",
             "text_main": "Écran LCD",
             "text_sub": "Compatible avec l'application HEYBIKE pour vous aider à naviguer.",
             "img_link": ""
