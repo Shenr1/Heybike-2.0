@@ -341,7 +341,7 @@
             "type": "dropdown",
             "settings": {
               "title": "Gemeinschaft",
-              "url": "",
+              "url": "shopify:\/\/blogs\/heybike-blog",
               "mm_linklist": "gemeinschaft"
             }
           },
