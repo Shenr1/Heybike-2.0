@@ -69,7 +69,7 @@
         "f7c3c390-bede-4d30-bdcc-eaab0f661f2a": {
           "type": "shiptime",
           "settings": {
-            "estimate": "35\/45",
+            "estimate": "55\/65",
             "msg": "<i class=\"at at-clock-r\"> <\/i> Vorverkaufszeitraum: 20. August bis 10. September\n<br>\n<i class=\"at at-clock-r\"><\/i> Voraussichtliche Lieferung: [startdate]<b> -<b> [enddate].<\/b><\/b>",
             "bm": 15
           }
