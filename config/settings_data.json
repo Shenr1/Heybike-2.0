@@ -333,7 +333,7 @@
             "type": "dropdown",
             "settings": {
               "title": "Unterstützung",
-              "url": "",
+              "url": "shopify:\/\/pages\/garantie",
               "mm_linklist": "unters-tutzung"
             }
           },
