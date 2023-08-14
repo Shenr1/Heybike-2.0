@@ -249,7 +249,6 @@
     },
     "8ac0dd31-ebc0-46e2-867c-a7d6e2e0fd90": {
       "type": "data-statistics",
-      "disabled": true,
       "blocks": {
         "55af95fe-1f67-44a9-922b-0a20b4838325": {
           "type": "slide",
@@ -290,6 +289,7 @@
         "3b0e13f5-a095-46d4-afa9-e33dfc671812",
         "752b2092-7e2b-4a37-b195-38804c6a344e"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -322,10 +322,10 @@
           "settings": {
             "slide_w": "w-2\/3",
             "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/10619-European_trade_fair_preview_social_media_campaign_image.jpg",
-            "text_main": "\"Die Messe EUROBIKE 2023 ist jetzt live: Entdecken Sie die Zukunft des E-Bikes!\"",
+            "bg_img": "shopify:\/\/shop_images\/Blog.jpg",
+            "text_main": "\"Die 、ikes!\"",
             "text_sub": "Wir freuen uns darauf, Sie auf der Veranstaltung zu treffen und mit Ihnen über für beide Seiten vorteilhafte Perspektiven zu sprechen.",
-            "img_link": "shopify:\/\/pages\/werden-sie-handler"
+            "img_link": "shopify:\/\/blogs\/news\/heybike-ec-serie-ist-endlich-da"
           }
         },
         "61279fbb-db0a-4969-b5f8-ca73202edf62": {
