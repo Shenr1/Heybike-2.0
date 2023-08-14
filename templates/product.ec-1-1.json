@@ -535,9 +535,9 @@
         "layout": "textImage",
         "img_size": "small",
         "img": "shopify:\/\/shop_images\/92e8c1bfc439f179824e55cb70ac9c62.gif",
-        "text_main": "Herausnehmbare Batterie",
-        "text_sub": "Dieser Akku von Samsung wurde entwickelt, um Ihre Abenteuer zu unterstützen und bietet außergewöhnliche Leistung und Effizienz.",
-        "text_dec": "Mit einer Reichweite von bis zu 80 km mit einer einzigen Ladung können Sie die Region ohne Einschränkungen fahren und erkunden.",
+        "text_main": "Herausnehmbarer Akku",
+        "text_sub": "Einfach aufladen, überall fahren: Deine Reise mit der Herausnehmbaren Batterie beginnt.",
+        "text_dec": "Dieser Akku von Samsung wurde entwickelt, um Ihre Abenteuer zu unterstützen und bietet außergewöhnliche Leistung und Effizienz.",
         "bottom_line": false
       }
     },
@@ -579,8 +579,8 @@
         "img_size": "default",
         "img": "shopify:\/\/shop_images\/2c4257161e8d219f9023a0ec4bdf3737.gif",
         "text_main": "Leichter Motor",
-        "text_sub": "Erleben Sie das ultimative Fahrgefühl mit unserem leichten 250-W-Motor, der hervorragende Stabilität, Widerstandsfähigkeit gegen Stöße und Erschütterungen, reibungslosen Betrieb und eine beeindruckende Lebensdauer bietet.",
-        "text_dec": "Erleben Sie den Unterschied eines auf Spitzenleistung ausgelegten Motors und heben Sie Ihr Fahrerlebnis auf ein neues Niveau.",
+        "text_sub": "Leichter Motor, Starke Power - Dein E-Bike Erlebnis neu definiert!",
+        "text_dec": "Du kannst dich auf kraftvolle Unterstützung bei jedem Pedaltritt verlassen. Erlebe die perfekte Kombination aus Leichtigkeit und Stärke und genieße jede Fahrt auf eine völlig neue Art und Weise!",
         "bottom_line": false
       }
     },
