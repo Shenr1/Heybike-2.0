@@ -18,7 +18,7 @@
             "cl": "#ffffff",
             "btn": "Acheter maintenant &nbsp >",
             "link": "shopify:\/\/products\/ec-1",
-            "btn1window": true,
+            "btn1window": false,
             "btn-style": "btn",
             "display_btn": false,
             "btn2": "Shop Now",
@@ -46,7 +46,7 @@
             "cl": "#ffffff",
             "btn": "Acheter maintenant &nbsp >",
             "link": "shopify:\/\/products\/ec-1-st",
-            "btn1window": true,
+            "btn1window": false,
             "btn-style": "btn",
             "display_btn": false,
             "btn2": "Shop Now",
@@ -249,7 +249,6 @@
     },
     "8ac0dd31-ebc0-46e2-867c-a7d6e2e0fd90": {
       "type": "data-statistics",
-      "disabled": true,
       "blocks": {
         "55af95fe-1f67-44a9-922b-0a20b4838325": {
           "type": "slide",
@@ -290,6 +289,7 @@
         "3b0e13f5-a095-46d4-afa9-e33dfc671812",
         "752b2092-7e2b-4a37-b195-38804c6a344e"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
