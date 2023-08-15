@@ -131,15 +131,6 @@
             "icon2": "shopify:\/\/shop_images\/25a2ae4f3aeacec2f66ab92e67040928_29841172-068c-444e-8995-be304cc5fc24.png",
             "icon3": "shopify:\/\/shop_images\/a8c3ad982099abeca6bbdb913b166a0e_c4cecf57-e225-4816-b140-46dc840131f7.png"
           }
-        },
-        "0163fb5d-41e7-4225-b775-1ba8e9dd1cca": {
-          "type": "img",
-          "disabled": true,
-          "settings": {
-            "pimg_url": "",
-            "img_align": false,
-            "bm": 20
-          }
         }
       },
       "block_order": [
@@ -154,8 +145,7 @@
         "ca52189d-109d-45f5-91c5-d195b2c24af3",
         "7ff82dc7-abaf-42c2-a8c8-d415a91325d5",
         "3e5ff436-8638-45b7-a3ce-b36263b34395",
-        "75a78218-e9d0-4681-b8f1-d4b99318f5b7",
-        "0163fb5d-41e7-4225-b775-1ba8e9dd1cca"
+        "75a78218-e9d0-4681-b8f1-d4b99318f5b7"
       ],
       "settings": {
         "section_width": false,
