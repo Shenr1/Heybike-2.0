@@ -502,7 +502,7 @@
           "type": "item",
           "settings": {
             "item_title": "10Ah",
-            "item_dec": "Amperestunden"
+            "item_dec": "Kapazität"
           }
         },
         "c40ebf74-fd0a-4136-902b-64c9b076e175": {
