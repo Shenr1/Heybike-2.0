@@ -921,9 +921,9 @@
           "type": "imgTxtList",
           "settings": {
             "title": "Geometrie",
-            "image": "shopify:\/\/shop_images\/630x800_ST.jpg",
+            "image": "shopify:\/\/shop_images\/EC-1-ST.jpg",
             "th": ",Beschreibung,Größe(cm)",
-            "td": "Gesamtlänge-183.74<br>Kettenstrebenlänge-45.58<br>Länge Oberrohr\n-55.07<br>Kopfrohrlänge-29.92<br>Radstand-112.50<br>Raddurchmesser-71.36<br>Lenkerhöhe\n-112.41<br>Ständerhöhe\n-44.52<br>Maximale Sitzhöhe\n-22.00<br>Minimale Sitzhöhe\n-41.00<br>Minimaler Abstand Sitz zu Boden\n-91.83<br>"
+            "td": "Gesamtlänge-50<br>Kettenstrebenlänge-45<br>Länge Oberrohr\n-55<br>Kopfrohrlänge-14<br>Radstand-102<br>Raddurchmesser-73<br>Lenkerhöhe\n-107<br>Ständerhöhe\n-108<br>Maximale Sitzhöhe\n-180<br>Minimale Sitzhöhe\n-155~180<br>Minimaler Abstand Sitz zu Boden\n-91.83<br>"
           }
         },
         "2bdea729-fb07-4fc5-87c8-a226a6cbbeac": {
