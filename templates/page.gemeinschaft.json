@@ -15,14 +15,14 @@
         "sec_bg_clr": "#fafafa",
         "max-width": 700,
         "title": "Heybike Einblicke",
-        "tcl": "#000",
+        "tcl": "#000000",
         "tfs": 45,
         "tfsm": 100,
         "tff": "ft1",
         "tfw": "700",
         "tlh": 1.2,
         "richtxt": "<p>Das Herz unserer Fahrradgemeinschaft<\/p>",
-        "cl": "#000",
+        "cl": "#000000",
         "fs": 16,
         "fsm": 85,
         "lh": 1.6,
@@ -35,7 +35,7 @@
         "btn-size-desk": "btn-md",
         "btn-size-mob": "mob-btn-sm",
         "txt_align": "tc",
-        "text_clr": "#111"
+        "text_clr": "#111111"
       }
     },
     "10e104d0-334a-4a3b-b4d9-a9e8816e42b0": {
@@ -47,14 +47,14 @@
         "sec_bg_clr": "#fafafa",
         "max-width": 700,
         "title": "Blog",
-        "tcl": "#000",
+        "tcl": "#000000",
         "tfs": 42,
         "tfsm": 100,
         "tff": "ft1",
         "tfw": "700",
         "tlh": 1.2,
         "richtxt": "",
-        "cl": "#000",
+        "cl": "#000000",
         "fs": 17,
         "fsm": 80,
         "lh": 1.6,
@@ -67,7 +67,7 @@
         "btn-size-desk": "btn-md",
         "btn-size-mob": "mob-btn-sm",
         "txt_align": "tc",
-        "text_clr": "#111"
+        "text_clr": "#111111"
       }
     },
     "71a170fb-f2bd-45eb-88e7-40a6847fb199": {
@@ -215,6 +215,7 @@
         "top_padding": "large",
         "bottom_padding": "default",
         "style": "default",
+        "bg_img": "shopify:\/\/shop_images\/2.png",
         "bg_color": "",
         "text_color": "#000000"
       }
