@@ -210,7 +210,7 @@
         "subtitle": "Wir antworten auf alle E-Mails innerhalb von 1 - 2 Werktagen.",
         "show_phone": false,
         "show_subject": false,
-        "top-offeset": "default",
+        "top-offeset": "small",
         "section_cov": true,
         "sec_bg_clr": "#fafafa"
       }
