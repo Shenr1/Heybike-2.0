@@ -70,14 +70,14 @@
         "sec_bg_clr": "#fafafa",
         "max-width": 700,
         "title": "Heybike Hilfezentrum",
-        "tcl": "#000",
+        "tcl": "#000000",
         "tfs": 43,
         "tfsm": 100,
         "tff": "ft1",
         "tfw": "700",
         "tlh": 1.2,
-        "richtxt": "<p>Immer an deiner Seite, immer bereit<\/p>",
-        "cl": "#000",
+        "richtxt": "<p>Immer an deiner Seite, immer bereit.<\/p>",
+        "cl": "#000000",
         "fs": 19,
         "fsm": 85,
         "lh": 1.6,
@@ -90,7 +90,7 @@
         "btn-size-desk": "btn-md",
         "btn-size-mob": "mob-btn-sm",
         "txt_align": "tc",
-        "text_clr": "#111"
+        "text_clr": "#111111"
       }
     },
     "377cd2f1-a706-4327-87f3-1fe389449b4b": {
@@ -149,6 +149,7 @@
         "template--19472825516355__f2586cbb-e597-4caf-8f0a-4de465ea2d6a-faqs-2",
         "template--19472825516355__f2586cbb-e597-4caf-8f0a-4de465ea2d6a-faqs-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "FAQs",
         "subtitle": "",
@@ -157,13 +158,13 @@
         "sec_bg_clr": "#fafafa",
         "pagestyle": "style1",
         "max-width": 800,
-        "tcl": "#eee",
-        "tbg": "#333",
+        "tcl": "#eeeeee",
+        "tbg": "#333333",
         "tfs": 24,
         "tfsm": 100,
         "tff": "ft2",
         "tfw": "600",
-        "qcl": "#333",
+        "qcl": "#333333",
         "qfs": 16,
         "qfsm": 85,
         "qfw": "400"
