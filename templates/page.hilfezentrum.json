@@ -174,8 +174,8 @@
       "settings": {
         "layout": "2",
         "page_Width": 700,
-        "title": "Drop Us A Line",
-        "subtitle": "Get in touch and let us know how we can help. Have a question but aren’t sure who to contact? Get in touch and a member of our team will reach out to you.",
+        "title": "Schreibe uns eine Nachricht",
+        "subtitle": "Wir antworten auf alle E-Mails innerhalb von 1 - 2 Werktagen.",
         "show_phone": false,
         "show_subject": false,
         "top-offeset": "default",
