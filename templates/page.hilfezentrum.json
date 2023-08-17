@@ -125,22 +125,22 @@
         "template--19472825516355__f2586cbb-e597-4caf-8f0a-4de465ea2d6a-faqs-1": {
           "type": "faqs",
           "settings": {
-            "question": "How can I get assistance if I need it?",
-            "answer": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+            "question": "Gibt es eine Garantie für das E-Bike?",
+            "answer": "Ja, wir bieten eine Standardgarantie auf unsere E-Bikes. Die genauen Garantiebedingungen finden Sie in der Produktbeschreibung und der mitgelieferten Garantiekarte."
           }
         },
         "template--19472825516355__f2586cbb-e597-4caf-8f0a-4de465ea2d6a-faqs-2": {
           "type": "faqs",
           "settings": {
-            "question": "How can I get assistance if I need it?",
-            "answer": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+            "question": "Benötige ich eine spezielle Versicherung oder ein Kennzeichen für das E-Bike?",
+            "answer": "Nein, für unsere E-Bikes, die den gesetzlichen Bestimmungen entsprechen, ist keine spezielle Versicherung oder ein Kennzeichen erforderlich."
           }
         },
         "template--19472825516355__f2586cbb-e597-4caf-8f0a-4de465ea2d6a-faqs-3": {
           "type": "faqs",
           "settings": {
-            "question": "How can I get assistance if I need it?",
-            "answer": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+            "question": "Sind die Preise inklusive Steuern?",
+            "answer": "Ja, unsere Preise beinhalten alle anfallenden Steuern. Es gibt keine versteckten Gebühren oder zusätzlichen Kosten."
           }
         }
       },
@@ -149,7 +149,6 @@
         "template--19472825516355__f2586cbb-e597-4caf-8f0a-4de465ea2d6a-faqs-2",
         "template--19472825516355__f2586cbb-e597-4caf-8f0a-4de465ea2d6a-faqs-3"
       ],
-      "disabled": true,
       "settings": {
         "title": "FAQs",
         "subtitle": "",
