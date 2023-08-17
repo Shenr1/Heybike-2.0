@@ -157,14 +157,59 @@
         "ffb2213a-2372-4553-bd4a-c0f91da4f5d8": {
           "type": "slide",
           "settings": {
-            "text_main": "Grazie a una batteria facilmente estraibile, pneumatici più larghi e luce anteriore integrata.",
-            "text_sub": "- Largest moto-comtmunity in Italy",
+            "text_main": "\"The HeyBike Mars is a special type of fat tire e-bike that folds down for easier transportation, meaning you can take that ride-everywhere fun on the go with you.\"",
+            "text_sub": "- ELECTREK",
             "logo_image": "shopify:\/\/shop_images\/cropped-electrek-logo11_90838650-4cdd-4c7c-8805-c5c1d5cd7dbb.png"
+          }
+        },
+        "9f0a66bc-11a8-4801-85b0-24ef0a042d1d": {
+          "type": "slide",
+          "settings": {
+            "text_main": "\"The Brawn from Heybike is a motorcycle inspired off-road beast.\"",
+            "text_sub": "- electrifiedreviews",
+            "logo_image": "shopify:\/\/shop_images\/123456.png"
+          }
+        },
+        "30c9a089-dbdb-4d35-a1a5-5be36fe84d0d": {
+          "type": "slide",
+          "settings": {
+            "text_main": "\"The Heybike Cityrun stands out for safety and security features, and even has a place to put your water bottle. It's the perfect e-bike for commuting.\"",
+            "text_sub": "- ZDNET",
+            "logo_image": "shopify:\/\/shop_images\/ZDNet-logo-347F1C3C61-seeklogo.com_a86e5079-3340-4867-ae7b-bd390b2724cd.png"
+          }
+        },
+        "90b48db5-722e-4eb8-b822-5c36dd1db0a4": {
+          "type": "slide",
+          "settings": {
+            "text_main": "\"When it comes to solid, folding e-bikes, HeyBike has got game, with the manufacturer presenting us with a wide range of fat-tire wheelers.\"",
+            "text_sub": "- AUTOEVOLUTION",
+            "logo_image": "shopify:\/\/shop_images\/AU_1ee61b22-7f72-42ed-9d63-79ec89279189.png"
+          }
+        },
+        "d7578136-e5fd-408f-9658-064eda3a9629": {
+          "type": "slide",
+          "settings": {
+            "text_main": "\"The Heybike Mars hits a good price point and is a lot of fun to ride.\"",
+            "text_sub": "- MSN",
+            "logo_image": "shopify:\/\/shop_images\/images_8a47b1b2-efe5-472c-bc65-ff896180b643.png"
+          }
+        },
+        "0bd3c25e-f17c-412c-8c2a-bde10b026bea": {
+          "type": "slide",
+          "settings": {
+            "text_main": "MARS is a good choice for those people who want to use their bikes in multiple scenarios, like commuting and outdoor off-road.",
+            "text_sub": "- Techtimes",
+            "logo_image": "shopify:\/\/shop_images\/6fb53c51539b47559cf0d122a832cf63_b1639750-8312-4b95-a47f-f0d4960e988c.png"
           }
         }
       },
       "block_order": [
-        "ffb2213a-2372-4553-bd4a-c0f91da4f5d8"
+        "ffb2213a-2372-4553-bd4a-c0f91da4f5d8",
+        "9f0a66bc-11a8-4801-85b0-24ef0a042d1d",
+        "30c9a089-dbdb-4d35-a1a5-5be36fe84d0d",
+        "90b48db5-722e-4eb8-b822-5c36dd1db0a4",
+        "d7578136-e5fd-408f-9658-064eda3a9629",
+        "0bd3c25e-f17c-412c-8c2a-bde10b026bea"
       ],
       "settings": {
         "top_padding": "large",
