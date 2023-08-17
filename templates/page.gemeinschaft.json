@@ -130,7 +130,7 @@
       "settings": {
         "title": "",
         "subtitle": "",
-        "top-offeset": "default",
+        "top-offeset": "none",
         "section_cov": true,
         "sec_bg_clr": "#fafafa",
         "blog": "heybike-blog",
@@ -244,7 +244,7 @@
         "0bd3c25e-f17c-412c-8c2a-bde10b026bea"
       ],
       "settings": {
-        "top_padding": "large",
+        "top_padding": "none",
         "bottom_padding": "default",
         "style": "default",
         "bg_img": "shopify:\/\/shop_images\/2.png",
