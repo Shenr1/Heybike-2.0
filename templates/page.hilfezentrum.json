@@ -96,8 +96,8 @@
     "377cd2f1-a706-4327-87f3-1fe389449b4b": {
       "type": "featured-blog",
       "settings": {
-        "title": "",
-        "subtitle": "",
+        "title": "Tutorials",
+        "subtitle": "Tauche ein in unsere Tutorial-Videos für umfassende Anleitungen, wie du das Beste aus deiner Heybike-Erfahrung herausholen kannst.",
         "top-offeset": "default",
         "section_cov": true,
         "sec_bg_clr": "#fafafa",
@@ -113,7 +113,7 @@
         "show_comment": true,
         "show_mini_des": true,
         "show_read_more": true,
-        "show_view_all": false,
+        "show_view_all": true,
         "btn-style": "btn",
         "btn-size-desk": "btn-sm",
         "btn-size-mob": "mob-btn-sm"
