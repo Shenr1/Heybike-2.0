@@ -44,7 +44,8 @@
         "template--19472854384963__8b882ea5-6f0e-43ae-993e-287f267636b9-row-1": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5.jpg",
+            "image": "shopify:\/\/shop_images\/4_3105c165-6cd0-452f-ab34-003e741e03c2.jpg",
+            "image_mb": "shopify:\/\/shop_images\/4_3105c165-6cd0-452f-ab34-003e741e03c2.jpg",
             "layout": "left",
             "title": "Banner With Text",
             "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -65,6 +66,8 @@
         "e1dd4031-67da-44c4-a528-b932d9502984": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/3_f5c18937-a4e4-405b-989f-582dde55e592.jpg",
+            "image_mb": "shopify:\/\/shop_images\/3_f5c18937-a4e4-405b-989f-582dde55e592.jpg",
             "layout": "right",
             "title": "Banner With Text",
             "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
