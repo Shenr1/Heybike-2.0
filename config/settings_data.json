@@ -349,7 +349,7 @@
             "type": "dropdown",
             "settings": {
               "title": "Hilfezentrum",
-              "url": "shopify:\/\/pages\/contact",
+              "url": "shopify:\/\/pages\/hilfezentrum",
               "mm_linklist": "hilfezentrum"
             }
           },
