@@ -143,8 +143,8 @@
       "settings": {
         "layout": "2",
         "page_Width": 700,
-        "title": "Mailen Sie uns",
-        "subtitle": "Nehmen Sie Kontakt mit uns auf und teilen Sie uns mit, wie wir Ihnen helfen können. Sie haben eine Frage und wissen nicht, an wen Sie sich wenden sollen? Nehmen Sie Kontakt mit uns auf und ein Mitglied unseres Teams wird sich mit Ihnen in Verbindung setzen.",
+        "title": "Schreibe uns eine Nachricht",
+        "subtitle": "Wir antworten auf alle E-Mails innerhalb von 1 - 2 Werktagen.",
         "show_phone": false,
         "show_subject": false,
         "top-offeset": "default",
