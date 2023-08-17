@@ -2,6 +2,7 @@
   "sections": {
     "wishlist": {
       "type": "wishlist",
+      "disabled": true,
       "settings": {
       }
     },
@@ -19,6 +20,7 @@
             "button_label": "Shop Now",
             "button_link": "\/",
             "text_align": "text-left",
+            "text_center": false,
             "tcl": "#000000",
             "cl": "#000000",
             "bg": "#f5f5f5",
@@ -58,10 +60,136 @@
         "btn-size-desk": "btn-md",
         "btn-size-mob": "mob-btn-sm"
       }
+    },
+    "340b9dd5-ace5-4231-bc6d-47aa018e4024": {
+      "type": "richtext",
+      "settings": {
+        "top-offeset": "default",
+        "fullwidth": true,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "max-width": 700,
+        "title": "Heybike Hilfezentrum",
+        "tcl": "#000",
+        "tfs": 43,
+        "tfsm": 100,
+        "tff": "ft1",
+        "tfw": "700",
+        "tlh": 1.2,
+        "richtxt": "<p>Immer an deiner Seite, immer bereit<\/p>",
+        "cl": "#000",
+        "fs": 19,
+        "fsm": 85,
+        "lh": 1.6,
+        "btntxt": "",
+        "btnurl": "",
+        "btn-style": "btn",
+        "btntxt1": "",
+        "btnurl1": "",
+        "btn-style2": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "txt_align": "tc",
+        "text_clr": "#111"
+      }
+    },
+    "377cd2f1-a706-4327-87f3-1fe389449b4b": {
+      "type": "featured-blog",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "top-offeset": "default",
+        "section_cov": true,
+        "sec_bg_clr": "#fafafa",
+        "blog": "tutorial-videos",
+        "img_ratio": "50",
+        "post_limit": 3,
+        "grid": 3,
+        "tablet-grid": 2,
+        "mobile-grid": 1,
+        "blog_align": "tc",
+        "blog_show_author": false,
+        "blog_show_date": true,
+        "show_comment": true,
+        "show_mini_des": true,
+        "show_read_more": true,
+        "show_view_all": false,
+        "btn-style": "btn",
+        "btn-size-desk": "btn-sm",
+        "btn-size-mob": "mob-btn-sm"
+      }
+    },
+    "f2586cbb-e597-4caf-8f0a-4de465ea2d6a": {
+      "type": "faq",
+      "blocks": {
+        "template--19472825516355__f2586cbb-e597-4caf-8f0a-4de465ea2d6a-faqs-1": {
+          "type": "faqs",
+          "settings": {
+            "question": "How can I get assistance if I need it?",
+            "answer": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+          }
+        },
+        "template--19472825516355__f2586cbb-e597-4caf-8f0a-4de465ea2d6a-faqs-2": {
+          "type": "faqs",
+          "settings": {
+            "question": "How can I get assistance if I need it?",
+            "answer": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+          }
+        },
+        "template--19472825516355__f2586cbb-e597-4caf-8f0a-4de465ea2d6a-faqs-3": {
+          "type": "faqs",
+          "settings": {
+            "question": "How can I get assistance if I need it?",
+            "answer": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+          }
+        }
+      },
+      "block_order": [
+        "template--19472825516355__f2586cbb-e597-4caf-8f0a-4de465ea2d6a-faqs-1",
+        "template--19472825516355__f2586cbb-e597-4caf-8f0a-4de465ea2d6a-faqs-2",
+        "template--19472825516355__f2586cbb-e597-4caf-8f0a-4de465ea2d6a-faqs-3"
+      ],
+      "settings": {
+        "title": "FAQs",
+        "subtitle": "",
+        "top-offeset": "default",
+        "section_cov": true,
+        "sec_bg_clr": "#fafafa",
+        "pagestyle": "style1",
+        "max-width": 800,
+        "tcl": "#eee",
+        "tbg": "#333",
+        "tfs": 24,
+        "tfsm": 100,
+        "tff": "ft2",
+        "tfw": "600",
+        "qcl": "#333",
+        "qfs": 16,
+        "qfsm": 85,
+        "qfw": "400"
+      }
+    },
+    "60190d17-7252-4447-9e3f-1d6bbbe48234": {
+      "type": "contact-form",
+      "settings": {
+        "layout": "2",
+        "page_Width": 700,
+        "title": "Drop Us A Line",
+        "subtitle": "Get in touch and let us know how we can help. Have a question but aren’t sure who to contact? Get in touch and a member of our team will reach out to you.",
+        "show_phone": false,
+        "show_subject": false,
+        "top-offeset": "default",
+        "section_cov": true,
+        "sec_bg_clr": "#fafafa"
+      }
     }
   },
   "order": [
     "wishlist",
-    "71a170fb-f2bd-45eb-88e7-40a6847fb199"
+    "71a170fb-f2bd-45eb-88e7-40a6847fb199",
+    "340b9dd5-ace5-4231-bc6d-47aa018e4024",
+    "377cd2f1-a706-4327-87f3-1fe389449b4b",
+    "f2586cbb-e597-4caf-8f0a-4de465ea2d6a",
+    "60190d17-7252-4447-9e3f-1d6bbbe48234"
   ]
 }
