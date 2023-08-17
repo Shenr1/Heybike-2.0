@@ -94,7 +94,7 @@
             "image_mb": "shopify:\/\/shop_images\/222_3c4585a4-14d2-4b7d-bef3-541c0deb6a0d.png",
             "layout": "right",
             "title": "",
-            "text": "<h3>Wir unterstützen viele Zahlungsarten:<\/h3><p><br\/>1. PayPal.<br\/>2. Credit or Debit Card (We accept all major credit and debit card providers including <strong>Mastercard, Visa and American Express<\/strong>).<br\/>3. Klarna,<br\/>4. Apple Pay<br\/>5.Google pay<br\/>6.Maestro<br\/>7.Shop pay<br\/>8.SOFORT<\/p><p><br\/><br\/>Anmerkungen:<br\/>(1) Wenn Sie eine Bestellung mit PayPal aufgeben, werden Sie auf die PayPal-Zahlungsseite weitergeleitet, wo Sie sich mit Ihrem PayPal-Benutzernamen und -Passwort anmelden können, um Ihre Zahlung zu bestätigen.<br\/><br\/>Sie können auch dann zur Kasse gehen, wenn Sie kein PayPal-Konto haben. Klicken Sie dazu auf \"Mit Debit-\/Kreditkarte bezahlen\". Sie werden dann auf eine sichere Seite weitergeleitet, auf der Sie Ihre Kreditkartendaten eingeben oder Ihre Zahlung sicher über PayPal abwickeln können.<br\/><br\/>(2) Wenn Sie mit Kreditkarte bezahlen, kann es sein, dass unser System Ihre Zahlung an der Kasse ablehnt, um möglichen Kreditkartenbetrug zu verhindern. Am besten rufen Sie Ihr Kreditkartenunternehmen oder Ihre Bank im Voraus an, um sie über Ihren Kauf zu informieren und eine Ablehnung zu vermeiden.<br\/><\/p>",
+            "text": "<h3>Wir unterstützen viele Zahlungsarten:<\/h3><p><br\/>1. PayPal.<br\/>2. Credit or Debit Card (Wir akzeptieren alle gängigen Kredit- und Debitkartenanbieter, einschließlich <strong>Mastercard, Visa and American Express<\/strong>).<br\/>3. Klarna,<br\/>4. Apple Pay<br\/>5.Google pay<br\/>6.Maestro<br\/>7.Shop pay<br\/>8.SOFORT<\/p><p><br\/><br\/>Anmerkungen:<br\/>(1) Wenn Sie eine Bestellung mit PayPal aufgeben, werden Sie auf die PayPal-Zahlungsseite weitergeleitet, wo Sie sich mit Ihrem PayPal-Benutzernamen und -Passwort anmelden können, um Ihre Zahlung zu bestätigen.<br\/><br\/>Sie können auch dann zur Kasse gehen, wenn Sie kein PayPal-Konto haben. Klicken Sie dazu auf \"Mit Debit-\/Kreditkarte bezahlen\". Sie werden dann auf eine sichere Seite weitergeleitet, auf der Sie Ihre Kreditkartendaten eingeben oder Ihre Zahlung sicher über PayPal abwickeln können.<br\/><br\/>(2) Wenn Sie mit Kreditkarte bezahlen, kann es sein, dass unser System Ihre Zahlung an der Kasse ablehnt, um möglichen Kreditkartenbetrug zu verhindern. Am besten rufen Sie Ihr Kreditkartenunternehmen oder Ihre Bank im Voraus an, um sie über Ihren Kauf zu informieren und eine Ablehnung zu vermeiden.<br\/><\/p>",
             "logo_url": "",
             "logo_url2": "",
             "button_label": "",
@@ -175,7 +175,6 @@
     },
     "333b48a4-47f8-4c4b-bbae-234edc6f66e8": {
       "type": "banner-with-text",
-      "disabled": true,
       "blocks": {
         "template--19320943345979__333b48a4-47f8-4c4b-bbae-234edc6f66e8-1685517169e04f9469-0": {
           "type": "row",
@@ -243,6 +242,7 @@
         "c71f45a1-6643-4087-a182-795ae539412d",
         "c795faea-83fe-42c0-a816-179a3a21520b"
       ],
+      "disabled": true,
       "settings": {
         "top_padding": "none",
         "bottom_padding": "large",
