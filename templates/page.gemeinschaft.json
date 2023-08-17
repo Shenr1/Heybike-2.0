@@ -151,6 +151,38 @@
         "btn-size-mob": "mob-btn-sm"
       }
     },
+    "2f3221db-d492-401c-8232-b5ce7f64da79": {
+      "type": "richtext",
+      "settings": {
+        "top-offeset": "default",
+        "fullwidth": true,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "max-width": 700,
+        "title": "Die Meinungen von Experten",
+        "tcl": "#000",
+        "tfs": 40,
+        "tfsm": 100,
+        "tff": "ft1",
+        "tfw": "700",
+        "tlh": 1.2,
+        "richtxt": "",
+        "cl": "#000",
+        "fs": 14,
+        "fsm": 85,
+        "lh": 1.6,
+        "btntxt": "",
+        "btnurl": "",
+        "btn-style": "btn",
+        "btntxt1": "",
+        "btnurl1": "",
+        "btn-style2": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "txt_align": "tc",
+        "text_clr": "#111"
+      }
+    },
     "e9db0aad-2cc8-43f9-912b-bde21b70ad48": {
       "type": "logo-slider",
       "blocks": {
@@ -227,6 +259,7 @@
     "10e104d0-334a-4a3b-b4d9-a9e8816e42b0",
     "71a170fb-f2bd-45eb-88e7-40a6847fb199",
     "2c63b002-0441-49cd-995e-71e69b1f9f8e",
+    "2f3221db-d492-401c-8232-b5ce7f64da79",
     "e9db0aad-2cc8-43f9-912b-bde21b70ad48"
   ]
 }
