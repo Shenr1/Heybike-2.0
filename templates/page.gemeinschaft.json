@@ -38,6 +38,38 @@
         "text_clr": "#111"
       }
     },
+    "10e104d0-334a-4a3b-b4d9-a9e8816e42b0": {
+      "type": "richtext",
+      "settings": {
+        "top-offeset": "default",
+        "fullwidth": true,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "max-width": 700,
+        "title": "Blog",
+        "tcl": "#000",
+        "tfs": 56,
+        "tfsm": 100,
+        "tff": "ft1",
+        "tfw": "700",
+        "tlh": 1.2,
+        "richtxt": "",
+        "cl": "#000",
+        "fs": 14,
+        "fsm": 85,
+        "lh": 1.6,
+        "btntxt": "",
+        "btnurl": "",
+        "btn-style": "btn",
+        "btntxt1": "",
+        "btnurl1": "",
+        "btn-style2": "btn",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "txt_align": "tc",
+        "text_clr": "#111"
+      }
+    },
     "71a170fb-f2bd-45eb-88e7-40a6847fb199": {
       "type": "banner-with-text",
       "blocks": {
@@ -96,8 +128,8 @@
     "2c63b002-0441-49cd-995e-71e69b1f9f8e": {
       "type": "featured-blog",
       "settings": {
-        "title": "Blog posts",
-        "subtitle": "Describe your products, collection, content etc...",
+        "title": "",
+        "subtitle": "",
         "top-offeset": "default",
         "section_cov": true,
         "sec_bg_clr": "#fafafa",
@@ -146,6 +178,7 @@
   "order": [
     "wishlist",
     "cf486d5d-5fdc-4f58-ab7a-5e07b62597c5",
+    "10e104d0-334a-4a3b-b4d9-a9e8816e42b0",
     "71a170fb-f2bd-45eb-88e7-40a6847fb199",
     "2c63b002-0441-49cd-995e-71e69b1f9f8e",
     "e9db0aad-2cc8-43f9-912b-bde21b70ad48"
