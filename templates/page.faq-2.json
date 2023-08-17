@@ -2,6 +2,7 @@
   "sections": {
     "wishlist": {
       "type": "wishlist",
+      "disabled": true,
       "settings": {
       }
     },
@@ -19,6 +20,7 @@
             "button_label": "Shop Now",
             "button_link": "\/",
             "text_align": "text-left",
+            "text_center": false,
             "tcl": "#000000",
             "cl": "#000000",
             "bg": "#f5f5f5",
@@ -58,10 +60,163 @@
         "btn-size-desk": "btn-md",
         "btn-size-mob": "mob-btn-sm"
       }
+    },
+    "91861046-e86c-48b1-917f-3e8e8c54b998": {
+      "type": "faq",
+      "blocks": {
+        "template--19473199464771__91861046-e86c-48b1-917f-3e8e8c54b998-faqs-1": {
+          "type": "faqs",
+          "settings": {
+            "question": "How can I get assistance if I need it?",
+            "answer": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+          }
+        },
+        "template--19473199464771__91861046-e86c-48b1-917f-3e8e8c54b998-faqs-2": {
+          "type": "faqs",
+          "settings": {
+            "question": "How can I get assistance if I need it?",
+            "answer": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+          }
+        },
+        "template--19473199464771__91861046-e86c-48b1-917f-3e8e8c54b998-faqs-3": {
+          "type": "faqs",
+          "settings": {
+            "question": "How can I get assistance if I need it?",
+            "answer": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+          }
+        }
+      },
+      "block_order": [
+        "template--19473199464771__91861046-e86c-48b1-917f-3e8e8c54b998-faqs-1",
+        "template--19473199464771__91861046-e86c-48b1-917f-3e8e8c54b998-faqs-2",
+        "template--19473199464771__91861046-e86c-48b1-917f-3e8e8c54b998-faqs-3"
+      ],
+      "settings": {
+        "title": "Allgemeine Anfragen",
+        "subtitle": "",
+        "top-offeset": "default",
+        "section_cov": true,
+        "sec_bg_clr": "#fafafa",
+        "pagestyle": "style1",
+        "max-width": 800,
+        "tcl": "#eee",
+        "tbg": "#333",
+        "tfs": 24,
+        "tfsm": 100,
+        "tff": "ft2",
+        "tfw": "600",
+        "qcl": "#333",
+        "qfs": 16,
+        "qfsm": 85,
+        "qfw": "400"
+      }
+    },
+    "de497512-7c58-441f-9428-04e2ac342aff": {
+      "type": "faq",
+      "blocks": {
+        "template--19473199464771__de497512-7c58-441f-9428-04e2ac342aff-faqs-1": {
+          "type": "faqs",
+          "settings": {
+            "question": "How can I get assistance if I need it?",
+            "answer": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+          }
+        },
+        "template--19473199464771__de497512-7c58-441f-9428-04e2ac342aff-faqs-2": {
+          "type": "faqs",
+          "settings": {
+            "question": "How can I get assistance if I need it?",
+            "answer": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+          }
+        },
+        "template--19473199464771__de497512-7c58-441f-9428-04e2ac342aff-faqs-3": {
+          "type": "faqs",
+          "settings": {
+            "question": "How can I get assistance if I need it?",
+            "answer": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+          }
+        }
+      },
+      "block_order": [
+        "template--19473199464771__de497512-7c58-441f-9428-04e2ac342aff-faqs-1",
+        "template--19473199464771__de497512-7c58-441f-9428-04e2ac342aff-faqs-2",
+        "template--19473199464771__de497512-7c58-441f-9428-04e2ac342aff-faqs-3"
+      ],
+      "settings": {
+        "title": "Zahlung & Versand",
+        "subtitle": "",
+        "top-offeset": "default",
+        "section_cov": true,
+        "sec_bg_clr": "#fafafa",
+        "pagestyle": "style1",
+        "max-width": 800,
+        "tcl": "#eee",
+        "tbg": "#333",
+        "tfs": 24,
+        "tfsm": 100,
+        "tff": "ft2",
+        "tfw": "600",
+        "qcl": "#333",
+        "qfs": 16,
+        "qfsm": 85,
+        "qfw": "400"
+      }
+    },
+    "36aa8f54-c50b-40be-8f7c-21195b9a7bd3": {
+      "type": "faq",
+      "blocks": {
+        "template--19473199464771__36aa8f54-c50b-40be-8f7c-21195b9a7bd3-faqs-1": {
+          "type": "faqs",
+          "settings": {
+            "question": "How can I get assistance if I need it?",
+            "answer": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+          }
+        },
+        "template--19473199464771__36aa8f54-c50b-40be-8f7c-21195b9a7bd3-faqs-2": {
+          "type": "faqs",
+          "settings": {
+            "question": "How can I get assistance if I need it?",
+            "answer": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+          }
+        },
+        "template--19473199464771__36aa8f54-c50b-40be-8f7c-21195b9a7bd3-faqs-3": {
+          "type": "faqs",
+          "settings": {
+            "question": "How can I get assistance if I need it?",
+            "answer": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+          }
+        }
+      },
+      "block_order": [
+        "template--19473199464771__36aa8f54-c50b-40be-8f7c-21195b9a7bd3-faqs-1",
+        "template--19473199464771__36aa8f54-c50b-40be-8f7c-21195b9a7bd3-faqs-2",
+        "template--19473199464771__36aa8f54-c50b-40be-8f7c-21195b9a7bd3-faqs-3"
+      ],
+      "settings": {
+        "title": "FAQs",
+        "subtitle": "",
+        "top-offeset": "default",
+        "section_cov": true,
+        "sec_bg_clr": "#fafafa",
+        "pagestyle": "style1",
+        "max-width": 800,
+        "tcl": "#eee",
+        "tbg": "#333",
+        "tfs": 24,
+        "tfsm": 100,
+        "tff": "ft2",
+        "tfw": "600",
+        "qcl": "#333",
+        "qfs": 16,
+        "qfsm": 85,
+        "qfw": "400"
+      }
     }
   },
   "order": [
     "wishlist",
-    "71a170fb-f2bd-45eb-88e7-40a6847fb199"
+    "71a170fb-f2bd-45eb-88e7-40a6847fb199",
+    "91861046-e86c-48b1-917f-3e8e8c54b998",
+    "de497512-7c58-441f-9428-04e2ac342aff",
+    "36aa8f54-c50b-40be-8f7c-21195b9a7bd3"
   ]
 }
