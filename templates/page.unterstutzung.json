@@ -38,66 +38,13 @@
         "text_clr": "#111"
       }
     },
-    "71a170fb-f2bd-45eb-88e7-40a6847fb199": {
-      "type": "banner-with-text",
-      "blocks": {
-        "template--19143575241019__71a170fb-f2bd-45eb-88e7-40a6847fb199-1685517169e04f9469-0": {
-          "type": "row",
-          "settings": {
-            "layout": "left",
-            "title": "Banner With Text",
-            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "logo_url": "",
-            "logo_url2": "",
-            "button_label": "Shop Now",
-            "button_link": "\/",
-            "text_align": "text-left",
-            "text_center": false,
-            "tcl": "#000000",
-            "cl": "#000000",
-            "bg": "#f5f5f5",
-            "btncl": "#ffffff",
-            "btnbg": "#000000",
-            "btnbd": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "template--19143575241019__71a170fb-f2bd-45eb-88e7-40a6847fb199-1685517169e04f9469-0"
-      ],
-      "settings": {
-        "top_padding": "none",
-        "bottom_padding": "large",
-        "top-offeset": "default",
-        "section_style": "default",
-        "section_width": true,
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa",
-        "snow_effect": false,
-        "snow_style": "style1",
-        "tfs": 30,
-        "tfsm": 150,
-        "tff": "ft1",
-        "tfw": "700",
-        "tlh": 1.2,
-        "tmb": 15,
-        "tmbm": 10,
-        "fs": 14,
-        "fsm": 75,
-        "fw": "400",
-        "lh": 1.6,
-        "mb": 15,
-        "mbm": 10,
-        "btn-size-desk": "btn-md",
-        "btn-size-mob": "mob-btn-sm"
-      }
-    },
     "8b882ea5-6f0e-43ae-993e-287f267636b9": {
       "type": "banner-with-text",
       "blocks": {
         "template--19472854384963__8b882ea5-6f0e-43ae-993e-287f267636b9-row-1": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/5.jpg",
             "layout": "left",
             "title": "Banner With Text",
             "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -114,42 +61,48 @@
             "btnbg": "#000",
             "btnbd": "#000"
           }
-        }
-      },
-      "block_order": [
-        "template--19472854384963__8b882ea5-6f0e-43ae-993e-287f267636b9-row-1"
-      ],
-      "settings": {
-        "top_padding": "none",
-        "bottom_padding": "large",
-        "top-offeset": "default",
-        "section_style": "default",
-        "section_width": true,
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa",
-        "snow_effect": false,
-        "snow_style": "style1",
-        "tfs": 30,
-        "tfsm": 100,
-        "tff": "ft1",
-        "tfw": "700",
-        "tlh": 1.2,
-        "tmb": 15,
-        "tmbm": 10,
-        "fs": 14,
-        "fsm": 85,
-        "fw": "400",
-        "lh": 1.6,
-        "mb": 15,
-        "mbm": 10,
-        "btn-size-desk": "btn-md",
-        "btn-size-mob": "mob-btn-sm"
-      }
-    },
-    "36795555-7ece-42ef-b013-d3afc6553af3": {
-      "type": "banner-with-text",
-      "blocks": {
-        "template--19472854384963__36795555-7ece-42ef-b013-d3afc6553af3-row-1": {
+        },
+        "e1dd4031-67da-44c4-a528-b932d9502984": {
+          "type": "row",
+          "settings": {
+            "layout": "right",
+            "title": "Banner With Text",
+            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "logo_url": "",
+            "logo_url2": "",
+            "button_label": "Shop Now",
+            "button_link": "\/",
+            "text_align": "text-left",
+            "text_center": false,
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "#f5f5f5",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
+        },
+        "c98a6d1b-02af-4e19-b4dd-cb44e199fc9f": {
+          "type": "row",
+          "settings": {
+            "layout": "left",
+            "title": "Banner With Text",
+            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "logo_url": "",
+            "logo_url2": "",
+            "button_label": "Shop Now",
+            "button_link": "\/",
+            "text_align": "text-left",
+            "text_center": false,
+            "tcl": "#000",
+            "cl": "#000",
+            "bg": "#f5f5f5",
+            "btncl": "#fff",
+            "btnbg": "#000",
+            "btnbd": "#000"
+          }
+        },
+        "4f34defa-c914-4928-baea-49b9eb9351d7": {
           "type": "row",
           "settings": {
             "layout": "left",
@@ -171,67 +124,16 @@
         }
       },
       "block_order": [
-        "template--19472854384963__36795555-7ece-42ef-b013-d3afc6553af3-row-1"
+        "template--19472854384963__8b882ea5-6f0e-43ae-993e-287f267636b9-row-1",
+        "e1dd4031-67da-44c4-a528-b932d9502984",
+        "c98a6d1b-02af-4e19-b4dd-cb44e199fc9f",
+        "4f34defa-c914-4928-baea-49b9eb9351d7"
       ],
       "settings": {
         "top_padding": "none",
-        "bottom_padding": "large",
+        "bottom_padding": "none",
         "top-offeset": "default",
-        "section_style": "default",
-        "section_width": true,
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa",
-        "snow_effect": false,
-        "snow_style": "style1",
-        "tfs": 30,
-        "tfsm": 100,
-        "tff": "ft1",
-        "tfw": "700",
-        "tlh": 1.2,
-        "tmb": 15,
-        "tmbm": 10,
-        "fs": 14,
-        "fsm": 85,
-        "fw": "400",
-        "lh": 1.6,
-        "mb": 15,
-        "mbm": 10,
-        "btn-size-desk": "btn-md",
-        "btn-size-mob": "mob-btn-sm"
-      }
-    },
-    "6a8b7bd8-c52c-460d-a893-92c9f680d09a": {
-      "type": "banner-with-text",
-      "blocks": {
-        "template--19472854384963__6a8b7bd8-c52c-460d-a893-92c9f680d09a-row-1": {
-          "type": "row",
-          "settings": {
-            "layout": "left",
-            "title": "Banner With Text",
-            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "logo_url": "",
-            "logo_url2": "",
-            "button_label": "Shop Now",
-            "button_link": "\/",
-            "text_align": "text-left",
-            "text_center": false,
-            "tcl": "#000",
-            "cl": "#000",
-            "bg": "#f5f5f5",
-            "btncl": "#fff",
-            "btnbg": "#000",
-            "btnbd": "#000"
-          }
-        }
-      },
-      "block_order": [
-        "template--19472854384963__6a8b7bd8-c52c-460d-a893-92c9f680d09a-row-1"
-      ],
-      "settings": {
-        "top_padding": "none",
-        "bottom_padding": "large",
-        "top-offeset": "default",
-        "section_style": "default",
+        "section_style": "heybike",
         "section_width": true,
         "section_cov": false,
         "sec_bg_clr": "#fafafa",
@@ -258,9 +160,6 @@
   "order": [
     "wishlist",
     "3e7758e3-9a8d-4af4-bd7b-e5d03feacdc9",
-    "71a170fb-f2bd-45eb-88e7-40a6847fb199",
-    "8b882ea5-6f0e-43ae-993e-287f267636b9",
-    "36795555-7ece-42ef-b013-d3afc6553af3",
-    "6a8b7bd8-c52c-460d-a893-92c9f680d09a"
+    "8b882ea5-6f0e-43ae-993e-287f267636b9"
   ]
 }
