@@ -150,7 +150,7 @@
         "template--19472825516355__f2586cbb-e597-4caf-8f0a-4de465ea2d6a-faqs-3"
       ],
       "settings": {
-        "title": "FAQs",
+        "title": "FAQ",
         "subtitle": "",
         "top-offeset": "default",
         "section_cov": true,
@@ -178,14 +178,14 @@
         "sec_bg_clr": "#fafafa",
         "max-width": 700,
         "title": "",
-        "tcl": "#000",
+        "tcl": "#000000",
         "tfs": 26,
         "tfsm": 100,
         "tff": "ft1",
         "tfw": "700",
         "tlh": 1.2,
         "richtxt": "",
-        "cl": "#000",
+        "cl": "#000000",
         "fs": 14,
         "fsm": 85,
         "lh": 1.6,
@@ -198,7 +198,7 @@
         "btn-size-desk": "btn-md",
         "btn-size-mob": "mob-btn-sm",
         "txt_align": "tc",
-        "text_clr": "#111"
+        "text_clr": "#111111"
       }
     },
     "60190d17-7252-4447-9e3f-1d6bbbe48234": {
