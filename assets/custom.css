@@ -389,7 +389,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
     .footer-top .newsletter .btn,
     .list-view-item__title,
     input, textarea, select {
-    font-size:24px;
+    font-size:1rem !important;
     line-height:1.5rem !important;
   }
 
@@ -1773,8 +1773,8 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 }
 
 .text-2_5xl {
-  font-size:48px;
-  line-height:1.2;
+  font-size:1.745rem;
+  line-height:2.15rem;
 }
 
 .text-2xl {
@@ -1792,8 +1792,8 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 }
 
 .text-base {
-  font-size:28px;
-  line-height:1.2;
+  font-size:1rem;
+  line-height:1.5rem;
 }
 
 .text-lg {
@@ -1802,13 +1802,13 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 }
 
 .text-sm {
-  font-size:24px;
-  line-height:1.2;
+  font-size:0.875rem;
+  line-height:1.25rem;
 }
 
 .text-xl {
-  font-size:30px;
-  line-height:1.2;
+  font-size:1.25rem;
+  line-height:1.5rem;
 }
 
 .text-xs {
