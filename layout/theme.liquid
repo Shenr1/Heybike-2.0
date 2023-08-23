@@ -8,32 +8,61 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}" {% if isRtl %}dir="rtl"{% endif %}><head>
 
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"187048371", enableAutoSpaTracking: true};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
+<script>window.uetq = window.uetq || [];window.uetq.push('event', '', {"revenue_value":1,"currency":"GBP"});</script>
+<script>
 
-  <meta name="facebook-domain-verification" content="4xrdj3w900zy2ojm9zgyok2r7902pz" />
+(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"187048371"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");
 
+</script>
+  
+  
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-K45RJYLGKS"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WL3M09PJVC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-K45RJYLGKS');
+  gtag('config', 'G-WL3M09PJVC');
 </script>
 
-  <!-- Event snippet for ATC conversion page -->
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11207842177"></script>
 <script>
-  gtag('event', 'conversion', {'send_to': 'AW-11206098096/foxsCKmhvM4YELD5vd8p'});
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11207842177');
 </script>
 
 
-<meta name="viewport" content="width=device-width, initial-scale=1">  
-
-
-<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"343067685", enableAutoSpaTracking: true};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
-
+{% comment %}//EasyFeed For Google Shopping Start{% endcomment %}
+<meta name="google-site-verification" content="trW6vCdyPovqbgMVwjI4-YX-FLewqLOo-SG1M2zi7BQ" />
+{% comment %}//EasyFeed For Google Shopping End{% endcomment %}
+<meta name="facebook-domain-verification" content="r3z85w9rb0j792amxfx0ny4s7w8xhn" />
   
-<meta name="google-site-verification" content="kSVj7G01hN7iWvbDBEjhZCwgokpwPzOXpFopfiWZZIs" />
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '612157040725064');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=612157040725064&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<meta name="verification" content="4f7fb67fb11be7a1051a709b0a083228" />
+
   
   {%- capture metaTags -%}
 	<meta charset="utf-8">
@@ -73,7 +102,6 @@
   	<script src="{{ 'jquery.min.js' | asset_url }}"defer="defer"></script>
   	<script src="{{ 'custom.js' | asset_url }}"defer="defer"></script>
 
-  
 
 	<script>
 		var theme = {
@@ -115,7 +143,7 @@
 	{%- if settings.enable_age_varification -%}{% render 'age-check' %}{%- endif -%}
     {%- if settings.layout_style == "boxedlayout" -%}<div class="page-wrapper layout-boxed">{%- endif -%}
   		{%- render 'header' -%}
-    	{%- if settings.top-information-bar -%}{% section 'top-info-panel' %}{%- endif -%}
+    	{% comment %} {%- if settings.top-information-bar -%}{% section 'top-info-panel' %}{%- endif -%} {% endcomment %}
 		<main id="PageContainer" class="main-content {{ template | split: '.' | first }}" id="MainContent" role="main">{{ content_for_layout }}</main>
     	{%- section 'footer' -%}
   	{% if settings.layout_style == "boxedlayout" %}</div>{% endif %}  
