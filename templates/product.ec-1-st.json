@@ -58,7 +58,7 @@
           "type": "shiptime",
           "settings": {
             "estimate": "35\/45",
-            "msg": "<i class=\"at at-clock-r\">  Période de prévente : Du 5 au 31 août\n<br>\n<i class=\"at at-clock-r\"><\/i> Estimated delivery between [startdate] <b>-<b> [enddate].<\/b><\/b><\/i>",
+            "msg": "<i class=\"at at-clock-r\"> Période de prévente : 25 août au 20 septembre\n<br>\n<i class=\"at at-clock-r\"><\/i>Livraison estimée entre [startdate] <b>-<b> [enddate].<\/b><\/b><\/i>",
             "bm": 15
           }
         },
