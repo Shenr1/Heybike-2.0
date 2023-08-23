@@ -580,6 +580,7 @@
         "blocks": {
           "9d25ae13-3b8f-463f-ac3e-39f431323d9b": {
             "type": "text_block",
+            "disabled": true,
             "settings": {
               "title": "BIG OFFER - CYBER WEEK SALE. GET 50% OFF NOW.",
               "align_text": "center",
@@ -588,6 +589,7 @@
           },
           "7a6e1646-de0a-4827-8a64-8ef87f32e710": {
             "type": "text_block",
+            "disabled": true,
             "settings": {
               "title": "LOWEST PRICE OF THE YEAR - GET 50% OFF NOW.",
               "align_text": "center",
@@ -596,6 +598,7 @@
           },
           "9d9f607e-1e06-4468-9b88-50fef0ca9307": {
             "type": "text_block",
+            "disabled": true,
             "settings": {
               "title": "BIG OFFER - CYBER WEEK SALE. GET 50% OFF NOW.",
               "align_text": "center",
@@ -611,8 +614,8 @@
         "settings": {
           "fullwidth": true,
           "topbarmobile": false,
-          "info_bg": "#d71111",
-          "text_clr": "#ffffff",
+          "info_bg": "rgba(0,0,0,0)",
+          "text_clr": "rgba(0,0,0,0)",
           "grid": 3,
           "info_font": 12,
           "min_h": 40,
