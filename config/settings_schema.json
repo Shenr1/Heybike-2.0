@@ -315,7 +315,7 @@
         "id": "ttlelw",
         "label": "Headings Element Width",
         "default": 100,
-        "min": 50,
+        "min": 0,
         "max": 500,
         "step": 5
       },
