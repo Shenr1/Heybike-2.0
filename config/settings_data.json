@@ -439,7 +439,6 @@
           },
           "4e102e40-8900-4358-895e-37dd5ac9809b": {
             "type": "menu",
-            "disabled": true,
             "settings": {
               "title": "SOCIÉTÉ",
               "menulinks": "societe",
