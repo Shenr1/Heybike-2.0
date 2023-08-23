@@ -145,7 +145,14 @@
       "shipping_rate_start_at": "Les tarifs commencent à",
       "do_not_ship_to_country": "Nous ne livrons pas vers cette destination",
       "view_cart": "Voir le panier",
-      "error": "Erreur"
+      "error": "Erreur",
+      "added": "",
+      "quantity_error_html": "",
+      "taxes_and_shipping_policy_at_checkout_html": "Les impôts et <a href=\"{{ link }}\">expédition<\/a> Calculé à la caisse",
+      "taxes_included_but_shipping_at_checkout": "Taxes incluses et frais de port calculés à la caisse",
+      "taxes_included_and_shipping_policy_html": "",
+      "taxes_and_shipping_at_checkout": "Taxes et frais d'expédition calculés à la caisse",
+      "save": ""
     },
     "label": {
       "product": "Produit",
@@ -209,7 +216,8 @@
       "details": "Détails du compte",
       "view_addresses": "Voir les adresses",
       "return": "Retour aux détails du compte",
-      "logout": "Se déconnecter"
+      "logout": "Se déconnecter",
+      "welcome_text": ""
     },
     "activate_account": {
       "title": "Activer le compte",
@@ -331,7 +339,8 @@
       "search": "Recherche",
       "toggle": "développer\/réduire",
       "expand": "révéler",
-      "collapse": "fermer"
+      "collapse": "fermer",
+      "menu": ""
     },
     "cart": {
       "title": "Panier",
@@ -415,6 +424,23 @@
     },
     "quickview": {
       "Show_view_full_details_button": "Afficher plus de détails"
+    },
+    "quantity": {
+      "increase": "",
+      "decrease": ""
+    },
+    "pickup_availability": {
+      "view_store_info": "",
+      "check_other_stores": "",
+      "pick_up_available": "",
+      "pick_up_available_at_html": "",
+      "pick_up_unavailable_at_html": "",
+      "unavailable": "",
+      "refresh": ""
+    },
+    "group": {
+      "total": "",
+      "button": ""
     }
   },
   "gift_cards": {

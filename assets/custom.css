@@ -1773,8 +1773,8 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 }
 
 .text-2_5xl {
-  font-size:1.745rem;
-  line-height:2.15rem;
+  font-size:48px;
+  line-height:1.2;
 }
 
 .text-2xl {
