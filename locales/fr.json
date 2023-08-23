@@ -150,7 +150,7 @@
       "quantity_error_html": "",
       "taxes_and_shipping_policy_at_checkout_html": "Les impôts et <a href=\"{{ link }}\">expédition<\/a> Calculé à la caisse",
       "taxes_included_but_shipping_at_checkout": "Taxes incluses et frais de port calculés à la caisse",
-      "taxes_included_and_shipping_policy_html": "",
+      "taxes_included_and_shipping_policy_html": "Taxe inclu. <a href=\"{{ link }}\">Expédition<\/a> Calculé à la caisse.",
       "taxes_and_shipping_at_checkout": "Taxes et frais d'expédition calculés à la caisse",
       "save": ""
     },
