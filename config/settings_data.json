@@ -612,14 +612,14 @@
           "9d9f607e-1e06-4468-9b88-50fef0ca9307"
         ],
         "settings": {
-          "fullwidth": true,
+          "fullwidth": false,
           "topbarmobile": false,
           "info_bg": "rgba(0,0,0,0)",
           "text_clr": "rgba(0,0,0,0)",
           "grid": 3,
           "info_font": 12,
           "min_h": 40,
-          "m_text": true,
+          "m_text": false,
           "m_speed": 18,
           "m_speedm": 7
         }
