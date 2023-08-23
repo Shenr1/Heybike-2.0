@@ -1,5 +1,4 @@
 /* 动态生成的类名 */
-
 .flickity-button {
   opacity:1;
 }
@@ -390,7 +389,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
     .footer-top .newsletter .btn,
     .list-view-item__title,
     input, textarea, select {
-    font-size:1rem !important;
+    font-size:24px;
     line-height:1.5rem !important;
   }
 
@@ -1808,8 +1807,8 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 }
 
 .text-xl {
-  font-size:1.25rem;
-  line-height:1.5rem;
+  font-size:20px;
+  line-height:1.2;
 }
 
 .text-xs {
@@ -2007,6 +2006,11 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 }
 
 @media (min-width: 769px) {
+  
+   .md\:\!px-16 {
+    padding-left:4rem !important;
+    padding-right:4rem !important;
+  }
   .md\:btn-contrast {
     border-radius:9999px;
     --tw-border-opacity:1;
@@ -2496,12 +2500,11 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   .md\:p-2 {
     padding:0.5rem;
   }
-  
+
   .md\:\!px-16 {
     padding-left:4rem !important;
     padding-right:4rem !important;
   }
-
   .md\:\!px-7 {
     padding-left:1.75rem !important;
     padding-right:1.75rem !important;
@@ -2886,7 +2889,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 }
 
 @media (min-width: 1280px) {
-    
+  
   .xl\:\!px-28 {
     padding-left:7rem !important;
     padding-right:7rem !important;
@@ -2916,8 +2919,9 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   }
 
   .xl\:px-4 {
-    padding-left:1rem;
-    padding-right:1rem;
+    padding-left:0rem;
+    padding-right:0rem;
+    justify-content: space-between;
   }
 
   .xl\:pb-18 {
