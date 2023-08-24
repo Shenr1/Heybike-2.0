@@ -141,7 +141,7 @@ src="https://www.facebook.com/tr?id=612157040725064&ev=PageView&noscript=1"
   {%- comment -%}{{ content_for_header }}{%- endcomment -%}
   {%- render 'header-content' -%}
 
-{% render 'gsf-conversion-pixels' %}
+{% comment %} {% render 'gsf-conversion-pixels' %} {% endcomment %}
 </head>
 <body id="{{ page_title | handle }}" class="template-{{ template | split: '.' | first }} lazyload{%- if isRtl -%} rtl{%- endif -%}"
 	{%- if settings.bodybg_img %} data-bgset="{% render 'bgset', image: settings.bodybg_img %}" data-sizes="auto" data-parent-fit="cover" style="background-image:url('{{ settings.bodybg_img | img_url: '50x50' }});"{%- endif -%}>
