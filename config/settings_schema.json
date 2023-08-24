@@ -182,7 +182,7 @@
         "default": 0,
         "min": 0,
         "max": 100,
-        "step": 5,
+        "step": 1,
         "unit": "%"
       },
       {
@@ -228,8 +228,8 @@
         "type": "range",
         "id": "sec_spacing",
         "min": 0,
-        "max": 200,
-        "step": 5,
+        "max": 100,
+        "step": 1,
         "label": "Default",
         "unit": "px",
         "default": 50
@@ -238,8 +238,8 @@
         "type": "range",
         "id": "sec_spcm",
         "min": 0,
-        "max": 200,
-        "step": 5,
+        "max": 100,
+        "step": 1,
         "label": "Default (mobile)",
         "unit": "px",
         "default": 25
@@ -249,7 +249,7 @@
         "id": "sec_spacing_small",
         "min": 0,
         "max": 100,
-        "step": 5,
+        "step": 1,
         "label": "Small",
         "unit": "px",
         "default": 20
@@ -259,7 +259,7 @@
         "id": "sec_spcsm",
         "min": 0,
         "max": 100,
-        "step": 5,
+        "step": 1,
         "label": "Small (mobile)",
         "unit": "px",
         "default": 20
@@ -1013,7 +1013,7 @@
         "id": "type_header_base_size",
         "label": "H1 Font Size",
         "default": 20,
-        "min": 20,
+        "min": 0,
         "max": 50,
         "step": 1,
         "unit": "px"
