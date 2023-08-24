@@ -2975,19 +2975,25 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   }
   .text-xl{
     font-size: 35px;
+    line-height: 1.2;
+
   }
   .text-sm{
     font-size: 25px;
+    line-height: 1.2;
   }
   .text-2_5xl{
     font-size: 42px;
     line-height: 1.2;
   }
   .text-3xl{
-    font-size: 53px;
+    font-size: 48px;
+    line-height: 1.2;
   }
   
   .text-lg{
     font-size: 32px;
+    line-height: 1.2;
+
   }
 }
