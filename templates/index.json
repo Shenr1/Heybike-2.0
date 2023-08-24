@@ -415,14 +415,13 @@
     },
     "1633781776086e75a0": {
       "type": "featured-blog",
-      "disabled": true,
       "settings": {
         "title": "<b>Heybike Blog<\/b>",
         "subtitle": "Learn more about E-bike knowledge and information",
         "top-offeset": "default",
         "section_cov": true,
         "sec_bg_clr": "#fafafa",
-        "blog": "temoignages-de-clients",
+        "blog": "blog-heybike",
         "img_ratio": "50",
         "post_limit": 3,
         "grid": 3,
