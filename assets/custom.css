@@ -2994,11 +2994,9 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   .text-lg{
     font-size: 32px;
     line-height: 1.4;
-
   }
   .\!text-lg {
     font-size:32px !important;
     line-height:1.4 !important;
   }
-  
 }
