@@ -448,7 +448,6 @@
           },
           "1561010492149": {
             "type": "newsletter",
-            "disabled": true,
             "settings": {
               "newltr_align": false,
               "title": "LETTRE D'INFORMATION",
