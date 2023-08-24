@@ -2968,3 +2968,10 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
     height:22rem;
   }
 }
+
+@media (max-width:768px) {
+  .text-sm{
+    font-size:25px;
+    line-height: 1.4;
+  }
+}
