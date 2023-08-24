@@ -98,7 +98,7 @@
 <div class="grid-view-item {{boxstyle}}{% unless product.available %} sold-out{% endunless %} wow fadeIn" data-wow-delay="{{delay_time}}ms">
   {% if boxstyle == "style2" %}<a class="overly" href="{{ product.url | within: collection }}"></a>{% endif %}
   <div class="gview-img">
-    <a class="gimg-link" href="{{ product.url | within: collection }}" title="{{product.title}}">
+    <a class="gimg-link" href="{{ product.url }}" title="{{product.title}}">
       <div class="gitem-img lazyload{% if secondImg and product.images.size > 1 %} primary{% endif %}" data-bgset="{% render 'prgrid-img', image: product.featured_image, sizes: sizes %}" data-sizes="auto" data-parent-fit="contain"></div>
       {%- if secondImg and product.images.size > 1 and boxstyle != "style2" -%}
           <div class="gitem-img lazyload hover" data-bgset="{% render 'prgrid-img', image: product.images[1], sizes: sizes %}" data-sizes="auto" data-parent-fit="contain"></div>
