@@ -1,5 +1,13 @@
 {% comment %} todo 可配置 {% endcomment %}
+
 {%- capture productTabs -%}
+<style>
+@media (max-width:768px){
+.btn-vi{
+  font-szie:26px
+}
+}
+</style>
   <div section-name="product-tabs-nav" class="bg-black-800 z-50 w-full top-0">
       <div class="page-width xl:px-4 md:px-8 px-6 mx-auto items-center relative">
         <div class="flex justify-between text-white">
@@ -13,7 +21,7 @@
             <a href="#{{sets.anchor_href2}}" class="{{ pClass }}">{{ sets.anchor2 }}</a>
             <a href="#{{sets.anchor_href3}}" class="{{ pClass }}">{{ sets.anchor3 }}</a>
           </div>
-          <div class="md:text-base text-[.925rem] py-3"> <a class="btn-vi text-white font-semibold md:py-2 py-1 px-6 block cursor-pointer" tag-name="atc-btn">{{ 'products.product.add_to_cart' | t }}</a></div>
+          <div class="md:text-base text-[.925rem] py-3"> <a class=" btn-vi text-white font-semibold md:py-2 py-1 px-6 block cursor-pointer" tag-name="atc-btn">{{ 'products.product.add_to_cart' | t }}</a></div>
         </div>
       </div>
   </div>
