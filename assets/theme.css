@@ -5746,6 +5746,12 @@ h2.com-title {
 .footer-top .addressFooter+.h4 {
     margin: 25px 0 10px;
 }
+.cc-1d2k .cc-18ij{
+    width: 80px !important;
+    height: 80px !important;
+    bottom: 10px !important;
+    position: absolute !important;
+}
 
 .footer-top .social-icons {
     margin-left: -6px;
