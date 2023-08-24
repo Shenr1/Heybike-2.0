@@ -42,7 +42,7 @@
                 {% endif %}
                 <span class="tooltip-label top">{{ value }}</span>
 			{% else %}
-			    <label class="swatchLbl {% if is_size %}w-16 md:h-16{% endif %}md:!h-7 md:!py-0 !py-1 !h-auto md:!text-base !text-sm" for="{{product.id}}-{{ optg }}-{{ value | handle }}">{{ value }}</label>            	
+			    <label class="swatchLbl {% if is_size %}w-16 {% endif %}!h-auto md:!h-7 md:!py-0 !py-1  md:!text-base !text-sm" for="{{product.id}}-{{ optg }}-{{ value | handle }}">{{ value }}</label>            	
 			{% endif %}
 			</div>
 		{% endunless %}
