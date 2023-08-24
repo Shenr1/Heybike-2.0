@@ -2996,4 +2996,9 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
     line-height: 1.4;
 
   }
+  .\!text-lg {
+    font-size:32px !important;
+    line-height:1.4 !important;
+  }
+  
 }
