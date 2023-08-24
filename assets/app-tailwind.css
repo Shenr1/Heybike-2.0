@@ -114,6 +114,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo']{@apply !hid
 }
 
 @media (max-width:768px) {
+    
     #MobileNav li a, .closemmn .at, .site-footer, .footer-top .newsletter .btn, .list-view-item__title, input, textarea, select{font-szie:28px}
 }
 
