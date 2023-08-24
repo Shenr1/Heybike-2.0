@@ -1,9 +1,8 @@
 {%- assign secSt = section.settings -%}
 <style>
-.activeBg:focus,.activeBg:active,.is-nav-selected:focus,.is-nav-selected:active {
-  background-color: transparent !important; /* 重要性标记确保优先级高于其他样式 */
-  box-shadow: none !important;
-  /* 可能还需要其他的样式属性重置 */
+.activeBg,.activeBg,.is-nav-selected,.is-nav-selected {
+  -webkit-tap-highlight-color: transparent; /* Safari/Chrome 浏览器 */
+    tap-highlight-color: transparent; /* 其他浏览器 */
 }
 </style>
 
@@ -35,7 +34,7 @@
         {% for block in section.blocks %}
         <div class="md:px-1 px-2">
           <div tag-name="color-block" class="activeBg p-[2px] border-solid border-2 border-black-300 rounded-full transition-all duration-500">
-            <div class="cursor-pointer rounded-full w-7 h-7 shadow-inner transition-all duration-500 " style="background-color:{{block.settings.color}}" ></div>
+            <div class="cursor-pointer rounded-full w-7 h-7 shadow-inner transition-all duration-500 activeBg" style="background-color:{{block.settings.color}}" ></div>
           </div>
         </div>
         {% endfor %}
