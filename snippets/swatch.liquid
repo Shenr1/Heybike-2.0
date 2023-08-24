@@ -16,9 +16,12 @@
 	endif
 -%}
 <style>
-.md/:h-7{
-	height:20px !important
-}
+	@media (max-width:768px){
+		.swatchLblMb{
+			height:20px 
+			}
+	}
+
 </style>
 
 <div class="swatch pvOpt{{optindex}} fl f-wrap option{{optg}} !mb-4 w_100" data-option-index="{{ optindex }}">
@@ -47,7 +50,7 @@
                 {% endif %}
                 <span class="tooltip-label top">{{ value }}</span>
 			{% else %}
-			    <label class="swatchLbl {% if is_size %}w-16 {% endif %}h-auto md:h-7 md:!py-0 !py-1  md:!text-base !text-sm" for="{{product.id}}-{{ optg }}-{{ value | handle }}">{{ value }}</label>            	
+			    <label class="swatchLbl swatchLblMb  {% if is_size %}w-16 {% endif %}h-auto md:h-7 md:!py-0 !py-1  md:!text-base !text-sm" for="{{product.id}}-{{ optg }}-{{ value | handle }}">{{ value }}</label>            	
 			{% endif %}
 			</div>
 		{% endunless %}
