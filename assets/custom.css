@@ -2700,7 +2700,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   }
 
   .md\:text-base {
-    font-size:28px;
+    font-size:1rem;
     line-height:1.5rem;
   }
 
@@ -2985,6 +2985,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   .text-3xl{
     font-size: 53px;
   }
+  
   .text-lg{
     font-size: 32px;
   }
