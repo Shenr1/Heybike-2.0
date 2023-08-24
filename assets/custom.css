@@ -2986,4 +2986,8 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
     font-size:53px;
     line-height: 1.4;
   }
+  .text-2_5xl{
+    font-size:49px;
+    line-height: 1.4;
+  }
 }
