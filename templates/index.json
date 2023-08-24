@@ -289,7 +289,6 @@
         "3b0e13f5-a095-46d4-afa9-e33dfc671812",
         "752b2092-7e2b-4a37-b195-38804c6a344e"
       ],
-      "disabled": true,
       "custom_css": [
 
       ],
@@ -417,7 +416,7 @@
       "type": "featured-blog",
       "settings": {
         "title": "<b>Heybike Blog<\/b>",
-        "subtitle": "Learn more about E-bike knowledge and information",
+        "subtitle": "En savoir plus sur les connaissances et les informations relatives aux vélos électriques",
         "top-offeset": "default",
         "section_cov": true,
         "sec_bg_clr": "#fafafa",
