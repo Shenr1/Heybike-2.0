@@ -5758,6 +5758,11 @@ h2.com-title {
 .footer-top .social-icons__link .at {
     font-size: 20px;
 }
+@media (max-width:768px){
+    .footer-top .social-icons__link .at{
+        font-size:41px
+    }
+}
 
 .footer-top .socialicons li {
     display: block;
