@@ -1,10 +1,4 @@
 {%- assign secSt = section.settings -%}
-<style>
-.activeBg,.activeBg,.is-nav-selected,.is-nav-selected {
-  -webkit-tap-highlight-color: transparent; /* Safari/Chrome 浏览器 */
-    tap-highlight-color: transparent; /* 其他浏览器 */
-}
-</style>
 
 
 <section section-name="color-slider-full" class="{% render 'section-interva-set' , secSt:secSt %}" style="background-color: {{secSt.bg_color}};">
@@ -33,8 +27,8 @@
       <div tag-name="color-carousel" data-flickity='{"draggable": false, "asNavFor": "#carousel-main-{{section.id}}", "contain": true, "pageDots": false, "prevNextButtons": false}'>
         {% for block in section.blocks %}
         <div class="md:px-1 px-2">
-          <div tag-name="color-block" class="activeBg p-[2px] border-solid border-2 border-black-300 rounded-full transition-all duration-500">
-            <div class="cursor-pointer rounded-full w-7 h-7 shadow-inner transition-all duration-500 activeBg" style="background-color:{{block.settings.color}}" ></div>
+          <div tag-name="color-block" class="p-[2px] border-solid border-2 border-black-300 rounded-full transition-all duration-500">
+            <div class="cursor-pointer rounded-full w-7 h-7 shadow-inner transition-all duration-500" style="background-color:{{block.settings.color}}" ></div>
           </div>
         </div>
         {% endfor %}

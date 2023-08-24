@@ -389,7 +389,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
     .footer-top .newsletter .btn,
     .list-view-item__title,
     input, textarea, select {
-    font-size:1rem !important;
+    font-size:24px;
     line-height:1.5rem !important;
   }
 
@@ -2968,35 +2968,3 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
     height:22rem;
   }
 }
-@media (max-width:768px) {
-  .text-base{
-    font-size: 24px;
-    line-height: 1.4;
-  }
-  .text-xl{
-    font-size: 35px;
-    line-height: 1.4;
-
-  }
-  .text-sm{
-    font-size: 25px;
-    line-height: 1.4;
-  }
-  .text-2_5xl{
-    font-size: 42px;
-    line-height: 1.4;
-  }
-  .text-3xl{
-    font-size: 48px;
-    line-height: 1.4;
-  }
-  .text-lg{
-    font-size: 32px;
-    line-height: 1.4;
-  }
-  .\!text-lg {
-    font-size:32px !important;
-    line-height:1.4 !important;
-  }
-}
-
