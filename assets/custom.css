@@ -2973,4 +2973,7 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
     font-size: 28px;
     line-height: 1.2;
   }
+  .text-xl{
+    font-size: 35px;
+  }
 }
