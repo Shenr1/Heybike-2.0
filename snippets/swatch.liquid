@@ -16,11 +16,11 @@
 	endif
 -%}
 <style>
-{% comment %} @media (max-width:768px){
+ @media (max-width:768px){
 .mlBike{
 height:30px
 }
-} {% endcomment %}
+}
 </style>
 
 <div class="swatch pvOpt{{optindex}} fl f-wrap option{{optg}} !mb-4 w_100" data-option-index="{{ optindex }}">
@@ -49,7 +49,7 @@ height:30px
                 {% endif %}
                 <span class="tooltip-label top">{{ value }}</span>
 			{% else %}
-			    <label class=" swatchLbl{% if is_size %}w-16 {% endif %}md:!h-7 md:!py-0 !py-1 !h-auto md:!text-base !text-sm mlBike" for="{{product.id}}-{{ optg }}-{{ value | handle }}">{{ value }}</label>            	
+			    <label class="swatchLbl {% if is_size %}w-16 {% endif %}md:!h-7 md:!py-0 !py-1 !h-auto md:!text-base !text-sm mlBike" for="{{product.id}}-{{ optg }}-{{ value | handle }}">{{ value }}</label>            	
 			{% endif %}
 			</div>
 		{% endunless %}
