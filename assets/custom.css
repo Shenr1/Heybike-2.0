@@ -2971,11 +2971,11 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
 @media (max-width:768px) {
   .text-base{
     font-size: 24px;
-    line-height: 1.2;
+    line-height: 1.4;
   }
   .text-xl{
     font-size: 35px;
-    line-height: 1.2;
+    line-height: 1.4;
 
   }
   .text-sm{
@@ -2984,16 +2984,16 @@ body.template-product #header:not(.stickyHeader) [tag-name = 'logo'] {
   }
   .text-2_5xl{
     font-size: 42px;
-    line-height: 1.2;
+    line-height: 1.4;
   }
   .text-3xl{
     font-size: 48px;
-    line-height: 1.2;
+    line-height: 1.4;
   }
   
   .text-lg{
     font-size: 32px;
-    line-height: 1.2;
+    line-height: 1.4;
 
   }
 }
