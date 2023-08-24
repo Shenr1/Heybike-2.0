@@ -408,7 +408,7 @@ s.pr_price { opacity:0.6; margin-right:4px; font-weight:400; }
 }
 
 {% if settings.announcement %}
-.notification-bar { text-align:center; position:relative; z-index:1; background-color:#000;
+.notification-bar { text-align:center; position:relative; z-index:1; background-color:{{ settings.annouance_bg }};
 	{% if settings.promotion_bg %} background-image:url({{ settings.promotion_bg | img_url: 'master' }}); background-repeat:repeat; background-position:50% 0; {% endif %} }
 .notification-bar__message { color: {{ settings.annouance_txt }}; letter-spacing:0.5px; font-size:{{settings.annouance_fs}}px; display:block; padding:6px 10px; }
 {% if settings.annouance_pd == "style2" %}
