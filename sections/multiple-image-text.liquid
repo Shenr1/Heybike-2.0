@@ -58,7 +58,7 @@
           <section class="{% if textImg %}md:absolute md:bottom-6 md:left-6 md:text-white md:w-4/5 md:mx-0 mx-2{% endif %}">
             {% if blkSt.img_link != blank %} <a href="{{ blkSt.img_link }}" > {% endif %}
               <h1 class="{% if textImg %}md:text-xl md:mb-1{% else %} md:text-3xl {% endif %}md:mb-2 mb-1 text-xl">{{ blkSt.text_main }}</h1>
-              <p class="{% if textImg %}md:text-base{% else %}md:text-lg{% endif %} break-words text-base">{{ blkSt.text_sub }}</p>
+              <p class="{% if textImg %}md:text-base{% else %}md:text-lg{% endif %} break-words">{{ blkSt.text_sub }}</p>
             {% if blkSt.img_link != blank %} </a> {% endif %}
           </section>
         {% endif %}
