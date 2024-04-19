@@ -1,0 +1,146 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "blocks": {
+        "free-shipping": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-truck",
+            "mobile_icon_width": 40,
+            "icon_width": 40,
+            "icon_background_type": "none",
+            "icon_background": "#ffb74a",
+            "icon_color": "#f6be00",
+            "title": "Free Shipping",
+            "content": "<p>Delivery in 3-5 days</p>"
+          }
+        },
+        "customer-support": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "mobile_icon_width": 40,
+            "icon_width": 40,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "#f6be00",
+            "title": "Worriless After-Sale Service",
+            "content": "<p>Call +44 8081695220(EN) for help</p>"
+          }
+        },
+        "discount": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 40,
+            "icon_width": 40,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "#f6be00",
+            "title": "VAT Included",
+            "content": "<p>No need to pay extra tax</p>"
+          }
+        },
+        "payment": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-secure-profile",
+            "custom_icon": "shopify://shop_images/icon.png",
+            "mobile_icon_width": 40,
+            "icon_width": 40,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "#f6be00",
+            "title": "CE-RoHS",
+            "content": "<p>Security certificate</p>"
+          }
+        }
+      },
+      "block_order": [
+        "free-shipping",
+        "customer-support",
+        "discount",
+        "payment"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h6",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "#f2f2f2",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "f982025e-821b-4744-a1bd-1e18ca04b3f7": {
+          "type": "links",
+          "settings": {
+            "menu": "products",
+            "show_menu_title": true,
+            "menu_title": "PRODUCTS"
+          }
+        },
+        "ca5a21ea-9959-48f4-8fe9-fa8e5d7c97e6": {
+          "type": "links",
+          "settings": {
+            "menu": "about-us",
+            "show_menu_title": true,
+            "menu_title": "BEFORE YOU BUY"
+          }
+        },
+        "c2c70035-bda1-41b2-8a91-858b49aed3b5": {
+          "type": "links",
+          "settings": {
+            "menu": "service",
+            "show_menu_title": true,
+            "menu_title": "GET HELP"
+          }
+        },
+        "48567f69-fa44-4696-98aa-8ea3a427f2a5": {
+          "type": "links",
+          "settings": {
+            "menu": "more",
+            "show_menu_title": true,
+            "menu_title": "COMPANY"
+          }
+        },
+        "33f0536c-8a32-4bd2-a82c-ee30be6fe720": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Kontakt",
+            "content": "<p>Flinger Broich 18, 40235 Duesseldorf, Deutschland</p><p>+44 8081695220(EN)</p><p>eu.support@heybike.com</p>",
+            "enable_follow_on_shop": true
+          }
+        }
+      },
+      "block_order": [
+        "f982025e-821b-4744-a1bd-1e18ca04b3f7",
+        "ca5a21ea-9959-48f4-8fe9-fa8e5d7c97e6",
+        "c2c70035-bda1-41b2-8a91-858b49aed3b5",
+        "48567f69-fa44-4696-98aa-8ea3a427f2a5",
+        "33f0536c-8a32-4bd2-a82c-ee30be6fe720"
+      ],
+      "settings": {
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_country_selector": true,
+        "show_country_flag": true,
+        "show_country_name": false,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "text-with-icons",
+    "footer"
+  ]
+}

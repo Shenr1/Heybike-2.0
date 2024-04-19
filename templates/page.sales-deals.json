@@ -1,0 +1,230 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "120ch"
+      }
+    },
+    "cf3d01a0-0bd7-475b-ae0a-d3479954327a": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_aMzfwz": {
+          "type": "heading",
+          "settings": {
+            "text": "Sharing adventures with friends and family",
+            "heading_tag": "h6"
+          }
+        },
+        "richtext_4yxXFp": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>Save up to £1,506 on double E-Bikes</strong></h2>"
+          }
+        },
+        "richtext_Y3QPfF": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Discover the freedom together.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aMzfwz",
+        "richtext_4yxXFp",
+        "richtext_Y3QPfF"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/1920-800.jpg",
+        "mobile_image": "shopify://shop_images/750-1000_84892152-15af-47c2-93a6-9e80cb30fd53.jpg",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-center-end sm:text-end",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "tab_image_text_gDa8FC": {
+      "type": "Tab-image-text",
+      "settings": {
+        "bg_color": "",
+        "top_padding": "sm",
+        "bottom_padding": "sm",
+        "top_margin": "sm",
+        "bottom_margin": "none",
+        "top_padding_mb": "sm",
+        "bottom_padding_mb": "sm",
+        "top_margin_mb": "sm",
+        "bottom_margin_mb": "sm"
+      }
+    },
+    "multi_column_gWXLrR": {
+      "type": "multi-column",
+      "blocks": {
+        "item_twHkJB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/EC1-_UK.jpg",
+            "column_size": "2",
+            "title": "EC 1",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "shopify://products/ec-1",
+            "link_text": "Buy Now",
+            "link_style": "button"
+          }
+        },
+        "item_r4TpBB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/EC_1_c4b8cf05-f26d-400f-b379-d1c57d3ab7af.png",
+            "column_size": "2",
+            "title": "EC 1-ST",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "shopify://products/ec-1-st-1",
+            "link_text": "Buy Now",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "item_twHkJB",
+        "item_r4TpBB"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "stack_on_changes": true,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Exclusive offers",
+        "content": "<p>Discover the freedom of riding with Heybike!</p>",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "tab_image_text_Uppqdb": {
+      "type": "Tab-image-text",
+      "settings": {
+        "bg_color": "",
+        "top_padding": "sm",
+        "bottom_padding": "sm",
+        "top_margin": "sm",
+        "bottom_margin": "none",
+        "top_padding_mb": "sm",
+        "bottom_padding_mb": "sm",
+        "top_margin_mb": "sm",
+        "bottom_margin_mb": "sm"
+      }
+    },
+    "multi_column_yejngE": {
+      "type": "multi-column",
+      "blocks": {
+        "item_VgCXtP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ST_EC1-_UK.jpg",
+            "column_size": "2",
+            "title": "EC 1-ST & EC 1",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "shopify://products/ec-1-ec-1-st-combo",
+            "link_text": "Buy Now",
+            "link_style": "button"
+          }
+        },
+        "item_EEB8bW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ST_EC1-_UK_84572cca-42c4-460f-8048-cb68d6e75f1c.jpg",
+            "column_size": "2",
+            "title": "EC 1-ST & EC 1",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "shopify://products/ec-1-ec-1-st-combo",
+            "link_text": "Buy Now",
+            "link_style": "button"
+          }
+        },
+        "item_knMcpP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/EC1_EC1_uk_fa398d69-49c1-4b17-bc20-9c79dda26caa.png",
+            "column_size": "2",
+            "title": "Double EC 1",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "shopify://products/ec-1-combo",
+            "link_text": "Buy Now",
+            "link_style": "button"
+          }
+        },
+        "item_PgKEDq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/EC1-ST_EC1-ST_uk_59cb5131-012a-470c-a0b5-5d3f33be6f8d.png",
+            "column_size": "2",
+            "title": "Double EC 1-ST",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "shopify://products/ec-1-st-combo",
+            "link_text": "Buy Now",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "item_VgCXtP",
+        "item_EEB8bW",
+        "item_knMcpP",
+        "item_PgKEDq"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "stack_on_changes": true,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Double E-Bikes Special offer",
+        "content": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "newsletter_XdMmAq": {
+      "type": "newsletter",
+      "settings": {
+        "full_width": true,
+        "show_icon": false,
+        "title": "Please feel free to contact us at any time.",
+        "content": "",
+        "button_text": "Send E-mail",
+        "subtext": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cf3d01a0-0bd7-475b-ae0a-d3479954327a",
+    "tab_image_text_gDa8FC",
+    "multi_column_gWXLrR",
+    "tab_image_text_Uppqdb",
+    "multi_column_yejngE",
+    "newsletter_XdMmAq"
+  ]
+}

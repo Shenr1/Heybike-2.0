@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "addresses",
+      "type": "main-customers-addresses",
       "settings": {
       }
     }

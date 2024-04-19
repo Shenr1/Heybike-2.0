@@ -1,0 +1,134 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "e345d3d9-09e2-46dc-ac3f-e5c2b3a992c7": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--21719531815197__e345d3d9-09e2-46dc-ac3f-e5c2b3a992c7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Tutorials",
+            "heading_tag": "h1"
+          }
+        },
+        "template--21719531815197__e345d3d9-09e2-46dc-ac3f-e5c2b3a992c7-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Von Anfänger bis Experte: Heybike Tutorials begleiten dich auf jedem Schritt.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21719531815197__e345d3d9-09e2-46dc-ac3f-e5c2b3a992c7-heading-1",
+        "template--21719531815197__e345d3d9-09e2-46dc-ac3f-e5c2b3a992c7-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "lg",
+        "image": "shopify://shop_images/ST_e7bedb3c-1442-4148-959b-226f9679d6be.jpg",
+        "mobile_image": "shopify://shop_images/ST-_-App.jpg",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#1a1a1a",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "fb023741-e416-408a-b7f6-89acffba8746": {
+      "type": "Section-Story-seiper",
+      "blocks": {
+        "e1133ed6-644a-42d3-9584-4c8b2c30ba6b": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https://youtu.be/2SzIEUCfSlU",
+            "title": "Heybike EC 1 | Erstverwendung",
+            "content": "",
+            "author": ""
+          }
+        },
+        "e578a2ba-74b8-4f35-a503-f697ec406365": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https://youtu.be/B6tPIm1h9W0",
+            "title": "Heybike EC 1-ST | Erstverwendung",
+            "content": "",
+            "author": ""
+          }
+        }
+      },
+      "block_order": [
+        "e1133ed6-644a-42d3-9584-4c8b2c30ba6b",
+        "e578a2ba-74b8-4f35-a503-f697ec406365"
+      ],
+      "settings": {
+        "title": "Anleitung zum Zusammenbau und Einstellen",
+        "title_color": "#333333",
+        "top_padding": "md",
+        "bottom_padding": "md",
+        "top_margin": "md",
+        "bottom_margin": "md",
+        "top_padding_mb": "md",
+        "bottom_padding_mb": "md",
+        "top_margin_mb": "md",
+        "bottom_margin_mb": "md"
+      }
+    },
+    "18333043-c035-4f5b-ba6e-2b8fa473596c": {
+      "type": "Section-Story-seiper",
+      "blocks": {
+        "03ffad2b-e2ba-4031-a652-e0f304017daa": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https://youtu.be/r9jFu2Z3Lts",
+            "title": "Heybike EC 1-ST",
+            "content": "Schritt-für-Schritt Anleitung zur Montage von Heckträger und Korb",
+            "author": "Heybike"
+          }
+        },
+        "cff45b14-51be-43f1-83b9-365243d6aa6b": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https://youtu.be/Qkc3AwXd5T8",
+            "title": "Heybike EC 1",
+            "content": "Schritt-für-Schritt Anleitung zur Montage von Heckträger und Korb",
+            "author": "Heybike"
+          }
+        }
+      },
+      "block_order": [
+        "03ffad2b-e2ba-4031-a652-e0f304017daa",
+        "cff45b14-51be-43f1-83b9-365243d6aa6b"
+      ],
+      "settings": {
+        "title": "Tipps für das Zubehör",
+        "title_color": "#333333",
+        "top_padding": "md",
+        "bottom_padding": "md",
+        "top_margin": "md",
+        "bottom_margin": "md",
+        "top_padding_mb": "md",
+        "bottom_padding_mb": "md",
+        "top_margin_mb": "md",
+        "bottom_margin_mb": "md"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e345d3d9-09e2-46dc-ac3f-e5c2b3a992c7",
+    "fb023741-e416-408a-b7f6-89acffba8746",
+    "18333043-c035-4f5b-ba6e-2b8fa473596c"
+  ]
+}

@@ -1,158 +1,227 @@
 {
   "sections": {
-    "page": {
-      "type": "page-template",
+    "main": {
+      "type": "main-page",
+      "disabled": true,
       "settings": {
-        "section_width": false,
-        "hide_hdft": false,
-        "breadcrumb": false,
-        "bnr": true,
-        "bheight": 240,
-        "bheightipad": 180,
-        "bheightmob": 150,
-        "bnr-wd": 600,
-        "show_collection_name": true,
-        "ftTtl": 28,
-        "ftTtlm": 20,
-        "ttlft": "font2",
-        "ttlwt": "fw-700",
-        "ttlcase": "tt-u",
-        "ftTxt": 15,
-        "ttlclr": "#000000",
-        "clr_bg": "#f5f5f5",
-        "width": 1200,
-        "hide_ttl": true
+        "content_width": "80ch"
       }
     },
-    "faq": {
-      "type": "faq",
+    "00723d8d-6ee4-4cf9-8484-38b0c0fb478f": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "176cef6d-944d-49ed-9976-dfea5a742dce": {
-          "type": "faqsection",
+        "template--21667087941917__00723d8d-6ee4-4cf9-8484-38b0c0fb478f-heading-1": {
+          "type": "heading",
           "settings": {
-            "sectiontitle": "Shopping"
+            "text": "Heybike Support & Questions",
+            "heading_tag": "h2"
           }
         },
-        "117f2eee-92ed-4918-95d8-4777e9b12d2f": {
-          "type": "faqs",
+        "832ff354-ddf9-4911-9b4e-f1382c4f9bc8": {
+          "type": "richtext",
           "settings": {
-            "question": "What Shipping Methods Are Available?",
-            "answer": "Nullam sed neque luctus, maximus diam sed, facilisis orci. Nunc ultricies neque a aliquam sollicitudin. Vivamus sit amet finibus sapien. Duis est dui, sodales nec pretium a, interdum in lacus. Sed et est vel velit vestibulum tincidunt non a felis. Phasellus convallis, diam eu facilisis tincidunt, ex nibh vulputate dolor, eu maximus massa libero vel eros."
-          }
-        },
-        "d27d402e-9145-4f5e-bc65-86d45d5623f5": {
-          "type": "faqs",
-          "settings": {
-            "question": "How do I place an Order?",
-            "answer": "Duis nec nisi id ligula dapibus maximus nec eu dui. Proin ornare, ipsum vitae tincidunt rutrum, diam neque accumsan turpis, a dignissim nisi libero non lacus. Nulla quis massa nulla. Morbi metus lacus, sagittis sed est vel, aliquet ultrices nibh. Morbi auctor ex eget egestas auctor. Duis nec nisi id ligula dapibus maximus nec eu dui. Proin ornare, ipsum vitae tincidunt rutrum, diam neque accumsan turpis, a dignissim nisi libero non lacus. Nulla quis massa nulla. Morbi metus lacus, sagittis sed est vel, aliquet ultrices nibh. Morbi auctor ex eget egestas auctor."
-          }
-        },
-        "e5d784f6-e1ed-4e4c-93c2-11db4d73a2b1": {
-          "type": "faqsection",
-          "settings": {
-            "sectiontitle": "Payment"
-          }
-        },
-        "a2786c0f-b40f-49ae-aaa7-0e99e549ab0f": {
-          "type": "faqs",
-          "settings": {
-            "question": "What Payment Methods Are Accepted?",
-            "answer": "Nullam sed neque luctus, maximus diam sed, facilisis orci. Nunc ultricies neque a aliquam sollicitudin. Vivamus sit amet finibus sapien. Duis est dui, sodales nec pretium a, interdum in lacus. Sed et est vel velit vestibulum tincidunt non a felis. Phasellus convallis, diam eu facilisis tincidunt"
-          }
-        },
-        "de13a007-c879-47a9-bc4a-571fc9354b31": {
-          "type": "faqs",
-          "settings": {
-            "question": "Do You Ship Internationally?",
-            "answer": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
-          }
-        },
-        "cd8128ae-28fd-48db-95e9-8265759d181a": {
-          "type": "faqs",
-          "settings": {
-            "question": "What Payment Methods Are Accepted?",
-            "answer": "Nullam sed neque luctus, maximus diam sed, facilisis orci. Nunc ultricies neque a aliquam sollicitudin. Vivamus sit amet finibus sapien. Duis est dui, sodales nec pretium a, interdum in lacus. Sed et est vel velit vestibulum tincidunt non a felis. Phasellus convallis, diam eu facilisis tincidunt, ex nibh vulputate dolor, eu maximus massa libero vel eros. In vulputate metus lacus, eu vehicula dolor feugiat id. Nulla vitae nisl in ex consequat porttitor vel a lectus. Vestibulum viverra in velit ac consequat. Nullam porta nulla eu dignissim cursus."
-          }
-        },
-        "eff9098d-93a7-403d-ad8c-b30d40c1ef0d": {
-          "type": "faqsection",
-          "settings": {
-            "sectiontitle": "Returns"
-          }
-        },
-        "0b283b97-7726-4c4a-a581-2221983d3bb6": {
-          "type": "faqs",
-          "settings": {
-            "question": "Is Buying On-Line Safe?",
-            "answer": "Nullam sed neque luctus, maximus diam sed, facilisis orci. Nunc ultricies neque a aliquam sollicitudin. Vivamus sit amet finibus sapien. Duis est dui, sodales nec pretium a, interdum in lacus. Sed et est vel velit vestibulum tincidunt non a felis. Phasellus convallis, diam eu facilisis tincidunt, ex nibh vulputate dolor, eu maximus massa libero vel eros. In vulputate metus lacus, eu vehicula dolor feugiat id. Nulla vitae nisl in ex consequat porttitor vel a lectus."
-          }
-        },
-        "654077c6-99a9-4f06-bd69-4b238829a3d8": {
-          "type": "faqs",
-          "settings": {
-            "question": "Do I have to pay anything to return my items?",
-            "answer": "Nullam sed neque luctus, maximus diam sed, facilisis orci. Nunc ultricies neque a aliquam sollicitudin. Vivamus sit amet finibus sapien. Duis est dui, sodales nec pretium a, interdum in lacus."
-          }
-        },
-        "e3a276f6-e230-401b-a299-9f3ea00c3c0a": {
-          "type": "faqs",
-          "settings": {
-            "question": "How do I return an item?",
-            "answer": "In vulputate metus lacus, eu vehicula dolor feugiat id. Nulla vitae nisl in ex consequat porttitor vel a lectus. Vestibulum viverra in velit ac consequat. Nullam porta nulla eu dignissim cursus."
-          }
-        },
-        "82a5e086-33fb-4fc4-b564-a2d49b080b48": {
-          "type": "faqsection",
-          "settings": {
-            "sectiontitle": "Shipping"
-          }
-        },
-        "87f47f42-51aa-4b2e-9b3a-b8a18004ac59": {
-          "type": "faqs",
-          "settings": {
-            "question": "How many day take for shipping?",
-            "answer": "Nullam sed neque luctus, maximus diam sed, facilisis orci. Nunc ultricies neque a aliquam sollicitudin. Vivamus sit amet finibus sapien. Duis est dui, sodales nec pretium a, interdum in lacus. Sed et est vel velit vestibulum tincidunt non a felis. Phasellus convallis, diam eu facilisis tincidunt, ex nibh vulputate dolor, eu maximus massa libero vel eros. In vulputate metus lacus, eu vehicula dolor feugiat id. Nulla vitae nisl in ex consequat porttitor vel a lectus."
+            "content": ""
           }
         }
       },
       "block_order": [
-        "176cef6d-944d-49ed-9976-dfea5a742dce",
-        "117f2eee-92ed-4918-95d8-4777e9b12d2f",
-        "d27d402e-9145-4f5e-bc65-86d45d5623f5",
-        "e5d784f6-e1ed-4e4c-93c2-11db4d73a2b1",
-        "a2786c0f-b40f-49ae-aaa7-0e99e549ab0f",
-        "de13a007-c879-47a9-bc4a-571fc9354b31",
-        "cd8128ae-28fd-48db-95e9-8265759d181a",
-        "eff9098d-93a7-403d-ad8c-b30d40c1ef0d",
-        "0b283b97-7726-4c4a-a581-2221983d3bb6",
-        "654077c6-99a9-4f06-bd69-4b238829a3d8",
-        "e3a276f6-e230-401b-a299-9f3ea00c3c0a",
-        "82a5e086-33fb-4fc4-b564-a2d49b080b48",
-        "87f47f42-51aa-4b2e-9b3a-b8a18004ac59"
+        "template--21667087941917__00723d8d-6ee4-4cf9-8484-38b0c0fb478f-heading-1",
+        "832ff354-ddf9-4911-9b4e-f1382c4f9bc8"
       ],
       "settings": {
-        "title": "FAQs",
-        "subtitle": "",
-        "top-offeset": "default",
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa",
-        "pagestyle": "style1",
-        "max-width": 800,
-        "tcl": "#eeeeee",
-        "tbg": "#333333",
-        "tfs": 17,
-        "tfsm": 16,
-        "tff": "ft2",
-        "tfw": "600",
-        "qcl": "#333333",
-        "qfs": 15,
-        "qfsm": 14,
-        "qfw": "600"
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "lg",
+        "image": "shopify://shop_images/Heybike-23.jpg",
+        "mobile_image": "shopify://shop_images/Heybike-23-phone.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 14
+      }
+    },
+    "3f7a15a2-3eee-4776-8800-c10a16e9c8d7": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--21667087941917__3f7a15a2-3eee-4776-8800-c10a16e9c8d7-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Does the Heybike EC series comply with German regulations?",
+            "content": "<p>Yes, our EC 1 and EC 1-ST comply with German regulations and standards. They are equipped with the necessary safety functions and fulfil all requirements for legal operation on German roads. Find more information on this website. www.stvo.de</p>"
+          }
+        },
+        "template--21667087941917__3f7a15a2-3eee-4776-8800-c10a16e9c8d7-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Does Heybike offer a warranty on the products?",
+            "content": "<p>Yes, we offer a 1 year warranty on the bike and a 1 year warranty on the battery.</p>"
+          }
+        },
+        "template--21667087941917__3f7a15a2-3eee-4776-8800-c10a16e9c8d7-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Do I need special insurance or a licence plate for the E-bike?",
+            "content": "<p>No, no special insurance or licence plate is required for our e-bikes, which comply with the legal requirements.</p>"
+          }
+        },
+        "0f15cdd8-c0c5-43ad-aea7-c3dd93594ed2": {
+          "type": "item",
+          "settings": {
+            "title": "What is the range of the Heybike EC 1/EC 1-ST?",
+            "content": "<p>The range of our EC series varies depending on the model and riding conditions. As a rule, our city e-bikes offer a range of up to 80 kilometres on a full battery charge.</p>"
+          }
+        },
+        "75eda4b1-0a7f-45d5-8e18-92c0ceddf207": {
+          "type": "item",
+          "settings": {
+            "title": "Can I replace the battery on my Heybike?",
+            "content": "<p>Yes, the EC series has a removable battery that can be easily replaced. This allows you to conveniently charge the battery or replace it if necessary.</p>"
+          }
+        },
+        "aa7422b5-77fd-4424-b690-27fd1f3bbb49": {
+          "type": "item",
+          "settings": {
+            "title": "What is the recommended maximum weight for the bike?",
+            "content": "<p>Our EC 1 and EC 1-ST are designed for a recommended maximum weight of 150 kg.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21667087941917__3f7a15a2-3eee-4776-8800-c10a16e9c8d7-item-1",
+        "template--21667087941917__3f7a15a2-3eee-4776-8800-c10a16e9c8d7-item-2",
+        "template--21667087941917__3f7a15a2-3eee-4776-8800-c10a16e9c8d7-item-3",
+        "0f15cdd8-c0c5-43ad-aea7-c3dd93594ed2",
+        "75eda4b1-0a7f-45d5-8e18-92c0ceddf207",
+        "aa7422b5-77fd-4424-b690-27fd1f3bbb49"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "General",
+        "content": "<p>Understanding your Heybike world - All information at a glance!</p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "0ec750c3-5653-49e6-87fe-b8b2d255f260": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--21667087941917__0ec750c3-5653-49e6-87fe-b8b2d255f260-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Which payment methods do you accept?",
+            "content": "<p>We accept a variety of payment methods, including credit cards (Visa, Mastercard, American Express), PayPal and Klarna payment plans.</p>"
+          }
+        },
+        "template--21667087941917__0ec750c3-5653-49e6-87fe-b8b2d255f260-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Are the prices inclusive of taxes?",
+            "content": "<p>Yes, our prices include all applicable taxes. There are no hidden fees or additional costs.</p>"
+          }
+        },
+        "template--21667087941917__0ec750c3-5653-49e6-87fe-b8b2d255f260-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "What is your returns policy?",
+            "content": "<p>We offer a straightforward returns policy within 30 days of delivery. The item must be unused, in its original packaging and in the same condition as when you receive it.</p>"
+          }
+        },
+        "82f25978-7348-4cdd-af7f-f5485346e891": {
+          "type": "item",
+          "settings": {
+            "title": "Will my payment data be transmitted securely?",
+            "content": "<p>Yes, we use secure SSL encryption to ensure the security of your payment details during the transaction process.</p>"
+          }
+        },
+        "f5108633-fbc7-4850-adf1-29483a2eec15": {
+          "type": "item",
+          "settings": {
+            "title": "When will my payment be debited?",
+            "content": "<p>Your payment will be debited immediately after completion of the order. You will receive an order confirmation by e-mail as soon as the payment has been successfully processed.</p>"
+          }
+        },
+        "43d8161b-445f-488b-8956-62db76c724af": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take for my order to arrive?",
+            "content": "<p>The estimated delivery time varies depending on the delivery location and the shipping method selected. As a rule, delivery takes 2-8 working days after dispatch.</p>"
+          }
+        },
+        "9aa12168-e435-4e0b-bba9-6544289e0799": {
+          "type": "item",
+          "settings": {
+            "title": "Can I track the dispatch of my order?",
+            "content": "<p>Yes, after your order has been dispatched, you will receive a dispatch confirmation email containing a tracking link. You can use this link to track the dispatch status of your order.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21667087941917__0ec750c3-5653-49e6-87fe-b8b2d255f260-item-1",
+        "template--21667087941917__0ec750c3-5653-49e6-87fe-b8b2d255f260-item-2",
+        "template--21667087941917__0ec750c3-5653-49e6-87fe-b8b2d255f260-item-3",
+        "82f25978-7348-4cdd-af7f-f5485346e891",
+        "f5108633-fbc7-4850-adf1-29483a2eec15",
+        "43d8161b-445f-488b-8956-62db76c724af",
+        "9aa12168-e435-4e0b-bba9-6544289e0799"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Payment & Shipping",
+        "content": "<p>Smooth processing: payment and dispatch made easy!</p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "381a57a8-3277-4a7c-9768-567039eae7a7": {
+      "type": "contact",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Do you have any more questions?",
+        "content": "<p>Your questions are important to us! Write to us, we will reply within 1-2 working days.</p>",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     }
   },
   "order": [
-    "page",
-    "faq"
+    "main",
+    "00723d8d-6ee4-4cf9-8484-38b0c0fb478f",
+    "3f7a15a2-3eee-4776-8800-c10a16e9c8d7",
+    "0ec750c3-5653-49e6-87fe-b8b2d255f260",
+    "381a57a8-3277-4a7c-9768-567039eae7a7"
   ]
 }

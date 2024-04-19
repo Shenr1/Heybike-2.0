@@ -1,0 +1,556 @@
+{%- assign secSt = section.settings -%}
+
+{% if secSt.bg_img != blank %}
+{%- assign bgImg = secSt.bg_img | img_url: 'master' -%}
+  {% else %}
+{%- assign bgImg = '' -%}
+{% endif %}
+
+<section section-name="tab-product-content" class="{% render 'section-interva-set' , secSt:secSt %}" 
+  style="{% if bgImg != blank %} background-image: url({{ bgImg }}); {% endif %}background-color: {{ secSt.bg_color }}">
+
+  <div class="page-width tabs-content-section">
+    {% if secSt.title != blank %}
+    {% case secSt.title_sz %}
+      {% when "xl" %}
+        {% assign titleSzClass = "2xl:tw-text-7xl xl:tw-text-6xl md:tw-text-5xl tw-text-4xl xl:tw-mb-16 md:tw-mb-14 tw-mb-10" %}
+        {% assign contentSzClass = "md:tw-text-xl tw-text-xl" %}
+      {% when "lg" %}
+        {% assign titleSzClass = "2xl:tw-text-6xl xl:tw-text-5xl md:tw-text-4xl tw-text-3xl xl:tw-mb-14 md:tw-mb-12 tw-mb-8" %}
+        {% assign contentSzClass = "md:tw-text-xl tw-text-lg" %}
+      {% when "md" %}
+        {% assign titleSzClass = "xl:tw-text-5xl md:tw-text-4xl tw-text-3xl xl:tw-mb-12 md:tw-mb-10 tw-mb-6" %}
+        {% assign contentSzClass = "md:tw-text-xl tw-text-lg" %}
+      {% when "sm" %}
+        {% assign titleSzClass = "xl:tw-text-4xl md:tw-text-3xl tw-text-2xl xl:tw-mb-10 md:tw-mb-8 tw-mb-6" %}
+        {% assign contentSzClass = "md:tw-text-base tw-text-sm" %}
+    {% endcase %}
+      <div class="tw-text-left tabs-header 2xl:tw-mb-12 md:tw-mb-8 tw-mb-4">
+        <h1 style="color:{{secSt.title_color}};" class="{{titleSzClass}} tw-font-semibold ">{{ secSt.title }}</h1>
+        <p class="{{contentSzClass}} tw-leading-relaxed">{{ secSt.content }}</p>
+      </div>
+    {% endif %}
+
+
+    <div class="tw-border-b tw-border-black tw-overflow-hidden">
+      <ul class="tw-flex tw-flex-nowrap tw-overflow-x-auto -tw-mb-px tw-text-sm tw-font-medium tw-text-center tab-list">
+        {% assign tabArr = "" %}
+        {%- for block in section.blocks -%}
+          {% assign blkSet = block.settings %}
+          {% assign tabArr = tabArr | append: blkSet.order | append: "," %}
+        {%- endfor -%}
+        {% assign tabs = tabArr | split: "," | uniq %}
+        {%- for tab in tabs -%}
+            <li tab-title="{{ tab | downcase | handleize }}" class="tw-shrink-0 tab-item {% if forloop.first %} active {% endif %}">
+              <span class="tw-cursor-pointer tw-text-xl tw-inline-flex tw-items-center tw-justify-center md:tw-py-2 tw-py-6 md:tw-px-8 tw-px-4 md:tw-border-b-[6px] tw-border-b-4 tw-border-transparent hover:tw-text-gray-600 hover:tw-border-gray-300">
+                {{tab}}
+              </span>
+            </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+
+
+    <div class="tab-content 2xl:tw-mt-20 md:tw-mt-16 tw-mt-8">
+      {%- for tab in tabs -%}
+          <div tab-target="{{ tab | downcase | handleize }}" class="{% unless forloop.first %}tw-hidden{% endunless %}">
+            <div class="main-carousel">
+            {% for block in section.blocks %}
+            {% assign blkSet = block.settings %}
+              {% if blkSet.order == tab %}
+                {% case block.type %}
+                  {% when "product" %}
+                    {% if blkSet.product != blank %}
+
+                    <div class="carousel-cell-product md:tw-w-1/2 xl:tw-pr-8 md:tw-pr-4 tw-px-2 md:tw-mb-0 tw-mb-6">
+                      {%- render 'product-card', product: blkSet.product,short_title:true,show_secondary_image:false, show_rating:false, show_vendor:false,show_quick_buy:false, show_badges: false -%}
+                    </div>
+
+                    {% endif %}
+                  {% when "content" %}
+                  <div class="carousel-cell tw-px-2">
+                    <div class="tw-flex tw-flex-wrap tw-justify-between tw-w-full tw-h-full">
+                      <div class="xl:tw-mt-8 md:tw-mt-4 tw-mt-12 xl:tw-w-2/5 md:tw-w-[55%] tw-leading-relaxed md:tw-order-2 tw-order-4">
+                        {% if blkSet.title != blank %}
+                          <h3 class="xl:tw-text-3xl md:tw-text-2xl tw-text-xl tw-font-semibold xl:tw-mb-6 md:tw-mb-3 tw-mb-2">{{blkSet.title}}</h3>
+                        {% endif %}
+                        {% if blkSet.content != blank %}
+                          <p class="xl:tw-text-xl tw-text-base">
+                            {{blkSet.content}}
+                          </p>
+                        {% endif %}
+                      </div>
+                      {% if blkSet.image != blank %}
+                      <div class="xl:tw-w-1/2 md:tw-w-2/5 {{blkSet.img_order}}">
+                        <div class="">
+                          {{- blkSet.image | image_url: width: blkSet.image.width | image_tag: widths: '300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600' -}}
+                        </div>
+                        <div class="xl:tw-mt-8 md:tw-mt-6 tw-mt-2 md:tw-text-xl tw-text-sm">{{blkSet.image.alt}}</div>
+                      </div>
+                      {% endif %}
+                    </div>  
+                  </div>
+                  {% endcase %}
+              {% endif %}
+            {% endfor %}
+            </div>
+
+            <div class="tw-uppercase tw-justify-center tw-hidden tw-text-xl tw-flex tw-items-center more-product-js">
+              <span>{{ 'general.accessibility.read_more' | t }}</span>
+              {%- render 'icon' with 'chevron-bottom', class: "tw-w-3 tw-h-3 tw-ml-2" -%}
+            </div>
+          </div>
+      {% endfor %}
+    </div>
+
+
+  </div>
+</section>
+
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const elems = document.querySelectorAll('#shopify-section-{{section.id}} [section-name="tab-product-content"] .main-carousel');
+    const flktyInstances = [];
+    const screenWidth = window.innerWidth || document.documentElement.clientWidth;
+
+
+    if (elems.length > 0) {
+      elems.forEach(function (elem) {
+        const hasProductCells = elem.querySelector('.carousel-cell-product');
+        if (!hasProductCells || screenWidth > 750) {        
+          const flkty = new Flickity(elem, {
+            cellAlign: 'left',
+            contain: true,
+            lazyLoad: true,
+            pageDots: false
+          });
+          flktyInstances.push(flkty); 
+        }
+      });
+    }
+
+
+    if(screenWidth < 750){
+      const moreEles = document.querySelectorAll('#shopify-section-{{section.id}} [section-name="tab-product-content"] .more-product-js');
+      if (moreEles.length > 0) {
+        moreEles.forEach(function (elem) {
+          const mainCarousel = elem.previousElementSibling;
+          const carouselProducts = mainCarousel.querySelectorAll('.main-carousel .carousel-cell-product');
+      
+          if (carouselProducts.length > 3) {
+            elem.style.display = 'flex';
+          }
+      
+          elem.addEventListener('click', function () {
+            if (mainCarousel) {
+              carouselProducts.forEach(function (product) {
+                product.style.display = 'block';
+              });
+              elem.style.display = 'none';
+            }
+          });
+        });
+      }
+    }
+    
+    
+
+    
+
+    
+    
+    const tabs = document.querySelectorAll('#shopify-section-{{section.id}} .tab-list > .tab-item');
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+      tab.classList.add('active');
+      tabs.forEach(otherTab => {
+        if (otherTab !== tab) {
+        otherTab.classList.remove('active');
+        }
+      });
+      const tabTitle = tab.getAttribute('tab-title');
+      const tabTargets = document.querySelectorAll(`#shopify-section-{{section.id}} [tab-target="${tabTitle}"]`);
+      tabTargets.forEach(target => {
+        target.classList.remove('tw-hidden');
+      });
+      const otherTabTargets = document.querySelectorAll(`#shopify-section-{{section.id}} [tab-target]:not([tab-target="${tabTitle}"])`);
+      otherTabTargets.forEach(target => {
+        target.classList.add('tw-hidden');
+      });
+
+      
+      flktyInstances.forEach(flkty => {
+        flkty.resize();
+        flkty.reposition()
+      });
+    });
+    });
+  });
+
+</script>
+
+
+
+
+
+{% schema %}
+  {
+    "name": "Tab product content v1.1",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "bg_img",
+        "label": "Background image"
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background color"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Customer Stories"
+      },
+      {
+        "type": "select",
+        "id": "title_sz",
+        "label": "Title size",
+        "options": [
+          {
+          "value": "xl",
+          "label": "xl"
+          },
+          {
+          "value": "lg",
+          "label": "lg"
+          },
+          {
+          "value": "md",
+          "label": "md"
+          },
+          {
+          "value": "sm",
+          "label": "sm"
+          }
+        ],
+        "default": "lg"
+      },
+      {
+        "type": "textarea",
+        "id": "content",
+        "label": "Content",
+        "default": "More than just an e-bike. Run other appliances using this mobile power source and recharge with solar energy. Mokwheel is the perfect choice for any outdoor recreational activity. One bike is all you need to satisfy all your outdoor needs, with capabilities to power up your outdoor gear and recharge with solar while resting under the sun."
+      },
+      {
+        "type": "color",
+        "id": "title_color",
+        "label": "Title color",
+        "default": "#333333"
+      },
+      {
+      "type": "header",
+      "content": "Section interval set"
+      },
+      {
+        "type": "select",
+        "id": "top_padding",
+        "label": "Top padding (PC)",
+        "default": "md", 
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding",
+        "label": "Bottom padding (PC)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "top_margin",
+        "label": "Top margin (PC)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_margin",
+        "label": "Bottom margin (PC)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "top_padding_mb",
+        "label": "Top padding (Mobile)",
+        "default": "md", 
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding_mb",
+        "label": "Bottom padding (Mobile)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "top_margin_mb",
+        "label": "Top margin (Mobile)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_margin_mb",
+        "label": "Bottom margin (Mobile)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "product",
+        "name": "Product",
+        "settings": [
+          {
+            "type": "text",
+            "id": "order",
+            "label": "Order name",
+            "default": "tab1",
+            "info": "输入的此产品所归属的Tab名称"
+          },
+          {
+            "type": "product",
+            "id": "product",
+            "label": "Product"
+          }
+        ]
+      },
+      {
+        "type": "content",
+        "name": "Content",
+        "settings": [
+          {
+            "type": "text",
+            "id": "order",
+            "label": "Order name",
+            "default": "tab1",
+            "info": "输入的此内容所归属的Tab名称"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "select",
+            "id": "img_order",
+            "label": "Image order",
+            "options": [
+              {
+              "value": "tw-order-1",
+              "label": "Left"
+              },
+              {
+              "value": "tw-order-3",
+              "label": "Right"
+              }
+            ],
+            "default": "tw-order-1"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Fat Tire"
+          },
+          {
+            "type": "text",
+            "id": "content",
+            "label": "Content",
+            "default": "Whether you're out for a long ride or have a nasty hill along your normal commute, if you have a bike with pedal assist you'll finish your ride feeling more energized instead of drained. Going over rough terrain and up hills becomes much easier with the pedal assist feature. "
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Tab product content v1.1"
+      }
+    ]
+  }
+{% endschema %} 

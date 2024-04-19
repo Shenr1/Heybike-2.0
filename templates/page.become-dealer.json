@@ -1,0 +1,281 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "120ch"
+      }
+    },
+    "3f49360d-3eed-46f0-a446-4e792806c2ce": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--21667088040221__3f49360d-3eed-46f0-a446-4e792806c2ce-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Werde unser Händler!",
+            "heading_tag": "h1"
+          }
+        },
+        "template--21667088040221__3f49360d-3eed-46f0-a446-4e792806c2ce-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Sei Teil unserer Händlerfamilie und starte dein eigenes profitables Geschäft!</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21667088040221__3f49360d-3eed-46f0-a446-4e792806c2ce-heading-1",
+        "template--21667088040221__3f49360d-3eed-46f0-a446-4e792806c2ce-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/pc-01.jpg",
+        "mobile_image": "shopify://shop_images/App-01.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "ef33be3a-068a-4092-a73f-f4a4669a4ac8": {
+      "type": "multi-column",
+      "blocks": {
+        "template--21667088040221__ef33be3a-068a-4092-a73f-f4a4669a4ac8-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/3b23339ff0385cd88c504084a09754e6.png",
+            "column_size": "3",
+            "title": "Marketing-Unterstützung",
+            "heading_tag": "h4",
+            "content": "<p>Erhalte umfassende Unterstützung mit Marketingmaterial, darunter Bilder, Videos und Produktinformationen.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--21667088040221__ef33be3a-068a-4092-a73f-f4a4669a4ac8-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/5bb1d6e6c655e4eb8593e7f85ef1abfc.png",
+            "column_size": "3",
+            "title": "Rabatte für Großeinkäufe",
+            "heading_tag": "h4",
+            "content": "<p>Attraktive Preisnachlässe für Kunden, die in großen Mengen kaufen.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--21667088040221__ef33be3a-068a-4092-a73f-f4a4669a4ac8-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/c26321706241bd7168d9fcdd19a34b73.png",
+            "column_size": "3",
+            "title": "Spezielle Schulungsprogramme",
+            "heading_tag": "h4",
+            "content": "<p>Profitiere von gezielten Schulungen zu Produkten und After-Sales.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "8383aec1-a528-480a-837e-45ec356e52be": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ea90b9de3ec77babc40b0de1ca93fadc.png",
+            "column_size": "3",
+            "title": "Attraktive Gewinnspannen",
+            "heading_tag": "h4",
+            "content": "<p>Wettbewerbsfähige Preise und großzügige Margen für ein profitables Geschäft.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "1eae61d3-3c50-4583-aeee-9b3e90917e62": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/b8025615080e2ca5b3547b6a432541dd.png",
+            "column_size": "3",
+            "title": "Exklusiver Zugriff auf Neue Produkte",
+            "heading_tag": "h4",
+            "content": "<p>Früher Zugang zu unseren neuesten Produkten für eine exklusive Angebotspalette.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "6ab6ab2e-f969-4d5c-b212-79ea0cad4a7a": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/a3eb160821eb1dac881c6a1fb6fb029c.png",
+            "column_size": "3",
+            "title": "Starke Lieferkette",
+            "heading_tag": "h4",
+            "content": "<p>Vertraue auf unsere effiziente Lieferkette für deinen Erfolg.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--21667088040221__ef33be3a-068a-4092-a73f-f4a4669a4ac8-item-1",
+        "template--21667088040221__ef33be3a-068a-4092-a73f-f4a4669a4ac8-item-2",
+        "template--21667088040221__ef33be3a-068a-4092-a73f-f4a4669a4ac8-item-3",
+        "8383aec1-a528-480a-837e-45ec356e52be",
+        "1eae61d3-3c50-4583-aeee-9b3e90917e62",
+        "6ab6ab2e-f969-4d5c-b212-79ea0cad4a7a"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Warum eine Partnerschaft mit Heybike eingehen?",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "contact": {
+      "type": "contact",
+      "blocks": {
+        "0df45d3c-3db2-4838-9714-6c9bdf710468": {
+          "type": "dropdown",
+          "settings": {
+            "title": "Betreff",
+            "values": "Werde Heybike-Partner"
+          }
+        },
+        "471993dd-20f6-4f3e-b7a2-86c1740e8d5a": {
+          "type": "text",
+          "settings": {
+            "title": "Gegenstand",
+            "use_long_text": false,
+            "required": true
+          }
+        },
+        "c609897c-72ee-49f4-8fae-608fef7ab168": {
+          "type": "text",
+          "settings": {
+            "title": "Telefonnummer",
+            "use_long_text": false,
+            "required": false
+          }
+        }
+      },
+      "block_order": [
+        "0df45d3c-3db2-4838-9714-6c9bdf710468",
+        "471993dd-20f6-4f3e-b7a2-86c1740e8d5a",
+        "c609897c-72ee-49f4-8fae-608fef7ab168"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "INTERESSIERT, UNSER HÄNDLER ZU WERDEN?",
+        "content": "<p>Schreib uns eine Nachricht!</p>",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "48b9fe40-0aaf-401a-8793-5afb8f9355a0": {
+      "type": "multi-column",
+      "blocks": {
+        "template--21666604286237__48b9fe40-0aaf-401a-8793-5afb8f9355a0-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/02.jpg",
+            "column_size": "4",
+            "title": "Bike Shop",
+            "heading_tag": "h4",
+            "content": "<p>Adresse: Bundesstraße 79, 20144 Hamburg, Deutschland<br/><br/>Telefon: +49 36 85 33 83 </p>",
+            "link_url": "https://www.google.com/maps/place/Bundesstra%C3%9Fe+79,+20144+Hamburg,+Germany/@53.5704208,9.9692069,17z/data=!3m1!4b1!4m6!3m5!1s0x47b18f4624bb4b2f:0xfb318de4021af157!8m2!3d53.5704176!4d9.9717818!16s%2Fg%2F11c27kntpt?entry=ttu",
+            "link_text": "Standort anzeigen",
+            "link_style": "link"
+          }
+        },
+        "template--21666604286237__48b9fe40-0aaf-401a-8793-5afb8f9355a0-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/01.jpg",
+            "column_size": "4",
+            "title": "Radsport Reichel",
+            "heading_tag": "h4",
+            "content": "<p>Adresse:  Kolpingstraße 21, Biberach an der Riß, 88400, Deutschland</p><p>Email: radsport-reichel-bc@t-online.de</p>",
+            "link_url": "https://www.google.com/maps/place/Kolpingstra%C3%9Fe+21,+88400+Biberach+an+der+Ri%C3%9F,+Germany/@48.0949184,9.7851939,17z/data=!3m1!4b1!4m6!3m5!1s0x479bc59ba149a55b:0x1c7244cd389c576b!8m2!3d48.0949148!4d9.7877688!16s%2Fg%2F11bw4jq5x5?entry=ttu",
+            "link_text": "Standort anzeigen",
+            "link_style": "link"
+          }
+        },
+        "template--21666604286237__48b9fe40-0aaf-401a-8793-5afb8f9355a0-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/03.jpg",
+            "column_size": "4",
+            "title": "ATELIER DU BYCLOU",
+            "heading_tag": "h4",
+            "content": "<p>Adresse : 2 Square Charles Michels, 38000 Grenoble,France</p><p>Telefon: +33 06 98 98 68 04</p>",
+            "link_url": "https://www.google.com/maps/place/2+Sq.+Charles+Michels,+38000+Grenoble,+France/@45.181289,5.7148161,17z/data=!3m1!4b1!4m6!3m5!1s0x478af49bb5a2c655:0x1453904bc1c2a3d0!8m2!3d45.1812852!4d5.717391!16s%2Fg%2F11c19hdnn2?entry=ttu",
+            "link_text": "Standort anzeigen",
+            "link_style": "link"
+          }
+        },
+        "b53a52a7-fbf8-4032-b74c-e8a8388e7cef": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/06.jpg",
+            "column_size": "4",
+            "title": "Rad-Wechsel",
+            "heading_tag": "h4",
+            "content": "<p>Adresse: Engelbosteler Damm 103, 30167 Hannover, Deutschland</p><p>Telefon: 0511/89739150</p>",
+            "link_url": "https://www.google.com/maps/place/Engelbosteler+Damm+103,+30167+Hannover,+Germany/@52.3919282,9.7171437,17z/data=!3m1!4b1!4m6!3m5!1s0x47b07363c8f50983:0xa9634a8d4b560de6!8m2!3d52.391925!4d9.7197186!16s%2Fg%2F11c2h5903p?entry=ttu",
+            "link_text": "Standort anzeigen",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--21666604286237__48b9fe40-0aaf-401a-8793-5afb8f9355a0-item-1",
+        "template--21666604286237__48b9fe40-0aaf-401a-8793-5afb8f9355a0-item-2",
+        "template--21666604286237__48b9fe40-0aaf-401a-8793-5afb8f9355a0-item-3",
+        "b53a52a7-fbf8-4032-b74c-e8a8388e7cef"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Unsere Bikes glänzen hier: Händlerstandorte",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3f49360d-3eed-46f0-a446-4e792806c2ce",
+    "ef33be3a-068a-4092-a73f-f4a4669a4ac8",
+    "contact",
+    "48b9fe40-0aaf-401a-8793-5afb8f9355a0"
+  ]
+}

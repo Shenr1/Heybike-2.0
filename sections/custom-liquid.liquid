@@ -1,76 +1,77 @@
-<div class="content-indent {{ section.settings.top-offeset}}">
-  {% if section.settings.section_cov %}<div class="section-cover" style="background-color:{{section.settings.sec_bg_clr}};">{% endif%}
-  <div class="page-width" id="{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="carousel">
-    {% render 'sec-title' %}
-    {% if section.settings.custom_liquid != blank %}{{ section.settings.custom_liquid }}{% endif %}
+{%- if section.settings.liquid != blank -%}
+  {%- render 'section-spacing-collapsing' -%}
+
+  <style>
+    #shopify-section-{{ section.id }} {
+      {% if section.settings.remove_vertical_spacing %}--section-spacing-block: 0px;{% endif %}
+      {% if section.settings.remove_horizontal_spacing %}--section-spacing-inline: 0px;{% endif %}
+    }
+  </style>
+
+  <div {% render 'section-properties' %}>
+    {{ section.settings.liquid }}
   </div>
-  {% if section.settings.section_cov %}</div>{% endif %}
-</div>
+{%- endif -%}
+
 {% schema %}
-  {
-    "name": "Custom Liquid",
-    "class": "index-section",
-    "settings": [	  		
-      {
-        "type": "textarea",
-        "id": "title",
-        "label": "Heading",
-        "default": "Custom Liquid"	
-      },	  
-	  {
-         "type": "textarea",
-         "id": "subtitle",
-         "label": "Sub Heading",
-         "default": "Describe about this section..."
-      },
-      {
-         "id": "custom_liquid",
-         "type": "liquid",
-         "label": "Liquid Code"
-      },
-      {
-        "type": "header",
-        "content": "Section ==="
-      },
-	  {
-            "type": "select",
-            "id": "top-offeset",
-            "label": "Top OffSet",
-            "default": "default",
-            "options": [
-              {
-                "value": "default",
-                "label": "Default"
-              },
-              {
-                "value": "small",
-                "label": "Small"
-              },
-			  {
-                "value": "none",
-                "label": "None"
-              }
-			]
-      }, 		
-      {
-        "type": "checkbox",
-        "id": "section_cov",
-        "label": "Add Background?",
-        "default": false
-      },
-	  {
-        "type": "color",
-        "id": "sec_bg_clr",
-        "label": "Background",
-		"default":"#fafafa",
-		"info":"select light color"
-	  }
-	 ],
-    "presets": [
-      {
-        "name": "Custom Liquid"
-        
-      }
-    ]
-  }
+{
+  "name": "Custom Liquid",
+  "class": "shopify-section--custom-liquid",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "remove_vertical_spacing",
+      "label": "Remove vertical spacing",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "remove_horizontal_spacing",
+      "label": "Remove horizontal spacing",
+      "default": false
+    },
+    {
+      "type": "liquid",
+      "id": "liquid",
+      "label": "Liquid",
+      "info": "Add app snippets or other Liquid code to create advanced customizations.",
+      "default": "<p style=\"text-align: center\">Write or copy/paste Liquid code</p>"
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Liquid"
+    }
+  ]
+}
 {% endschema %}

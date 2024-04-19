@@ -1,0 +1,26 @@
+
+    <section id="reviews" class="other-container">
+      <div class="judfeme-paoduct new-reviews" >
+        {% render 'judgeme_widgets', widget_type: 'judgeme_review_widget', concierge_install: false, product: product %}
+      </div>
+    </section>
+    {% schema %}
+      {
+        "name": "Judge.me Product Reviews",
+        "settings": [],
+         "presets": [
+          {
+            "name": "Judge.me Product Reviews",
+            "category": "William Cat"
+          }
+        ]
+      }
+    {% endschema %}
+    
+    {% stylesheet %}
+    
+    
+    {% endstylesheet %}
+    
+    {% javascript %}
+    {% endjavascript %}

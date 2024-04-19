@@ -1,32 +1,47 @@
-<div class="pagination">	
-  <ul>
-    {% if paginate.previous %}
-    	{% if settings.rtl %}
-            <li class="prev">{{ '<i class="at at-caret-right" aria-hidden="true"></i>' | link_to: paginate.previous.url }}</li>
-        {% else %}
-            <li class="prev">{{ '<i class="at at-caret-left" aria-hidden="true"></i>' | link_to: paginate.previous.url }}</li>
-        {% endif %}
-    
-    {% endif %}
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+PAGINATION COMPONENT
+----------------------------------------------------------------------------------------------------------------------
 
-    {% for part in paginate.parts %}
-    {% if part.is_link %}
-    <li>{{ part.title | link_to: part.url }}</li>
-    {% else %}
-    {% if part.title == '&hellip;' %}
-    <li class="ellipsis disabled"><a href="#" onclick="return false;">{{ part.title }}</a></li>
-    {% else %}
-    <li class="active">{{ part.title | link_to: part.url }}</li>
-    {% endif %}
-    {% endif %}
-    {% endfor %}     
+Create a pagination from the pagination object. To be use, this snippet must be included between a "paginate"/"endpaginate"
+block
 
-    {% if paginate.next %}
-    {% if settings.rtl %}
-    	<li class="next">{{ '<i class="at at-caret-left" aria-hidden="true"></i>' | link_to: paginate.next.url }}</li>
-    {% else %}
-    	<li class="next">{{ '<i class="at at-caret-right" aria-hidden="true"></i>' | link_to: paginate.next.url }}</li>
-    {% endif %}
-    {% endif %}
-  </ul>		
-</div>
+********************************************
+Supported variables
+********************************************
+
+* paginate: the paginate object to use (required)
+* facet: if set to true, it adds a "facet-link" custom elements to allow live reload of faceting search
+* hash: a hash string that is appended to generated URL
+* class: extra class being added to the container
+{%- endcomment -%}
+
+{%- if paginate.pages > 1 -%}
+  <nav class="{{ class }} pagination" role="navigation" aria-label="{{ 'general.accessibility.pagination' | t }}">
+    {%- if paginate.previous.is_link -%}
+      {%- assign previous_page = paginate.current_page | minus: 1 -%}
+
+      <a class="pagination__item group" {% if facet %}is="facet-link"{% endif %} rel="prev" aria-label="{{ 'general.accessibility.go_to_page' | t: index: previous_page }}" href="{{ paginate.previous.url }}{{ hash }}">
+        <span class="animated-arrow animated-arrow--reverse"></span>
+      </a>
+    {%- else -%}
+      <span class="pagination__item pagination__item--disabled">
+        <span class="animated-arrow animated-arrow--reverse"></span>
+      </span>
+    {%- endif -%}
+
+    <span class="pagination__current">{{ paginate.current_page }}&nbsp;&nbsp;/&nbsp;&nbsp;{{ paginate.pages }}</span>
+
+    {%- if paginate.next.is_link -%}
+      {%- assign next_page = paginate.current_page | plus: 1 -%}
+
+      <a class="pagination__item group" {% if facet %}is="facet-link"{% endif %} rel="next" aria-label="{{ 'general.accessibility.go_to_page' | t: index: next_page }}" href="{{ paginate.next.url }}{{ hash }}">
+        <span class="animated-arrow"></span>
+      </a>
+    {%- else -%}
+      <span class="pagination__item pagination__item--disabled">
+        <span class="animated-arrow"></span>
+      </span>
+    {%- endif -%}
+  </nav>
+{%- endif -%}

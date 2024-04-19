@@ -1,0 +1,231 @@
+<style>
+    .freedom {
+  background: url({{ section.settings.background_image | img_url: 'master' }}) center center/cover no-repeat; }
+  .freedom .centeral-content {
+    display: flex;
+    flex-direction: column;
+    height: 360px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff; 
+    padding: 0 20px;
+  }
+    .freedom .centeral-content .values {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-column-gap: 50px; }
+      .u36DemiBold_text {
+        display: flex;
+        flex-direction: column; }
+    .freedom .centeral-content .values2 {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-column-gap: 12px; }
+      .freedom .centeral-content .values2 > div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 10px;
+       border: 1px solid;
+        padding: 10px 15px;
+        justify-content: center; }
+        .u42DemiBold_v2 {
+            font: 600 42px/1.25em Poppins;
+        }
+        .freedom .centeral-content .values {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-column-gap: 50px;
+        }
+        .freedom .centeral-content .values2 {
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            grid-column-gap: 12px;
+        }
+        .u36DemiBold_v2 {
+            font: 600 36px/1.25em Poppins;
+        }.u17Light_v2 {
+            font: 300 17px/1.4em Poppins;
+        }
+        .u36DemiBold_image{
+          width: 60px;
+        }
+        .u36DemiBold_content {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+
+@media (max-width: 768px) {
+  .freedom {
+  background: url({{ section.settings.background_image_mobile  | img_url: 'master' }}) 
+ }
+ .u36DemiBold_v2 {
+    font: 600 30px/1.25em Poppins;
+}
+        
+  .freedom .centeral-content {
+      padding: 15vw 6vw;
+      height: unset;
+      text-align: center; }
+      .freedom .centeral-content .u42DemiBold_v2 {
+        font-size: 36px; }
+      .freedom .centeral-content .values {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px 0;
+        width: 100%;
+        text-align: center;
+        margin: 10vw 0 10vw; }
+      .freedom .centeral-content .values2 {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 16px;
+        width: 100%; }
+        .freedom .centeral-content .values2 > div {
+          padding: 3vw 0; }
+          .freedom .centeral-content .values2 > div .u17Medium_v2 {
+            font-size: 14px; }
+            .u36DemiBold_content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.u17Light_v2 {
+    font: 300 14px/1.4em Poppins;
+}
+
+}
+
+</style>
+<section class="Bicycle-Introduction {{ section.id }}">
+    <div id="freedom" class="freedom">
+        <div class="centeral-content">
+          <div class="u42DemiBold_v2">{{ section.settings.title | escape }}</div>
+
+          <div class="values">
+
+
+            {% for block in section.blocks %}
+            {%- case block.type -%}
+            {%- when 'image' -%}
+            <div class="u36DemiBold_content">
+                <div class="u36DemiBold_image">
+                    <img src="{{ block.settings.image | img_url: 'master' }}" alt="">
+                </div>
+                <div class="u36DemiBold_text">
+                    <span class="u36DemiBold_v2">{{ block.settings.number }}
+                      <span class="u17Light_v2">{{ block.settings.unit }}</span>
+                    </span>
+                    <span class="u17Light_v2">{{ block.settings.remarks }}</span>
+                  </div>
+            </div>
+            {%- endcase -%}
+            {% endfor %}
+          </div>
+          <div class="values2">
+            
+            {% for block in section.blocks %}
+            {%- case block.type -%}
+            {%- when 'functionality' -%}
+            <div>
+              <span class="u17Medium_v2">{{ block.settings.vantage_one }}</span>
+              <span class="u17Medium_v2">{{ block.settings.vantage_two }}</span>
+            </div>
+            {%- endcase -%}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+
+</section>
+
+
+{% schema %}
+
+{
+    "name": "Product Advantages",
+    "class":"shopify-section-advantages",
+    "tag":"section",
+    "settings": [
+    {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Heading"
+      },
+      {
+        "type": "image_picker",
+        "id": "background_image",
+        "label": "Background image"
+        
+      },
+      {
+        "type": "image_picker",
+        "id": "background_image_mobile",
+        "label": "Background Image Mobile"
+        
+      }
+    ],
+    "blocks":[
+    {
+        "type":"image",
+        "name":"Image",
+        "settings":[
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+            
+          },
+          {
+            "type": "text",
+            "id": "number",
+            "label": "Number"
+           
+          },
+          {
+            "type": "text",
+            "id": "unit",
+            "label": "Unit"
+           
+          },
+          {
+            "type": "text",
+            "id": "remarks",
+            "label": "Remarks"
+           
+          }
+        ]
+    },
+    {
+        "type":"functionality",
+        "name":"Functionality",
+        "settings":[
+        {
+            "type": "text",
+            "id": "vantage_one",
+            "label": "Vantage One"
+           
+          },
+          {
+            "type": "text",
+            "id": "vantage_two",
+            "label": "Vantage Two"      
+          }
+        ]
+    }
+    ],
+    "presets": [
+    {
+      "name": "Product Advantages",
+      "blocks": [
+        {
+          "type": "image"
+        }
+      ]
+    }
+  ]
+
+}
+{% endschema %}

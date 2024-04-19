@@ -1,0 +1,393 @@
+<style>
+ .mega_menu_new{
+    gap:20px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .mega_menu_flex{
+    display: flex;
+ }
+ .mega_menu_flex_center{
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+ }
+ .mega_menu_flex_gap{
+    gap:30px;
+    width: 100%;
+    margin:0 auto;
+    justify-content: center;
+ }
+ .iconText{
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 500;
+ }
+ details[open] summary svg{
+    transform: rotate(180deg);
+ }
+.mega_menu_new_tit{
+    font-size: 26px;
+    font-weight: 600;
+    color: #282828;
+    line-height: 1.5;
+}
+.mega-menu .navigation-promo__wrapper.navigation-promo__wrapper_maxNone{
+    max-width: none;
+}
+.mega_menu_new_link{
+    display: block;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #282828;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+.mega_menu_new_img{
+    width: 30%;
+    height: auto;
+}
+.mega_menu_new_img img{
+    width: 100%;
+}
+.mega_menu_all{
+    width: 30%;
+}
+@media (min-width:1920px) {
+    .mega_menu_all{
+    width: 20%;
+}
+.mega_menu_flex_gap{
+    width: 80%;
+}
+}
+
+.mega_menu_c{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+}
+.productContentTxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mega_menu_grid{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(2,1fr); */
+}
+.mega_menu_icon{
+    width: 30px;
+    height: 30px;
+}
+.productImg{
+    transition: all .5s;
+    transform: scale(.9);
+}
+.productImg:hover{
+    transform: scale(1);    
+}
+.productTitle{
+    font-size: 22px;
+    font-weight: bold;
+}
+.productDesc{
+    font-size: 14px;
+font-weight: 300;
+color: #282828;
+}
+.productPeice{
+    font-size: 20px;
+font-weight: bold;
+color: #F6BE00;
+padding-right: 10px;
+}
+
+.productPeiceCom{
+    font-size: 16px;
+font-weight: bold;
+color: #282828;
+}
+.productContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+}
+.mega_menu_box{
+    width: 30%;
+}
+.all_flex{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.hide_pc{
+        display:none ;
+    }
+@media (min-width:2560px) {
+    .mega_menu_new_img{
+    width: 16%;
+}
+}
+
+@media (max-width:1149px) {
+    .mega_menu_new{
+        gap:0;
+        flex-direction: column;
+    }
+    .mega_menu_flex_gap{
+        gap:10px;
+        width: 100%;
+    }
+    .mega_menu_new_img,.mega_menu_all{
+        width: 100%;
+    }
+    .mega_menu_all{
+        border-top: 1px solid #282828;
+        margin-top: 20px;
+        padding-top: 20px;
+        margin-bottom: 30px;
+    }
+    .mega_menu_new_link{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .mega_menu_new_tit{
+        display: none;
+    }
+    .mega_menu_flex_center{
+        width: 25%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mega_menu_c{
+        width: 100%;
+    }
+    .iconText{
+        text-align: center;
+        padding: 0;
+        margin-top: 10px;
+    line-height: 1.2;
+    }
+    .productContent{
+        flex-direction: row-reverse;
+        justify-content:space-between;
+        margin-top: 20px;
+    }
+    .mega_menu_box{
+        width: 100%;
+    }
+    .productContentTxt{
+        align-items: start;
+    }
+    .productImg{
+        width: 50%;
+    }
+    .productTitle{
+        font-size: 20px;
+    }
+    .productDesc{
+        display: block;
+        margin: 5px 0;
+        font-size: 14px;
+    }
+    .productPeice,.productPeiceCom{
+        font-size: 18px;
+    }
+    .all_flex{
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+    .hide_mob{
+        display:none ;
+    }
+    .hide_pc{
+        display: block;
+    }
+}
+</style>
+<div class="mega_menu_new">
+        <div class="mega_menu_all hide_mob">
+            <span class="mega_menu_new_tit">
+                {{mega_menu_block.menuLink.title}}
+              </span>
+            <ul>
+            {% for link in mega_menu_block.menuLink.links %}
+                <li>
+                  <a href="{{ link.url }}" class="mega_menu_new_link">
+                    {{ link.title}}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+        </div>
+        <div class="mega_menu_c">
+            <div class="mega_menu_flex mega_menu_flex_gap">
+                <div class="mega_menu_flex mega_menu_flex_center">
+                    {{ mega_menu_block.icon1 |  image_url: width:300 | image_tag:lazyload:'lazy',class:'mega_menu_icon' }}
+                    <span class="iconText"> {{ mega_menu_block.iconText1 }}</span>
+                  </div>
+                  <div class="mega_menu_flex mega_menu_flex_center">
+                    {{ mega_menu_block.icon2 |  image_url: width:300 | image_tag:lazyload:'lazy',class:'mega_menu_icon' }}
+                    <span class="iconText"> {{ mega_menu_block.iconText2 }}</span>
+                  </div>
+                  <div class="mega_menu_flex mega_menu_flex_center">
+                    {{ mega_menu_block.icon3 |  image_url: width:300 | image_tag:lazyload:'lazy',class:'mega_menu_icon' }}
+                    <span class="iconText"> {{ mega_menu_block.iconText3 }}</span>
+                  </div>
+                  <div class="mega_menu_flex mega_menu_flex_center">
+                    {{ mega_menu_block.icon4 |  image_url: width:300 | image_tag:lazyload:'lazy',class:'mega_menu_icon' }}
+                    <span class="iconText"> {{ mega_menu_block.iconText4 }}</span>
+                  </div>
+            </div>
+            <div class="mega_menu_grid">
+                {% if mega_menu_block.productImg1 != blank %}
+                <a class="mega_menu_box" href="{{ mega_menu_block.productLink1 }}">
+                    <div class="productContent">
+                        {{ mega_menu_block.productImg1 |  image_url: width:300 | image_tag:lazyload:'lazy',class:'productImg' }}
+                       <div class="productContentTxt">
+                            <span class="productTitle">
+                                {{ mega_menu_block.productTitle1 }}
+                            </span>
+                            <span class="productDesc">
+                                {{ mega_menu_block.productDesc1 }}
+                            </span>
+                            <div class="mega_menu_flex">
+                                <span class="productPeice">
+                                    {{ mega_menu_block.productPeice1 }}
+                                </span>
+                                <del class="productPeiceCom">
+                                    {{ mega_menu_block.productPeiceCom1 }}
+                                </del>
+                            </div>
+                       </div>
+                    </div>
+                </a>
+                {% endif %}
+                {% if mega_menu_block.productImg2 != blank %}
+                <a class="mega_menu_box" href="{{ mega_menu_block.productLink2 }}">
+                    <div class="productContent">
+                        {{ mega_menu_block.productImg2 |  image_url: width:300 | image_tag:lazyload:'lazy',class:'productImg' }}
+                       <div class="productContentTxt">
+                            <span class="productTitle">
+                                {{ mega_menu_block.productTitle2 }}
+                            </span>
+                            <span class="productDesc">
+                                {{ mega_menu_block.productDesc2 }}
+                            </span>
+                            <div class="mega_menu_flex">
+                                <span class="productPeice">
+                                    {{ mega_menu_block.productPeice2 }}
+                                </span>
+                                <del class="productPeiceCom">
+                                    {{ mega_menu_block.productPeiceCom2 }}
+                                </del>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                {% endif %}
+                {% if mega_menu_block.productImg3 != blank %}
+                <a class="mega_menu_box" href="{{ mega_menu_block.productLink3 }}">
+                    <div class="productContent">
+                        {{ mega_menu_block.productImg3 |  image_url: width:300 | image_tag:lazyload:'lazy',class:'productImg' }}
+                       <div class="productContentTxt">
+                            <span class="productTitle">
+                                {{ mega_menu_block.productTitle3 }}
+                            </span>
+                            <span class="productDesc">
+                                {{ mega_menu_block.productDesc3 }}
+                            </span>
+                            <div class="mega_menu_flex">
+                                <span class="productPeice">
+                                    {{ mega_menu_block.productPeice3 }}
+                                </span>
+                                <del class="productPeiceCom">
+                                    {{ mega_menu_block.productPeiceCom3 }}
+                                </del>
+                            </div>
+                       </div>
+                    </div>
+                </a>
+                {% endif %}
+                {% if mega_menu_block.productImg4 != blank %}
+                <a class="mega_menu_box" href="{{ mega_menu_block.productLink4 }}">
+                    <div class="productContent">
+                        {{ mega_menu_block.productImg4 |  image_url: width:300 | image_tag:lazyload:'lazy',class:'productImg' }}
+                       <div class="productContentTxt">
+                            <span class="productTitle">
+                                {{ mega_menu_block.productTitle4 }}
+                            </span>
+                            <span class="productDesc">
+                                {{ mega_menu_block.productDesc4 }}
+                            </span>
+                            <div class="mega_menu_flex">
+                                <span class="productPeice">
+                                    {{ mega_menu_block.productPeice4 }}
+                                </span>
+                                <del class="productPeiceCom">
+                                    {{ mega_menu_block.productPeiceCom4 }}
+                                </del>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                {% endif %}
+                {% if mega_menu_block.productImg5 != blank %}
+                    <a class="mega_menu_box" href="{{ mega_menu_block.productLink5 }}">
+                    <div class="productContent">
+                        {{ mega_menu_block.productImg5 |  image_url: width:300 | image_tag:lazyload:'lazy',class:'productImg' }}
+                       <div class="productContentTxt">
+                            <span class="productTitle">
+                                {{ mega_menu_block.productTitle5 }}
+                            </span>
+                            <span class="productDesc">
+                                {{ mega_menu_block.productDesc5 }}
+                            </span>
+                            <div class="mega_menu_flex">
+                                <span class="productPeice">
+                                    {{ mega_menu_block.productPeice5 }}
+                                </span>
+                                <del class="productPeiceCom">
+                                    {{ mega_menu_block.productPeiceCom5 }}
+                                </del>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                {% endif %}
+                
+            </div>
+         
+        </div>
+        <div class="mega_menu_all hide_pc">
+            <span class="mega_menu_new_tit">
+                {{mega_menu_block.menuLink.title}}
+              </span>
+            <ul>
+            {% for link in mega_menu_block.menuLink.links %}
+                <li>
+                  <a href="{{ link.url }}" class="mega_menu_new_link">
+                    {{ link.title}}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+        </div>
+    <div class="mega_menu_new_img">
+  <a href="{{ mega_menu_block.activeLink }}">
+        {{ mega_menu_block.mobActiveImg |  image_url: width:600 | image_tag:lazyload:'lazy',class:'only-in-mobile' }}
+
+        {{ mega_menu_block.activeImg |  image_url: width:600 | image_tag:lazyload:'lazy',class:'only-in-pc' }}
+    </a>
+    </div>
+</div>

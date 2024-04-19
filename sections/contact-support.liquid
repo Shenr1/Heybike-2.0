@@ -1,0 +1,417 @@
+
+{% comment %} {% style %}
+  .content {
+    position: relative;
+  }
+{% endstyle %} {% endcomment %}
+
+<style>
+
+  /* #shopify-section-{{ section.id }} {
+    --media-grid-row-height: 0;
+  }
+
+  #shopify-section-{{ section.id }} {
+    --media-grid-row-height: 0;
+  } */
+
+  .contact-support-wrap {
+    background-color: #FAFAFA;
+    /* padding-block-end: 0;
+    padding-block-start: 0; */
+  }
+
+  .contact-support-wrap .content-wrap {
+    position: relative;
+  }
+
+  .subscription-wrap img {
+    width: 100%;
+  }
+
+  .contact-support-wrap .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: #000;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content:  space-evenly;
+  }
+
+  .contact-support-wrap  .customer-service {
+    width: 100%;
+    display: flex;
+    color: #fff;
+    justify-content: space-evenly;
+  }
+
+  .contact-support-wrap .customer-service li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    font-family: Poppins, Poppins;
+  }
+
+  .contact-support-wrap .customer-img {
+    max-width: 46px;
+  }
+
+  .contact-support-wrap .customer-title {
+    font-weight: 600;
+    padding: 10px 0 5px;
+  }
+
+  .contact-support-wrap .customer-subtitle {
+    font-weight: 300;
+  }
+
+  .contact-support-wrap .customer-text-wrap {
+    width: 92%;
+    margin: 287px auto 0;
+    position: relative;
+  }
+
+  .contact-support-wrap .customer-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+  }
+
+  .contact-support-wrap .customer-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: #fff;
+    gap: 80px;
+  }
+
+  .contact-support-wrap .text-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contact-support-wrap .text-title {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  .contact-support-wrap .text-subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+
+  .contact-support-wrap .btn {
+    font-size: 16px;
+    background: #fff;
+    width: fit-content;
+    color: #000;
+    padding: 6px 30px;
+    border-radius: 30px;
+    margin-top: 80px;
+    transition: all .5s;
+  }
+
+  .contact-support-wrap .btn:hover { 
+    transform: scale(1.04);
+  }
+
+  @media (max-width: 1149px) { 
+    .contact-support-wrap .customer-content {
+      gap: 40px;
+    }
+
+    .contact-support-wrap .customer-img {
+      max-width: 39px;
+    }
+
+    .contact-support-wrap .text-title {
+      font-size: 26px;
+    }
+
+    .contact-support-wrap .customer-text-wrap {
+      margin: 190px auto 0;
+    }
+
+    .contact-support-wrap .text-subtitle {
+      font-size: 12px;
+    }
+
+    .contact-support-wrap .btn {
+      font-size: 16px;
+      margin-top: 40px;
+    }
+
+    .contact-support-wrap .customer-service li {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 769px) {  
+    .contact-support-wrap .text-wrap {
+      align-items: center;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .contact-support-wrap .customer-box  {
+      padding: 20px;
+    }
+    .contact-support-wrap .customer-title {
+      padding: 0;
+    }
+    .contact-support-wrap .customer-service {
+      display: grid;
+      width: 90%;
+      row-gap: 5rem;
+      color: #fff;
+      margin: 0 auto;
+      grid-template-columns: repeat(12, minmax(0px, 1fr));
+    }
+
+    .contact-support-wrap .customer-service li {
+      gap: 20px;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      grid-column: span 6;
+    }
+
+    .contact-support-wrap .text-title { 
+      font-size: 18px;
+    }
+
+    .contact-support-wrap .btn {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 580px) {  
+    .contact-support-wrap .content {
+      justify-content: unset;
+    }
+
+    .contact-support-wrap .customer-service{
+      margin-top: 25px;
+      gap: 0.6rem;
+    }
+
+    .contact-support-wrap .customer-img {
+      max-width: 25px;
+    }
+
+    .contact-support-wrap .customer-service li {
+      text-align: left;
+      font-size: 12px;
+    }
+
+    .contact-support-wrap .customer-text-wrap {
+      margin: 150px auto 0;
+    }
+  }
+
+  @media (max-width: 420px) {  
+    .contact-support-wrap .customer-service{
+      row-gap: 0;
+      margin-top: 20px;
+    }
+
+    .contact-support-wrap .customer-service li {
+      gap: 10px;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      grid-column: span 6;
+    }
+  }
+</style>
+
+<section class="section contact-support-wrap">
+  <div class="content-wrap">
+    <img 
+      class="main-img only-in-pc" 
+      src="{{ section.settings.main_image | img_url:'master'}}"
+      alt="{{ section.settings.image_alt  }}"
+    />
+
+    <img 
+      class="main-img only-in-mobile" 
+      src="{{ section.settings.mobile_image | img_url:'master'}}"
+      alt="{{ section.settings.image_alt  }}"
+    />
+
+    <div class="content">
+      <ul class="customer-service">
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when 'customer_service' %}
+            <li>
+              <img
+                class="customer-img"
+                src="{{  block.settings.main_image | img_url:'master' }}"
+                alt="{{ block.settings.image_alt }}"
+              />
+              <div>
+                {% if block.settings.title != blank %}
+                  <p class="customer-title">{{ block.settings.title }}</p>
+                {% endif %}
+                {% if block.settings.subtitle != blank %}
+                  <p class="customer-subtitle">{{ block.settings.subtitle }}</p>
+                {% endif %}
+              </div>
+            </li>
+          {% endcase %}
+        {% endfor %}
+      </ul>
+
+      <div class="customer-text-wrap">
+        <img
+          class="user-img only-in-pc"
+          src="{{  section.settings.user_bg | img_url:'master' }}"
+          alt="{{ section.settings.user_bg_alt }}"
+        />
+
+        <img
+          class="user-mobile-img only-in-mobile"
+          src="{{  section.settings.user_mobile_bg | img_url:'master' }}"
+          alt="{{ section.settings.user_bg_alt }}"
+        />
+
+        <div class="customer-box">
+          <div class="customer-content">
+            <img
+              class="user-img only-in-pc"
+              src="{{  section.settings.avatar | img_url:'master' }}"
+              alt="{{ section.settings.avatar_alt }}"
+            />
+            <div class="text-wrap">
+              <h2 class="text-title">{{ section.settings.title }}</h2>
+              <p class="text-subtitle">{{ section.settings.subtitle }}</p>
+              <a class="btn" href="{{ section.settings.url }}">{{ section.settings.btn_text }}</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Contact Support",
+  "class": "shopify-section--media-grid",
+  "presets": [{
+    "name": "Contact Support"
+  }],
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "main_image",
+      "label": "背景图"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "手机背景图"
+    },
+    {
+      "type": "text",
+      "id": "image_alt",
+      "label": "image alt",
+      "default": "img"
+    },
+    {
+      "type": "image_picker",
+      "id": "user_bg",
+      "label": "icon"
+    },
+    {
+      "type": "image_picker",
+      "id": "user_mobile_bg",
+      "label": "手机端icon"
+    },
+    {
+      "type": "text",
+      "id": "user_bg_alt",
+      "label": "image alt",
+      "default": "user_bg_alt"
+    },
+    {
+      "type": "image_picker",
+      "id": "avatar",
+      "label": "头像"
+    },
+    {
+      "type": "text",
+      "id": "avatar_alt",
+      "label": "image alt",
+      "default": "avatar_alt"
+    },
+    {
+      "type": "html",
+      "id": "title",
+      "label": "标题",
+      "default": "Got a question? <br/> We are here to help."
+    },
+    {
+      "type": "html",
+      "id": "subtitle",
+      "label": "副标题",
+      "default": "Write something about what your customers will receive <br/> by subscribing to your newsletter."
+    },
+    {
+      "type": "url",
+      "id": "url",
+      "label": "跳转链接"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "按钮文案",
+      "default": "Contact support"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "customer_service",
+      "name": "customer_service",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "main_image",
+          "label": "main image"
+        },
+        {
+          "type": "text",
+          "id": "image_alt",
+          "label": "image alt",
+          "default": "img"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "标题"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "副标题"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

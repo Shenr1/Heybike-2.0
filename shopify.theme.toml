@@ -1,0 +1,4 @@
+[environments.dev]
+theme = "167608385851"
+store = "heybike-uk.myshopify.com"
+ignore_files = ['config/*.json','config/*/*.json','templates/*.json','templates/*/*.json']

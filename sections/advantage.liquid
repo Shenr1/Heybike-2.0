@@ -1,0 +1,215 @@
+<style>
+  .advantage-wrap {
+    background-color: #fff;
+  }
+
+  .advantage-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .5s;
+  }
+
+  .advantage-wrap .col {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(12, minmax(0px, 1fr));
+  }
+
+  .advantage-wrap .col li:hover img{
+    transform: scale(1.01);
+  }
+
+  .advantage-wrap .col  li {
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+    border-radius: 16px;
+    grid-column: span 12;
+  }
+
+  .advantage-wrap .col  li:nth-child(2) {
+    grid-column: span 5;
+  }
+
+  .advantage-wrap .col  li:nth-child(3) {
+    grid-column: span 7;
+  }
+
+  .advantage-wrap .advantage-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .advantage-wrap .advantage-title {
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 600;
+  }
+
+  .advantage-wrap .advantage-subtitle {
+    width: fit-content;
+    padding-top: 10px;
+    font-size: 16px;
+    max-width: 350px;
+    line-height: 1.2;
+  }
+
+  .advantage-wrap .btn{
+    color: #000;
+    width: fit-content;
+    background: #F6BE00;
+    padding-inline-start: var(--spacing-12);
+    padding-inline-end: var(--spacing-12);
+    transition: all .5s;
+  }
+
+  .advantage-wrap .btn:hover{ 
+    background-color: #fff;
+    color: #F6BE00;
+  }
+
+  @media (max-width: 1149px) {
+    .advantage-wrap .advantage-title{
+      font-size: 26px;
+    }
+
+    .advantage-wrap .advantage-box {
+      padding: 30px
+    }
+
+    .advantage-wrap .btn {
+      padding-inline-start: var(--spacing-8);
+      padding-inline-end: var(--spacing-8);
+      padding-block-start: var(--spacing-2);
+      padding-block-end: var(--spacing-2);
+      font-size: var(--text-xs);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .advantage-wrap .col li:nth-child(3),
+    .advantage-wrap .col li:nth-child(2) {
+      grid-column: span 12;
+    }
+
+    .advantage-wrap .advantage-subtitle {
+      padding-top: 5px;
+      font-size: 12px;
+      max-width: 200px;
+    }
+
+    .advantage-wrap .advantage-title {
+      font-size: 18px;
+      max-width: 200px;
+    }
+
+    .advantage-wrap .advantage-box {
+      padding: 21px 31px;
+    }
+
+    .advantage-wrap .btn {
+      padding-inline-start: var(--spacing-6);
+      padding-inline-end: var(--spacing-6);
+      padding-block-start: var(--spacing-1);
+      padding-block-end: var(--spacing-1);
+    }
+  }
+</style>
+
+<section class="section advantage-wrap">
+  <ul class="col">
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'advantage' %}
+        <li>
+          <img
+            class="only-in-pc"
+            src="{{  block.settings.main_image | img_url:'master' }}"
+            alt="{{ block.settings.image_alt }}"
+          />
+          <img
+            class="only-in-mobile"
+            src="{{  block.settings.mobile_image | img_url:'master' }}"
+            alt="{{ block.settings.image_alt }}"
+          />
+          <div class="advantage-box">
+            <div>
+              <p class="advantage-title">{{ block.settings.title }}</p>
+
+              {% if block.settings.subtitle != blank %}
+                <p class="advantage-subtitle">{{ block.settings.subtitle }}</p>
+              {% endif %}
+            </div>
+
+            {% if block.settings.btn_text != blank %}
+              <a href="{{ block.settings.url }}" class="btn btn-primary">{{ block.settings.btn_text }}</a>
+            {% endif %}
+          </div>
+        </li>
+      {% endcase %}
+    {% endfor %}
+  </ul>
+</section>
+
+{% schema %}
+{
+  "name": "Advantage",
+  "class": "shopify-section--media-grid",
+  "presets": [{
+    "name": "Advantage"
+  }],
+  "settings": [],
+  "blocks": [
+    {
+      "type": "advantage",
+      "name": "advantage",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "main_image",
+          "label": "pc 图片"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_image",
+          "label": "手机图片"
+        },
+        {
+          "type": "text",
+          "id": "image_alt",
+          "label": "image alt",
+          "default": "img"
+        },
+        {
+          "type": "html",
+          "id": "title",
+          "label": "标题"
+        },
+        {
+          "type": "html",
+          "id": "subtitle",
+          "label": "副标题"
+        },
+        {
+          "type": "text",
+          "id": "btn_text",
+          "label": "按钮文案"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "跳转链接"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

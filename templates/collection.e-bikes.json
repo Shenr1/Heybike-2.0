@@ -1,0 +1,112 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": true,
+        "show_collection_title": false,
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "collection_title_size": "h3",
+        "image_size": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "collection-ebike",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 24,
+        "product_bg": "rgba(0,0,0,0)",
+        "show_btn": "Jetzt Kaufen",
+        "filter_layout": "sidebar",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_filter_group_name": true,
+        "show_color_swatch": true,
+        "show_empty_filter_values": true,
+        "show_filter_values_count": false,
+        "open_first_filter_group": true
+      }
+    },
+    "467fc4e8-a9b8-4065-91df-4c8189919e41": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--21667605020957__467fc4e8-a9b8-4065-91df-4c8189919e41-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "template--21667605020957__467fc4e8-a9b8-4065-91df-4c8189919e41-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21667605020957__467fc4e8-a9b8-4065-91df-4c8189919e41-heading-1",
+        "template--21667605020957__467fc4e8-a9b8-4065-91df-4c8189919e41-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/1920X420-sale.jpg",
+        "mobile_image": "shopify://shop_images/800X941.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "b48e814f-50c6-4dcc-9ef0-3259ded5caf8": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "e-bikes",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "show_purchase_button": true,
+        "button_purchase": "Jetzt Kaufen",
+        "products_count": 2,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 2,
+        "subheading": "",
+        "title": "Featured collection",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "467fc4e8-a9b8-4065-91df-4c8189919e41",
+    "b48e814f-50c6-4dcc-9ef0-3259ded5caf8"
+  ]
+}

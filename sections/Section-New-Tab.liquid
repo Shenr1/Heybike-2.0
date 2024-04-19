@@ -1,0 +1,1635 @@
+
+
+
+
+<style>
+.vi-modal-close svg {
+    width: 20px;
+}
+  .vi-product-tabmodal-mask {
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 7, 20, 0.8);
+  }
+  .vi-product-tabmodal-is-active {
+    overflow-y: hidden;
+  }
+  .vi-product-tabmodal-tabtitle {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding-right: 10px;
+    cursor: pointer;
+    border-bottom: 2px solid #f4f4f4;
+    margin: 0;
+  }
+  .vi-product-tabmodal-tabtitle .vi-left {
+    font-size: 20px;
+   
+    padding: 16px 0;
+    margin: 0;
+  
+  }
+  .vi-product-tabmodal-tabtitle svg {
+    fill: #999;
+    width: 20px;
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal {
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    max-width: 420px;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.5s ease,visibility 0.5s ease;
+    visibility: hidden;
+    transform: translateX(100%);
+  }
+  @media (max-width: 749px) {
+    .Detailed-information-{{ section.id }} .vi-product-tabmodal {
+      max-width: 90%;
+    }
+.vi-product-tabmodal-tabtitle .vi-left {
+    font-size: 20px;
+    padding: 10px 0;
+    margin: 0;
+}
+    .vi-product-tabmodal-is-active .section-header {
+      z-index: 400!important;
+    }
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal-active {
+    right: 0;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-modal {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-modal .vi-modal-content {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-modal .vi-modal-mask {
+    opacity: 0;
+    flex: 1 auto;
+    background-color: rgba(0, 7, 20, 0.8);
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal-active .vi-modal-mask {
+    opacity: 1!important;
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-modal-head {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 16px;
+    border-bottom: 2px solid #f4f4f4;
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-modal-head .vi-modal-title {
+    color: #333;
+    font-size: 20px;
+    font-family: metropolismedium;
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-modal-head .vi-modal-close {
+    cursor: pointer;
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-modal-body {
+    max-height: calc(100% - 70px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 20px 0 20px 0;
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-modal-body .vi-image {
+    text-align: center;
+    margin: 20px auto 40px auto;
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-modal-body .vi-image img {
+    max-width: 100%;
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-table .row {
+    display: flex;
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-table .cell {
+    width: 50%;
+    flex: 1 auto;
+    padding: 15px 15px;
+    font-size: 14px;
+    color: #666;
+    border-bottom: 2px solid #f4f4f4;
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-table .cell:nth-child(odd) {
+    font-weight: 500;
+    color: #333;
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-modal-body .vi-content,
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-modal-body .vi-table {
+    font-size: 14px;
+    font-weight: 400;
+  
+    color: #666666; 
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-blank {
+    height: 60px;
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal-tabs-nav {
+    list-style: none;
+    margin: 0 0 20px 0;
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal-tabs-nav li {
+    list-style: none;
+    flex: 1 0 auto;
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal-tabs-nav li:not(:first-child) {
+    margin-left: 8px;
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal-tabs-nav li a {
+    display: block;
+    text-align: center;
+    border: 1px solid #dbdcdc;
+    background-color: #fff;
+    padding: 5px;
+    color: #333;
+    font-weight: 700;
+    font-family: Orbitron;
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal-tabs-nav li.active a {
+    border-color: #ee731b;
+    background-color: #fff7f1;
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-modal-body .vi-blocktype-block .vi-content {
+    font-size: 14px;
+    color: #666;
+    word-break: break-word;
+  }
+  .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-modal-body .vi-blocktype-block .vi-content strong {
+    color: #333;
+  }
+  @media (min-width: 1200px) {
+    .Detailed-information-{{ section.id }} .vi-product-tabmodal-tabs-nav li:hover a {
+      border-color: #ee731b;
+      background-color: #fff7f1;
+    }
+    .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-modal-body .vi-blocktype-block .vi-content strong {
+      margin: 0 0 12px 0;
+    }
+    .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-modal-body .vi-blocktype-block .vi-content p {
+      margin: 0 0 12px 0;
+    }
+    .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-modal-body .vi-blocktype-block .vi-content p + strong {
+      margin: 0 0 12px 0;
+    }
+  }
+  @media (max-width: 749px) {
+    .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-modal-head {
+      max-height: 40px;
+    }
+    .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-modal-head .vi-modal-title {
+      font-size: 16px;
+    }
+    .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-modal-body .vi-blocktype-block .vi-content strong {
+      margin: 0 0 10px 0;
+    }
+    .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-modal-body .vi-blocktype-block .vi-content p {
+      margin: 0 0 20px 0;
+    }
+    .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-table .cell {
+     
+      color: #333;
+    }
+    .Detailed-information-{{ section.id }} .vi-product-tabmodal .vi-table .cell:nth-child(odd) {
+      color: #333;
+    }
+  }
+  </style>
+  
+  <section class="Detailed-information-{{ section.id }}">
+  
+  <div id="vi-product-tabmodal-faq" class="vi-product-tabmodal">
+    <div class="vi-modal">
+      
+      <div class="vi-modal-content">
+      
+        <div class="vi-modal-head">
+          <div class="vi-modal-title">{{ section.settings.title_faq }}</div>
+          <div class="vi-modal-close" data-modal="faq">
+            <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="M764.288 214.592 512 466.88 259.712 214.592a31.936 31.936 0 0 0-45.12 45.12L466.752 512 214.528 764.224a31.936 31.936 0 1 0 45.12 45.184L512 557.184l252.288 252.288a31.936 31.936 0 0 0 45.12-45.12L557.12 512.064l252.288-252.352a31.936 31.936 0 1 0-45.12-45.184z"></path></svg>
+          </div>
+        </div>
+      
+        <div class="vi-modal-body">
+          <div class="vi-blocktype-block">
+          
+          {% for block in section.blocks %}
+            {%- case block.type -%}
+            {%- when 'faq-text' -%}
+            <div class="vi-content">
+            {{ block.settings.faq_text }}  
+            </div>
+          {%- endcase -%}
+        {% endfor %}
+        
+            
+          </div>
+        </div>
+              
+      </div>
+    </div>
+  </div>
+  
+  <div id="vi-product-tabmodal-specs" class="vi-product-tabmodal">
+    <div class="vi-modal">
+      
+      <div class="vi-modal-content">
+      
+        <div class="vi-modal-head">
+          <div class="vi-modal-title">{{ section.settings.specs_Title }}</div>
+          <div class="vi-modal-close" data-modal="specs">
+            <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="M764.288 214.592 512 466.88 259.712 214.592a31.936 31.936 0 0 0-45.12 45.12L466.752 512 214.528 764.224a31.936 31.936 0 1 0 45.12 45.184L512 557.184l252.288 252.288a31.936 31.936 0 0 0 45.12-45.12L557.12 512.064l252.288-252.352a31.936 31.936 0 1 0-45.12-45.184z"></path></svg>
+          </div>
+        </div>
+      
+        <div class="vi-modal-body">
+          <div class="vi-blocktype-specs">
+  
+            <div id="vi-product-tabmodal-tabs__specs" class="vi-product-tabmodal-tabs">
+              <ul class="vi-product-tabmodal-tabs-nav count-3">
+                {% if section.settings.Sort_Title != blank %}  
+                <li class="active"><a href="#tab_content_pro1_specs" type="specs">{{ section.settings.Sort_Title }}</a></li>
+              {% endif %}
+              {% if section.settings.Sort_Title_1 != blank %}
+                <li><a href="#tab_content_pro2_specs" type="specs">
+               
+                {{ section.settings.Sort_Title_1 }}</a></li>
+              {% endif %}
+              {% if section.settings.Sort_Title_2 != blank %}  
+                <li><a href="#tab_content_pro3_specs" type="specs">{{ section.settings.Sort_Title_2 }}</a></li>
+              {% endif %}
+              </ul>
+              <div class="vi-product-tabmodal-tabs-content">
+                <div id="tab_content_pro1_specs" class="vi-product-tabmodal-tabs-content__wrap">
+                  
+                  <div class="vi-table">
+                    <div class="divTable">
+                      {% for block in section.blocks %}
+                      {%- case block.type -%}
+                      {%- when 'specs-tab-one' -%}
+  
+                      <div class="row">
+                        {%- if block.settings.description != blank -%}
+                        <div class="cell">{{block.settings.description}}</div>
+                        {%- endif -%}
+                        {%- if block.settings.in_detail != blank -%}
+                        <div class="cell">{{ block.settings.in_detail }}</div>
+                        {%- endif -%}
+                        </div>
+            <div class="row">
+            {%- if block.settings.description_1 != blank -%}
+            <div class="cell">{{block.settings.description_1}}</div>
+            {%- endif -%}
+            {%- if block.settings.in_detail_1 != blank -%}
+            <div class="cell">{{ block.settings.in_detail_1 }}</div>
+            {%- endif -%}
+            </div>
+          
+  
+              <div class="row">
+                {%- if block.settings.description_2 != blank -%}
+                <div class="cell">{{block.settings.description_2}}</div>
+                {%- endif -%}
+                {%- if block.settings.in_detail_2 != blank -%}
+                <div class="cell">{{ block.settings.in_detail_2 }}</div>
+                {%- endif -%}
+                </div>
+       
+  
+              <div class="row">
+                {%- if block.settings.description_3 != blank -%}
+                <div class="cell">{{block.settings.description_3}}</div>
+                {%- endif -%}
+                {%- if block.settings.in_detail_3 != blank -%}
+                <div class="cell">{{ block.settings.in_detail_3 }}</div>
+                {%- endif -%}
+                </div>
+  
+  
+                <div class="row">
+                  {%- if block.settings.description_4 != blank -%}
+                  <div class="cell">{{block.settings.description_4}}</div>
+                  {%- endif -%}
+                  {%- if block.settings.in_detail_4 != blank -%}
+                  <div class="cell">{{ block.settings.in_detail_4 }}</div>
+                  {%- endif -%}
+                  </div>
+                        {%- endcase -%}
+                        {% endfor %}
+  </div>
+  </div>
+  </div>
+                <div id="tab_content_pro2_specs" class="vi-product-tabmodal-tabs-content__wrap" style="display:none">
+                
+                  <div class="vi-table">
+                    <div class="divTable">
+                      {% for block in section.blocks %}
+                      {%- case block.type -%}
+                      {%- when 'specs-tab-two' -%}
+                      <div class="row">
+                        {%- if block.settings.description != blank -%}
+                        <div class="cell">{{block.settings.description}}</div>
+                        {%- endif -%}
+                        {%- if block.settings.in_detail != blank -%}
+                        <div class="cell">{{ block.settings.in_detail }}</div>
+                        {%- endif -%}
+                        </div>
+            <div class="row">
+            {%- if block.settings.description_1 != blank -%}
+            <div class="cell">{{block.settings.description_1}}</div>
+            {%- endif -%}
+            {%- if block.settings.in_detail_1 != blank -%}
+            <div class="cell">{{ block.settings.in_detail_1 }}</div>
+            {%- endif -%}
+            </div>
+          
+  
+              <div class="row">
+                {%- if block.settings.description_2 != blank -%}
+                <div class="cell">{{block.settings.description_2}}</div>
+                {%- endif -%}
+                {%- if block.settings.in_detail_2 != blank -%}
+                <div class="cell">{{ block.settings.in_detail_2 }}</div>
+                {%- endif -%}
+                </div>
+       
+  
+              <div class="row">
+                {%- if block.settings.description_3 != blank -%}
+                <div class="cell">{{block.settings.description_3}}</div>
+                {%- endif -%}
+                {%- if block.settings.in_detail_3 != blank -%}
+                <div class="cell">{{ block.settings.in_detail_3 }}</div>
+                {%- endif -%}
+                </div>
+  
+  
+                <div class="row">
+                  {%- if block.settings.description_4 != blank -%}
+                  <div class="cell">{{block.settings.description_4}}</div>
+                  {%- endif -%}
+                  {%- if block.settings.in_detail_4 != blank -%}
+                  <div class="cell">{{ block.settings.in_detail_4 }}</div>
+                  {%- endif -%}
+                  </div>
+                        {%- endcase -%}
+                        {% endfor %}
+  
+  </div></div>
+  
+                </div>
+                
+                <div id="tab_content_pro3_specs" class="vi-product-tabmodal-tabs-content__wrap" style="display:none">
+                  
+                  <div class="vi-table">
+                    <div class="divTable">
+                      {% for block in section.blocks %}
+                      {%- case block.type -%}
+                      {%- when 'specs-tab-three' -%}
+                      <div class="row">
+                        {%- if block.settings.description != blank -%}
+                        <div class="cell">{{block.settings.description}}</div>
+                        {%- endif -%}
+                        {%- if block.settings.in_detail != blank -%}
+                        <div class="cell">{{ block.settings.in_detail }}</div>
+                        {%- endif -%}
+                        </div>
+            <div class="row">
+            {%- if block.settings.description_1 != blank -%}
+            <div class="cell">{{block.settings.description_1}}</div>
+            {%- endif -%}
+            {%- if block.settings.in_detail_1 != blank -%}
+            <div class="cell">{{ block.settings.in_detail_1 }}</div>
+            {%- endif -%}
+            </div>
+          
+  
+              <div class="row">
+                {%- if block.settings.description_2 != blank -%}
+                <div class="cell">{{block.settings.description_2}}</div>
+                {%- endif -%}
+                {%- if block.settings.in_detail_2 != blank -%}
+                <div class="cell">{{ block.settings.in_detail_2 }}</div>
+                {%- endif -%}
+                </div>
+       
+  
+              <div class="row">
+                {%- if block.settings.description_3 != blank -%}
+                <div class="cell">{{block.settings.description_3}}</div>
+                {%- endif -%}
+                {%- if block.settings.in_detail_3 != blank -%}
+                <div class="cell">{{ block.settings.in_detail_3 }}</div>
+                {%- endif -%}
+                </div>
+  
+  
+                <div class="row">
+                  {%- if block.settings.description_4 != blank -%}
+                  <div class="cell">{{block.settings.description_4}}</div>
+                  {%- endif -%}
+                  {%- if block.settings.in_detail_4 != blank -%}
+                  <div class="cell">{{ block.settings.in_detail_4 }}</div>
+                  {%- endif -%}
+                  </div>
+                        {%- endcase -%}
+                        {% endfor %}
+  </div>
+  </div>      
+                </div>
+                
+            </div>
+          </div>  
+  
+          </div>
+  
+        </div>
+              
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="vi-product-tabmodal-Size" class="vi-product-tabmodal">
+    <div class="vi-modal">
+      
+      <div class="vi-modal-content">
+      
+        <div class="vi-modal-head">
+          <div class="vi-modal-title">{{ section.settings.title_size }}</div>
+          <div class="vi-modal-close" data-modal="Size">
+            <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="M764.288 214.592 512 466.88 259.712 214.592a31.936 31.936 0 0 0-45.12 45.12L466.752 512 214.528 764.224a31.936 31.936 0 1 0 45.12 45.184L512 557.184l252.288 252.288a31.936 31.936 0 0 0 45.12-45.12L557.12 512.064l252.288-252.352a31.936 31.936 0 1 0-45.12-45.184z"></path></svg>
+          </div>
+        </div>
+      
+        <div class="vi-modal-body">
+          <div class="vi-blocktype-size">
+  
+            <div id="vi-product-tabmodal-tabs__size" class="vi-product-tabmodal-tabs">
+              <ul class="vi-product-tabmodal-tabs-nav count-3">
+                {% if section.settings.Size_Title_One != blank %}  
+                <li class="active"><a href="#tab_content_pro1_size" type="size">{{ section.settings.Size_Title_One }}</a></li>
+              {% endif %}
+              {% if section.settings.Size_Title_Two != blank %}
+                <li><a href="#tab_content_pro2_size" type="size">
+               
+                {{ section.settings.Size_Title_Two }}</a></li>
+              {% endif %}
+              {% if section.settings.Size_Title_Three != blank %}  
+                <li><a href="#tab_content_pro3_size" type="size">{{ section.settings.Size_Title_Three }}</a></li>
+              {% endif %}
+              </ul>
+              <div class="vi-product-tabmodal-tabs-content">
+                <div id="tab_content_pro1_size" class="vi-product-tabmodal-tabs-content__wrap">
+                  
+                  <div class="vi-table">
+                    <div class="divTable">
+                      {% for block in section.blocks %}
+                      {%- case block.type -%}
+                      {%- when 'size-table' -%}
+                        <div class="row">
+                          {%- if block.settings.description != blank -%}
+                          <div class="cell">{{block.settings.description}}</div>
+                          {%- endif -%}
+                          {%- if block.settings.in_detail != blank -%}
+                          <div class="cell">{{ block.settings.in_detail }}</div>
+                          {%- endif -%}
+                          </div>
+              <div class="row">
+              {%- if block.settings.description_1 != blank -%}
+              <div class="cell">{{block.settings.description_1}}</div>
+              {%- endif -%}
+              {%- if block.settings.in_detail_1 != blank -%}
+              <div class="cell">{{ block.settings.in_detail_1 }}</div>
+              {%- endif -%}
+              </div>
+            
+  
+                <div class="row">
+                  {%- if block.settings.description_2 != blank -%}
+                  <div class="cell">{{block.settings.description_2}}</div>
+                  {%- endif -%}
+                  {%- if block.settings.in_detail_2 != blank -%}
+                  <div class="cell">{{ block.settings.in_detail_2 }}</div>
+                  {%- endif -%}
+                  </div>
+         
+  
+                <div class="row">
+                  {%- if block.settings.description_3 != blank -%}
+                  <div class="cell">{{block.settings.description_3}}</div>
+                  {%- endif -%}
+                  {%- if block.settings.in_detail_3 != blank -%}
+                  <div class="cell">{{ block.settings.in_detail_3 }}</div>
+                  {%- endif -%}
+                  </div>
+  
+  
+                  <div class="row">
+                    {%- if block.settings.description_4 != blank -%}
+                    <div class="cell">{{block.settings.description_4}}</div>
+                    {%- endif -%}
+                    {%- if block.settings.in_detail_4 != blank -%}
+                    <div class="cell">{{ block.settings.in_detail_4 }}</div>
+                    {%- endif -%}
+                    </div>
+                    {%- when 'size-img' -%}
+                  <div class="vi-image">
+                    {% if block.settings.image_dep != blank %}
+                      <img class="lazyloaded" src="{{ block.settings.image_dep | img_url: 'master' }}" alt="">
+                      {% endif %}
+                  </div>
+                  {%- when 'size-content' -%}
+                  <div class="vi-content">
+                    {{ block.settings.size_content }}
+                    </div>
+                        {%- endcase -%}
+                        {% endfor %}
+                    </div>
+                    <div class="divTable">
+                      {% for block in section.blocks %}
+                        {%- case block.type -%}
+                        {%- when 'size-text' -%}
+                      <div class="row">
+                        {%- if block.settings.size_text != blank -%}
+                        <div class="cell">
+                        {{ block.settings.size_text }}
+                          </div>
+                          {%- endif -%}
+                          </div>
+                        {%- endcase -%}
+                      {% endfor %}
+                          </div>
+  </div>
+  </div>
+  <div id="tab_content_pro2_size" class="vi-product-tabmodal-tabs-content__wrap">
+                  
+    <div class="vi-table">
+      <div class="divTable">
+        {% for block in section.blocks %}
+        {%- case block.type -%}
+        {%- when 'size-table-two' -%}
+          <div class="row">
+            {%- if block.settings.description != blank -%}
+            <div class="cell">{{block.settings.description}}</div>
+            {%- endif -%}
+            {%- if block.settings.in_detail != blank -%}
+            <div class="cell">{{ block.settings.in_detail }}</div>
+            {%- endif -%}
+            </div>
+<div class="row">
+{%- if block.settings.description_1 != blank -%}
+<div class="cell">{{block.settings.description_1}}</div>
+{%- endif -%}
+{%- if block.settings.in_detail_1 != blank -%}
+<div class="cell">{{ block.settings.in_detail_1 }}</div>
+{%- endif -%}
+</div>
+
+
+  <div class="row">
+    {%- if block.settings.description_2 != blank -%}
+    <div class="cell">{{block.settings.description_2}}</div>
+    {%- endif -%}
+    {%- if block.settings.in_detail_2 != blank -%}
+    <div class="cell">{{ block.settings.in_detail_2 }}</div>
+    {%- endif -%}
+    </div>
+
+
+  <div class="row">
+    {%- if block.settings.description_3 != blank -%}
+    <div class="cell">{{block.settings.description_3}}</div>
+    {%- endif -%}
+    {%- if block.settings.in_detail_3 != blank -%}
+    <div class="cell">{{ block.settings.in_detail_3 }}</div>
+    {%- endif -%}
+    </div>
+
+
+    <div class="row">
+      {%- if block.settings.description_4 != blank -%}
+      <div class="cell">{{block.settings.description_4}}</div>
+      {%- endif -%}
+      {%- if block.settings.in_detail_4 != blank -%}
+      <div class="cell">{{ block.settings.in_detail_4 }}</div>
+      {%- endif -%}
+      </div>
+      {%- when 'size-img-two' -%}
+    <div class="vi-image">
+      {% if block.settings.image_dep != blank %}
+        <img class="lazyloaded" src="{{ block.settings.image_dep | img_url: 'master' }}" alt="">
+        {% endif %}
+    </div>
+    {%- when 'size-content-two' -%}
+    <div class="vi-content">
+      {{ block.settings.size_content }}
+      </div>
+          {%- endcase -%}
+          {% endfor %}
+      </div>
+      <div class="divTable">
+        {% for block in section.blocks %}
+          {%- case block.type -%}
+          {%- when 'size-text-two' -%}
+        <div class="row">
+          {%- if block.settings.size_text != blank -%}
+          <div class="cell">
+          {{ block.settings.size_text }}
+            </div>
+            {%- endif -%}
+            </div>
+          {%- endcase -%}
+        {% endfor %}
+            </div>
+</div>
+</div>
+                
+<div id="tab_content_pro3_size" class="vi-product-tabmodal-tabs-content__wrap">
+                  
+  <div class="vi-table">
+    <div class="divTable">
+      {% for block in section.blocks %}
+      {%- case block.type -%}
+      {%- when 'size-table-three' -%}
+        <div class="row">
+          {%- if block.settings.description != blank -%}
+          <div class="cell">{{block.settings.description}}</div>
+          {%- endif -%}
+          {%- if block.settings.in_detail != blank -%}
+          <div class="cell">{{ block.settings.in_detail }}</div>
+          {%- endif -%}
+          </div>
+<div class="row">
+{%- if block.settings.description_1 != blank -%}
+<div class="cell">{{block.settings.description_1}}</div>
+{%- endif -%}
+{%- if block.settings.in_detail_1 != blank -%}
+<div class="cell">{{ block.settings.in_detail_1 }}</div>
+{%- endif -%}
+</div>
+
+
+<div class="row">
+  {%- if block.settings.description_2 != blank -%}
+  <div class="cell">{{block.settings.description_2}}</div>
+  {%- endif -%}
+  {%- if block.settings.in_detail_2 != blank -%}
+  <div class="cell">{{ block.settings.in_detail_2 }}</div>
+  {%- endif -%}
+  </div>
+
+
+<div class="row">
+  {%- if block.settings.description_3 != blank -%}
+  <div class="cell">{{block.settings.description_3}}</div>
+  {%- endif -%}
+  {%- if block.settings.in_detail_3 != blank -%}
+  <div class="cell">{{ block.settings.in_detail_3 }}</div>
+  {%- endif -%}
+  </div>
+
+
+  <div class="row">
+    {%- if block.settings.description_4 != blank -%}
+    <div class="cell">{{block.settings.description_4}}</div>
+    {%- endif -%}
+    {%- if block.settings.in_detail_4 != blank -%}
+    <div class="cell">{{ block.settings.in_detail_4 }}</div>
+    {%- endif -%}
+    </div>
+    {%- when 'size-img-three' -%}
+  <div class="vi-image">
+    {% if block.settings.image_dep != blank %}
+      <img class="lazyloaded" src="{{ block.settings.image_dep | img_url: 'master' }}" alt="">
+      {% endif %}
+  </div>
+  {%- when 'size-content-three' -%}
+  <div class="vi-content">
+    {{ block.settings.size_content }}
+    </div>
+        {%- endcase -%}
+        {% endfor %}
+    </div>
+    <div class="divTable">
+      {% for block in section.blocks %}
+        {%- case block.type -%}
+        {%- when 'size-text-three' -%}
+      <div class="row">
+        {%- if block.settings.size_text != blank -%}
+        <div class="cell">
+        {{ block.settings.size_text }}
+          </div>
+          {%- endif -%}
+          </div>
+        {%- endcase -%}
+      {% endfor %}
+          </div>
+</div>
+</div>
+                
+            </div>
+          </div>  
+  
+          </div>
+  
+        </div>
+              
+      </div>
+    </div>
+  </div>
+
+    <div id="vi-product-tabmodal-box" class="vi-product-tabmodal">
+      <div class="vi-modal">
+        
+        <div class="vi-modal-content">
+        
+          <div class="vi-modal-head">
+            <div class="vi-modal-title">{{ section.settings.title_box }}</div>
+            <div class="vi-modal-close" data-modal="box">
+              <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+              <path d="M764.288 214.592 512 466.88 259.712 214.592a31.936 31.936 0 0 0-45.12 45.12L466.752 512 214.528 764.224a31.936 31.936 0 1 0 45.12 45.184L512 557.184l252.288 252.288a31.936 31.936 0 0 0 45.12-45.12L557.12 512.064l252.288-252.352a31.936 31.936 0 1 0-45.12-45.184z"></path></svg>
+            </div>
+          </div>
+          <div class="vi-modal-body">
+            <div class="vi-blocktype-table">
+              <div class="vi-table"><div class="divTable"></div>
+              {% for block in section.blocks %}
+                {%- case block.type -%}
+                {%- when 'box' -%}
+                <div class="row">
+                  {%- if block.settings.description != blank -%}
+                  <div class="cell">{{ block.settings.description }}</div>
+                  {%- endif -%}
+                {%- if block.settings.description_1 != blank -%}
+                <div class="cell">{{ block.settings.description_1 }}</div>
+                {%- endif -%}
+                {%- if block.settings.description_2 != blank -%}
+                <div class="cell">{{ block.settings.description_2 }}</div>
+                {%- endif -%}
+               </div>
+               <div class="row">
+                {%- if block.settings.description_4 != blank -%}
+                <div class="cell">{{ block.settings.description_4 }}</div>
+                {%- endif -%}
+                {%- if block.settings.description_5 != blank -%}
+                <div class="cell">{{ block.settings.description_5 }}</div>
+                {%- endif -%}
+                {%- if block.settings.description_6 != blank -%}
+                <div class="cell">{{ block.settings.description_6 }}</div>
+                {%- endif -%}
+               </div>
+               <div class="row">
+                {%- if block.settings.description_7 != blank -%}
+                <div class="cell">{{ block.settings.description_7 }}</div>
+                {%- endif -%}
+                {%- if block.settings.description_8 != blank -%}
+                <div class="cell">{{ block.settings.description_8 }}</div>
+                {%- endif -%}
+                {%- if block.settings.description_9 != blank -%}
+                <div class="cell">{{ block.settings.description_9 }}</div>
+                {%- endif -%}
+              </div>
+              {%- endcase -%}
+              {% endfor %}
+  
+            {% for block in section.blocks %}
+            {%- case block.type -%}
+            {%- when 'box-img' -%}
+            <div class="vi-image">
+              {% if block.settings.image_box != blank %}
+                <img class="lazyloaded" src="{{ block.settings.image_box | img_url: 'master' }}" alt="">
+                {% endif %}
+            </div>
+            {%- endcase -%}
+      {% endfor %}
+          </div>
+          </div> 
+        </div>
+      </div>        
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>      
+  <script>
+  (function($) {
+  
+  
+    var vi_product_tabmodal_tab1 = '<div class="vi-product-tabmodal-tabtitle" data-modal="specs">';
+    vi_product_tabmodal_tab1 += "<div class='vi-left'>Specs</div>";
+    vi_product_tabmodal_tab1 += '<div class="vi-right">';
+    vi_product_tabmodal_tab1 += '<svg class="plus" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 4C12.5523 4 13 4.44772 13 5V11H19C19.5523 11 20 11.4477 20 12C20 12.5523 19.5523 13 19 13H13V19C13 19.5523 12.5523 20 12 20C11.4477 20 11 19.5523 11 19V13H5C4.44772 13 4 12.5523 4 12C4 11.4477 4.44772 11 5 11H11V5C11 4.44772 11.4477 4 12 4Z" /></svg>';
+    vi_product_tabmodal_tab1 += '</div>';
+    vi_product_tabmodal_tab1 += '</div>';
+    
+    $('.template-product .product-form').append(vi_product_tabmodal_tab1);
+  
+    var vi_product_tabmodal_tab2 = '<div class="vi-product-tabmodal-tabtitle" data-modal="Size">';
+    vi_product_tabmodal_tab2 += "<div class='vi-left'>Size</div>";
+    vi_product_tabmodal_tab2 += '<div class="vi-right">';
+    vi_product_tabmodal_tab2 += '<svg class="plus" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 4C12.5523 4 13 4.44772 13 5V11H19C19.5523 11 20 11.4477 20 12C20 12.5523 19.5523 13 19 13H13V19C13 19.5523 12.5523 20 12 20C11.4477 20 11 19.5523 11 19V13H5C4.44772 13 4 12.5523 4 12C4 11.4477 4.44772 11 5 11H11V5C11 4.44772 11.4477 4 12 4Z" /></svg>';
+    vi_product_tabmodal_tab2 += '</div>';
+    vi_product_tabmodal_tab2 += '</div>';
+    
+    $('.template-product .product-form').append(vi_product_tabmodal_tab2);
+  
+    var vi_product_tabmodal_tab3 = '<div class="vi-product-tabmodal-tabtitle" data-modal="box">';
+    vi_product_tabmodal_tab3 += "<div class='vi-left'>What's in the Box?</div>";
+    vi_product_tabmodal_tab3 += '<div class="vi-right">';
+    vi_product_tabmodal_tab3 += '<svg class="plus" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 4C12.5523 4 13 4.44772 13 5V11H19C19.5523 11 20 11.4477 20 12C20 12.5523 19.5523 13 19 13H13V19C13 19.5523 12.5523 20 12 20C11.4477 20 11 19.5523 11 19V13H5C4.44772 13 4 12.5523 4 12C4 11.4477 4.44772 11 5 11H11V5C11 4.44772 11.4477 4 12 4Z" /></svg>';
+    vi_product_tabmodal_tab3 += '</div>';
+    vi_product_tabmodal_tab3 += '</div>';
+    
+    $('.template-product .product-form').append(vi_product_tabmodal_tab3);
+  
+    var vi_product_tabmodal_tab4 = '<div class="vi-product-tabmodal-tabtitle" data-modal="faq">';
+    vi_product_tabmodal_tab4 += "<div class='vi-left'>FAQ</div>";
+    vi_product_tabmodal_tab4 += '<div class="vi-right">';
+    vi_product_tabmodal_tab4 += '<svg class="plus" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 4C12.5523 4 13 4.44772 13 5V11H19C19.5523 11 20 11.4477 20 12C20 12.5523 19.5523 13 19 13H13V19C13 19.5523 12.5523 20 12 20C11.4477 20 11 19.5523 11 19V13H5C4.44772 13 4 12.5523 4 12C4 11.4477 4.44772 11 5 11H11V5C11 4.44772 11.4477 4 12 4Z" /></svg>';
+    vi_product_tabmodal_tab4 += '</div>';
+    vi_product_tabmodal_tab4 += '</div>';
+    
+    $('.template-product .product-form').append(vi_product_tabmodal_tab4);
+  
+  
+    
+  $('body').on('click', '.vi-product-tabmodal-tabtitle', function() {
+    var modal = $('#vi-product-tabmodal-' + $(this).attr('data-modal'));
+    if (modal.length > 0) {
+      $('body').append('<div class="vi-product-tabmodal-mask"></div>');
+      $('body').addClass('vi-product-tabmodal-is-active');
+      modal.addClass('vi-product-tabmodal-active');
+    }
+  });
+  
+  $('body').on('click', '.vi-modal-close', function() {
+    var modal = $('#vi-product-tabmodal-' + $(this).attr('data-modal'));
+    if (modal.length > 0) {
+      $('.vi-product-tabmodal-mask').remove();
+      $('body').removeClass('vi-product-tabmodal-is-active');
+      modal.removeClass('vi-product-tabmodal-active');
+    }
+  });
+    
+  $('body').on('click', '.vi-product-tabmodal-mask', function() {
+    if( $('.vi-product-tabmodal').length > 0) {
+      $(this).remove();
+      $('body').removeClass('vi-product-tabmodal-is-active');
+      $('.vi-product-tabmodal').removeClass('vi-product-tabmodal-active');
+    }
+  });
+  
+  $('body').on('click', '.vi-product-tabmodal-tabs li', function() {
+    var type = $(this).find('a').attr('type');
+    $('#vi-product-tabmodal-tabs__' + type).find('.vi-product-tabmodal-tabs-nav li').removeClass('active');
+    $(this).addClass('active');
+    
+    $('#vi-product-tabmodal-tabs__' + type).find('.vi-product-tabmodal-tabs-content__wrap').hide();
+    
+    var activeTab = $(this).find('a').attr('href');
+    $(activeTab).show();
+    return false;
+  });
+    
+    
+  })(jQuery);
+  </script>
+  
+  
+  
+  {% schema %}
+    {
+        "name": "New-Tab",
+        "class": "index-nex-tab",
+       "max_blocks": 200,
+        "settings": [
+          {
+              "type": "text",
+              "id":"specs_Title",
+              "label":"Specs Title"
+          
+            },
+          {
+              "type": "text",
+              "id":"Sort_Title",
+              "label":"Sort Specs 1",
+              "default":"text"
+            },
+            {
+              "type": "text",
+              "id":"Sort_Title_1",
+              "label":"Sort_Title_2",
+              "default":"text"
+            },
+            {
+              "type": "text",
+              "id":"Sort_Title_2",
+              "label":"Sort_Title-3",
+              "default":"text"
+            },
+            {
+              "type": "text",
+              "id":"title_size",
+              "label":"Title Size",
+              "default":"Size"
+            },
+            {
+              "type": "text",
+              "id":"Size_Title_One",
+              "label":"Sort Size 1",
+              "default":"text"
+            },
+            {
+              "type": "text",
+              "id":"Size_Title_Two",
+              "label":"Sort Size_2",
+              "default":"text"
+            },
+            {
+              "type": "text",
+              "id":"Size_Title_Three",
+              "label":"Sort Size-3",
+              "default":"text"
+            },
+            {
+              "type": "text",
+              "id":"title_box",
+              "label":"Title Box",
+              "default":"Box"
+            },
+            {
+              "type": "text",
+              "id":"title_faq",
+              "label":"Title Faq",
+              "default":"Faq"
+            }
+      
+        ],
+        "blocks":[
+          {
+            "type": "specs-tab-one",
+            "name":"specs-tab-one",
+  
+            "settings":[
+              {
+              "type": "text",
+              "id":"description",
+              "label":"Description"
+             
+            },
+            {
+              "type": "text",
+              "id": "in_detail",
+              "label": "In detail"
+             
+            },
+            {
+              "type": "text",
+              "id":"description_1",
+              "label":"Description"
+            
+            },
+            {
+              "type": "text",
+              "id": "in_detail_1",
+              "label": "In detail"
+            
+            },
+            {
+              "type": "text",
+              "id":"description_2",
+              "label":"Description"
+          
+            },
+            {
+              "type": "text",
+              "id": "in_detail_2",
+              "label": "In detail"
+            
+            },
+            {
+              "type": "text",
+              "id":"description_3",
+              "label":"Description"
+           
+            },
+            {
+              "type": "text",
+              "id": "in_detail_3",
+              "label": "In detail"
+             
+            },
+            {
+              "type": "text",
+              "id":"description_4",
+              "label":"Description"
+           
+            },
+            {
+              "type": "text",
+              "id": "in_detail_4",
+              "label": "In detail"
+             
+            }
+            
+            ]
+          },
+          {
+            "type": "specs-tab-two",
+            "name":"specs-tab-two",
+            "settings":[
+              {
+              "type": "text",
+              "id":"description",
+              "label":"Description"
+             
+            },
+            {
+              "type": "text",
+              "id": "in_detail",
+              "label": "In detail"
+              
+            },
+            {
+              "type": "text",
+              "id":"description_1",
+              "label":"Description"
+            
+            },
+            {
+              "type": "text",
+              "id": "in_detail_1",
+              "label": "In detail"
+             
+            },
+            {
+              "type": "text",
+              "id":"description_2",
+              "label":"Description"
+             
+            },
+            {
+              "type": "text",
+              "id": "in_detail_2",
+              "label": "In detail"
+             
+            },
+            {
+              "type": "text",
+              "id":"description_3",
+              "label":"Description"
+             
+            },
+            {
+              "type": "text",
+              "id": "in_detail_3",
+              "label": "In detail"
+             
+            },
+            {
+              "type": "text",
+              "id":"description_4",
+              "label":"Description"
+              
+            },
+            {
+              "type": "text",
+              "id": "in_detail_4",
+              "label": "In detail"
+          
+            }
+            ]
+          },
+          {
+            "type": "specs-tab-three",
+            "name":"specs-tab-three",
+            "settings":[
+              {
+              "type": "text",
+              "id":"description",
+              "label":"Description"
+            
+            },
+            {
+              "type": "text",
+              "id": "in_detail",
+              "label": "In detail"
+             
+            },
+            {
+              "type": "text",
+              "id":"description_1",
+              "label":"Description"
+             
+            },
+            {
+              "type": "text",
+              "id": "in_detail_1",
+              "label": "In detail"
+             
+            },
+            {
+              "type": "text",
+              "id":"description_2",
+              "label":"Description"
+             
+            },
+            {
+              "type": "text",
+              "id": "in_detail_2",
+              "label": "In detail"
+              
+            },
+            {
+              "type": "text",
+              "id":"description_3",
+              "label":"Description"
+              
+            },
+            {
+              "type": "text",
+              "id": "in_detail_3",
+              "label": "In detail"
+             
+            },
+            {
+              "type": "text",
+              "id":"description_4",
+              "label":"Description"
+             
+            },
+            {
+              "type": "text",
+              "id": "in_detail_4",
+              "label": "In detail"
+             
+            }
+            ]
+          },
+          {
+            "type": "size-table",
+            "name":"size-table",
+            "settings":[
+              {
+              "type": "text",
+              "id":"description",
+              "label":"Description",
+              "default":"text"
+            },
+            {
+              "type": "text",
+              "id": "in_detail",
+              "label": "In detail",
+              "default": "text"
+            },
+            {
+              "type": "text",
+              "id":"description_1",
+              "label":"Description",
+              "default":"text"
+            },
+            {
+              "type": "text",
+              "id": "in_detail_1",
+              "label": "In detail",
+              "default": "text"
+            },
+            {
+              "type": "text",
+              "id":"description_2",
+              "label":"Description",
+              "default":"text"
+            },
+            {
+              "type": "text",
+              "id": "in_detail_2",
+              "label": "In detail",
+              "default": "text"
+            },
+            {
+              "type": "text",
+              "id":"description_3",
+              "label":"Description",
+              "default":"text"
+            },
+            {
+              "type": "text",
+              "id": "in_detail_3",
+              "label": "In detail",
+              "default": "text"
+            },
+            {
+              "type": "text",
+              "id":"description_4",
+              "label":"Description",
+              "default":"text"
+            },
+            {
+              "type": "text",
+              "id": "in_detail_4",
+              "label": "In detail",
+              "default": "text"
+            }
+            ]
+          },
+          {
+            "type": "size-text",
+            "name":"size-text",
+            "settings":[
+         
+            {
+              "type": "richtext",
+              "id":"size_text",
+              "label":"Size text",
+              "default": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>"
+            }
+            ]
+          },
+          {
+            "type": "size-content",
+            "name":"size-content",
+            "settings":[
+           
+            {
+              "type": "richtext",
+              "id":"size_content",
+              "label":"Size Content",
+              "default": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>"
+            }
+            ]
+          },
+          {
+            "type": "size-img",
+            "name":"size-img",
+            "settings":[
+              {
+            "type": "image_picker",
+            "id": "image_dep",
+            "label": "Size Image"
+          }
+            ]
+          },
+          {
+            "type": "size-table-two",
+            "name":"size-table-two",
+            "settings":[
+              {
+              "type": "text",
+              "id":"description",
+              "label":"Description",
+              "default":"text"
+            },
+            {
+              "type": "text",
+              "id": "in_detail",
+              "label": "In detail",
+              "default": "text"
+            },
+            {
+              "type": "text",
+              "id":"description_1",
+              "label":"Description",
+              "default":"text"
+            },
+            {
+              "type": "text",
+              "id": "in_detail_1",
+              "label": "In detail",
+              "default": "text"
+            },
+            {
+              "type": "text",
+              "id":"description_2",
+              "label":"Description",
+              "default":"text"
+            },
+            {
+              "type": "text",
+              "id": "in_detail_2",
+              "label": "In detail",
+              "default": "text"
+            },
+            {
+              "type": "text",
+              "id":"description_3",
+              "label":"Description",
+              "default":"text"
+            },
+            {
+              "type": "text",
+              "id": "in_detail_3",
+              "label": "In detail",
+              "default": "text"
+            },
+            {
+              "type": "text",
+              "id":"description_4",
+              "label":"Description",
+              "default":"text"
+            },
+            {
+              "type": "text",
+              "id": "in_detail_4",
+              "label": "In detail",
+              "default": "text"
+            }
+            ]
+          },
+          {
+            "type": "size-text-two",
+            "name":"size-text-two",
+            "settings":[
+         
+            {
+              "type": "richtext",
+              "id":"size_text",
+              "label":"Size text",
+              "default": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>"
+            }
+            ]
+          },
+          {
+            "type": "size-content-two",
+            "name":"size-content-two",
+            "settings":[
+           
+            {
+              "type": "richtext",
+              "id":"size_content",
+              "label":"Size Content",
+              "default": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>"
+            }
+            ]
+          },
+          {
+            "type": "size-img-two",
+            "name":"size-img-two",
+            "settings":[
+              {
+            "type": "image_picker",
+            "id": "image_dep",
+            "label": "Size Image"
+          }
+            ]
+          },
+          {
+            "type": "size-table-three",
+            "name":"size-table-three",
+            "settings":[
+              {
+              "type": "text",
+              "id":"description",
+              "label":"Description",
+              "default":"text"
+            },
+            {
+              "type": "text",
+              "id": "in_detail",
+              "label": "In detail",
+              "default": "text"
+            },
+            {
+              "type": "text",
+              "id":"description_1",
+              "label":"Description",
+              "default":"text"
+            },
+            {
+              "type": "text",
+              "id": "in_detail_1",
+              "label": "In detail",
+              "default": "text"
+            },
+            {
+              "type": "text",
+              "id":"description_2",
+              "label":"Description",
+              "default":"text"
+            },
+            {
+              "type": "text",
+              "id": "in_detail_2",
+              "label": "In detail",
+              "default": "text"
+            },
+            {
+              "type": "text",
+              "id":"description_3",
+              "label":"Description",
+              "default":"text"
+            },
+            {
+              "type": "text",
+              "id": "in_detail_3",
+              "label": "In detail",
+              "default": "text"
+            },
+            {
+              "type": "text",
+              "id":"description_4",
+              "label":"Description",
+              "default":"text"
+            },
+            {
+              "type": "text",
+              "id": "in_detail_4",
+              "label": "In detail",
+              "default": "text"
+            }
+            ]
+          },
+          {
+            "type": "size-text-three",
+            "name":"size-text-three",
+            "settings":[
+         
+            {
+              "type": "richtext",
+              "id":"size_text",
+              "label":"Size text",
+              "default": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>"
+            }
+            ]
+          },
+          {
+            "type": "size-content-three",
+            "name":"size-content-three",
+            "settings":[
+           
+            {
+              "type": "richtext",
+              "id":"size_content",
+              "label":"Size Content",
+              "default": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>"
+            }
+            ]
+          },
+          {
+            "type": "size-img-three",
+            "name":"size-img-three",
+            "settings":[
+              {
+            "type": "image_picker",
+            "id": "image_dep",
+            "label": "Size Image"
+          }
+            ]
+          },
+          {
+            "type": "box",
+            "name":"box",
+            "settings":[
+             
+            {
+              "type": "header",
+              "content": "box content",
+              "info":"如果前面的spec 进行了分类，分类了几个,就需要填写几个对应信息，最多三个,如果没有,每一个类别第一个填写"
+            },
+            {
+              "type": "text",
+              "id":"description",
+              "label":"Description"
+             
+            },
+            {
+              "type": "text",
+              "id":"description_1",
+              "label":"Description"
+             
+            },
+            {
+              "type": "text",
+              "id":"description_2",
+              "label":"Description"
+             
+            },
+            {
+              "type": "header",
+              "content": "box content"
+            },
+            {
+              "type": "text",
+              "id":"description_4",
+              "label":"Description"
+             
+            },
+            {
+              "type": "text",
+              "id":"description_5",
+              "label":"Description"
+            },
+            {
+              "type": "text",
+              "id":"description_6",
+              "label":"Description"
+            },
+            {
+              "type": "header",
+              "content": "box content"
+            },
+            {
+              "type": "text",
+              "id":"description_7",
+              "label":"Description"
+             
+            },
+            {
+              "type": "text",
+              "id":"description_8",
+              "label":"Description"
+            },
+            {
+              "type": "text",
+              "id":"description_9",
+              "label":"Description"
+            }
+  
+            ]
+          },
+          {
+            "type": "box-img",
+            "name":"box-img",
+            "settings":[
+              {
+            "type": "image_picker",
+            "id": "image_box",
+            "label": "Box Image"
+          }
+            ]
+          },
+          {
+            "type":"faq-text",
+            "name":"faq-text",
+  
+            "settings":[
+            {
+              "type": "richtext",
+              "id":"faq_text",
+              "label":"FAQ",
+              "default": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>"
+            }
+         
+            ]
+          }
+        ],
+    
+    "presets": [
+    {
+      "name": "New-Tab",
+        "category": "3. Banners"
+    }
+    ]
+    }
+    {% endschema %}

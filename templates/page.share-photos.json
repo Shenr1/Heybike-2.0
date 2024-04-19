@@ -1,0 +1,108 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "slideshow_mQa6FU": {
+      "type": "slideshow",
+      "blocks": {
+        "image_zhJBdh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_fb273c46-eba5-4962-97e6-904b3d7d5ec6.jpg",
+            "mobile_image": "shopify://shop_images/ph2.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Discount codes can be used to purchase accessories, Bikes and everything else in the store!",
+            "title": "Sharing your Heybike E-Bike photos and winning £100  discounts",
+            "heading_tag": "h2",
+            "button_text": "Join the contest",
+            "button_link": "https://woobox.com/3ttnmy",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_zhJBdh"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_ghjxif": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_74ygaE": {
+          "type": "heading",
+          "settings": {
+            "text": "Rules",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_E3h6bN": {
+          "type": "richtext",
+          "settings": {
+            "content": "<ul><li><strong>Submit your photo of the Heybike E-bike and all participants will have the chance to win </strong><em><strong>£100 </strong></em><strong>off for discounts! (The discount is valid on all in-store products including accessories). </strong></li><li><strong>All participants are free to vote for the photo.</strong></li><li><strong>The three contestants with the most votes by May 15th will each receive a £100 gift card.</strong></li><li><strong>Participants will be notified of the final status by email. By clicking submit, you agree to our terms and conditions.</strong></li></ul>"
+          }
+        },
+        "richtext_gaHRXj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<ul><li>If your photo is selected to win the monthly contest, you will be notified via email.</li><li>By joining the photo contest, you give Heybike permission to use your photo in the EDM, e-mails, website, printed materials, social media websites (Facebook, Twitter, etc.), and any other promotional materials distributed by Heybike. Slight photo alterations may be made by our staff in order to fit our site, marketing materials, or email newsletters properly. Entry does not guarantee inclusion on Heybike channels.</li><li>Heybike reserves the right to modify, terminate or suspend any photo submission period at any time for any reason.</li><li>Entries must be submitted by the original photographer. Do not submit a photo taken by someone other than yourself. You must be the sole owner of the copyright of any image submitted. Your submission of the photo and entry form is your guarantee that you are the author and copyright holder of the photo.</li><li>These terms and conditions shall inure to the benefit of and be binding upon the parties and their heirs, representatives, successors, and assigns.</li><li>By submitting a photo, the entrant grants Heybike staff the right to publish the submitted photo(s), entrant's name and/or location of the subject of the photo. Entrants represent and warrant that their photos are original to them, with no publication elsewhere and no infringement upon the rights of any third party.</li><li>Each entrant acknowledges that he or she has read, understands, and will abide by all official rules.</li><li>The decision of Heybike in all matters relating to the rules and administration of this photo submission shall be final.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_74ygaE",
+        "richtext_E3h6bN",
+        "richtext_gaHRXj"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1712042579848af50e": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_mQa6FU",
+    "rich_text_ghjxif",
+    "1712042579848af50e"
+  ]
+}

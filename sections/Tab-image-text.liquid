@@ -1,0 +1,1644 @@
+<style>
+  .bg-gray-100 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+  span.rounded-full.bg-black-900.text-white.h-6.w-6.leading-6.inline-block {
+    color: #fff;
+    background: #000;
+   
+    width: 1.5rem;
+    line-height: inherit;
+}
+tr.bg-white.border-b:nth-child(2n) {
+    background: #eee;
+}
+</style>
+
+{%- assign secSt = section.settings -%}
+{%- assign bgImg = secSt.bg_img | img_url: 'master' -%}
+{% comment %}注册类名 <div class="md:tw-w-full lg:tw-w-1/2 lg:tw-w-1/3 lg:tw-w-full tw-rounded-2xl md:tw-rounded-3xl"></div>  {% endcomment %}
+
+
+<section section-name="tabs-image-text-list" class="{% render 'section-interva-set' , secSt:secSt %}" 
+  default-color="{{ secSt.bg_color }}"
+  style="{% if secSt.bg_img != blank %}background-image: url({{ bgImg }});{% endif %} background: {{ secSt.bg_color }}">
+
+  <div class="page-width tabs-content-section">
+
+    <div class="tw-border-b tw-border-black tw-overflow-hidden">
+      <ul class="tw-flex tw-flex-nowrap tw-overflow-x-auto -tw-mb-px tw-text-sm tw-font-medium tw-text-center tab-list">
+        {% assign tabArr = "" %}
+        {%- for block in section.blocks -%}
+          {% assign blkSet = block.settings %}
+          {% assign tabArr = tabArr | append: blkSet.order | append: "," %}
+        {%- endfor -%}
+        {% assign tabs = tabArr | split: "," | uniq %}
+        {%- for tab in tabs -%}
+            <li tab-title="{{ tab | downcase | handleize }}" class="tw-flex-1 tw-shrink-0 tab-item tw-whitespace-nowrap {% if forloop.first %} active {% endif %}">
+              <span class="tw-w-full tw-cursor-pointer md:tw-text-2xl tw-text-xl tw-inline-flex tw-items-center tw-justify-center md:tw-py-2 tw-py-6 md:tw-px-8 tw-px-4 tw-border-b-2 tw-border-transparent hover:tw-text-gray-600 hover:tw-border-gray-300">
+                {{tab}}
+              </span>
+            </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+
+
+    <div class="tab-content 2xl:tw-mt-12 md:tw-mt-8 tw-mt-4">
+      {%- for tab in tabs -%}
+          <div tab-target="{{ tab | downcase | handleize }}" class="{% unless forloop.first %}tw-hidden{% endunless %}">
+            <div class="tw-flex tw-flex-wrap">
+            {% for block in section.blocks %}
+            {% assign blkSet = block.settings %}
+              {% if blkSet.order == tab %}
+                {% case block.type %}
+                  {% when "image" %}
+                  {% if blkSet.image1 != blank %}
+                    <div class="image-switch-block lg:{{blkSet.image_w}} tw-w-full first:tw-mr-6 md:tw-order-2 tw-order-1">
+                      <div class="image-list">
+                        {% for i in (1..4) %}
+                          {% assign imgKey = 'image' | append: i %}
+                          {% if blkSet[imgKey] != blank %}
+                            <div data-img="{{forloop.index}}" class="{% unless forloop.first %} tw-hidden {% endunless %}">
+                              {{ blkSet[imgKey] | image_url: width: blkSet[imgKey].width | image_tag: widths: '300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600' }}
+                            </div>
+                          {% endif %}
+                        {% endfor %}
+                      </div>
+
+                      <div class="tw-flex tw-justify-center color-list">
+                        {% for i in (1..4) %}
+                          {% assign colorKey = 'color' | append: i %}
+                          {% if blkSet[colorKey] != blank and blkSet[colorKey].alpha != 0.0 %}
+                          <p class="tw-mx-1">
+                            <span data-color="{{forloop.index}}" style='background-color:{{blkSet[colorKey]}}'
+                             class="{% if forloop.index == 1 %} active{% endif %} tw-w-8 tw-h-8 tw-inline-block tw-rounded-full tw-border-solid tw-border-2 tw-border-stone-600 tw-cursor-pointer hover:tw-opacity-80 tw-transition-all"></span>
+                          </p>
+                          {% endif %}
+                        {% endfor %}
+                      </div>
+                    </div>
+                  {% endif %}
+
+
+              {%- when "imgTxtList" -%}
+              <div class="imgTxtList-switch-block lg:{{blkSet.item_wsdfsd}} tw-w-full first:tw-mr-6 md:tw-order-2 tw-order-1">
+
+              <table class=" order-2 md:w-[40%] md:mr-8 md:ml-0 -ml-4 w-[100vw]">
+                <thead class="bg-white border-b text-base">
+                  <tr>
+                    
+                      <th class="px-4 py-2">  </th>
+                      {%- if block.settings.tr1 != blank -%}
+                      <th class="px-4 py-2">{{ block.settings.tr1 }}</th>
+                      {% endif %}
+
+                      {%- if block.settings.tr2 != blank -%}
+                      <th class="px-4 py-2">{{ block.settings.tr2 }}</th>
+                    {% endif %}
+
+                    {%- if block.settings.tr3 != blank -%}
+                    <th class="px-4 py-2">{{ block.settings.tr3 }}</th>
+                  {% endif %}
+                    
+                  </tr>
+                </thead>
+                <tbody>
+                
+                
+                
+                
+                
+                  
+
+                  <tr class="bg-white border-b">
+                    {%- if block.settings.order1 != blank -%}
+                    <td class="text-sm font-medium text-gray-900 px-4 py-2 text-center font-bold">
+                    <span class="rounded-full bg-black-900 text-white h-6 w-6 leading-6 inline-block">{{ block.settings.order1 }}</span>
+                  </td>
+                  {% endif %}
+
+                  {%- if block.settings.beschreibung1 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.beschreibung1 }}</td>
+                          {% endif %}
+
+                          {%- if block.settings.cm1 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.cm1 }}</td>
+                      {% endif %}
+
+                      {%- if block.settings.lm1 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.lm1 }}</td>
+                    {% endif %}
+                  </tr>
+
+
+                  
+                  <tr class="bg-white border-b">
+                    {%- if block.settings.order2 != blank -%}
+                    <td class="text-sm font-medium text-gray-900 px-4 py-2 text-center font-bold">
+                    <span class="rounded-full bg-black-900 text-white h-6 w-6 leading-6 inline-block">{{ block.settings.order2 }}</span>
+                  </td>
+                  {% endif %}
+
+                  {%- if block.settings.beschreibung2 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.beschreibung2 }}</td>
+                          {% endif %}
+
+                          {%- if block.settings.cm2 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.cm2 }}</td>
+                      {% endif %}
+
+                      {%- if block.settings.lm2 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.lm2 }}</td>
+                    {% endif %}
+                  </tr>
+                  
+
+                  <tr class="bg-white border-b">
+                    {%- if block.settings.order3 != blank -%}
+                    <td class="text-sm font-medium text-gray-900 px-4 py-2 text-center font-bold">
+                    <span class="rounded-full bg-black-900 text-white h-6 w-6 leading-6 inline-block">{{ block.settings.order3 }}</span>
+                  </td>
+                  {% endif %}
+
+                  {%- if block.settings.beschreibung3 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.beschreibung3 }}</td>
+                          {% endif %}
+
+                          {%- if block.settings.cm3 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.cm3 }}</td>
+                      {% endif %}
+
+                      {%- if block.settings.lm3 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.lm3 }}</td>
+                    {% endif %}
+                  </tr>
+                  
+                  <tr class="bg-white border-b">
+                    {%- if block.settings.order4 != blank -%}
+                    <td class="text-sm font-medium text-gray-900 px-4 py-2 text-center font-bold">
+                    <span class="rounded-full bg-black-900 text-white h-6 w-6 leading-6 inline-block">{{ block.settings.order4 }}</span>
+                  </td>
+                  {% endif %}
+
+                  {%- if block.settings.beschreibung4 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.beschreibung4 }}</td>
+                          {% endif %}
+
+                          {%- if block.settings.cm4 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.cm4 }}</td>
+                      {% endif %}
+
+                      {%- if block.settings.lm4 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.lm4 }}</td>
+                    {% endif %}
+                  </tr>
+                  
+                  <tr class="bg-white border-b">
+                    {%- if block.settings.order5 != blank -%}
+                    <td class="text-sm font-medium text-gray-900 px-4 py-2 text-center font-bold">
+                    <span class="rounded-full bg-black-900 text-white h-6 w-6 leading-6 inline-block">{{ block.settings.order5 }}</span>
+                  </td>
+                  {% endif %}
+
+                  {%- if block.settings.beschreibung5 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.beschreibung5 }}</td>
+                          {% endif %}
+
+                          {%- if block.settings.cm5 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.cm5 }}</td>
+                      {% endif %}
+
+                      {%- if block.settings.lm5 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.lm5 }}</td>
+                    {% endif %}
+                  </tr>
+                  
+                  <tr class="bg-white border-b">
+                    {%- if block.settings.order6 != blank -%}
+                    <td class="text-sm font-medium text-gray-900 px-4 py-2 text-center font-bold">
+                    <span class="rounded-full bg-black-900 text-white h-6 w-6 leading-6 inline-block">{{ block.settings.order6 }}</span>
+                  </td>
+                  {% endif %}
+
+                  {%- if block.settings.beschreibung6 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.beschreibung6 }}</td>
+                          {% endif %}
+
+                          {%- if block.settings.cm6 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.cm6 }}</td>
+                      {% endif %}
+
+                      {%- if block.settings.lm6 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.lm6 }}</td>
+                    {% endif %}
+                  </tr>
+                  
+                  <tr class="bg-white border-b">
+                    {%- if block.settings.order7 != blank -%}
+                    <td class="text-sm font-medium text-gray-900 px-4 py-2 text-center font-bold">
+                    <span class="rounded-full bg-black-900 text-white h-6 w-6 leading-6 inline-block">{{ block.settings.order7 }}</span>
+                  </td>
+                  {% endif %}
+
+                  {%- if block.settings.beschreibung7 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.beschreibung7 }}</td>
+                          {% endif %}
+
+                          {%- if block.settings.cm7 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.cm7 }}</td>
+                      {% endif %}
+
+                      {%- if block.settings.lm7 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.lm7 }}</td>
+                    {% endif %}
+                  </tr>
+                  
+                  <tr class="bg-white border-b">
+                    {%- if block.settings.order8 != blank -%}
+                    <td class="text-sm font-medium text-gray-900 px-4 py-2 text-center font-bold">
+                    <span class="rounded-full bg-black-900 text-white h-6 w-6 leading-6 inline-block">{{ block.settings.order8 }}</span>
+                  </td>
+                  {% endif %}
+
+                  {%- if block.settings.beschreibung8 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.beschreibung8 }}</td>
+                          {% endif %}
+
+                          {%- if block.settings.cm8 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.cm8 }}</td>
+                      {% endif %}
+
+                      {%- if block.settings.lm8 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.lm8 }}</td>
+                    {% endif %}
+                  </tr>
+                  
+                  <tr class="bg-white border-b">
+                    {%- if block.settings.order9 != blank -%}
+                    <td class="text-sm font-medium text-gray-900 px-4 py-2 text-center font-bold">
+                    <span class="rounded-full bg-black-900 text-white h-6 w-6 leading-6 inline-block">{{ block.settings.order9 }}</span>
+                  </td>
+                  {% endif %}
+
+                  {%- if block.settings.beschreibung9 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.beschreibung9 }}</td>
+                          {% endif %}
+
+                          {%- if block.settings.cm9 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.cm9 }}</td>
+                      {% endif %}
+
+                      {%- if block.settings.lm9 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.lm9 }}</td>
+                    {% endif %}
+                  </tr>
+                  
+                  <tr class="bg-white border-b">
+                    {%- if block.settings.order10 != blank -%}
+                    <td class="text-sm font-medium text-gray-900 px-4 py-2 text-center font-bold">
+                    <span class="rounded-full bg-black-900 text-white h-6 w-6 leading-6 inline-block">{{ block.settings.order10 }}</span>
+                  </td>
+                  {% endif %}
+
+                  {%- if block.settings.beschreibung10 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.beschreibung10 }}</td>
+                          {% endif %}
+
+                          {%- if block.settings.cm10 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.cm10 }}</td>
+                      {% endif %}
+
+                      {%- if block.settings.lm10 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.lm10 }}</td>
+                    {% endif %}
+                  </tr>
+                  
+                  <tr class="bg-white border-b">
+                    {%- if block.settings.order11 != blank -%}
+                    <td class="text-sm font-medium text-gray-900 px-4 py-2 text-center font-bold">
+                    <span class="rounded-full bg-black-900 text-white h-6 w-6 leading-6 inline-block">{{ block.settings.order11 }}</span>
+                  </td>
+                  {% endif %}
+
+                  {%- if block.settings.beschreibung11 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.beschreibung11 }}</td>
+                          {% endif %}
+
+                          {%- if block.settings.cm11 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.cm11 }}</td>
+                      {% endif %}
+
+                      {%- if block.settings.lm11 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.lm11 }}</td>
+                    {% endif %}
+                  </tr>
+                  
+                  <tr class="bg-white border-b">
+                    {%- if block.settings.order12 != blank -%}
+                    <td class="text-sm font-medium text-gray-900 px-4 py-2 text-center font-bold">
+                    <span class="rounded-full bg-black-900 text-white h-6 w-6 leading-6 inline-block">{{ block.settings.order12 }}</span>
+                  </td>
+                  {% endif %}
+
+                  {%- if block.settings.beschreibung12 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.beschreibung12 }}</td>
+                          {% endif %}
+
+                          {%- if block.settings.cm12 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.cm12 }}</td>
+                      {% endif %}
+
+                      {%- if block.settings.lm12 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.lm12 }}</td>
+                    {% endif %}
+                  </tr>
+                  
+                  <tr class="bg-white border-b">
+                    {%- if block.settings.order13 != blank -%}
+                    <td class="text-sm font-medium text-gray-900 px-4 py-2 text-center font-bold">
+                    <span class="rounded-full bg-black-900 text-white h-6 w-6 leading-6 inline-block">{{ block.settings.order13 }}</span>
+                  </td>
+                  {% endif %}
+
+                  {%- if block.settings.beschreibung13 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.beschreibung13 }}</td>
+                          {% endif %}
+
+                          {%- if block.settings.cm13 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.cm13 }}</td>
+                      {% endif %}
+
+                      {%- if block.settings.lm13 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.lm13 }}</td>
+                    {% endif %}
+                  </tr>
+                  
+                  <tr class="bg-white border-b">
+                    {%- if block.settings.order14 != blank -%}
+                    <td class="text-sm font-medium text-gray-900 px-4 py-2 text-center font-bold">
+                    <span class="rounded-full bg-black-900 text-white h-6 w-6 leading-6 inline-block">{{ block.settings.order14 }}</span>
+                  </td>
+                  {% endif %}
+
+                  {%- if block.settings.beschreibung14 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.beschreibung14 }}</td>
+                          {% endif %}
+
+                          {%- if block.settings.cm14 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.cm14 }}</td>
+                      {% endif %}
+
+                      {%- if block.settings.lm14 != blank -%}
+                      <td class="text-sm font-medium text-gray-900 px-4 py-2">{{ block.settings.lm14 }}</td>
+                    {% endif %}
+                  </tr>
+                  
+                
+              
+                  
+                </tbody>
+              </table>
+               
+             </div>
+       
+          
+
+
+
+                  {% when "list" %}
+
+                    <div class="lg:tw-flex-1 tw-flex {{blkSet.content_pos}} tw-order-2">
+                      <div>
+                        {% if blkSet.title != blank or blkSet.content != blank %}
+                          <div class="tw-mb-8"> 
+                          {% if blkSet.title != blank%}
+                            <h1 class="tw-font-semibold tw-mb-4 tw-text-xl">{{ blkSet.title | newline_to_br }}</h1>
+                          {% endif %}
+                          {% if blkSet.content != blank%}
+                            <p class=" tw-text-base" >{{ blkSet.content | newline_to_br }}</p>
+                          {% endif %}
+                          </div>
+                        {% endif %}
+                        <div class="">
+                          {% assign rLineClass = "" %}
+                          {% if blkSet.show_line_r %}
+                            {% assign rLineClass = "tw-border-r tw-border-solid" %}
+                          {% endif %}
+                          <ul class="{% if blkSet.item_w == "tw-w-1/3" %} [&>*:nth-child(3n)]:!tw-border-0 {% else %} [&>*:nth-child(2n)]:!tw-border-0 {% endif %} {{blkSet.content_align}} 
+                            tw-flex tw-flex-wrap tw-text-base tw-w-full">   
+                            {% for i in (1..14) %}
+                              {% assign iKey = 'item' | append: i %}
+                              {% assign iconKey = 'icon' | append: i %}
+                              {% if blkSet[iKey] != blank %}
+                              <li class="lg:{{blkSet.item_w}} {{blkSet.item_w_mb}} {{rLineClass}} tw-border-0 last:!tw-border-0 tw-border-stone-200">
+                                {% if blkSet[iconKey] != blank %}
+                                <div class="tw-inline-block tw-mx-auto tw-mt-2">
+                                  {{ blkSet[iconKey] | image_url: width: 50 | image_tag: widths: '40,80,120,160,200' }}
+                                </div>
+                                {% endif %}
+                                <p class="tw-mx-auto {% if blkSet[iconKey] != blank %}tw-pb-4 {%else%}tw-py-4 {% endif %}
+                                  {% if blkSet.show_line %}tw-border-solid tw-border-stone-300 tw-border-b{% endif %}">
+                                  {{blkSet[iKey]}}
+                                </p> 
+                              </li>
+                              {% endif %}
+                            {% endfor %}
+                          </ul>
+                        </div>  
+                      </div>
+                    </div>
+
+                    {% when "product" %}
+                      {% if blkSet.product != blank %}
+                      <div id="product-{{block.id}}" class="lg:{{blkSet.pr_w}} tw-w-full first:tw-mr-6 md:tw-order-2 tw-order-1">
+                        {%- render 'product-card', product: blkSet.product,short_title:true,show_secondary_image:false, show_rating:false, show_vendor:false,show_quick_buy:false, show_badges: false,show_swatches: blkSet.show_swatches -%}
+                      </div>
+                    {% endif %}
+
+
+                  {% endcase %}
+              {% endif %}
+            {% endfor %}
+            </div>
+
+            
+          </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const $sectionDom = $('#shopify-section-{{section.id}} [section-name="tabs-image-text-list"]');
+
+     $('#shopify-section-{{section.id}} .tab-list > .tab-item').on('click', function() {
+      $('#shopify-section-{{section.id}} .tab-list > .tab-item').removeClass('active');
+      $(this).addClass('active');
+      var tabTitle = $(this).attr('tab-title');
+      $('#shopify-section-{{section.id}} [tab-target]').addClass('tw-hidden');
+
+      const $targetDom = $('#shopify-section-{{section.id}} [tab-target="' + tabTitle + '"]');
+      $targetDom.removeClass('tw-hidden');
+
+      let targetColor = "";
+      if($targetDom.find("[data-color].active").css("background-color")){
+        targetColor = $targetDom.find("[data-color].active").css("background-color");
+        $sectionDom.css("background", `linear-gradient(${targetColor}, #ffffff)`);
+      }else{
+        targetColor = $sectionDom.attr("default-color");
+        $sectionDom.css("background", targetColor);
+      }
+
+    });
+
+
+
+    $(".image-switch-block .color-list span").click(function(){
+      const targetNum = $(this).data("color");
+      const $targetDom = $(this).closest(".image-switch-block").find(`[data-img=${targetNum}]`);
+      const targetColor = $(this).css("background-color");
+
+      $(this).addClass("active");
+      $(this).closest("p").siblings().find('span').removeClass("active");
+      $targetDom.removeClass("tw-hidden").addClass("active");
+      $targetDom.siblings().addClass("tw-hidden").removeClass("active");
+      $(this).closest('[section-name="tabs-image-text-list"]').css("background", `linear-gradient(${targetColor}, #ffffff)`);
+
+    });
+    
+
+
+
+
+  });
+
+</script>
+
+
+{% schema %}
+  {
+    "name": "Tabs Image&Text list v1.2",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "bg_img",
+        "label": "Background image"
+      },
+      {
+        "type": "color_background",
+        "id": "bg_color",
+        "label": "Background color"
+      },
+      {
+      "type": "header",
+      "content": "Section interval set"
+      },
+      {
+        "type": "select",
+        "id": "top_padding",
+        "label": "Top padding (PC)",
+        "default": "md", 
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding",
+        "label": "Bottom padding (PC)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "top_margin",
+        "label": "Top margin (PC)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_margin",
+        "label": "Bottom margin (PC)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "top_padding_mb",
+        "label": "Top padding (Mobile)",
+        "default": "md", 
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding_mb",
+        "label": "Bottom padding (Mobile)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "top_margin_mb",
+        "label": "Top margin (Mobile)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_margin_mb",
+        "label": "Bottom margin (Mobile)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "select",
+            "id": "image_w",
+            "label": "Image width",
+            "options": [
+              {
+              "value": "tw-w-1/3",
+              "label": "33.3333%"
+              },
+              {
+              "value": "tw-w-1/2",
+              "label": "50%"
+              },
+              {
+              "value": "tw-w-full",
+              "label": "100%"
+              }
+            ],
+            "default": "tw-w-1/2"
+          },
+          {
+            "type": "text",
+            "id": "order",
+            "label": "Order name",
+            "default": "tab1",
+            "info": "输入的此内容所归属的Tab名称"
+          },
+          {
+            "type": "image_picker",
+            "id": "image1",
+            "label": "Image 1"
+          },
+          {
+            "type": "color",
+            "id": "color1",
+            "label": "Color 1"
+          },
+          {
+            "type": "image_picker",
+            "id": "image2",
+            "label": "Image 2"
+          },
+          {
+            "type": "color",
+            "id": "color2",
+            "label": "Color 2"
+          },
+          {
+            "type": "image_picker",
+            "id": "image3",
+            "label": "Image 3"
+          },
+          {
+            "type": "color",
+            "id": "color3",
+            "label": "Color 3"
+          },
+          {
+            "type": "image_picker",
+            "id": "image4",
+            "label": "Image 4"
+          },
+          {
+            "type": "color",
+            "id": "color4",
+            "label": "Color 4"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "name": "List",
+        "settings": [
+          {
+            "type": "text",
+            "id": "order",
+            "label": "Order name",
+            "default": "tab1",
+            "info": "输入的此内容所归属的Tab名称"
+          },
+          {
+            "type": "checkbox",
+            "id": "show_line",
+            "label": "Show bottom line",
+            "default": true
+          },
+          {
+            "type": "checkbox",
+            "id": "show_line_r",
+            "label": "Show right line",
+            "default": false
+          },
+          {
+            "type": "select",
+            "id": "item_w",
+            "label": "Item width",
+            "options": [
+              {
+              "value": "tw-w-1/3",
+              "label": "33.3333%"
+              },
+              {
+              "value": "tw-w-1/2",
+              "label": "50%"
+              },
+              {
+              "value": "tw-w-full",
+              "label": "100%"
+              }
+            ],
+            "default": "tw-w-1/2"
+          },
+          {
+            "type": "select",
+            "id": "item_w_mb",
+            "label": "Item width mobile",
+            "options": [
+              {
+              "value": "tw-w-1/3",
+              "label": "33.3333%"
+              },
+              {
+              "value": "tw-w-1/2",
+              "label": "50%"
+              },
+              {
+              "value": "tw-w-full",
+              "label": "100%"
+              }
+            ],
+            "default": "tw-w-1/2"
+          },
+          {
+            "type": "textarea",
+            "id": "title",
+            "label": "Title",
+            "default": "Dual 48V 15Ah Lithium Batteries"
+          },
+          {
+            "type": "textarea",
+            "id": "content",
+            "label": "Content",
+            "default": "If range anxiety is of concern to you, Rhino will get you covered with its 1440wh battery capacity. Battery density has increased 21% from 18,650 to 21,700 cells, allowing you to ride up to 100 miles for a single charge."
+          },
+          {
+            "type": "select",
+            "id": "content_align",
+            "label": "Content align",
+            "options": [
+              {
+              "value": "tw-text-left",
+              "label": "Left"
+              },
+              {
+              "value": "tw-text-center",
+              "label": "Center"
+              }
+            ],
+            "default": "tw-text-left"
+          },
+          {
+            "type": "select",
+            "id": "content_pos",
+            "label": "Content postion",
+            "options": [
+              {
+              "value": "tw-items-baseline",
+              "label": "Top"
+              },
+              {
+              "value": "tw-items-center",
+              "label": "Center"
+              }
+            ],
+            "default": "tw-items-baseline"
+          },
+          {
+            "type": "header",
+            "content": "Item1 settings------"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon1",
+            "label": "List item1 icon"
+          },
+          {
+            "type": "textarea",
+            "id": "item1",
+            "label": "List item1",
+            "default": "<b>A -- Total Length</b> 78.7"
+          },
+          {
+            "type": "header",
+            "content": "Item2 settings------"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon2",
+            "label": "List item2 icon"
+          },
+          {
+            "type": "textarea",
+            "id": "item2",
+            "label": "List item2",
+            "default": "<b>B -- Handlebar Height</b> 42.9"
+          },
+          {
+            "type": "header",
+            "content": "Item3 settings------"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon3",
+            "label": "List item3 icon"
+          },
+          {
+            "type": "textarea",
+            "id": "item3",
+            "label": "List item3",
+            "default": "<b>C -- Wheelbase</b> 49.2"
+          },
+          {
+            "type": "header",
+            "content": "Item4 settings------"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon4",
+            "label": "List item4 icon"
+          },
+          {
+            "type": "textarea",
+            "id": "item4",
+            "label": "List item4",
+            "default": "<b>D -- Minimum Seat Height</b> 27.6"
+          },
+          {
+            "type": "header",
+            "content": "Item5 settings------"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon5",
+            "label": "List item5 icon"
+          },
+          {
+            "type": "textarea",
+            "id": "item5",
+            "label": "List item5",
+            "default": "<b>E -- Maximum Seat Height</b> 35.4"
+          },
+          {
+            "type": "header",
+            "content": "Item6 settings------"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon6",
+            "label": "List item6 icon"
+          },
+          {
+            "type": "textarea",
+            "id": "item6",
+            "label": "List item6",
+            "default": "<b>F -- Chain Stay Length</b> 18.9"
+          },
+          {
+            "type": "header",
+            "content": "Item7 settings------"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon7",
+            "label": "List item7 icon"
+          },
+          {
+            "type": "textarea",
+            "id": "item7",
+            "label": "List item7",
+            "default": "<b>G -- Standover Height</b> 33"
+          },
+          {
+            "type": "header",
+            "content": "Item8 settings------"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon8",
+            "label": "List item8 icon"
+          },
+          {
+            "type": "textarea",
+            "id": "item8",
+            "label": "List item8",
+            "default": "<b>H -- Top Tube Length</b> 23.6r"
+          },
+          {
+            "type": "header",
+            "content": "Item9 settings------"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon9",
+            "label": "List item9 icon"
+          },
+          {
+            "type": "textarea",
+            "id": "item9",
+            "label": "List item9",
+            "default": "<b>I -- Wheel Diameter</b> 28.7r"
+          },
+          {
+            "type": "header",
+            "content": "Item10 settings------"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon10",
+            "label": "List item10 icon"
+          },
+          {
+            "type": "textarea",
+            "id": "item10",
+            "label": "List item10",
+            "default": "<b>J -- Head Tube Length</b> 5.5"
+          },
+          {
+            "type": "header",
+            "content": "Item11 settings------"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon11",
+            "label": "List item11 icon"
+          },
+          {
+            "type": "textarea",
+            "id": "item11",
+            "label": "List item11",
+            "default": "<b>K -- Handlebar Length</b> 27.6"
+          },
+          {
+            "type": "header",
+            "content": "Item12 settings------"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon12",
+            "label": "List item12 icon"
+          },
+          {
+            "type": "textarea",
+            "id": "item12",
+            "label": "List item12"
+          },
+          {
+            "type": "header",
+            "content": "Item13 settings------"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon13",
+            "label": "List item13 icon"
+          },
+          {
+            "type": "textarea",
+            "id": "item13",
+            "label": "List item13"
+          },
+          {
+            "type": "header",
+            "content": "Item14 settings------"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon14",
+            "label": "List item14 icon"
+          },
+          {
+            "type": "textarea",
+            "id": "item14",
+            "label": "List item14"
+          }
+        ]
+      },
+ {
+        "name": "Image text list",
+        "type": "imgTxtList",
+        "settings": [
+        {
+          "type": "text",
+          "id": "order",
+          "label": "Order name",
+          "default": "tab1",
+          "info": "输入的此内容所归属的Tab名称"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_line",
+          "label": "Show bottom line",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "show_line_r",
+          "label": "Show right line",
+          "default": false
+        },
+        {
+          "type": "select",
+          "id": "item_wsdfsd",
+          "label": "Item width",
+          "options": [
+            {
+            "value": "tw-w-1/3",
+            "label": "33.3333%"
+            },
+            {
+            "value": "tw-w-1/2",
+            "label": "50%"
+            },
+            {
+            "value": "tw-w-full",
+            "label": "100%"
+            }
+          ],
+          "default": "tw-w-1/2"
+        },
+        {
+          "type": "select",
+          "id": "item_w_mb",
+          "label": "Item width mobile",
+          "options": [
+            {
+            "value": "tw-w-1/3",
+            "label": "33.3333%"
+            },
+            {
+            "value": "tw-w-1/2",
+            "label": "50%"
+            },
+            {
+            "value": "tw-w-full",
+            "label": "100%"
+            }
+          ],
+          "default": "tw-w-1/2"
+        },
+        
+          {
+            "type": "header",
+            "content": "============"
+          },
+        
+          {
+            "type": "textarea",
+            "id": "tr1",
+            "label": "Table header"
+          },
+          {
+            "type": "textarea",
+            "id": "tr2",
+            "label": "Table header"
+          },
+          {
+            "type": "textarea",
+            "id": "tr3",
+            "label": "Table header"
+          },
+          {
+            "type": "header",
+            "content": "============ Section"
+          },
+          {
+            "type": "text",
+            "id": "order1",
+            "label": "Order name",
+            "info": "输入的此内容所归属的A---Z名称"
+          },
+          {
+            "type": "text",
+            "id": "beschreibung1",
+            "label": "Beschreibung"
+          },
+          {
+            "type": "text",
+            "id": "cm1",
+            "label": "M(cm)"
+          },
+          {
+            "type": "text",
+            "id": "lm1",
+            "label": "L(cm)"
+          },
+          {
+            "type": "header",
+            "content": "============ Section"
+          },
+          {
+            "type": "text",
+            "id": "order2",
+            "label": "Order name",
+            "info": "输入的此内容所归属的A---Z名称"
+          },
+          {
+            "type": "text",
+            "id": "beschreibung2",
+            "label": "Beschreibung"
+          },
+          {
+            "type": "text",
+            "id": "cm2",
+            "label": "M(cm)"
+          },
+          {
+            "type": "text",
+            "id": "lm2",
+            "label": "L(cm)"
+          },
+          {
+            "type": "header",
+            "content": "============ Section"
+          },
+          {
+            "type": "text",
+            "id": "order3",
+            "label": "Order name",
+            "info": "输入的此内容所归属的A---Z名称"
+          },
+          {
+            "type": "text",
+            "id": "beschreibung3",
+            "label": "Beschreibung"
+          },
+          {
+            "type": "text",
+            "id": "cm3",
+            "label": "M(cm)"
+          },
+          {
+            "type": "text",
+            "id": "lm3",
+            "label": "L(cm)"
+          },
+          {
+            "type": "header",
+            "content": "============ Section"
+          },
+          {
+            "type": "text",
+            "id": "order4",
+            "label": "Order name",
+            "info": "输入的此内容所归属的A---Z名称"
+          },
+          {
+            "type": "text",
+            "id": "beschreibung4",
+            "label": "Beschreibung"
+          },
+          {
+            "type": "text",
+            "id": "cm4",
+            "label": "M(cm)"
+          },
+          {
+            "type": "text",
+            "id": "lm4",
+            "label": "L(cm)"
+          },
+          {
+            "type": "header",
+            "content": "============ Section"
+          },
+          {
+            "type": "text",
+            "id": "order5",
+            "label": "Order name",
+            "info": "输入的此内容所归属的A---Z名称"
+          },
+          {
+            "type": "text",
+            "id": "beschreibung5",
+            "label": "Beschreibung"
+          },
+          {
+            "type": "text",
+            "id": "cm5",
+            "label": "M(cm)"
+          },
+          {
+            "type": "text",
+            "id": "lm5",
+            "label": "L(cm)"
+          },
+          {
+            "type": "header",
+            "content": "============ Section"
+          },
+          {
+            "type": "text",
+            "id": "order6",
+            "label": "Order name",
+            "info": "输入的此内容所归属的A---Z名称"
+          },
+          {
+            "type": "text",
+            "id": "beschreibung6",
+            "label": "Beschreibung"
+          },
+          {
+            "type": "text",
+            "id": "cm6",
+            "label": "M(cm)"
+          },
+          {
+            "type": "text",
+            "id": "lm6",
+            "label": "L(cm)"
+          },
+          {
+            "type": "header",
+            "content": "============ Section"
+          },
+          {
+            "type": "text",
+            "id": "order7",
+            "label": "Order name",
+            "info": "输入的此内容所归属的A---Z名称"
+          },
+          {
+            "type": "text",
+            "id": "beschreibung7",
+            "label": "Beschreibung"
+          },
+          {
+            "type": "text",
+            "id": "cm7",
+            "label": "M(cm)"
+          },
+          {
+            "type": "text",
+            "id": "lm7",
+            "label": "L(cm)"
+          },
+          {
+            "type": "header",
+            "content": "============ Section"
+          },
+          {
+            "type": "text",
+            "id": "order8",
+            "label": "Order name",
+            "info": "输入的此内容所归属的A---Z名称"
+          },
+          {
+            "type": "text",
+            "id": "beschreibung8",
+            "label": "Beschreibung"
+          },
+          {
+            "type": "text",
+            "id": "cm8",
+            "label": "M(cm)"
+          },
+          {
+            "type": "text",
+            "id": "lm8",
+            "label": "L(cm)"
+          },
+          {
+            "type": "header",
+            "content": "============ Section"
+          },
+          {
+            "type": "text",
+            "id": "order9",
+            "label": "Order name",
+            "info": "输入的此内容所归属的A---Z名称"
+          },
+          {
+            "type": "text",
+            "id": "beschreibung9",
+            "label": "Beschreibung"
+          },
+          {
+            "type": "text",
+            "id": "cm9",
+            "label": "M(cm)"
+          },
+          {
+            "type": "text",
+            "id": "lm9",
+            "label": "L(cm)"
+          },
+          {
+            "type": "header",
+            "content": "============ Section"
+          },
+          {
+            "type": "text",
+            "id": "order10",
+            "label": "Order name",
+            "info": "输入的此内容所归属的A---Z名称"
+          },
+          {
+            "type": "text",
+            "id": "beschreibung10",
+            "label": "Beschreibung"
+          },
+          {
+            "type": "text",
+            "id": "cm10",
+            "label": "M(cm)"
+          },
+          {
+            "type": "text",
+            "id": "lm10",
+            "label": "L(cm)"
+          },
+          {
+            "type": "header",
+            "content": "============ Section"
+          },
+          {
+            "type": "text",
+            "id": "order11",
+            "label": "Order name",
+            "info": "输入的此内容所归属的A---Z名称"
+          },
+          {
+            "type": "text",
+            "id": "beschreibung11",
+            "label": "Beschreibung"
+          },
+          {
+            "type": "text",
+            "id": "cm11",
+            "label": "M(cm)"
+          },
+          {
+            "type": "text",
+            "id": "lm11",
+            "label": "L(cm)"
+          },
+          {
+            "type": "header",
+            "content": "============ Section"
+          },
+          {
+            "type": "text",
+            "id": "order12",
+            "label": "Order name",
+            "info": "输入的此内容所归属的A---Z名称"
+          },
+          {
+            "type": "text",
+            "id": "beschreibung12",
+            "label": "Beschreibung"
+          },
+          {
+            "type": "text",
+            "id": "cm12",
+            "label": "M(cm)"
+          },
+          {
+            "type": "text",
+            "id": "lm12",
+            "label": "L(cm)"
+          },
+          {
+            "type": "header",
+            "content": "============ Section"
+          },
+          {
+            "type": "text",
+            "id": "order13",
+            "label": "Order name",
+            "info": "输入的此内容所归属的A---Z名称"
+          },
+          {
+            "type": "text",
+            "id": "beschreibung13",
+            "label": "Beschreibung"
+          },
+          {
+            "type": "text",
+            "id": "cm13",
+            "label": "M(cm)"
+          },
+          {
+            "type": "text",
+            "id": "lm13",
+            "label": "L(cm)"
+          },
+          {
+            "type": "header",
+            "content": "============ Section"
+          },
+          {
+            "type": "text",
+            "id": "order14",
+            "label": "Order name",
+            "info": "输入的此内容所归属的A---Z名称"
+          },
+          {
+            "type": "text",
+            "id": "beschreibung14",
+            "label": "Beschreibung"
+          },
+          {
+            "type": "text",
+            "id": "cm14",
+            "label": "M(cm)"
+          },
+          {
+            "type": "text",
+            "id": "lm14",
+            "label": "L(cm)"
+          }
+        ]
+      },
+      {
+        "type": "product",
+        "name": "Product",
+        "settings": [
+          {
+            "type": "text",
+            "id": "order",
+            "label": "Order name",
+            "default": "tab1",
+            "info": "输入的此产品所归属的Tab名称"
+          },
+          {
+            "type": "product",
+            "id": "product",
+            "label": "Product"
+          },
+          {
+            "type": "select",
+            "id": "pr_w",
+            "label": "Product width",
+            "options": [
+              {
+              "value": "tw-w-1/3",
+              "label": "33.3333%"
+              },
+              {
+              "value": "tw-w-1/2",
+              "label": "50%"
+              },
+              {
+              "value": "tw-w-full",
+              "label": "100%"
+              }
+            ],
+            "default": "tw-w-1/2"
+          },
+          {
+            "type": "checkbox",
+            "id": "show_swatches",
+            "label": "Show swicth?",
+            "default": false
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Tabs Image&Text list v1.2"
+      }
+    ]
+  }
+{% endschema %} 

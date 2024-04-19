@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "activate_account",
+      "type": "main-customers-activate-account",
       "settings": {
       }
     }

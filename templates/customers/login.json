@@ -1,7 +1,17 @@
 {
   "sections": {
     "main": {
-      "type": "login",
+      "type": "main-customers-login",
+      "blocks": {
+        "fields": {
+          "type": "fields",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "fields"
+      ],
       "settings": {
       }
     }

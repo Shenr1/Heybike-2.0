@@ -1,0 +1,326 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "39b8e266-5a5b-4fba-93e3-38dca36efbf5": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--21720080154909__39b8e266-5a5b-4fba-93e3-38dca36efbf5-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Try our E-bikes!",
+            "heading_tag": "h2"
+          }
+        },
+        "template--21720080154909__39b8e266-5a5b-4fba-93e3-38dca36efbf5-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Book a test ride in advance and come to our dealer stores to enjoy riding.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21720080154909__39b8e266-5a5b-4fba-93e3-38dca36efbf5-heading-1",
+        "template--21720080154909__39b8e266-5a5b-4fba-93e3-38dca36efbf5-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "lg",
+        "image": "shopify://shop_images/26_2x_c1652109-d480-4b40-a850-e9daf3cd92c3.png",
+        "mobile_image": "shopify://shop_images/123.png",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "fans_club_T3rBNN": {
+      "type": "fans-club",
+      "blocks": {
+        "text_block_x3xJAp": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify://shop_images/02_1ac5e2f7-cdb5-4cd0-bca0-7117cef54aed.jpg",
+            "image_alt": "img",
+            "url": "https://www.google.com/maps/place/Bundesstra%C3%9Fe+79,+20144+Hamburg,+Germany/@53.5704208,9.9692069,17z/data=!3m1!4b1!4m6!3m5!1s0x47b18f4624bb4b2f:0xfb318de4021af157!8m2!3d53.5704176!4d9.9717818!16s%2Fg%2F11c27kntpt?entry=ttu",
+            "title": "Bike Shop Adresse: Bundesstraße 79, 20144 Hamburg, DeutschlandTelefon: +49 36 85 33 83"
+          }
+        },
+        "text_block_PBHhrx": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify://shop_images/04.jpg",
+            "image_alt": "img",
+            "url": "https://www.google.com/maps/place/32+Queen+St,+Peterhead+AB42+1TS,+UK/@57.5065851,-1.7823958,17z/data=!3m1!4b1!4m6!3m5!1s0x48838428874fe2fd:0xd0d4ddf723e1a8c2!8m2!3d57.5065822!4d-1.7798209!16s%2Fg%2F11csjzkp_b?entry=ttu",
+            "title": "WHEELIE WORLDAdresse: 32 Queen St, Peterhead AB42 1TS, UKTelephone: +44 77 1157 70 87"
+          }
+        },
+        "text_block_gBeRtp": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify://shop_images/01_e2fda732-bc71-48c7-adc1-f466d2c8159e.jpg",
+            "image_alt": "img",
+            "url": "https://www.google.com/maps/place/Kolpingstra%C3%9Fe+21,+88400+Biberach+an+der+Ri%C3%9F,+Germany/@48.0949184,9.7851939,17z/data=!3m1!4b1!4m6!3m5!1s0x479bc59ba149a55b:0x1c7244cd389c576b!8m2!3d48.0949148!4d9.7877688!16s%2Fg%2F11bw4jq5x5?entry=ttu",
+            "title": "Radsport ReichelAdresse:  Kolpingstraße 21, Biberach an der Riß, 88400, DeutschlandEmail: radsport-reichel-bc@t-online.de"
+          }
+        },
+        "text_block_rwLXXe": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify://shop_images/05.jpg",
+            "image_alt": "img",
+            "url": "https://www.google.com/maps/place/169+Hotwell+Rd,+Hotwells,+Bristol+BS8+4RY%E8%8B%B1%E5%9B%BD/@51.4496031,-2.6176096,17z/data=!3m1!4b1!4m6!3m5!1s0x48718dc95c60e58d:0xf8b57ffddb6185d7!8m2!3d51.4496031!4d-2.6150293!16s%2Fg%2F11c0ygfdhg?entry=ttu",
+            "title": "ECO-MOVE Adresse: 169-171 Hotwell Rd, Bristol, BS8 4RY, UK Telephone: +44 117 3739 322"
+          }
+        },
+        "text_block_cNR93Q": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify://shop_images/03_5334dcc0-430b-432b-8099-cbd73d312bb1.jpg",
+            "image_alt": "img",
+            "url": "https://www.google.com/maps/place/2+Sq.+Charles+Michels,+38000+Grenoble,+France/@45.181289,5.7148161,17z/data=!3m1!4b1!4m6!3m5!1s0x478af49bb5a2c655:0x1453904bc1c2a3d0!8m2!3d45.1812852!4d5.717391!16s%2Fg%2F11c19hdnn2?entry=ttu",
+            "title": "ATELIER DU BYCLOU Adresse: 2 Square Charles Michels, 38000 Grenoble, FranceTelephone: +33 06 98 98 68 04"
+          }
+        },
+        "text_block_NEBH4m": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify://shop_images/07_bac92258-a923-472f-8455-7f291a44f3f0.jpg",
+            "image_alt": "img",
+            "url": "https://www.google.com/maps/place/Kingfisher+Works,+Tag+Ln,+Hare+Hatch,+Reading+RG10+9SH,+UK/@51.4952297,-0.8467229,17z/data=!3m1!4b1!4m6!3m5!1s0x4876860c16800359:0x510c4d53413c4c55!8m2!3d51.4952264!4d-0.844148!16s%2Fg%2F1tvm27rv?entry=ttu",
+            "title": "Horizon Micromobility Adresse: Kingfisher Works, Tag Lane, Hare Hatch, Reading RG10 9SHTelephone: +44 (O) 118 2112 134"
+          }
+        },
+        "text_block_LcFwnH": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify://shop_images/11_ede776f0-193e-4349-bfdb-7b47bdf7bf81.jpg",
+            "image_alt": "img",
+            "url": "https://www.google.com/maps/search/Arch+284+Belinda+road,+sw9+7dt,+London,+UK/@51.4616534,-0.1144759,16z/data=!3m1!4b1?entry=ttu",
+            "title": "ESEbike Adresse: Arch 284 Belinda road, sw9 7dt, London, UKTelephone: +44 7468 248993"
+          }
+        },
+        "text_block_dzqnDT": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify://shop_images/10_43009a2f-4098-49f4-bb3c-60f60a0d040b.jpg",
+            "image_alt": "img",
+            "url": "https://www.google.com/maps/search/Unit+2,+Alexandra+Place,+East+Road,+Dublin+3,+DO3+Y070,+Ireland+/@53.3631471,-6.2317506,15z/data=!3m1!4b1?entry=ttu",
+            "title": "3k Blue Adresse: Unit 2, Alexandra Place, East Road, Dublin 3, DO3 Y070, Ireland Telephone: 089 466 4366"
+          }
+        },
+        "text_block_ffMKhD": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify://shop_images/09_94a4c1d5-c900-4402-8315-a285d68e4d60.jpg",
+            "image_alt": "img",
+            "url": "https://www.google.com/maps/place/105+S+Main+St,+Townparks,+Wexford,+Y35+HWX9,+Ireland/@52.3355391,-6.4610787,17z/data=!3m1!4b1!4m6!3m5!1s0x48681b4215505961:0x5fbf3ccd73b173b!8m2!3d52.3355359!4d-6.4585038!16s%2Fg%2F11cskn_gdm?entry=ttu",
+            "title": "Kelstar Adresse: No 105 South Main Street, Wexford, Co Wexford, Y35 HXE8, Ireland Telephone: +353 08 94 66 43 66"
+          }
+        },
+        "text_block_ab6AVQ": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify://shop_images/12_f0184aed-3a0b-4d2c-af2f-21dfaa8d2c2b.jpg",
+            "image_alt": "img",
+            "url": "https://www.google.com/maps/place/25+Woodford+Ave,+Gants+Hill,+Ilford+IG2+6UF,+UK/@51.577381,0.062565,17z/data=!3m1!4b1!4m6!3m5!1s0x47d8a6ea1b438779:0x1e19b7af48b4fe7e!8m2!3d51.5773777!4d0.0651399!16s%2Fg%2F11c2ds2tgv?entry=ttu",
+            "title": "Bike Vibe Adresse: Unit-1, 25 Woodford Ave, Gants Hill, Ilford IG2 6UF, UKTelephone: +44 74 46 93 02 25"
+          }
+        },
+        "text_block_F3Pj4z": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify://shop_images/08_625dda7b-3af4-41b9-9ef7-fd298ccbfe30.jpg",
+            "image_alt": "img",
+            "url": "https://www.google.com/maps/search/Unit+9,+Monread+Shopping+Center,+Naas,+Co.Kildare,+Ireland,+W91+CEOOM/@53.234466,-6.660941,15z/data=!3m1!4b1?entry=ttu",
+            "title": "Glowtech Adresse: Unit 9, Monread Shopping Center, Naas, Co.Kildare, Ireland, W91 CEOOMTelephone: 089 466 4366"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_x3xJAp",
+        "text_block_PBHhrx",
+        "text_block_gBeRtp",
+        "text_block_rwLXXe",
+        "text_block_cNR93Q",
+        "text_block_NEBH4m",
+        "text_block_LcFwnH",
+        "text_block_dzqnDT",
+        "text_block_ffMKhD",
+        "text_block_ab6AVQ",
+        "text_block_F3Pj4z"
+      ],
+      "settings": {
+        "title": "Our Dealer shops are here:"
+      }
+    },
+    "c0ee0606-1f8d-48b1-becb-53adb8fa532a": {
+      "type": "multi-column",
+      "blocks": {
+        "template--21720080154909__c0ee0606-1f8d-48b1-becb-53adb8fa532a-item-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Find a testing location",
+            "heading_tag": "h4",
+            "content": "<p>Find your nearest testing location on our website.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--21720080154909__c0ee0606-1f8d-48b1-becb-53adb8fa532a-item-2": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Book your test drive",
+            "heading_tag": "h4",
+            "content": "<p>Fill out the Forms</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--21720080154909__c0ee0606-1f8d-48b1-becb-53adb8fa532a-item-3": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Waiting for confirmation",
+            "heading_tag": "h4",
+            "content": "<p>Get your permisstion from E-Mail and start your first test ride.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "c289f6e8-8996-4262-bd41-504059830a60": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Share your experience",
+            "heading_tag": "h4",
+            "content": "<p>Tell us how it was and get exclusive vouchers</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "87a247a4-ed89-4fc1-b022-d91be5149d2f": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Buy with a discount",
+            "heading_tag": "h4",
+            "content": "<p>Use the vouchers for a discount when buying a bike.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--21720080154909__c0ee0606-1f8d-48b1-becb-53adb8fa532a-item-1",
+        "template--21720080154909__c0ee0606-1f8d-48b1-becb-53adb8fa532a-item-2",
+        "template--21720080154909__c0ee0606-1f8d-48b1-becb-53adb8fa532a-item-3",
+        "c289f6e8-8996-4262-bd41-504059830a60",
+        "87a247a4-ed89-4fc1-b022-d91be5149d2f"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "stack_on_changes": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "5c69ba1e-6346-49f7-8a53-c47c65fd3070": {
+      "type": "contact",
+      "blocks": {
+        "ab2ac3e9-259d-4e06-a37d-53e4dfdee740": {
+          "type": "text",
+          "settings": {
+            "title": "Phone nummer",
+            "use_long_text": false,
+            "required": false
+          }
+        },
+        "743785dd-90dc-4866-b603-e14874ff7f5f": {
+          "type": "text",
+          "settings": {
+            "title": "City where you test ride",
+            "use_long_text": false,
+            "required": true
+          }
+        },
+        "1a09a6ae-9a18-4bc8-9a6f-f42cef6c7619": {
+          "type": "dropdown",
+          "settings": {
+            "title": "Model",
+            "values": "EC 1, EC 1-ST"
+          }
+        },
+        "318a9977-86b7-46f2-8624-1b2ee81c2d48": {
+          "type": "text",
+          "settings": {
+            "title": "Special wishes or comments",
+            "use_long_text": false,
+            "required": false
+          }
+        },
+        "8912378a-63a8-45d6-bfe4-ac68e5647cd6": {
+          "type": "text",
+          "settings": {
+            "title": "Desired date and time to test ride",
+            "use_long_text": false,
+            "required": false
+          }
+        }
+      },
+      "block_order": [
+        "ab2ac3e9-259d-4e06-a37d-53e4dfdee740",
+        "743785dd-90dc-4866-b603-e14874ff7f5f",
+        "1a09a6ae-9a18-4bc8-9a6f-f42cef6c7619",
+        "318a9977-86b7-46f2-8624-1b2ee81c2d48",
+        "8912378a-63a8-45d6-bfe4-ac68e5647cd6"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Test ride booking",
+        "content": "",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "39b8e266-5a5b-4fba-93e3-38dca36efbf5",
+    "fans_club_T3rBNN",
+    "c0ee0606-1f8d-48b1-becb-53adb8fa532a",
+    "5c69ba1e-6346-49f7-8a53-c47c65fd3070"
+  ]
+}

@@ -1,7 +1,17 @@
 {
   "sections": {
     "main": {
-      "type": "register",
+      "type": "main-customers-register",
+      "blocks": {
+        "fields": {
+          "type": "fields",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "fields"
+      ],
       "settings": {
       }
     }

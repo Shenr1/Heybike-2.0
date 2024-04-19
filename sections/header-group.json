@@ -1,0 +1,211 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message": {
+          "type": "message",
+          "settings": {
+            "text": "⚡Flash Sale save up to £1506!",
+            "url": "shopify://pages/sales-deals"
+          }
+        },
+        "76024db7-a027-4b47-bc94-a703ddf8edc6": {
+          "type": "message",
+          "settings": {
+            "text": "Buy 2 ebikes, Get extra £100-Off",
+            "url": "shopify://collections/electric-bike"
+          }
+        },
+        "43b6b76e-873b-451b-8f6d-3d7c00aa8902": {
+          "type": "message",
+          "settings": {
+            "text": "30 days return policy",
+            "url": ""
+          }
+        },
+        "05686cfa-7890-46a8-a449-3c076579660d": {
+          "type": "message",
+          "settings": {
+            "text": "Free shipping within the UK",
+            "url": "shopify://pages/uk-shipping-policy"
+          }
+        }
+      },
+      "block_order": [
+        "message",
+        "76024db7-a027-4b47-bc94-a703ddf8edc6",
+        "43b6b76e-873b-451b-8f6d-3d7c00aa8902",
+        "05686cfa-7890-46a8-a449-3c076579660d"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "text_size": "text-xs",
+        "navigation_mode": "arrows",
+        "scrolling_speed": 10,
+        "sdesktop_speed": 40,
+        "smobile_speed": 40,
+        "background": "#f6be00",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "37117e4c-b735-4657-b474-a9b32f3477c8": {
+          "type": "mega_menu",
+          "disabled": true,
+          "settings": {
+            "menu_item": "E-Bikes",
+            "layout": "horizontal_center",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "EC 1",
+            "image_link_1": "shopify://products/heybike-ec-1-pedelec-e-bike",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "EC 1-ST",
+            "image_link_2": "shopify://products/heybike-ec-1-st-pedelec-e-bike",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "shopify://products/heybike-ec-1-pedelec-e-bike",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": true,
+            "drawer_link_image": "show"
+          }
+        },
+        "82cf7264-5492-4d1e-bc1c-b135f28bcab0": {
+          "type": "mega_menu_new",
+          "settings": {
+            "menuLink": "find-the-world-with-heybike",
+            "menu_item": "E-Bikes",
+            "activeImg": "shopify://shop_images/UK-275-338.jpg",
+            "mobActiveImg": "shopify://shop_images/UK-275-338_4ec9d25f-1d45-4ace-938d-520c6cfaec36.jpg",
+            "activeLink": "shopify://collections/electric-bike",
+            "icon1": "shopify://shop_images/2-02_3af9a508-246a-4a3f-b500-617e0a39fd93.png",
+            "iconText1": "Free shipping",
+            "icon2": "shopify://shop_images/01_5139cff9-9d15-470f-94cc-48934398ef8e.png",
+            "iconText2": "30 days return policy",
+            "icon3": "shopify://shop_images/1-02.png",
+            "iconText3": "1 Year warranty",
+            "icon4": "shopify://shop_images/1__1.png",
+            "iconText4": "VAT Included",
+            "showNum": 2,
+            "productImg1": "shopify://shop_images/EC1-_UK_ea4f1321-078c-4c41-9fec-ffc4beaa63bf.jpg",
+            "productTitle1": "EC 1",
+            "productDesc1": "Ride with elegance",
+            "productPeice1": "£1,099.00",
+            "productPeiceCom1": "£1,768.00",
+            "productLink1": "shopify://products/ec-1",
+            "productImg2": "shopify://shop_images/EC1-ST_UK_e5a86384-7d2e-4201-a408-566e3e667dcc.jpg",
+            "productTitle2": "EC 1-ST",
+            "productDesc2": "Ride with ease",
+            "productPeice2": "£1,099.00",
+            "productPeiceCom2": "£1,768.00",
+            "productLink2": "shopify://products/ec-1-st-1",
+            "productImg3": "shopify://shop_images/ST_EC1-_UK_56e83fc3-f85b-47b2-afbc-a0299f7805fe.jpg",
+            "productTitle3": "EC 1 & EC 1-ST",
+            "productDesc3": "Special bundle",
+            "productPeice3": "£2,148.00",
+            "productPeiceCom3": "£3,654.00",
+            "productLink3": "shopify://products/ec-1-ec-1-st-combo",
+            "productTitle4": "",
+            "productDesc4": "",
+            "productPeice4": "",
+            "productPeiceCom4": "",
+            "productLink4": "",
+            "productTitle5": "",
+            "productDesc5": "",
+            "productPeice5": "",
+            "productPeiceCom5": "",
+            "productLink5": ""
+          }
+        },
+        "mega_menu_wthXbp": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "About",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "mega_menu_C8Ra9B": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Unterstützung",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        }
+      },
+      "block_order": [
+        "37117e4c-b735-4657-b474-a9b32f3477c8",
+        "82cf7264-5492-4d1e-bc1c-b135f28bcab0",
+        "mega_menu_wthXbp",
+        "mega_menu_C8Ra9B"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "hide_on_scroll": false,
+        "logo": "shopify://shop_images/Heybike_LOGO1_ffe1de36-2088-4e8f-90c2-bca74e7c9a10.png",
+        "logo_max_width": 120,
+        "logo_mobile_max_width": 100,
+        "menu": "main-menu",
+        "sidebar_menu": "",
+        "secondary_menu": "",
+        "menu_open_trigger": "hover",
+        "opening_from": "left",
+        "layout": "logo_left_navigation_center",
+        "show_social_media": true,
+        "show_locale_selector": true,
+        "show_country_selector": false,
+        "show_country_flag": true,
+        "show_country_name": false,
+        "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify://shop_images/Heybike_LOGO1_c0d1485a-e6ef-4b32-aa12-898b15903815.png",
+        "reduce_padding": true,
+        "background_opacity": 100,
+        "background_blur_radius": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

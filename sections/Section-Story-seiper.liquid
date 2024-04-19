@@ -1,0 +1,397 @@
+{%- assign secSt = section.settings -%}
+
+<section section-name="story-swiper" class="{% render 'section-interva-set' , secSt:secSt %}">
+
+  <div class="page-width">
+    {% if secSt.title != blank %}
+      <h1 style="color:{{secSt.title_color}};" class="tw-text-center h2 xl:tw-mb-12 md:tw-mb-10 tw-mb-8">{{ secSt.title }}</h1>
+    {% endif %}
+
+    <div class="tw-relative">
+      <effect-carousel class="shop-the-look__carousel mb-carousel tw-w-full" id="effect-carousel-{{ section.id }}" role="region">
+        {% for block in section.blocks %}
+          {%- assign blkSt = block.settings -%}
+            {% unless blkSt.poster == blank and blkSt.video == blank and blkSt.external_video_url == blank %}
+            <div class="tw-w-full md:tw-px-2 carousel-cell {% unless forloop.first %}reveal-invisible{% endunless %}">
+              <div class="tw-flex tw-bg-stone-100 tw-flex-wrap hfull">
+                <div class="md:tw-w-3/5 tw-w-full 2xl:tw-pr-18 md:tw-pr-8 tw-relative">
+                  {% comment %} {% include 'aspect-ratio-img', media: blkSt.img_url ,class: 'tw-block tw-w-full tw-object-cover'%} {% endcomment %}
+                  
+                  {%- capture poster -%}
+                  {%- assign poster_image = blkSt.poster | default: blkSt.video.preview_image -%}
+            
+                  {%- if blkSt.autoplay == false and poster_image != blank -%}
+                    {%- capture sizes -%}{% if blkSt.full_width %}100vw{% else %}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), min({{ settings.page_width }}px, 100vw - 96px){% endif %}{%- endcapture -%}
+                    {{- poster_image | image_url: width: poster_image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200' -}}
+                  {%- endif -%}
+                {%- endcapture -%}
+
+
+                  {%- if blkSt.video -%}
+                    <video-media class="tw-w-full tw-h-full">
+                      {%- if blkSt.autoplay -%}
+                        {%- assign show_controls = false -%}
+                      {%- else -%}
+                        {%- assign show_controls = true -%}
+                      {%- endif -%}
+                      {{- blkSt.video | video_tag: playsinline: true, preload: 'metadata', muted: blkSt.autoplay, loop: blkSt.autoplay, controls: show_controls, image_size: '800x' -}}
+                      {{- poster -}}
+                    </video-media>
+                  {%- else -%}
+                    <video-media loaded  class="tw-w-full tw-h-full" host="{{ blkSt.external_video_url.type }}" {% if blkSt.autoplay %}autoplay class="pointer-events-none"{% endif %} >
+                      {% comment %} {{- poster -}} {% endcomment %}
+                      {%- if blkSt.external_video_url.type == 'youtube' -%}
+                        <iframe src="https://www.youtube.com/embed/{{ blkSt.external_video_url.id }}?playsinline=1&{% if blkSt.autoplay %}autoplay=1&controls=0&mute=1&loop=1&{% endif %}playlist={{ blkSt.external_video_url.id }}&enablejsapi=1&rel=0&modestbranding=1&origin={{ 'https://' | append: request.host | url_encode }}" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen" ></iframe>
+                      {%- elsif blkSt.external_video_url.type == 'vimeo' -%}
+                        <iframe src="https://player.vimeo.com/video/{{ blkSt.external_video_url.id }}?autopause=1&{% if blkSt.autoplay %}background=1&autoplay=1&loop=1&muted=1&{% endif %}transparent=0&responsive=1&portrait=0&title=0&byline=0&color={{ settings.text_color | remove_first: '#' }}" allow="autoplay; encrypted-media;" allowfullscreen="allowfullscreen"></iframe>
+                      {%- endif -%}
+                    </video-media>
+                  {%- endif -%}
+
+                </div>
+
+                <div class="md:tw-w-2/5 2xl:tw-pt-16 md:tw-pt-8 2xl:tw-pr-12 md:tw-pr-8 tw-p-4 xl:tw-pb-24 md:tw-pb-18">
+                  <p class="xl:tw-text-3xl md:tw-text-2xl tw-text-xl tw-font-semibold tw-mb-2">{{ blkSt.title }}</p>
+                  <p class="tw-italic xl:tw-text-2xl md:tw-text-xl tw-text-lg 2xl:tw-mb-8 tw-mb-3">- {{blkSt.author}}</p> 
+                  <p class="2xl:tw-text-xl md:tw-text-lg tw-text-stone-700 md:tw-mb-12 tw-mb-18">{{ blkSt.content }}</p>
+                </div>
+              </div>
+            </div>
+            {% endunless %}
+          {% endfor %}
+      </effect-carousel>
+      {%- if section.blocks.size > 1 -%}
+        <div class="shop-the-look__controls press__controls tw-ms-0 tw-absolute md:tw-bottom-8 tw-bottom-4 3xl:tw-right-[30%] xl:tw-right-[27%] md:tw-right-[24%] tw-right-auto md:tw-left-auto tw-left-4 md:tw-justify-normal tw-justify-between tw-z-[1] md:tw-grid tw-flex">
+          <button is="prev-button" class="circle-button ring group tw-bg-white tw-w-10 tw-h-10" aria-controls="effect-carousel-{{ section.id }}">
+            <span class="sr-only">{{ 'general.accessibility.previous' | t }}</span>
+            <span class="animated-arrow animated-arrow--reverse"></span>
+          </button>
+
+          <page-dots class="page-dots" aria-controls="effect-carousel-{{ section.id }}">
+            {%- for index in (1..section.blocks.size) -%}
+              <button type="button" class="tap-area" aria-current="{% if forloop.first %}true{% else %}false{% endif %}">
+                <span class="sr-only">{{ 'general.accessibility.go_to_item' | t: index: index }}</span>
+              </button>
+            {%- endfor -%}
+          </page-dots>
+
+          <button is="next-button" class="circle-button ring group tw-bg-white tw-w-10 tw-h-10" aria-controls="effect-carousel-{{ section.id }}">
+            <span class="sr-only">{{ 'general.accessibility.next' | t }}</span>
+            <span class="animated-arrow"></span>
+          </button>
+        </div>
+      {%- endif -%}
+
+
+
+    </div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Story swiper v1.1",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Customer Stories"
+      },
+      {
+        "type": "color",
+        "id": "title_color",
+        "label": "Title color",
+        "default": "#333333"
+      },
+      {
+      "type": "header",
+      "content": "Section interval set"
+      },
+      {
+        "type": "select",
+        "id": "top_padding",
+        "label": "Top padding (PC)",
+        "default": "md", 
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding",
+        "label": "Bottom padding (PC)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "top_margin",
+        "label": "Top margin (PC)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_margin",
+        "label": "Bottom margin (PC)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "top_padding_mb",
+        "label": "Top padding (Mobile)",
+        "default": "md", 
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding_mb",
+        "label": "Bottom padding (Mobile)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "top_margin_mb",
+        "label": "Top margin (Mobile)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_margin_mb",
+        "label": "Bottom margin (Mobile)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "item",
+        "name": "Item",
+        "settings": [
+          {
+            "type": "header",
+            "content": "Viedo"
+          },
+          {
+            "type": "checkbox",
+            "id": "autoplay",
+            "label": "Autoplay",
+            "default": false
+          },
+          {
+            "type": "video",
+            "id": "video",
+            "label": "Video",
+            "info": "Replaces external video if both are set."
+          },
+          {
+            "type": "video_url",
+            "id": "external_video_url",
+            "accept": ["vimeo", "youtube"],
+            "label": "Video URL",
+            "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          },
+          {
+            "type": "image_picker",
+            "id": "poster",
+            "label": "Poster image",
+            "info": "3200 x 1600px .jpg recommended. Poster is not visible when autoplay is enabled."
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Headlight&Taillight"
+          },
+          {
+            "type": "textarea",
+            "id": "content",
+            "label": "Content",
+            "default": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night."
+          },
+          {
+            "type": "text",
+            "id": "author",
+            "label": "Author",
+            "default": "Andrew Ross"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Story swiper v1.1"
+      }
+    ]
+  }
+{% endschema %} 

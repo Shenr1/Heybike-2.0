@@ -1,0 +1,267 @@
+<style>
+  .subscription-wrap {
+    background-color: #F2F2F2;
+  }
+
+  .subscription-wrap .content-wrap {
+    position: relative;
+  }
+
+  .subscription-wrap .main-img {
+    width: 100%;
+  }
+
+  .subscription-wrap .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: #000;
+    text-align: right;
+    align-items: flex-end;
+    padding: 60px 60px 30px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .subscription-wrap .title {
+    font-size: 28px;
+    font-weight: 500;
+    font-family: Poppins, Poppins;
+  }
+
+  .subscription-wrap .desc {
+    max-width: 23rem;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 2;
+  }
+
+  .subscription-wrap .input-wrap {
+    max-width: 580px;
+    width: 100%;
+    position: relative;
+    /* height: 50px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .subscription-wrap .input {
+    width: 100%;
+    padding: 0 20px;
+    border-radius: 30px;
+    background-color: #fff;
+    height: 100% !important;
+  }
+
+  .subscription-wrap .input:focus {
+    outline: none;
+  }
+
+  .subscription-wrap .btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    height: 40px;
+    background: #F6BE00;
+    border-radius: 30px;
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+  }
+
+  .subscription-wrap .form-control {
+    width: 100%;
+    height: 100%;
+  }
+
+  .subscription-wrap .floating-label{ 
+    height: 100%;
+  }
+
+  .subscription-wrap .only-in-pad,
+  .subscription-wrap .only-in-mobile {
+    display: none;
+  }
+
+
+  .subscription-wrap .with-submit {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border-radius: 30px;
+  }
+
+  @media (max-width: 1149px) {
+    .subscription-wrap .only-in-pad {
+      display: block;
+    }
+
+    .subscription-wrap .only-in-pc {
+      display: none;
+    } 
+
+    .subscription-wrap .title-wrap {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .subscription-wrap .input-wrap {
+      max-width: none;
+    }
+
+    .subscription-wrap .content {
+      padding: 30px 30px 20px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .subscription-wrap .only-in-mobile {
+      display: block;
+    }
+
+    .subscription-wrap .content{
+      padding: 20px 30px 10px;
+    }
+
+    .subscription-wrap .title {
+      font-size: 26px;
+      text-align: center;
+    }
+
+    .subscription-wrap .btn {
+      font-size: 14px;
+      font-weight: 600;
+      max-width: none;
+      width: auto;
+    }
+
+    .subscription-wrap .desc{
+      text-align: center;
+      font-size: 16px;
+      line-height: 1.4;
+      margin-top: 5px;
+    }
+ }
+
+ @media (max-width: 420px) { 
+  .subscription-wrap .desc {
+    font-size: 12px;
+    margin-top: 0;
+    line-height: 1.6;
+  }
+ }
+</style>
+
+<section class="section subscription-wrap">
+  <div class="content-wrap">
+    <img 
+      class="main-img only-in-pc" 
+      src="{{ section.settings.main_image | img_url:'master'}}"
+      alt="{{ section.settings.image_alt  }}"
+    />
+    <img 
+      class="main-img only-in-pad" 
+      src="{{ section.settings.mob_image | img_url:'master'}}"
+      alt="{{ section.settings.image_alt  }}"
+    />
+    <div class="content {{ section.id }}" style="color:{{ section.settings.color_text }}">
+      <div class="title-wrap">
+        <h2 class="title">{{ section.settings.title }}</h2>
+        <p class="desc">{{ section.settings.subtitle }}</p>
+      </div>
+      {%- form 'customer', id: newsletter_form_id, class: 'form input-wrap' -%}
+        {%- if form.posted_successfully? -%}
+          {%- assign success_message = 'general.newsletter.subscribed_successfully' | t -%}
+          {%- render 'banner', content: success_message, status: 'success' -%}
+        {%- else -%}
+          {%- if form.errors -%}
+            {%- capture error_message -%}{{ form.errors.translated_fields['email'] }} {{ form.errors.messages['email'] }}{%- endcapture -%}
+            {%- render 'banner', content: error_message, status: 'error' -%}
+          {%- endif -%}
+  
+          <input type="hidden" name="contact[tags]" value="newsletter">
+  
+          <div class="with-submit">
+            {%- capture label -%}{{ 'general.newsletter.email' | t }}{%- endcapture -%}
+            {%- render 'input', name: 'contact[email]', placeholder: section.settings.placeholder class: 'input' type: 'email', required: true, autocomplete: 'email', -%}
+            <button type="submit" class="btn">{{ section.settings.subscribe }}</button>
+          </div>
+        {%- endif -%}
+
+      {%- endform -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "subscription",
+  "presets": [{
+    "name": "subscription"
+  }],
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "main_image",
+      "label": "背景图"
+    },
+    {
+      "type": "image_picker",
+      "id": "mob_image",
+      "label": "手机端图片"
+    },
+    {
+      "type": "text",
+      "id": "image_alt",
+      "label": "image alt",
+      "default": "img"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题",
+      "default": "Newsletter"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "副标题",
+      "default": "Write something about what your customers will receive by subscribing to you newsletter"
+    },
+    {
+      "type": "text",
+      "id": "placeholder",
+      "label": "placeholder",
+      "default": "E-Mail"
+    },
+    {
+      "type": "text",
+      "id": "subscribe",
+      "label": "按钮文案",
+      "default": "Subscribe"
+    },
+    {
+      "type": "color",
+      "id": "color_text",
+      "label": "color"
+    }
+  ]
+}
+{% endschema %}

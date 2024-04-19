@@ -1,0 +1,189 @@
+{% style %}
+  .fans-club img {
+    width: 100%;
+    border-radius: 16px;
+  }
+
+  .fans-club .text {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .fans-club .title {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Poppins, Poppins;
+  }
+
+  .fans-club .title-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+  }
+
+  .fans-club .slide-wrap {
+    display: flex;
+    gap: 40px;
+  }
+
+  .fans-club .swiper-button-prev, 
+  .fans-club .swiper-button-next {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-top: 0;
+    z-index: 1;
+  }
+
+  .fans-club .swiper-style {
+    overflow: hidden;
+  }
+
+  .fans-club .swiper-slide {
+    border-radius: 16px;
+    overflow: hidden;
+  }
+
+  .fans-club .swiper-button-next:after, 
+  .fans-club .swiper-button-prev:after {
+    color: #000;
+    font-weight: 900;
+    font-size: 16px;
+    background: #F6BE00;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .fans-club .text {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    .fans-club .title {
+      font-size: 24px;
+    }
+
+    .fans-club .swiper-button-prev, 
+    .fans-club .swiper-button-next {
+      width: 30px;
+      height: 30px;
+    }
+
+    .fans-club .swiper-button-next:after, 
+    .fans-club .swiper-button-prev:after {
+      font-size: 14px;
+    }
+  }
+{% endstyle %} 
+
+<section class="section fans-club" id="{{ section.settings.id }}">
+  <div class="title-wrap">
+    <h2 class="title">{{ section.settings.title }}</h2>
+    <div class="slide-wrap">
+      <p class="slide-prev swiper-button-prev"></p>
+      <p class="slide-next swiper-button-next"></p>
+    </div>
+  </div>
+  <div class="swiper-container swiper-style">
+    <ul class="swiper-wrapper">
+      {% for block in section.blocks %}
+        <li class="swiper-slide">
+          <a href="{{ block.settings.url }}">
+            <img
+              src="{{ block.settings.main_image | img_url:'master' }}"
+              alt="{{ block.settings.image_alt }}"
+            />
+            {% if section.settings.title != blank %}
+              <p class="text">{{ block.settings.title }}</p>
+            {% endif %}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<script>
+  $(document).ready(function () {
+    var mySwiper = new Swiper('.fans-club .swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 16,
+      navigation: {
+        nextEl: ".fans-club .swiper-button-next",
+        prevEl: ".fans-club .swiper-button-prev",
+      },
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        768: { 
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 16,
+          loop: false, // 循环模式选项
+          slideToClickedSlide: true,
+        }
+      },
+    })
+  });
+</script>
+
+{% schema %}
+{
+  "name": "fans club",
+  "presets": [{
+    "name": "fans club"
+  }],
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题",
+      "default": "FANS CLUB"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text_block",
+      "name": "row",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "main_image",
+          "label": "main image"
+        },
+        {
+          "type": "text",
+          "id": "image_alt",
+          "label": "image alt",
+          "default": "img"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "跳转链接"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "title"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

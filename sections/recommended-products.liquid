@@ -1,0 +1,496 @@
+<style>
+  .recommended-wrap {
+    background-color: #FAFAFA;
+  }
+
+  .recommended-wrap img {
+    width: 100%;
+  }
+  .product-kou {
+    padding: 0 20px;
+    position: relative;
+    top: 2.5rem;
+}
+
+
+
+.product-kou span.badge.badge--primary {
+    display: none;
+}
+  .recommended-wrap .title {
+    font-size: 28px;
+    font-family: Poppins, Poppins;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+  }
+
+  .recommended-wrap .subtitle {
+    text-align: center;
+    font-size: 16px;
+    font-family: Poppins, Poppins;
+    font-weight: 500;
+    color: #000000;
+    padding: 10px 0 40px;
+  }
+
+  .recommended-wrap .btn {
+    color: #000;
+    width: fit-content;
+    background: #F6BE00;
+    transition: all .5s;
+    padding-inline-start: var(--spacing-12);
+    padding-inline-end: var(--spacing-12);
+  }
+
+  .recommended-wrap .btn:hover {
+    transform: scale(1.04);
+  }
+
+  .recommended-wrap .col {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(12, minmax(0px, 1fr));
+  }
+
+  .recommended-wrap .col::-webkit-scrollbar {
+    display: none;
+  }
+
+  .recommended-wrap .col li {
+    border-radius: 16px;
+    grid-column: span 6;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  }
+
+  .recommended-wrap .row-top{
+    flex: 1;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .recommended-wrap .tag {
+    font-size: 15px;
+    font-weight: 400;
+    color: #F6BE00;
+    padding-bottom: 10px;
+  }
+
+  .recommended-wrap .product-name {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .recommended-wrap .price-wrap {
+    display: flex;
+    gap: 10px;
+    line-height: 0.7;
+    padding-bottom: 10px;
+    align-items: flex-end;
+  }
+
+  .recommended-wrap .price {
+    font-size: 22px;
+    font-weight: bold;
+    color: #F6BE00;
+  }
+
+  .recommended-wrap .compare-at-price{
+    font-size: 16px;
+    font-family: Poppins, Poppins;
+    font-weight: 400;
+    color: #7D7D7D;
+  }
+
+  .recommended-wrap .swiper-style {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .recommended-wrap .swiper-button-prev, 
+  .recommended-wrap .swiper-button-next {
+    top: 25%;
+    z-index: 1;
+  }
+
+  .recommended-wrap .swiper-button-prev {
+    left: 25px;
+  }
+
+  .recommended-wrap .swiper-button-next {
+    right: 25px;
+  }
+
+  .recommended-wrap .swiper-button-next:after, 
+  .recommended-wrap .swiper-button-prev:after {
+    color: #f2f2f2;
+    font-size: 30px;
+  }
+
+  .recommended-wrap .row-content {
+    flex: 1;
+    padding: 0 20px 20px;
+    border-bottom: 2px solid #CFCFCF;
+  }
+
+  .recommended-wrap .product-subtitle {
+    font-size: 16px;
+    font-family: Poppins, Poppins;
+    font-weight: 400;
+    color: #282828;
+  }
+
+  .recommended-wrap .row-bottom {
+    display: flex;
+    padding: 30px 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .recommended-wrap .text-sm {
+    order: 1;
+  }
+
+  .recommended-wrap .options-wrap {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 5px;
+    padding-bottom: 15px;
+  }
+
+  .recommended-wrap .options-item {
+    max-width: 40px;
+    min-height: 40px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #000;
+    justify-content: center;
+  }
+
+  .recommended-wrap .active {
+    border: 1px solid #F6BE00;
+  }
+
+  .recommended-wrap .color-wrap {
+    display: flex;
+    gap: 10px;
+  }
+
+  .recommended-wrap .color-wrap p {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    transition: box-shadow .2s ease;
+    box-shadow: 0 0 0 1px #e8e8e1;
+  }
+
+  .recommended-wrap .color-wrap p:before {
+    content: "";
+    position: absolute;
+    border-radius: 100%;
+    border-width: 4px;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    border: 3px solid;
+    border-color: #fff;
+  }
+
+  .recommended-wrap .color-wrap .active-color {
+    box-shadow: 0 0 0 2px #F6BE00;
+  }
+
+  @media (max-width: 769px) {  
+    .recommended-wrap .row-bottom { 
+      padding: 20px;
+    }
+    .product-kou {
+    padding: 0 20px;
+    position: relative;
+    top: 1.5rem;
+}
+    .recommended-wrap .color-wrap p {
+      width: 20px;
+      height: 20px;
+    }
+
+    .recommended-wrap .col {
+      display: flex;
+      overflow-x: scroll;
+    }
+
+    .recommended-wrap .col li {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .recommended-wrap .swiper-style {
+      max-width: 350px;
+      width: 100%;
+    }
+
+    .recommended-wrap .subtitle {
+      font-size: 14px;
+      padding-bottom: 30px;
+    }
+
+    .recommended-wrap .title {
+      font-size: 24px;
+    }
+
+    .recommended-wrap .row-top {
+      padding-top: 20px;
+    }
+
+    .recommended-wrap .product-name {
+      font-size: 18px;
+    }
+
+    .recommended-wrap .tag  {
+      padding-bottom: 5px;
+      font-size: 14px;
+    }
+
+    .recommended-wrap .price{
+      font-size: 18px;
+    }
+
+    .recommended-wrap .product-subtitle {
+      font-size: 12px;
+    }
+
+    .recommended-wrap .compare-at-price {
+      font-size: 15px;
+    }
+
+    .recommended-wrap .btn {
+      padding-inline-start: var(--spacing-6);
+      padding-inline-end: var(--spacing-6);
+      padding-block-start: var(--spacing-1);
+      padding-block-end: var(--spacing-1);
+    }
+  }
+
+  @media (max-width: 420px) { 
+    .recommended-wrap .btn {
+      font-size: 12px;
+      padding-inline-start: var(--spacing-4);
+      padding-inline-end: var(--spacing-4);
+    }
+  }
+</style>
+{%- assign badge_types = types | default: 'custom, sold_out, discount' | split: ',' -%}
+{%- assign variant = product.selected_or_first_available_variant -%}
+
+<section class="section recommended-wrap">
+  <h2 class="title">{{ section.settings.title }}</h2>
+  <p class="subtitle">{{ section.settings.subtitle  }}</p>
+  <ul class="col"></ul>
+</section>
+
+
+<script>
+  let list = []
+
+ 
+
+  {% for block in section.blocks %}
+    {% if block.type == "productSlider" %}
+      {% assign product = block.settings.product %}
+      {% if product.available %}
+        var variants = JSON.parse('{{ product.variants | json }}')
+        var option1Set = new Set()
+        var result = variants.filter(item => !option1Set.has(item.option1) && option1Set.add(item.option1))
+        list.push({
+          variants: result,
+          url: '{{ product.url }}',
+          title: '{{ product.title }}',
+          handle: "{{ product.handle }}",
+          price: '{{ product.price | money }}',
+          compare_at_price: '{{ product.compare_at_price | money }}',
+          home_title: '{{ product.metafields.custom.home_title }}',
+          description: '{{ product.metafields.custom.home_description }}',
+          reviews: {{ product.metafields.reviews | json }},
+        })
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  if (list.length) {
+    $('.col').empty()
+    list.map((item, index) => {
+      let html = `<li>
+        <div class="row-top">
+          <p class="tag">${item.home_title}</p>
+          <p class="product-name">${item.title}</p>
+     <div class="product-kou"> 
+        {%- render 'product-badges', product: product, class: 'product-card__badge-list' -%}
+</div>
+        </div>
+        <div class="swiper-container swiper-style swiper-container-${index}">
+          <div class="swiper-wrapper">
+            ${item.variants.map((variant, variantsIndex) => `
+              <div class="swiper-slide">
+                <a href="/products/${item.handle}">
+                  <img src="${variant.featured_image.src}">
+                </a>
+              </div>
+            `).join('')}
+          </div>
+          <div class="slide-wrap">
+            <p class="slide-prev swiper-button-prev prev-${index}"></p>
+            <p class="slide-next swiper-button-next next-${index}"></p>
+          </div>
+        </div>
+        <div class="row-content">
+          <div class="options-wrap" data-swiper-id="${index}">
+            ${item.variants.map((variant, variantsIndex) => `
+              <div class="options options-item ${variantsIndex == 0 ? 'active' : ''}" data-variant-index="${variantsIndex}">
+                <img src="${variant.featured_image.src}">
+              </div>
+            `).join('')}
+          </div>
+          <div class="price-wrap">
+            <p class="price">${item.price}</p>
+            <del class="compare-at-price">${item.compare_at_price}</del>
+          </div>
+          ${
+            item.reviews && `<a href="${item.url}#judgeme_product_reviews" class="rating " title="${item.reviews.rating_count}" {{ block.shopify_attributes }}>
+              <span class="text-sm">${item.reviews.rating_count}</span>
+              <div class="rating__stars" role="img" aria-label="${item.reviews.rating.value}, 5.0">
+                ${Array.from({ length: Math.ceil(item.reviews.rating.value) }, () =>
+                  `{%- render 'icon' with 'rating-star', width: 12, height: 12, class: 'rating__star' -%}`
+                ).join('')}
+              </div>
+            </a>`
+          }
+          <p class="product-subtitle">${item.description}</p>
+        </div>
+        <div class="row-bottom">
+          <div class="color-wrap options-wrap" data-swiper-id="${index}">
+            ${item.variants.map((variant, variantsIndex) => `
+              <p 
+                data-variant-index="${variantsIndex}" 
+                class="options color-item ${variantsIndex == 0 ? 'active-color' : ''}" 
+                data-color="${variant.option1.toLowerCase().replace(/\s/g, '-')}"
+              ></p>
+            `).join('')}
+          </div>
+          <a href="/products/${item.handle}" class="btn btn-primary">{{ section.settings.btn_text }}</a>
+        </div>
+      </li>`
+      $('.col').append(html)
+    })
+  }
+ 
+  var swipers = [];
+
+  $(document).ready(function () {  
+    list.forEach((item, index) => {
+      var swiper = new Swiper(`.swiper-container-${index}`, {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        navigation: {
+          nextEl: `.swiper-container-${index} .next-${index}`,
+          prevEl: `.swiper-container-${index} .prev-${index}`,
+        },
+        on: {
+          slideChange: function (e) {
+            var currentIndex = e.realIndex;
+            $(`.options-wrap[data-swiper-id="${index}"] .options-item`).removeClass('active');
+            $(`.options-wrap[data-swiper-id="${index}"] .color-item`).removeClass('active-color');
+            $(`.options-wrap[data-swiper-id="${index}"] .options-item[data-variant-index="${currentIndex}"]`).addClass('active');
+            $(`.options-wrap[data-swiper-id="${index}"] .color-item[data-variant-index="${currentIndex}"]`).addClass('active-color');
+          },
+        },
+      });
+      swipers.push(swiper);
+    });
+
+    $('.options').on('click', function() {
+      var swiperId = $(this).closest('.options-wrap').data('swiper-id');
+      var variantIndex = $(this).data('variant-index');
+      // 切换到对应的 Swiper slide
+      if (swipers[swiperId]) {
+        swipers[swiperId].slideTo(variantIndex);
+      }
+    });
+    
+{% assign color_collection_json = section.settings.color_collection | json %}
+
+var color_collection = JSON.parse('{'+{{ section.settings.color_collection | json }}+'}');
+
+var colorList = $('.color-wrap p');
+for(var i = 0; i < colorList.length; i++) {
+  var color = $(colorList[i]).attr('data-color');
+  console.log(color_collection[color]);
+  if(color_collection[color]) {
+    $(colorList[i]).css('background-color', color_collection[color]);
+  } else {
+    $(colorList[i]).css('background-color', color);
+  }
+}
+     console.log(color_collection);
+    
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Recommended products",
+  "presets": [{
+    "name": "Recommended products"
+  }],
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题",
+      "default": "Electric, Elegant, Efficient."
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "副标题",
+      "default": "Commuter Ebike Commuter Ebike Commuter Ebike Commuter Ebike"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "按钮文案",
+      "default": "Shop More"
+    },
+    {
+      "type": "html",
+      "id": "color_collection",
+      "label": "Color Collection"
+      
+    }
+  ],
+  "blocks": [
+    {
+      "type":"productSlider",
+      "name":"productSlider",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "产品"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

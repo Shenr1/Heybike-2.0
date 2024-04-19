@@ -1,0 +1,389 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "120ch"
+      }
+    },
+    "cf3d01a0-0bd7-475b-ae0a-d3479954327a": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--21714698961181__cf3d01a0-0bd7-475b-ae0a-d3479954327a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Affiliate-Programm",
+            "heading_tag": "h1"
+          }
+        },
+        "template--21714698961181__cf3d01a0-0bd7-475b-ae0a-d3479954327a-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Cooperate to earn more profits and promote a greener way of transportation.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21714698961181__cf3d01a0-0bd7-475b-ae0a-d3479954327a-heading-1",
+        "template--21714698961181__cf3d01a0-0bd7-475b-ae0a-d3479954327a-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Heybike-3.jpg",
+        "mobile_image": "shopify://shop_images/Heybike-3-phone.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#f6be00",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "f8493bbe-7c7b-44f2-8a07-f40e24cb4969": {
+      "type": "multi-column",
+      "blocks": {
+        "template--21714698961181__f8493bbe-7c7b-44f2-8a07-f40e24cb4969-item-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "High commission",
+            "heading_tag": "h4",
+            "content": "<p>Earn 5% commission on every order.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--21714698961181__f8493bbe-7c7b-44f2-8a07-f40e24cb4969-item-2": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Long tracking period",
+            "heading_tag": "h4",
+            "content": "<p>Up to 30 days order tracking so you don't miss any revenue.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--21714698961181__f8493bbe-7c7b-44f2-8a07-f40e24cb4969-item-3": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Free registration",
+            "heading_tag": "h4",
+            "content": "<p>No fees for registration.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "7bf19770-ad8f-4929-bbad-b98ad1f2b1e4": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Marketing support",
+            "heading_tag": "h4",
+            "content": "<p>Get high-quality promotional materials for customers.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "b2cccfcd-d785-4877-80b3-76e79a20b141": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Exclusive discounts",
+            "heading_tag": "h4",
+            "content": "<p>Offer your target group exclusive discounts.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "d1d30386-cda0-4861-a2ac-46264ce00f3d": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Easy Operation",
+            "heading_tag": "h4",
+            "content": "<p>User friendly platform</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--21714698961181__f8493bbe-7c7b-44f2-8a07-f40e24cb4969-item-1",
+        "template--21714698961181__f8493bbe-7c7b-44f2-8a07-f40e24cb4969-item-2",
+        "template--21714698961181__f8493bbe-7c7b-44f2-8a07-f40e24cb4969-item-3",
+        "7bf19770-ad8f-4929-bbad-b98ad1f2b1e4",
+        "b2cccfcd-d785-4877-80b3-76e79a20b141",
+        "d1d30386-cda0-4861-a2ac-46264ce00f3d"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "stack_on_changes": false,
+        "gap": "small",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Advantages as a Heybike Affiliate",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "5e8c801a-9f03-4ce8-83f2-b198bf1018e1": {
+      "type": "rich-text",
+      "blocks": {
+        "7368ee87-c611-4eb2-808d-05ff530e0f73": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Heybike_LOGO_200.png",
+            "width_mode": "custom",
+            "max_width": 100,
+            "mobile_max_width": 100
+          }
+        },
+        "1ced6092-dfa6-4159-a019-2a353c8c2188": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Apply now",
+            "url": "https://heybike-uk.goaffpro.com",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "7bda9928-38aa-4198-b3df-f285fb790502": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "5dbe3c5e-86db-4570-b7fb-288390c8db8b": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "width_mode": "custom",
+            "max_width": 100,
+            "mobile_max_width": 100
+          }
+        },
+        "0b62a7c6-b4e1-4f7b-b4d6-da4b0dcfcb87": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Jetzt Bewerben",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "7368ee87-c611-4eb2-808d-05ff530e0f73",
+        "1ced6092-dfa6-4159-a019-2a353c8c2188",
+        "7bda9928-38aa-4198-b3df-f285fb790502",
+        "5dbe3c5e-86db-4570-b7fb-288390c8db8b",
+        "0b62a7c6-b4e1-4f7b-b4d6-da4b0dcfcb87"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#eeeded",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "44d1b12e-7b77-40b9-b5d5-cbad67106f91": {
+      "type": "multi-column",
+      "blocks": {
+        "template--21714698961181__44d1b12e-7b77-40b9-b5d5-cbad67106f91-item-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "Application",
+            "heading_tag": "h4",
+            "content": "<p>Click and fill out the application form.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--21714698961181__44d1b12e-7b77-40b9-b5d5-cbad67106f91-item-2": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "Permission",
+            "heading_tag": "h4",
+            "content": "<p>Wait for our review and approval.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--21714698961181__44d1b12e-7b77-40b9-b5d5-cbad67106f91-item-3": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "Start advertising",
+            "heading_tag": "h4",
+            "content": "<p>Start promoting our e-bikes with the marketing material provided.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "8e5e5e4a-bca3-45e9-9880-27b653375173": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "Earn commissions",
+            "heading_tag": "h4",
+            "content": "<p>Earn commissions on every sale through your referral!</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--21714698961181__44d1b12e-7b77-40b9-b5d5-cbad67106f91-item-1",
+        "template--21714698961181__44d1b12e-7b77-40b9-b5d5-cbad67106f91-item-2",
+        "template--21714698961181__44d1b12e-7b77-40b9-b5d5-cbad67106f91-item-3",
+        "8e5e5e4a-bca3-45e9-9880-27b653375173"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "stack_on_changes": false,
+        "gap": "small",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "This is how you become a Heybike Affiliate",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "b69665d1-34fc-4c91-98ab-c79e229f2fda": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--21714698961181__b69665d1-34fc-4c91-98ab-c79e229f2fda-image-1": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Warum eine Kooperation mit Heybike eingehen?",
+            "content": "<p>Heybike wurde mit dem Ziel gegründet, \"jedes E-Bike für jeden\" zugänglich zu machen. Wir suchen nach kreativen und unternehmungslustigen Partnern, die uns dabei unterstützen, unsere Vision in die Welt zu tragen und umzusetzen. Angesichts der raschen Verbreitung unserer Fahrräder durch Mundpropaganda ist es leicht, geeignete Partner zu finden. Mit geringen Kosten und attraktiven Provisionen, warum also nicht mitmachen?</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "a581dca9-5452-45b3-a5cb-5982977c4c2f": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Hohe Kommissionen",
+            "content": "<p>Für jede erfolgreiche Bestellung erhalten Sie eine Provision von bis zu 3 % des Transaktionswerts. Nehmen wir zum Beispiel das Modell EC 1: Wenn jemand, den Sie empfohlen haben, den EC 1 über Ihren Link kauft, können Sie etwa 48 € an Provision verdienen!</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "50be1965-fa53-48b4-8e9e-1860af1008d7": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Werbung leicht gemacht",
+            "content": "<p>Werbung für Heybike mit Ihrem Empfehlungslink oder unseren vorgefertigten Bannern, E-Mails und anderen Materialien. Nutzen Sie die von uns bereitgestellten Ressourcen, um Zeit und Kosten bei der Erstellung von Inhalten zu sparen.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21714698961181__b69665d1-34fc-4c91-98ab-c79e229f2fda-image-1",
+        "a581dca9-5452-45b3-a5cb-5982977c4c2f",
+        "50be1965-fa53-48b4-8e9e-1860af1008d7"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "contact": {
+      "type": "contact",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Any more questions?",
+        "content": "<p>Write to us with your questions, we will be happy to help you!</p>",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cf3d01a0-0bd7-475b-ae0a-d3479954327a",
+    "f8493bbe-7c7b-44f2-8a07-f40e24cb4969",
+    "5e8c801a-9f03-4ce8-83f2-b198bf1018e1",
+    "44d1b12e-7b77-40b9-b5d5-cbad67106f91",
+    "b69665d1-34fc-4c91-98ab-c79e229f2fda",
+    "contact"
+  ]
+}

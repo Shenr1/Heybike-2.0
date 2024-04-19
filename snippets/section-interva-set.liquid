@@ -1,1 +1,60 @@
-{% capture sectionInterval %} {% case secSt.top_padding %} {% when 'extraLarge' %} xl:pt-24 lg:pt-20 md:pt-16 pt-12  {% when 'large' %} xl:pt-18 lg:pt-14 md:pt-12 pt-10 {% when 'default' %} lg:pt-9 md:pt-6 pt-4 {% when 'medium' %} md:pt-6 pt-3 {% when 'small' %} pt-2 {% when 'none' %} pt-0 {% endcase %} {% case secSt.bottom_padding %} {% when 'extraLarge' %} xl:pb-24 lg:pb-20 md:pb-16 pb-12{% when 'large' %} xl:pb-18 lg:pb-14 md:pb-12 pb-10 {% when 'default' %} lg:pb-9 md:pb-6 pb-4 {% when 'medium' %} md:pb-6 pb-3 {% when 'small' %} pb-2 {% when 'none' %} pb-0 {% endcase %} {% endcapture %}{{ sectionInterval | strip | remove: "  " | remove: "	"}}
+{% capture sectionInterval %}
+  {% case secSt.top_padding %}
+    {% when 'xl' %} 2xl:tw-pt-24 xl:tw-pt-22 lg:tw-pt-20 md:tw-pt-18
+    {% when 'lg' %} 2xl:tw-pt-18 xl:tw-pt-16 lg:tw-pt-14 md:tw-pt-12
+    {% when 'md' %} 2xl:tw-pt-12 xl:tw-pt-10 lg:tw-pt-8 md:tw-pt-6
+    {% when 'sm' %} 2xl:tw-pt-6 xl:tw-pt-4 lg:tw-pt-4 md:tw-pt-4
+    {% when 'none' %} md:tw-pt-0
+  {% endcase %}
+  {% case secSt.bottom_padding %}
+    {% when 'xl' %} 2xl:tw-pb-24 xl:tw-pb-22 lg:tw-pb-20 md:tw-pb-18
+    {% when 'lg' %} 2xl:tw-pb-18 xl:tw-pb-16 lg:tw-pb-14 md:tw-pb-12
+    {% when 'md' %} 2xl:tw-pb-12 xl:tw-pb-10 lg:tw-pb-8 md:tw-pb-6
+    {% when 'sm' %} 2xl:tw-pb-6 xl:tw-pb-4 lg:tw-pb-4 md:tw-pb-4
+    {% when 'none' %} md:tw-pb-0
+  {% endcase %}
+  {% case secSt.top_margin %}
+    {% when 'xl' %} 2xl:tw-mt-24 xl:tw-mt-22 lg:tw-mt-20 md:tw-mt-18
+    {% when 'lg' %} 2xl:tw-mt-18 xl:tw-mt-16 lg:tw-mt-14 md:tw-mt-12
+    {% when 'md' %} 2xl:tw-mt-12 xl:tw-mt-10 lg:tw-mt-8 md:tw-mt-6
+    {% when 'sm' %} 2xl:tw-mt-6 xl:tw-mt-4 lg:tw-mt-4 md:tw-mt-4
+    {% when 'none' %} md:tw-mt-0
+  {% endcase %}
+  {% case secSt.bottom_margin %}
+    {% when 'xl' %} 2xl:tw-mb-24 xl:tw-mb-22 lg:tw-mb-20 md:tw-mb-18
+    {% when 'lg' %} 2xl:tw-mb-18 xl:tw-mb-16 lg:tw-mb-14 md:tw-mb-12
+    {% when 'md' %} 2xl:tw-mb-12 xl:tw-mb-10 lg:tw-mb-8 md:tw-mb-6
+    {% when 'sm' %} 2xl:tw-mb-6 xl:tw-mb-4 lg:tw-mb-4 md:tw-mb-4
+    {% when 'none' %} md:tw-mb-0
+  {% endcase %}
+
+  {% case secSt.top_padding_mb %}
+    {% when 'xl' %} tw-pt-16
+    {% when 'lg' %} tw-pt-12
+    {% when 'md' %} tw-pt-8
+    {% when 'sm' %} tw-pt-4
+    {% when 'none' %} tw-pt-0
+  {% endcase %}
+  {% case secSt.bottom_padding_mb %}
+    {% when 'xl' %} tw-pb-16
+    {% when 'lg' %} tw-pb-12
+    {% when 'md' %} tw-pb-8
+    {% when 'sm' %} tw-pb-4
+    {% when 'none' %} tw-pb-0
+  {% endcase %}
+  {% case secSt.top_margin_mb %}
+    {% when 'xl' %} tw-mt-16
+    {% when 'lg' %} tw-mt-12
+    {% when 'md' %} tw-mt-8
+    {% when 'sm' %} tw-mt-4
+    {% when 'none' %} tw-mt-0
+  {% endcase %}
+  {% case secSt.bottom_margin_mb %}
+    {% when 'xl' %} tw-mb-16
+    {% when 'lg' %} tw-mb-12
+    {% when 'md' %} tw-mb-8
+    {% when 'sm' %} tw-mb-4
+    {% when 'none' %} tw-mb-0
+  {% endcase %}
+{% endcapture %}
+{{ sectionInterval | strip | remove: "  " | remove: "	" | strip_newlines }}

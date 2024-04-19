@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "feature_chart_8DrDnH": {
+      "type": "feature-chart",
+      "blocks": {
+        "headings_e7VaEH": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Model",
+            "heading_2": "Height",
+            "heading_3": "Seat tube",
+            "heading_4": "Head tube",
+            "heading_5": "Top tube",
+            "heading_6": "Maximum seat height",
+            "heading_7": "Chain stays",
+            "heading_8": "Minimum seat height",
+            "heading_9": "Handlebar height",
+            "heading_10": "Wheelbase",
+            "heading_11": "Total length",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
+          }
+        },
+        "values_c39W8t": {
+          "type": "values",
+          "settings": {
+            "product": "ec-1",
+            "value_1": "<p>EC 1 (M)</p>",
+            "value_2": "<p>160~190</p>",
+            "value_3": "<p>46</p>",
+            "value_4": "<p>14</p>",
+            "value_5": "<p>55</p>",
+            "value_6": "<p>105</p>",
+            "value_7": "<p>45</p>",
+            "value_8": "<p>73</p>",
+            "value_9": "<p>102</p>",
+            "value_10": "<p>108</p>",
+            "value_11": "<p>180</p>",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_47tebb": {
+          "type": "values",
+          "settings": {
+            "product": "ec-1",
+            "value_1": "<p>EC 1 (L)</p>",
+            "value_2": "<p>160~200</p>",
+            "value_3": "<p>50</p>",
+            "value_4": "<p>14</p>",
+            "value_5": "<p>55</p>",
+            "value_6": "<p>107</p>",
+            "value_7": "<p>45</p>",
+            "value_8": "<p>73</p>",
+            "value_9": "<p>102</p>",
+            "value_10": "<p>108</p>",
+            "value_11": "<p>180</p>",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_BkPUgw": {
+          "type": "values",
+          "settings": {
+            "product": "ec-1-st-1",
+            "value_1": "<p>EC 1-ST</p>",
+            "value_2": "<p>155~185</p>",
+            "value_3": "<p>43</p>",
+            "value_4": "<p>16</p>",
+            "value_5": "<p>59</p>",
+            "value_6": "<p>102</p>",
+            "value_7": "<p>45</p>",
+            "value_8": "<p>73</p>",
+            "value_9": "<p>102</p>",
+            "value_10": "<p>112</p>",
+            "value_11": "<p>182</p>",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_e7VaEH",
+        "values_c39W8t",
+        "values_47tebb",
+        "values_BkPUgw"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Model comparison",
+        "content": "<p>Find a detailed comparison of our different models.</p>",
+        "button_text": "Buy Now",
+        "button_url": "shopify://collections/electric-bike",
+        "text_position": "center",
+        "max_rows": 5,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "view_product": "View",
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "feature_chart_8DrDnH"
+  ]
+}

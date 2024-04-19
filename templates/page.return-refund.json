@@ -1,0 +1,213 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "b1c3f1f6-76cc-42ee-8a03-d5fa629842a3": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--21642270507293__b1c3f1f6-76cc-42ee-8a03-d5fa629842a3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Rücknahmegarantie",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--21642270507293__b1c3f1f6-76cc-42ee-8a03-d5fa629842a3-heading-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/pc-05.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "8004dce5-df64-44e4-b79a-8ba5a7a64605": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21642270507293__8004dce5-df64-44e4-b79a-8ba5a7a64605-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h4>Übersicht</h4>"
+          }
+        },
+        "2bfc2331-f474-4e4a-b61b-a70fcd194d19": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wenn Sie mit Ihrem Kauf aus triftigen Gründen nicht zufrieden sind (eine Meinungsänderung ausgenommen), wenden Sie sich innerhalb von 30 Tagen nach Erhalt des Produkts per E-Mail an unseren Kundenservice, um eine Rückgabe und Rückerstattung zu erhalten.</p>"
+          }
+        },
+        "5db6ca74-8e4e-458b-bbc5-95bb2bdd681b": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h4><strong>Rücksendung und Stornierung:</strong></h4>"
+          }
+        },
+        "87bcba3e-d44e-4ba3-8fba-b57c03350161": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>1.\tWenn Sie die Versandbenachrichtigung nicht erhalten haben, können Sie diese Bestellung stornieren oder ändern, indem Sie unseren Kundenservice per E-Mail kontaktieren. Unser Kundenservice wird Ihnen helfen, die Bestellung innerhalb von 24 Stunden nach Erhalt Ihrer E-Mail zu stornieren oder zu ändern.<br/>2. Wenn Sie die Versandbenachrichtigung erhalten haben, beachten Sie bitte, dass wir Bestellungen NICHT mehr stornieren oder ändern können. Warten Sie daher bitte auf das Eintreffen Ihres Pakets und Sie können es entweder behalten oder uns kontaktieren, um eine Rückerstattung zu beantragen.<br/>3. Schicken Sie das Paket nicht selbst zurück oder geben Sie es an der Adresse des Absenders ab. Jedes Produkt, das ohne Annahme zurückgeschickt wird, wird nicht zurückerstattet.<br/>4. Bitte senden Sie uns innerhalb von 30Tagen nach Erhalt Ihrer Heybike-Lieferung eine E-Mail, wenn Sie eine Rückgabe rechtfertigen.<br/>5. Bitte beschreiben Sie in der E-Mail das Problem.<br/>6. Bitte warten Sie auf eine Antwort von unserem netten Heybike-Team, normalerweise innerhalb von 24 Stunden.<br/>7. In der Zwischenzeit bewahren Sie die Heybike-Lieferbox bitte an einem kühlen und trockenen Ort auf, damit sie nicht beschädigt wird.<br/>8. Nach der Genehmigung werden eine Versandadresse und Anweisungen per E-Mail ans Mailbox gesendet, in dem Sie eine Heybikebestellt haben.<br/>9. Lesen Sie die \"Akzeptablen Bedingungen für eine Rückgabe\"<br/></p>"
+          }
+        },
+        "cb00b15e-6cac-4c0e-b52d-f52bb02d36bf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h4>Akzeptable Bedingungen für eine Rückgabe</h4>"
+          }
+        },
+        "964552cd-9ef6-4bae-b787-7c302bfaf87e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>1.\t30Tage nach Erhalt Ihres Heybike-Bikes;<br/>2.\tDas Fahrrad muss unbenutzt, frei von Schmutz, Staub und anderen Verunreinigungen sein und sich im originalen gepackten Zustand befinden, wie Sie es erhalten haben;<br/></p>"
+          }
+        },
+        "94792f73-f576-4da7-8241-782c42d16690": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Der Kunde ist für die Kosten der Rückgabe/des Umtauschs verantwortlich, wenn:</strong></p>"
+          }
+        },
+        "a9b5e491-50eb-4bf1-9112-045f07224caa": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>1. Dem Kunden das Produkt nicht gefällt und will es zurückgeben;<br/>2. Andere persönliche Gründe wie \"falsche Größe\", \"passt nicht\", \"nicht mehr benötigt/gewünscht\" usw.<br/>Bei Rückgabe aus persönlichen Gründen werden die Versandkosten vom Kunden getragen und von der Rückerstattungssumme abgezogen.<br/>*Die Rücksendegebühr für jedes Fahrrad beträgt 90 Euro.<br/></p>"
+          }
+        },
+        "05fef1f8-7951-42f6-9305-050e9b350f38": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Heybike trägt alle Kosten der Rückgabe/des Umtauschs einschließlich der Versandgebühren, wenn ein größerer Defekt festgestellt wird, für den ein Beweis vorliegt; Sie können das Problem per E-Mail zeigen, entweder in Form eines Bildes oder eines Videos.</p>"
+          }
+        },
+        "81bc03bc-1b1e-415d-9ef6-b97859a98b74": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Unsere Garantiebestimmungen treten mit dem Erhalt der Ware in Kraft. Wenn ein kleinerer Defekt vorliegt, senden wir die Teile kostenlos an den Kunden, und die Frachtkosten werden von Heybike getragen. Wir übernehmen die Reparaturkosten, wenn das Fahrrad von einem lokalen Geschäft repariert wird.<br/>Bitte prüfen Sie unsere Garantie.<br/></p>"
+          }
+        },
+        "ac4e321f-3631-477e-be3c-f4b7e11a461d": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Verlorenes Paket:</strong></p>"
+          }
+        },
+        "b59289b7-2aec-4019-a7f4-c31bf32e595d": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Heybike ist für die Lieferung Ihrer Bestellung verantwortlich. Eine Lieferausnahme liegt vor, wenn ein Paket aus einem unvorhergesehenen Grund vorübergehend auf dem Transportweg aufgehalten wird. Selbst bei der zuverlässigsten eCommerce-Auftragsverfolgung kann mit einem Paket während des Transports viel passieren. Wenn die Tracking-Info für mehr als 3 Tage oder sogar länger nicht aktualisiert wird. Bitte haben Sie Geduld und warten Sie auf die Lieferung. Heybike wird dies immer überprüfen und sich für Sie einsetzen. Wenn Sie Ihre Bestellung nach 3 Wochen nach Erhalt der Versandbestätigungs-E-Mail nicht erhalten haben, gilt das Paket während des Übergangs als verloren. Heybike trägt den Verlust und bietet Ihnen eine vollständige Rückerstattung an. Sie können das Paket ablehnen, wenn das Paket endlich auftaucht. Heybike stellt sicher, dass die Kundenerfahrung immer eine Priorität ist.</p>"
+          }
+        },
+        "5d3d76b4-5679-4424-8734-4798e39045d2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Ausnahmen:</strong></p>"
+          }
+        },
+        "7c7a2edb-bd12-4791-8379-242ab0a63d83": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Die Garantie erlischt automatisch, wenn eine nicht autorisierte Änderung vorgenommen wird. Während des Bestellvorgangs für den Service müssen Sie uns über alle nicht autorisierten Modifikationen oder nicht von Heybike durchgeführten Reparaturen oder Ersetzungen informieren, die an Ihrem Produkt vorgenommen wurden. Wir sind nicht für Schäden am Produkt verantwortlich, die während des Reparaturvorgangs auftreten und die auf nicht autorisierte Änderungen oder nicht von Heybike durchgeführte Reparaturen oder Auswechslungen zurückzuführen sind.</p>"
+          }
+        },
+        "65c4c9d4-bace-48dd-89bf-a1a478888559": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Die Garantie deckt KEINE Probleme ab, die durch eine<br/>der folgenden Ursachen verursacht wurden.</strong></p>"
+          }
+        },
+        "0dd57bd1-4362-43ea-9056-3895ec1e5b47": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>1.\tJegliche missbräuchliche Verwendung des Produkts, wie z. B. die Verwendung des Fahrrads für kommerzielle/vermietete Zwecke, das Spielen gefährlicher Handlungen usw., das Fahren des Fahrrads unter abnormalen Straßenbedingungen.<br/>2.\tJegliche unbefugte Änderung am Produkt, wie z. B. das Zerlegen des Fahrrads ohne Anweisung von Heybike, fehlerhafte Installation, Reparatur oder Wartung durch eine andere Person als Heybike.<br/>3.\tDas Produkt war bei Unfällen wie Verkehrsunfällen betroffen.<br/>4.\tDas Produkt war extremen Umgebungsbedingungen ausgesetzt (einschließlich extremer Temperatur oder Luftfeuchtigkeit), extremer physischer oder elektrischer Belastung oder Interferenz, Schwankungen oder Überspannungen der elektrischen Leistung, Blitzschlag, statischer Elektrizität, Feuer, höherer Gewalt oder anderen externen Ursachen.<br/>5.\tBeschädigung der Rostschutzschicht durch unsachgemäßen Gebrauch (die Beschädigung der Rostschutzschicht kann zu Korrosion und Bruch der Teile führen).<br/></p>"
+          }
+        },
+        "37a6ede3-68f8-4f73-b0fc-b98eba2ae9d7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>KONTAKTAUFNAHME:</strong></p>"
+          }
+        },
+        "def2175b-aa00-4b9d-8cb3-d48cb0e4250f": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wenn Sie während der Garantiezeit Probleme mit Ihrem Fahrrad feststellen, kontaktieren Sie uns bitte unter support.de@heybike.com mit den folgenden Informationen:<br/>•\tPlattform des Kaufs, wie z. B. Amazon, Brand Store(Markenshop), usw. (Wenn Sie bei Amazon gekauft haben, teilen Sie bitte uns auch den Verkäufernamen auf Ihrer Bestellung mit)<br/>•\tBestellnummer/ID<br/>•\tDie von Ihnen verwendete E-Mail und Lieferadresse bei Bestellung.<br/>•\tBilder/kurze Videos der Probleme und eine kurze Beschreibung der      Probleme<br/></p>"
+          }
+        },
+        "bef8974c-d7d9-4860-9dea-6afb74d78fbb": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>WIE WERDEN WIR ANTWORTEN:</strong></p>"
+          }
+        },
+        "5562b08f-e4cc-42db-9ed9-5fe650a05899": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>1.\tBitte warten Sie auf eine Antwort von unserem netten Heybike-Team, normalerweise innerhalb von 24 Stunden.<br/>2.\tIn der Zwischenzeit bewahren Sie die HeybikeAuslieferungs-Box bitte an einem kühlen und trockenen Ort auf, damit sie nicht beschädigt wird.<br/>3.\tNach der Genehmigung werden eine Versandadresse und Anweisungen per E-Mail in Ihren Inbox gesendet, mit dem Sie bei Heybikebestellt haben.<br/>4.\tWir werden den Umtausch innerhalb von 3 Werktagen veranlassen. Die Rückerstattung erfolgt innerhalb von 2 Werktagen an die ursprüngliche Zahlungsmethode des Kunden.<br/></p>"
+          }
+        },
+        "175e6030-bb9e-490e-9929-196ee6691420": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>WANN ERHALTEN SIE RÜCKERSTATTUNG:</strong></p>"
+          }
+        },
+        "1d97c3a3-c45c-4880-84e2-869d90dcf530": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Rückerstattungen auf Kredit-/Debitkarten dauern in der Regel 2-5 Werktage, es kann jedoch je nach Kartenunternehmen bis zu 30 Tage dauern. Wenn Sie mit PayPal-Guthaben bezahlt haben, wird das Geld auf Ihr PayPal-Guthaben zurückerstattet. Bitte kontaktieren Sie Paypal oder Ihre Kredit-/Debitkartenbank für weitere Informationen über die Rückerstattung.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21642270507293__8004dce5-df64-44e4-b79a-8ba5a7a64605-richtext-1",
+        "2bfc2331-f474-4e4a-b61b-a70fcd194d19",
+        "5db6ca74-8e4e-458b-bbc5-95bb2bdd681b",
+        "87bcba3e-d44e-4ba3-8fba-b57c03350161",
+        "cb00b15e-6cac-4c0e-b52d-f52bb02d36bf",
+        "964552cd-9ef6-4bae-b787-7c302bfaf87e",
+        "94792f73-f576-4da7-8241-782c42d16690",
+        "a9b5e491-50eb-4bf1-9112-045f07224caa",
+        "05fef1f8-7951-42f6-9305-050e9b350f38",
+        "81bc03bc-1b1e-415d-9ef6-b97859a98b74",
+        "ac4e321f-3631-477e-be3c-f4b7e11a461d",
+        "b59289b7-2aec-4019-a7f4-c31bf32e595d",
+        "5d3d76b4-5679-4424-8734-4798e39045d2",
+        "7c7a2edb-bd12-4791-8379-242ab0a63d83",
+        "65c4c9d4-bace-48dd-89bf-a1a478888559",
+        "0dd57bd1-4362-43ea-9056-3895ec1e5b47",
+        "37a6ede3-68f8-4f73-b0fc-b98eba2ae9d7",
+        "def2175b-aa00-4b9d-8cb3-d48cb0e4250f",
+        "bef8974c-d7d9-4860-9dea-6afb74d78fbb",
+        "5562b08f-e4cc-42db-9ed9-5fe650a05899",
+        "175e6030-bb9e-490e-9929-196ee6691420",
+        "1d97c3a3-c45c-4880-84e2-869d90dcf530"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b1c3f1f6-76cc-42ee-8a03-d5fa629842a3",
+    "8004dce5-df64-44e4-b79a-8ba5a7a64605"
+  ]
+}

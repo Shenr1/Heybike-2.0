@@ -1,0 +1,276 @@
+<style>
+  /* #shopify-section-{{ section.id }} {
+    --media-grid-row-height: 0;
+  }
+
+  #shopify-section-{{ section.id }} {
+    --media-grid-row-height: 0;
+  } */
+
+  .highlight-wrap {
+    background-color: #fff;
+    padding-block-start: 0;
+  }
+
+  .highlight-wrap .content-wrap {
+    position: relative;
+  }
+
+  .highlight-wrap img {
+    width: 100%;
+  }
+
+  .highlight-wrap .swiper-slide img {
+    width: 100%;
+    max-width: 319px;
+    filter: grayscale(100%); /* 将图片设置为完全灰色 */
+  }
+
+  .highlight-wrap .swiper-slide-active img {
+    filter: none;
+  }
+
+  .highlight-wrap .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: #000;
+    flex-direction: column;
+  }
+
+  .highlight-wrap .swiper-style {
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .highlight-wrap .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+
+  .highlight-wrap .highlight-content {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 80px 0 40px;
+  }
+
+  .highlight-wrap .text-box-wrap {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .highlight-wrap .title {
+    font-size: 34px;
+    font-weight: bold;
+    font-family: Poppins, Poppins;
+  }
+
+  .highlight-wrap .subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 40px 0 30px;
+    font-family: Poppins, Poppins;
+  }
+
+  .highlight-wrap .desc { 
+    font-size: 22px;
+    font-family: Poppins, Poppins;
+    font-weight: bold;
+  }
+
+  @media (max-width: 1149px) {  
+    .highlight-wrap {
+      padding-inline-start: 0;
+      padding-inline-end: 0;
+    }
+
+    .highlight-wrap .swiper-slide img {
+      max-width: 200px;
+    }
+  }
+
+  @media (max-width: 768px) {  
+    .highlight-wrap{}
+
+    .highlight-wrap .highlight-content {
+      justify-content: flex-end;
+      padding: 20px 0 60px;
+    }
+
+    .highlight-box {
+      padding: 0 20px 60px;
+    }
+
+    .highlight-wrap .title {
+      font-size: 24px;
+    }
+
+    .highlight-wrap .subtitle {
+      font-size: 16px;
+      padding: 10px 0;
+    }
+
+    .highlight-wrap .desc {
+      font-size: 18px;
+    }
+  }
+</style>
+
+<section class="section highlight-wrap">
+  <div class="content-wrap">
+    <img 
+      class="main-img only-in-pc" 
+      src="{{ section.settings.main_image | img_url:'master'}}"
+      alt="{{ section.settings.image_alt }}"
+    />
+
+    <img 
+      class="main-img only-in-mobile" 
+      src="{{ section.settings.mobile_image | img_url:'master'}}"
+      alt="{{ section.settings.image_alt }}"
+    />
+
+    <div class="content">
+      <div class="highlight-content">
+        <div class="highlight-box">
+          <div class="text-box-wrap">
+            <p class="title"></p>
+            <p class="subtitle"></p>
+            <p class="desc"></p>
+          </div>
+        </div>
+        <div class="swiper-container swiper-style">
+          <ul class="swiper-wrapper">
+            {% for block in section.blocks %}
+              {% if block.settings.main_image != blank %}
+                <li class="swiper-slide">
+                  <img
+                    src="{{ block.settings.main_image | img_url:'master' }}"
+                    alt="{{ block.settings.image_alt }}"
+                  />
+                </li>
+              {% endif  %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  $(document).ready(function () {
+    let highlightList = []
+    {% for item in section.blocks %}
+      {% case item.type %}
+        {% when 'highlight_item' %}
+          {% if item.settings.main_image != blank %}
+            {% assign desc = item.settings.desc | json %}
+            {% assign title = item.settings.title | json %}
+            {% assign subtitle = item.settings.subtitle | json %}
+            highlightList.push({
+              desc: {{ desc }},
+              title: {{ title }},
+              subtitle: {{ subtitle }}
+            })
+          {% endif %}
+      {% endcase %}
+    {% endfor %}
+
+    if (highlightList.length) {
+      $('.highlight-wrap .desc').text(highlightList[0].desc)
+      $('.highlight-wrap .title').text(highlightList[0].title)
+      $('.highlight-wrap .subtitle').text(highlightList[0].subtitle)
+      var mySwiper = new Swiper('.highlight-wrap .swiper-container', {
+        slidesPerView: 3,
+        spaceBetween: 16,
+        loopedSlides: 3, 
+        loop: true,
+        centeredSlides: true,
+        autoplay: {
+          delay: 3000, 
+          disableOnInteraction: false,
+        },
+        on: {
+          slideChange: function (e) {
+            var currentIndex = e.realIndex;
+            $('.highlight-wrap .title').text(highlightList[currentIndex].title)
+            $('.highlight-wrap .subtitle').text(highlightList[currentIndex].subtitle)
+            $('.highlight-wrap .desc').text(highlightList[currentIndex].desc)
+          },
+        },
+      });
+    }
+  });
+</script>
+
+{% schema %}
+{
+  "name": "highlight",
+  "class": "shopify-section--media-grid",
+  "presets": [{
+    "name": "Highlight"
+  }],
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "main_image",
+      "label": "背景图"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "手机背景图"
+    },
+    {
+      "type": "text",
+      "id": "image_alt",
+      "label": "image alt",
+      "default": "img"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "highlight_item",
+      "name": "highlight",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "main_image",
+          "label": "logo 图片"
+        },
+        {
+          "type": "text",
+          "id": "logo_image_alt",
+          "label": "image alt",
+          "default": "img"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "标题"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "副标题"
+        },
+        {
+          "type": "text",
+          "id": "desc",
+          "label": "desc"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

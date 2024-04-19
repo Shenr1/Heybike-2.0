@@ -1,0 +1,214 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "ec4bdfbd-a1eb-4be5-ab14-92a00788abc3": {
+      "type": "rich-text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "db927b4b-2509-4081-8971-5a1949f530c1": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--21667088105757__db927b4b-2509-4081-8971-5a1949f530c1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Hilfezentrum",
+            "heading_tag": "h1"
+          }
+        },
+        "template--21667088105757__db927b4b-2509-4081-8971-5a1949f530c1-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21667088105757__db927b4b-2509-4081-8971-5a1949f530c1-heading-1",
+        "template--21667088105757__db927b4b-2509-4081-8971-5a1949f530c1-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/pc-02.jpg",
+        "mobile_image": "shopify://shop_images/App-02.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "2f7ffab0-3d81-4d5c-b72f-b50fc805db55": {
+      "type": "media-grid",
+      "blocks": {
+        "template--21667088105757__2f7ffab0-3d81-4d5c-b72f-b50fc805db55-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_2304cb96-6352-4694-833d-f4cca754b5dd.jpg",
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--21667088105757__2f7ffab0-3d81-4d5c-b72f-b50fc805db55-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EC1.jpg",
+            "title": "FAQ",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--21667088105757__2f7ffab0-3d81-4d5c-b72f-b50fc805db55-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/App-02.jpg",
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "b4ce20eb-6f61-414f-a1ea-2158cd5eb626": {
+          "type": "image",
+          "settings": {
+            "title": "Hilfezentrum",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "1d45a64a-5397-4fb8-b764-62b8d98a1aa0": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--21667088105757__2f7ffab0-3d81-4d5c-b72f-b50fc805db55-image-1",
+        "template--21667088105757__2f7ffab0-3d81-4d5c-b72f-b50fc805db55-image-2",
+        "template--21667088105757__2f7ffab0-3d81-4d5c-b72f-b50fc805db55-image-3",
+        "b4ce20eb-6f61-414f-a1ea-2158cd5eb626",
+        "1d45a64a-5397-4fb8-b764-62b8d98a1aa0"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "image_alt": "",
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "14a15db4-56b2-46fe-a581-a54a4f770785": {
+      "type": "contact",
+      "settings": {
+        "full_width": true,
+        "subheading": "Contact Us",
+        "title": "Do you have any question?",
+        "content": "",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ec4bdfbd-a1eb-4be5-ab14-92a00788abc3",
+    "db927b4b-2509-4081-8971-5a1949f530c1",
+    "2f7ffab0-3d81-4d5c-b72f-b50fc805db55",
+    "14a15db4-56b2-46fe-a581-a54a4f770785"
+  ]
+}

@@ -1,53 +1,165 @@
-{% capture colorSwatches %}
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+OPTION SWATCH
+----------------------------------------------------------------------------------------------------------------------
+
+This component renders a single option swatch. The supported options depend on the type of swatch. It is a generic
+component that is used both on collection and product pages. This snippet can also handle filter metaobject, by
+passing the proper parameters.
+
+********************************************
+Supported variables
+********************************************
+
+
+* type: control the presentational type of the swatch. Can be "color", "block" or "thumbnail". [REQUIRED]
+* value: the value submitted to the server [REQUIRED]
+* name: the name attribute when field is submitted to the server [REQUIRED]
+* selected: if set to true, this swatch is preselected
+* allow_multiple: if set to true, it allows several values to be selected (by using a checkbox instead of radio)
+* label: an optional label to show as tooltip (if no provided, it uses the value)
+* form: the form ID that this swatch is linked to
+* disabled: if set to true, this swatch is disabled
+* href: if defined, the swatch will be outputted as a link instead of an input (most of the other attributes are ignored)
+
+Thumbnail swatch specific parameters:
+
+* image: the image to use
+* size: can be 'sm' to make it smaller
+* bordered: if set to true, a border is added when the image is not selected
+
+Block swatch specific parameters
+
+* show_colors: if set to true, show the color as a small tile.
+* colors: an optional list of color drop (if not set, the theme will use the config based approach as a fallback). When more
+          than one color is given, a conic gradient is generated. It supports up to 4 colors.
+* image: an optional image used as the background (if not set, the theme will use the config based approach as a fallback)
+
+Color swatch specific parameters:
+
+* show_tooltip: if set to true, display a tooltip on hover
+* colors: an optional list of color drop (if not set, the theme will use the config based approach as a fallback). When more
+          than one color is given, a conic gradient is generated. It supports up to 4 colors.
+* image: an optional image used as the background (if not set, the theme will use the config based approach as a fallback)
+{%- endcomment -%}
+
+{%- capture id -%}swatch-{{ section.id }}-{{ form }}-{{ context }}-{{ name | handle }}-{{ value | handle }}{%- endcapture -%}
+
 {%- liquid
-	assign optg = optindex | plus: 1
-	assign downcased_option = swatch.name | downcase
-	assign is_color = false
-	assign is_size = false
+  if type == 'colors' or type == 'block' and show_colors
+    if colors != blank
+      assign size_limit = colors.size | at_most: 4
+      assign rotation = '0deg'
 
-	assign colorOptions = settings.colorOpt | downcase | replace:", ","," | replace:" , ","," | replace:" ,","," | split: ","
-	if colorOptions contains downcased_option
-		assign is_color = true 
-	endif
+      if size_limit == 2
+        assign rotation = '45deg'
+      endif
 
-	assign sizeOptions = settings.sizeOpt | downcase | replace:", ","," | replace:" , ","," | replace:" ,","," | split: ","
-	if sizeOptions contains downcased_option
-		assign is_size = true 
-	endif
+      assign angle_increment = 360 | divided_by: size_limit
+      assign angle = 0
+
+      capture conic_gradient
+        for color in colors limit: size_limit
+          echo color | append: ' ' | append: angle | append: 'deg '
+          assign angle = angle | plus: angle_increment
+          echo angle | append: 'deg'
+          
+          unless forloop.last
+            echo ', '
+          endunless
+        endfor
+      endcapture
+
+      assign swatch_style = '--swatch-background: conic-gradient(from ' | append: rotation | append: ', ' | append: conic_gradient | append: ')'
+    elsif image != blank
+      assign swatch_image = image | image_url: width: 72
+      assign swatch_style = '--swatch-background: url(' | append: swatch_image | append: ')'
+    else
+      # When color or image is not explicitly passed, we parse the config
+      assign swatch_config = settings.color_swatch_config | newline_to_br | split: '<br />'
+
+      assign value_downcase = value | downcase | strip
+      assign swatch_style = '--swatch-background: linear-gradient(to right, ' | append: value_downcase | append: ', ' | append: value_downcase | append: ')'
+
+      for swatch_item in swatch_config
+        assign swatch_parts = swatch_item | split: ':'
+        assign swatch_name = swatch_parts.first | downcase | strip
+
+        if value_downcase == swatch_name
+          assign swatch_value = swatch_parts.last | strip
+
+          if swatch_value contains '#'
+            assign swatch_style = '--swatch-background: linear-gradient(to right, ' | append: swatch_value | append: ', ' | append: swatch_value | append: ')'
+          elsif swatch_value contains 'linear-gradient('
+            assign swatch_style = '--swatch-background: ' | append: swatch_value
+          elsif images[swatch_value] != blank
+            assign swatch_image = images[swatch_value] | image_url: width: 72
+            assign swatch_style = '--swatch-background: url(' | append: swatch_image | append: ')'
+          endif
+
+          break
+        endif
+      endfor
+    endif
+  endif
 -%}
 
-<div class="swatch pvOpt{{optindex}} fl f-wrap option{{optg}} !mb-4 w_100" data-option-index="{{ optindex }}">
-	<label class="header w_100 fl text-lg !normal-case !font-semibold text-black-500">
-        {{ swatch.name }}- <span class="slVariant ml5">{{swatch.selected_value}}</span>
-        {%- if sizechart -%}
-            <a href="#sizechart" class="mfp sizelink ml_auto" data-effect="mfp-zoom-in"><i class="at at-ruler"></i> {{ 'products.product.size_chart' | t}}</a>
-        {%- endif -%}
-    </label>
-	{% assign values = '' %}
-	{% for variant in product.variants %}
-		{% assign value = variant.options[optindex] %}
-		{% unless values contains value %}
-			{% assign values = values | join: ',' %}
-			{% assign values = values | append: ',' | append: value %} 
-			{% assign values = values | split: ',' %}
-			{% assign colorname = value | handleize %}
-			<div data-value="{{ value | escape }}" class="swatch-element">
-			<input class="swatchInput dn single-option-selector-{{secId}}{% if is_color %} colorsw{% endif %}" id="{{product.id}}-{{ optg }}-{{ value | handle }}" data-index="option{{optg}}" data-var="{{ value | handle }}" type="radio" name="{{ swatch.name | handle }}" value="{{ value | escape }}"{% if swatch.selected_value == value %} checked{% endif %} />
-			{% if is_color %}
-                {% if settings.sw_type == "color" %}
-                    <label class="!w-7 !h-7 swatchLbl color md:!shadow-[inset_0px_0px_0px_3.5px_white] !shadow-[inset_0px_0px_0px_5px_white] {{settings.sw_size}} swt{{value | handle}}" for="{{product.id}}-{{ optg }}-{{ value | handle }}"
-						style="background-color:{{ value | handle }};"></label>
-                {% else %}
-                    <label class="!w-7 !h-7 swatchLbl color md:!shadow-[inset_0px_0px_0px_3.5px_white] !shadow-[inset_0px_0px_0px_5px_white] {{settings.sw_size}} lazyload" for="{{product.id}}-{{ optg }}-{{ value | handle }}" data-bgset="{{ variant.image.src | product_img_url: '100x'}}" data-sizes="auto" data-parent-fit="contain"></label>
-                {% endif %}
-                <span class="tooltip-label top">{{ value }}</span>
-			{% else %}
-			    <label class="swatchLbl {% if is_size %}w-16 {% endif %}md:!h-7 md:!py-0 !py-1 !h-auto md:!text-base !text-sm" for="{{product.id}}-{{ optg }}-{{ value | handle }}">{{ value }}</label>            	
-			{% endif %}
-			</div>
-		{% endunless %}
-	{% endfor %}
-</div>
+{%- unless href -%}
+  <input class="sr-only" type="{% if allow_multiple %}checkbox{% else %}radio{% endif %}" name="{{ name }}" {% if form %}form="{{ form | escape }}"{% endif %} id="{{ id | escape }}" value="{{ value | escape }}" {% if disabled %}disabled{% endif %} {% if selected %}checked="checked"{% endif %}>
+{%- endunless -%}
 
-{% endcapture %}
-{{colorSwatches | strip_newlines | remove: "  " | remove: "	" }}
+{%- case type -%}
+  {%- when 'thumbnail' -%}
+    {%- if image != blank -%}
+      {%- if href -%}
+        <a href="{{ href }}" class="thumbnail-swatch {% if size == 'sm' %}thumbnail-swatch--sm{% endif %} {% if selected %}is-selected{% endif %} {% if bordered %}border{% endif %}">
+          <span class="sr-only">{{ label | default: value }}</span>
+          {{- image | image_url: width: image.width | image_tag: loading: 'lazy', sizes: '60px', widths: '60,120', class: 'object-contain' -}}
+        </a>
+      {%- else -%}
+        <label class="thumbnail-swatch {% if size == 'sm' %}thumbnail-swatch--sm{% endif %} {% if bordered %}border{% endif %}" for="{{ id | escape }}" data-option-value>
+          <span class="sr-only">{{ label | default: value }}</span>
+          {{- image | image_url: width: image.width | image_tag: loading: 'lazy', sizes: '60px', widths: '60,120', class: 'object-contain' -}}
+        </label>
+      {%- endif -%}
+    {%- else -%}
+      <label class="block-swatch" for="{{ id | escape }}" data-option-value>{{ label | default: value }}</label>
+    {%- endif -%}
+
+  {%- when 'block' -%}
+    {%- assign white_label = 'general.label.white' | t | downcase -%}
+    {%- assign value_downcase = value | downcase -%}
+
+    {%- if href -%}
+      <a href="{{ href }}" class="block-swatch {% if selected %}is-selected{% endif %}">
+        {%- if show_colors -%}
+          <span class="block-swatch__color {% if white_label == value_downcase %}ring-inset{% endif %}" style="{{ swatch_style }}"></span>
+        {%- endif -%}
+
+        <span>{{ label | default: value }}</span>
+      </a>
+
+    {%- else -%}
+      <label class="block-swatch" for="{{ id | escape }}" data-option-value>
+        {%- if show_colors -%}
+          <span class="block-swatch__color {% if white_label == value_downcase %}ring-inset{% endif %}" style="{{ swatch_style }}"></span>
+        {%- endif -%}
+
+        <span>{{ label | default: value }}</span>
+      </label>
+    {%- endif -%}
+
+  {%- when 'colors' -%}
+    {%- assign white_label = 'general.label.white' | t | downcase -%}
+    {%- assign value_downcase = value | downcase -%}
+
+    {%- if href -%}
+      <a href="{{ href }}" class="color-swatch {% if settings.color_swatch_style == 'rectangle' %}color-swatch--rectangle{% endif %} {% if size == 'sm' %}color-swatch--sm{% endif %} {% if selected %}is-selected{% endif %} {% if white_label == value_downcase %}ring-inset{% endif %} {% if settings.color_swatch_style == 'round' %}rounded-full{% endif %}" {% if show_tooltip %}data-tooltip="{{ label | default: value | escape }}"{% endif %} style="{{ swatch_style }}">
+        <span class="sr-only">{{ label | default: value }}</span>
+      </a>
+    {%- else -%}
+      <label class="color-swatch {% if settings.color_swatch_style == 'rectangle' %}color-swatch--rectangle{% endif %} {% if size == 'sm' %}color-swatch--sm{% endif %} {% if white_label == value_downcase %}ring-inset{% endif %} {% if settings.color_swatch_style == 'round' %}rounded-full{% endif %}" for="{{ id | escape }}" data-option-value {% if show_tooltip %}data-tooltip="{{ label | default: value | escape }}"{% endif %} style="{{ swatch_style }}">
+        <span class="sr-only">{{ label | default: value }}</span>
+      </label>
+    {%- endif -%}
+{%- endcase -%}

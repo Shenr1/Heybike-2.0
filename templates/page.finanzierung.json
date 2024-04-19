@@ -1,0 +1,42 @@
+{
+  "sections": {
+    "b1c3f1f6-76cc-42ee-8a03-d5fa629842a3": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--21642270507293__b1c3f1f6-76cc-42ee-8a03-d5fa629842a3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Finanzierung",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--21642270507293__b1c3f1f6-76cc-42ee-8a03-d5fa629842a3-heading-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/pc-05.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "content_width": "80ch"
+      }
+    }
+  },
+  "order": [
+    "b1c3f1f6-76cc-42ee-8a03-d5fa629842a3",
+    "main"
+  ]
+}

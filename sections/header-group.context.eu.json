@@ -1,0 +1,16 @@
+{
+  "parent": "header-group.json",
+  "context": {
+    "market": "eu"
+  },
+  "sections": {
+    "header": {
+      "settings": {
+        "transparent_logo": "shopify://shop_images/50.png",
+        "reduce_padding": true
+      },
+      "blocks": {
+      }
+    }
+  }
+}

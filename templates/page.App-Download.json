@@ -1,0 +1,67 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "e345d3d9-09e2-46dc-ac3f-e5c2b3a992c7": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--21719531815197__e345d3d9-09e2-46dc-ac3f-e5c2b3a992c7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "APP Herunterladen",
+            "heading_tag": "h1"
+          }
+        },
+        "193345a7-b594-4cd6-a52d-533f2db38728": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Get it on Google Play",
+            "url": "https://play.google.com/store/apps/details?id=com.yulai.heybike.new&hl=zh&gl=US",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "b7c3bcd4-aa07-4a98-8a22-67d29542f157": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Download on APP Store",
+            "url": "https://apps.apple.com/cn/app/heybike-electric-bikes/id1627155034",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21719531815197__e345d3d9-09e2-46dc-ac3f-e5c2b3a992c7-heading-1",
+        "193345a7-b594-4cd6-a52d-533f2db38728",
+        "b7c3bcd4-aa07-4a98-8a22-67d29542f157"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "lg",
+        "image": "shopify://shop_images/EC1.jpg",
+        "mobile_image": "shopify://shop_images/EC1--_-App.jpg",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e345d3d9-09e2-46dc-ac3f-e5c2b3a992c7"
+  ]
+}

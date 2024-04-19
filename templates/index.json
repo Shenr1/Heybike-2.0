@@ -3,523 +3,637 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "1561726660568-0": {
+        "d54499ba-c22c-4d5a-a5bb-d5723b1d8415": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EC_1_Banner_1_a.jpg",
-            "imagem": "shopify:\/\/shop_images\/EC_1_Banner_Vertical_version.jpg",
-            "ialign": "center_center",
-            "hd1": "EC 1",
-            "pcl": "#ffffff",
-            "title": "Bring an Ideal<br>Urban Life!",
-            "tcl": "#ffffff",
-            "hd3": "",
-            "hideh3": true,
-            "cl": "#ffffff",
-            "btn": "Shop Now &nbsp >",
-            "link": "shopify:\/\/products\/ec-1",
-            "btn1window": true,
-            "btn-style": "btn",
-            "display_btn": false,
-            "btn2": "Shop Now",
-            "link2": "shopify:\/\/collections",
-            "btn2window": false,
-            "btn-style1": "btn1",
-            "contwd": 1300,
-            "text-left": true,
-            "txtpos": "f-aic-md f-jcs-md",
-            "txtposm": "f-ais f-jcs"
+            "image": "shopify://shop_images/1920X700.jpg",
+            "mobile_image": "shopify://shop_images/750-1000.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "subheading": "Save the Planet 🌍Last 3 Days!",
+            "title": "Earth Day Sale Save up to £1,506",
+            "heading_tag": "h1",
+            "button_text": "Shop Now",
+            "button_link": "shopify://collections/electric-bike",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#1a1a1a",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0,
+            "background": "#f2f2ef",
+            "background_gradient": ""
           }
         },
-        "208504ac-576d-4468-85f2-307d5444445e": {
+        "image_E786cM": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/EC_1-ST_Banner.jpg",
-            "imagem": "shopify:\/\/shop_images\/EC_1_Banner_1_Vertical_version.jpg",
-            "ialign": "center_center",
-            "hd1": "EC 1-ST",
-            "pcl": "#ffffff",
-            "title": "Bring an Ideal<br>Urban Life!",
-            "tcl": "#ffffff",
-            "hd3": "",
-            "hideh3": true,
-            "cl": "#ffffff",
-            "btn": "Shop Now &nbsp >",
-            "link": "shopify:\/\/products\/ec-1-st-1",
-            "btn1window": true,
-            "btn-style": "btn",
-            "display_btn": false,
-            "btn2": "Shop Now",
-            "link2": "shopify:\/\/collections",
-            "btn2window": false,
-            "btn-style1": "btn1",
-            "contwd": 1300,
-            "text-left": true,
-            "txtpos": "f-aic-md f-jcs-md",
-            "txtposm": "f-ais f-jcs"
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "shopify://pages/sales-deals",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "slide-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-start-center sm:text-center",
+            "subheading": "",
+            "title": "Starte ins Neue Jahr mit Sparfreude! <br>Bis zu 32% Rabatt！",
+            "heading_tag": "h2",
+            "button_text": "Jetzt Sparen",
+            "button_link": "shopify://collections/e-bikes",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "#1a1a1a",
+            "background_gradient": ""
+          }
+        },
+        "82769dd7-5553-4ee2-91e8-f2e9ba47ce1b": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Die Zukunft  der urbanen Mobilität.",
+            "heading_tag": "h1",
+            "button_text": "Mehr Entdecken",
+            "button_link": "shopify://collections/e-bikes",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
           }
         }
       },
       "block_order": [
-        "1561726660568-0",
-        "208504ac-576d-4468-85f2-307d5444445e"
+        "d54499ba-c22c-4d5a-a5bb-d5723b1d8415",
+        "image_E786cM",
+        "slide-1",
+        "82769dd7-5553-4ee2-91e8-f2e9ba47ce1b"
       ],
       "settings": {
-        "top-offeset": "none",
-        "ht": "1",
-        "htd": 700,
-        "htt": 550,
-        "htm": 400,
-        "section_width": false,
-        "box-width": 1500,
-        "isovr": false,
-        "obg": "#3d4246",
-        "oopt": 0.5,
-        "style": "hbstyle",
-        "pfs": 30,
-        "pff": "ft1",
-        "pfw": "400",
-        "plh": 1.2,
-        "pmb": 0,
-        "bfs": 72,
-        "bff": "ft2",
-        "bfw": "700",
-        "blh": 1.1,
-        "bmb": 20,
-        "dfs": 16,
-        "dff": "ft1",
-        "dfw": "400",
-        "dlh": 1.2,
-        "dmb": 25,
-        "txtanimation": true,
-        "anim": "st1",
-        "btn-size": "btn-md",
-        "btn-sizem": "mob-btn-sm",
-        "isbox": false,
-        "isboxm": false,
-        "tbg": "#ffffff",
-        "opt": 0.9,
-        "brad": 0,
+        "full_width": true,
+        "allow_transparent_header": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
         "autoplay": true,
-        "speed": 7,
-        "arrow": false,
-        "arrowc": "#444444",
-        "dot": true,
-        "dots": "#000000",
-        "snow_effect": false,
-        "snow_style": "style1"
+        "cycle_speed": 6,
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "583b741b-600f-49b4-9c12-175b587241ee": {
-      "type": "products-slider-full",
+    "22f39f6e-31e7-4c39-b7a5-ba94b8182fd3": {
+      "type": "recommended-products",
       "blocks": {
-        "49c3920c-4c72-4966-97a0-17f141bf1e62": {
-          "type": "slide",
+        "8b0cea8d-ebfc-45b7-9ec6-a81d2e5467aa": {
+          "type": "productSlider",
           "settings": {
-            "product": "ec-1",
-            "product_image": "shopify:\/\/shop_images\/EC-1_c0ccd849-3ab7-4d5b-8761-0e848e9dedc3.png",
-            "info": "Meet your needs for commuting"
+            "product": "ec-1"
           }
         },
-        "f8ffd36a-8915-47a9-930d-e2ad87fcd760": {
-          "type": "slide",
+        "6056b589-30fa-4098-a697-1da8c52b5452": {
+          "type": "productSlider",
           "settings": {
-            "product": "ec-1-st-1",
-            "product_image": "shopify:\/\/shop_images\/EC-ST.png",
-            "info": "Step-Through Design: Ride with Ease"
-          }
-        },
-        "aced053b-8c7e-443c-ba77-07bf8bef930e": {
-          "type": "slide",
-          "settings": {
-            "product": "ec-1-st-1",
-            "product_image": "shopify:\/\/shop_images\/EC_1-ST_pink_10502.png",
-            "info": "Step-Through Design: Ride with Ease"
-          }
-        },
-        "f480f755-ce5b-49ba-93bd-4d6b4ea96954": {
-          "type": "slide",
-          "settings": {
-            "product": "ec-1-st-1",
-            "product_image": "shopify:\/\/shop_images\/EC-ST_3de72fa5-2376-4677-b24f-0e51c604311a.png",
-            "info": "Step-Through Design: Ride with Ease"
-          }
-        },
-        "265ae58e-bbd5-431e-950a-654097cb3d2c": {
-          "type": "slide",
-          "settings": {
-            "product": "ec-1",
-            "product_image": "shopify:\/\/shop_images\/EC_1_white_right1050.png",
-            "info": "Meet your needs for commuting"
-          }
-        },
-        "74434e2d-7316-4cea-a46d-2fe1337dab28": {
-          "type": "slide",
-          "settings": {
-            "product": "ec-1",
-            "product_image": "shopify:\/\/shop_images\/EC-1_2083d25a-faf2-4bee-aa73-4e1f60f87fbf.png",
-            "info": "Meet your needs for commuting"
+            "product": "ec-1-st-1"
           }
         }
       },
       "block_order": [
-        "49c3920c-4c72-4966-97a0-17f141bf1e62",
-        "f8ffd36a-8915-47a9-930d-e2ad87fcd760",
-        "aced053b-8c7e-443c-ba77-07bf8bef930e",
-        "f480f755-ce5b-49ba-93bd-4d6b4ea96954",
-        "265ae58e-bbd5-431e-950a-654097cb3d2c",
-        "74434e2d-7316-4cea-a46d-2fe1337dab28"
+        "8b0cea8d-ebfc-45b7-9ec6-a81d2e5467aa",
+        "6056b589-30fa-4098-a697-1da8c52b5452"
       ],
       "settings": {
-        "top_padding": "large",
-        "bottom_padding": "default",
-        "title": "All HEYBIKE Models",
-        "btn_Text": "Buy now",
-        "bg_color": "#f3f5f9"
+        "title": "Electric, Elegant, Efficient",
+        "subtitle": "Your modern way of transportation.",
+        "btn_text": "Buy Now",
+        "color_collection": "\"Black\": \"#000\",\n  \"teal-blue\": \"#79ACB3\",\n  \"buttery-white\": \"#EBE7DA\",\n  \"light-pink\": \"#DEC6C7\""
       }
     },
-    "6466a547-b260-459b-b173-ee05a2e100ae": {
-      "type": "logo-slider",
+    "before_after_image_nzQypL": {
+      "type": "before-after-image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "EC1/EC1 ST",
+        "content": "<p>Discover our stylish and captivating E-bikes that offer a perfect blend of fashion and functionality. With their exceptional design, comprehensive features, and outstanding performance, these two bikes are sure to exceed your expectations. Buy one and enjoy exciting and effortless riding!</p>",
+        "before_image": "shopify://shop_images/2_219492ac-7a9e-43d9-8acc-234cc42165b9.jpg",
+        "before_image_mobile": "shopify://shop_images/1200X1200.jpg",
+        "after_image": "shopify://shop_images/2_bd1711dd-2bf8-420d-b652-be2587953fbc.jpg",
+        "after_image_mobile": "shopify://shop_images/1200X1200_95a770b7-3cc2-4432-812b-1630c0275d21.jpg",
+        "expand_image": false,
+        "text_position": "start",
+        "before_after_text_position": "top",
+        "before_text": "",
+        "after_text": "",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
+    "section_story_seiper_7jVyWW": {
+      "type": "Section-Story-seiper",
+      "blocks": {
+        "item_PNMbKk": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https://www.youtube.com/watch?v=yOWhNm9eo9w",
+            "title": "Heybike EC 1 Review - Great City Commuter!",
+            "content": "",
+            "author": "TechLine"
+          }
+        },
+        "item_KB7QeD": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https://www.youtube.com/watch?v=6TzvQOSwnF8",
+            "title": "Heybike EC 1 E-Bike Review - Beautiful City E-Bike!",
+            "content": "",
+            "author": "Redskull"
+          }
+        },
+        "item_ERjTY3": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https://www.youtube.com/watch?v=HmwoEKnB0hI",
+            "title": "HEYBIKE EC-1 ST Under 20kg affordable lightweight city bike with a great riding experience",
+            "content": "",
+            "author": "Rob and Lynn on tour"
+          }
+        }
+      },
+      "block_order": [
+        "item_PNMbKk",
+        "item_KB7QeD",
+        "item_ERjTY3"
+      ],
+      "settings": {
+        "title": "Professional Reviews",
+        "title_color": "#333333",
+        "top_padding": "md",
+        "bottom_padding": "md",
+        "top_margin": "md",
+        "bottom_margin": "md",
+        "top_padding_mb": "md",
+        "bottom_padding_mb": "none",
+        "top_margin_mb": "none",
+        "bottom_margin_mb": "none"
+      }
+    },
+    "8bf90c7d-27aa-4f53-92af-48339e689f89": {
+      "type": "advantage",
+      "blocks": {
+        "178f4602-9229-4ed3-8f62-98c2970ba9c8": {
+          "type": "advantage",
+          "settings": {
+            "main_image": "shopify://shop_images/DSC09050-1.jpg",
+            "mobile_image": "shopify://shop_images/DSC09050-1_acc02dcd-f7c3-4191-9257-bacb7bbc50b8.jpg",
+            "image_alt": "img",
+            "title": "Why Heybike",
+            "subtitle": "To create a better, greener and more comfortable life for people.",
+            "btn_text": "Learn more",
+            "url": "shopify://pages/why-choose-heybike"
+          }
+        },
+        "15846303-de2a-4e2b-8059-041bedcad53a": {
+          "type": "advantage",
+          "settings": {
+            "main_image": "shopify://shop_images/DSC09654-2.jpg",
+            "mobile_image": "shopify://shop_images/DSC09654-2_95c8b55b-35f7-4212-bf3f-e3bd2b54d596.jpg",
+            "image_alt": "img",
+            "title": "Tutorials",
+            "subtitle": "From beginner to expert, Heybike tutorials accompany you every step along the way.",
+            "btn_text": "Learn more",
+            "url": "shopify://blogs/tutorial-videos"
+          }
+        },
+        "a5077530-438f-4ba0-8ecb-0b4e569c6cf5": {
+          "type": "advantage",
+          "settings": {
+            "main_image": "shopify://shop_images/DSC00779-2.jpg",
+            "mobile_image": "shopify://shop_images/DSC00779-2_733b980f-91ac-4255-a321-e9c6ea39535b.jpg",
+            "image_alt": "img",
+            "title": "Heybike <br>In your neighbourhood",
+            "subtitle": "Discover our dealer shops near you and experience cycling fun at first hand.",
+            "btn_text": "Learn More",
+            "url": "shopify://pages/find-dealers"
+          }
+        },
+        "advantage_d4Dz4q": {
+          "type": "advantage",
+          "disabled": true,
+          "settings": {
+            "main_image": "shopify://shop_images/DSC6503-2.jpg",
+            "image_alt": "img",
+            "title": "Photo Contest 2024",
+            "subtitle": "Sharing your Heybike E-Bike photos, voting and winning discounts!",
+            "btn_text": "Join",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "178f4602-9229-4ed3-8f62-98c2970ba9c8",
+        "15846303-de2a-4e2b-8059-041bedcad53a",
+        "a5077530-438f-4ba0-8ecb-0b4e569c6cf5",
+        "advantage_d4Dz4q"
+      ],
+      "settings": {
+      }
+    },
+    "advantage_fxQYVa": {
+      "type": "advantage",
+      "blocks": {
+        "advantage_adLjEk": {
+          "type": "advantage",
+          "settings": {
+            "main_image": "shopify://shop_images/WhatsApp_Image_2023-12-25_at_17.52.16_11.jpg",
+            "mobile_image": "shopify://shop_images/WhatsApp_Image_2023-12-25_at_17.52.16_11_8dce6334-91b4-4d9a-8318-5c8a523f6853.jpg",
+            "image_alt": "img",
+            "title": "Military Discount",
+            "subtitle": "We offer a military discount on our products.",
+            "btn_text": "Get discount",
+            "url": "shopify://pages/military-discount"
+          }
+        }
+      },
+      "block_order": [
+        "advantage_adLjEk"
+      ],
       "disabled": true,
+      "settings": {
+      }
+    },
+    "11c84400-ee7f-40be-a8b8-51a0b5ff30ef": {
+      "type": "highlight",
       "blocks": {
-        "6029181d-3f62-44e0-aa3e-438b6cddb31c": {
-          "type": "slide",
+        "56818081-5692-4180-b8de-26bd8178d637": {
+          "type": "highlight_item",
           "settings": {
-            "text_main": "\"The HeyBike Mars is a special type of fat tire e-bike that folds down for easier transportation, meaning you can take that ride-everywhere fun on the go with you.\"",
-            "text_sub": "- ELECTREK",
-            "logo_image": "shopify:\/\/shop_images\/cropped-electrek-logo11.webp"
+            "main_image": "shopify://shop_images/1-10.svg",
+            "logo_image_alt": "img",
+            "title": "Heybike Media Highlights",
+            "subtitle": "\"The model is particularly suitable for commuting in the city.\"",
+            "desc": "- Renowned-Tech website"
           }
         },
-        "bfd88edc-65df-4713-b474-231d6eb30b82": {
-          "type": "slide",
+        "e4b33aad-f14f-4fad-ae71-27508def29a8": {
+          "type": "highlight_item",
           "settings": {
-            "text_main": "\"The Heybike Mars hits a good price point and is a lot of fun to ride.\"",
-            "text_sub": "- MSN",
-            "logo_image": "shopify:\/\/shop_images\/images_6ef9583c-32cb-464a-ae13-2388f8534db5.png"
+            "main_image": "shopify://shop_images/1-08.svg",
+            "logo_image_alt": "img",
+            "title": "Heybike Media Highlights",
+            "subtitle": "\"The removable battery is also chicly integrated into the overall design. The bike is robust and extremely easy & safe to ride!\"",
+            "desc": "- Everything about electric scooters and electric bikes."
           }
         },
-        "4154eb24-d1e7-4988-890f-30696b81b6ea": {
-          "type": "slide",
+        "15573f71-9ba4-4270-b417-f82604ccb8fb": {
+          "type": "highlight_item",
           "settings": {
-            "text_main": "\"When it comes to solid, folding e-bikes, HeyBike has got game, with the manufacturer presenting us with a wide range of fat-tire wheelers.\"",
-            "text_sub": "- AUTOEVOLUTION",
-            "logo_image": "shopify:\/\/shop_images\/AU_e9db3ab0-4166-42df-8978-c88757d205ed.png"
+            "main_image": "shopify://shop_images/1__1.svg",
+            "logo_image_alt": "img",
+            "title": "Heybike Media Highlights",
+            "subtitle": "\"The EC 1 is designed for those looking for a reliable and efficient means of transport for their daily commute.\"",
+            "desc": "- A premier cycling platform."
           }
         },
-        "32c33951-7d78-4c30-9e61-72ec75ab3884": {
-          "type": "slide",
+        "315c656e-45af-4ebb-a962-89cb764d3744": {
+          "type": "highlight_item",
           "settings": {
-            "text_main": "\"The Heybike Cityrun stands out for safety and security features, and even has a place to put your water bottle. It's the perfect e-bike for commuting.\"",
-            "text_sub": "- ZDNET",
-            "logo_image": "shopify:\/\/shop_images\/ZDNet-logo-347F1C3C61-seeklogo.com.png"
+            "main_image": "shopify://shop_images/1-02.svg",
+            "logo_image_alt": "img",
+            "title": "Heybike Media Highlights",
+            "subtitle": "\"The Heybike EC 1 and EC 1-ST models showcase lightweight flexibility.\"",
+            "desc": "- Largest moto-community in Italy"
           }
         },
-        "707889c1-1ed2-47d6-b2ea-e60f9ad69530": {
-          "type": "slide",
+        "b65aa319-4764-4bbe-9b9b-986c1bac9288": {
+          "type": "highlight_item",
           "settings": {
-            "text_main": "\"The Brawn from Heybike is a motorcycle inspired off-road beast.\"",
-            "text_sub": "- electrifiedreviews",
-            "logo_image": "shopify:\/\/shop_images\/logo_9da7fafa-760e-4bae-8104-3b6fdac0facc.png"
+            "main_image": "shopify://shop_images/1-03.svg",
+            "logo_image_alt": "img",
+            "title": "Heybike Media Highlights",
+            "subtitle": "\"Heybike is providing an accessible catalogue of tarmac ready bikes with some premium features.\"",
+            "desc": "- A leading cycling authority."
           }
         },
-        "4758eb01-b94b-42b2-b933-de9ec51b2bd0": {
-          "type": "slide",
+        "8ce1d32e-da2e-47c4-97bd-abaad3f151d2": {
+          "type": "highlight_item",
           "settings": {
-            "text_main": "MARS is a good choice for those people who want to use their bikes in multiple scenarios, like commuting and outdoor off-road.",
-            "text_sub": "- Techtimes",
-            "logo_image": "shopify:\/\/shop_images\/6fb53c51539b47559cf0d122a832cf63_b1639750-8312-4b95-a47f-f0d4960e988c.png"
+            "main_image": "shopify://shop_images/1-05.svg",
+            "logo_image_alt": "img",
+            "title": "Heybike Media Highlights",
+            "subtitle": "\"As far as performance is concerned, the power delivery is very smooth. \"",
+            "desc": "- The respected bike platform"
+          }
+        },
+        "75ac05bd-163f-4e24-ad2d-69950f2f957b": {
+          "type": "highlight_item",
+          "settings": {
+            "main_image": "shopify://shop_images/1-04.svg",
+            "logo_image_alt": "img",
+            "title": "Heybike Media Highlights",
+            "subtitle": "\"At a very respectable 19.2kg, it should prove agile as well, allowing you to tackle the city streets with confidence.\"",
+            "desc": "- A leading e-bike publication"
+          }
+        },
+        "718dbab5-e8cf-4761-bbcc-9c9c30f4613f": {
+          "type": "highlight_item",
+          "settings": {
+            "main_image": "shopify://shop_images/1-12.svg",
+            "logo_image_alt": "img",
+            "title": "Heybike Media Highlights",
+            "subtitle": "Un vélo électrique confortable, fiable et doté des meilleures technologies.\"",
+            "desc": "- la référence ultime en plein air et aventure."
+          }
+        },
+        "615bac90-7452-4f00-a84c-1fb4997b86ed": {
+          "type": "highlight_item",
+          "settings": {
+            "main_image": "shopify://shop_images/1-06.svg",
+            "logo_image_alt": "img",
+            "title": "Heybike Media Highlights",
+            "subtitle": "\"Avec lui, les endroits les plus inaccessibles le deviendront, vous permettant de découvrir la ville sous un autre angle!\"",
+            "desc": "- Source fiable d'innovations et de tendances actuelles."
           }
         }
       },
       "block_order": [
-        "6029181d-3f62-44e0-aa3e-438b6cddb31c",
-        "bfd88edc-65df-4713-b474-231d6eb30b82",
-        "4154eb24-d1e7-4988-890f-30696b81b6ea",
-        "32c33951-7d78-4c30-9e61-72ec75ab3884",
-        "707889c1-1ed2-47d6-b2ea-e60f9ad69530",
-        "4758eb01-b94b-42b2-b933-de9ec51b2bd0"
+        "56818081-5692-4180-b8de-26bd8178d637",
+        "e4b33aad-f14f-4fad-ae71-27508def29a8",
+        "15573f71-9ba4-4270-b417-f82604ccb8fb",
+        "315c656e-45af-4ebb-a962-89cb764d3744",
+        "b65aa319-4764-4bbe-9b9b-986c1bac9288",
+        "8ce1d32e-da2e-47c4-97bd-abaad3f151d2",
+        "75ac05bd-163f-4e24-ad2d-69950f2f957b",
+        "718dbab5-e8cf-4761-bbcc-9c9c30f4613f",
+        "615bac90-7452-4f00-a84c-1fb4997b86ed"
       ],
       "settings": {
-        "top_padding": "large",
-        "bottom_padding": "small",
-        "style": "default",
-        "bg_img": "shopify:\/\/shop_images\/2_713bb8d5-3534-43c1-9739-098f49500741.png",
-        "bg_color": "",
-        "text_color": "#ffffff"
+        "main_image": "shopify://shop_images/34_2x_d56063dc-c282-4c76-8e68-fb6618f64ad2.png",
+        "mobile_image": "shopify://shop_images/30_2x_e39cbf99-8c07-460a-a455-c4a7cd9f87d6.png",
+        "image_alt": "img"
       }
     },
-    "8ac0dd31-ebc0-46e2-867c-a7d6e2e0fd90": {
-      "type": "data-statistics",
+    "635faa9d-ced1-4850-bf9a-50ddf1573877": {
+      "type": "contact-support",
       "blocks": {
-        "55af95fe-1f67-44a9-922b-0a20b4838325": {
-          "type": "slide",
+        "d95743a9-7f66-4da4-9981-003fa6c66d54": {
+          "type": "customer_service",
           "settings": {
-            "text_main": "1,754,852",
-            "text_suf": "mile",
-            "text_sub": "Total Distance Riden"
+            "main_image": "shopify://shop_images/1__1_5b7d4832-3a10-4be7-b9c0-5bbf457b9e4c.png",
+            "image_alt": "img",
+            "title": "European Craftsmanship",
+            "subtitle": "Fast&reliable delivery"
           }
         },
-        "2cec7d8f-443d-475d-82d9-58b68117bc6d": {
+        "4cec2790-91cd-47de-8260-dbeff295cfd4": {
+          "type": "customer_service",
+          "settings": {
+            "main_image": "shopify://shop_images/1-02_c5ff3f86-24ac-4561-b3eb-c617d7520181.png",
+            "image_alt": "img",
+            "title": "Timely Support",
+            "subtitle": "+44 8081695220(EN)"
+          }
+        },
+        "657610d6-eadc-4dd5-accb-ff4af9b41472": {
+          "type": "customer_service",
+          "settings": {
+            "main_image": "shopify://shop_images/1-03.png",
+            "image_alt": "img",
+            "title": "VAT Included",
+            "subtitle": "Secure payment, strong encryption"
+          }
+        },
+        "d233beb8-352b-4ee7-bec7-934fc4d0c55f": {
+          "type": "customer_service",
+          "settings": {
+            "main_image": "shopify://shop_images/01_5139cff9-9d15-470f-94cc-48934398ef8e.png",
+            "image_alt": "img",
+            "title": "30 days return policy",
+            "subtitle": "Buy with confidence"
+          }
+        }
+      },
+      "block_order": [
+        "d95743a9-7f66-4da4-9981-003fa6c66d54",
+        "4cec2790-91cd-47de-8260-dbeff295cfd4",
+        "657610d6-eadc-4dd5-accb-ff4af9b41472",
+        "d233beb8-352b-4ee7-bec7-934fc4d0c55f"
+      ],
+      "settings": {
+        "main_image": "shopify://shop_images/26_2x_76ecae8a-1e59-4803-9004-4f2f469fe0f7.png",
+        "mobile_image": "shopify://shop_images/h-_55.png",
+        "image_alt": "img",
+        "user_bg": "shopify://shop_images/35_2x_be2b149b-0b8a-4d12-be3e-e16068c91f36.png",
+        "user_mobile_bg": "shopify://shop_images/32_2x_1.png",
+        "user_bg_alt": "user_bg_alt",
+        "avatar": "shopify://shop_images/DSC08837-1.jpg",
+        "avatar_alt": "avatar_alt",
+        "title": "Do you have any questions?<br> We are here to help.",
+        "subtitle": "Choosing a suitable e-bike for yourself may not be easy. Our customer support team will be happy to answer your questions by email and help you make the right choice. We will respond within 24 hours.",
+        "url": "shopify://pages/contact-us",
+        "btn_text": "Contact to Support"
+      }
+    },
+    "30c07ef4-3264-4745-9e50-46156b03a8f0": {
+      "type": "fans-club",
+      "blocks": {
+        "efae08a4-10fc-460c-a64c-740654da503f": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify://shop_images/DSC08845-1.jpg",
+            "image_alt": "img",
+            "url": "",
+            "title": ""
+          }
+        },
+        "abd9c78e-5f1b-4514-afc6-06b060473035": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify://shop_images/Heybike-46.jpg",
+            "image_alt": "img",
+            "url": "",
+            "title": ""
+          }
+        },
+        "e362ad8e-5da5-4f4b-a938-e85efa7856ff": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify://shop_images/Heybike-5.jpg",
+            "image_alt": "img",
+            "url": "",
+            "title": ""
+          }
+        },
+        "55a95f21-488d-4e05-9ce2-703fca4b5130": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify://shop_images/Heybike-48.jpg",
+            "image_alt": "img",
+            "url": "",
+            "title": ""
+          }
+        },
+        "79961f3f-ef84-4c1d-b04e-fe3a0cbd53a2": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify://shop_images/DSC08978.jpg",
+            "image_alt": "img",
+            "url": "",
+            "title": ""
+          }
+        },
+        "6083546f-f06f-45da-8c77-f08653df8ad4": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify://shop_images/Heybike-92.jpg",
+            "image_alt": "img",
+            "url": "",
+            "title": ""
+          }
+        },
+        "text_block_NzqMpd": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify://shop_images/DSC08955.jpg",
+            "image_alt": "img",
+            "url": "",
+            "title": ""
+          }
+        },
+        "text_block_KX7HXW": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify://shop_images/DSC08885.jpg",
+            "image_alt": "img",
+            "url": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "efae08a4-10fc-460c-a64c-740654da503f",
+        "abd9c78e-5f1b-4514-afc6-06b060473035",
+        "e362ad8e-5da5-4f4b-a938-e85efa7856ff",
+        "55a95f21-488d-4e05-9ce2-703fca4b5130",
+        "79961f3f-ef84-4c1d-b04e-fe3a0cbd53a2",
+        "6083546f-f06f-45da-8c77-f08653df8ad4",
+        "text_block_NzqMpd",
+        "text_block_KX7HXW"
+      ],
+      "settings": {
+        "title": "Discover more @heybike.uk"
+      }
+    },
+    "section_data_statstics_dtcPtg": {
+      "type": "Section-Data-statstics",
+      "blocks": {
+        "slide_6DatzB": {
           "type": "slide",
           "settings": {
-            "text_main": "80000",
+            "text_main": "8,000,000",
+            "text_suf": "miles",
+            "text_sub": "Total Distance Ridden"
+          }
+        },
+        "slide_4zcb3N": {
+          "type": "slide",
+          "settings": {
+            "text_main": "160000",
             "text_suf": "+",
             "text_sub": "Active Riders"
           }
         },
-        "3b0e13f5-a095-46d4-afa9-e33dfc671812": {
+        "slide_TzKFTf": {
           "type": "slide",
           "settings": {
-            "text_main": "9,989,368",
-            "text_suf": "lb",
-            "text_sub": "Total CO₂ Emissions Saved"
+            "text_main": "21,440,000",
+            "text_suf": "kg",
+            "text_sub": "Total CO₂ Emissions Reduced"
           }
         },
-        "752b2092-7e2b-4a37-b195-38804c6a344e": {
+        "slide_pWmypB": {
           "type": "slide",
           "settings": {
-            "text_main": "987,865",
-            "text_suf": "pcs",
+            "text_main": "2,680,000",
+            "text_suf": "",
             "text_sub": "Equivalent Trees Planted"
           }
         }
       },
       "block_order": [
-        "55af95fe-1f67-44a9-922b-0a20b4838325",
-        "2cec7d8f-443d-475d-82d9-58b68117bc6d",
-        "3b0e13f5-a095-46d4-afa9-e33dfc671812",
-        "752b2092-7e2b-4a37-b195-38804c6a344e"
-      ],
-      "custom_css": [
-
+        "slide_6DatzB",
+        "slide_4zcb3N",
+        "slide_TzKFTf",
+        "slide_pWmypB"
       ],
       "settings": {
         "top_padding": "none",
         "bottom_padding": "large",
         "bg_color": "#f3f5f9",
-        "title": "Go Green with Heybike",
-        "image": "shopify:\/\/shop_images\/7d1092826674963ad143e87bf6fb8dcd.jpg",
-        "image_mb": "shopify:\/\/shop_images\/683d8ad056250280ab7d53259d3da6aa.png"
+        "title": "The green journey in numbers",
+        "image": "shopify://shop_images/7d1092826674963ad143e87bf6fb8dcd_e1307103-d861-42b2-bb14-9e1a7ded26fd.jpg",
+        "image_mb": "shopify://shop_images/683d8ad056250280ab7d53259d3da6aa_01958410-cad8-43fc-8ad7-287f0c2c9eb4.png"
       }
     },
-    "9097e021-5397-4a21-8d22-e6f121fbda8f": {
-      "type": "image-text",
+    "cdbe83a7-5759-4ed9-87a4-9e53bd3862ea": {
+      "type": "newsletter-subscription",
       "settings": {
-        "top_padding": "large",
-        "bottom_padding": "default",
-        "bg_color": "#000000",
-        "bg_img": "shopify:\/\/shop_images\/C.jpg",
-        "text_main": "Find Dealers Near You",
-        "text_sub": "Test Ride & Buy Directly",
-        "text_btn": "Read More",
-        "url": ""
-      }
-    },
-    "a2d3fa24-4809-40c0-b63d-a720d6b02f2c": {
-      "type": "multiple-image-text",
-      "blocks": {
-        "16e18420-5cfa-45d6-a2b4-a4157ffc0f22": {
-          "type": "image",
-          "settings": {
-            "slide_w": "w-2\/3",
-            "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/10619-European_trade_fair_preview_social_media_campaign_image_75679348-fbfe-4d62-8877-d76322120dcf.jpg",
-            "text_main": "\"EUROBIKE 2023 Exhibition is Now Live: Discover the Future of E-bikes!\"",
-            "text_sub": "We look forward to meeting you at the event and discussing mutually beneficial prospects.",
-            "img_link": "shopify:\/\/pages\/become-a-dealer"
-          }
-        },
-        "61279fbb-db0a-4969-b5f8-ca73202edf62": {
-          "type": "image",
-          "settings": {
-            "slide_w": "w-1\/3",
-            "bg_color": "",
-            "bg_img": "shopify:\/\/shop_images\/lQDPJyFWi8lReALNAZrNAZWwtR7lJhj7e7gEaz5jiAAMAA_405_410.jpg",
-            "bg_img_mb": "shopify:\/\/shop_images\/bolg_2_2c275478-9447-43c4-9e7c-3c1829808602.jpg",
-            "text_main": "Share your lovely moment",
-            "text_sub": "Follow us on Facebook & YouTube",
-            "img_link": "shopify:\/\/pages\/post-heybike"
-          }
-        }
-      },
-      "block_order": [
-        "16e18420-5cfa-45d6-a2b4-a4157ffc0f22",
-        "61279fbb-db0a-4969-b5f8-ca73202edf62"
-      ],
-      "settings": {
-        "top_padding": "large",
-        "bottom_padding": "default",
-        "title": "The World of HEYBIKE",
-        "layout": "imgText",
-        "enable_slider": false,
-        "bottom_line": false
-      }
-    },
-    "e0be29cc-4f32-4503-8012-abbb3949eb80": {
-      "type": "banner-with-text",
-      "blocks": {
-        "template--19143575470395__e0be29cc-4f32-4503-8012-abbb3949eb80-1684744024f2b6438e-0": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/app720x700.png",
-            "layout": "right",
-            "title": "Smarttech and APP",
-            "text": "<p>Your amazing rides deserve a journal! Connect your bike to the HEYBIKE App, and build an impressive mileage count!<\/p>",
-            "logo_url": "",
-            "logo_url2": "",
-            "button_label": "",
-            "button_link": "\/",
-            "text_align": "text-left",
-            "text_center": false,
-            "tcl": "#000000",
-            "cl": "#000000",
-            "bg": "#f3f5f9",
-            "btncl": "#ffffff",
-            "btnbg": "#000000",
-            "btnbd": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "template--19143575470395__e0be29cc-4f32-4503-8012-abbb3949eb80-1684744024f2b6438e-0"
-      ],
-      "settings": {
-        "top_padding": "none",
-        "bottom_padding": "none",
-        "top-offeset": "default",
-        "section_style": "heybike",
-        "section_width": true,
-        "section_cov": false,
-        "sec_bg_clr": "#fafafa",
-        "snow_effect": false,
-        "snow_style": "style1",
-        "tfs": 30,
-        "tfsm": 150,
-        "tff": "ft1",
-        "tfw": "700",
-        "tlh": 1.2,
-        "tmb": 15,
-        "tmbm": 10,
-        "fs": 14,
-        "fsm": 75,
-        "fw": "400",
-        "lh": 1.6,
-        "mb": 15,
-        "mbm": 10,
-        "btn-size-desk": "btn-md",
-        "btn-size-mob": "mob-btn-sm"
-      }
-    },
-    "1633781776086e75a0": {
-      "type": "featured-blog",
-      "disabled": true,
-      "settings": {
-        "title": "<b>Heybike Blog<\/b>",
-        "subtitle": "Learn more about E-bike knowledge and information",
-        "top-offeset": "default",
-        "section_cov": true,
-        "sec_bg_clr": "#fafafa",
-        "blog": "news",
-        "img_ratio": "50",
-        "post_limit": 3,
-        "grid": 3,
-        "tablet-grid": 2,
-        "mobile-grid": 1,
-        "blog_align": "text-center",
-        "blog_show_author": false,
-        "blog_show_date": true,
-        "show_comment": true,
-        "show_mini_des": false,
-        "show_read_more": false,
-        "show_view_all": false,
-        "btn-style": "btn",
-        "btn-size-desk": "btn-sm",
-        "btn-size-mob": "mob-btn-sm"
-      }
-    },
-    "16337817926d98687d": {
-      "type": "store-features",
-      "blocks": {
-        "1561784085337-0": {
-          "type": "text_block",
-          "settings": {
-            "icons": "at-ship-fast",
-            "title": "Fast Shipping",
-            "text": "<p>Speedy and Trusted Shipping <\/p>",
-            "texturl": ""
-          }
-        },
-        "1561784085337-2": {
-          "type": "text_block",
-          "settings": {
-            "icons": "at-users-l",
-            "title": "Fast Support",
-            "text": "<p>Email & Phone Service<\/p>",
-            "texturl": ""
-          }
-        },
-        "1561784085337-1": {
-          "type": "text_block",
-          "settings": {
-            "icons": "at-shield-check",
-            "title": "30-Day Trial",
-            "text": "<p>Buy with Confidence<\/p>",
-            "texturl": ""
-          }
-        },
-        "32d5e282-cf64-4a7b-bc5f-125a7c64fd80": {
-          "type": "text_block",
-          "settings": {
-            "icons": "at-truck-l",
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to display your store information<\/p>",
-            "texturl": ""
-          }
-        }
-      },
-      "block_order": [
-        "1561784085337-0",
-        "1561784085337-2",
-        "1561784085337-1",
-        "32d5e282-cf64-4a7b-bc5f-125a7c64fd80"
-      ],
-      "custom_css": [
-        ".sec-ttl .h3,div.sec-ttl p {color: #fff;}"
-      ],
-      "settings": {
-        "top_padding": "large",
-        "bottom_padding": "large",
-        "top-offeset": "none",
-        "section_style": "heybike",
-        "section_width": false,
-        "section_cov": true,
-        "sec_bg_clr": "#1d1d1d",
-        "hide_mobile": false,
-        "title": "Superb Bikes. Superior Service.",
-        "subtitle": "Responsive and Reliable Customer Support",
-        "style": "style1",
-        "icon-type": "icon",
-        "icons_clr": "#ffffff",
-        "isz": 55,
-        "tcl": "#ffffff",
-        "tfs": 24,
-        "tfsm": 75,
-        "tfw": "600",
-        "tlh": 1.2,
-        "cl": "#eeeeee",
-        "border_sep": "rgba(0,0,0,0)"
+        "main_image": "shopify://shop_images/UK.jpg",
+        "mob_image": "shopify://shop_images/UK_4e18f51a-0e5d-495d-b0cb-a29a853221a9.jpg",
+        "image_alt": "img",
+        "title": "Newsletter",
+        "subtitle": "Get exclusive insights into our latest e-bikes, promotions and insider tips.",
+        "placeholder": "E-Mail",
+        "subscribe": "Subscribe",
+        "color_text": "#ffffff"
       }
     }
   },
   "order": [
     "slideshow",
-    "583b741b-600f-49b4-9c12-175b587241ee",
-    "6466a547-b260-459b-b173-ee05a2e100ae",
-    "8ac0dd31-ebc0-46e2-867c-a7d6e2e0fd90",
-    "9097e021-5397-4a21-8d22-e6f121fbda8f",
-    "a2d3fa24-4809-40c0-b63d-a720d6b02f2c",
-    "e0be29cc-4f32-4503-8012-abbb3949eb80",
-    "1633781776086e75a0",
-    "16337817926d98687d"
+    "22f39f6e-31e7-4c39-b7a5-ba94b8182fd3",
+    "before_after_image_nzQypL",
+    "section_story_seiper_7jVyWW",
+    "8bf90c7d-27aa-4f53-92af-48339e689f89",
+    "advantage_fxQYVa",
+    "11c84400-ee7f-40be-a8b8-51a0b5ff30ef",
+    "635faa9d-ced1-4850-bf9a-50ddf1573877",
+    "30c07ef4-3264-4745-9e50-46156b03a8f0",
+    "section_data_statstics_dtcPtg",
+    "cdbe83a7-5759-4ed9-87a4-9e53bd3862ea"
   ]
 }
