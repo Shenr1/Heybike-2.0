@@ -13,20 +13,20 @@
         "heading_aMzfwz": {
           "type": "heading",
           "settings": {
-            "text": "Sharing adventures with friends and family",
+            "text": "Dive into savings with our exclusive Bike Month offers",
             "heading_tag": "h6"
           }
         },
         "richtext_4yxXFp": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>Save up to £1,506 on double E-Bikes</strong></h2>"
+            "content": "<h2><strong>Save up to £669 on each E-Bike</strong></h2>"
           }
         },
         "richtext_Y3QPfF": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Discover the freedom together.</p>"
+            "content": ""
           }
         }
       },
@@ -40,27 +40,70 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/1920-800.jpg",
-        "mobile_image": "shopify://shop_images/750-1000_84892152-15af-47c2-93a6-9e80cb30fd53.jpg",
-        "mobile_text_position": "place-self-end-center text-center",
-        "desktop_text_position": "sm:place-self-center-end sm:text-end",
-        "text_color": "#ffffff",
+        "image": "shopify://shop_images/02_8977aa84-f1a4-48fc-81cc-537a9acc9105.jpg",
+        "mobile_image": "shopify://shop_images/02_750X1000_c2be5195-41a3-46fc-b692-5359a6f24f2d.jpg",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#1a1a1a",
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
     },
-    "tab_image_text_gDa8FC": {
-      "type": "Tab-image-text",
+    "media_with_text_xK3Giy": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_EpLN7L": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EC_1_-_ST.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Save £669 with EC 1",
+            "content": "<p><strong>Hydraulic brake</strong></p><p><strong>Three colors available: black, white, blue</strong></p>",
+            "link_text": "Shop Now",
+            "link_url": "shopify://products/ec-1",
+            "background": "#ebd5bc",
+            "background_gradient": "",
+            "text_color": "#121212",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_yXGrg9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EC_1_246c1db8-5490-42c5-80cc-19eb30c06490.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Save £669 with EC 1 -ST",
+            "content": "<p><strong>Hydraulic brake</strong></p><p><strong>Three colors available: pink, blue, white</strong></p>",
+            "link_text": "Shop Now",
+            "link_url": "shopify://products/ec-1-st-1",
+            "background": "#ebd5bc",
+            "background_gradient": "",
+            "text_color": "#121212",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_EpLN7L",
+        "image_yXGrg9"
+      ],
       "settings": {
-        "bg_color": "",
-        "top_padding": "sm",
-        "bottom_padding": "sm",
-        "top_margin": "sm",
-        "bottom_margin": "none",
-        "top_padding_mb": "sm",
-        "bottom_padding_mb": "sm",
-        "top_margin_mb": "sm",
-        "bottom_margin_mb": "sm"
+        "full_width": false,
+        "spacing": "small"
       }
     },
     "multi_column_gWXLrR": {
@@ -97,6 +140,7 @@
         "item_twHkJB",
         "item_r4TpBB"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_on_mobile": true,
@@ -111,18 +155,75 @@
         "text_color": "#1a1a1a"
       }
     },
-    "tab_image_text_Uppqdb": {
-      "type": "Tab-image-text",
+    "collection_list_7q9jRd": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_339Pct": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/EC1_EC1_2cc7636a-b4f9-4a83-8355-042ef2c5e2c4.png",
+            "subheading": "",
+            "title": "EC 1 Combo",
+            "url": "shopify://products/ec-1-combo",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "collection_Ki6E8z": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/EC1-ST_EC1-ST_77bb74ed-6149-46e9-8574-229d0f03f8d6.png",
+            "subheading": "",
+            "title": "EC 1-ST Combo",
+            "url": "shopify://products/ec-1-st-combo",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "collection_a8cMg4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/EC_1_ST.png",
+            "subheading": "",
+            "title": "EC 1 & EC 1-ST Combo",
+            "url": "shopify://products/ec-1-ec-1-st-combo",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        }
+      },
+      "block_order": [
+        "collection_339Pct",
+        "collection_Ki6E8z",
+        "collection_a8cMg4"
+      ],
       "settings": {
-        "bg_color": "",
-        "top_padding": "sm",
-        "bottom_padding": "sm",
-        "top_margin": "sm",
-        "bottom_margin": "none",
-        "top_padding_mb": "sm",
-        "bottom_padding_mb": "sm",
-        "top_margin_mb": "sm",
-        "bottom_margin_mb": "sm"
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "Special Combo Offer",
+        "content": "<p><strong>Buy two E-Bikes at the same time you can save up to ￡1,506</strong></p>",
+        "link_url": "shopify://collections/electric-bike",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "multi_column_yejngE": {
@@ -187,6 +288,7 @@
         "item_knMcpP",
         "item_PgKEDq"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_on_mobile": true,
@@ -199,6 +301,40 @@
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#1a1a1a"
+      }
+    },
+    "media_with_text_rJxTzC": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_DnigcA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/07_1000X1000_f57e0f73-0976-422d-aed1-c922fdaff735.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Photo Contest",
+            "content": "<p><strong>Join the photo contest and win a £100 gift card for your new bike or accessories!</strong></p>",
+            "link_text": "Learn more",
+            "link_url": "shopify://pages/photos-contest",
+            "background": "#ebd5bc",
+            "background_gradient": "",
+            "text_color": "#121212",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_DnigcA"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
       }
     },
     "newsletter_XdMmAq": {
@@ -221,10 +357,11 @@
   "order": [
     "main",
     "cf3d01a0-0bd7-475b-ae0a-d3479954327a",
-    "tab_image_text_gDa8FC",
+    "media_with_text_xK3Giy",
     "multi_column_gWXLrR",
-    "tab_image_text_Uppqdb",
+    "collection_list_7q9jRd",
     "multi_column_yejngE",
+    "media_with_text_rJxTzC",
     "newsletter_XdMmAq"
   ]
 }

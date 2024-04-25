@@ -14,6 +14,7 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     {% comment %} 3rd party tracking codes {% endcomment %}
     {% render 'tracking-Ptengine-tag' %}
     {% render 'tracking-GTM-NKZHFLW7' %}
+    {% render 'Google-Remarketing-Tag' %}
     {% render 'tracking-Bing-176407361' %}
     
     <meta charset="utf-8">
@@ -69,11 +70,9 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
   <body class="{% if settings.show_page_transition %}page-transition{% endif %} {% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKZHFLW7"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
-
-    
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
     <script type="text/javascript" data-cmp-ab="1" src="https://cdn.consentmanager.net/delivery/autoblocking/2c2f9b17e1f72.js" data-cmp-host="d.delivery.consentmanager.net" data-cmp-cdn="cdn.consentmanager.net" data-cmp-codesrc="1"></script>
    
  {%- render 'shadow-dom-templates' -%}

@@ -7468,7 +7468,7 @@ split-lines {
 }
 
 .product-info {
-  --product-info-block-spacing: var(--spacing-6);
+  --product-info-block-spacing: var(--spacing-5);
 }
 
 .product-info > * + * {

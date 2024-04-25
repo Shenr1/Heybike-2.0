@@ -6,17 +6,17 @@
         "d54499ba-c22c-4d5a-a5bb-d5723b1d8415": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/1920X700.jpg",
-            "mobile_image": "shopify://shop_images/750-1000.jpg",
+            "image": "shopify://shop_images/02_9f03ee92-d6ba-49f8-8973-22013cfe07d3.jpg",
+            "mobile_image": "shopify://shop_images/02_750X1000_80eb454d-e4dd-444c-9bc4-51a7927ccac1.jpg",
             "content_max_width": 780,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "subheading": "Save the Planet 🌍Last 3 Days!",
-            "title": "Earth Day Sale Save up to £1,506",
-            "heading_tag": "h1",
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "Get Ready to Ride in Bike Month🚴‍♀️",
+            "title": "Save up to £669 on each bike",
+            "heading_tag": "h2",
             "button_text": "Shop Now",
             "button_link": "shopify://collections/electric-bike",
-            "text_color": "#ffffff",
+            "text_color": "#1a1a1a",
             "button_background": "#ffffff",
             "button_text_color": "#1a1a1a",
             "overlay_color": "#ffffff",
@@ -219,7 +219,7 @@
           "type": "advantage",
           "settings": {
             "main_image": "shopify://shop_images/DSC09050-1.jpg",
-            "mobile_image": "shopify://shop_images/DSC09050-1_acc02dcd-f7c3-4191-9257-bacb7bbc50b8.jpg",
+            "mobile_image": "shopify://shop_images/DSC09050-ph.jpg",
             "image_alt": "img",
             "title": "Why Heybike",
             "subtitle": "To create a better, greener and more comfortable life for people.",
@@ -460,7 +460,7 @@
         "user_bg": "shopify://shop_images/35_2x_be2b149b-0b8a-4d12-be3e-e16068c91f36.png",
         "user_mobile_bg": "shopify://shop_images/32_2x_1.png",
         "user_bg_alt": "user_bg_alt",
-        "avatar": "shopify://shop_images/DSC08837-1.jpg",
+        "avatar": "shopify://shop_images/DSC08883-1.jpg",
         "avatar_alt": "avatar_alt",
         "title": "Do you have any questions?<br> We are here to help.",
         "subtitle": "Choosing a suitable e-bike for yourself may not be easy. Our customer support team will be happy to answer your questions by email and help you make the right choice. We will respond within 24 hours.",
@@ -474,7 +474,7 @@
         "efae08a4-10fc-460c-a64c-740654da503f": {
           "type": "text_block",
           "settings": {
-            "main_image": "shopify://shop_images/DSC08845-1.jpg",
+            "main_image": "shopify://shop_images/3_bc549315-9575-47e3-b7d0-26aa1b0ce8ec.jpg",
             "image_alt": "img",
             "url": "",
             "title": ""
@@ -483,7 +483,7 @@
         "abd9c78e-5f1b-4514-afc6-06b060473035": {
           "type": "text_block",
           "settings": {
-            "main_image": "shopify://shop_images/Heybike-46.jpg",
+            "main_image": "shopify://shop_images/10_981d78e5-e361-4eae-94a9-6edf4e4b5efc.jpg",
             "image_alt": "img",
             "url": "",
             "title": ""
@@ -492,7 +492,7 @@
         "e362ad8e-5da5-4f4b-a938-e85efa7856ff": {
           "type": "text_block",
           "settings": {
-            "main_image": "shopify://shop_images/Heybike-5.jpg",
+            "main_image": "shopify://shop_images/9_e3f60cde-cd09-4dfc-9182-290be065ff29.jpg",
             "image_alt": "img",
             "url": "",
             "title": ""
@@ -501,7 +501,7 @@
         "55a95f21-488d-4e05-9ce2-703fca4b5130": {
           "type": "text_block",
           "settings": {
-            "main_image": "shopify://shop_images/Heybike-48.jpg",
+            "main_image": "shopify://shop_images/11_cb26b19d-e800-44f7-b85c-37d48006b097.jpg",
             "image_alt": "img",
             "url": "",
             "title": ""
@@ -510,7 +510,7 @@
         "79961f3f-ef84-4c1d-b04e-fe3a0cbd53a2": {
           "type": "text_block",
           "settings": {
-            "main_image": "shopify://shop_images/DSC08978.jpg",
+            "main_image": "shopify://shop_images/6_08a34c5d-2d16-41aa-8c53-1f4935e82445.jpg",
             "image_alt": "img",
             "url": "",
             "title": ""
@@ -519,7 +519,7 @@
         "6083546f-f06f-45da-8c77-f08653df8ad4": {
           "type": "text_block",
           "settings": {
-            "main_image": "shopify://shop_images/Heybike-92.jpg",
+            "main_image": "shopify://shop_images/13_80a6296e-c1c2-4ae4-900b-9e0439ed000e.jpg",
             "image_alt": "img",
             "url": "",
             "title": ""
@@ -528,7 +528,7 @@
         "text_block_NzqMpd": {
           "type": "text_block",
           "settings": {
-            "main_image": "shopify://shop_images/DSC08955.jpg",
+            "main_image": "shopify://shop_images/5_0a450979-6738-4c1e-b684-5cf85978ddf7.jpg",
             "image_alt": "img",
             "url": "",
             "title": ""
@@ -537,7 +537,7 @@
         "text_block_KX7HXW": {
           "type": "text_block",
           "settings": {
-            "main_image": "shopify://shop_images/DSC08885.jpg",
+            "main_image": "shopify://shop_images/4_470104c9-70c7-4be4-8dc4-e35ddbfdbda0.jpg",
             "image_alt": "img",
             "url": "",
             "title": ""

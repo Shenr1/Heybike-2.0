@@ -8,7 +8,7 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "⚡Flash Sale save up to £1506!",
+            "text": "🚴‍♀️🚴‍♀️Bike Month Sale save up to £1506!",
             "url": "shopify://pages/sales-deals"
           }
         },
@@ -18,27 +18,11 @@
             "text": "Buy 2 ebikes, Get extra £100-Off",
             "url": "shopify://collections/electric-bike"
           }
-        },
-        "43b6b76e-873b-451b-8f6d-3d7c00aa8902": {
-          "type": "message",
-          "settings": {
-            "text": "30 days return policy",
-            "url": ""
-          }
-        },
-        "05686cfa-7890-46a8-a449-3c076579660d": {
-          "type": "message",
-          "settings": {
-            "text": "Free shipping within the UK",
-            "url": "shopify://pages/uk-shipping-policy"
-          }
         }
       },
       "block_order": [
         "message",
-        "76024db7-a027-4b47-bc94-a703ddf8edc6",
-        "43b6b76e-873b-451b-8f6d-3d7c00aa8902",
-        "05686cfa-7890-46a8-a449-3c076579660d"
+        "76024db7-a027-4b47-bc94-a703ddf8edc6"
       ],
       "settings": {
         "enable_sticky": true,

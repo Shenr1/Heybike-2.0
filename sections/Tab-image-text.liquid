@@ -55,7 +55,7 @@ tr.bg-white.border-b:nth-child(2n) {
                 {% case block.type %}
                   {% when "image" %}
                   {% if blkSet.image1 != blank %}
-                    <div class="image-switch-block lg:{{blkSet.image_w}} tw-w-full first:tw-mr-6 md:tw-order-2 tw-order-1">
+                    <div class="image-switch-block lg:{{blkSet.image_w}} tw-w-full md:tw-order-2 tw-order-1">
                       <div class="image-list">
                         {% for i in (1..4) %}
                           {% assign imgKey = 'image' | append: i %}

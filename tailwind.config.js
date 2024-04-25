@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  prefix: 'tw-',
   content: [
     './layout/*.liquid',
     './templates/*.liquid',
@@ -60,25 +61,10 @@ module.exports = {
       },
       colors: {
         vi: {
-          light: '#ffe897',
           DEFAULT: '#F6BE00',
-          dark: '#e4b000',
-        },
-        viGray: {
-          light: '#dbdbda',
-          DEFAULT: '#dbdbda',
-          dark: '#dbdbda',
         },
         black: {
-          100: '#ffffff',
-          200: '#eeeeee',
-          300: '#cccccc',
-          400: '#aaaaaa',
-          500: '#888888',
-          600: '#666666',
-          700: '#444444',
-          800: '#222222',
-          900: '#000000',
+          DEFAULT: '#000000'
         },
       }
     },

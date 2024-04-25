@@ -60,8 +60,8 @@
             {% endunless %}
           {% endfor %}
       </effect-carousel>
-      {%- if section.blocks.size > 1 -%}
-        <div class="shop-the-look__controls press__controls tw-ms-0 tw-absolute md:tw-bottom-8 tw-bottom-4 3xl:tw-right-[30%] xl:tw-right-[27%] md:tw-right-[24%] tw-right-auto md:tw-left-auto tw-left-4 md:tw-justify-normal tw-justify-between tw-z-[1] md:tw-grid tw-flex">
+      {%- if section.blocks.size > 1 -%} 
+        <div class="shop-the-look__controls press__controls tw-ms-0 tw-absolute md:tw-bottom-8 tw-bottom-4 3xl:tw-right-[30%] xl:tw-right-[21%] md:tw-right-[18%] tw-right-auto md:tw-left-auto tw-left-4 md:tw-justify-normal tw-justify-between tw-z-[1] md:tw-grid tw-flex">
           <button is="prev-button" class="circle-button ring group tw-bg-white tw-w-10 tw-h-10" aria-controls="effect-carousel-{{ section.id }}">
             <span class="sr-only">{{ 'general.accessibility.previous' | t }}</span>
             <span class="animated-arrow animated-arrow--reverse"></span>

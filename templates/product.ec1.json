@@ -37,6 +37,14 @@
           "settings": {
           }
         },
+        "gift_84Gycb": {
+          "type": "gift",
+          "settings": {
+            "pr": "mountain-cycling-helmet",
+            "con": "to receive FREE accessories with your Bike order.",
+            "badge_con": "FREE"
+          }
+        },
         "separator": {
           "type": "separator",
           "settings": {
@@ -71,8 +79,8 @@
         "countdown_q36Udr": {
           "type": "countdown",
           "settings": {
-            "countdown_lbl": "Hurry up! Free Gifts End In",
-            "countdown_date": "2024-04-22 23:59",
+            "countdown_lbl": "Hurry! Bike Month Is Wrapping Up",
+            "countdown_date": "2024-04-26 23:59",
             "countdown_days": "DAYS",
             "countdown_hours": "HRS",
             "countdown_minutes": "MIN",
@@ -171,6 +179,7 @@
         "judge_me_reviews_preview_badge_xwCLeK",
         "liquid_rJGCtU",
         "payment_terms",
+        "gift_84Gycb",
         "separator",
         "variant_picker",
         "quantity_selector",
