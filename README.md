@@ -4,6 +4,8 @@ shopify theme push --store=heybike-uk.myshopify.com
 
 启动本地开发
 shopify theme dev -e dev
+shopify theme dev -e dev --store=heybike-uk.myshopify.com
+
 
 启动tailwind监听
 npx tailwindcss -i ./assets/app-tailwind.css -o ./assets/tw-custom.css --watch

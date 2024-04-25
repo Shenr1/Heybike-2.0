@@ -577,10 +577,10 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 
 .button--xl {
   font-size: var(--text-base);
-  padding-block-start: var(--spacing-4);
-  padding-block-end: var(--spacing-4);
-  padding-inline-start: var(--spacing-1);
-  padding-inline-end: var(--spacing-1);
+  padding-block-start: var(--spacing-3);
+  padding-block-end: var(--spacing-3);
+  padding-inline-start: var(--spacing-4);
+  padding-inline-end: var(--spacing-4);
 }
 
 .button--secondary {
@@ -9877,6 +9877,7 @@ sale-price.cart-price-new.text-subdued {
 
 .subheading {
   font-weight: bold;
+  font-size: calc(1.375 * var(--text-base));
 }
 
 .heading, .h0, .h1, .h2, .h3, .h4, .h5, .h6, .prose :is(h1, h2, h3, h4, h5, h6) {
