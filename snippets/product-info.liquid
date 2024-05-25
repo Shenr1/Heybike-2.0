@@ -469,7 +469,7 @@ font-weight: 400 !important;
         <div>
           <h4 class="tw-font-semibold tw-my-2">{{block.settings.title}}</h4>
           {% assign pr = block.settings.pr %}
-          <div class="tw-flex tw-gap-4 tw-items-center tw-border-vi tw-bg-[#fffcf4] tw-border tw-border-solid tw-rounded-xl md:tw-p-4 tw-p-3">
+          <div class="tw-flex tw-gap-4 tw-items-center tw-border-vi tw-border tw-border-solid tw-rounded-xl md:tw-p-4 tw-p-3">
             <div class="md:tw-w-1/3 tw-w-2/5">
               <a href="{{ pr.url }}">
                 {{- pr.featured_image | image_url: width: pr.featured_image.width | image_tag: loading: 'lazy', sizes: '(max-width: 699px) 80px, 150px', widths: '80,150,160,300' -}}

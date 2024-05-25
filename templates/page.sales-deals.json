@@ -20,7 +20,7 @@
         "richtext_4yxXFp": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>Save up to £669 on each E-Bike</strong></h2>"
+            "content": "<h2><strong>Save up to £669 on each E-Bike<\/strong><\/h2>"
           }
         },
         "richtext_Y3QPfF": {
@@ -40,11 +40,11 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/02_8977aa84-f1a4-48fc-81cc-537a9acc9105.jpg",
-        "mobile_image": "shopify://shop_images/02_750X1000_c2be5195-41a3-46fc-b692-5359a6f24f2d.jpg",
-        "mobile_text_position": "place-self-start-center text-center",
-        "desktop_text_position": "sm:place-self-center-start sm:text-start",
-        "text_color": "#1a1a1a",
+        "image": "shopify:\/\/shop_images\/1920-700_2d15280d-0fe6-4df1-b2ee-05fe4a91e379.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/750-1000_93b693ac-cd4f-4150-8ebd-0f3cdaec33d8.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-end sm:text-end",
+        "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
@@ -55,7 +55,7 @@
         "image_EpLN7L": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/EC_1_-_ST.png",
+            "image": "shopify:\/\/shop_images\/EC_1_-_ST.png",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
@@ -63,9 +63,9 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Save £669 with EC 1",
-            "content": "<p><strong>Hydraulic brake</strong></p><p><strong>Three colors available: black, white, blue</strong></p>",
+            "content": "<p><strong>Hydraulic brake<\/strong><\/p><p><strong>Three colors available: black, white, blue<\/strong><\/p>",
             "link_text": "Shop Now",
-            "link_url": "shopify://products/ec-1",
+            "link_url": "shopify:\/\/products\/ec-1",
             "background": "#ebd5bc",
             "background_gradient": "",
             "text_color": "#121212",
@@ -77,7 +77,7 @@
         "image_yXGrg9": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/EC_1_246c1db8-5490-42c5-80cc-19eb30c06490.png",
+            "image": "shopify:\/\/shop_images\/EC_1_246c1db8-5490-42c5-80cc-19eb30c06490.png",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center text-center",
@@ -85,9 +85,9 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Save £669 with EC 1 -ST",
-            "content": "<p><strong>Hydraulic brake</strong></p><p><strong>Three colors available: pink, blue, white</strong></p>",
+            "content": "<p><strong>Hydraulic brake<\/strong><\/p><p><strong>Three colors available: pink, blue, white<\/strong><\/p>",
             "link_text": "Shop Now",
-            "link_url": "shopify://products/ec-1-st-1",
+            "link_url": "shopify:\/\/products\/ec-1-st-1",
             "background": "#ebd5bc",
             "background_gradient": "",
             "text_color": "#121212",
@@ -112,12 +112,12 @@
         "item_twHkJB": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/EC1-_UK.jpg",
+            "image": "shopify:\/\/shop_images\/EC1-_UK.jpg",
             "column_size": "2",
             "title": "EC 1",
             "heading_tag": "h4",
             "content": "",
-            "link_url": "shopify://products/ec-1",
+            "link_url": "shopify:\/\/products\/ec-1",
             "link_text": "Buy Now",
             "link_style": "button"
           }
@@ -125,12 +125,12 @@
         "item_r4TpBB": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/EC_1_c4b8cf05-f26d-400f-b379-d1c57d3ab7af.png",
+            "image": "shopify:\/\/shop_images\/EC_1_c4b8cf05-f26d-400f-b379-d1c57d3ab7af.png",
             "column_size": "2",
             "title": "EC 1-ST",
             "heading_tag": "h4",
             "content": "",
-            "link_url": "shopify://products/ec-1-st-1",
+            "link_url": "shopify:\/\/products\/ec-1-st-1",
             "link_text": "Buy Now",
             "link_style": "button"
           }
@@ -149,7 +149,7 @@
         "text_alignment": "center",
         "subheading": "",
         "title": "Exclusive offers",
-        "content": "<p>Discover the freedom of riding with Heybike!</p>",
+        "content": "<p>Discover the freedom of riding with Heybike!<\/p>",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#1a1a1a"
@@ -162,10 +162,10 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/EC1_EC1_2cc7636a-b4f9-4a83-8355-042ef2c5e2c4.png",
+            "image": "shopify:\/\/shop_images\/EC1_EC1_2cc7636a-b4f9-4a83-8355-042ef2c5e2c4.png",
             "subheading": "",
             "title": "EC 1 Combo",
-            "url": "shopify://products/ec-1-combo",
+            "url": "shopify:\/\/products\/ec-1-combo",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
@@ -177,10 +177,10 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/EC1-ST_EC1-ST_77bb74ed-6149-46e9-8574-229d0f03f8d6.png",
+            "image": "shopify:\/\/shop_images\/EC1-ST_EC1-ST_77bb74ed-6149-46e9-8574-229d0f03f8d6.png",
             "subheading": "",
             "title": "EC 1-ST Combo",
-            "url": "shopify://products/ec-1-st-combo",
+            "url": "shopify:\/\/products\/ec-1-st-combo",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
@@ -192,10 +192,10 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/EC_1_ST.png",
+            "image": "shopify:\/\/shop_images\/EC_1_ST.png",
             "subheading": "",
             "title": "EC 1 & EC 1-ST Combo",
-            "url": "shopify://products/ec-1-ec-1-st-combo",
+            "url": "shopify:\/\/products\/ec-1-ec-1-st-combo",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
@@ -216,8 +216,8 @@
         "show_progress_bar": false,
         "subheading": "",
         "title": "Special Combo Offer",
-        "content": "<p><strong>Buy two E-Bikes at the same time you can save up to ￡1,506</strong></p>",
-        "link_url": "shopify://collections/electric-bike",
+        "content": "<p><strong>Buy two E-Bikes at the same time you can save up to ￡1,506<\/strong><\/p>",
+        "link_url": "shopify:\/\/collections\/electric-bike",
         "link_text": "View all",
         "background": "",
         "background_gradient": "",
@@ -232,12 +232,12 @@
         "item_VgCXtP": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/ST_EC1-_UK.jpg",
+            "image": "shopify:\/\/shop_images\/ST_EC1-_UK.jpg",
             "column_size": "2",
             "title": "EC 1-ST & EC 1",
             "heading_tag": "h4",
             "content": "",
-            "link_url": "shopify://products/ec-1-ec-1-st-combo",
+            "link_url": "shopify:\/\/products\/ec-1-ec-1-st-combo",
             "link_text": "Buy Now",
             "link_style": "button"
           }
@@ -245,12 +245,12 @@
         "item_EEB8bW": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/ST_EC1-_UK_84572cca-42c4-460f-8048-cb68d6e75f1c.jpg",
+            "image": "shopify:\/\/shop_images\/ST_EC1-_UK_84572cca-42c4-460f-8048-cb68d6e75f1c.jpg",
             "column_size": "2",
             "title": "EC 1-ST & EC 1",
             "heading_tag": "h4",
             "content": "",
-            "link_url": "shopify://products/ec-1-ec-1-st-combo",
+            "link_url": "shopify:\/\/products\/ec-1-ec-1-st-combo",
             "link_text": "Buy Now",
             "link_style": "button"
           }
@@ -258,12 +258,12 @@
         "item_knMcpP": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/EC1_EC1_uk_fa398d69-49c1-4b17-bc20-9c79dda26caa.png",
+            "image": "shopify:\/\/shop_images\/EC1_EC1_uk_fa398d69-49c1-4b17-bc20-9c79dda26caa.png",
             "column_size": "2",
             "title": "Double EC 1",
             "heading_tag": "h4",
             "content": "",
-            "link_url": "shopify://products/ec-1-combo",
+            "link_url": "shopify:\/\/products\/ec-1-combo",
             "link_text": "Buy Now",
             "link_style": "button"
           }
@@ -271,12 +271,12 @@
         "item_PgKEDq": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/EC1-ST_EC1-ST_uk_59cb5131-012a-470c-a0b5-5d3f33be6f8d.png",
+            "image": "shopify:\/\/shop_images\/EC1-ST_EC1-ST_uk_59cb5131-012a-470c-a0b5-5d3f33be6f8d.png",
             "column_size": "2",
             "title": "Double EC 1-ST",
             "heading_tag": "h4",
             "content": "",
-            "link_url": "shopify://products/ec-1-st-combo",
+            "link_url": "shopify:\/\/products\/ec-1-st-combo",
             "link_text": "Buy Now",
             "link_style": "button"
           }
@@ -309,7 +309,7 @@
         "image_DnigcA": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/07_1000X1000_f57e0f73-0976-422d-aed1-c922fdaff735.jpg",
+            "image": "shopify:\/\/shop_images\/07_1000X1000_f57e0f73-0976-422d-aed1-c922fdaff735.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
@@ -317,9 +317,9 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Photo Contest",
-            "content": "<p><strong>Join the photo contest and win a £100 gift card for your new bike or accessories!</strong></p>",
+            "content": "<p><strong>Join the photo contest and win a £100 gift card for your new bike or accessories!<\/strong><\/p>",
             "link_text": "Learn more",
-            "link_url": "shopify://pages/photos-contest",
+            "link_url": "shopify:\/\/pages\/photos-contest",
             "background": "#ebd5bc",
             "background_gradient": "",
             "text_color": "#121212",

@@ -21,14 +21,14 @@
           }
         },
         "judge_me_reviews_preview_badge_xwCLeK": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
         "liquid_rJGCtU": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"flex items-center\">\n    <img class=\"mr-4\" src=\"https://cdn.shopify.com/s/files/1/0727/4535/3500/files/klama_50x_d45af387-b200-4d45-bbd0-12c8ca24a6f6.png?v=1690597910\" alt=\"\">\n    <p>\n      Buy now, pay later.<a style=\"text-decoration: underline;\" href=\"https://www.klarna.com/uk/?\">Learn More</a>\n    </p>\n  </div>"
+            "liquid": "<div class=\"flex items-center\">\n    <img class=\"mr-4\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0727\/4535\/3500\/files\/klama_50x_d45af387-b200-4d45-bbd0-12c8ca24a6f6.png?v=1690597910\" alt=\"\">\n    <p>\n      Buy now, pay later.<a style=\"text-decoration: underline;\" href=\"https:\/\/www.klarna.com\/uk\/?\">Learn More<\/a>\n    <\/p>\n  <\/div>"
           }
         },
         "payment_terms": {
@@ -57,6 +57,15 @@
           "settings": {
           }
         },
+        "gift_YzDWqH": {
+          "type": "gift",
+          "settings": {
+            "title": "Exclusive Offer",
+            "pr": "extra-one-year-warranty-one-week-only",
+            "con": "One Week Offer Only",
+            "badge_con": "FREE"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -71,8 +80,8 @@
         "countdown_pQdf7W": {
           "type": "countdown",
           "settings": {
-            "countdown_lbl": "Hurry up! Free Gifts End In",
-            "countdown_date": "2024-04-16 23:59",
+            "countdown_lbl": "Hurry! Anniversary Sale Ends in:",
+            "countdown_date": "2024-05-27 23:59",
             "countdown_days": "DAYS",
             "countdown_hours": "HRS",
             "countdown_minutes": "MIN",
@@ -92,7 +101,7 @@
         "image_7P7r6w": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/1_1c325fb6-bf43-4e03-8bc0-8f144eed3a7b.png",
+            "image": "shopify:\/\/shop_images\/1_1c325fb6-bf43-4e03-8bc0-8f144eed3a7b.png",
             "alignment": "start",
             "max_width": 150
           }
@@ -101,7 +110,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p><strong>*Estimated delivery time: 2-8 working days from UK warehouse.</strong></p><p><strong>*Bikes & accessories are dispatched separately.</strong></p>"
+            "text": "<p><strong>*Estimated delivery time: 2-8 working days from UK warehouse.<\/strong><\/p><p><strong>*Bikes & accessories are dispatched separately.<\/strong><\/p>"
           }
         },
         "specs_DeWEHg": {
@@ -126,7 +135,7 @@
             "icon": "picto-timer",
             "icon_width": 24,
             "title": "Responsive Support",
-            "content": "<p>Email us or call +44 8081695220</p>",
+            "content": "<p>Email us or call +44 8081695220<\/p>",
             "background": "#ffffff",
             "text_color": "#121212"
           }
@@ -139,7 +148,7 @@
             "icon": "picto-return",
             "icon_width": 24,
             "title": "1-Year Warranty",
-            "content": "<p>Learn More About <a href=\"/pages/warranty\" target=\"_blank\" title=\"Warranty\">Warranty</a></p>",
+            "content": "<p>Learn More About <a href=\"\/pages\/warranty\" target=\"_blank\" title=\"Warranty\">Warranty<\/a><\/p>",
             "background": "#ffffff",
             "text_color": "#121212"
           }
@@ -152,7 +161,7 @@
             "icon": "picto-truck",
             "icon_width": 24,
             "title": "Free, Fast Shipping",
-            "content": "<p>Ships from UK warehouse</p>",
+            "content": "<p>Ships from UK warehouse<\/p>",
             "background": "#ffffff",
             "text_color": "#000000"
           }
@@ -174,6 +183,7 @@
         "separator",
         "variant_picker",
         "quantity_selector",
+        "gift_YzDWqH",
         "buy_buttons",
         "countdown_pQdf7W",
         "associated_products_DQmW6R",
@@ -198,10 +208,10 @@
         "enable_image_zoom": true,
         "max_image_zoom_level": 2.5,
         "enable_accessory": true,
-        "accessory_image": "shopify://shop_images/Double_gifts-uk_7c8c9134-9c2e-4960-bdc2-1a59dd9d8e53.png",
+        "accessory_image": "shopify:\/\/shop_images\/uk_9f8ab374-ccb6-462d-b753-9b3b0dce30e2.jpg",
         "accessory_alt": "",
-        "accessory_title": "<p><strong>Free Gift</strong></p>",
-        "accessory_content": "<p>Included in delivery</p>",
+        "accessory_title": "<p><strong>Free Gift<\/strong><\/p>",
+        "accessory_content": "<p>Included in delivery<\/p>",
         "accessory_price": "£256",
         "accessory_loser": "free",
         "background_accessory": "#f2f2ef",
@@ -303,7 +313,7 @@
         "image_JyRTBq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/12_44e686fc-7453-4a60-b3bb-aeff20237e7d.png",
+            "image": "shopify:\/\/shop_images\/12_44e686fc-7453-4a60-b3bb-aeff20237e7d.png",
             "number": "19.2",
             "unit": "kg",
             "remarks": "Weight of the bike"
@@ -312,7 +322,7 @@
         "image_azQePi": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/11.png",
+            "image": "shopify:\/\/shop_images\/11.png",
             "number": "100",
             "unit": "km",
             "remarks": "Range"
@@ -321,7 +331,7 @@
         "image_jEiMeh": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ce_-icon_927748d8-8ec3-48d7-a721-20d65ace3a0a.png",
+            "image": "shopify:\/\/shop_images\/ce_-icon_927748d8-8ec3-48d7-a721-20d65ace3a0a.png",
             "number": "CE & RoHS",
             "unit": "",
             "remarks": "Certification"
@@ -330,7 +340,7 @@
         "image_GY7kWA": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/9_f03b1499-eb3c-4918-9f38-8b152dd4c18c.png",
+            "image": "shopify:\/\/shop_images\/9_f03b1499-eb3c-4918-9f38-8b152dd4c18c.png",
             "number": "360",
             "unit": "Wh",
             "remarks": "Samsung battery"
@@ -346,7 +356,7 @@
         "functionality_prdahD": {
           "type": "functionality",
           "settings": {
-            "vantage_one": "25 km/h",
+            "vantage_one": "25 km\/h",
             "vantage_two": "Max. speed"
           }
         },
@@ -393,8 +403,8 @@
       ],
       "settings": {
         "title": "Reshaping the future.",
-        "background_image": "shopify://shop_images/614_2x_256x256_5f0050a7-d2ae-49e5-a497-22b8e787b5eb.png",
-        "background_image_mobile": "shopify://shop_images/34_256x256_0437d683-9d86-4932-b363-b951a2e06f97.jpg"
+        "background_image": "shopify:\/\/shop_images\/614_2x_256x256_5f0050a7-d2ae-49e5-a497-22b8e787b5eb.png",
+        "background_image_mobile": "shopify:\/\/shop_images\/34_256x256_0437d683-9d86-4932-b363-b951a2e06f97.jpg"
       }
     },
     "multi_column_pmjiYt": {
@@ -403,7 +413,7 @@
         "item_TJd76F": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/45ed3f1e6610480b500dc4b3ce8b9c7d.jpg",
+            "image": "shopify:\/\/shop_images\/45ed3f1e6610480b500dc4b3ce8b9c7d.jpg",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -416,7 +426,7 @@
         "item_RQ9DbJ": {
           "type": "item",
           "settings": {
-            "video": "shopify://files/videos/EC 1-ST短_4ee929be-27b7-403e-9080-3fa973ba92bd.mp4",
+            "video": "shopify:\/\/files\/videos\/EC 1-ST短_4ee929be-27b7-403e-9080-3fa973ba92bd.mp4",
             "column_size": "1.5",
             "title": "",
             "heading_tag": "h4",
@@ -439,7 +449,7 @@
         "text_alignment": "center",
         "subheading": "Your companion to explore the city and embody style.",
         "title": "Reshaping the future",
-        "content": "<p>The low frame design offers comfortable elegance for anyone who wants to travel in style. Whether fashionable dresses or casual outfits, this e-bike fits your lifestyle perfectly.</p>",
+        "content": "<p>The low frame design offers comfortable elegance for anyone who wants to travel in style. Whether fashionable dresses or casual outfits, this e-bike fits your lifestyle perfectly.<\/p>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -464,8 +474,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/1920-500_bb7c3ea7-3952-43f7-a780-753cb9ae59bf.jpg",
-        "mobile_image": "shopify://shop_images/750-1128.jpg",
+        "image": "shopify:\/\/shop_images\/1920-500_bb7c3ea7-3952-43f7-a780-753cb9ae59bf.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/750-1128.jpg",
         "mobile_text_position": "place-self-end-center text-center",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#1a1a1a",
@@ -479,7 +489,7 @@
         "video_6tdXtp": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/欧洲详情页短视频EC 1 ST-电池.mp4",
+            "video": "shopify:\/\/files\/videos\/欧洲详情页短视频EC 1 ST-电池.mp4",
             "external_video_url": "",
             "autoplay": true,
             "media_width": 50,
@@ -489,7 +499,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Removable battery",
-            "content": "<p>Designed to fuel your adventures, this battery from Samsung offers exceptional performance and efficiency.</p><p>Unleash your freedom with an impressive range of up to 100 km (62 miles) on a single charge, allowing you to explore without limits.</p>",
+            "content": "<p>Designed to fuel your adventures, this battery from Samsung offers exceptional performance and efficiency.<\/p><p>Unleash your freedom with an impressive range of up to 100 km (62 miles) on a single charge, allowing you to explore without limits.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -503,7 +513,7 @@
         "video_KeWQrV": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/欧洲详情页短视频EC 1 ST-刹车002.mp4",
+            "video": "shopify:\/\/files\/videos\/欧洲详情页短视频EC 1 ST-刹车002.mp4",
             "external_video_url": "",
             "autoplay": true,
             "media_width": 50,
@@ -513,7 +523,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Hydraulic Disc Brakes",
-            "content": "<p><strong>Strong control, safe braking</strong></p><p>Whether it's steep descents or abrupt stops, stay in control and overcome obstacles with confidence.</p>",
+            "content": "<p><strong>Strong control, safe braking<\/strong><\/p><p>Whether it's steep descents or abrupt stops, stay in control and overcome obstacles with confidence.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -527,7 +537,7 @@
         "video_CUWeF3": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/欧洲详情页短视频EC 1 ST-整车2.mp4",
+            "video": "shopify:\/\/files\/videos\/欧洲详情页短视频EC 1 ST-整车2.mp4",
             "external_video_url": "",
             "autoplay": true,
             "media_width": 50,
@@ -537,7 +547,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Step-Thru Design",
-            "content": "<p><strong>Get in comfortably, drive effortlessly.</strong></p><p>With step-thru design, lightweight aluminum frame (19.2kg), not only provides effortless getting on and off, but also makes the ride a carefree pleasure.</p>",
+            "content": "<p><strong>Get in comfortably, drive effortlessly.<\/strong><\/p><p>With step-thru design, lightweight aluminum frame (19.2kg), not only provides effortless getting on and off, but also makes the ride a carefree pleasure.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -565,7 +575,7 @@
         "text_block_gwXJhg": {
           "type": "text_block",
           "settings": {
-            "main_image": "shopify://shop_images/EC1_56d7386e-0b2d-4d37-8eb4-1e25f3efc689.jpg",
+            "main_image": "shopify:\/\/shop_images\/EC1_56d7386e-0b2d-4d37-8eb4-1e25f3efc689.jpg",
             "image_alt": "img",
             "title": "LCD Display",
             "desc": "Perfect integration with the HEYBIKE app. Waterproof to IPX6, reliably displays battery status, maximum speed and more. Always clear insights into your riding conditions."
@@ -574,7 +584,7 @@
         "text_block_gftpFA": {
           "type": "text_block",
           "settings": {
-            "main_image": "shopify://shop_images/EC_b04aa910-0de1-4e4e-bb16-5eff8961de33.jpg",
+            "main_image": "shopify:\/\/shop_images\/EC_b04aa910-0de1-4e4e-bb16-5eff8961de33.jpg",
             "image_alt": "img",
             "title": "Headlights",
             "desc": "The Spanninga headlight seamlessly combines a powerful 30 lux light beam with a modern design and, thanks to XTL technology, glare-free for safe driving. Impressive 3000 metre visibility, 70 metres for the driver."
@@ -583,7 +593,7 @@
         "text_block_wt7wkF": {
           "type": "text_block",
           "settings": {
-            "main_image": "shopify://shop_images/EC_3b07ce2d-6bdf-4726-85a6-fa6cbe3b4171.jpg",
+            "main_image": "shopify:\/\/shop_images\/EC_3b07ce2d-6bdf-4726-85a6-fa6cbe3b4171.jpg",
             "image_alt": "img",
             "title": "Hydraulic disc brakes",
             "desc": "Hydraulic disc brakes offer powerful and safe braking performance in contrast to mechanical brakes. Whether on steep descents or abrupt stops - stay in control and overcome obstacles with confidence."
@@ -592,7 +602,7 @@
         "text_block_KmPftB": {
           "type": "text_block",
           "settings": {
-            "main_image": "shopify://shop_images/EC_afb8e52f-7312-4351-93e6-d20117ed6cd7.jpg",
+            "main_image": "shopify:\/\/shop_images\/EC_afb8e52f-7312-4351-93e6-d20117ed6cd7.jpg",
             "image_alt": "img",
             "title": "Gear rim",
             "desc": "The Shimano® 7-speed transmission (14-28T) impresses with its powerful lightness and outstanding performance on all roads. The smooth gear changes ensure a more pleasant riding experience."
@@ -601,7 +611,7 @@
         "text_block_UK6hEn": {
           "type": "text_block",
           "settings": {
-            "main_image": "shopify://shop_images/EC.jpg",
+            "main_image": "shopify:\/\/shop_images\/EC.jpg",
             "image_alt": "img",
             "title": "Puncture-proof tyres",
             "desc": "The 700C*40C tyres with anti-puncture technology are versatile for city, gravel and long distances. Thanks to increased puncture resistance and reflective lines, they offer safety and visibility in one."
@@ -610,7 +620,7 @@
         "text_block_nyG7JA": {
           "type": "text_block",
           "settings": {
-            "main_image": "shopify://shop_images/EC_1_8c4a2888-22e5-44d4-9639-340107b9d1bc.jpg",
+            "main_image": "shopify:\/\/shop_images\/EC_1_8c4a2888-22e5-44d4-9639-340107b9d1bc.jpg",
             "image_alt": "img",
             "title": "Concealed internal wiring",
             "desc": "The internal wiring has been seamlessly integrated to not only improve aesthetics, but also to reduce wind resistance and minimise the risk of accidents."
@@ -639,19 +649,19 @@
         "image_7zPXcJ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/1_e164e5b7-4645-4b2c-8389-7661a485ade5.png",
-            "mobile_based": "shopify://shop_images/ec1.png",
+            "image": "shopify:\/\/shop_images\/GMC_9003-1_27bc5a69-6de7-4d6e-a70d-5e7936a8e976.jpg",
+            "mobile_based": "shopify:\/\/shop_images\/ec1.png",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "Smart tech and APP",
-            "content": "<p>Your great rides deserve a diary! Connect your bike to the HEYBIKE app and create an impressive mileage log!</p>",
+            "content": "<p>Your great rides deserve a diary! Connect your bike to the HEYBIKE app and create an impressive mileage log!<\/p>",
             "ios_link": "",
-            "image_ios": "shopify://shop_images/app-store__2x_1.png",
+            "image_ios": "shopify:\/\/shop_images\/app-store__2x_1.png",
             "android_link": "",
-            "image_android": "shopify://shop_images/google-play__2x_1.png",
-            "interfaces_image": "shopify://shop_images/APP_8ee8497d-356d-483b-83e5-ef51fdb315d8.png",
+            "image_android": "shopify:\/\/shop_images\/google-play__2x_1.png",
+            "interfaces_image": "shopify:\/\/shop_images\/APP_8ee8497d-356d-483b-83e5-ef51fdb315d8.png",
             "link_text": "",
             "link_url": "",
             "background": "#f2f2f2",
@@ -677,9 +687,9 @@
         "image_YchyTK": {
           "type": "image",
           "settings": {
-            "image_w": "tw-w-1/2",
+            "image_w": "tw-w-1\/2",
             "order": "Which size suits me?",
-            "image1": "shopify://shop_images/EC-1_f81713ea-0dd8-4360-8b2b-a54e154422c1.jpg",
+            "image1": "shopify:\/\/shop_images\/EC-1_f81713ea-0dd8-4360-8b2b-a54e154422c1.jpg",
             "color1": "",
             "color2": "",
             "color3": "",
@@ -710,7 +720,7 @@
           "type": "item",
           "settings": {
             "autoplay": false,
-            "external_video_url": "https://www.youtube.com/watch?v=gWTF-vlpSQI&t=2s",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=gWTF-vlpSQI&t=2s",
             "title": "Heybike E-bike EC 1: Under 20kg affordable lightweight city bike with a great riding experience",
             "content": "",
             "author": "One Man and His Whippet"
@@ -720,7 +730,7 @@
           "type": "item",
           "settings": {
             "autoplay": false,
-            "external_video_url": "https://www.youtube.com/watch?v=6CaLjxgdcrg",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=6CaLjxgdcrg",
             "title": "Review of the HEYBIKE EC1",
             "content": "",
             "author": "Rob and Lynn on tour"
@@ -730,7 +740,7 @@
           "type": "item",
           "settings": {
             "autoplay": false,
-            "external_video_url": "https://www.youtube.com/watch?v=CGzmqlx_4pU",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=CGzmqlx_4pU",
             "title": "A LEGAL Ebike that EASILY Reaches 30mph? HOW? Heybike EC1 Review",
             "content": "",
             "author": "e-VRC"
@@ -740,7 +750,7 @@
           "type": "item",
           "settings": {
             "autoplay": false,
-            "external_video_url": "https://www.youtube.com/watch?v=uVSBaYYwcYQ",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=uVSBaYYwcYQ",
             "title": "Is This the Best Entry-Level E-Bike on the Market?",
             "content": "",
             "author": "Cameron McNeish Outdoors"
@@ -750,7 +760,7 @@
           "type": "item",
           "settings": {
             "autoplay": false,
-            "external_video_url": "https://www.youtube.com/watch?v=2yAAljxAGbo",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=2yAAljxAGbo",
             "title": "The Perfect Ride To Work? HeyBike EC1 ST Commuter EBike Review",
             "content": "",
             "author": "Travel Trolls TV"
@@ -760,7 +770,7 @@
           "type": "item",
           "settings": {
             "autoplay": false,
-            "external_video_url": "https://www.youtube.com/watch?v=-FRnbyb77Io",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=-FRnbyb77Io",
             "title": "HEYBIKE EC 1-ST Commuter Ebike Review & Test - Beautiful & Great Quality!",
             "content": "",
             "author": "Redskull"
@@ -794,9 +804,9 @@
         "image_bpfjJj": {
           "type": "image",
           "settings": {
-            "image_w": "tw-w-1/2",
+            "image_w": "tw-w-1\/2",
             "order": "Geometry",
-            "image1": "shopify://shop_images/EC1-ST.jpg",
+            "image1": "shopify:\/\/shop_images\/EC1-ST.jpg",
             "color1": "",
             "color2": "",
             "color3": "",
@@ -809,8 +819,8 @@
             "order": "Geometry",
             "show_line": true,
             "show_line_r": false,
-            "item_wsdfsd": "tw-w-1/2",
-            "item_w_mb": "tw-w-1/2",
+            "item_wsdfsd": "tw-w-1\/2",
+            "item_w_mb": "tw-w-1\/2",
             "tr1": "Description",
             "tr2": "Size (cm)",
             "tr3": "",
@@ -878,34 +888,34 @@
             "order": "Specifications",
             "show_line": true,
             "show_line_r": false,
-            "item_w": "tw-w-1/2",
-            "item_w_mb": "tw-w-1/2",
+            "item_w": "tw-w-1\/2",
+            "item_w_mb": "tw-w-1\/2",
             "title": "",
             "content": "",
             "content_align": "tw-text-left",
             "content_pos": "tw-items-baseline",
-            "item1": "<b> Motor</b><br>250W Rear Hub Motor",
-            "item2": "<b>Sensors</b><br>Pedal Sensor",
-            "item3": "<b>Battery</b> <br>10Ah 36V Samsung Battery",
-            "item4": "<b>Pedal Assist Modes</b> <br>Eco, Tour, Sport",
-            "item5": "<b>Drivetrain</b><br>Shimano 7-speed Drivetrain",
-            "item6": "<b>Gear Range</b><br>14-28T",
-            "item7": "<b>Top Speed</b> <br>25km/h",
-            "item8": "<b>Range</b><br>Up to 100 km (62 miles)*",
-            "item9": "<b>Battery Charging Time</b><br> 4 - 5 hours",
-            "item10": "<b>Battery Weight</b><br>  5 lbs/2.2 kg",
-            "item11": "<b>Bike's Weight</b> <br>42 lbs/19.2 kg",
-            "item12": "<b>Max Load</b> <br>330 lbs/150 kg",
-            "item13": "<b>Brake</b> <br>Hydraulic Disc Brakes",
+            "item1": "<b> Motor<\/b><br>250W Rear Hub Motor",
+            "item2": "<b>Sensors<\/b><br>Pedal Sensor",
+            "item3": "<b>Battery<\/b> <br>10Ah 36V Samsung Battery",
+            "item4": "<b>Pedal Assist Modes<\/b> <br>Eco, Tour, Sport",
+            "item5": "<b>Drivetrain<\/b><br>Shimano 7-speed Drivetrain",
+            "item6": "<b>Gear Range<\/b><br>14-28T",
+            "item7": "<b>Top Speed<\/b> <br>25km\/h",
+            "item8": "<b>Range<\/b><br>Up to 100 km (62 miles)*",
+            "item9": "<b>Battery Charging Time<\/b><br> 4 - 5 hours",
+            "item10": "<b>Battery Weight<\/b><br>  5 lbs\/2.2 kg",
+            "item11": "<b>Bike's Weight<\/b> <br>42 lbs\/19.2 kg",
+            "item12": "<b>Max Load<\/b> <br>330 lbs\/150 kg",
+            "item13": "<b>Brake<\/b> <br>Hydraulic Disc Brakes",
             "item14": "*Actual performance will vary depending on temperature, road conditions, rider's weight, etc"
           }
         },
         "image_UARipC": {
           "type": "image",
           "settings": {
-            "image_w": "tw-w-1/2",
+            "image_w": "tw-w-1\/2",
             "order": "What's in the box?",
-            "image1": "shopify://shop_images/Ec_1-st.jpg",
+            "image1": "shopify:\/\/shop_images\/Ec_1-st.jpg",
             "color1": "",
             "color2": "",
             "color3": "",
@@ -918,24 +928,24 @@
             "order": "What's in the box?",
             "show_line": true,
             "show_line_r": false,
-            "item_w": "tw-w-1/2",
-            "item_w_mb": "tw-w-1/2",
+            "item_w": "tw-w-1\/2",
+            "item_w_mb": "tw-w-1\/2",
             "title": "",
             "content": "",
             "content_align": "tw-text-left",
             "content_pos": "tw-items-baseline",
-            "item1": "<b>A -- Manual</b>",
-            "item2": "<b>B -- E-bike frame</b>",
-            "item3": "<b>C -- Bicycle wheels</b>",
-            "item4": "<b>D --  Charger</b>",
-            "item5": "<b>E -- Seat</b>",
-            "item6": "<b>F -- Key*2</b>",
-            "item7": "<b>G -- Mudguard Set</b>",
-            "item8": "<b>H -- Cable ties</b>",
-            "item9": "<b>I -- Wrench*7</b>",
-            "item10": "<b>J -- Bicycle pedal*2</b>",
-            "item11": "<b>K -- charging cable</b>",
-            "item12": "<b>L -- Screw cover*2</b>",
+            "item1": "<b>A -- Manual<\/b>",
+            "item2": "<b>B -- E-bike frame<\/b>",
+            "item3": "<b>C -- Bicycle wheels<\/b>",
+            "item4": "<b>D --  Charger<\/b>",
+            "item5": "<b>E -- Seat<\/b>",
+            "item6": "<b>F -- Key*2<\/b>",
+            "item7": "<b>G -- Mudguard Set<\/b>",
+            "item8": "<b>H -- Cable ties<\/b>",
+            "item9": "<b>I -- Wrench*7<\/b>",
+            "item10": "<b>J -- Bicycle pedal*2<\/b>",
+            "item11": "<b>K -- charging cable<\/b>",
+            "item12": "<b>L -- Screw cover*2<\/b>",
             "item13": "",
             "item14": ""
           }
@@ -967,49 +977,49 @@
           "type": "item",
           "settings": {
             "title": "Where are the test rides located?",
-            "content": "<p>Our distribution addresses are all over Europe, in Germany, UK, France, etc. Refer to the page for details: https://heybike.co.uk/pages/find-dealers</p>"
+            "content": "<p>Our distribution addresses are all over Europe, in Germany, UK, France, etc. Refer to the page for details: https:\/\/heybike.co.uk\/pages\/find-dealers<\/p>"
           }
         },
         "item_ztBFX6": {
           "type": "item",
           "settings": {
             "title": "Are instalments accepted?",
-            "content": "<p>We can accept Klarna instalments. Detailed steps can be found at: https://heybike.co.uk/pages/financing</p>"
+            "content": "<p>We can accept Klarna instalments. Detailed steps can be found at: https:\/\/heybike.co.uk\/pages\/financing<\/p>"
           }
         },
         "item_nWFcqt": {
           "type": "item",
           "settings": {
             "title": "What are the advantages of the EC1 series over other E-Bikes?",
-            "content": "<p>Compared with ordinary E-Bike, EC1 series has unique advantages. EC1 series has been improved and optimised for the problems that ordinary E-Bike may have, such as heavier weight, dull appearance and single colour. Firstly, our vehicles are designed to be extremely portable and lightweight, making them more suitable for daily carrying and storage. Secondly, our stylish and minimalist design not only makes it more aesthetically pleasing, but also reduces wind resistance and improves riding efficiency. Most importantly, we offer a wide range of unique and cool colours to choose from, for example, the EC 1 series is available in black, blue and white, while the EC 1-ST series is available in blue, pink and white, meeting the aesthetic needs of different users.</p>"
+            "content": "<p>Compared with ordinary E-Bike, EC1 series has unique advantages. EC1 series has been improved and optimised for the problems that ordinary E-Bike may have, such as heavier weight, dull appearance and single colour. Firstly, our vehicles are designed to be extremely portable and lightweight, making them more suitable for daily carrying and storage. Secondly, our stylish and minimalist design not only makes it more aesthetically pleasing, but also reduces wind resistance and improves riding efficiency. Most importantly, we offer a wide range of unique and cool colours to choose from, for example, the EC 1 series is available in black, blue and white, while the EC 1-ST series is available in blue, pink and white, meeting the aesthetic needs of different users.<\/p>"
           }
         },
         "item_Jzft7d": {
           "type": "item",
           "settings": {
             "title": "Where is the location of the shipping warehouse?",
-            "content": "<p>Shipments for the UK region are sent from Ireland.</p>"
+            "content": "<p>Shipments for the UK region are sent from Ireland.<\/p>"
           }
         },
         "item_nXfqXM": {
           "type": "item",
           "settings": {
             "title": "When will I receive the shipment after placing my order?",
-            "content": "<p>We usually dispatch the goods within three working days after receiving the order and you can usually receive the goods within 3-7 working days after placing the order. However, sometimes there may be some special circumstances such as logistic and transport problems, holidays or festivals, etc., the delivery may be delayed. <br/><br/>We will do our best to ensure that your order arrives on time and accurately, but we hope you understand that delays may occur in exceptional circumstances. If you have any questions or need assistance with the status of your order, please feel free to contact our customer service team and we will be happy to assist you.</p>"
+            "content": "<p>We usually dispatch the goods within three working days after receiving the order and you can usually receive the goods within 3-7 working days after placing the order. However, sometimes there may be some special circumstances such as logistic and transport problems, holidays or festivals, etc., the delivery may be delayed. <br\/><br\/>We will do our best to ensure that your order arrives on time and accurately, but we hope you understand that delays may occur in exceptional circumstances. If you have any questions or need assistance with the status of your order, please feel free to contact our customer service team and we will be happy to assist you.<\/p>"
           }
         },
         "item_ephCFq": {
           "type": "item",
           "settings": {
             "title": "What are the channels for shipment?",
-            "content": "<p>Usually DPD/Go Express/DHL, we may choose other shipping channels according to the situation in remote areas.</p>"
+            "content": "<p>Usually DPD\/Go Express\/DHL, we may choose other shipping channels according to the situation in remote areas.<\/p>"
           }
         },
         "item_tDqfiQ": {
           "type": "item",
           "settings": {
             "title": "What should I do if I have an after-sales problem?",
-            "content": "<p>If you encounter any after-sales problems in the process of using our products, we will do our best to ensure that you get timely and effective solutions. You can send an email to our after-sales service mailbox <strong>support.uk@heybike.com</strong> (please describe problem in detail, with your order number and contact information), our after-sales team will process your email as soon as possible. We will give you a reply within one working day.<br/><br/>Whether the problem you encountered is about the product, delivery problems or other after-sales service problems, we will do our best to provide you with the most satisfactory solutions. Thank you for your trust and support!</p>"
+            "content": "<p>If you encounter any after-sales problems in the process of using our products, we will do our best to ensure that you get timely and effective solutions. You can send an email to our after-sales service mailbox <strong>support.uk@heybike.com<\/strong> (please describe problem in detail, with your order number and contact information), our after-sales team will process your email as soon as possible. We will give you a reply within one working day.<br\/><br\/>Whether the problem you encountered is about the product, delivery problems or other after-sales service problems, we will do our best to provide you with the most satisfactory solutions. Thank you for your trust and support!<\/p>"
           }
         }
       },
@@ -1052,49 +1062,49 @@
           "type": "item",
           "settings": {
             "title": "Where are the test rides located?",
-            "content": "<p>Our distribution addresses are all over Europe, in Germany, UK, France, etc. Refer to the page for details: https://heybike.co.uk/pages/find-dealers</p>"
+            "content": "<p>Our distribution addresses are all over Europe, in Germany, UK, France, etc. Refer to the page for details: https:\/\/heybike.co.uk\/pages\/find-dealers<\/p>"
           }
         },
         "item_YFBKnk": {
           "type": "item",
           "settings": {
             "title": "Are instalments accepted?",
-            "content": "<p>We can accept Klarna instalments. Detailed steps can be found at: https://heybike.co.uk/pages/financing</p>"
+            "content": "<p>We can accept Klarna instalments. Detailed steps can be found at: https:\/\/heybike.co.uk\/pages\/financing<\/p>"
           }
         },
         "item_DV6jQ8": {
           "type": "item",
           "settings": {
             "title": "What are the advantages of the EC1 series over other E-Bikes?",
-            "content": "<p>Compared with ordinary E-Bike, EC1 series has unique advantages. EC1 series has been improved and optimised for the problems that ordinary E-Bike may have, such as heavier weight, dull appearance and single colour. Firstly, our vehicles are designed to be extremely portable and lightweight, making them more suitable for daily carrying and storage. Secondly, our stylish and minimalist design not only makes it more aesthetically pleasing, but also reduces wind resistance and improves riding efficiency. Most importantly, we offer a wide range of unique and cool colours to choose from, for example, the EC 1 series is available in black, blue and white, while the EC 1-ST series is available in blue, pink and white, meeting the aesthetic needs of different users.</p>"
+            "content": "<p>Compared with ordinary E-Bike, EC1 series has unique advantages. EC1 series has been improved and optimised for the problems that ordinary E-Bike may have, such as heavier weight, dull appearance and single colour. Firstly, our vehicles are designed to be extremely portable and lightweight, making them more suitable for daily carrying and storage. Secondly, our stylish and minimalist design not only makes it more aesthetically pleasing, but also reduces wind resistance and improves riding efficiency. Most importantly, we offer a wide range of unique and cool colours to choose from, for example, the EC 1 series is available in black, blue and white, while the EC 1-ST series is available in blue, pink and white, meeting the aesthetic needs of different users.<\/p>"
           }
         },
         "item_HtBxCH": {
           "type": "item",
           "settings": {
             "title": "Where is the location of the shipping warehouse?",
-            "content": "<p>Shipments for the UK region are sent from Ireland.</p>"
+            "content": "<p>Shipments for the UK region are sent from Ireland.<\/p>"
           }
         },
         "item_rhKDbx": {
           "type": "item",
           "settings": {
             "title": "When will I receive the shipment after placing my order?",
-            "content": "<p>We usually dispatch the goods within three working days after receiving the order and you can usually receive the goods within 3-7 working days after placing the order. However, sometimes there may be some special circumstances such as logistic and transport problems, holidays or festivals, etc., the delivery may be delayed. <br/><br/>We will do our best to ensure that your order arrives on time and accurately, but we hope you understand that delays may occur in exceptional circumstances. If you have any questions or need assistance with the status of your order, please feel free to contact our customer service team and we will be happy to assist you.</p>"
+            "content": "<p>We usually dispatch the goods within three working days after receiving the order and you can usually receive the goods within 3-7 working days after placing the order. However, sometimes there may be some special circumstances such as logistic and transport problems, holidays or festivals, etc., the delivery may be delayed. <br\/><br\/>We will do our best to ensure that your order arrives on time and accurately, but we hope you understand that delays may occur in exceptional circumstances. If you have any questions or need assistance with the status of your order, please feel free to contact our customer service team and we will be happy to assist you.<\/p>"
           }
         },
         "item_DdhKbb": {
           "type": "item",
           "settings": {
             "title": "What are the channels for shipment?",
-            "content": "<p>Usually DPD/Go Express/DHL, we may choose other shipping channels according to the situation in remote areas.</p>"
+            "content": "<p>Usually DPD\/Go Express\/DHL, we may choose other shipping channels according to the situation in remote areas.<\/p>"
           }
         },
         "item_ikY8C7": {
           "type": "item",
           "settings": {
             "title": "What should I do if I have an after-sales problem?",
-            "content": "<p>If you encounter any after-sales problems in the process of using our products, we will do our best to ensure that you get timely and effective solutions. You can send an email to our after-sales service mailbox <strong>support.uk@heybike.com</strong> (please describe problem in detail, with your order number and contact information), our after-sales team will process your email as soon as possible. We will give you a reply within one working day.<br/><br/>Whether the problem you encountered is about the product, delivery problems or other after-sales service problems, we will do our best to provide you with the most satisfactory solutions. Thank you for your trust and support!</p>"
+            "content": "<p>If you encounter any after-sales problems in the process of using our products, we will do our best to ensure that you get timely and effective solutions. You can send an email to our after-sales service mailbox <strong>support.uk@heybike.com<\/strong> (please describe problem in detail, with your order number and contact information), our after-sales team will process your email as soon as possible. We will give you a reply within one working day.<br\/><br\/>Whether the problem you encountered is about the product, delivery problems or other after-sales service problems, we will do our best to provide you with the most satisfactory solutions. Thank you for your trust and support!<\/p>"
           }
         }
       },
@@ -1113,7 +1123,7 @@
         "title": "FAQ",
         "content": "",
         "button_text": "find more",
-        "button_url": "shopify://pages/faq",
+        "button_url": "shopify:\/\/pages\/faq",
         "text_position": "start",
         "background": "",
         "background_gradient": "",
@@ -1130,7 +1140,7 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_4pPNiW": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }

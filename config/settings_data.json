@@ -54,12 +54,12 @@
     "cart_icon": "shopping_basket",
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": 99,
-    "social_facebook": "https://www.facebook.com/HeybikeDeutschland",
-    "social_twitter": "https://twitter.com/Heybike_EU",
-    "social_instagram": "https://www.instagram.com/heybike.eu/",
-    "social_youtube": "https://www.youtube.com/@HeybikeEU",
-    "social_tiktok": "https://www.tiktok.com/@heybike_eu",
-    "favicon": "shopify://shop_images/100.png",
+    "social_facebook": "https:\/\/www.facebook.com\/Heybike.uk",
+    "social_twitter": "https:\/\/twitter.com\/Heybike_EU",
+    "social_instagram": "https:\/\/www.instagram.com\/heybike.eu\/",
+    "social_youtube": "https:\/\/www.youtube.com\/@HeybikeEU",
+    "social_tiktok": "https:\/\/www.tiktok.com\/@heybike_eu",
+    "favicon": "shopify:\/\/shop_images\/100.png",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
     "content_for_index": [
@@ -67,13 +67,13 @@
     ],
     "blocks": {
       "14060646107696862457": {
-        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {
         }
       },
       "15683396631634586217": {
-        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
           "button_color": "#000000",
@@ -86,14 +86,14 @@
         }
       },
       "10605408327587305396": {
-        "type": "shopify://apps/eg-auto-add-to-cart/blocks/app-embed/0f7d4f74-1e89-4820-aec4-6564d7e535d2",
+        "type": "shopify:\/\/apps\/eg-auto-add-to-cart\/blocks\/app-embed\/0f7d4f74-1e89-4820-aec4-6564d7e535d2",
         "disabled": false,
         "settings": {
           "version": "v3"
         }
       },
       "855628211100114053": {
-        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }
