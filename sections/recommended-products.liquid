@@ -10,13 +10,10 @@
     padding: 0 20px;
     position: relative;
     top: 2.5rem;
-}
-
-
-
-.product-kou span.badge.badge--primary {
-    display: none;
-}
+  }
+  .product-kou span.badge.badge--primary {
+      display: none;
+  }
   .recommended-wrap .title {
     font-size: 28px;
     font-family: Poppins, Poppins;
@@ -324,27 +321,31 @@
           description: '{{ product.metafields.custom.home_description }}',
           reviews: {{ product.metafields.reviews | json }},
         })
+
+        
       {% endif %}
     {% endif %}
   {% endfor %}
 
   if (list.length) {
+
     $('.col').empty()
     list.map((item, index) => {
+      
       let html = `<li>
         <div class="row-top">
           <p class="tag">${item.home_title}</p>
           <p class="product-name">${item.title}</p>
-     <div class="product-kou"> 
-        {%- render 'product-badges', product: product, class: 'product-card__badge-list' -%}
-</div>
+        <div class="product-kou"> 
+            {%- render 'product-badges', product: product, class: 'product-card__badge-list' -%}
+        </div>
         </div>
         <div class="swiper-container swiper-style swiper-container-${index}">
           <div class="swiper-wrapper">
             ${item.variants.map((variant, variantsIndex) => `
               <div class="swiper-slide">
                 <a href="/products/${item.handle}">
-                  <img src="${variant.featured_image.src}">
+                  <img src="${variant.featured_image.src}&width=50" srcset="${variant.featured_image.src}&width=700" loading="lazy">
                 </a>
               </div>
             `).join('')}
@@ -358,7 +359,7 @@
           <div class="options-wrap" data-swiper-id="${index}">
             ${item.variants.map((variant, variantsIndex) => `
               <div class="options options-item ${variantsIndex == 0 ? 'active' : ''}" data-variant-index="${variantsIndex}">
-                <img src="${variant.featured_image.src}">
+                <img src="${variant.featured_image.src}&width=100">
               </div>
             `).join('')}
           </div>
@@ -367,14 +368,15 @@
             <del class="compare-at-price">${item.compare_at_price}</del>
           </div>
           ${
-            item.reviews && `<a href="${item.url}#judgeme_product_reviews" class="rating " title="${item.reviews.rating_count}" {{ block.shopify_attributes }}>
+            item.reviews && item.reviews.length > 0 ?
+            `<a href="${item.url}#judgeme_product_reviews" class="rating " title="${item.reviews.rating_count}" {{ block.shopify_attributes }}>
               <span class="text-sm">${item.reviews.rating_count}</span>
               <div class="rating__stars" role="img" aria-label="${item.reviews.rating.value}, 5.0">
                 ${Array.from({ length: Math.ceil(item.reviews.rating.value) }, () =>
                   `{%- render 'icon' with 'rating-star', width: 12, height: 12, class: 'rating__star' -%}`
                 ).join('')}
               </div>
-            </a>`
+            </a>`:``
           }
           <p class="product-subtitle">${item.description}</p>
         </div>
@@ -435,14 +437,12 @@ var color_collection = JSON.parse('{'+{{ section.settings.color_collection | jso
 var colorList = $('.color-wrap p');
 for(var i = 0; i < colorList.length; i++) {
   var color = $(colorList[i]).attr('data-color');
-  console.log(color_collection[color]);
   if(color_collection[color]) {
     $(colorList[i]).css('background-color', color_collection[color]);
   } else {
     $(colorList[i]).css('background-color', color);
   }
 }
-     console.log(color_collection);
     
   });
 </script>

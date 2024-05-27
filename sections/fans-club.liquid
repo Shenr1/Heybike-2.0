@@ -96,10 +96,11 @@
       {% for block in section.blocks %}
         <li class="swiper-slide">
           <a href="{{ block.settings.url }}">
-            <img
+            {{ block.settings.main_image | image_url: width: '550' | image_tag: width: '550',loading: 'lazy'}} 
+            {% comment %} <img
               src="{{ block.settings.main_image | img_url:'master' }}"
               alt="{{ block.settings.image_alt }}"
-            />
+            /> {% endcomment %}
             {% if section.settings.title != blank %}
               <p class="text">{{ block.settings.title }}</p>
             {% endif %}

@@ -171,16 +171,14 @@
 
 <section class="section subscription-wrap">
   <div class="content-wrap">
-    <img 
-      class="main-img only-in-pc" 
-      src="{{ section.settings.main_image | img_url:'master'}}"
-      alt="{{ section.settings.image_alt  }}"
-    />
-    <img 
-      class="main-img only-in-pad" 
-      src="{{ section.settings.mob_image | img_url:'master'}}"
-      alt="{{ section.settings.image_alt  }}"
-    />
+
+    {% if section.settings.main_image %}
+    {{ section.settings.main_image | image_url: width: '1500' | image_tag: width: '1500,1000,750',loading: 'lazy',class:"main-img only-in-pc"}} 
+    {% endif %}
+    {% if section.settings.mob_image %}
+      {{ section.settings.mob_image | image_url: width: '750' | image_tag: width: '750,500,300',loading: 'lazy',class:"main-img only-in-pad"}} 
+    {% endif %}
+
     <div class="content {{ section.id }}" style="color:{{ section.settings.color_text }}">
       <div class="title-wrap">
         <h2 class="title">{{ section.settings.title }}</h2>

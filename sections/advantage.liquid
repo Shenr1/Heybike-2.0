@@ -130,16 +130,8 @@
       {% case block.type %}
         {% when 'advantage' %}
         <li>
-          <img
-            class="only-in-pc"
-            src="{{  block.settings.main_image | img_url:'master' }}"
-            alt="{{ block.settings.image_alt }}"
-          />
-          <img
-            class="only-in-mobile"
-            src="{{  block.settings.mobile_image | img_url:'master' }}"
-            alt="{{ block.settings.image_alt }}"
-          />
+          {{ block.settings.main_image | image_url: width: '1500' | image_tag: width: '1500,1000,750',loading: 'lazy',class:"only-in-pc"}} 
+          {{ block.settings.mobile_image | image_url: width: '750' | image_tag: width: '750,500,300',loading: 'lazy',class:"only-in-mobile"}} 
           <div class="advantage-box">
             <div>
               <p class="advantage-title">{{ block.settings.title }}</p>

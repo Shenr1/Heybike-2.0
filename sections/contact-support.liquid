@@ -240,17 +240,14 @@
 
 <section class="section contact-support-wrap">
   <div class="content-wrap">
-    <img 
-      class="main-img only-in-pc" 
-      src="{{ section.settings.main_image | img_url:'master'}}"
-      alt="{{ section.settings.image_alt  }}"
-    />
 
-    <img 
-      class="main-img only-in-mobile" 
-      src="{{ section.settings.mobile_image | img_url:'master'}}"
-      alt="{{ section.settings.image_alt  }}"
-    />
+    {% if section.settings.main_image %}
+    {{ section.settings.main_image | image_url: width: '1500' | image_tag: width: '1500,1000,750',loading: 'lazy',class:"main-img only-in-pc"}} 
+    {% endif %}
+    {% if section.settings.mobile_image %}
+      {{ section.settings.mobile_image | image_url: width: '750' | image_tag: width: '750,500,300',loading: 'lazy',class:"main-img only-in-mobile"}} 
+    {% endif %}
+
 
     <div class="content">
       <ul class="customer-service">

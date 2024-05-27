@@ -164,14 +164,14 @@
   margin-right: auto;
 }
 
-.tw-my-3{
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
 .tw-my-2{
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.tw-my-3{
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .-tw-mb-px{
@@ -453,11 +453,6 @@
 .tw-border-vi{
   --tw-border-opacity: 1;
   border-color: rgb(246 190 0 / var(--tw-border-opacity));
-}
-
-.tw-bg-\[\#fffcf4\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 252 244 / var(--tw-bg-opacity));
 }
 
 .tw-bg-stone-100{
