@@ -10,13 +10,6 @@
     "cf3d01a0-0bd7-475b-ae0a-d3479954327a": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "heading_aMzfwz": {
-          "type": "heading",
-          "settings": {
-            "text": "Dive into savings with our exclusive Bike Month offers",
-            "heading_tag": "h6"
-          }
-        },
         "richtext_4yxXFp": {
           "type": "richtext",
           "settings": {
@@ -31,7 +24,6 @@
         }
       },
       "block_order": [
-        "heading_aMzfwz",
         "richtext_4yxXFp",
         "richtext_Y3QPfF"
       ],
@@ -40,10 +32,10 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/1920-700_2d15280d-0fe6-4df1-b2ee-05fe4a91e379.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/750-1000_93b693ac-cd4f-4150-8ebd-0f3cdaec33d8.jpg",
+        "image": "shopify:\/\/shop_images\/02_9195976f-cf90-41a5-9630-2bfa98663f1f.png",
+        "mobile_image": "shopify:\/\/shop_images\/05_5efec7bd-3a72-483e-9dfe-f6bb13f93aa0.png",
         "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center-end sm:text-end",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -55,7 +47,7 @@
         "image_EpLN7L": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EC_1_-_ST.png",
+            "image": "shopify:\/\/shop_images\/EC_1_-_ST_b92b08bd-8885-4288-ae8c-2e45618493fa.png",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
@@ -77,7 +69,7 @@
         "image_yXGrg9": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EC_1_246c1db8-5490-42c5-80cc-19eb30c06490.png",
+            "image": "shopify:\/\/shop_images\/EC_1_7df7d6cb-ab82-42b8-92ec-d572c2c5d463.png",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center text-center",
@@ -332,6 +324,7 @@
       "block_order": [
         "image_DnigcA"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "spacing": "small"

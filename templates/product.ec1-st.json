@@ -80,8 +80,8 @@
         "countdown_pQdf7W": {
           "type": "countdown",
           "settings": {
-            "countdown_lbl": "Hurry! Anniversary Sale Ends in:",
-            "countdown_date": "2024-05-27 23:59",
+            "countdown_lbl": "Hurry! Sale Ends in:",
+            "countdown_date": "2024-06-21 23:59",
             "countdown_days": "DAYS",
             "countdown_hours": "HRS",
             "countdown_minutes": "MIN",
@@ -108,9 +108,8 @@
         },
         "text_dPmKaf": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p><strong>*Estimated delivery time: 2-8 working days from UK warehouse.<\/strong><\/p><p><strong>*Bikes & accessories are dispatched separately.<\/strong><\/p>"
+            "text": "<p><a href=\"https:\/\/heybike.co.uk\/pages\/important-notice\" target=\"_blank\" title=\"Important Notice\"><strong>*Important Notice<\/strong><\/a><\/p>"
           }
         },
         "specs_DeWEHg": {
