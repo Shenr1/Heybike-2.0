@@ -1,0 +1,190 @@
+{%- render 'section-spacing-collapsing' -%}
+{% liquid
+  assign se_stts = section.settings
+  assign increment_container_classes = 'tw-border-2 md:tw-p-8 tw-p-6 md:tw-pt-4 tw-pt-2 tw-relative' 
+  assign increment_text_classes = 'tw-text-2xl tw-leading-none tw-text-right tw-font-semibold' 
+  assign increment_label_classes = 'tw-absolute -tw-translate-x-1/2 tw-left-1/2 tw-bottom-1' 
+  if se_stts.date
+    assign date = se_stts.date
+  endif
+%}
+
+<style>
+  #shopify-section-{{ section.id }} .section{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image:url('{{ se_stts.bg_img | image_url }}')
+  }
+  #shopify-section-{{ section.id }} .countdown-content{
+    --text-color:{{se_stts.content_color }};
+    color:var(--text-color)
+  }
+</style>
+
+<div {% render 'section-properties' %}>
+  <div class="tw-flex tw-justify-center tw-items-center tw-flex-col countdown-content "
+    id="countdown-content" >
+    {% if se_stts.title != blank %}
+      <h2 class="tw-text-center tw-text-2xl md:tw-text-3xl tw-font-semibold tw-mb-4" >
+        {{ se_stts.title }}
+      </h2>
+    {% endif %}  
+    {% if se_stts.description != blank %}
+      <div class="tw-text-center tw-pb-[30px] tw-mx-auto tw-max-w-screen-xlg md:tw-px-[10%]" >
+        {{ se_stts.description }}
+      </div>
+    {% endif %}
+
+      <div id="countdown-wrapper" class="countdown-wrapper md:tw-gap-4 tw-gap-2 tw-flex tw-align-center tw-justify-center sm:tw-justify-between md:tw-justify-center tw-flex-wrap">
+          <div id="days" class="{{ increment_container_classes }} {% unless se_stts.show_days %}tw-hidden{% endunless %}" >
+            <p class="{{ increment_text_classes }}" ></p>
+            <span class="{{ increment_label_classes }}" >
+              Days
+            </span>
+          </div>
+          <div id="hours" class="{{ increment_container_classes }} {% unless se_stts.show_hours %}tw-hidden{% endunless %}" >
+            <p class="{{ increment_text_classes }}" ></p>
+            <span class="{{ increment_label_classes }}" >
+              Hours
+            </span>
+          </div>          
+          <div id="minutes" class="{{ increment_container_classes }} {% unless se_stts.show_minutes %}tw-hidden{% endunless %}" >
+            <p class="{{ increment_text_classes }}" ></p>
+            <span class="{{ increment_label_classes }}" >
+              Minutes
+            </span>
+          </div>
+          <div id="seconds" class="{{ increment_container_classes }} {% unless se_stts.show_seconds %}tw-hidden{% endunless %}" >
+            <p class="{{ increment_text_classes }}" ></p>
+            <span class="{{ increment_label_classes }}" >
+              Seconds
+            </span>
+          </div>
+      </div>
+  </div>
+</div>
+<script>
+  // Set the date we're counting down to
+  var countDownDate = new Date("{{ date }}").getTime();
+  var now = new Date().getTime();
+  var distance = countDownDate - now;
+  const countDownElement = document.getElementById("countdown-content")
+
+  function hideCounter(){
+    if(countDownElement.classList.contains('countdown-pdp-block')){
+      document.getElementById("countdown-content").classList.add('tw-hidden');
+    }else{
+      document.getElementById("countdown-wrapper").innerHTML = '<div class="tw-h4">{{ se_stts.expired_text }}</div>';
+    }
+  }
+
+  if (distance < 0) {
+    hideCounter();
+  } else {
+    document.getElementById("days").classList.remove('tw-opacity-0');
+    document.getElementById("hours").classList.remove('tw-opacity-0');
+    document.getElementById("minutes").classList.remove('tw-opacity-0');
+    document.getElementById("seconds").classList.remove('tw-opacity-0');
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+      
+      var now = new Date().getTime();
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Display the result in the elements
+      document.querySelector("#days p").innerHTML = days.toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});  
+      document.querySelector("#hours p").innerHTML = hours.toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});
+      document.querySelector("#minutes p").innerHTML = minutes.toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});
+      document.querySelector("#seconds p").innerHTML = seconds.toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});
+
+      // If the count down is finished, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        hideCounter();
+      }
+    }, 1000);
+
+  }
+</script>
+
+ 
+{% schema %}
+{
+  "name": "Countdown",
+  "class": "countdown",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bg_img",
+      "label": "Background image"
+    },
+    {
+      "type": "color",
+      "id": "content_color",
+      "label": "Content Color",
+      "default": "#000000"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Trellis Countdown"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed convallis tristique sem.  Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>"
+    },
+    {
+      "type": "text",
+      "id": "date",
+      "label": "Countdown to",
+      "info": "Use the following format: MM/dd/YYYY"
+    },
+    {
+      "type": "richtext",
+      "id": "expired_text",
+      "label": "Text to display when the countdown finishes.",
+      "default": "<p>Countdown Finished!</p>"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_days",
+      "label": "Show Days",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_hours",
+      "label": "Show Hours",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_minutes",
+      "label": "Show Minutes",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_seconds",
+      "label": "Show Seconds",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "name": "CountDown"
+    }
+  ]
+}
+{% endschema %}
