@@ -8,8 +8,8 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Save up to £1,506 with Heybike Summer Sale🌞",
-            "url": "shopify:\/\/pages\/sales-deals"
+            "text": "🚴‍♂️ Sport Season Promotion",
+            "url": "shopify:\/\/collections\/electric-bike"
           }
         },
         "76024db7-a027-4b47-bc94-a703ddf8edc6": {
@@ -68,8 +68,8 @@
           "settings": {
             "menuLink": "find-the-world-with-heybike",
             "menu_item": "E-Bikes",
-            "activeImg": "shopify:\/\/shop_images\/08_018e7b6f-81e5-4d40-bfde-e2b4565830d5.jpg",
-            "mobActiveImg": "shopify:\/\/shop_images\/08_af8c9279-5132-44ff-aa7d-71f377a6b4d9.jpg",
+            "activeImg": "shopify:\/\/shop_images\/fd1d8b9063717ad64759bcf94c766040.jpg",
+            "mobActiveImg": "shopify:\/\/shop_images\/fd1d8b9063717ad64759bcf94c766040_79748a8e-a210-4d55-a692-132e52652074.jpg",
             "activeLink": "shopify:\/\/collections\/electric-bike",
             "icon1": "shopify:\/\/shop_images\/2-02_3af9a508-246a-4a3f-b500-617e0a39fd93.png",
             "iconText1": "Free shipping",

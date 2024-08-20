@@ -54,7 +54,7 @@
     "cart_icon": "shopping_basket",
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": 99,
-    "social_facebook": "https:\/\/www.facebook.com\/Heybike.uk",
+    "social_facebook": "https:\/\/www.facebook.com\/HeybikeEuropean",
     "social_twitter": "https:\/\/twitter.com\/Heybike_EU",
     "social_instagram": "https:\/\/www.instagram.com\/heybike.eu\/",
     "social_youtube": "https:\/\/www.youtube.com\/@HeybikeEU",
@@ -94,6 +94,12 @@
       },
       "855628211100114053": {
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "14327677521557774844": {
+        "type": "shopify:\/\/apps\/simprosys-google-shopping-feed\/blocks\/core_settings_block\/1f0b859e-9fa6-4007-97e8-4513aff5ff3b",
         "disabled": false,
         "settings": {
         }

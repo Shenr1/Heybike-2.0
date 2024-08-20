@@ -80,8 +80,8 @@
         "countdown_pQdf7W": {
           "type": "countdown",
           "settings": {
-            "countdown_lbl": "Hurry! Sale Ends in:",
-            "countdown_date": "2024-06-21 23:59",
+            "countdown_lbl": "⏰ Limited Time",
+            "countdown_date": "2024-08-23 23:59",
             "countdown_days": "DAYS",
             "countdown_hours": "HRS",
             "countdown_minutes": "MIN",
@@ -108,6 +108,7 @@
         },
         "text_dPmKaf": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><a href=\"https:\/\/heybike.co.uk\/pages\/important-notice\" target=\"_blank\" title=\"Important Notice\"><strong>*Important Notice<\/strong><\/a><\/p>"
           }
@@ -715,6 +716,16 @@
     "section_story_seiper_f9bjKg": {
       "type": "Section-Story-seiper",
       "blocks": {
+        "item_BpwCP9": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=iARRjO2mbnc",
+            "title": "Lightweight E-bike Review: HeyBike EC 1-ST commuter bike Analysis",
+            "content": "",
+            "author": "Reds go Travels"
+          }
+        },
         "item_VmHd4H": {
           "type": "item",
           "settings": {
@@ -777,6 +788,7 @@
         }
       },
       "block_order": [
+        "item_BpwCP9",
         "item_VmHd4H",
         "item_rNq84W",
         "item_hJdGe3",

@@ -80,8 +80,8 @@
         "countdown_q36Udr": {
           "type": "countdown",
           "settings": {
-            "countdown_lbl": "Hurry! Sale Ends in:",
-            "countdown_date": "2024-06-21 23:59",
+            "countdown_lbl": "⏰ Limited Time",
+            "countdown_date": "2024-08-23 23:59",
             "countdown_days": "DAYS",
             "countdown_hours": "HRS",
             "countdown_minutes": "MIN",

@@ -80,8 +80,8 @@
         "countdown_q36Udr": {
           "type": "countdown",
           "settings": {
-            "countdown_lbl": "Hurry! Sale Ends in:",
-            "countdown_date": "2024-06-21 23:59",
+            "countdown_lbl": "⏰ Limited Time",
+            "countdown_date": "2024-08-23 23:59",
             "countdown_days": "DAYS",
             "countdown_hours": "HRS",
             "countdown_minutes": "MIN",
@@ -726,6 +726,16 @@
             "author": "TechLine"
           }
         },
+        "item_LpiqkD": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=emm_cjYcqSU",
+            "title": "★ HEYBIKE EC1 E BIKE REVIEW ★",
+            "content": "",
+            "author": "Mark Pulling"
+          }
+        },
         "item_dUtCcR": {
           "type": "item",
           "settings": {
@@ -779,6 +789,7 @@
       },
       "block_order": [
         "item_jRE9Ni",
+        "item_LpiqkD",
         "item_dUtCcR",
         "item_VmHd4H",
         "item_rNq84W",

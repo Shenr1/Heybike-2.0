@@ -7,89 +7,14 @@
         "content_width": "80ch"
       }
     },
-    "images_with_text_scrolling_WyMNMA": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "item_E9VB7w": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/13244354_cc0ba47f-78dc-48f1-9446-329c22ddeb59.jpg",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "",
-            "content": "<p>\"Whether you choose one of our models<br\/>or one of our competitors', we will continue to champion the use of e-bikes.<br\/>Because we realise - and we hope you do too - that riding an e-bike is not only<br\/>good for the environment and your wallet, but it also puts a smile on your face<br\/>and the faces of future generations.<\/p><p> <\/p><p>--Jason and William (founders of Heybike)<\/p>"
-          }
-        },
-        "item_VqiepU": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC09643.jpg",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "",
-            "content": "<p>Years ago, our founder Jason had a life-changing realisation in his office: the traffic to and from work every day was unbearable. Plagued by traffic jams and delays, Jason decided to<br\/>revolutionise the commute for himself and for all those who are fed up with traffic jams.<\/p>"
-          }
-        },
-        "item_7RVYyE": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1200X1600-_-2.jpg",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "",
-            "content": "<p>William, an outdoor cycling expert, met Jason, a passionate cyclist, and their goal was to make commuting more comfortable. And so Heybike was born, the first Cityscape electric cruiser<br\/>bike. The bike makes travelling easier, but Cityscape means much more: a seamless integration of cycling into everyone's life. For the best riding experience, we've continually expanded our product range - from mountain bikes<br\/>to folding e-bikes - and now have more than 40 e-bike models.<\/p>"
-          }
-        },
-        "item_EgLbb7": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/12_071b271d-b3f3-4374-984a-96bff13b0c11.jpg",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "",
-            "content": "<p>Our mission<\/p><p>To provide widely available, affordable and<br\/>high-quality e-mobility for everyone.<\/p><p> <\/p><p>Our Vision<\/p><p>To create a better, greener and more<br\/>comfortable life for as many people as possible.<\/p>"
-          }
-        },
-        "item_MzzXjm": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/13_bcc23bec-3456-483c-abed-c371c04fc765.jpg",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Contact Us",
-            "content": "<p>Email: sales.uk@heybike.com<\/p><p>Kontakt Adresse: Flinger Broich 18, 40235 Duesseldorf, Germany<\/p><p>Kontakt Nummer: +44 8081695220 (EN)<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_E9VB7w",
-        "item_VqiepU",
-        "item_7RVYyE",
-        "item_EgLbb7",
-        "item_MzzXjm"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "show_counter": true,
-        "desktop_image_effect": "reveal",
-        "image_position": "end",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "slideshow_k6Ywee": {
       "type": "slideshow",
       "blocks": {
         "image_LC9Bky": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_49a10dc3-7ae6-4e47-9d06-77a07f46a258.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/banner-1.jpg",
+            "image": "shopify:\/\/shop_images\/Banner-0614.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Banner-0614-_-M.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -123,264 +48,36 @@
         "background_gradient": ""
       }
     },
-    "slideshow_NGyJRX": {
-      "type": "slideshow",
-      "blocks": {
-        "image_Da734x": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_8dfb08eb-cf86-4c6c-a888-c72b26c15cef.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/2_fb3af8a4-07b4-4f8a-ac07-4f97fa040ccc.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-start-center sm:text-center",
-            "subheading": "To navigate the bustling city streets or to conquer the mountain trails",
-            "title": "You and the loved ones always create unforgettable memoties with the perfect companions from Heybike Galaxy series.",
-            "heading_tag": "h5",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_Da734x"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
-      }
-    },
-    "slideshow_qkLArR": {
-      "type": "slideshow",
-      "blocks": {
-        "image_eH9B3Y": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/8b465053d72bf33c227fa9eedfc2486b.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/1_96687582-b973-4fe5-8a37-abcc4d1a02d5.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-start-center sm:text-center",
-            "subheading": "Inviting you to discover hidden details that offer a unique riding experience.",
-            "title": "A Ride Full Of Surprise",
-            "heading_tag": "h3",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "image_Lga7Vh": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/8b465053d72bf33c227fa9eedfc2486b_6f67559d-3490-4f99-81c6-de3339e06ced.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/2_9c813273-d4d1-44a3-a5e7-871785534b5e.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-start-center sm:text-center",
-            "subheading": "Inviting you to discover hidden details that offer a unique riding experience.",
-            "title": "A Ride Full Of Surprise",
-            "heading_tag": "h3",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "image_BCHTg7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/8b465053d72bf33c227fa9eedfc2486b_7df4090c-4ea6-4455-9ce9-98ed3c81f40b.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/3_525c20cc-77dd-496f-b7dd-5b26477e0950.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-start-center sm:text-center",
-            "subheading": "Inviting you to discover hidden details that offer a unique riding experience.",
-            "title": "A Ride Full Of Surprise",
-            "heading_tag": "h3",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_eH9B3Y",
-        "image_Lga7Vh",
-        "image_BCHTg7"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
-      }
-    },
-    "media_with_text_pWy3kY": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_aMEXKw": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/EB24_VenueOverview_0327_1_ecf2253c-2916-47a1-ab08-47080b88735f.jpg",
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Meet the Galaxy at Eurobike 2024",
-            "content": "<p>Booth Number：Hall 9.0, Stand # E07<\/p><p>Time：July 3-7, 2024<\/p><p>Location：Ludwig-Erhard-Anlage 1, D-60327 Frankfurt am Main<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#564831",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_aMEXKw"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
-    "newsletter_ra8A7H": {
-      "type": "newsletter",
-      "settings": {
-        "full_width": true,
-        "image": "shopify:\/\/shop_images\/5_8e8df2fe-7adf-4159-aa55-ad8cb2f13e9b.jpg",
-        "show_icon": false,
-        "title": "",
-        "content": "<p><strong>Heybike always advocates the use of ebikes. We hope can bring more high-quality ebikes to more people and eagerly appeal to go green.<\/strong><\/p><p><strong>Heybike will launch a series of new and elegant models in Eurobike 2024.<\/strong><\/p><p><strong>Subscribe now to Explore the Galaxy with Heybike, and with Family.<\/strong><\/p>",
-        "button_text": "Subscribe",
-        "subtext": "",
-        "background": "#b8a896",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
-    "slideshow_JHcknW": {
-      "type": "slideshow",
-      "blocks": {
-        "image_mkd9jz": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/6_543f8d9c-45f2-4009-bede-fb2dfaec0302.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/d73b73cd6ee4f6fffbf75be4a8e9fdce.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_mkd9jz"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
-      }
-    },
     "rich_text_aWXJEH": {
       "type": "rich-text",
       "blocks": {
-        "subheading_fNje74": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_HTXaTE": {
-          "type": "heading",
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
         "richtext_9Xgzpd": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<h2>To navigate the bustling city streets, or To conquer the mountain trails<\/h2>"
+          }
+        },
+        "richtext_w3tF6c": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>You and the loved ones always create unforgettable memoties with the perfect companions from Heybike Galaxy series.<\/p>"
           }
         }
       },
       "block_order": [
-        "subheading_fNje74",
-        "heading_HTXaTE",
-        "richtext_9Xgzpd"
+        "richtext_9Xgzpd",
+        "richtext_w3tF6c"
       ],
-      "disabled": true,
+      "custom_css": [
+        ".text-custom {padding-bottom: 0;}"
+      ],
       "settings": {
         "full_width": true,
-        "content_width": "small",
+        "content_width": "medium",
         "text_position": "center",
-        "background": "",
+        "background": "#b8a896",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "#ffffff"
       }
     },
     "media_grid_rqWJgn": {
@@ -435,29 +132,265 @@
         "image_U8cfHc",
         "image_UakPBY"
       ],
-      "disabled": true,
+      "custom_css": [
+
+      ],
       "settings": {
         "full_width": true,
         "reduce_width": false,
-        "desktop_row_height": 290,
+        "desktop_row_height": 150,
         "mobile_row_height": 150,
-        "mobile_layout": "shopify:\/\/shop_images\/DSC00528_15cc5b6c-42b4-470b-a210-00ce51d0a949.jpg",
+        "mobile_layout": "shopify:\/\/shop_images\/eb.png",
         "image_alt": "",
-        "background": "",
+        "background": "#b8a896",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_hneVJN": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_JmhgF8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>Discover The Galaxy<\/h2>"
+          }
+        },
+        "richtext_PbeqtT": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>An exquisite design meets creative elements<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_JmhgF8",
+        "richtext_PbeqtT"
+      ],
+      "custom_css": [
+        ".text-custom {padding-bottom: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#f5f1ec",
+        "background_gradient": "",
+        "text_color": "#564831"
+      }
+    },
+    "multi_column_A9PNKG": {
+      "type": "multi-column",
+      "blocks": {
+        "item_F7ynWG": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eurobike_9.jpg",
+            "column_size": "3",
+            "title": "Sleek Design",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_RGzap7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eurobike_8.jpg",
+            "column_size": "3",
+            "title": "Innovative Design",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_AUhtKn": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eurobike_10.jpg",
+            "column_size": "3",
+            "title": "Clashing Color Rear Rack",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_F7ynWG",
+        "item_RGzap7",
+        "item_AUhtKn"
+      ],
+      "custom_css": [
+        ".section-stack {background: #b8a896; padding: 4rem 2rem; border-radius: 1.25rem;}",
+        ".prose > p {margin-top: 0.5rem;}",
+        ".multi-column .h4 {font-weight: 500;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "stack_on_changes": false,
+        "gap": "small",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "A Ride Full Of Surprise",
+        "content": "<p>Inviting you to discover hidden details that offer a unique riding experience.<\/p>",
+        "background": "#f5f1ec",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "rich_text_BW4cKt": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_Par7CM": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>Meet the Galaxy at Eurobike 2024<\/h2>"
+          }
+        },
+        "richtext_9emxUz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<ul><li>Booth Number：Hall 9.0, Stand # E07<\/li><li>Time：July 3-7, 2024<\/li><li>Location：Ludwig-Erhard-Anlage 1, D-60327 Frankfurt am Main<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Par7CM",
+        "richtext_9emxUz"
+      ],
+      "custom_css": [
+        ".text-custom {padding-bottom: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "start",
+        "background": "#f5f1ec",
+        "background_gradient": "",
+        "text_color": "#564831"
+      }
+    },
+    "slideshow_7hhYWT": {
+      "type": "slideshow",
+      "blocks": {
+        "image_XGmmEM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eurobike_3.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_XGmmEM"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f5f1ec",
+        "background_gradient": ""
+      }
+    },
+    "newsletter_ra8A7H": {
+      "type": "newsletter",
+      "custom_css": [
+        ".text-custom {padding-bottom: 0; padding-bottom: 0;}",
+        ".fieldset-with-submit {margin-bottom: 20px;}",
+        "@media (max-width: 769px) {.newsletter {display: flex; flex-direction: column-reverse; }}"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/eb_877d49e2-3849-43aa-bec5-15157d1f0172.png",
+        "show_icon": false,
+        "title": "SUBSCRIBE",
+        "content": "<p>Heybike always advocates the use of ebikes. We hope can bring more high-quality ebikes to more people and eagerly appeal to go green.<\/p><p>Heybike will launch a series of new and elegant models in Eurobike 2024.<\/p><p>Subscribe now to Explore the Galaxy with Heybike, and with Family.<\/p>",
+        "button_text": "Subscribe",
+        "subtext": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "linear-gradient(270deg, rgba(195, 179, 163, 1), rgba(186, 169, 150, 1) 100%)",
+        "text_color": "#ffffff",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "slideshow_JHcknW": {
+      "type": "slideshow",
+      "blocks": {
+        "image_mkd9jz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_543f8d9c-45f2-4009-bede-fb2dfaec0302.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/d73b73cd6ee4f6fffbf75be4a8e9fdce.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_mkd9jz"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     }
   },
   "order": [
     "main",
-    "images_with_text_scrolling_WyMNMA",
     "slideshow_k6Ywee",
-    "slideshow_NGyJRX",
-    "slideshow_qkLArR",
-    "media_with_text_pWy3kY",
-    "newsletter_ra8A7H",
-    "slideshow_JHcknW",
     "rich_text_aWXJEH",
-    "media_grid_rqWJgn"
+    "media_grid_rqWJgn",
+    "rich_text_hneVJN",
+    "multi_column_A9PNKG",
+    "rich_text_BW4cKt",
+    "slideshow_7hhYWT",
+    "newsletter_ra8A7H",
+    "slideshow_JHcknW"
   ]
 }

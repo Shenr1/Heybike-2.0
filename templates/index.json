@@ -6,17 +6,17 @@
         "d54499ba-c22c-4d5a-a5bb-d5723b1d8415": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/02.png",
-            "mobile_image": "shopify:\/\/shop_images\/05.png",
+            "image": "shopify:\/\/shop_images\/pc_4.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/4_926fae95-d430-4b9e-b722-76db9c2c6581.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "🌞 Start of summer promotion! 🚲",
-            "title": "Highest savings of up to ￡1,506 🌟",
+            "subheading": "Sport Season Promotion🚴‍♀️",
+            "title": "💰 Save up to £1,606",
             "heading_tag": "h2",
             "button_text": "Shop Now",
             "button_link": "shopify:\/\/collections\/electric-bike",
-            "text_color": "#ffffff",
+            "text_color": "#000000",
             "button_background": "#ffffff",
             "button_text_color": "#1a1a1a",
             "overlay_color": "#ffffff",
@@ -27,61 +27,20 @@
         },
         "image_E786cM": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "shopify:\/\/pages\/sales-deals",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "slide-1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
+            "image": "shopify:\/\/shop_images\/pc_5-2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/5-2.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-start-center sm:text-center",
-            "subheading": "",
-            "title": "Starte ins Neue Jahr mit Sparfreude! <br>Bis zu 32% Rabatt！",
-            "heading_tag": "h2",
-            "button_text": "Jetzt Sparen",
-            "button_link": "shopify:\/\/collections\/e-bikes",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "#1a1a1a",
-            "background_gradient": ""
-          }
-        },
-        "82769dd7-5553-4ee2-91e8-f2e9ba47ce1b": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "Die Zukunft  der urbanen Mobilität.",
-            "heading_tag": "h1",
-            "button_text": "Mehr Entdecken",
-            "button_link": "shopify:\/\/collections\/e-bikes",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "Discover the New Heybike EC1-ST in Sleek Black",
+            "title": "Timeless and stylish – a standout on any ride",
+            "heading_tag": "h3",
+            "button_text": "Shop Now",
+            "button_link": "shopify:\/\/collections\/electric-bike",
+            "text_color": "#1a1a1a",
+            "button_background": "#1a1a1a",
+            "button_text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
             "background": "",
@@ -91,9 +50,7 @@
       },
       "block_order": [
         "d54499ba-c22c-4d5a-a5bb-d5723b1d8415",
-        "image_E786cM",
-        "slide-1",
-        "82769dd7-5553-4ee2-91e8-f2e9ba47ce1b"
+        "image_E786cM"
       ],
       "settings": {
         "full_width": true,
@@ -102,7 +59,7 @@
         "controls_type": "dots",
         "transition_type": "fade_with_text",
         "autoplay": true,
-        "cycle_speed": 6,
+        "cycle_speed": 10,
         "background": "rgba(0,0,0,0)",
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
@@ -163,27 +120,7 @@
     "section_story_seiper_7jVyWW": {
       "type": "Section-Story-seiper",
       "blocks": {
-        "item_PNMbKk": {
-          "type": "item",
-          "settings": {
-            "autoplay": false,
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=yOWhNm9eo9w",
-            "title": "Heybike EC 1 Review - Great City Commuter!",
-            "content": "",
-            "author": "TechLine"
-          }
-        },
-        "item_KB7QeD": {
-          "type": "item",
-          "settings": {
-            "autoplay": false,
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=6TzvQOSwnF8",
-            "title": "Heybike EC 1 E-Bike Review - Beautiful City E-Bike!",
-            "content": "",
-            "author": "Redskull"
-          }
-        },
-        "item_ERjTY3": {
+        "item_gcqwMJ": {
           "type": "item",
           "settings": {
             "autoplay": false,
@@ -192,12 +129,54 @@
             "content": "",
             "author": "Rob and Lynn on tour"
           }
+        },
+        "item_mgjDMw": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=Nxl1-MEvwKs",
+            "title": "If your in the market for an electric commuter this one could be for you.",
+            "content": "",
+            "author": "The Yorkshire Bike Mechanic"
+          }
+        },
+        "item_A9pDHD": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=iARRjO2mbnc",
+            "title": "Lightweight E-bike Review: HeyBike EC 1-ST commuter bike Analysis",
+            "content": "",
+            "author": "Reds go Travels"
+          }
+        },
+        "item_cbJKMe": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=TuYja63PCLQ",
+            "title": "Unleashing Hidden Power: How My Stealthy 250 w Heybike EC-1 Broke The Legal E-bike Speed Limit!",
+            "content": "",
+            "author": "Dude Stuff"
+          }
+        },
+        "item_Bb4CLy": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=ky5bEzR8oKU",
+            "title": "My Dad is Blown Away by our new Electric Vehicle ",
+            "content": "",
+            "author": "8 Miles from Home"
+          }
         }
       },
       "block_order": [
-        "item_PNMbKk",
-        "item_KB7QeD",
-        "item_ERjTY3"
+        "item_gcqwMJ",
+        "item_mgjDMw",
+        "item_A9pDHD",
+        "item_cbJKMe",
+        "item_Bb4CLy"
       ],
       "settings": {
         "title": "Professional Reviews",
@@ -218,8 +197,8 @@
         "178f4602-9229-4ed3-8f62-98c2970ba9c8": {
           "type": "advantage",
           "settings": {
-            "main_image": "shopify:\/\/shop_images\/DSC09050-1.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/DSC09050-ph.jpg",
+            "main_image": "shopify:\/\/shop_images\/GMC_7531-pc_596da77a-5c02-4913-9b0e-2f41aa62ddd9.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/GMC_7531-ph.jpg",
             "image_alt": "img",
             "title": "Why Heybike",
             "subtitle": "To create a better, greener and more comfortable life for people.",
@@ -230,8 +209,8 @@
         "15846303-de2a-4e2b-8059-041bedcad53a": {
           "type": "advantage",
           "settings": {
-            "main_image": "shopify:\/\/shop_images\/DSC09654-2.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/DSC09654-2_95c8b55b-35f7-4212-bf3f-e3bd2b54d596.jpg",
+            "main_image": "shopify:\/\/shop_images\/GMC_7717-2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/GMC_7717-2_1f5ab527-4251-4c2f-8524-27a99a41e9a3.jpg",
             "image_alt": "img",
             "title": "Tutorials",
             "subtitle": "From beginner to expert, Heybike tutorials accompany you every step along the way.",
@@ -242,33 +221,20 @@
         "a5077530-438f-4ba0-8ecb-0b4e569c6cf5": {
           "type": "advantage",
           "settings": {
-            "main_image": "shopify:\/\/shop_images\/DSC00779-2.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/DSC00779-2_733b980f-91ac-4255-a321-e9c6ea39535b.jpg",
+            "main_image": "shopify:\/\/shop_images\/GMC_8503-1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/GMC_8503-1_6bd19320-505b-4a8a-a7b0-e60fb3b1b905.jpg",
             "image_alt": "img",
             "title": "Heybike <br>In your neighbourhood",
             "subtitle": "Discover our dealer shops near you and experience cycling fun at first hand.",
             "btn_text": "Learn More",
             "url": "shopify:\/\/pages\/find-dealers"
           }
-        },
-        "advantage_d4Dz4q": {
-          "type": "advantage",
-          "disabled": true,
-          "settings": {
-            "main_image": "shopify:\/\/shop_images\/DSC6503-2.jpg",
-            "image_alt": "img",
-            "title": "Photo Contest 2024",
-            "subtitle": "Sharing your Heybike E-Bike photos, voting and winning discounts!",
-            "btn_text": "Join",
-            "url": ""
-          }
         }
       },
       "block_order": [
         "178f4602-9229-4ed3-8f62-98c2970ba9c8",
         "15846303-de2a-4e2b-8059-041bedcad53a",
-        "a5077530-438f-4ba0-8ecb-0b4e569c6cf5",
-        "advantage_d4Dz4q"
+        "a5077530-438f-4ba0-8ecb-0b4e569c6cf5"
       ],
       "settings": {
       }
@@ -471,6 +437,15 @@
     "30c07ef4-3264-4745-9e50-46156b03a8f0": {
       "type": "fans-club",
       "blocks": {
+        "text_block_HFVfPx": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify:\/\/shop_images\/GMC_8580-1.jpg",
+            "image_alt": "img",
+            "url": "",
+            "title": ""
+          }
+        },
         "text_block_3WTLGJ": {
           "type": "text_block",
           "settings": {
@@ -581,6 +556,7 @@
         }
       },
       "block_order": [
+        "text_block_HFVfPx",
         "text_block_3WTLGJ",
         "efae08a4-10fc-460c-a64c-740654da503f",
         "text_block_3trpDV",
