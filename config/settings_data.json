@@ -1,5 +1,7 @@
 {
   "current": {
+    "padding_start": 50,
+    "padding_end": 50,
     "page_width": 1300,
     "section_vertical_spacing": "medium",
     "section_boxed_horizontal_spacing": "medium",
@@ -14,16 +16,18 @@
     "button_hover_effect": "fade",
     "background": "#ffffff",
     "text_color": "#1a1a1a",
+    "warning_color": "#f6be00",
     "header_background": "#ffffff",
     "header_text_color": "#1a1a1a",
     "footer_background": "#121212",
     "footer_text_color": "#ffffff",
     "primary_button_background": "#1a1a1a",
     "primary_button_text_color": "#ffffff",
-    "secondary_button_background": "#f0c417",
+    "secondary_button_background": "#f6be00",
     "secondary_button_text_color": "#1a1a1a",
     "product_card_text_color": "#1a1a1a",
-    "product_primary_badge_background": "#803cee",
+    "product_rating_color": "#f6be00",
+    "product_primary_badge_background": "#f6be00",
     "heading_font": "poppins_n7",
     "heading_font_size": "medium",
     "heading_text_transform": "normal",
@@ -56,21 +60,18 @@
     "cart_free_shipping_threshold": 99,
     "social_facebook": "https:\/\/www.facebook.com\/HeybikeEuropean",
     "social_twitter": "https:\/\/twitter.com\/Heybike_EU",
-    "social_instagram": "https:\/\/www.instagram.com\/heybike.eu\/",
+    "social_instagram": "https:\/\/www.instagram.com\/heybike_uk\/",
     "social_youtube": "https:\/\/www.youtube.com\/@HeybikeEU",
     "social_tiktok": "https:\/\/www.tiktok.com\/@heybike_eu",
-    "favicon": "shopify:\/\/shop_images\/100.png",
+    "favicon": "shopify:\/\/shop_images\/180X180_icon_4b914b88-8068-4380-bebd-7fdd93262f42.png",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "14060646107696862457": {
         "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15683396631634586217": {
         "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
@@ -95,14 +96,12 @@
       "855628211100114053": {
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
-      "14327677521557774844": {
-        "type": "shopify:\/\/apps\/simprosys-google-shopping-feed\/blocks\/core_settings_block\/1f0b859e-9fa6-4007-97e8-4513aff5ff3b",
+      "5784066569132941777": {
+        "type": "shopify:\/\/apps\/s-store-locator\/blocks\/embed-app\/e7003487-cc51-4321-9488-2c47c07a5b17",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -203,5 +202,10 @@
       "product_color_display": "swatch",
       "product_info_alignment": "center"
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".jdgm-review-widget .jdgm-rev-widg {padding: 0;}"
+    ]
   }
 }

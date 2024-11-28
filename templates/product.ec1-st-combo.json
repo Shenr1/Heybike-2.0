@@ -11,8 +11,7 @@
         },
         "badges": {
           "type": "badges",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
@@ -22,24 +21,26 @@
         },
         "judge_me_reviews_preview_badge_xwCLeK": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        },
-        "liquid_rJGCtU": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"flex items-center\">\n    <img class=\"mr-4\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0727\/4535\/3500\/files\/klama_50x_d45af387-b200-4d45-bbd0-12c8ca24a6f6.png?v=1690597910\" alt=\"\">\n    <p>\n      Buy now, pay later.<a style=\"text-decoration: underline;\" href=\"https:\/\/www.klarna.com\/uk\/?\">Learn More<\/a>\n    <\/p>\n  <\/div>"
-          }
+          "settings": {}
         },
         "payment_terms": {
           "type": "payment_terms",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "separator": {
           "type": "separator",
+          "settings": {}
+        },
+        "countdown_pQdf7W": {
+          "type": "countdown",
           "settings": {
+            "countdown_lbl": "BFCM Sale Ends In：",
+            "countdown_date": "2024-12-03 23:59",
+            "countdown_days": "DAYS",
+            "countdown_hours": "HRS",
+            "countdown_minutes": "MIN",
+            "countdown_seconds": "SEC"
           }
         },
         "variant_picker": {
@@ -54,8 +55,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "gift_YzDWqH": {
           "type": "gift",
@@ -77,17 +77,6 @@
             "payment_button_text_color": ""
           }
         },
-        "countdown_pQdf7W": {
-          "type": "countdown",
-          "settings": {
-            "countdown_lbl": "⏰ Limited Time",
-            "countdown_date": "2024-08-23 23:59",
-            "countdown_days": "DAYS",
-            "countdown_hours": "HRS",
-            "countdown_minutes": "MIN",
-            "countdown_seconds": "SEC"
-          }
-        },
         "associated_products_DQmW6R": {
           "type": "associated_products",
           "settings": {
@@ -96,6 +85,12 @@
             "products_count": 5,
             "background": "",
             "text_color": ""
+          }
+        },
+        "liquid_rJGCtU": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"flex items-center\">\n    <img class=\"mr-4\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0727\/4535\/3500\/files\/klama_50x_d45af387-b200-4d45-bbd0-12c8ca24a6f6.png?v=1690597910\" alt=\"\">\n    <p>\n      Buy now, pay later.<a style=\"text-decoration: underline;\" href=\"https:\/\/www.klarna.com\/uk\/?\">Learn More<\/a>\n    <\/p>\n  <\/div>"
           }
         },
         "image_7P7r6w": {
@@ -178,15 +173,15 @@
         "badges",
         "price",
         "judge_me_reviews_preview_badge_xwCLeK",
-        "liquid_rJGCtU",
         "payment_terms",
         "separator",
+        "countdown_pQdf7W",
         "variant_picker",
         "quantity_selector",
         "gift_YzDWqH",
         "buy_buttons",
-        "countdown_pQdf7W",
         "associated_products_DQmW6R",
+        "liquid_rJGCtU",
         "image_7P7r6w",
         "text_dPmKaf",
         "specs_DeWEHg",
@@ -212,7 +207,7 @@
         "accessory_alt": "",
         "accessory_title": "<p><strong>Free Gift<\/strong><\/p>",
         "accessory_content": "<p>Included in delivery<\/p>",
-        "accessory_price": "£256",
+        "accessory_price": "£366",
         "accessory_loser": "free",
         "background_accessory": "#f2f2ef",
         "accessory_color": "#121212",
@@ -254,8 +249,7 @@
       "blocks": {
         "size_img_gieUyx": {
           "type": "size-img",
-          "settings": {
-          }
+          "settings": {}
         },
         "specs_tab_one_VP3faV": {
           "type": "specs-tab-one",
@@ -474,8 +468,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/1920-500_bb7c3ea7-3952-43f7-a780-753cb9ae59bf.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/750-1128.jpg",
+        "image": "shopify:\/\/shop_images\/1920-500_8060eed1-0aa6-44a9-bec3-2e16962d7933.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/750-1128_368dbee6-a6a3-458c-8a2b-3611857b4790.jpg",
         "mobile_text_position": "place-self-end-center text-center",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#1a1a1a",
@@ -581,6 +575,15 @@
             "desc": "Perfect integration with the HEYBIKE app. Waterproof to IPX6, reliably displays battery status, maximum speed and more. Always clear insights into your riding conditions."
           }
         },
+        "text_block_j39kHc": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify:\/\/shop_images\/1800-1012_d58a2d74-722c-457d-85c4-ed67f54c9c46.png",
+            "image_alt": "img",
+            "title": "Integrated Rear Light",
+            "desc": "The EC 1 series features a rear light with wiring embedded in the frame – sleek, practical, and safe. Perfect for stylish rides."
+          }
+        },
         "text_block_gftpFA": {
           "type": "text_block",
           "settings": {
@@ -629,6 +632,7 @@
       },
       "block_order": [
         "text_block_gwXJhg",
+        "text_block_j39kHc",
         "text_block_gftpFA",
         "text_block_wt7wkF",
         "text_block_KmPftB",
@@ -1141,8 +1145,7 @@
       "blocks": {
         "judge_me_reviews_review_widget_4pPNiW": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [

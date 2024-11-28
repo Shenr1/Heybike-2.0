@@ -7,58 +7,33 @@
         "content_width": "80ch"
       }
     },
-    "timeline_KEpKLi": {
-      "type": "timeline",
+    "39a1f9da-7bd8-448f-85bd-2b49be6670be": {
+      "type": "rich-text",
       "blocks": {
-        "slide_h7xNVa": {
-          "type": "slide",
+        "template--21660142207261__39a1f9da-7bd8-448f-85bd-2b49be6670be-heading-1": {
+          "type": "heading",
           "settings": {
-            "image": "shopify://shop_images/14_7988b574-4c7e-4443-b5d3-786e8abbede7.jpg",
-            "navigation_label": "2015",
-            "subheading": "",
-            "title": "Jason's commuting epiphany",
-            "content": "<p>Our founder, Jason, had a realization while working in a high-rise office building and daily commuting was causing him significant stress and delays.<br/>He was tired of being constantly late to work due to traffic jams and public transit issues.</p>"
+            "text": "LET YOUR JOY OUT",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
           }
         },
-        "slide_gVWQUY": {
-          "type": "slide",
+        "fc10af90-7c17-4e34-bed2-18d2c9a307c1": {
+          "type": "richtext",
           "settings": {
-            "image": "shopify://shop_images/12_d47f92c1-cb6f-4aa8-a7e7-77182c027414.jpg",
-            "navigation_label": "2017",
-            "subheading": "",
-            "title": "Jason and William's meeting",
-            "content": "<p>When William and Jason met each other, William had been in the outdoor cycling industry for a decade. He is also a cycling enthusiast who shares the same vision for making commuting more convenient.</p>"
-          }
-        },
-        "slide_Mx6D9R": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/13_30fca610-2386-4197-ad26-b39b6e8c9fe8.jpg",
-            "navigation_label": "2018",
-            "subheading": "",
-            "title": "The creation of the City scape Electric Cruiser Bike",
-            "content": "<p>That's when they founded Heybike and set out to create their first bike: Cityscape Electric Cruiser Bike. This bike helped people commute more conveniently, but it didn't stop there: Cityscape gradually and seamlessly integrated cycling into everyone's lives.</p>"
-          }
-        },
-        "slide_pVigKj": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/DSC000201.jpg",
-            "navigation_label": "2019",
-            "subheading": "",
-            "title": "Expansion & Innovation",
-            "content": "<p>From a small garage to an international store, we continue to innovate and grow our product line to bring you best riding experience. Now we have over 40 models of e-bikes, including mountain electric bikes, folding electric bikes, city electric bikes, cruiser e-bikes, fat tire e-bikes, and many more for you to choose from.</p>"
+            "content": "<p>Riding an Ebike means reconnection to us at Heybike. Reconnection between a rider, community, life, and joy. Reconnecting to those happy moments riding a bike provides memorable experiences with family and friends, a break from monotonous routines, and an ode to simpler times.<\/p>"
           }
         }
       },
       "block_order": [
-        "slide_h7xNVa",
-        "slide_gVWQUY",
-        "slide_Mx6D9R",
-        "slide_pVigKj"
+        "template--21660142207261__39a1f9da-7bd8-448f-85bd-2b49be6670be-heading-1",
+        "fc10af90-7c17-4e34-bed2-18d2c9a307c1"
       ],
       "settings": {
         "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -69,8 +44,9 @@
       "blocks": {
         "6a6d42a7-59f7-4a8e-905a-174a9358e4af": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/DSC09643_edbbb6de-3612-492a-b7cb-b04b1e76ed06.jpg",
+            "image": "shopify:\/\/shop_images\/DSC09643_edbbb6de-3612-492a-b7cb-b04b1e76ed06.jpg",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center text-center",
@@ -78,7 +54,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "",
-            "content": "<p>As technology progresses, we have all seen the rise of Personal Electric Vehicles (PEVs) and their impact on modern transportation. Just a couple of years ago, this tech was in its early adoption phase. Still, we find that electric transportation options are hard to get our hands on and come at premium prices.<br/></p><p>HeyBike was driven to provide widely accessible and affordable electric transportation to people across the globe.</p>",
+            "content": "<p>We are about exploration, inspiration and using <br\/>innovative solutions to disrupt everyday routine and <br\/>bring joy back. We specialize in smart, high-quality <br\/>electric bikes.<br\/>But our true passion derives from knowing our bikes <br\/>encourage the adventurous spirit and provides cleaner, greener solutions to climate issues. Our desire: Giving riders feelings of joy and happiness with every awesome bike ride.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -92,15 +68,15 @@
         "cbb72143-092e-4169-93c9-f6f1f6568af7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/02-2.jpg",
+            "image": "shopify:\/\/shop_images\/02-2.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Mission",
-            "content": "<p>To pioneer e-bike innovation, transforming lives and unlocking new  dimensions of freedom.</p>",
+            "title": "Our Mission",
+            "content": "<p>To inspire everyone towards joy by breaking life's routine with advanced electric bikes and innovative technologies.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -114,15 +90,15 @@
         "d3d3b511-0556-469d-b4eb-013ba0e06513": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/App_690X367-2_50bebc50-2c6e-433f-8d2e-97d9ab131014.png",
+            "image": "shopify:\/\/shop_images\/App_690X367-2_50bebc50-2c6e-433f-8d2e-97d9ab131014.png",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Vision",
-            "content": "<p>Empowering a sustainable future as the premier provider of green transportation solutions.</p>",
+            "title": "Our Vision",
+            "content": "<p>To become a world-leading organization, empowering every user with reliable eco-friendly transportation solutions.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -144,33 +120,135 @@
         "spacing": "none"
       }
     },
-    "39a1f9da-7bd8-448f-85bd-2b49be6670be": {
-      "type": "rich-text",
+    "multi_column_zxHVRc": {
+      "type": "multi-column",
       "blocks": {
-        "template--21660142207261__39a1f9da-7bd8-448f-85bd-2b49be6670be-heading-1": {
-          "type": "heading",
+        "item_QqMkP8": {
+          "type": "item",
           "settings": {
-            "text": "YOUR LIFE. HEYBIKE",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
+            "image": "shopify:\/\/shop_images\/002.png",
+            "column_size": "3",
+            "title": "Subtle Insights",
+            "heading_tag": "h4",
+            "content": "<p>Based on the needs of each user, we provide feasible and appropriate solutions for users of different ages, with different levels of purchasing power and in different scenarios<br\/><\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "fc10af90-7c17-4e34-bed2-18d2c9a307c1": {
-          "type": "richtext",
+        "item_AVW7k9": {
+          "type": "item",
           "settings": {
-            "content": "<p>We’ll always advocate the use of ebikes, whether you choose one of our models or a product from a competitor. That’s because we’ve realized—and we hope you will, too—that along with<em>saving a lot of green</em>(both for the environment and for your wallet), riding an ebike will bring<em>smiles to your face</em>and to those of future generations.</p>"
+            "image": "shopify:\/\/shop_images\/003.png",
+            "column_size": "3",
+            "title": "Flexible R&D",
+            "heading_tag": "h4",
+            "content": "<p>Focus on the development of <br\/>technologies that provide real value for users, so our technologies are not only innovative, but also effectively empower different scenarios and needs<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_JFYqp3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/004.png",
+            "column_size": "3",
+            "title": "Joyful Resonance",
+            "heading_tag": "h4",
+            "content": "<p>Evoking moments of happiness within riders cycling through work & life, with family & friends, and within themselves, providing pleasure and freedom with each riding experience<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         }
       },
       "block_order": [
-        "template--21660142207261__39a1f9da-7bd8-448f-85bd-2b49be6670be-heading-1",
-        "fc10af90-7c17-4e34-bed2-18d2c9a307c1"
+        "item_QqMkP8",
+        "item_AVW7k9",
+        "item_JFYqp3"
       ],
       "settings": {
         "full_width": true,
-        "content_width": "medium",
-        "text_position": "center",
+        "stack_on_mobile": false,
+        "stack_on_changes": false,
+        "gap": "small",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Brand Value",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_ieDgMJ": {
+      "type": "multi-column",
+      "blocks": {
+        "item_A8eAAE": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "8,500,500 mile",
+            "heading_tag": "h4",
+            "content": "<p>Total Distance Ridden<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_RxkeTR": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "170,000 +",
+            "heading_tag": "h4",
+            "content": "<p>Active Riders<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_wpTR8G": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "2,847,500 kg",
+            "heading_tag": "h4",
+            "content": "<p>Total CO2 Emissions Reduced<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_xHyK96": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "2,847,5 pcs",
+            "heading_tag": "h4",
+            "content": "<p>Equivalent Trees Planted<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_A8eAAE",
+        "item_RxkeTR",
+        "item_wpTR8G",
+        "item_xHyK96"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "stack_on_changes": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "GO GREEN WITH HEYBIKE",
+        "content": "",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -179,8 +257,9 @@
   },
   "order": [
     "main",
-    "timeline_KEpKLi",
+    "39a1f9da-7bd8-448f-85bd-2b49be6670be",
     "28f551f5-2317-4753-96e1-578c7bf57b14",
-    "39a1f9da-7bd8-448f-85bd-2b49be6670be"
+    "multi_column_zxHVRc",
+    "multi_column_ieDgMJ"
   ]
 }

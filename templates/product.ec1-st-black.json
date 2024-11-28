@@ -32,7 +32,7 @@
           "type": "separator",
           "settings": {}
         },
-        "countdown_q36Udr": {
+        "countdown_pQdf7W": {
           "type": "countdown",
           "settings": {
             "countdown_lbl": "BFCM Sale Ends In：",
@@ -57,7 +57,7 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "gift_Lh7GMY": {
+        "gift_8CeL4j": {
           "type": "gift",
           "settings": {
             "title": "Exclusive Offer",
@@ -105,7 +105,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p><strong>*Estimated delivery time: 2-8 working days from UK warehouse.<\/strong><\/p><p><strong>*Bikes & accessories are dispatched separately.<\/strong><\/p>"
+            "text": "<p><a href=\"https:\/\/heybike.co.uk\/pages\/important-notice\" target=\"_blank\" title=\"Important Notice\"><strong>*Important Notice<\/strong><\/a><\/p>"
           }
         },
         "specs_DeWEHg": {
@@ -175,10 +175,10 @@
         "judge_me_reviews_preview_badge_xwCLeK",
         "payment_terms",
         "separator",
-        "countdown_q36Udr",
+        "countdown_pQdf7W",
         "variant_picker",
         "quantity_selector",
-        "gift_Lh7GMY",
+        "gift_8CeL4j",
         "buy_buttons",
         "associated_products_DQmW6R",
         "liquid_rJGCtU",
@@ -197,17 +197,17 @@
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
-        "mobile_carousel_control": "thumbnails",
+        "mobile_carousel_control": "floating_dots",
         "enable_video_autoplay": false,
         "enable_video_looping": true,
         "enable_image_zoom": true,
-        "max_image_zoom_level": 2.5,
+        "max_image_zoom_level": 3,
         "enable_accessory": true,
-        "accessory_image": "shopify:\/\/shop_images\/Double_gifts-uk_5c5aa0ee-7dae-474a-a3b8-0c3f92b96015.png",
+        "accessory_image": "shopify:\/\/shop_images\/gifts_01_ca32e085-616d-4617-a800-e49f5f8886d3.png",
         "accessory_alt": "",
-        "accessory_title": "<p><strong>Free Gift<\/strong><\/p>",
-        "accessory_content": "<p>Included in delivery<\/p>",
-        "accessory_price": "£366",
+        "accessory_title": "<p>🎃 Halloween Exclusive: Free Gifts<\/p>",
+        "accessory_content": "<p>Included in the package<\/p>",
+        "accessory_price": "£213",
         "accessory_loser": "free",
         "background_accessory": "#f2f2ef",
         "accessory_color": "#121212",
@@ -310,7 +310,7 @@
             "image": "shopify:\/\/shop_images\/12_44e686fc-7453-4a60-b3bb-aeff20237e7d.png",
             "number": "19.2",
             "unit": "kg",
-            "remarks": "Weight of the bike"
+            "remarks": "Bike weight"
           }
         },
         "image_azQePi": {
@@ -325,7 +325,7 @@
         "image_jEiMeh": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ce_-icon_4c62de7c-3f3e-4b2d-8041-f95b2c0abaca.png",
+            "image": "shopify:\/\/shop_images\/ce_-icon_35c917ba-6bf5-4e99-bb75-3c20efb9679c.png",
             "number": "CE & RoHS",
             "unit": "",
             "remarks": "Certification"
@@ -396,7 +396,7 @@
         "functionality_3eUhPJ"
       ],
       "settings": {
-        "title": "Reshaping the future.",
+        "title": "Reshape Your Riding",
         "background_image": "shopify:\/\/shop_images\/614_2x_256x256_5f0050a7-d2ae-49e5-a497-22b8e787b5eb.png",
         "background_image_mobile": "shopify:\/\/shop_images\/34_256x256_0437d683-9d86-4932-b363-b951a2e06f97.jpg"
       }
@@ -420,7 +420,7 @@
         "item_RQ9DbJ": {
           "type": "item",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/EC 1短2.mp4",
+            "video": "shopify:\/\/files\/videos\/EC 1-ST短_4ee929be-27b7-403e-9080-3fa973ba92bd.mp4",
             "column_size": "1.5",
             "title": "",
             "heading_tag": "h4",
@@ -441,18 +441,18 @@
         "stack_on_changes": true,
         "gap": "small",
         "text_alignment": "center",
-        "subheading": "Your companion to explore the city and embody style.",
-        "title": "With the EC series bike you are making the right choice for your transportation.",
-        "content": "<p>The low frame design offers comfortable elegance for anyone who wants to travel in style. Whether fashionable dresses or casual outfits, this e-bike fits your lifestyle perfectly.<\/p>",
+        "subheading": "Your stylish companion to explore the city",
+        "title": "Choose a right e-bike from the EC series, and you are sure to upgrade your riding experience.",
+        "content": "<p>The low frame design offers comfortable elegance for anyone who wants to travel in style. Whether you are wearing fashionable dresses or casual outfits, this e-bike fits your lifestyle perfectly.<\/p>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
       }
     },
-    "image_with_text_overlay_d8hCTr": {
+    "image_with_text_overlay_bYyEry": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "heading_988x7W": {
+        "heading_mj3AUg": {
           "type": "heading",
           "settings": {
             "text": "Colorful & Lightweight",
@@ -461,15 +461,15 @@
         }
       },
       "block_order": [
-        "heading_988x7W"
+        "heading_mj3AUg"
       ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/1920-500_05cde6d0-9ea7-4e29-a20c-fb89ba8dc207.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/750-1000_2fc33829-9ac6-462c-99a2-0165fd671d00.jpg",
+        "image": "shopify:\/\/shop_images\/1920-500_d6c375e7-57fb-44d0-b1ba-318178b0c9b7.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/750-1128_4078e3c2-8f6e-4752-bd41-19635e72627e.jpg",
         "mobile_text_position": "place-self-end-center text-center",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#1a1a1a",
@@ -483,7 +483,7 @@
         "video_6tdXtp": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/Akku.mp4",
+            "video": "shopify:\/\/files\/videos\/欧洲详情页短视频EC 1 ST-电池.mp4",
             "external_video_url": "",
             "autoplay": true,
             "media_width": 50,
@@ -507,7 +507,7 @@
         "video_KeWQrV": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/Gewicht.mp4",
+            "video": "shopify:\/\/files\/videos\/欧洲详情页短视频EC 1 ST-刹车002.mp4",
             "external_video_url": "",
             "autoplay": true,
             "media_width": 50,
@@ -516,8 +516,8 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Lightweight",
-            "content": "<p>Compact, lightweight and strong on the move, weighing just 19.2kg, it's ideal for effortless mobility whether you're carrying it up the stairs or storing it on the go.<\/p>",
+            "title": "Hydraulic Disc Brakes",
+            "content": "<p><strong>Reliable control, safe braking<\/strong><\/p><p>Whether you are riding on steep descents or encountering abrupt stops, the hydraulic disc brakes help you stay in control and overcome obstacles with confidence.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -531,7 +531,7 @@
         "video_CUWeF3": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/Ganze.mp4",
+            "video": "shopify:\/\/files\/videos\/欧洲详情页短视频EC 1 ST-整车2.mp4",
             "external_video_url": "",
             "autoplay": true,
             "media_width": 50,
@@ -540,8 +540,8 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Sleek design",
-            "content": "<p>The aluminium frame weighs just 19.2 kg and combines style with functionality. Without welds, but with sleek lines, it offers the highest quality for carefree rides. <\/p>",
+            "title": "Step-Thru Design",
+            "content": "<p><strong>Ride Comfortably; Travel Effortlessly.<\/strong><\/p><p>With step-thru design, lightweight aluminum frame (19.2kg), EC 1-ST not only provides easy getting on and off, but also makes the ride a carefree pleasure.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -575,10 +575,10 @@
             "desc": "Perfect integration with the HEYBIKE app. Waterproof to IPX6, reliably displays battery status, maximum speed and more. Always clear insights into your riding conditions."
           }
         },
-        "text_block_j4HiE7": {
+        "text_block_yM8JNj": {
           "type": "text_block",
           "settings": {
-            "main_image": "shopify:\/\/shop_images\/1800-1012_a57986f9-a97b-48c9-a56f-9bfa7fc92328.png",
+            "main_image": "shopify:\/\/shop_images\/1800-1012_eefbde92-3082-4e96-b3ec-8d39045dd16b.png",
             "image_alt": "img",
             "title": "Integrated Rear Light",
             "desc": "The EC 1 series features a rear light with wiring embedded in the frame – sleek, practical, and safe. Perfect for stylish rides."
@@ -632,7 +632,7 @@
       },
       "block_order": [
         "text_block_gwXJhg",
-        "text_block_j4HiE7",
+        "text_block_yM8JNj",
         "text_block_gftpFA",
         "text_block_wt7wkF",
         "text_block_KmPftB",
@@ -653,7 +653,7 @@
         "image_7zPXcJ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/GMC_9003-1_1a5fa8b4-3c05-4acf-8c6f-819a89d025f8.jpg",
+            "image": "shopify:\/\/shop_images\/1_e164e5b7-4645-4b2c-8389-7661a485ade5.png",
             "mobile_based": "shopify:\/\/shop_images\/ec1.png",
             "media_width": 50,
             "media_position": "end",
@@ -720,6 +720,16 @@
     "section_story_seiper_f9bjKg": {
       "type": "Section-Story-seiper",
       "blocks": {
+        "item_BpwCP9": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=iARRjO2mbnc",
+            "title": "Lightweight E-bike Review: HeyBike EC 1-ST commuter bike Analysis",
+            "content": "",
+            "author": "Reds go Travels"
+          }
+        },
         "item_VmHd4H": {
           "type": "item",
           "settings": {
@@ -782,6 +792,7 @@
         }
       },
       "block_order": [
+        "item_BpwCP9",
         "item_VmHd4H",
         "item_rNq84W",
         "item_hJdGe3",
@@ -810,7 +821,7 @@
           "settings": {
             "image_w": "tw-w-1\/2",
             "order": "Geometry",
-            "image1": "shopify:\/\/shop_images\/EC-1_a9dc8edc-3844-4b49-b91d-89bd8c5a6bcb.jpg",
+            "image1": "shopify:\/\/shop_images\/EC1-ST.jpg",
             "color1": "",
             "color2": "",
             "color3": "",
@@ -825,52 +836,52 @@
             "show_line_r": false,
             "item_wsdfsd": "tw-w-1\/2",
             "item_w_mb": "tw-w-1\/2",
-            "tr1": "Size",
-            "tr2": "M(mm)",
-            "tr3": "L(mm)",
+            "tr1": "Description",
+            "tr2": "Size (cm)",
+            "tr3": "",
             "order1": "",
             "beschreibung1": "",
             "cm1": "",
             "lm1": "",
-            "order2": "A",
-            "beschreibung2": "Seat Tube",
-            "cm2": "460",
-            "lm2": "500",
-            "order3": "B",
-            "beschreibung3": "Chainstay",
-            "cm3": "450",
-            "lm3": "450",
-            "order4": "C",
-            "beschreibung4": "Effective Top Tube",
-            "cm4": "550",
-            "lm4": "550",
-            "order5": "D",
-            "beschreibung5": "Head Tube",
-            "cm5": "140",
-            "lm5": "140",
-            "order6": "E",
-            "beschreibung6": "Handlebar Height",
-            "cm6": "1020",
-            "lm6": "1020",
-            "order7": "F",
-            "beschreibung7": "Minimum Standover Heigh",
-            "cm7": "730",
-            "lm7": "730",
-            "order8": "G",
-            "beschreibung8": "Maximum Standover Height",
-            "cm8": "1050",
-            "lm8": "1050",
-            "order9": "H",
-            "beschreibung9": "Wheelbase",
-            "cm9": "1080",
-            "lm9": "1080",
-            "order10": "I",
-            "beschreibung10": "Total Length",
-            "cm10": "1800",
-            "lm10": "1800",
-            "order11": "",
-            "beschreibung11": "",
-            "cm11": "",
+            "order2": "0",
+            "beschreibung2": "Suitable for riders",
+            "cm2": "155~185",
+            "lm2": "",
+            "order3": "A",
+            "beschreibung3": "Seat tube",
+            "cm3": "43",
+            "lm3": "",
+            "order4": "B",
+            "beschreibung4": "Chainstay",
+            "cm4": "45",
+            "lm4": "",
+            "order5": "C",
+            "beschreibung5": "Effective Top Tube",
+            "cm5": "59",
+            "lm5": "",
+            "order6": "D",
+            "beschreibung6": "Head Tube",
+            "cm6": "16",
+            "lm6": "",
+            "order7": "E",
+            "beschreibung7": "Handlebar Height",
+            "cm7": "102",
+            "lm7": "",
+            "order8": "F",
+            "beschreibung8": "Minimum seat height",
+            "cm8": "73",
+            "lm8": "",
+            "order9": "G",
+            "beschreibung9": "Maximum seat height",
+            "cm9": "102",
+            "lm9": "",
+            "order10": "H",
+            "beschreibung10": "Wheelbase",
+            "cm10": "112",
+            "lm10": "",
+            "order11": "I",
+            "beschreibung11": "Total length",
+            "cm11": "182",
             "lm11": "",
             "order12": "",
             "beschreibung12": "",
@@ -919,7 +930,7 @@
           "settings": {
             "image_w": "tw-w-1\/2",
             "order": "What's in the box?",
-            "image1": "shopify:\/\/shop_images\/Ec_1_f84407d9-52e3-4422-b738-cea1aeb920be.jpg",
+            "image1": "shopify:\/\/shop_images\/Ec_1-st.jpg",
             "color1": "",
             "color2": "",
             "color3": "",
@@ -939,7 +950,7 @@
             "content_align": "tw-text-left",
             "content_pos": "tw-items-baseline",
             "item1": "<b>A -- Manual<\/b>",
-            "item2": "<b>B -- E-bike frame<\/b>",
+            "item2": "<b>B -- E-bike frame (Battery included) <\/b>",
             "item3": "<b>C -- Bicycle wheels<\/b>",
             "item4": "<b>D --  Charger<\/b>",
             "item5": "<b>E -- Seat<\/b>",
@@ -1059,6 +1070,138 @@
         "accordion_text_color": ""
       }
     },
+    "media_grid_MtPxEy": {
+      "type": "media-grid",
+      "blocks": {
+        "image_WM4MUK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/500X1000_277e7b13-16a8-460c-9e76-9878daa4ca16.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_VLW7RW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/500X500_cb850fb7-264c-4827-b925-143ae54e2635.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_PEKYYK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/500X500_1835ce04-91d7-411f-91d4-edeb61e5b9e0.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_bBXLfx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/500X1000_af8c438e-cdc1-46a6-9387-d353c0e52f23.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_mkVJ9i": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1000X500_823b9493-088a-409a-8625-b76f32b1542e.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_WM4MUK",
+        "image_VLW7RW",
+        "image_PEKYYK",
+        "image_bBXLfx",
+        "image_mkVJ9i"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "mobile_layout": "shopify:\/\/shop_images\/EC1--_-App_9f48f7fa-bd48-493d-b22d-4a2477f0eb93.jpg",
+        "image_alt": "",
+        "background": "",
+        "background_gradient": ""
+      }
+    },
     "accordion_content_8EFmKE": {
       "type": "accordion-content",
       "blocks": {
@@ -1151,6 +1294,9 @@
       "block_order": [
         "judge_me_reviews_review_widget_4pPNiW"
       ],
+      "custom_css": [
+        ".jdgm-rev-widg {padding: 0 !important;}"
+      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -1167,7 +1313,7 @@
     "section_new_tab_QBabLz",
     "section_bicycle_introduction_MxkQJV",
     "multi_column_pmjiYt",
-    "image_with_text_overlay_d8hCTr",
+    "image_with_text_overlay_bYyEry",
     "media_with_text_q3z7yf",
     "section_introduction_LrDkiC",
     "section_app_mGKdm9",
@@ -1175,6 +1321,7 @@
     "section_story_seiper_f9bjKg",
     "tab_image_text_4j7JVa",
     "faq_KMcdgw",
+    "media_grid_MtPxEy",
     "accordion_content_8EFmKE",
     "171072958506d38adb"
   ]

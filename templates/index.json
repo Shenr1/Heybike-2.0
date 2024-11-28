@@ -3,40 +3,18 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "d54499ba-c22c-4d5a-a5bb-d5723b1d8415": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pc_4.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/4_926fae95-d430-4b9e-b722-76db9c2c6581.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "Sport Season Promotion🚴‍♀️",
-            "title": "💰 Save up to £1,606",
-            "heading_tag": "h2",
-            "button_text": "Shop Now",
-            "button_link": "shopify:\/\/collections\/electric-bike",
-            "text_color": "#000000",
-            "button_background": "#ffffff",
-            "button_text_color": "#1a1a1a",
-            "overlay_color": "#ffffff",
-            "overlay_opacity": 0,
-            "background": "#f2f2ef",
-            "background_gradient": ""
-          }
-        },
         "image_E786cM": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pc_5-2.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/5-2.jpg",
+            "image": "shopify:\/\/shop_images\/pc_35b0e698-f081-4fe4-b9e8-d516b43db73e.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/App_57f07e4f-b57d-43ff-a351-a02705f821da.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "Discover the New Heybike EC1-ST in Sleek Black",
-            "title": "Timeless and stylish – a standout on any ride",
+            "subheading": "",
+            "title": "",
             "heading_tag": "h3",
-            "button_text": "Shop Now",
+            "button_text": "",
             "button_link": "shopify:\/\/collections\/electric-bike",
             "text_color": "#1a1a1a",
             "button_background": "#1a1a1a",
@@ -49,7 +27,6 @@
         }
       },
       "block_order": [
-        "d54499ba-c22c-4d5a-a5bb-d5723b1d8415",
         "image_E786cM"
       ],
       "settings": {
@@ -62,6 +39,45 @@
         "cycle_speed": 10,
         "background": "rgba(0,0,0,0)",
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
+      }
+    },
+    "countdown_3V9BjR": {
+      "type": "countdown",
+      "blocks": {
+        "image_74Mr46": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/gifs_36e5b4de-6d63-490f-b4b8-466c6adf2800.png"
+          }
+        },
+        "image_ALWxkq": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/gifs_17a569a3-3197-467a-9346-7126c9982e80.png"
+          }
+        },
+        "image_zmQEWt": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/gifs_6e12108b-5bff-4d17-91c8-87e7e40b1c98.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_74Mr46",
+        "image_ALWxkq",
+        "image_zmQEWt"
+      ],
+      "settings": {
+        "content_color": "#000000",
+        "title": "⏳ Black Friday Sale: Free Gifts!",
+        "description": "<p>Price guarantee, buy now to avoid all the Black Friday delivery rush<\/p>",
+        "date": "12\/04\/2024",
+        "expired_text": "<p>Countdown Finished!<\/p>",
+        "show_days": true,
+        "show_hours": true,
+        "show_minutes": true,
+        "show_seconds": true
       }
     },
     "22f39f6e-31e7-4c39-b7a5-ba94b8182fd3": {
@@ -178,6 +194,7 @@
         "item_cbJKMe",
         "item_Bb4CLy"
       ],
+      "disabled": true,
       "settings": {
         "title": "Professional Reviews",
         "title_color": "#333333",
@@ -236,8 +253,7 @@
         "15846303-de2a-4e2b-8059-041bedcad53a",
         "a5077530-438f-4ba0-8ecb-0b4e569c6cf5"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "advantage_fxQYVa": {
       "type": "advantage",
@@ -259,8 +275,7 @@
         "advantage_adLjEk"
       ],
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "11c84400-ee7f-40be-a8b8-51a0b5ff30ef": {
       "type": "highlight",
@@ -391,7 +406,7 @@
             "main_image": "shopify:\/\/shop_images\/1-02_c5ff3f86-24ac-4561-b3eb-c617d7520181.png",
             "image_alt": "img",
             "title": "Timely Support",
-            "subtitle": "+44 8081695220(EN)"
+            "subtitle": "+1 888-859-1518(EN)"
           }
         },
         "657610d6-eadc-4dd5-accb-ff4af9b41472": {
@@ -420,8 +435,8 @@
         "d233beb8-352b-4ee7-bec7-934fc4d0c55f"
       ],
       "settings": {
-        "main_image": "shopify:\/\/shop_images\/26_2x_76ecae8a-1e59-4803-9004-4f2f469fe0f7.png",
-        "mobile_image": "shopify:\/\/shop_images\/h-_55.png",
+        "main_image": "shopify:\/\/shop_images\/pc_84988840-8338-4070-b94c-7ad443a80b68.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/f2ce4dfc0d416a59a144fcf3d70cb1ad.jpg",
         "image_alt": "img",
         "user_bg": "shopify:\/\/shop_images\/35_2x_be2b149b-0b8a-4d12-be3e-e16068c91f36.png",
         "user_mobile_bg": "shopify:\/\/shop_images\/32_2x_1.png",
@@ -580,7 +595,7 @@
         "slide_6DatzB": {
           "type": "slide",
           "settings": {
-            "text_main": "8,000,000",
+            "text_main": "8,500,500",
             "text_suf": "miles",
             "text_sub": "Total Distance Ridden"
           }
@@ -588,7 +603,7 @@
         "slide_4zcb3N": {
           "type": "slide",
           "settings": {
-            "text_main": "160000",
+            "text_main": "170000",
             "text_suf": "+",
             "text_sub": "Active Riders"
           }
@@ -596,7 +611,7 @@
         "slide_TzKFTf": {
           "type": "slide",
           "settings": {
-            "text_main": "21,440,000",
+            "text_main": "22,780,000",
             "text_suf": "kg",
             "text_sub": "Total CO₂ Emissions Reduced"
           }
@@ -604,7 +619,7 @@
         "slide_pWmypB": {
           "type": "slide",
           "settings": {
-            "text_main": "2,680,000",
+            "text_main": "2,847,500",
             "text_suf": "",
             "text_sub": "Equivalent Trees Planted"
           }
@@ -619,10 +634,44 @@
       "settings": {
         "top_padding": "none",
         "bottom_padding": "large",
-        "bg_color": "#f3f5f9",
+        "bg_color": "#f7f7f7",
         "title": "The green journey in numbers",
         "image": "shopify:\/\/shop_images\/7d1092826674963ad143e87bf6fb8dcd_e1307103-d861-42b2-bb14-9e1a7ded26fd.jpg",
         "image_mb": "shopify:\/\/shop_images\/683d8ad056250280ab7d53259d3da6aa_01958410-cad8-43fc-8ad7-287f0c2c9eb4.png"
+      }
+    },
+    "blog_posts_cPAcWy": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_4VhxnJ": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_4VhxnJ"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Blog posts",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "cdbe83a7-5759-4ed9-87a4-9e53bd3862ea": {
@@ -641,6 +690,7 @@
   },
   "order": [
     "slideshow",
+    "countdown_3V9BjR",
     "22f39f6e-31e7-4c39-b7a5-ba94b8182fd3",
     "before_after_image_nzQypL",
     "section_story_seiper_7jVyWW",
@@ -650,6 +700,7 @@
     "635faa9d-ced1-4850-bf9a-50ddf1573877",
     "30c07ef4-3264-4745-9e50-46156b03a8f0",
     "section_data_statstics_dtcPtg",
+    "blog_posts_cPAcWy",
     "cdbe83a7-5759-4ed9-87a4-9e53bd3862ea"
   ]
 }

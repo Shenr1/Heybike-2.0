@@ -1,8 +1,8 @@
 {%- render 'section-spacing-collapsing' -%}
 {% liquid
   assign se_stts = section.settings
-  assign increment_container_classes = 'tw-border-2 md:tw-p-8 tw-p-6 md:tw-pt-4 tw-pt-2 tw-relative' 
-  assign increment_text_classes = 'tw-text-2xl tw-leading-none tw-text-right tw-font-semibold' 
+  assign increment_container_classes = 'tw-border md:tw-p-7 md:tw-pt-2 tw-p-4 tw-pt-2 tw-relative md:tw-w-auto tw-w-20' 
+  assign increment_text_classes = 'tw-text-2xl md:tw-mb-0 tw-mb-2 tw-leading-none md:tw-text-right tw-font-semibold tw-text-center' 
   assign increment_label_classes = 'tw-absolute -tw-translate-x-1/2 tw-left-1/2 tw-bottom-1' 
   if se_stts.date
     assign date = se_stts.date
@@ -20,18 +20,25 @@
     --text-color:{{se_stts.content_color }};
     color:var(--text-color)
   }
+  {% if se_stts.bg_img_mb != blank %}
+  @media screen and (max-width:769px){
+    #shopify-section-{{ section.id }} .section{
+      background-image:url('{{ se_stts.bg_img_mb | image_url }}')
+    }
+  }
+  {% endif %}
 </style>
 
 <div {% render 'section-properties' %}>
   <div class="tw-flex tw-justify-center tw-items-center tw-flex-col countdown-content "
     id="countdown-content" >
     {% if se_stts.title != blank %}
-      <h2 class="tw-text-center tw-text-2xl md:tw-text-3xl tw-font-semibold tw-mb-4" >
+      <h2 class="tw-text-center tw-text-[22px] tw-font-semibold tw-mb-2" >
         {{ se_stts.title }}
       </h2>
     {% endif %}  
     {% if se_stts.description != blank %}
-      <div class="tw-text-center tw-pb-[30px] tw-mx-auto tw-max-w-screen-xlg md:tw-px-[10%]" >
+      <div class="tw-text-center tw-pb-4 tw-mx-auto tw-max-w-screen-xlg md:tw-px-6" >
         {{ se_stts.description }}
       </div>
     {% endif %}
@@ -62,6 +69,20 @@
             </span>
           </div>
       </div>
+
+      {% if section.blocks.size > 0 %}
+      <div class="content-wrapper md:tw-mt-8 tw-mt-4 md:tw-px-16">
+        <div class="tw-flex xl:tw-gap-20 md:tw-gap-12 tw-gap-[3.5%] md:tw-flex-nowrap tw-flex-wrap tw-items-end">
+          {% for block in section.blocks %}
+          {% assign bk_stts = block.settings %}
+          <div class="md:tw-w-auto tw-w-[31%] md:tw-mb-0">
+            {{ bk_stts.img | image_url: width: '350' | image_tag: width: '140'}} 
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
   </div>
 </div>
 <script>
@@ -127,6 +148,11 @@
       "label": "Background image"
     },
     {
+      "type": "image_picker",
+      "id": "bg_img_mb",
+      "label": "Background image (Mobile)"
+    },
+    {
       "type": "color",
       "id": "content_color",
       "label": "Content Color",
@@ -180,6 +206,20 @@
       "label": "Show Seconds",
       "default": true
     }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "limit": 6,
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Image"
+        }
+      ]
+    },
   ],
   "presets": [
     {

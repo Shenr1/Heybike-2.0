@@ -33,8 +33,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "lg",
-        "image": "shopify://shop_images/Heybike-23.jpg",
-        "mobile_image": "shopify://shop_images/Heybike-23-phone.jpg",
+        "image": "shopify:\/\/shop_images\/Heybike-23.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Heybike-23-phone.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
@@ -48,43 +48,43 @@
         "template--21667087941917__3f7a15a2-3eee-4776-8800-c10a16e9c8d7-item-1": {
           "type": "item",
           "settings": {
-            "title": "Does the Heybike EC series comply with German regulations?",
-            "content": "<p>Yes, our EC 1 and EC 1-ST comply with German regulations and standards. They are equipped with the necessary safety functions and fulfil all requirements for legal operation on German roads. Find more information on this website. www.stvo.de</p>"
+            "title": "Does the Heybike EC series comply with UK regulations?",
+            "content": "<p>Yes, our EC 1 and EC 1-ST comply with UK regulations and standards. They are equipped with the necessary safety functions and fulfil all requirements for legal operation on UK roads. <\/p>"
           }
         },
         "template--21667087941917__3f7a15a2-3eee-4776-8800-c10a16e9c8d7-item-2": {
           "type": "item",
           "settings": {
             "title": "Does Heybike offer a warranty on the products?",
-            "content": "<p>Yes, we offer a 1 year warranty on the bike and a 1 year warranty on the battery.</p>"
+            "content": "<p>Yes, we offer a 1 year warranty on the bike and a 1 year warranty on the battery.<\/p>"
           }
         },
         "template--21667087941917__3f7a15a2-3eee-4776-8800-c10a16e9c8d7-item-3": {
           "type": "item",
           "settings": {
             "title": "Do I need special insurance or a licence plate for the E-bike?",
-            "content": "<p>No, no special insurance or licence plate is required for our e-bikes, which comply with the legal requirements.</p>"
+            "content": "<p>No, no special insurance or licence plate is required for our e-bikes, which comply with the legal requirements.<\/p>"
           }
         },
         "0f15cdd8-c0c5-43ad-aea7-c3dd93594ed2": {
           "type": "item",
           "settings": {
-            "title": "What is the range of the Heybike EC 1/EC 1-ST?",
-            "content": "<p>The range of our EC series varies depending on the model and riding conditions. As a rule, our city e-bikes offer a range of up to 80 kilometres on a full battery charge.</p>"
+            "title": "What is the range of the Heybike EC 1\/EC 1-ST?",
+            "content": "<p>The range of our EC series varies depending on the model and riding conditions. As a rule, our city e-bikes offer a range of up to 100 kilometres on a full battery charge.<\/p>"
           }
         },
         "75eda4b1-0a7f-45d5-8e18-92c0ceddf207": {
           "type": "item",
           "settings": {
             "title": "Can I replace the battery on my Heybike?",
-            "content": "<p>Yes, the EC series has a removable battery that can be easily replaced. This allows you to conveniently charge the battery or replace it if necessary.</p>"
+            "content": "<p>Yes, the EC series has a removable battery that can be easily replaced. This allows you to conveniently charge the battery or replace it if necessary.<\/p>"
           }
         },
         "aa7422b5-77fd-4424-b690-27fd1f3bbb49": {
           "type": "item",
           "settings": {
             "title": "What is the recommended maximum weight for the bike?",
-            "content": "<p>Our EC 1 and EC 1-ST are designed for a recommended maximum weight of 150 kg.</p>"
+            "content": "<p>Our EC 1 and EC 1-ST are designed for a recommended maximum weight of 150 kg.<\/p>"
           }
         }
       },
@@ -100,7 +100,7 @@
         "full_width": false,
         "subheading": "",
         "title": "General",
-        "content": "<p>Understanding your Heybike world - All information at a glance!</p>",
+        "content": "<p>Understanding your Heybike world - All information at a glance!<\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
@@ -122,49 +122,49 @@
           "type": "item",
           "settings": {
             "title": "Which payment methods do you accept?",
-            "content": "<p>We accept a variety of payment methods, including credit cards (Visa, Mastercard, American Express), PayPal and Klarna payment plans.</p>"
+            "content": "<p>We accept a variety of payment methods, including credit cards (Visa, Mastercard, American Express), PayPal and Klarna payment plans.<\/p>"
           }
         },
         "template--21667087941917__0ec750c3-5653-49e6-87fe-b8b2d255f260-item-2": {
           "type": "item",
           "settings": {
             "title": "Are the prices inclusive of taxes?",
-            "content": "<p>Yes, our prices include all applicable taxes. There are no hidden fees or additional costs.</p>"
+            "content": "<p>Yes, our prices include all applicable taxes. There are no hidden fees or additional costs.<\/p>"
           }
         },
         "template--21667087941917__0ec750c3-5653-49e6-87fe-b8b2d255f260-item-3": {
           "type": "item",
           "settings": {
             "title": "What is your returns policy?",
-            "content": "<p>We offer a straightforward returns policy within 30 days of delivery. The item must be unused, in its original packaging and in the same condition as when you receive it.</p>"
+            "content": "<p>We offer a straightforward returns policy within 30 days of delivery. The item must be unused, in its original packaging and in the same condition as when you receive it.<\/p>"
           }
         },
         "82f25978-7348-4cdd-af7f-f5485346e891": {
           "type": "item",
           "settings": {
             "title": "Will my payment data be transmitted securely?",
-            "content": "<p>Yes, we use secure SSL encryption to ensure the security of your payment details during the transaction process.</p>"
+            "content": "<p>Yes, we use secure SSL encryption to ensure the security of your payment details during the transaction process.<\/p>"
           }
         },
         "f5108633-fbc7-4850-adf1-29483a2eec15": {
           "type": "item",
           "settings": {
             "title": "When will my payment be debited?",
-            "content": "<p>Your payment will be debited immediately after completion of the order. You will receive an order confirmation by e-mail as soon as the payment has been successfully processed.</p>"
+            "content": "<p>Your payment will be debited immediately after completion of the order. You will receive an order confirmation by e-mail as soon as the payment has been successfully processed.<\/p>"
           }
         },
         "43d8161b-445f-488b-8956-62db76c724af": {
           "type": "item",
           "settings": {
             "title": "How long will it take for my order to arrive?",
-            "content": "<p>The estimated delivery time varies depending on the delivery location and the shipping method selected. As a rule, delivery takes 2-8 working days after dispatch.</p>"
+            "content": "<p>The estimated delivery time varies depending on the delivery location and the shipping method selected. As a rule, delivery takes 2-8 working days after dispatch.<\/p>"
           }
         },
         "9aa12168-e435-4e0b-bba9-6544289e0799": {
           "type": "item",
           "settings": {
             "title": "Can I track the dispatch of my order?",
-            "content": "<p>Yes, after your order has been dispatched, you will receive a dispatch confirmation email containing a tracking link. You can use this link to track the dispatch status of your order.</p>"
+            "content": "<p>Yes, after your order has been dispatched, you will receive a dispatch confirmation email containing a tracking link. You can use this link to track the dispatch status of your order.<\/p>"
           }
         }
       },
@@ -181,7 +181,7 @@
         "full_width": true,
         "subheading": "",
         "title": "Payment & Shipping",
-        "content": "<p>Smooth processing: payment and dispatch made easy!</p>",
+        "content": "<p>Smooth processing: payment and dispatch made easy!<\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
@@ -202,7 +202,7 @@
         "full_width": true,
         "subheading": "",
         "title": "Do you have any more questions?",
-        "content": "<p>Your questions are important to us! Write to us, we will reply within 1-2 working days.</p>",
+        "content": "<p>Your questions are important to us! Write to us, we will reply within 1-2 working days.<\/p>",
         "text_position": "start",
         "contact_form_size": "large",
         "background": "",

@@ -15,7 +15,7 @@
             "icon_background": "#ffb74a",
             "icon_color": "#f6be00",
             "title": "Free Shipping",
-            "content": "<p>Delivery in 3-5 days</p>"
+            "content": "<p>Delivery in 3-5 days<\/p>"
           }
         },
         "customer-support": {
@@ -28,7 +28,7 @@
             "icon_background": "",
             "icon_color": "#f6be00",
             "title": "Worriless After-Sale Service",
-            "content": "<p>Call +44 8081695220(EN) for help</p>"
+            "content": "<p>Call +1 888-859-1518(EN) for help<\/p>"
           }
         },
         "discount": {
@@ -41,21 +41,21 @@
             "icon_background": "",
             "icon_color": "#f6be00",
             "title": "VAT Included",
-            "content": "<p>No need to pay extra tax</p>"
+            "content": "<p>No need to pay extra tax<\/p>"
           }
         },
         "payment": {
           "type": "item",
           "settings": {
             "icon": "picto-secure-profile",
-            "custom_icon": "shopify://shop_images/icon.png",
+            "custom_icon": "shopify:\/\/shop_images\/icon.png",
             "mobile_icon_width": 40,
             "icon_width": 40,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "#f6be00",
             "title": "CE-RoHS",
-            "content": "<p>Security certificate</p>"
+            "content": "<p>Security certificate<\/p>"
           }
         }
       },
@@ -117,7 +117,7 @@
           "disabled": true,
           "settings": {
             "title": "Kontakt",
-            "content": "<p>Flinger Broich 18, 40235 Duesseldorf, Deutschland</p><p>+44 8081695220(EN)</p><p>eu.support@heybike.com</p>",
+            "content": "<p>Flinger Broich 18, 40235 Duesseldorf, Deutschland<\/p><p>+44 8081695220(EN)<\/p><p>eu.support@heybike.com<\/p>",
             "enable_follow_on_shop": true
           }
         }

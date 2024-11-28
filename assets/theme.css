@@ -6037,10 +6037,10 @@ split-lines {
 }
 
 @media screen and (min-width: 1400px) {
-  li.\32 -4 {
+  /* li.\32 -4 {
     position: relative;
-    left: 26%;
-}
+    left: 24%;
+} */
   .header {
     --header-part-gap: var(--spacing-10);
     --header-link-list-spacing: var(--spacing-10);
