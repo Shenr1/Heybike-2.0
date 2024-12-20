@@ -149,6 +149,10 @@
                   {%- render 'localization-selector', type: 'country', show_country_name: section.settings.show_country_name, show_country_flag: section.settings.show_country_flag, popover_horizontal_position: popover_horizontal_position -%}
                 {%- endif -%}
 
+                {%- if section.settings.show_country_link -%}
+                  {%- render 'localization-selector', type: 'country_link', popover_vertical_position: 'end' -%}
+                {%- endif -%}
+
                 {%- if locale_selector -%}
                   {%- render 'localization-selector', type: 'locale', popover_horizontal_position: popover_horizontal_position -%}
                 {%- endif -%}
@@ -230,6 +234,12 @@
       "type": "checkbox",
       "id": "show_country_selector",
       "label": "Show country/region selector",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_country_link",
+      "label": "Show country link",
       "default": true
     },
     {

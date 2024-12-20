@@ -6025,7 +6025,7 @@ split-lines {
 @media screen and (min-width: 700px) {
   .header {
     --header-part-gap: var(--spacing-6);
-    --header-icon-list-spacing: var(--spacing-6);
+    --header-icon-list-spacing: var(--spacing-4);
   }
 }
 
@@ -10070,9 +10070,9 @@ span.reversed-link p {
   bottom: 10px;
 }
 
-@media screen and (max-width: 1300px) {
+/* @media screen and (max-width: 1300px) {
   li.\32-4 {
     position: relative;
     left: 15%;
 }
-}
+} */

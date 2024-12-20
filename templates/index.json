@@ -6,8 +6,8 @@
         "image_E786cM": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pc_35b0e698-f081-4fe4-b9e8-d516b43db73e.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/App_57f07e4f-b57d-43ff-a351-a02705f821da.jpg",
+            "image": "shopify:\/\/shop_images\/3840x1400_1a7fe6db-963b-44f8-bda5-55cd997df5d0.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/1500x2000_cb465a0c-7dd5-4a5e-90a3-92afa05d2ef3.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
@@ -24,10 +24,34 @@
             "background": "",
             "background_gradient": ""
           }
+        },
+        "image_nm8CkN": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EC1-ST_PC.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/EC1-ST_bbf50a88-c6d5-4d2d-a339-b880b37bd3fe.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
         }
       },
       "block_order": [
-        "image_E786cM"
+        "image_E786cM",
+        "image_nm8CkN"
       ],
       "settings": {
         "full_width": true,
@@ -47,19 +71,19 @@
         "image_74Mr46": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/gifs_36e5b4de-6d63-490f-b4b8-466c6adf2800.png"
+            "img": "shopify:\/\/shop_images\/EU__1.png"
           }
         },
         "image_ALWxkq": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/gifs_17a569a3-3197-467a-9346-7126c9982e80.png"
+            "img": "shopify:\/\/shop_images\/EU__1_c7811969-ccc9-4990-b301-c0335e8d5509.png"
           }
         },
         "image_zmQEWt": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/gifs_6e12108b-5bff-4d17-91c8-87e7e40b1c98.png"
+            "img": "shopify:\/\/shop_images\/EU__1_a92cba98-d051-4403-8069-f60f74b781fa.png"
           }
         }
       },
@@ -70,10 +94,10 @@
       ],
       "settings": {
         "content_color": "#000000",
-        "title": "⏳ Black Friday Sale: Free Gifts!",
-        "description": "<p>Price guarantee, buy now to avoid all the Black Friday delivery rush<\/p>",
-        "date": "12\/04\/2024",
-        "expired_text": "<p>Countdown Finished!<\/p>",
+        "title": "🎅 This Christmas, Give the Gift of Freedom! 🎁",
+        "description": "<p><strong>Eco-Friendly and Stylish:<\/strong> A gift that keeps on giving-don’t miss out!<\/p>",
+        "date": "12\/23\/2024 10:00",
+        "expired_text": "",
         "show_days": true,
         "show_hours": true,
         "show_minutes": true,
@@ -666,7 +690,7 @@
         "title": "Blog posts",
         "content": "",
         "link_url": "",
-        "link_text": "View all",
+        "link_text": "",
         "background": "",
         "background_gradient": "",
         "text_color": "",

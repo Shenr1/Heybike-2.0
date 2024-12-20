@@ -255,6 +255,12 @@ the underlying logic of the menu.
             </div>
           {%- endif -%}
 
+          {%- if section.settings.show_country_link -%}
+            <div class="hidden md:block shrink-0 country_link">
+              {%- render 'localization-selector', type: 'country_link', popover_vertical_position: 'end' -%}
+            </div>
+          {%- endif -%}
+
           {%- if section.settings.show_locale_selector and localization.available_languages.size > 1 -%}
             <div class="hidden md:block shrink-0">
               {%- render 'localization-selector', type: 'locale', popover_vertical_position: 'end' -%}
@@ -488,6 +494,12 @@ the underlying logic of the menu.
       "type": "checkbox",
       "id": "show_country_selector",
       "label": "Show country/region selector",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_country_link",
+      "label": "Show country link",
       "default": true
     },
     {

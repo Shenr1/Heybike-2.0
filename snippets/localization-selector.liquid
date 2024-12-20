@@ -68,6 +68,40 @@ Supported variables
       </x-popover>
     </div>
 
+  {%- when 'country_link' -%}
+    {% assign link_objs = settings.country_link  | strip | newline_to_br | strip_newlines | split: "<br />"  %}
+    {% assign first_obj = link_objs[0] | split: '||' %}
+    {% assign first_country = first_obj[0]  %}
+    {% assign first_iso = first_obj[1] %}
+
+    <div class="relative">
+      <button type="button" class="text-with-icon gap-2.5 group" aria-controls="{{ localization_popover_id }}" aria-expanded="false">
+        <span class="h-stack gap-2">
+          <span class="country-flags country-flags--{{ first_iso }}"></span>
+          {{ first_country }}
+        </span>
+        {%- render 'icon' with 'chevron-bottom' -%}
+      </button>
+
+      <x-popover id="{{ localization_popover_id }}" initial-focus="[aria-selected='true']" anchor-horizontal="{{ popover_horizontal_position }}" anchor-vertical="{{ popover_vertical_position }}" class="popover">
+        <p class="h5" slot="title">{{ 'general.localization.language' | t }}</p>
+
+          <x-listbox class="popover-listbox popover-listbox--sm" role="listbox">
+            {%- for link_obj in link_objs -%}
+            {% assign c_obj = link_obj | split: '||' %}
+            {% assign c_country = c_obj[0]  %}
+            {% assign c_iso = c_obj[1] %}
+            {% assign c_link = c_obj[2]  %}
+            <a href="{{ c_link }}" class="[&:not(:last-child)]:tw-mb-3 tw-block">
+              <div class="h-stack gap-3 tw-px-4 md:tw-justify-start tw-justify-center">
+                  <span class="country-flags country-flags--{{ c_iso }}"></span>
+                  <span class="bold text-sm">{{ c_country }}</span>
+              </div>
+            </a>
+            {%- endfor -%}
+          </x-listbox>
+      </x-popover>
+    </div>
   {%- when 'locale' -%}
     {%- comment -%}
     ----------------------------------------------------------------------------------------------

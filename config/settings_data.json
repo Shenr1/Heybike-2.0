@@ -36,6 +36,7 @@
     "text_font_size_mobile": 16,
     "text_font_size_desktop": 16,
     "currency_code_enabled": true,
+    "country_link": "UK||GB||https:\/\/heybike.co.uk\nCA||CA||https:\/\/heybike.ca\nUSA||US||https:\/\/www.heybike.com\nEU||EUROPE||https:\/\/eu.heybike.com\nJP||JP||https:\/\/heybike.jp",
     "show_page_transition": true,
     "zoom_image_on_hover": false,
     "reduce_drawer_animation": false,

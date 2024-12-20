@@ -35,8 +35,8 @@
         "countdown_pQdf7W": {
           "type": "countdown",
           "settings": {
-            "countdown_lbl": "BFCM Sale Ends In：",
-            "countdown_date": "2024-12-03 23:59",
+            "countdown_lbl": "🎅 Act now! Time is ticking🎄",
+            "countdown_date": "2024-12-23 03:00",
             "countdown_days": "DAYS",
             "countdown_hours": "HRS",
             "countdown_minutes": "MIN",
@@ -203,7 +203,7 @@
         "enable_image_zoom": true,
         "max_image_zoom_level": 3,
         "enable_accessory": true,
-        "accessory_image": "shopify:\/\/shop_images\/gifts_01_b265b00e-c724-4344-9bf2-eae482a857c5.png",
+        "accessory_image": "shopify:\/\/shop_images\/09_852b8c23-2578-4152-819a-1322c77f18a3.jpg",
         "accessory_alt": "",
         "accessory_title": "<p><strong>Free Gift<\/strong><\/p>",
         "accessory_content": "<p>Included in the package<\/p>",

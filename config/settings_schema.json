@@ -531,6 +531,21 @@
     ]
   },
   {
+    "name": "Country link",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Country link setting"
+      },
+      {
+        "type": "textarea",
+        "id": "country_link",
+        "label": "Country link",
+        "info": "UK||GB||https:\/\/heybike.co.uk\n CA||CA||https:\/\/heybike.ca\n USA||US||https:\/\/www.heybike.com\n EU||EUROPE||https:\/\/eu.heybike.com\n JP||JP||https:\/\/heybike.jp"
+      }
+    ]
+  },
+  {
     "name": "Animation",
     "settings": [
       {

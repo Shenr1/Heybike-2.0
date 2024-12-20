@@ -8,7 +8,7 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "❤️ Black Friday Blowout❤️ 999£ Flash Sale",
+            "text": "🎄 Ride Into the New Year in Style! 🚴‍♀️Just £999",
             "url": "shopify:\/\/collections\/electric-bike"
           }
         },
@@ -69,8 +69,8 @@
           "settings": {
             "menuLink": "find-the-world-with-heybike",
             "menu_item": "E-Bikes",
-            "activeImg": "shopify:\/\/shop_images\/dcb6b2953d8123794a8c7fe052412290.jpg",
-            "mobActiveImg": "shopify:\/\/shop_images\/dcb6b2953d8123794a8c7fe052412290_cca15cf4-c6b5-4f7f-bb2b-cf1c1adc9507.jpg",
+            "activeImg": "shopify:\/\/shop_images\/EC1-ST_280X340_70c0dc48-cd23-4757-bb40-81204a96c6ef.jpg",
+            "mobActiveImg": "shopify:\/\/shop_images\/EC1-ST_280X340_e988dc42-9f35-4ffe-874b-13ef23a229bf.jpg",
             "activeLink": "shopify:\/\/collections\/electric-bike",
             "icon1": "shopify:\/\/shop_images\/2-02_3af9a508-246a-4a3f-b500-617e0a39fd93.png",
             "iconText1": "Free shipping",
@@ -179,6 +179,7 @@
         "show_social_media": true,
         "show_locale_selector": true,
         "show_country_selector": false,
+        "show_country_link": true,
         "show_country_flag": true,
         "show_country_name": false,
         "transparent_header_text_color": "#ffffff",
