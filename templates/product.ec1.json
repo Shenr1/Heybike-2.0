@@ -35,8 +35,8 @@
         "countdown_q36Udr": {
           "type": "countdown",
           "settings": {
-            "countdown_lbl": "🎅 Act now! Time is ticking🎄",
-            "countdown_date": "2024-12-23 03:00",
+            "countdown_lbl": "📅 Don’t wait – New Year offer ends in",
+            "countdown_date": "2025-01-03 03:00",
             "countdown_days": "DAYS",
             "countdown_hours": "HRS",
             "countdown_minutes": "MIN",
@@ -203,7 +203,7 @@
         "enable_image_zoom": true,
         "max_image_zoom_level": 2.5,
         "enable_accessory": true,
-        "accessory_image": "shopify:\/\/shop_images\/09.jpg",
+        "accessory_image": "shopify:\/\/shop_images\/gifts_02.png",
         "accessory_alt": "",
         "accessory_title": "<p><strong>Free Gift<\/strong><\/p>",
         "accessory_content": "<p>Included in the package<\/p>",

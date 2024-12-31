@@ -6,8 +6,8 @@
         "image_E786cM": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3840x1400_1a7fe6db-963b-44f8-bda5-55cd997df5d0.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/1500x2000_cb465a0c-7dd5-4a5e-90a3-92afa05d2ef3.jpg",
+            "image": "shopify:\/\/shop_images\/uk_pc.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/uk_fdfd969d-afc5-4c37-88cc-5b78a75676ad.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
@@ -27,10 +27,9 @@
         },
         "image_nm8CkN": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/EC1-ST_PC.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/EC1-ST_bbf50a88-c6d5-4d2d-a339-b880b37bd3fe.jpg",
+            "image": "shopify:\/\/shop_images\/0bd79d3118bdb9bb8dda85fad7e7fb84_3940f4e1-654a-4bed-8f53-56beb2f37af7.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/app_64d37279-256a-4db3-9859-2e89de3a68df.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
@@ -38,7 +37,7 @@
             "title": "",
             "heading_tag": "h2",
             "button_text": "",
-            "button_link": "",
+            "button_link": "shopify:\/\/collections\/electric-bike",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -71,19 +70,19 @@
         "image_74Mr46": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/EU__1.png"
+            "img": "shopify:\/\/shop_images\/gifs_cdfaf85c-b3af-420a-9c00-c2260ec942e7.png"
           }
         },
         "image_ALWxkq": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/EU__1_c7811969-ccc9-4990-b301-c0335e8d5509.png"
+            "img": "shopify:\/\/shop_images\/gifs_b463f4f0-4d33-4847-a07f-02647a94d84a.png"
           }
         },
         "image_zmQEWt": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/EU__1_a92cba98-d051-4403-8069-f60f74b781fa.png"
+            "img": "shopify:\/\/shop_images\/gifs_364e425a-701d-478b-993c-b55b1b0ca044.png"
           }
         }
       },
@@ -94,9 +93,9 @@
       ],
       "settings": {
         "content_color": "#000000",
-        "title": "🎅 This Christmas, Give the Gift of Freedom! 🎁",
-        "description": "<p><strong>Eco-Friendly and Stylish:<\/strong> A gift that keeps on giving-don’t miss out!<\/p>",
-        "date": "12\/23\/2024 10:00",
+        "title": "New Year, New Rides! 🚴",
+        "description": "<p>Celebrate 2025 with an amazing deal!  <\/p><p>🌟 <strong>E-Bike for just £999<\/strong> and receive a <strong>FREE gift bundle!<\/strong><\/p>",
+        "date": "01\/03\/2025 10:00",
         "expired_text": "",
         "show_days": true,
         "show_hours": true,

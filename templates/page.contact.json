@@ -13,12 +13,12 @@
         "template--21636895670557__0b479914-c94f-4c24-93b7-df1fcd09344f-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1300X1500_c14f35d6-0790-44a8-8597-680248f2436f.jpg",
+            "image": "shopify:\/\/shop_images\/1300X1500.jpg",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/heybike_LOGO_512.png",
+            "custom_icon": "shopify:\/\/shop_images\/180X180.jpg",
             "icon_width": 48,
             "subheading": "",
             "title": "CONTACT",

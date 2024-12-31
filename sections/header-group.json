@@ -8,8 +8,15 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "🎄 Ride Into the New Year in Style! 🚴‍♀️Just £999",
+            "text": "Start 2025 in style with an unbeatable offer! 🚴‍♂️",
             "url": "shopify:\/\/collections\/electric-bike"
+          }
+        },
+        "message_JfrBwU": {
+          "type": "message",
+          "settings": {
+            "text": "Join the Campus Programme for more discounts",
+            "url": "https:\/\/heybike.co.uk\/pages\/campus-program"
           }
         },
         "76024db7-a027-4b47-bc94-a703ddf8edc6": {
@@ -23,6 +30,7 @@
       },
       "block_order": [
         "message",
+        "message_JfrBwU",
         "76024db7-a027-4b47-bc94-a703ddf8edc6"
       ],
       "settings": {
@@ -69,8 +77,8 @@
           "settings": {
             "menuLink": "find-the-world-with-heybike",
             "menu_item": "E-Bikes",
-            "activeImg": "shopify:\/\/shop_images\/EC1-ST_280X340_70c0dc48-cd23-4757-bb40-81204a96c6ef.jpg",
-            "mobActiveImg": "shopify:\/\/shop_images\/EC1-ST_280X340_e988dc42-9f35-4ffe-874b-13ef23a229bf.jpg",
+            "activeImg": "shopify:\/\/shop_images\/ec52eeb24ccbd950d4d6bf36d9e5e2ac.jpg",
+            "mobActiveImg": "shopify:\/\/shop_images\/ec52eeb24ccbd950d4d6bf36d9e5e2ac_5c9a21e9-2689-410f-ab12-a0d693c11570.jpg",
             "activeLink": "shopify:\/\/collections\/electric-bike",
             "icon1": "shopify:\/\/shop_images\/2-02_3af9a508-246a-4a3f-b500-617e0a39fd93.png",
             "iconText1": "Free shipping",

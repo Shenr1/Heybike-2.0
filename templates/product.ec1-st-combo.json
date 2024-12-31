@@ -35,8 +35,8 @@
         "countdown_pQdf7W": {
           "type": "countdown",
           "settings": {
-            "countdown_lbl": "🎅 Act now! Time is ticking🎄",
-            "countdown_date": "2024-12-23 03:00",
+            "countdown_lbl": "📅 Don’t wait – New Year offer ends in",
+            "countdown_date": "2025-01-03 03:00",
             "countdown_days": "DAYS",
             "countdown_hours": "HRS",
             "countdown_minutes": "MIN",
@@ -89,6 +89,7 @@
         },
         "liquid_rJGCtU": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div class=\"flex items-center\">\n    <img class=\"mr-4\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0727\/4535\/3500\/files\/klama_50x_d45af387-b200-4d45-bbd0-12c8ca24a6f6.png?v=1690597910\" alt=\"\">\n    <p>\n      Buy now, pay later.<a style=\"text-decoration: underline;\" href=\"https:\/\/www.klarna.com\/uk\/?\">Learn More<\/a>\n    <\/p>\n  <\/div>"
           }
