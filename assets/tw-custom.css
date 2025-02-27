@@ -431,6 +431,9 @@
   border-radius: 0.75rem;
 }
 
+.tw-rounded-3xl{
+  border-radius: 1.5rem;
+}
 .tw-border{
   border-width: 1px;
 }

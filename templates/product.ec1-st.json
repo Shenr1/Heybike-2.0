@@ -23,6 +23,12 @@
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
+        "liquid_rJGCtU": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"flex items-center\">\n    <img class=\"mr-4\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0727\/4535\/3500\/files\/klama_50x_d45af387-b200-4d45-bbd0-12c8ca24a6f6.png?v=1690597910\" alt=\"\">\n    <p>\n      Buy now, pay later.<a style=\"text-decoration: underline;\" href=\"https:\/\/www.klarna.com\/uk\/?\">Learn More<\/a>\n    <\/p>\n  <\/div>"
+          }
+        },
         "payment_terms": {
           "type": "payment_terms",
           "disabled": true,
@@ -35,8 +41,8 @@
         "countdown_pQdf7W": {
           "type": "countdown",
           "settings": {
-            "countdown_lbl": "📅 Don’t wait – New Year offer ends in",
-            "countdown_date": "2025-01-03 03:00",
+            "countdown_lbl": "⏳Prices Are Going Up Soon⏳",
+            "countdown_date": "2025-02-28 03:00",
             "countdown_days": "DAYS",
             "countdown_hours": "HRS",
             "countdown_minutes": "MIN",
@@ -85,13 +91,6 @@
             "products_count": 5,
             "background": "",
             "text_color": ""
-          }
-        },
-        "liquid_rJGCtU": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<div class=\"flex items-center\">\n    <img class=\"mr-4\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0727\/4535\/3500\/files\/klama_50x_d45af387-b200-4d45-bbd0-12c8ca24a6f6.png?v=1690597910\" alt=\"\">\n    <p>\n      Buy now, pay later.<a style=\"text-decoration: underline;\" href=\"https:\/\/www.klarna.com\/uk\/?\">Learn More<\/a>\n    <\/p>\n  <\/div>"
           }
         },
         "image_7P7r6w": {
@@ -174,6 +173,7 @@
         "badges",
         "price",
         "judge_me_reviews_preview_badge_xwCLeK",
+        "liquid_rJGCtU",
         "payment_terms",
         "separator",
         "countdown_pQdf7W",
@@ -182,7 +182,6 @@
         "gift_8CeL4j",
         "buy_buttons",
         "associated_products_DQmW6R",
-        "liquid_rJGCtU",
         "image_7P7r6w",
         "text_dPmKaf",
         "specs_DeWEHg",
@@ -204,11 +203,11 @@
         "enable_image_zoom": true,
         "max_image_zoom_level": 3,
         "enable_accessory": true,
-        "accessory_image": "shopify:\/\/shop_images\/gifts_02_f6309614-df1d-4202-8e7c-8947a19fc978.png",
+        "accessory_image": "shopify:\/\/shop_images\/gifts__1_c474f7a3-7254-4b94-a71e-367bc2c74292.png",
         "accessory_alt": "",
         "accessory_title": "<p><strong>Free Gift<\/strong><\/p>",
         "accessory_content": "<p>Included in the package<\/p>",
-        "accessory_price": "£213",
+        "accessory_price": "£118",
         "accessory_loser": "free",
         "background_accessory": "#f2f2ef",
         "accessory_color": "#121212",
@@ -838,7 +837,7 @@
             "item_wsdfsd": "tw-w-1\/2",
             "item_w_mb": "tw-w-1\/2",
             "tr1": "Description",
-            "tr2": "Size (cm)",
+            "tr2": "Size (inches)",
             "tr3": "",
             "order1": "",
             "beschreibung1": "",
@@ -846,43 +845,43 @@
             "lm1": "",
             "order2": "0",
             "beschreibung2": "Suitable for riders",
-            "cm2": "155~185",
+            "cm2": "61.0 ~ 72.8",
             "lm2": "",
             "order3": "A",
             "beschreibung3": "Seat tube",
-            "cm3": "43",
+            "cm3": "16.9",
             "lm3": "",
             "order4": "B",
             "beschreibung4": "Chainstay",
-            "cm4": "45",
+            "cm4": "17.7",
             "lm4": "",
             "order5": "C",
             "beschreibung5": "Effective Top Tube",
-            "cm5": "59",
+            "cm5": "23.2",
             "lm5": "",
             "order6": "D",
             "beschreibung6": "Head Tube",
-            "cm6": "16",
+            "cm6": "6.3",
             "lm6": "",
             "order7": "E",
             "beschreibung7": "Handlebar Height",
-            "cm7": "102",
+            "cm7": "40.2",
             "lm7": "",
             "order8": "F",
             "beschreibung8": "Minimum seat height",
-            "cm8": "73",
+            "cm8": "28.7",
             "lm8": "",
             "order9": "G",
             "beschreibung9": "Maximum seat height",
-            "cm9": "102",
+            "cm9": "40.2",
             "lm9": "",
             "order10": "H",
             "beschreibung10": "Wheelbase",
-            "cm10": "112",
+            "cm10": "44.1",
             "lm10": "",
             "order11": "I",
             "beschreibung11": "Total length",
-            "cm11": "182",
+            "cm11": "71.7",
             "lm11": "",
             "order12": "",
             "beschreibung12": "",
@@ -1213,13 +1212,6 @@
             "content": "<p>Our distribution addresses are all over Europe, in Germany, UK, France, etc. Refer to the page for details: https:\/\/heybike.co.uk\/pages\/find-dealers<\/p>"
           }
         },
-        "item_YFBKnk": {
-          "type": "item",
-          "settings": {
-            "title": "Are instalments accepted?",
-            "content": "<p>We can accept Klarna instalments. Detailed steps can be found at: https:\/\/heybike.co.uk\/pages\/financing<\/p>"
-          }
-        },
         "item_DV6jQ8": {
           "type": "item",
           "settings": {
@@ -1258,7 +1250,6 @@
       },
       "block_order": [
         "item_VTF7TD",
-        "item_YFBKnk",
         "item_DV6jQ8",
         "item_HtBxCH",
         "item_rhKDbx",

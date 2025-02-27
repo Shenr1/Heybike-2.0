@@ -46,6 +46,11 @@
 
                 {%- capture accordion_content -%}
                   <div class="prose">{{ content }}</div>
+                  {% if block.settings.btn_text != blank and block.settings.btn_url != blank %}
+                    <div class="tw-mt-4">
+                      <a class="button {% if block.settings.btn_style == 1 %}button--secondary{% endif %}" href="{{ block.settings.btn_url }}">{{ block.settings.btn_text }}</a>
+                    </div>
+                  {% endif %}
                 {%- endcapture -%}
 
                 {%- render 'accordion', title: title, content: accordion_content, open: open -%}
@@ -67,7 +72,13 @@
                 <button type="button" slot="title" class="tabs-nav__button bold text-subdued text-center" {{ block.shopify_attributes }}>{{ title | escape }}</button>
                 <div role="tabpanel" class="tab-content prose" slot="content" {% cycle '', 'hidden', 'hidden', 'hidden', 'hidden' %}>
                   {{ content }}
+                  {% if block.settings.btn_text != blank and block.settings.btn_url != blank %}
+                    <div>
+                      <a class="button {% if block.settings.btn_style == 1 %}button--secondary{% endif %}" href="{{ block.settings.btn_url }}">{{ block.settings.btn_text }}</a>
+                    </div>
+                  {% endif %}
                 </div>
+                
               {%- endif -%}
             {%- endfor -%}
           </x-tabs>
@@ -186,6 +197,37 @@
           "id": "page",
           "label": "Page",
           "info": "Replaces inline content if specified."
+        },
+        {
+          "type": "header",
+          "content": "Button settings"
+        },
+        {
+          "type": "text",
+          "id": "btn_text",
+          "label": "Button text",
+          "default": "Learn more"
+        },
+        {
+          "type": "url",
+          "id": "btn_url",
+          "label": "Button link"
+        },
+        {
+          "type": "select",
+          "id": "btn_style",
+          "label": "Button style",
+          "options": [
+            {
+            "value": "1",
+            "label": "Style 1"
+            },
+            {
+            "value": "2",
+            "label": "Style 2"
+            }
+          ],
+          "default": "1"
         }
       ]
     }

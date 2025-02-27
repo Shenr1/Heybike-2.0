@@ -22,7 +22,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "CONTACT",
-            "content": "<p><strong>GENERAL INQUIRIES<\/strong> or <strong>SUPPORT<\/strong>: <\/p><p>If you have any questions, please do not<br\/>hesitate to email us at <a href=\"mailto:support.uk@heybike.com\">support.uk@heybike.com<\/a><\/p><p> <\/p><p>For wholesale\/distribution or<br\/>collaboration\/ambassador enquiries, please email <a href=\"mailto:sales.uk@heybike.com\">sales.uk@heybike.com<\/a><\/p><p> *You will receive a response to your email within 24 hours on business days.*<\/p><p>Contact address: Flinger Broich 18, 40235<br\/>Duesseldorf, Germany<\/p><p>Phone number: +1 888-859-1518(EN)<\/p>",
+            "content": "<p><strong>GENERAL INQUIRIES<\/strong> or <strong>SUPPORT<\/strong>: <\/p><p>If you have any questions, please do not<br\/>hesitate to email us at <a href=\"mailto:support.uk@heybike.com\">support.uk@heybike.com<\/a><\/p><p> <\/p><p>For wholesale\/distribution or<br\/>collaboration\/ambassador enquiries, please email <a href=\"mailto:sales.uk@heybike.com\">sales.uk@heybike.com<\/a><\/p><p> *You will receive a response to your email within 24 hours on business days.*<\/p><p>Contact address: Flinger Broich 18, 40235<br\/>Duesseldorf, Germany<\/p><p>Phone number: +49(211) 8694-2996 (EN)<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -40,6 +40,50 @@
       "settings": {
         "full_width": false,
         "spacing": "small"
+      }
+    },
+    "rich_text_KVnwKK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6b8nV3": {
+          "type": "heading",
+          "settings": {
+            "text": "Help Center",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_DnPYid": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p> Please visit our <strong>Help Center<\/strong> where you can search for information related to your question.<\/p>"
+          }
+        },
+        "button_raDNPe": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Visit",
+            "url": "https:\/\/heybikesupport.zendesk.com\/hc\/en-us",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_6b8nV3",
+        "richtext_DnPYid",
+        "button_raDNPe"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "contact": {
@@ -66,6 +110,7 @@
   "order": [
     "main",
     "0b479914-c94f-4c24-93b7-df1fcd09344f",
+    "rich_text_KVnwKK",
     "contact"
   ]
 }

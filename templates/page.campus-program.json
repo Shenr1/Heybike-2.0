@@ -55,24 +55,33 @@
           "type": "tab",
           "settings": {
             "title": "Student",
-            "content": "<p><a href=\"https:\/\/www.studentbeans.com\/en-gb\/uk\/beansid-connect\/hosted\/heybike-uk-1\/student\/c70174f2-40f3-4923-8f6d-c5af0e0aa9e9\" target=\"_blank\" title=\"https:\/\/www.studentbeans.com\/en-gb\/uk\/beansid-connect\/hosted\/heybike-uk-1\/student\/c70174f2-40f3-4923-8f6d-c5af0e0aa9e9\"><strong>Register as a student<\/strong><\/a><\/p>",
-            "page": ""
+            "content": "<p><strong>Register as a Student<\/strong><\/p>",
+            "page": "",
+            "btn_text": "Get Discounts",
+            "btn_url": "https:\/\/www.studentbeans.com\/en-gb\/uk\/beansid-connect\/hosted\/heybike-uk-1\/student\/c70174f2-40f3-4923-8f6d-c5af0e0aa9e9",
+            "btn_style": "1"
           }
         },
         "tab_QcyFBP": {
           "type": "tab",
           "settings": {
             "title": "Teacher",
-            "content": "<p><a href=\"https:\/\/www.studentbeans.com\/en-gb\/uk\/beansid-connect\/hosted\/heybike-uk-2\/teacher\/b48e475b-1b54-4399-a255-dbf9873c88c1\" target=\"_blank\" title=\"https:\/\/www.studentbeans.com\/en-gb\/uk\/beansid-connect\/hosted\/heybike-uk-2\/teacher\/b48e475b-1b54-4399-a255-dbf9873c88c1\"><strong>Register as a teacher<\/strong><\/a><\/p>",
-            "page": ""
+            "content": "<p><strong>Register as a Teacher<\/strong><\/p>",
+            "page": "",
+            "btn_text": "Get Discounts",
+            "btn_url": "https:\/\/www.studentbeans.com\/en-gb\/uk\/beansid-connect\/hosted\/heybike-uk-2\/teacher\/b48e475b-1b54-4399-a255-dbf9873c88c1",
+            "btn_style": "1"
           }
         },
         "tab_pWGHnL": {
           "type": "tab",
           "settings": {
             "title": "Graduate",
-            "content": "<p><a href=\"https:\/\/www.studentbeans.com\/en-gb\/uk\/beansid-connect\/hosted\/heybike-uk-3\/graduate\/4f43ed95-8c99-4ae9-a2df-f82f69f76060\" target=\"_blank\" title=\"https:\/\/www.studentbeans.com\/en-gb\/uk\/beansid-connect\/hosted\/heybike-uk-3\/graduate\/4f43ed95-8c99-4ae9-a2df-f82f69f76060\"><strong>Register as a Graduate<\/strong><\/a><\/p>",
-            "page": ""
+            "content": "<p><strong>Register as a Graduate<\/strong><\/p>",
+            "page": "",
+            "btn_text": "Get Discounts",
+            "btn_url": "https:\/\/www.studentbeans.com\/en-gb\/uk\/beansid-connect\/hosted\/heybike-uk-3\/graduate\/4f43ed95-8c99-4ae9-a2df-f82f69f76060",
+            "btn_style": "1"
           }
         }
       },
@@ -106,8 +115,8 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "Step 1: Verify Your Identity",
-            "content": "<p>Confirm your status as a student, teacher, or graduate.<\/p>"
+            "title": "Step 1: Click \"Get Discount\" to verify your identity",
+            "content": "<p>Confirm as a student, teacher, or graduate.<\/p>"
           }
         },
         "item_rqJqNd": {
@@ -132,8 +141,8 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "Step 3: Click \"Get the Code\"",
-            "content": "<p>Copy the discount code provided.<\/p>"
+            "title": "Step 3: Click \"Get the Code\" to copy the code provided",
+            "content": "<p>Click to copy the discount code provided.<\/p>"
           }
         },
         "item_BPhTF6": {
@@ -159,7 +168,7 @@
             "icon_background": "",
             "icon_color": "",
             "title": "Step 5: Enter the Discount Code at Checkout",
-            "content": "<p>Paste the code into the discount box during checkout to apply the discount.<\/p>"
+            "content": "<p>Paste the code into the box during checkout.<\/p>"
           }
         }
       },

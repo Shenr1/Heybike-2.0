@@ -23,6 +23,12 @@
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
+        "liquid_rJGCtU": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"flex items-center\">\n    <img class=\"mr-4\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0727\/4535\/3500\/files\/klama_50x_d45af387-b200-4d45-bbd0-12c8ca24a6f6.png?v=1690597910\" alt=\"\">\n    <p>\n      Buy now, pay later.<a style=\"text-decoration: underline;\" href=\"https:\/\/www.klarna.com\/uk\/?\">Learn More<\/a>\n    <\/p>\n  <\/div>"
+          }
+        },
         "payment_terms": {
           "type": "payment_terms",
           "disabled": true,
@@ -35,8 +41,8 @@
         "countdown_q36Udr": {
           "type": "countdown",
           "settings": {
-            "countdown_lbl": "📅 Don’t wait – New Year offer ends in",
-            "countdown_date": "2025-01-03 03:00",
+            "countdown_lbl": "⏳Prices Are Going Up Soon⏳",
+            "countdown_date": "2025-02-28 03:00",
             "countdown_days": "DAYS",
             "countdown_hours": "HRS",
             "countdown_minutes": "MIN",
@@ -85,13 +91,6 @@
             "products_count": 5,
             "background": "",
             "text_color": ""
-          }
-        },
-        "liquid_rJGCtU": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<div class=\"flex items-center\">\n    <img class=\"mr-4\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0727\/4535\/3500\/files\/klama_50x_d45af387-b200-4d45-bbd0-12c8ca24a6f6.png?v=1690597910\" alt=\"\">\n    <p>\n      Buy now, pay later.<a style=\"text-decoration: underline;\" href=\"https:\/\/www.klarna.com\/uk\/?\">Learn More<\/a>\n    <\/p>\n  <\/div>"
           }
         },
         "image_7P7r6w": {
@@ -174,6 +173,7 @@
         "badges",
         "price",
         "judge_me_reviews_preview_badge_xwCLeK",
+        "liquid_rJGCtU",
         "payment_terms",
         "separator",
         "countdown_q36Udr",
@@ -182,7 +182,6 @@
         "gift_Lh7GMY",
         "buy_buttons",
         "associated_products_DQmW6R",
-        "liquid_rJGCtU",
         "image_7P7r6w",
         "text_dPmKaf",
         "specs_DeWEHg",
@@ -204,11 +203,11 @@
         "enable_image_zoom": true,
         "max_image_zoom_level": 2.5,
         "enable_accessory": true,
-        "accessory_image": "shopify:\/\/shop_images\/Double_gifts-uk_5c5aa0ee-7dae-474a-a3b8-0c3f92b96015.png",
+        "accessory_image": "shopify:\/\/shop_images\/gifts__2_2f3045f9-f6f4-48f7-b049-a16a94b0e269.png",
         "accessory_alt": "",
         "accessory_title": "<p><strong>Free Gift<\/strong><\/p>",
         "accessory_content": "<p>Included in delivery<\/p>",
-        "accessory_price": "£366",
+        "accessory_price": "£236",
         "accessory_loser": "free",
         "background_accessory": "#f2f2ef",
         "accessory_color": "#121212",

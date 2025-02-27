@@ -3,11 +3,33 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "image_jBbBGj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_ce754026-bad1-4f85-a79c-5fa4c0d38c8b.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/App_92869352-3f2d-4030-be3e-3e9cbbfe4844.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/electric-bike",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "image_E786cM": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/uk_pc.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/uk_fdfd969d-afc5-4c37-88cc-5b78a75676ad.jpg",
+            "image": "shopify:\/\/shop_images\/city-1920x700_1.png",
+            "mobile_image": "shopify:\/\/shop_images\/city-750x1000.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
@@ -15,7 +37,7 @@
             "title": "",
             "heading_tag": "h3",
             "button_text": "",
-            "button_link": "shopify:\/\/collections\/electric-bike",
+            "button_link": "shopify:\/\/products\/ec-compact-city",
             "text_color": "#1a1a1a",
             "button_background": "#1a1a1a",
             "button_text_color": "#ffffff",
@@ -28,8 +50,8 @@
         "image_nm8CkN": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/0bd79d3118bdb9bb8dda85fad7e7fb84_3940f4e1-654a-4bed-8f53-56beb2f37af7.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/app_64d37279-256a-4db3-9859-2e89de3a68df.jpg",
+            "image": "shopify:\/\/shop_images\/sport-1920x700.png",
+            "mobile_image": "shopify:\/\/shop_images\/sport-750x1000.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
@@ -37,7 +59,7 @@
             "title": "",
             "heading_tag": "h2",
             "button_text": "",
-            "button_link": "shopify:\/\/collections\/electric-bike",
+            "button_link": "shopify:\/\/products\/ec-compact-sport",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -49,6 +71,7 @@
         }
       },
       "block_order": [
+        "image_jBbBGj",
         "image_E786cM",
         "image_nm8CkN"
       ],
@@ -70,32 +93,25 @@
         "image_74Mr46": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/gifs_cdfaf85c-b3af-420a-9c00-c2260ec942e7.png"
+            "img": "shopify:\/\/shop_images\/gifs_5ad73190-580f-4833-8a73-508e2a46a70c.png"
           }
         },
         "image_ALWxkq": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/gifs_b463f4f0-4d33-4847-a07f-02647a94d84a.png"
-          }
-        },
-        "image_zmQEWt": {
-          "type": "image",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/gifs_364e425a-701d-478b-993c-b55b1b0ca044.png"
+            "img": "shopify:\/\/shop_images\/gifs_2c430eb5-4eea-428a-b16a-b0b7b51a6a14.png"
           }
         }
       },
       "block_order": [
         "image_74Mr46",
-        "image_ALWxkq",
-        "image_zmQEWt"
+        "image_ALWxkq"
       ],
       "settings": {
         "content_color": "#000000",
-        "title": "New Year, New Rides! 🚴",
-        "description": "<p>Celebrate 2025 with an amazing deal!  <\/p><p>🌟 <strong>E-Bike for just £999<\/strong> and receive a <strong>FREE gift bundle!<\/strong><\/p>",
-        "date": "01\/03\/2025 10:00",
+        "title": "🎉 Mother's Day Special Offer🎉",
+        "description": "<p>🌟 <strong>Mother's Day Limited Time Sale: Historic Lowest Price!<\/strong> 🌟<\/p>",
+        "date": "02\/28\/2025 10:00",
         "expired_text": "",
         "show_days": true,
         "show_hours": true,
@@ -266,8 +282,8 @@
             "image_alt": "img",
             "title": "Heybike <br>In your neighbourhood",
             "subtitle": "Discover our dealer shops near you and experience cycling fun at first hand.",
-            "btn_text": "Learn More",
-            "url": "shopify:\/\/pages\/find-dealers"
+            "btn_text": "Find dealers",
+            "url": "shopify:\/\/pages\/store-locator"
           }
         }
       },
@@ -429,7 +445,7 @@
             "main_image": "shopify:\/\/shop_images\/1-02_c5ff3f86-24ac-4561-b3eb-c617d7520181.png",
             "image_alt": "img",
             "title": "Timely Support",
-            "subtitle": "+1 888-859-1518(EN)"
+            "subtitle": "+49(211) 8694-2996 (EN)"
           }
         },
         "657610d6-eadc-4dd5-accb-ff4af9b41472": {
@@ -618,15 +634,15 @@
         "slide_6DatzB": {
           "type": "slide",
           "settings": {
-            "text_main": "8,500,500",
-            "text_suf": "miles",
+            "text_main": "100,000,000",
+            "text_suf": "Miles",
             "text_sub": "Total Distance Ridden"
           }
         },
         "slide_4zcb3N": {
           "type": "slide",
           "settings": {
-            "text_main": "170000",
+            "text_main": "200,000",
             "text_suf": "+",
             "text_sub": "Active Riders"
           }
@@ -634,7 +650,7 @@
         "slide_TzKFTf": {
           "type": "slide",
           "settings": {
-            "text_main": "22,780,000",
+            "text_main": "38,000,000",
             "text_suf": "kg",
             "text_sub": "Total CO₂ Emissions Reduced"
           }
@@ -642,8 +658,8 @@
         "slide_pWmypB": {
           "type": "slide",
           "settings": {
-            "text_main": "2,847,500",
-            "text_suf": "",
+            "text_main": "2,680,000",
+            "text_suf": "pcs",
             "text_sub": "Equivalent Trees Planted"
           }
         }

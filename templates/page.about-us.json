@@ -189,7 +189,7 @@
           "type": "item",
           "settings": {
             "column_size": "4",
-            "title": "8,500,500 mile",
+            "title": "100,000,000 Miles",
             "heading_tag": "h4",
             "content": "<p>Total Distance Ridden<\/p>",
             "link_url": "",
@@ -201,7 +201,7 @@
           "type": "item",
           "settings": {
             "column_size": "4",
-            "title": "170,000 +",
+            "title": "200,000+",
             "heading_tag": "h4",
             "content": "<p>Active Riders<\/p>",
             "link_url": "",
@@ -213,7 +213,7 @@
           "type": "item",
           "settings": {
             "column_size": "4",
-            "title": "2,847,500 kg",
+            "title": "38,000,000 KG",
             "heading_tag": "h4",
             "content": "<p>Total CO2 Emissions Reduced<\/p>",
             "link_url": "",
@@ -225,7 +225,7 @@
           "type": "item",
           "settings": {
             "column_size": "4",
-            "title": "2,847,5 pcs",
+            "title": "2,680,000 pcs",
             "heading_tag": "h4",
             "content": "<p>Equivalent Trees Planted<\/p>",
             "link_url": "",

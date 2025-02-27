@@ -1,0 +1,1078 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "judge_me_reviews_preview_badge_xwCLeK": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {}
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "disabled": true,
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {}
+        },
+        "countdown_pQdf7W": {
+          "type": "countdown",
+          "disabled": true,
+          "settings": {
+            "countdown_lbl": "📅 Don’t wait – New Year offer ends in",
+            "countdown_date": "2025-01-17 03:00",
+            "countdown_days": "DAYS",
+            "countdown_hours": "HRS",
+            "countdown_minutes": "MIN",
+            "countdown_seconds": "SEC"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "variant",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "gift_8CeL4j": {
+          "type": "gift",
+          "disabled": true,
+          "settings": {
+            "title": "Exclusive Offer",
+            "pr": "extra-one-year-warranty-one-week-only",
+            "con": "One Week Offer Only",
+            "badge_con": "FREE"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "collapsible_text_RMexPX": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "How to use this coupon?",
+            "content": "<p><strong>Offer<\/strong>: Purchase a £50 coupon for £200 off the EC Compact e-bike during its pre-sale.<\/p><p><br\/><strong>Availability<\/strong>: Limited 200 coupons; First-come, First-served.<\/p><p><br\/><strong>How to Get It<\/strong>: Your coupon will be sent to your email <strong>one day before launch.<\/strong><br\/><\/p><p><strong>Usage<\/strong>: Valid only during the pre-sale before the official release; Valid only for the EC Compact e-bike and cannot be combined with other promotions.<br\/><\/p><p><strong>Single-Use<\/strong>: Each coupon is for one-time use per customer.<\/p><p><br\/><strong>Refund Policy<\/strong>: All sales are final; No refunds or transfers are allowed.<br\/><\/p><p><strong>Taxes<\/strong>: The coupon is tax-free, but applicable taxes will apply at checkout.<br\/><br\/>If you don’t receive your coupon by Feb. 20th, 2025, email us at <em><strong>sales.uk@heybike.com<\/strong><\/em> with your order number for help. Hurry and secure your coupon for great savings on your EC Compact e-bike!<\/p>"
+          }
+        },
+        "associated_products_DQmW6R": {
+          "type": "associated_products",
+          "disabled": true,
+          "settings": {
+            "title": "Buy it with",
+            "stack_products": true,
+            "products_count": 5,
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "liquid_rJGCtU": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div class=\"flex items-center\">\n    <img class=\"mr-4\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0727\/4535\/3500\/files\/klama_50x_d45af387-b200-4d45-bbd0-12c8ca24a6f6.png?v=1690597910\" alt=\"\">\n    <p>\n      Buy now, pay later.<a style=\"text-decoration: underline;\" href=\"https:\/\/www.klarna.com\/uk\/?\">Learn More<\/a>\n    <\/p>\n  <\/div>"
+          }
+        },
+        "image_7P7r6w": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_1c325fb6-bf43-4e03-8bc0-8f144eed3a7b.png",
+            "alignment": "start",
+            "max_width": 150
+          }
+        },
+        "text_dPmKaf": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><a href=\"https:\/\/heybike.co.uk\/pages\/important-notice\" target=\"_blank\" title=\"Important Notice\"><strong>*Important Notice<\/strong><\/a><\/p>"
+          }
+        },
+        "specs_DeWEHg": {
+          "type": "specs",
+          "disabled": true,
+          "settings": {
+            "is_specs": "specs"
+          }
+        },
+        "specs_CGWdBJ": {
+          "type": "specs",
+          "disabled": true,
+          "settings": {
+            "is_specs": "Specification"
+          }
+        },
+        "offer_pVhAHy": {
+          "type": "offer",
+          "disabled": true,
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-timer",
+            "icon_width": 24,
+            "title": "Responsive Support",
+            "content": "<p>Email us or call +44 8081695220<\/p>",
+            "background": "#ffffff",
+            "text_color": "#121212"
+          }
+        },
+        "offer_fMFpRf": {
+          "type": "offer",
+          "disabled": true,
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-return",
+            "icon_width": 24,
+            "title": "1-Year Warranty",
+            "content": "<p>Learn More About <a href=\"\/pages\/warranty\" target=\"_blank\" title=\"Warranty\">Warranty<\/a><\/p>",
+            "background": "#ffffff",
+            "text_color": "#121212"
+          }
+        },
+        "offer_hYbUhF": {
+          "type": "offer",
+          "disabled": true,
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-truck",
+            "icon_width": 24,
+            "title": "Free, Fast Shipping",
+            "content": "<p>Ships from UK warehouse<\/p>",
+            "background": "#ffffff",
+            "text_color": "#000000"
+          }
+        },
+        "share_buttons_cPBTHT": {
+          "type": "share_buttons",
+          "settings": {
+            "alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "badges",
+        "price",
+        "judge_me_reviews_preview_badge_xwCLeK",
+        "payment_terms",
+        "separator",
+        "countdown_pQdf7W",
+        "variant_picker",
+        "quantity_selector",
+        "gift_8CeL4j",
+        "buy_buttons",
+        "collapsible_text_RMexPX",
+        "associated_products_DQmW6R",
+        "liquid_rJGCtU",
+        "image_7P7r6w",
+        "text_dPmKaf",
+        "specs_DeWEHg",
+        "specs_CGWdBJ",
+        "offer_pVhAHy",
+        "offer_fMFpRf",
+        "offer_hYbUhF",
+        "share_buttons_cPBTHT"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "enable_accessory": true,
+        "accessory_image": "shopify:\/\/shop_images\/315d0cdfeb143a81b7fd674c4ec25c87.jpg",
+        "accessory_alt": "",
+        "accessory_title": "",
+        "accessory_content": "",
+        "accessory_price": "",
+        "accessory_loser": "",
+        "background_accessory": "#f2f2ef",
+        "accessory_color": "#121212",
+        "accessory_feiyong": "#f2f2f2",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "recommendations_count": 6,
+        "products": [
+          "fahrradtrager-gepacktragertasche"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "section_new_tab_QBabLz": {
+      "type": "Section-New-Tab",
+      "blocks": {
+        "size_img_gieUyx": {
+          "type": "size-img",
+          "settings": {}
+        },
+        "specs_tab_one_VP3faV": {
+          "type": "specs-tab-one",
+          "settings": {
+            "description": "",
+            "in_detail": "",
+            "description_1": "",
+            "in_detail_1": "",
+            "description_2": "",
+            "in_detail_2": "",
+            "description_3": "",
+            "in_detail_3": "",
+            "description_4": "",
+            "in_detail_4": ""
+          }
+        },
+        "size_table_Gy6rrL": {
+          "type": "size-table",
+          "settings": {
+            "description": "text",
+            "in_detail": "text",
+            "description_1": "text",
+            "in_detail_1": "text",
+            "description_2": "text",
+            "in_detail_2": "text",
+            "description_3": "text",
+            "in_detail_3": "text",
+            "description_4": "text",
+            "in_detail_4": "text"
+          }
+        }
+      },
+      "block_order": [
+        "size_img_gieUyx",
+        "specs_tab_one_VP3faV",
+        "size_table_Gy6rrL"
+      ],
+      "disabled": true,
+      "settings": {
+        "specs_Title": "Heybike EC 1 Pedelec-E-Bike",
+        "Sort_Title": "General spec",
+        "Sort_Title_1": "text",
+        "Sort_Title_2": "text",
+        "title_size": "Size",
+        "Size_Title_One": "text",
+        "Size_Title_Two": "text",
+        "Size_Title_Three": "text",
+        "title_box": "Box",
+        "title_faq": "Faq"
+      }
+    },
+    "slideshow_wTfE3q": {
+      "type": "slideshow",
+      "blocks": {
+        "image_naHdjr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sport_KV-1.png",
+            "mobile_image": "shopify:\/\/shop_images\/750x1000_-sport.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_naHdjr"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "section_bicycle_introduction_MxkQJV": {
+      "type": "Section-Bicycle-Introduction",
+      "blocks": {
+        "image_JyRTBq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12_44e686fc-7453-4a60-b3bb-aeff20237e7d.png",
+            "number": "120",
+            "unit": "kg",
+            "remarks": "Max load"
+          }
+        },
+        "image_azQePi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/11.png",
+            "number": "110",
+            "unit": "km",
+            "remarks": "Range"
+          }
+        },
+        "image_jEiMeh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ce_-icon_35c917ba-6bf5-4e99-bb75-3c20efb9679c.png",
+            "number": "CE & RoHS",
+            "unit": "",
+            "remarks": "Certification"
+          }
+        },
+        "image_GY7kWA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9_f03b1499-eb3c-4918-9f38-8b152dd4c18c.png",
+            "number": "468",
+            "unit": "Wh",
+            "remarks": "Battery"
+          }
+        },
+        "functionality_cPhyVH": {
+          "type": "functionality",
+          "settings": {
+            "vantage_one": "Shimano 8-Speed",
+            "vantage_two": "Derailleur"
+          }
+        },
+        "functionality_R4MtGL": {
+          "type": "functionality",
+          "settings": {
+            "vantage_one": "Front & Rear",
+            "vantage_two": "Racks as standard"
+          }
+        },
+        "functionality_3eUhPJ": {
+          "type": "functionality",
+          "settings": {
+            "vantage_one": "Suspension Fork",
+            "vantage_two": ""
+          }
+        },
+        "functionality_wzHAfM": {
+          "type": "functionality",
+          "settings": {
+            "vantage_one": "250W",
+            "vantage_two": "Motor"
+          }
+        },
+        "functionality_prdahD": {
+          "type": "functionality",
+          "settings": {
+            "vantage_one": "25 km\/h",
+            "vantage_two": "Max. speed"
+          }
+        },
+        "functionality_NTaMPg": {
+          "type": "functionality",
+          "settings": {
+            "vantage_one": "Hydraulic",
+            "vantage_two": "disc brakes"
+          }
+        }
+      },
+      "block_order": [
+        "image_JyRTBq",
+        "image_azQePi",
+        "image_jEiMeh",
+        "image_GY7kWA",
+        "functionality_cPhyVH",
+        "functionality_R4MtGL",
+        "functionality_3eUhPJ",
+        "functionality_wzHAfM",
+        "functionality_prdahD",
+        "functionality_NTaMPg"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "Features of EC Compact Sport",
+        "background_image": "shopify:\/\/shop_images\/KV_-1300x300.png",
+        "background_image_mobile": "shopify:\/\/shop_images\/KV_-850x1300.png"
+      }
+    },
+    "multi_column_pmjiYt": {
+      "type": "multi-column",
+      "blocks": {
+        "item_NYCpEY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sport_714cb8aa-d1ed-4a08-a774-98c487bf99f4.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_RQ9DbJ": {
+          "type": "item",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Sport上下坡(1).mp4",
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_NYCpEY",
+        "item_RQ9DbJ"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "stack_on_changes": true,
+        "gap": "small",
+        "text_alignment": "center",
+        "subheading": "Conquer Any Terrain with Versatile Gearing",
+        "title": "A Mobility All-rounder",
+        "content": "<p>EC Compact Sport stands out with its Shimano 8-speed gear system, making it the ultimate all-rounder for diverse terrains. This advanced gearing allows you to tackle various outdoor landscapes with ease, providing a comfortable and controlled ride whether you're cruising on flat paths or tackling steep inclines.<\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_q3z7yf": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_6tdXtp": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Sport电池A.mp4",
+            "external_video_url": "",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Long Range, Large Battery Capacity",
+            "title": "Built for Practicality",
+            "content": "<p>EC Compact Sport is equipped with a high-capacity 36V 13Ah (468Wh) battery, ensuring you have the endurance to tackle any outdoor adventure without the fear of running out of power. <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "video_KeWQrV": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/sport力矩修复-121.mp4",
+            "external_video_url": "",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "MIVICE torque sensor",
+            "title": "User-Friendly Design",
+            "content": "<p>EC Compact Sport features a MIVICE torque sensor that provides a prompt response, thus offering a natural riding experience throughout your outdoor exploration.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_6tdXtp",
+        "video_KeWQrV"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "image_with_text_overlay_bYyEry": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_mj3AUg": {
+          "type": "heading",
+          "settings": {
+            "text": "Elegance in Every Detail",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mj3AUg"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/sport.png",
+        "mobile_image": "shopify:\/\/shop_images\/sport_7593082e-814a-4d31-9da4-7155f77fec39.png",
+        "mobile_text_position": "place-self-center-end text-end",
+        "desktop_text_position": "sm:place-self-center-end sm:text-end",
+        "text_color": "#1a1a1a",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "section_introduction_LrDkiC": {
+      "type": "Section-Introduction",
+      "blocks": {
+        "text_block_gwXJhg": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify:\/\/shop_images\/sport_c0e271f6-e42e-4611-9dc0-10eb37545201.png",
+            "image_alt": "img",
+            "title": "Backlit TFT Color Display",
+            "desc": "The display provides clear and real-time updates on your ride. You can always quickly check the speed, battery life, and other riding data."
+          }
+        },
+        "text_block_UK6hEn": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify:\/\/shop_images\/sport_36af61b7-bd2f-4aa8-95cc-828f1be88d5d.png",
+            "image_alt": "img",
+            "title": "TEKTRO Hydraulic Disc Brakes",
+            "desc": "Hydraulic disc brakes provide strong, precise stopping power, ensuring smooth and reliable control in any weather."
+          }
+        },
+        "text_block_yM8JNj": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify:\/\/shop_images\/sport_f76d3306-48f8-4195-b876-646877c6925c.png",
+            "image_alt": "img",
+            "title": "Rear Light",
+            "desc": "The rear light ensures enhanced visibility and safety during rides, featuring a durable design and bright illumination for optimal performance in low-light conditions."
+          }
+        },
+        "text_block_gftpFA": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify:\/\/shop_images\/sport_e56c7c38-71c8-46fb-af57-4ecc29ddde6c.png",
+            "image_alt": "img",
+            "title": "Front Light",
+            "desc": "The front light ensures visibility and safety during night rides or low-light conditions."
+          }
+        },
+        "text_block_GhJGkj": {
+          "type": "text_block",
+          "settings": {
+            "main_image": "shopify:\/\/shop_images\/sport_4f568d92-cc01-4e67-8e9d-4f4ae87b8284.png",
+            "image_alt": "img",
+            "title": "Chaoyang Tires",
+            "desc": "Reliable and durable, the Chaoyang 20” x 2.4” tires offer excellent grip, stability, and comfort, making them perfect for urban and light off-road e-bike rides."
+          }
+        }
+      },
+      "block_order": [
+        "text_block_gwXJhg",
+        "text_block_UK6hEn",
+        "text_block_yM8JNj",
+        "text_block_gftpFA",
+        "text_block_GhJGkj"
+      ],
+      "settings": {
+        "progress_bar": false,
+        "switch_over": true,
+        "arrow_color": "#f0c417",
+        "arrow_background": "#000000",
+        "progress_background": ""
+      }
+    },
+    "section_app_mGKdm9": {
+      "type": "Section-App",
+      "blocks": {
+        "image_7zPXcJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_5f9f5c12-2936-4dc3-bb83-c1a2380c25b4.png",
+            "mobile_based": "shopify:\/\/shop_images\/APP-sport-750x770.png",
+            "media_width": 60,
+            "media_position": "end",
+            "text_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "Smart tech and APP",
+            "content": "<p>Your great rides deserve a diary! Connect your bike to the HEYBIKE app and create an impressive mileage log!<\/p>",
+            "ios_link": "",
+            "image_ios": "shopify:\/\/shop_images\/app-store__2x_1.png",
+            "android_link": "",
+            "image_android": "shopify:\/\/shop_images\/google-play__2x_1.png",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ebebeb",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_7zPXcJ"
+      ],
+      "settings": {
+        "full_width": true,
+        "spacing": "none"
+      }
+    },
+    "tab_image_text_4j7JVa": {
+      "type": "Tab-image-text",
+      "blocks": {
+        "image_bpfjJj": {
+          "type": "image",
+          "settings": {
+            "image_w": "tw-w-1\/2",
+            "order": "Geometry",
+            "image1": "shopify:\/\/shop_images\/sport_b9cc32c9-0092-4812-8a7c-3bdf32bc93e0.png",
+            "color1": "",
+            "color2": "",
+            "color3": "",
+            "color4": ""
+          }
+        },
+        "img_txt_list_tRjqCz": {
+          "type": "imgTxtList",
+          "settings": {
+            "order": "Geometry",
+            "show_line": true,
+            "show_line_r": false,
+            "item_wsdfsd": "tw-w-1\/2",
+            "item_w_mb": "tw-w-1\/2",
+            "tr1": "Description",
+            "tr2": "Size (Inch)",
+            "tr3": "",
+            "order1": "",
+            "beschreibung1": "",
+            "cm1": "",
+            "lm1": "",
+            "order2": "0",
+            "beschreibung2": "Suitable for riders",
+            "cm2": "5'1\" to 5'11\" tall",
+            "lm2": "",
+            "order3": "A",
+            "beschreibung3": "Seat tube",
+            "cm3": "1'1\"",
+            "lm3": "",
+            "order4": "B",
+            "beschreibung4": "Chainstay",
+            "cm4": "1'5\"",
+            "lm4": "",
+            "order5": "C",
+            "beschreibung5": "Effective Top Tube",
+            "cm5": "2'0\"",
+            "lm5": "",
+            "order6": "D",
+            "beschreibung6": "Head Tube",
+            "cm6": "0'7\"",
+            "lm6": "",
+            "order7": "E",
+            "beschreibung7": "Handlebar Height",
+            "cm7": "3'8\"",
+            "lm7": "",
+            "order8": "F",
+            "beschreibung8": "Minimum seat height",
+            "cm8": "2'5\"",
+            "lm8": "",
+            "order9": "G",
+            "beschreibung9": "Maximum seat height",
+            "cm9": "3'0\"",
+            "lm9": "",
+            "order10": "H",
+            "beschreibung10": "Wheelbase",
+            "cm10": "3'6\"",
+            "lm10": "",
+            "order11": "I",
+            "beschreibung11": "Total length",
+            "cm11": "5'3\"",
+            "lm11": "",
+            "order12": "",
+            "beschreibung12": "",
+            "cm12": "",
+            "lm12": "",
+            "order13": "",
+            "beschreibung13": "",
+            "cm13": "",
+            "lm13": "",
+            "order14": "",
+            "beschreibung14": "",
+            "cm14": "",
+            "lm14": ""
+          }
+        },
+        "list_BTMW8m": {
+          "type": "list",
+          "settings": {
+            "order": "Specifications",
+            "show_line": true,
+            "show_line_r": false,
+            "item_w": "tw-w-1\/2",
+            "item_w_mb": "tw-w-full",
+            "title": "Basic Information",
+            "content": "",
+            "content_align": "tw-text-left",
+            "content_pos": "tw-items-baseline",
+            "item1": "<b> Product Model<\/b><br>EC Compact Sport",
+            "item2": "<b>Color<\/b><br>White, Yellow, Grey",
+            "item3": "<b>Size<\/b> <br>one size",
+            "item4": "<b>Dimension：L*W*H<\/b> <br>162*68*111CM",
+            "item5": "<b>Package Size：L*W*H<\/b><br> 137*27*90CM",
+            "item6": "<b>Motor<\/b> <br>36V 250W Rear Motor",
+            "item7": "<b>Battery<\/b> <br>36V13AH",
+            "item8": "<b>Charger<\/b> <br>42V 2A",
+            "item9": "<b>PAS<\/b> <br>3 levels",
+            "item10": "<b>Controller<\/b> <br>torque controller",
+            "item11": "<b>Display<\/b> <br>TFT color display",
+            "item12": "<b>App<\/b> <br>App support",
+            "item13": "",
+            "item14": ""
+          }
+        },
+        "list_DWTzCA": {
+          "type": "list",
+          "settings": {
+            "order": "Specifications",
+            "show_line": true,
+            "show_line_r": false,
+            "item_w": "tw-w-1\/2",
+            "item_w_mb": "tw-w-1\/2",
+            "title": "Mechanical System",
+            "content": "",
+            "content_align": "tw-text-left",
+            "content_pos": "tw-items-baseline",
+            "item1": "<b>Frame<\/b> <br>Aluminum Alloy",
+            "item2": "<b>Tires<\/b> <br>Chaoyang 20'' x 2,4''",
+            "item3": "<b>Rim<\/b> <br>Aluminum Alloy",
+            "item4": "<b>Front Fork<\/b> <br>Suspension Front Fork",
+            "item5": "<b>Brake<\/b> <br>TEKTRO Hydraulic Disc Brakes",
+            "item6": "<b>Speed gears<\/b> <br>Shimano 8-Speed",
+            "item7": "<b>Handlebar<\/b> <br>Y-shaped Handlebar",
+            "item8": "<b>lights<\/b> <br>Front Light & Rear Light",
+            "item9": "<b>rear rack<\/b> <br>standard",
+            "item10": "",
+            "item11": "",
+            "item12": "",
+            "item13": "",
+            "item14": ""
+          }
+        },
+        "list_gRaadF": {
+          "type": "list",
+          "settings": {
+            "order": "Specifications",
+            "show_line": true,
+            "show_line_r": false,
+            "item_w": "tw-w-1\/2",
+            "item_w_mb": "tw-w-1\/2",
+            "title": "Performance",
+            "content": "",
+            "content_align": "tw-text-left",
+            "content_pos": "tw-items-baseline",
+            "item1": "<b>Max speed<\/b> <br>25km\/h",
+            "item2": "<b>Range<\/b> <br>110km",
+            "item3": "<b>Recharging Time<\/b> <br>6-7\/h",
+            "item4": "<b>Max Load<\/b> <br>120kg",
+            "item5": "<b>N.W.<\/b> <br>24kg",
+            "item6": "<b>rear rack capacity<\/b> <br>45kg",
+            "item7": "",
+            "item8": "",
+            "item9": "",
+            "item10": "",
+            "item11": "",
+            "item12": "",
+            "item13": "",
+            "item14": ""
+          }
+        },
+        "image_UARipC": {
+          "type": "image",
+          "settings": {
+            "image_w": "tw-w-1\/2",
+            "order": "What's in the box?",
+            "image1": "shopify:\/\/shop_images\/Sport_1389b7c0-9df8-4c72-b3e6-43216d256b08.png",
+            "color1": "",
+            "color2": "",
+            "color3": "",
+            "color4": ""
+          }
+        },
+        "img_txt_list_HALfbR": {
+          "type": "imgTxtList",
+          "settings": {
+            "order": "What's in the box?",
+            "show_line": true,
+            "show_line_r": false,
+            "item_wsdfsd": "tw-w-1\/2",
+            "item_w_mb": "tw-w-1\/2",
+            "tr1": "Item name & Quantity",
+            "tr2": "",
+            "tr3": "",
+            "order1": "A",
+            "beschreibung1": "Manual Flyer x1",
+            "cm1": "",
+            "lm1": "",
+            "order2": "B",
+            "beschreibung2": "Pedals x2",
+            "cm2": "",
+            "lm2": "",
+            "order3": "C",
+            "beschreibung3": "Saddle x1",
+            "cm3": "",
+            "lm3": "",
+            "order4": "D",
+            "beschreibung4": "Charger x1",
+            "cm4": "",
+            "lm4": "",
+            "order5": "E",
+            "beschreibung5": "Front Wheel x1",
+            "cm5": "",
+            "lm5": "",
+            "order6": "F",
+            "beschreibung6": "Battery Lock Keys x2",
+            "cm6": "",
+            "lm6": "",
+            "order7": "G",
+            "beschreibung7": "Tools x7",
+            "cm7": "",
+            "lm7": "",
+            "order8": "H",
+            "beschreibung8": "Plastic Threaded Winding Cable x1",
+            "cm8": "",
+            "lm8": "",
+            "order9": "I",
+            "beschreibung9": "Cable Ties x3",
+            "cm9": "",
+            "lm9": "",
+            "order10": "J",
+            "beschreibung10": "Headlight x1",
+            "cm10": "",
+            "lm10": "",
+            "order11": "K",
+            "beschreibung11": "Front Fender x1",
+            "cm11": "",
+            "lm11": "",
+            "order12": "L",
+            "beschreibung12": "Front Basket x1",
+            "cm12": "",
+            "lm12": "",
+            "order13": "M",
+            "beschreibung13": "Front Wheel Quick Release x1",
+            "cm13": "",
+            "lm13": "",
+            "order14": "N",
+            "beschreibung14": "Electric Bicycle x1",
+            "cm14": "",
+            "lm14": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_bpfjJj",
+        "img_txt_list_tRjqCz",
+        "list_BTMW8m",
+        "list_DWTzCA",
+        "list_gRaadF",
+        "image_UARipC",
+        "img_txt_list_HALfbR"
+      ],
+      "settings": {
+        "bg_color": "",
+        "top_padding": "md",
+        "bottom_padding": "md",
+        "top_margin": "md",
+        "bottom_margin": "md",
+        "top_padding_mb": "md",
+        "bottom_padding_mb": "md",
+        "top_margin_mb": "md",
+        "bottom_margin_mb": "md"
+      }
+    },
+    "accordion_content_hDVf94": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_HdgYcb": {
+          "type": "item",
+          "settings": {
+            "title": "What sets the EC Compact Sport apart for active riders?",
+            "content": "<p>Its Shimano 8-speed derailleur and rear motor deliver dynamic performance for riders who prefer versatility.<\/p>"
+          }
+        },
+        "item_BBGpKp": {
+          "type": "item",
+          "settings": {
+            "title": "How does the suspension enhance the EC Compact Sport?",
+            "content": "<p>The hydraulic front suspension fork, with the 20”x 2.4”puncture protection tires, effectively cushions the shocks from diverse terrains. Riding this bike brings you much comfort and easiness.<\/p>"
+          }
+        },
+        "item_HyVrnh": {
+          "type": "item",
+          "settings": {
+            "title": "Is the EC Compact Sport suitable for long rides?",
+            "content": "<p>Yes, the 36V 13Ah battery provides a reliable range of up to 110 km for extended adventures.<\/p>"
+          }
+        },
+        "item_HHErpB": {
+          "type": "item",
+          "settings": {
+            "title": "Can the EC Compact Sport handle heavy loads?",
+            "content": "<p>Absolutely! It's designed to load up to 120 kg, perfect for carrying camping gears and daily necessities.<\/p>"
+          }
+        },
+        "item_R8HFit": {
+          "type": "item",
+          "settings": {
+            "title": "What safety features does the EC Compact Sport offer?",
+            "content": "<p>The front and rear lights ensure visibility during every ride, day or night, and the hydraulic disc brakes help stop the bike timely and quickly.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_HdgYcb",
+        "item_BBGpKp",
+        "item_HyVrnh",
+        "item_HHErpB",
+        "item_R8HFit"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p><strong>Key Differences Between EC Compact City and EC Compact Sport<\/strong><\/p><p><strong>City Model:<\/strong> Focused on simplicity and ease, the automatic 3-speed hub system and rigid aluminum fork make it a low-maintenance choice for city riders.<\/p><p><strong>Sport Model:<\/strong> Designed for active lifestyles, the Shimano 8-speed derailleur and suspension fork offer enhanced control and comfort for diverse terrains.<\/p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "171072958506d38adb": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_4pPNiW": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_4pPNiW"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".jdgm-rev-widg {padding: 0 !important;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "section_new_tab_QBabLz",
+    "slideshow_wTfE3q",
+    "section_bicycle_introduction_MxkQJV",
+    "multi_column_pmjiYt",
+    "media_with_text_q3z7yf",
+    "image_with_text_overlay_bYyEry",
+    "section_introduction_LrDkiC",
+    "section_app_mGKdm9",
+    "tab_image_text_4j7JVa",
+    "accordion_content_hDVf94",
+    "171072958506d38adb"
+  ]
+}

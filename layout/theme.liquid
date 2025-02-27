@@ -11,6 +11,13 @@
 
 <html class="no-js" lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
   <head>
+    <script
+      id="Cookiebot"
+      src="https://consent.cookiebot.com/uc.js"
+      data-cbid="2b7779b6-e672-4cc6-bc80-c9e5ef633851"
+      type="text/javascript"
+      defer
+    ></script>
     {% comment %} 3rd party tracking codes {% endcomment %}
     {% render 'tracking-AW-11207842177' %}
     {% render 'tracking-GTM-NKZHFLW7' %}
@@ -69,6 +76,7 @@
     <script defer src="{{ 'swiper.js' | asset_url }}"></script>
 
     {{ content_for_header }}
+    {% render 'cookie-consent' %}
     {{ 'swiper.css' | asset_url | stylesheet_tag }}
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
     {{- 'tw-custom.css' | asset_url | stylesheet_tag: preload: true -}}
